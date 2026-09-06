@@ -1,0 +1,2 @@
+source_id,file_name,author,year,title,parameter,value,min_value,max_value,unit,plant_capacity,plant_type,ore_type,coal_type,page,table,figure,source_location,confidence,notes,model_module
+BEE_2019,1734411984.pdf,BEE,2019,ENERGY CONSERVATION GUIDELINES FOR MSME SECTOR,Specific energy consumption,0.64,0.64,0.82,toe/tonne,All,Rotary Kiln,Any,Any,39,6.18,,,High,,Economics

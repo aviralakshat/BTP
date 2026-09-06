@@ -1,0 +1,890 @@
+Hydrogen Rotary Kilns for
+Ironmaking in India
+A novel solution for decarbonizing
+small-scale ironmaking
+
+Authors
+Will Hall, Visiting Fellow, TERI
+Abhinav Bhaskar, Co-founder, Geneir
+Mårten Görnerup, Founder, Metsol AB
+
+Reviewers
+Girish Sethi, Senior Director, TERI
+Sobhanbabu PRK, Senior Fellow, TERI
+Thomas Mattathil, Researcher, Aalto University
+
+Acknowledgement
+TERI acknowledges the support received from Sustainability, Equity and Diversity (SED) Fund for
+preparing this document.
+
+Disclaimer
+This report is an output of an independent research exercise undertaken by TERI, with support from
+international experts. It does not necessarily represent the views of the supporting organizations or
+the acknowledged individuals. While every effort has been made to avoid any mistakes or omissions,
+TERI would not be in any way liable to any persons/organizations by reason for any mistake or omission
+in the publication.
+
+Suggested Citation
+Hall, W., Bhaskar, A., & Görnerup, M. 2025. Hydrogen Rotary Kilns for Ironmaking in India. New Delhi:
+The Energy and Resources Institute (TERI)
+
+Executive Summary
+The iron and steel sector in India needs to decarbonize as the nation sets out to achieve economywide net zero emissions by 2070. This includes small-scale sponge iron production facilities, which
+largely rely on coal-based rotary kilns, as their production process, where relatively little progress on
+emissions reduction has been made to date.
+There are a number of low emission ironmaking technologies being explored by companies and
+governments around the world, which broadly fall into one of four technology groups: hydrogen,
+biomass, carbon capture use and or storage (CCUS) and direct electrification.
+Based on an initial assessment of 11 low emission ironmaking technologies, the hydrogen rotary kiln
+appears to be the most suitable alternative for the small-scale sponge iron sector in India.
+Learning from the ongoing research and initial pilot projects in Europe and Africa, this paper sets out
+the anticipated advantages of adopting the hydrogen rotary kiln technology over other low emission
+alternatives, such as the hydrogen vertical shaft furnace. They are listed as follows:
+Low capital investment: Rotary kilns are relatively cheaper to manufacture and install, with nearly
+340 coal-based rotary kilns operational in India.
+Flexibility of iron ore inputs: Hydrogen rotary kilns can use non-agglomerated iron ore, i.e., lumps
+or fines, lowering the cost of production.
+Low reaction temperature: This reduces operation and maintenance costs, leading to multiple
+other benefits, such as operational flexibility.
+Increased metallization rate: Using pure hydrogen increases the metallization rate, increasing the
+product value as well as reducing operating costs.
+Flexibility of operation: The reactor is expected to be able to operate between 20–100% of its
+capacity, improving integration with variable renewable electricity supply.
+Modelling the cost of producing direct reduced iron (DRI) via a hydrogen rotary kiln shows that it has
+the potential to produce DRI at lower costs of production than from other low emission ironmaking
+technologies (e.g., hydrogen vertical shaft furnace) and could be close to competitive with coalbased DRI.
+It will be important to validate these anticipated advantages through the sustained operation of pilot
+and demonstration plants, including testing in Indian conditions.
+To further develop the hydrogen rotary kiln for the Indian market, we recommend the following steps:
+•
+
+Deploy pilot and demonstration-scale plants in India
+
+•
+
+Build awareness and expertise in the technology
+
+•
+
+Secure offtake agreements
+
+•
+
+Establish an ambitious carbon price through the CCTS
+
+•
+
+Support scale-up with concessional finance
+
+•
+
+Unblock renewable electricity and hydrogen infrastructure
+
+•
+
+Foster industrial clusters to lower costs
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+3
+
+Background
+India’s iron and steel sector remains one of the most emission-intensive sectors within the Indian
+economy and is set to expand considerably in the coming decades. As shown in Figure 1, steelmaking
+is split into three broad technologies—basic oxygen furnace (BOF), electric arc furnace (EAF) and
+electric induction furnace (EIF). According to the Joint Plant Committee (JPC), small-scale, coal-based
+rotary kilns form around one-third of all ironmaking in India (42 Mt in 2023–24), increasing by 17% on
+the previous year (Figure 2). Typically paired with an EIF, this route is the most emission-intensive way
+of producing steel in India, ranging between 2.7 to 3.1 tCO2 per tonne of crude steel (tcs) versus an allIndia average of 2.54 tCO2/tcs.1 This is driven by the use of thermal coal in the heating and reduction
+process, which is less efficient than alternative production routes, such as the blast furnace.
+
+Crude steel producon (Mtpa)
+
+160
+
+120
+
+80
+
+40
+
+0
+
+2019
+
+2020
+
+Basic Oxygen Furnace (BOF)
+
+2021
+
+Electric Arc Furnace (EAF)
+
+2022
+
+2023
+
+Electric Inducon Furnace (EIF)
+
+Figure 1: Crude steel production by steelmaking process in India, 2019–2023
+
+Sponge iron producon (Mtpa)
+
+Source: Annual Statistics 2023-24 (JPC, 2024); Electric arc furnace route primarily uses hot metal (BF BOF), gas-based DRI, a
+small share of coal-based DRI, and scrap. Electric induction furnaces primarily use coal-based DRI and scrap. See Greening
+Steel Sector in India Roadmap and Action Plan for further information.
+
+60
+50
+40
+30
+20
+10
+0
+
+2019
+
+2020
+Gas-based
+
+2021
+
+2022
+
+2023
+
+Coal-based
+
+Figure 2: Sponge iron production in India, 2019–2023
+Source: Annual Statistics 2023-24 (JPC, 2024); Gas-based mostly refers to vertical shaft furnaces using natural gas and coalbased mostly refers to horizontal rotary kilns using thermal coal.
+
+1
+
+4
+
+BF BOF is 2.2–2.6 tCO2/tcs; natural gas-based DRI EAF is 1.4–1.6; scrap-based steelmaking via an EAF is 0.55–0.65. See
+Greening Steel Sector in India Roadmap and Action Plan for further information.
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+Whilst emission intensive, these small-scale facilities are a vital part of the local economy, providing
+employment in typically less wealthy, although resource rich, parts of the country, such as Odisha,
+Chhattisgarh, West Bengal, and Jharkhand (Figure 3).2 Their unique role in the Indian steel sector has
+continued to grow due to their lower capital costs, greater flexibility on feedstock and co-location
+near iron ore and coal reserves, although many are now switching to higher quality, imported coal to
+improve operational efficiency.3 There have been attempts to gradually improve the energy efficiency
+of these plants, such as via Waste Heat Recovery (WHR) systems for larger plants (200 tpd and above)
+but as yet, there have been limited discussions on how to achieve deep decarbonization, to help
+future-proof these facilities on India’s pathway to net zero by 2070.
+
+Figure 3: State-wise concentration of steel production capacity (left) and sponge iron production capacity
+(right) in India, 2023
+Source: Annual Statistics 2023-24 (JPC, 2024)
+
+In terms of achieving emission reductions, solutions targeting larger facilities have typically received
+greater focus, such as carbon capture, usage and storage (CCUS) on blast furnaces, as well as vertical
+hydrogen shafts at commercial scales of 1 million tonnes per annum (Mtpa) and above. This is in
+contrast with the scale of coal-based direct reduction kilns, which range from 50 tonnes per day (tpd)
+up to 900 tpd, equivalent to around 15,000 to 3,00,000 tonnes per annum (tpa).
+There are several challenges that these small-scale producers face in adopting lower emission
+ironmaking technologies, including access to low-cost finance, access to latest technologies,
+technical capabilities pertaining to renewable electricity and hydrogen infrastructure and the scarcity
+
+2
+
+GDP per capita in Odisha is INR 190,439, Chhattisgarh is INR 184,833, West Bengal is INR 181,786 and Jharkhand is INR
+128,252, versus an all-India average of INR 234,859, all 2025 prices (MoSPI, 2025).
+
+3
+
+https://www.ceew.in/publications/how-can-india-decarbonise-coal-based-direct-reduced-iron-plants-in-steelproduction
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+5
+
+of high-quality iron ore. These factors make it difficult for small-scale players to develop a transition
+strategy for their facilities, necessitating a need for tailored technology solutions that can meet the
+specific needs of these companies, the market and the local communities in which they operate.
+
+Low Emission Ironmaking Technologies
+There are a range of different ironmaking technologies that are being developed around the world
+that are able to achieve a substantial reduction in their emissions. Broadly speaking, these can be
+split into four technology groups—direct electrification, hydrogen, biomass, and CCUS. TERI recently
+reviewed 11 of these technologies and their potential suitability to India (Figure 4), helping to narrow
+down which of these may be most applicable to the small-scale iron and steel industry.
+
+NG shaft with
+CCUS
+
+Biochar blast
+furnace
+
+Priority demo projects
+
+Technology Readiness Level (TRL)
+
+Smelting with
+CCUS
+
+Further assess
+suitability
+
+Hydrogen vertical
+shaft
+Hydrogen rotary
+kiln
+
+Molten oxide
+electrolysis
+BF with CCUS
+
+Hydrogen fluidised
+bed
+
+Low temp
+electrolysis
+
+Hydrogen plasma
+smelt
+
+Biomass
+reduction
+
+Longer-term R&D bets
+
+Deprioritise
+
+Suitability for India
+Figure 4: Technology Readiness Level (TRL) and suitability for India assessment of key low emission
+ironmaking technologies
+Source: Low emission ironmaking technologies – suitability to India (TERI, 2025)
+
+This assessment identifies several promising technologies for India, including various hydrogen
+reduction routes, such as the hydrogen vertical shaft and the hydrogen rotary kiln. These are promising
+given their relatively high TRL, meaning they could be deployed in the next five years, along with their
+use of green hydrogen, which is expected to be cost-competitive in India, given low-cost renewable
+electricity and electrolysers.
+The gas-based vertical shaft technology is already being supported by several major Indian steel
+
+6
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+companies, with green hydrogen blending projects announced for the late 2020s.4,5 Whilst technology
+providers, such as Midrex and Tenova are already supplying 1 Mtpa gas-based vertical shafts and
+larger, these often represent too large a capital investment for small-scale players, at around $345
+million or INR 3000 crore per Mt for the vertical shaft alone.6 Moreover, these require direct reduction
+grade pellets, with an iron content of 67% or higher, necessitating expensive and energy-intensive
+beneficiation and pelletization of low-grade Indian iron ores.
+The rotary kiln on the other hand looks more promising for small-scale players in India. This uses a very
+similar horizontal rotary kiln technology that is currently ubiquitous in the industry, with modifications
+to make it gas-tight as compared to the existing coal-based kilns. Based on initial pilot projects, it is
+expected that such kilns have relatively low capital costs and can be deployed at a much smaller
+scale, making it much more suitable to the smaller companies that tend to dominate the sponge iron
+industry in India. Unlike the hydrogen vertical shaft, the rotary kiln is also flexible to a range of iron
+ore inputs, being able to take lower grade lumps and fines, which are more widely available in India.
+Lastly, it also has a greater flexibility in operations, able to cycle between 20% and 100% of its capacity,
+helping to lower the costs of integration with variable renewable electricity supply. The technology
+is not yet commercially available but early projects in Namibia, as well as R&D activities in the UK,
+Germany and the US, indicate that several countries and companies are looking at its potential.7,8,9,10
+Other hydrogen technologies that could be a part of the solution in future years include hydrogen
+fluidized bed (HyREX) or hydrogen plasma smelting reduction (HYFOR), although both are not directly
+applicable to small-scale ironmaking.11,12 In parallel, a suite of direct electrification technologies, such
+as molten oxide (or high-temperature) electrolysis (MOE) and low temperature electrolysis are being
+developed, but are currently at low technology readiness levels. Whilst both are promising, they
+should be considered as longer-term R&D bets, given there are key unknowns around the economics
+of their operations, such as electricity consumption, flexibility of production, catalyst degradation
+rates and iron ore suitability.
+The use of biomass to displace fossil fuels has been explored across many end-use sectors for decades,
+including in India. The biochar-based blast furnaces constitute about 11% of steel production in Brazil,
+with many smaller-scale units operating across the country. Alternative methods of reduction using
+biomass to replace coal in microwave-assisted, electrically-heated reduction chambers are also being
+explored by companies like Rio Tinto, who have invested $143 million in such a facility in Australia.13
+The main challenge for India, and other countries looking to expand the role of biomass in the energy
+4
+
+https://energy.economictimes.indiatimes.com/news/renewable/jindal-steel-doubles-down-on-green-hydrogenproduction-in-india/113388848
+
+5
+
+https://www.iamrenew.com/green-energy/jsw-energy-will-build-indias-largest-commercial-scale-green-hydrogenproject/
+
+6
+
+https://www.diw.de/documents/publikationen/73/diw_01.c.901039.de/dp2082.pdf
+
+7
+
+https://hyiron.com/
+
+8
+
+https://www.mpiuk.com/research-project-h2dri.htm
+
+9
+
+https://fuelcellsworks.com/news/lingen-opens-pilot-plant-for-green-iron-production-using-hydrogen
+
+10
+
+https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/zero-emission-process-direct-reduction-ironhydrogen-plasma-rotary-kiln-reactor
+
+11
+
+https://www.posco.co.kr/homepage/docs/eng7/jsp/hyrex/
+
+12
+
+https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/tr/pdf/e592/e592070.pdf
+
+13
+
+https://www.riotinto.com/en/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-lowcarbon-steelmaking
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+7
+
+system, is the availability of a sustainable supply at an appropriate price and competition with other
+end-use sectors. The iron and steel sector alone is highly energy-intensive and would consume a
+considerable quantity of biomass, even if only a portion of the sector uses this as a fuel. Already, the
+power sector in India is unable to meet their biomass blending targets due to supply shortages, with
+other sectors including aviation, road transport, cement and petrochemicals, all looking to further
+increase its use in the coming years.14,15,16,17,18
+CCUS is also being explored by Indian steel companies, mainly via the smelting reduction (or HIsarna)
+route, or via the gas-based routes (including both natural gas and coal gasification). Adding CCUS to
+existing blast furnaces is also being developed elsewhere around the world, most notably in Japan
+under the Course50 programme, although emissions reduction is limited to approximately 60%.19
+The most advanced project in India is Jindal Steel’s coal gasification direct reduction facility in Angul,
+where the company is inviting companies to co-locate new manufacturing facilities nearby, in order to
+off-take CO2.20 These could be food and drink suppliers or businesses in the fertilizer (urea), chemical
+or pharmaceutical industry, which require a pure stream of CO2 in their production process.
+Whilst this is a promising initiative, there is a limited market for the use of CO2 in India, and emissions
+from the iron and steel sector far exceed this demand. Moreover, CO2 use does not remove the
+emissions but recycles them, which may be a useful interim step on the pathway to net zero but is
+ultimately limited relative to other technology routes. It is possible to achieve >90% CO2 reduction
+if the emissions are stored but further work is required to identify suitable storage sites across India,
+with current known sites (Maharashtra and Gujarat) being far away from existing iron and steel
+production hubs.
+This assessment highlights the challenges that small-scale iron and steel producers face when
+identifying a technology that can help achieve deep emission reductions, with several being too
+costly, or at a nascent stage of development. Nevertheless, based on this assessment, the hydrogen
+rotary kiln is considered the most suitable for the small-scale iron and steel industry, given its low
+capital costs, modular scale, flexibility to iron ore inputs and flexibility of operation, all warranting
+further consideration of this technology in India.
+
+8
+
+14
+
+https://www.bioenergy-news.com/news/indias-biomass-supply-falls-drastically-short-of-government-mandate/
+
+15
+
+https://www.iamrenew.com/green-energy/trualt-to-build-one-of-the-biggest-saf-plants-in-india-md-vijay-nirani/
+
+16
+
+https://iocl.com/pages/satat-overview
+
+17
+
+https://www.dalmiabharat.com/sustainability/
+
+18
+
+https://energy.economictimes.indiatimes.com/news/renewable/indian-oil-to-convert-50-per-cent-of-its-refinerieshydrogen-use-to-green-by-2050-says-dir-rd-ssv-ramakumar/101408808
+
+19
+
+https://www.greins.jp/course50/en/
+
+20
+
+https://www.indianchemicalnews.com/sustainability/lite/jspl-angul-invites-eoi-for-offtake-of-3600-tpd-of-capturedco2-26666
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+Hydrogen Rotary Kiln: A Tailored Technology
+Solution
+Technology Details
+Figure 5 depicts a conceptual process flow diagram of a rotary kiln for emission free direct reduced
+iron production using hydrogen as the reducing agent. First, iron ore feedstock in the form of iron ore
+concentrates or coarse fines are processed based on their size and suitability. Iron ore feedstock is
+then stored within the production system boundary to ensure continuous operation of the plant. The
+iron ore is then pre-heated in an electrically heated rotary kiln, increasing the temperature of the iron
+ore before feeding it into the rotary kiln for the reduction process. A heat recovery heat exchanger is
+used to extract heat from the exhaust stream of the reduction rotary furnace.
+The hydrogen rotary kiln is a gastight, horizontal kiln, using hydrogen as the reducing agent, very
+similar to coal-based kilns used by the industry today. This kiln is a counter flow reactor, where
+hydrogen is fed from the output end and the pre-heated iron ore enters from the feed end. The
+endothermic reaction is carried out by providing thermal energy from electrical heaters installed on
+the surface of the rotary kiln. The electrical heaters can be embedded in a refractory layer on the
+outside of the kiln to prevent heat losses from the surface of the kiln.
+Based on initial testing in the UK under the Materials Processing Institute (MPI)’s H2DRI project, iron
+ore, in the form of concentrates, coarse fines or lumps, undergoes peak reduction between 600–
+800°C.21 This is a lower temperature as compared to a coal-based rotary kiln (900–1,000°C) because
+of the superior reduction kinetics of hydrogen.22 Moreover, the same study shows that the use of pure
+hydrogen as a reductant results in a faster reduction process and higher metallization rate (>95%)
+relative to the existing coal-based reduction due to faster kinetics, improving the rate of output. In
+existing coal-based rotary kilns iron ore and coal are fired together for 8–10 hours to achieve an
+average metallization rate of 89–90%. Impurities from the coal are often added to the DRI, lowering
+its commercial value.
+The overall reduction process is as follows:
+Fe2O2(s) + 3 H2(g) → 2 Fe(s) + 3 H2O(g) ΔH° = +99.5 kJ/mol
+It is expected that both the lower operation temperature and the use of hydrogen can allow a more
+flexible operation of the plant, as is the current setup in the HyIron project in Namibia, which uses
+a hydrogen rotary kiln supplied solely by hydrogen from solar plus batteries.23 Based on authors’
+interaction with the equipment suppliers, vertical shaft furnaces tend to be less flexible, with an
+operating range of 80–100% of its capacity. This lack of flexibility requires larger investments in
+electricity and hydrogen infrastructure upstream of the plant, especially where the steel plant is not
+reliant (or only partially reliant) on an electricity or hydrogen grid. This includes renewable electricity
+generation, electrolysers, electricity and hydrogen storage infrastructure, and water supply and
+purification, which would have to be ‘oversized’ to ensure that the plant achieves a suitably high
+utilization rate.
+
+21
+
+https://assets.publishing.service.gov.uk/media/649ac838b4d6ef000c038f67/Materials_Processing_Institute_-_
+Hydrogen_Direct_Reduction_of_Iron_pilot_furnace_and_steelmaking___H2DRI_pilot___-_IFS_Feasibility_Report.pdf
+
+22
+
+https://www.sciencedirect.com/science/article/abs/pii/S0360319920324411
+
+23
+
+https://hyiron.com/oshivela/
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+9
+
+10
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+Source: Author
+
+Intermediate
+storage
+
+Sieve
+
+Iron ore pre - heater
+
+Iron ore fines within
+size specificaon
+
+Off-spec iron ore
+
+Iron ore fines
+
+Briqueng machine
+
+Gas
+heater
+
+Power
+
+Power
+producon
+
+HBI
+(Hot Briqueed Iron)
+
+DRI fines
+
+Preheated reducon gas
+
+Auxiliary Power
+
+Hydrogen
+
+Hydrogen
+producon
+
+Compressor
+Gas cleaning &
+condensaon
+Process
+Electrical heater
+off-gas
+
+Direct reducon
+rotary kiln
+
+Pre-heated iron
+ore fines
+
+Hot air
+
+Air heater
+
+Water
+recirculaon
+
+Condensate
+
+Make-up water
+
+Figure 5: Process flow diagram for a hydrogen rotary kiln
+
+Cold air
+
+Compressor
+
+Water
+
+Lower reactor temperature also reduces accretion formation on the surface of the kiln. Accretion
+refers to the deposition or build-up of low-melting oxide compounds on the internal surface of the
+reduction zone in the rotary kilns. Accretion formation is a key challenge for the current coal-based
+rotary kilns, caused by the high temperature of operation. Accretion results in the formation of a slag
+layer, which increases over time with use, affecting the metalizing reactions. This ultimately results
+in reduced working volumes and unscheduled kiln shutdowns as the accretion cannot be removed
+during operation.
+During reduction, hematite is first converted to magnetite (Fe3O4) or wüstite (FeO) before complete
+reduction to iron. However, the net reaction enthalpy for the complete reduction of hematite to iron
+remains +99.5 kJ/mol. Solid metallic iron (Fe) is obtained as the primary product. Water vapor (H2O) is
+generated as a byproduct, which can be condensed and recycled for further hydrogen production
+in a closed-loop system.
+
+Electricity and Green Hydrogen Supply
+A hydrogen-based rotary kiln would rely on green hydrogen, generated by renewable electricity, as
+the chemical feedstock/reducing agent. India is home to some of the lowest priced renewables in
+the world, supported by subsidy programmes from state and central governments. With the potential
+to significantly grow both wind and solar generating capacity in the coming years, in part to meet
+the 2030 target of 500 GW, it can be expected that costs will continue to fall, supporting lower cost
+green hydrogen production. This has been proven through the latest SECI tenders for round-theclock (RTC) power, coming in at just over `5/kWh (or $56/MWh) in June 2025.24
+This has been borne out in recent tenders for green ammonia in India, which have achieved some of
+the lowest known prices in the world. These are underpinned by the Strategic Interventions for Green
+Hydrogen Transition (SIGHT) programme, which provides support for both electrolyser manufacturing
+facilities, as well as the final delivered cost of green hydrogen, which is paid by off-takers.25 The
+combination of this subsidy, plus India’s capabilities in delivering large-scale renewable energy projects,
+promises to deliver green ammonia at prices between $575–744/tonne. These prices indicate a green
+hydrogen price between $3.27–4.23/kg. Whilst these projects are still at an early stage, they signal
+encouraging momentum towards cost reduction in the green hydrogen supply chain.
+
+Emissions and Pollution Reduction
+This process can be emission free, if the hydrogen is produced using renewable electricity and
+electrolysis. During the transition to such a technology, it may be necessary to use grid power to
+supply at least some of the electricity, resulting in some indirect emissions from the Indian electricity
+grid, which has an emission intensity of around 727 gCO2/kWh as of 2024.
+Direct emissions at the site would be close to zero, drastically reducing CO2 and other pollutants.
+Existing coal-based direct reduction facilities are the most emission-intensive route in operation,
+ranging between 2.7 and 3.1 tCO2/tcs, resulting in this technology delivering a significant saving.
+Equally important as a reduction in CO2 emissions is the reduction in air pollution that can result from
+switching to green hydrogen. Pollution from coal-based rotary kilns is responsible for a large amount
+of negative health impacts across India, including respiratory diseases, reduction in agricultural
+output and hazardous working conditions.
+24
+
+https://www.seci.co.in/uploads/tenders/bidders/bidder_6850f89eb023a2_03406162.pdf
+
+25
+
+https://mnre.gov.in/en/national-green-hydrogen-mission/
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+11
+
+Cost of Production
+For a hydrogen-based rotary kiln to be adopted in India, its cost of production should be close to
+competitive with both the existing coal-based routes of production, as well as alternative future low
+emission routes of production. Based on a levelized cost analysis, this paper illustrates the potentially
+attractive economics of a hydrogen rotary kiln, highlighting how its lower capex and flexibility can
+help reduce costs of production as compared to competing technologies.
+Figure 6 highlights how the costs of DRI from a hydrogen-based rotary kiln compares with the same
+from a hydrogen vertical shaft furnace. At hydrogen prices seen in the green ammonia tenders in
+India, of around $3.5/kg, DRI from a hydrogen rotary kiln would be close to competitive with DRI made
+using coal-based rotary kilns. The higher capex, energy consumption, use of high-grade pellets and
+lack of flexibility from a vertical shaft mean that it struggles to reduce costs far enough, as compared
+to coal DRI.
+
+Levelised cost of DRI ($/tonne)
+
+800
+
+Hydrogen rotary kiln
+(200ktpa)
+
+Hydrogen vercal sha furnace
+(2 Mtpa)
+
+600
+
+400
+
+Coal DRI
+
+200
+90000
+0
+
+3.5
+
+4.0
+
+5.0
+
+3.5
+
+4.0
+
+5.0
+
+Hydrogen price ($/kgH2)
+Plant Capex
+
+Iron ore
+
+Hydrogen
+
+Electricity
+
+Figure 6: Levelized cost of DRI production
+Source: Authors’ analysis
+Note: Levelized cost of production comparison of the rotary kiln furnace and a vertical shaft furnace operating under similar
+conditions. It is assumed that the cost of electricity is $50/MWh and the weighted average cost of capital is 8%. Higher iron
+ore costs for the vertical shaft are driven by the use of pellets, versus non-agglomerated form of the rotary kiln.
+
+By testing different input assumptions, we can see the impact of increasing the flexibility of operation
+for procuring DRI from a hydrogen-based rotary kiln. Increased flexibility allows the production
+process to take advantage of lower cost renewable electricity, ramping up when prices are low and
+ramping back down when the prices are high.
+Assuming even lower capex, achieved through learning-by-doing, once several of these kilns
+have been built, this process route can achieve even lower costs. It is worth noting that the most
+competitive grid setup in all cases is a combination of both grid and off-grid electricity supply, with
+the project able to benefit from the lower costs of an off-grid system, whilst guaranteeing a minimum
+level of operation from the grid connection. This hybrid setup ensures access to lower cost electricity,
+whilst reducing storage requirements, which can be costly at large scales.
+
+12
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+The possibility of 'grid banking' for green hydrogen projects in India, which allows allows producers to
+store excess renewable energy in the power grid and draw it later for electrolysis, providing additional
+flexibility and reducing on-site storage needs, further improves the economics of such projects in
+India.
+
+Levelised cost of DRI ($/tonne)
+
+500
+
+Base case
+
+High flexibility - low capex
+
+High flexibility - base case
+
+400
+Grey DRI
+300
+
+200
+
+100
+
+0
+
+Grid
+connected
+
+Offgrid
+
+Solar
+H2 Storage
+
+Hybrid
+
+Grid
+connected
+
+Wind
+Baery Storage
+
+Offgrid
+
+DRI Plant
+Grid Import
+
+Hybrid
+
+Grid
+connected
+
+Iron Ore
+Water
+
+Offgrid
+
+Hybrid
+
+Electrolyzer
+Ramping
+
+Figure 7: Levelized cost of DRI production for a hydrogen rotary kiln (200,000 tpa) under different scenarios
+Source: Authors’ analysis
+Note: Solar and wind refer to off-grid generation capacity versus grid-connected capacity. Grid import includes both
+electricity unit costs and grid connection charges. Hybrid refers to a mix of grid connected and off-grid capacity. Ramping
+refers to costs associated with the increased maintenance of equipment due to frequent cycling.
+
+A Future Scenario for the Adoption of
+Hydrogen Rotary Kilns in India
+India is by far the largest market for rotary kilns in the steel sector, with over 42 Mt of production
+capacity currently in operation. There is significant technical expertise with regard to this technology
+and a broad understanding of its operation, particularly among SMEs. That said, there is a reason why
+larger BF-BOF routes dominate capacity expansion around the world—the economies of scale and
+flexibility on input and degree of control over the quality of outputs makes it a highly competitive
+production route despite high emissions. As India accelerates its shift to net zero, BF-BOFs are likely
+to be replaced by alternative technologies that can be competitive within a new paradigm of zero (or
+near-zero) emissions.
+As mentioned above, the main option being considered by steel companies looking to make the
+shift are gas-based vertical DRI shafts, in many cases initially using natural gas before blending to
+100% low emission hydrogen. CCUS is also being considered by some steel companies, although
+its emission reduction potential is more limited. Whilst it is likely that both these routes will form an
+important part of India’s steel production mix by 2070, it is also likely that smaller rotary kilns will
+continue to play a role, as they do today.
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+13
+
+The main reasons that will continue to drive the uptake of smaller hydrogen rotary kilns are in many
+cases similar to the reasons why their coal-based equivalents continue to grow. This includes their
+lower capex, allowing a broader range of actors to enter the market, who can respond to surging
+demand for steel, or shortages of scrap, much faster than larger facilities. For the hydrogen rotary
+kiln, this also can be built out in tandem with renewable electricity generation and distribution
+infrastructure, where time taken for planning, permitting and construction can be a major delay on
+larger projects. The ability to more readily co-locate smaller facilities near to the iron ore resources
+and renewable electricity generation will reduce transport and logistics costs, similar to how these
+plants operate today.
+
+Recommendations
+Deploy a Large-scale Demonstration Plant in India
+Companies and research institutions in India should work together to accelerate the testing and
+scale-up of this technology, to ensure it can be deployed quickly and cost-effectively. This includes
+further lab and pilot-scale testing to fine-tune a setup that can work best in Indian conditions, before
+moving to a demonstration plant before 2030. For reference, a similar project in Namibia, producing
+15,000 tpa of DRI (approx. 50 tpd), costs €30 million or `310 crore, including all renewable electricity
+and hydrogen infrastructure.26 This was partly financed by the German government and private
+equity.
+
+Build Awareness and Expertise in the Technology
+India is home to the most mature rotary kiln industry in the world, with deep expertise in the
+technology’s development and operation. However, this experience is currently focused on the use
+of coal, with a relatively limited understanding of building and operating renewables and hydrogen
+infrastructure, as well as the use of a rotary kiln using hydrogen. As a result, efforts should be taken to
+brief the industry on the potential of this technology, illustrating the ideal use cases. This could take
+the form of workshops and engagement with individual steel companies.
+
+Secure Off-take Agreements
+It is expected that producing green iron using a hydrogen rotary kiln will be approximately 10–15%
+more expensive than coal-based DRI route for the initial plants (Figure 6), requiring a portion of the
+green premium to be covered by offtake agreements. As with successful examples of early green
+ammonia projects, similar green iron projects should target overseas off-takers, particularly in
+developed countries that are willing to absorb the green premium.
+Beyond agreeing to pay a portion of the green premium, it may be possible to secure additional
+co-benefits between importing and exporting countries and companies, including licensing and codeveloping the hydrogen rotary kiln technology. Also, off-takers may be willing to invest directly in the
+project in India, providing low-cost finance, ultimately lowering the final cost of green iron.
+Domestic off-take markets will also start to scale, supported initially by the Ministry of Steel’s Green
+Public Procurement Policy, although the emissions intensity of steel required under this policy are
+
+26
+
+14
+
+https://hyiron.com/oshivela/
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+far higher than what would be achieved by a hydrogen rotary kiln. As a result, government should
+explore a more transformative component to their procurement policy, which also incentivizes a
+smaller portion of truly net-zero compliant steel, alongside incremental emission reductions.
+
+Establish an Ambitious Carbon Price
+India is in the process of implementing its own emissions trading system, known as the Carbon Credit
+Trading Scheme (CCTS). The CCTS will cover majority of iron and steel plants, including all rotary
+kilns above 200 tpd. Whilst it is expected that the carbon price under the CCTS will start relatively
+low, it will nonetheless provide additional support for producing green iron and steel, relative to the
+conventional, high emission routes. Moreover, revenues from the CCTS should be used to accelerate
+the switch to hydrogen among rotary kiln players.
+
+Support Scale-up with Concessional Finance
+The cost of capital for smaller-scale industrial producers in India remains relatively high, with loans
+often provided by state-level banks or Small Industries Development Bank of India (SIDBI). For capitalintensive facilities, such as those for iron and steel, concessional lending rates, from public or private
+financiers can have a major impact on the commercial viability of a project. Such sources of finance
+include Bureau of Energy Efficiency’s (BEE) Assistance in Deploying Energy Efficiency Technologies
+in Industries & Establishments (ADEETIE) scheme, which is designed to help MSMEs adopt energyefficient technologies, through interest rate subvention, as well as broader technical assistance.27
+
+Unblock Renewable Electricity Infrastructure
+There already exists some level of support in using India’s electricity infrastructure for projects related
+to green hydrogen, including the omission of inter-state transmission charges, to help incentivize
+new projects. Beyond this, it may be necessary to further support within-state infrastructure, via
+accelerated permitting of new generation sites. For some larger steel companies, which also have
+electricity companies under their wider corporate umbrella, for example, Tata Steel and Tata Power
+or JSW Steel and JSW Energy, they may look to build and own the entire energy and material supply
+chain for producing green iron. However, for smaller iron and steel companies, such as those
+currently using rotary kilns, it may be more suitable to partner with a well-established renewable
+energy company, which can use their expertise to build low-cost infrastructure, as needed. This can
+also benefit renewable energy companies, that can rely on the guaranteed off-take from a single,
+large user.
+
+Foster Industrial Clusters to Lower Costs
+Alongside support for renewable electricity infrastructure, it would be beneficial to cluster hydrogen
+and DRI production units around the same location to reduce transportation and handling costs for
+hydrogen. With multiple potential off-takers across different industrial sectors, this could help derisk
+investments, as demand would be more resilient to sectoral fluctuations.
+
+27
+
+https://adeetie.beeindia.gov.in/
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+15
+
+Conclusion
+Developing the hydrogen rotary kiln for ironmaking in India represents one of the promising
+pathways for accelerating the decarbonization of the iron and steel sector. This will require concerted
+collaboration between government, steel companies, energy companies, financiers and civil society,
+both domestically and internationally. In doing so, India can deliver a tailor-made solution that will
+leverage the success of its hydrogen sector, as well as its renewable resources, ensuring Indian steel
+remains competitive in the long-term.
+
+16
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+Note
+
+Note
+
+Note
+
+Darbari Seth Block, Core 6C, India Habitat Centre, Lodhi Road,
+New Delhi - 110 003, India | Tel: (+91 11) 2468 2100, 7110 2100
+Email: mailbox@teri.res.in | Website: www.teriin.org
+20
+
+Hydrogen Rotary Kilns for Ironmaking in India
+A novel solution for decarbonizing small-scale ironmaking
+
+

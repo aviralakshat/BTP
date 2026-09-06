@@ -1,0 +1,1299 @@
+DRI UPDATE
+India’s major sources of Renewal Energy
+
+October-2024
+
+Editorial
+
+Dear Readers,
+Presently, Indian DRI and steel industry are passing through the difficult time. Demand for the DRI and steel
+have come down, price of the major raw materials has increased and there is an all-around concern about the
+dumping of the steel impacting further steel prices. Several countries have imposed artificial barriers to
+safeguard the interest of their steel producers. We hope our government will also take similar actions. I am
+confident that steel demand will soon pick up after the monsoon period.
+As we all know, sponge iron is going to be the main driver to mitigate the CO2 emissions. It is common
+knowledge that gas based DRI + EAF is the most eco-friendly route of steel making. However, there are certain
+known stumbling blocks due to which no natural gas based DRI plant has come up in India for last 30 years.
+Further there is uncertainty about the availability of syn gas and GH2 and their prices.
+We have limited availability of recycled steel from internal and external sources. This situation is likely to persist
+at least some more time.
+So, what are the options before the steel producers. Naturally they are using more a more coal based DRI as
+we do not have any merchant gas based DRI plant. Ministry of Steel has recently come out with a report entitled
+“Greening the Steel Sector in India Roadmap and Action Plan”. As per this report, CO2 emissions per ton of
+coal based DRI varies from 2.15 to 2.45. If we add 0.55 ton of t-CO2/tcs emissions through the electric steel
+making route, the t-CO2/tcs emission through the CDRI route would be around 2.70 – 3.00 ton which is much
+higher to the current national emission of 2.54 ton of t-CO2/tcs emission. It may also be mentioned here that
+the Ministry of Steel has set up a target of 2.2 ton of t-CO2/tcs emission by 2030. In the light of this scenario,
+CDRI industry has to make double efforts to achieve the targeted level of emissions.
+Recently, Tata Steel and SIMA have organized 2 days seminar on “Sustainability Facets of DRI Industry”
+involving DRI plant heads, experts and IIT Bhubaneshwar, IIT Roorkee and IISc. This was very successful, and
+many workable solutions came out. Some of the presentations have been included in this issue. I am sure you
+will find them interesting.
+Deependra Kashiva
+Director General
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+MIDREX Plant Anniversaries in the 3rd Quarter:
+Midrex is known for designing, engineering, and servicing
+reliable direct reduction plants, as well as ensuring that
+these plants have long and successful operating lives.
+The below plants have third quarter anniversaries:
+Antara Steel Mills HBI
+40 YEARS
+Location: Labuan Island, FT, Sabah, Malaysia
+•
+Start-up: August 1984
+•
+
+Product: HBI
+
+•
+
+Rated Capacity: 0.65 million tons/year
+
+The first MIDREX HBI Module was started up in
+August 1984 for Sabah Gas Industries, which later became
+part of the Lion Group as Antara Steel Mills HBI. Esteel
+Enterprise of Singapore completed acquisition of the HBI
+plant in 2022.
+Antara Steel Mills HBI operated 9% over its annual rated capacity in 2023, following a record-setting year in 2022 of
+20% over rated capacity. Total iron content averaged 92.63% for the year. All production was shipped by water to
+third parties. Cumulative HBI production through 2022 is more than 23.3 million tons.
+Libyan Iron and Steel Company (LISCO) Module 1
+35 YEARS
+Location: Misurata, Libya
+•
+
+Start-up: July 1989
+
+•
+
+Product: CDRI
+
+•
+
+Capacities: 0.55 million tons/year
+
+Production by LISCO’s three modules increased
+significantly in 2023 compared to previous years.
+Modules 1 & 2 produce CDRI for the LISCO steel
+mill, while Module 3 produces HBI for export.
+The three modules combined to set a multimodule
+production record that was last set in 2005 and
+eclipsed the 35 million tons milestone for cumulative
+production. Read more about Libya Iron and Steel
+Company (LISCO) at: https://libyansteel.com
+8
+
+JSW Steel (Dolvi)
+30 YEARS
+Location: Raigad, Maharashtra, India
+•
+
+Start-up: September 1994
+
+•
+
+Product: CDRI
+
+•
+
+Rated Capacity: 1.0 million tons/year
+
+JSW Steel’s MIDREX Module easily exceeded its rated
+capacity in 2023 and operated 8198 hours.
+Approximately 10% of the module’s energy input is
+COG injected to the shaft furnace to reduce natural
+gas consumption.
+JSW Steel (Dolvi) has averaged 8044 hours of operAtion per year since its initial start-up in 1994,
+and 8149 hours per year in the last 8 years. Its
+cumulative production through 2022 is almost
+33.2 million tons. Read more about
+JSW Steel and its Dolvi Works at: https://www.jswsteel.in
+
+ArcelorMittal/Nippon Steel India IV
+20 YEARS
+Location: Hazira, Gujurat, India
+•
+
+Start-up: July 2004
+
+•
+
+Product: HBI/HDRI
+
+•
+
+Capacity: 1.0 million tons/year
+
+Module IV established new annual productivity
+& electricity consumption records in 2023, as
+well as a new monthly production record in May.
+All six modules combined have produced over 91 Mt
+of HDRI, HBI, and CDRI since start-up of the first two
+modules in 1990. Approximately 96% of the output
+from the four HDRI/HBI modules was in the form of
+HDRI, while Modules I and VI produce CDRI exclusively.
+Read more about ArcelorMittal/Nippon Steel India at:
+https://www.amns.in
+9
+
+JSPL (Angul)
+10 YEARS
+Location: Angul, Odisha, India
+•
+
+Start-up: July 2014
+
+•
+
+Product: HDRI/CDRI
+
+•
+
+Capacity: 1.8 million tons/year
+
+This is the first MxCol Plant using synthesis gas
+from coal gasifiers to produce both HDRI and
+CDRI for the adjacent steel shop. Through 2022,
+the plant had produced more than 5.3 million
+tons of DRI.
+A hot DRI conveying system is installed from the
+MIDREX Plant to the melt shop. HDRI production
+was 54% of total production in 2023. COG was
+used in the DR plant throughout the year, averaging
+~15% of the plant’s energy requirements.
+Read more about JSPL and its Angul Works
+at: https://jindalshadeed.com/odisha
+
+JSW Steel (Toranagallu)
+10 YEARS
+Location: Toranagallu, Karnataka, India
+•
+
+Start-up: August 2014
+
+•
+
+Product: HDRI/CDRI
+
+•
+
+Capacity: 1.2 million tons/year
+
+JSW Steel (Toranagallu) using COREX export gas as
+energy input, operated over 8000 hours in 2023.
+Through 2022, the plant had produced almost 6.9
+million tons of DRI.
+A hot DRI conveying system is installed from the
+MIDREX Plant to the melt shop. 55% of production
+went to the steel shop as HDRI.
+Read more about JSPL and its Toranagallu Works
+at: https://www.jswsteel.in
+
+******^^^^^^******
+
+10
+
+Sustainability of DRI process
+D.P. Deshpande, Consultants & Former Chairman, SIMA
+
+Rotary kilns as a solid - gas reactor
+1. Better heat and mass transfer
+rates compared to fixed bed reactors
+2. 25 GJ/tdri
+3. Heat losses from shell, from
+exhaust gases,from product,
+incomplete combustion of fuel, Low
+heat efficiency
+4. ~100 t/hr capacity, 85-90%
+metalisation ;
+5. Char as solid waste
+
+11
+
+Rotary kilns …… Contd.
+1. 1.6-2.4 t CO2/t DRI;
+2. Preheating of feed
+material, WHB, air pre
+heaters, will partially offset.
+3. CCUS to ethanol. Just
+right capacity?
+
+12
+
+Energy consumption in rotary kilns
+1. Heat losses to be
+recovered/prevented …
+preheating of RM and
+air, WHB, use high
+quality coal,
+2. Needed better heat
+utilisation, Better waste
+management
+for CO2 reduction.
+
+Rotary kilns, Breakup of 2.5-3 GJ/t-DRI.
+1.Energy consumption ~60% of total
+energy is consumed by the reduction
+reactions.
+2. 20-30% energy in raising the
+temperatures, heating.
+3. 10-15% recovered in WHB
+4. 5-10% as electrical energy
+5. 5-15% as heat losses; radiation,
+hot gases, hot product, unburnt fuel.
+
+13
+
+Energy consumption in rotary kilns
+Conclusion
+The rotary kiln process for DRI production is less competitive in terms of energy consumption
+compared to modern gas-based DRI processes. However, it remains viable in regions where
+coal is the primary energy source, and natural gas is either expensive or unavailable. The
+future competitiveness of rotary kiln processes will likely depend on their ability to reduce
+energy consumption, improve efficiency, and address environmental concerns, particularly
+CO₂ emissions.
+
+MIDREX PROCESS FLOW SHEET
+1. Equally simple process
+2. Cleaner fuel
+3. Better heat utilisation
+4. Little to no waste
+5. So, better control on
+CO2
+6. 5000 tpd capacity
+possible
+
+14
+
+2015
+
+15
+
+Options for coal based DRI under Paris agreement
+1. Raise energy efficiency; optimise kiln design,
+improver thermal insulation, enhance heat
+recovery.
+2. Partial substitution of coal , biomass, biogas,
+3. CCUS; CCUS integrative options, Use CO2 as a
+feedstock for chemicals
+4. Hybrid processes;coal gasification + NG;use of
+hydrogen,
+5. Carbon offsetting investments;e.g reforestation
+or renewable energy, buying carbon credits.
+
+Industries that failed to sustain
+1. Whaling industry in late 19 th and early 20
+th century… cost increase & failure of
+developing alternative fuel.
+2. Asbestos industry…failure to transit into
+safer alternatives
+3. CFC based refrigeration industry…
+companies failed to transit in non CFC based
+refrigerants.
+4. Coal mines in Europe..
+5. Real Estate 2008 and Lehman brothers and
+now China ?
+
+16
+
+Industries that survived and sustained by definitive actions
+1.Paper and pulp industry…adopted
+sustainable forestry, FSC, invested in
+recycling of paper
+2. Automotive industry shifting to hybrid
+and EVs…
+3. Agriculture ….sustainable farming,
+crop rotation, agroforestry, integrated
+pest management, drip irrigation
+4. Textile industry…use of sustainable
+materials like organic cotton, recycled
+polyester, reducing water wastage,
+promoting circular economy.
+
+What does a billion T steel producing nation think….
+1. Shift from BF to EAFs/ DRI/EAFs,
+several pilot projects
+2. Improve energy efficiency.. when you
+reach limits, look at the upstream and
+downstream processes and optimise.
+3. Ultra low emission standards
+4. Circular economy… RRR
+5. Policy measures…carbon pricing and
+emission trading; industry consolidation
+6. Investment in green technology…public
+private partnerships
+7. International cooperation
+
+17
+
+On CO2 usage applications
+1. Enhanced oil recovery
+2. Carbonated beverages
+3. Chemical manufacturing like urea
+4. Building materials like carbonate
+aggregates; to cure concrete,
+5. Synthetic fuels like Methanol
+6. Plastics and polymers like poly
+carbonates and polyurethanes
+7. Algae cultivation for biofuels and
+bio products
+
+Tata Sponge set up in 80’s for…
+1. Pioneering in sponge iron as an
+upcoming technology.
+2. Meet demand for scrap
+substitutes in secondary steel
+making
+3. Social objectives of employment
+and industrialization of rural India.
+Mission forward ……
+
+18
+
+Summary - sustainability of coal based DRI
+1. 30% steel from DRI, India would want DRI
+industry to sustain ….strategic interventions,
+laws will follow
+2. Match fuel consumption rates of the next
+class of competing iron making processes.
+3. Non- carbon or biomass based supplementary
+fuels /reductants
+4. Unburnt char must be reused; but it is not CO2
+5. A fit case for 1000-2000 tpd CO2 usage
+application ?. … consultants/ technology
+providers to see.
+
+******^^^^^^******
+19
+
+Maintenance- Online Anomaly or Error Prediction or Detection
+in a Dynamical System
+Dr. Brahma Deo, Professor, IIT Bhubaneshwar
+
+What can not be measured can neither be accurately controlled nor
+predicted
+Dynamical systems change with me di ergence increases with me
+A pipe used for coal injec on con nuously wears and changes
+its dimension and shape also
+E entually it bends or crac s
+
+Coal injec on pressure changes gradually
+Con nuous measurement of injec on pressure data gi es a me
+series
+This me series of pressure has all the components of forces ac ng
+on the system
+Similarly gas temperature close the mouth of the pipe injec on
+lance changes
+ibra on pa ern of pipe changes
+So what we ha e measured in a mechanical system pressure,
+temperature, vibra on, ow
+
+20
+
+In an electrical system current oltage resistance and ibra on changes
+In an electro mechanical coupled system pressure temperature ow
+ibra ons rpm current resistance and oltage changes
+These changes can be due to wearing out of bearing of motor or of motor
+housing lubrica on failure change in combus on e ciency of burner
+parameters of burner itself
+Each measurement gi es a data series
+Each data series has me delay and embedding dimension and state space
+Each data series has characteris c pa erns features related to par cular
+fault s
+Most of the mes one or two mes series are enough
+
+Iden ca on predic on of errors and faults measurements are a
+must
+Models it is possible to ma e a digital twin of the system
+eed to build a signal collec on system signal from measurement
+tools
+We need to learn about data analysis tools and techniques for study
+of signals signal analysis
+Compare signal from a digital twin to the signal from a real system
+Doing corresponding plant repairs in me
+
+21
+
+Sta onary system linear or nonlinear system
+on sta onary system non linear system
+Complex system many ariables tra els in di erent domains
+Chao c system single or mul ple ariables domains of opera on
+change frequently di ergence with me return to chao c a ractors
+from me to me
+ot all complex systems are chao c and chao c systems need not
+necessarily be complex
+
+Predic on
+
+Approaches
+
+Similarity
+
+Pa ern Learning
+
+22
+
+A
+
+R
+
+LSTM C
+
+01
+
+Data
+Preprocessing
+
+0
+
+Model
+Architecture
+
+0
+
+Training
+
+0
+
+Valida on and
+Analysis
+
+De elopment Pipeline
+
+23
+
+tate space changes of of a 5
+
+tpd rotary iln
+
+This is called chaos
+control
+
+24
+
+ormal period predic ons are good, use even
+simple methods li e AA, rey ,
+
+Abnormal period
+
+M AR T A A
+
+25
+
+imilarity measures
+
+Failure
+
+Pa ern Matching sing AutoEncoder
+
+26
+
+Failure Causes and e ects
+
+i
+
+ailure of rotary feeder
+
+ii
+
+ailure of mild steel pipe
+
+iii
+
+ailure of Stainless steel pipe no le
+
+All the images in this page is ta en by the author himself at TSLPL Joda
+
+eed of the failure predic on
+Avoid wastage of resources
+Prevent coal distribu on pa ern disturbance
+1
+
+27
+
+avelet analysis of signal
+
+Typical Wa elet Transform of a Pressure data signal
+
+T max
+amplitude
+on
+di erent
+days
+data analysis tools
+
+28
+
+Discrete Dynamical System
+
+State space ault iden
+
+ca on
+
+0
+
+29
+
+Comparison of permuta on entropy and state
+space
+Ordinal Pa ern Analysis
+
+Discrete Dynamical
+System
+
+1
+
+30
+
+Lea s or brea age of
+water seals
+Through essel surface
+temperature monitoring in
+cri cal areas hot spots
+
+Luro burner failure predic on at PPL
+through ibra on measurement fully
+designed system DA SCADA model
+
+31
+
+******^^^^^^******
+
+32
+
+Newly Designed Refractories for High Capacity DRI Kilns for
+Energy Optimization and Sustainable Growth
+Subhadeep Chatterjee, TRL Krosaki
+
+ewly designed refractories for high capacity R ilns
+for energy op mi a on and sustainable growth
+
+From TR
+
+rosa i Refractories imited
+
+Points to be discussed
+
+33
+
+(1) About TRL Krosaki
+
+10 10 0
+
+2
+
+2 3 4
+
+2
+
+2 2 22
+
+2
+2 3
+4
+5
+10 10 0
+
+5
+
+34
+
+10 10 0
+
+(2) Pain Areas in DRI Pants
+
+Pain Areas in R sectors
+
+35
+
+Pain Areas in R sectors
+
+(3) Addressing the pain areas and provide solutions
+
+ear Mechanisms in R Rotary ilns
+Abrasion
+
+igni cant toward the discharge end, where most of the iron ore
+is already reduced into R
+
+Corrosion
+
+The iron silicate slags in contact with alumino silicate
+refractoriesleads to low mel ng phase.
+
+Accre on forma on
+
+trong reac on occurs in the one of the highest temperature,
+this leads to the forma on of a thic protec ve layer of slag on
+refractory.
+
+C a ac
+
+Free iron oxide within the refractory material should be minimal
+to prevent that it could be reduced to metallic iron due to the
+high C content
+
+10 10 0
+
+11
+
+36
+
+High Shell Radiation – The major concern
+
+Factors for high shell radia on
+pera ng temp
+
+Factor
+
+f the pera ng temp is higher than normal temperature.
+Factor 2 Thic ness of castable
+The erosion of castable reduced the thic ness.
+Factor 3 Thermal conduc vity
+
+igher thermal conduc vity of castable may results high shell temperature but it
+should be determined as per Al2 3 content and not varying signi cantly.
+
+Calculated hell temperature
+2
+
+2
+
+2 5
+
+2
+
+2
+2 5
+
+2
+
+2
+
+C
+
+2
+
+2 5
+
+hell Temp
+
+hell Temp C
+
+2
+
+255
+
+2
+
+2
+
+253
+
+25
+
+2 5
+
+2
+
+2
+
+245
+
+245
+24
+
+255
+4
+
+2
+
+4
+
+pera ng Temp
+
+2
+
+22
+
+C
+
+Calculated shell temp.
+
+4
+
+2
+
+4
+
+pera ng Temp
+
+2
+
+22
+
+C
+
+/ 2 C on the basis of thermal conduc vity
+
+37
+
+pera ng temperature
+E
+
+ue to less residual thic ness
+of refractory lining shell
+temperature may increase.
+
+C
+
+C
+
+3
+3
+
+3 2
+
+355
+
+C
+
+35
+
+hell Temp
+
+Refractory lining damaged
+during removal of accre on
+and reduced the lining
+thic ness
+Refractory s in was removed
+during accre on removal and
+results very prone to erosion
+
+TEMP
+
+2
+
+32
+
+33
+
+342
+
+3
+
+3
+3
+
+2
+
+2
+
+2
+25
+
+4
+
+2
+Thic ness, mm
+
+22
+
+24
+
+Rela onship between shell temp. and lining
+thic ness of refractory
+
+ew genera on F eries castables for
+R applica on
+
+38
+
+Comparison in proper es
+
+Al2 3 CC Vs TR Cast F
+
+lide Title
+
+Thermal conduc vity
+
+/m
+
+3
+
+. 4
+.52
+
+.5
+
+.
+
+.23
+
+.5
+
+C
+
+F 5AR
+
+2.
+
+2.5
+2
+
+.
+
+. 4
+
+.5
+.
+.5
+RT
+
+T A RA
+2 C
+
+Temperature
+
+ote
+
+ower thermal conduc vity eep the
+shell temperature under control
+
+ote
+
+ower abrasion loss is always be er for
+enhanced performance
+
+pecial features for
+
+F series castables
+
+10 10 0
+
+1
+
+Excellent abrasion resistance
+
+pecial features
+
+Thermal conduc vity
+
+F 5 AR
+
+.
+
+. 2
+
+Abrasion oss
+
+Abrasion oss CC
+
+C
+
+2
+
+5AR
+
+ow thermal conduc vity
+Fast strength development
+
+ood thermal spalling resistance
+p mum water demand and good owability
+Easy to remove accre on without damaging the refractory
+e er structural stability
+
+10 10 0
+
+18
+
+39
+
+Reduction of total pre-heating schedule
+
+Recommended drying schedule for CC
+
+3
+4
+4
+4
+Total
+
+4
+2
+34
+4
+
+3
+3
+25
+25
+35
+35
+55
+55
+5
+
+2
+
+ours
+
+5
+
+55
+
+C
+
+4
+24
+
+Temp in
+deg.c
+
+5
+
+TEMP.
+
+rs
+
+Cumula ve
+Time
+
+4
+
+35
+
+3
+
+25
+
+2
+
+3
+
+3
+
+4
+
+2
+
+55
+
+35
+
+25
+
+1
+
+34
+
+4
+
+T ME
+
+2
+
+R
+
+ydra on & ehydra on of CAC
+
+40
+
+rying chedule Vs
+
+ater loss
+
+elec on of Proper oa ing temp. & me
+
+41
+
+ow to reduce the total drying cum hea ng cycle
+
+Exis ng Fiber
+
+pecial Fiber
+
+pecial ber melts at lower temperature than exis ng ber.
+
+o steam explosion in presence of special ber
+4
+.
+
+5 C/hr upto
+
+g loc
+special ber
+
+C
+
+42
+
+Comparison in pre hea ng schedule
+5
+
+5
+
+35
+
+3
+
+25
+
+2
+
+3
+
+3
+
+4
+
+2
+
+35
+
+25
+
+C
+
+4
+
+55
+
+55
+
+5
+
+TEMP
+
+C
+
+5
+
+TEMP.
+
+55
+
+4
+
+35
+
+3
+2
+
+25
+3
+
+55
+
+35
+
+25
+
+3
+
+1
+
+34
+
+4
+
+2
+
+T ME
+Total pre hea ng me
+
+R
+
+hrs. for exis ng castable
+
+2
+
+Total pre hea ng me
+
+24
+
+3
+4
+T ME
+R
+
+2
+
+4
+
+hrs. for modi ed castable
+
+Fluctuation in setting behaviour
+
+Ageing of ow Cement Castables CC
+
+43
+
+Causes for Ageing of CC
+
+Causes for Ageing of CC
+
+44
+
+Ac on plan to avoid uctua on in se ng me
+
+esign of pumpable castable for R applica on
+Advantages
+Reduced installa on me
+Avoid large number of applica on people to transfer castable
+from outside mixer to inside the iln area of applica on
+e er safety at site
+o need to store material and mixer on the pla orm near the ilns
+
+45
+
+Pumpable castable for R applica on
+
+tatus
+iscussed with Chief Refractory
+T M and we are going to
+send sample to T
+RT for
+evalua on before ta ing panel
+trial
+
+4
+
+ifferent products available in TR
+
+rosa i’s product basket for DRI
+
+Ma or Castables for R
+
+iln available in bas et
+
+Recommenda on
+For R iln of capacity 35 TP , l o
+to 3 are suitable where iron ore and
+domes c coal are used as feed material
+n
+case
+of
+pellet
+African/Australian coal, l
+suitable
+
+and
+outh
+o 4, & 5 are
+
+For R ilns of capacity
+TP
+more, l o
+& are suggested.
+
+and
+
+46
+
+(5) Innovative value-added approach for better performance
+
+Product Features of Microporous oard
+
+lide Title
+
+Comparison of Radia on Temperature
+lide Title
+
+TR Cast C
+
+TR Cast F
+
+5
+
+TR
+
+C FF AR F
+
+47
+
+Inside ot Endoscopy
+
+Outside Shell Scanner ully Automated
+
+1.
+.
+.
+
+Early iden ca on of de eloping refractory fuel or feed problems
+Dynamic mul region trending lame monitoring
+Alarm monitoring and process interfacing .
+
+ield Demonstra on at TSM
+DRI iln
+
+500 TPD
+n ite demonstra on & trial conducted in
+two di erent aggregates.
+Technical proposal under development with
+TR
+technology partner and will be
+submi ed to T M upon comple on .
+
+irst Time in DRI Industry
+SM
+
+Wal ing eam R
+
+0 Mt hr.
+
+irst Time in TSM
+
+Conclusions
+
+******^^^^^^******
+48
+
+NEWS ITEMS
+1. Following R&D projects for financial support are under
+consideration of Ministry of Steel
+Rotary Kiln related R & D Projects:
+i. Investigation on coal-biomass blends as reductant and fuel - IIT Hyderabad
+ii. ⁠Decarbonisation of DRI process in Rotary Kiln using hydrogen as reductant- IIT Roorkee
+Vertical Shaft Related R&D Projects:
+i. Melting and Refining behaviour of gas based DRI and hydrogen based DRI - IITB
+ii. ⁠A comparative study on the controlling mechanisms during reduction of iron oxide with
+CO and hydrogen - IITB
+iii. ⁠Assessment of design and operation parameters using process simulation for hydrogen
+based DRI production- IIT Bombay & Bhubaneswar
+iv. ⁠A laboratory/ Pilot scale set up to optimise the process parameters for producing DRI
+with varying H2 and CO ratio- IIT Kharagpur
+
+2. Production related data
+
+It may be noted that sponge iron growth rate for the last two years has been in double
+digit. However, in the current FY it is hovering in single digit.
+49
+
+3. SIMA has taken another one of the pragmatic steps to resolve the technical problems
+relating to the DRI production particularly coal based DRI process. In this connection,
+SIMA has created a new chapter on their website in the name of SIMA DRI Technical
+World.
+4. Glimpses of two days seminar on Sustainability Facets of DRI Industry at Tata Steel
+Sponge Iron, Joda.
+
+Mr. Ashish Anupam, Vice President, Long Products, Tata Steel Ltd.
+
+Mr. Deependra Kashiva, Director General, Sponge Iron Manufacturers Association (SIMA)
+******^^^^^******
+50
+
+

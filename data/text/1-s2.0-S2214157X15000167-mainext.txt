@@ -1,0 +1,1482 @@
+i An update to this article is included at the end
+
+Case Studies in Thermal Engineering 6 (2015) 1–15
+
+Contents lists available at ScienceDirect
+
+Case Studies in Thermal Engineering
+journal homepage: www.elsevier.com/locate/csite
+
+Energy survey of the coal based sponge iron industry
+Nishant R. Dey n, Anil K. Prasad, Shravan K. Singh
+Department of Mechanical Engineering, National Institute of Technology Jamshedpur, Jharkhand 831014, India
+
+a r t i c l e i n f o
+
+abstract
+
+Article history:
+Received 10 February 2015
+Received in revised form
+31 March 2015
+Accepted 16 April 2015
+Available online 20 April 2015
+
+A survey is made on a typical coal based Indian sponge iron plant of capacity 500 t/d in
+order to identify the largest energy losses and find ways to increase the efficiency. The
+required data are obtained by measurements or taken from production industries. The
+process efficiency is about 51.31%. The energy balances of the process show that the gap
+between theoretical and actual energy consumption is 45.2% and the exhausts make up
+the largest loss of 43.5%. A huge amount of waste gas is generated during operation and
+substantial part of it associated with the waste gas, remains unutilized. The energy content in the exhaust gases which is found at useful temperature can be used in three different ways: by internal use; by external energy supply; or by power generation. The four
+possible potential areas are identified where energy is being lost and untapped. The largest improvements would be made by design modifications adopting a novel energy
+conservation scenario by process integration and thereby decreasing the coal and water
+consumption and by decreasing the cold fresh air.
+& 2015 The Authors. Published by Elsevier Ltd. This is an open access article under the CC
+BY license (http://creativecommons.org/licenses/by/4.0/).
+
+Keywords:
+Sponge iron
+Rotary kiln
+Energy efficiency
+Exhaust
+Energy survey
+Energy balance
+
+1. Introduction
+Sponge iron is a metallic mass with honeycomb structure. It is produced by direct reduction of iron ore in the presence of
+coal and air. Since last few years, sponge iron has emerged as an alternate raw material for steel making. The Indian
+Government has recognized sponge iron as a vital sector for growth of Indian steel industries. At present, India is largest
+producer of sponge iron with a largest number of coal based sponge iron plant of total capacity around 12.8 million ton.
+Sponge iron manufacturing units looked profitable since beginning of the nineties. However, with the increase in the input
+cost of raw materials and decrease in the selling price, the industry is struggling for its survival. The lack of infusion of
+modern technology has also added further dimensions to the impasse. In the present situation, even though, the condition
+has improved considerably, sponge iron industry is passing through several problems like lack of proper integration of heat
+energy, obsolete technology, non-optimal operation of equipment, etc. which are making it a less profitable venture. Thus,
+there exists a large scope to apply modern technology to this industry and to make it more competitive by cutting down its
+internal losses. The present study utilizes the above opportunity effectively and puts forward suggestions to improve the
+energy effectiveness of the industry through design modifications.
+Jena et al. [1] focused on very useful information on different parameters like waste gas, gas composition, dust loss, other
+losses and the thermal efficiency of the sponge iron operation The authors are in favor of the loss of heat in the waste gas
+can be recaptured by waste heat recovery boiler (WHRB) to generate steam to produce electricity.
+Agarwal and Sood [2] proposed to utilize the untapped energy of waste gas by installing a waste heat recovery boiler
+n
+
+Corresponding author.
+E-mail address: nishant_ranjan2007@yahoo.co.in (N.R. Dey).
+
+http://dx.doi.org/10.1016/j.csite.2015.04.001
+2214-157X/& 2015 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).
+
+2
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+Nomenclature
+hr
+D
+L
+m
+T
+Q
+Cp
+
+heat transfer coefficient from outer surface of
+rotary kiln to outside atmosphere, kJ/h m2
+diameter, m
+length, m
+mass flow rate, kg/h
+temperature, °C
+heat load, kJ/h
+specific heat capacity, J/kg K
+
+m
+s
+a
+i
+p
+c
+
+moisture
+iron ore
+air
+inlet
+process/reaction condition
+coal
+
+Greek letters
+
+Δ
+λ
+
+difference between two parameters
+latent heat of vaporization, kJ/kg
+
+Subscripts
+
+(WHRB) to generate steam. The above way of heat recovery has some inherent problems such as (1) kiln operation is
+governed by process parameters and metallization of sponge iron and is not dependent on the quality of steam to be
+generated, (2) during startup the steam quality is not suitable for turbine application, (3) any interruption of kiln operation
+due to accretion formation, shut down or unavailability of feedstock disturbs the waste gas generation which in turn affects
+or stops steam generation and (4) kiln waste gas contains 35–40 g/mm3 of dust particles. Due to the above problems WHRB
+were not successful in India.
+Misra and Ipicol [3,4] examined the sponge iron manufacturing process and observed that a large quantity of heat is
+produced during operation and substantial amount of it is associated with the waste gas that remains unutilized.
+According to Ruifeng et al. [5] the generating capacity of the waste heat recovery system is 4.9 MW. The overall CO2
+removal rate was as high as 78.5%.
+Kumar and Khanam [6] suggested that 21.6 t/h waste gas generated during sponge iron production process.
+Prasad et al. [7] suggested that by applying process integration in sponge iron process which reduces coal and water
+consumption by 30.5% and 72.6%, respectively resulting releases minimum waste gas to the atmosphere.
+It has also been reported that significant improvements in the reduction of energy consumption were achieved in gas
+based processes. However, for coal based processes such savings, which can be certainly achieved, are not reported with
+supporting facts derived from simulation. Although, many plants have acquired workable level of operational efficiency, but
+from an energy point of view, a large number of such units are operating below optimum limits.
+In the sponge iron process concentrated and finely divided iron ore is reduced in solid phase into sponge iron at high
+temperatures in rotary kiln. The process is very energy demanding. In order to identify the largest losses and to find ways to
+increase the efficiency, an energy survey of the sponge iron plant was carried out for a number of different production rates.
+The energy usage in processing industries can be reduced by changing the process or by utilizing the surplus heat. The
+latter can be done in three different ways; by internal use, by external energy supply, or by power generation. The survey
+will be used when evaluating, for instance, whether heat content in the exhausts can be used for internal use for design
+modification or external energy supply or by power generation.
+To estimate the fuel requirement and to find out the kiln efficiency and general thermal study of the process, a material
+and mass balance was made based on the data of a plant of capacity 500 t/d using SL/RN process, selected for the present
+investigations.
+
+2. Process description
+The process flow diagram (PFD) of a conventional coal based sponge iron plant is shown in Fig. 1. Different streams in the
+PFD are assigned individual number and henceforth each stream will be referred through its respective number. The streamwise data (stream number, temperature, pressure, energy content, mass flow rate of stream and its composition) are presented in Table 1. These data are obtained directly from the plant. The kiln data were taken at production of sponge iron of
+capacity 453.875 t/d. The length of the kiln is 80 m and its internal and external diameters are 4.55 m and 5 m, respectively.
+Temperature of the solids inside the kiln is maintained at 1020 °C. Waste gas temperature at the feed end and discharge end
+of the kiln is 900 °C and 1170 °C. The feed rate and discharge rate of the materials are shown in Table 1 and chemistry of the
+materials is described through Sections 3.2.1–3.2.6. In other words these data are a priory to material and energy balance
+data generated through computation.
+The actual process of the coal based sponge iron production is based on SL/RN process (jointly developed by the Steel
+Company of Canada, Lurgi Chemie, Republic Steel Company and National Lead Corporation in 1964), which works on direct
+reduction of ore. This process is adopted by worldwide conventional sponge iron industries. The production of sponge iron
+in the plant undertaken is started in the financial year 1988–1989. For better visualization of the process the longitudinal
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+3
+
+Fig. 1. Process flow diagram of the sponge iron plant.
+
+Table 1
+A material and energy balance data generated through computation.
+St. no. T (°C) ΔHa (MW) Flow (t/h) Composition (%)
+
+St. no. T (°C) ΔHa (MW) Flow (t/h) Composition (%)
+
+1
+
+30
+
+1461.7
+
+44.59
+
+10
+
+900
+
+98,223
+
+98.93
+
+2
+3
+4
+5
+
+30
+30
+30
+30
+
+2779.2
+447.6
+93.24
+320
+
+83.913
+13.516
+2.816
+7.73
+
+11
+12
+13
+14
+
+30
+30
+1050
+80
+
+1507.3
+447.6
+137,938
+420.8
+
+12
+14.45
+119.046
+6
+
+6
+7
+
+1020
+110
+
+16,691
+1800
+
+23.788
+23.788
+
+15
+16
+
+30
+250
+
+5652.5
+45,496.6
+
+45
+163.446
+
+8
+
+30
+
+94,207.5
+
+750
+
+17
+
+220
+
+1097.8
+
+5.5
+
+9
+
+34.7
+
+21,900.9
+
+720
+
+18
+
+220
+
+38,657.6
+
+157.946
+
+Iron ore¼ 67.3
+Feed coal ¼31.4
+Dolomite¼1.3
+
+I.C.¼ 79.5, Char ¼12.2, Spent
+lime¼ 0.7, ash¼ 7.6
+
+F.C. ¼18, Fe (T) ¼ 25,
+Ash ¼21.26
+
+F.C. ¼12, Fe (T) ¼23,
+Ash ¼30.2, VM¼ 1
+
+St. no. ¼stream number; S.I. ¼ sponge iron; F.C.¼fixed carbon; Fe(T)¼ Fe (total).
+a
+Reference temperature¼ 0 °C.
+
+Fig. 2. Longitudinal section of coal based sponge iron plant.
+
+section of coal based sponge iron plant is presented in Fig. 2.
+In conventional coal based sponge iron plant, Fig. 1, kiln feed (Stream no. 1), which consists of iron ore, feed coal and
+dolomite, is fed to the rotary kiln (RK). A separate conveyor collects different size fractions of coal (Stream no. 5) for injection
+into the kiln with the help of pressurized air (Stream no. 4) from discharge end side. Throughout the length of the kiln air is
+injected (multipoint injection) through air fans, as shown in Fig. 3. Further, air (Stream no. 3) is injected to the kiln at the
+discharge end by central burner pipe, which during normal operation serves as process air.
+Inside kiln is lined with refractory and inclined at 2.5°. Due to inclination and rotation, material in the bed of the kiln
+
+4
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+Fig. 3. Axial injection of air into the rotary kiln.
+
+moves along the axis. Both end of rotary kiln is provided by mechanical air sealing so that no ingress of air takes place. As
+the charge moves through the kiln, it is heated by the gases which flow in opposite direction to the charge. Inlet side of the
+kiln, blowing of a controlled amount of air into the material charge increases the material temperature by direct combustion
+of volatiles within the charge. The first section, approximately half of the kiln is preheating zone wherein, iron ore, coal and
+dolomite are heated to reaction temperatures and the second half is the reduction zone as shown in Fig. 4. One part of the
+volatiles of the coal escapes into the gas space above the material bed where it burns and other part burns directly within
+the material charge where these are used for direct heating. The volatiles in gas space are burned by air admitted through
+the air pipes and thus supply main source of energy required for heating up the kiln charge. In the reduction zone, the major
+portion of the oxygen contained in the iron ore, is removed leaving metallic iron and a few iron oxide behind. The difference
+of the temperature of free gas T(gas) and bed material T(charge bed) along the length of the kiln is shown in Fig. 4 which is
+responsible for heating bed material and metallization of the product. This difference is maintained minimum when the
+reactivity of the coal is significant. It would lead to operational benefit that liquid phase formation and localized heating
+may be prevented when the maximum permissible waste gas temperature is reduced. Due to liquid phase formation and
+localized heating accretion is formed inside the kiln. Plot of the percentage of metallization along the length of reduction
+zone is shown in Fig. 4. It indicates that the reduction of iron ore starts in the reduction zone and required metallization of
+the product is achieved at the discharge end of the kiln. The operating temperature range of kiln is from 900 °C to 1020 °C.
+The reduced product stream (Stream nos. 6 and 7) from the kiln is indirectly cooled from 1020 °C to 110 °C in a rotary
+
+Fig. 4. Principle of counter current rotary kiln operation.
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+A – Dust settling chamber
+B – Rotary kiln
+C – After burning chamber
+D – Wet scraper
+
+5
+
+E– Emergency stack cap
+F – Evaporating cooler
+G – Electrostatic precipitator
+H - Chimney
+
+A
+
+Fig. 5. Flow direction of waste gas through different equipment.
+
+cooler (RC) where water (Stream nos. 8 and 9) is sprayed on the cooler surface. The waste gas (Stream no. 10) in the kiln
+flows in the opposite direction to the feed material. This flow is maintained by induction fan mounted before the chimney.
+The waste gas (Stream no. 10) exiting the rotary kiln is processed through different equipment before it leaves to open
+atmosphere. The direction of flow of waste gas after rotary kiln is shown in Fig. 5.
+The waste gas consists of N2, CO2, CO, H2, H2O, O2 and CH4. It exits the kiln at a temperature of 900 °C and then enters to
+after burner chamber (ABC) and a horizontal dust settling chamber (DSC) which is located beneath the ABC. DSC reduces the
+waste gas velocity, removes large dust particles by gravity, retards pressure fluctuation and achieves uniformity of waste
+gases with temperature and concentration of combustible. At the end of DSC waste gases change their direction of flow and
+move upward into combustion area of ABC. Here combustibles are mixed with fresh excess air (Stream no. 12) and burnt
+completely to acquire temperature in a range between 950 °C and 1050 °C, approximately.
+To remove dust particles and toxic components from waste gas, water (Stream no. 11) is sprayed in the ABC. For this
+purpose 8–10 numbers of water guns are fitted along different heights. The water guns hold a nozzle at the discharge end
+for atomization. The pressurized water coming out from the guns falls on the waste gas carrying dust particle and increases
+their weight. Subsequently, these particles settle down due to increase in weight.
+At times, during the plant operation some unstable conditions are faced during which feed to the kiln is totally stopped.
+Under such condition, the emergency cap, which is located at the top of ABC, is operated and the waste gas is allowed to
+escape through the emergency cap to open atmosphere.
+The evaporating cooler (EC) is connected to the ABC as shown in Figs. 1 and 2. Here, the waste gas (Stream no. 13) is
+quenched as the temperature of it needs to be brought down to a workable limit for downstream equipment. For quenching
+8–10 numbers of water guns (Stream no. 15) at the same height are provided at the top position of EC around its circumference. Water, coming out from the guns, is sprayed to reduce the temperature of waste gas to the desired level which
+is 250 °C. The bottom part of the EC, DSC and ABC is attached with a wet scraper to collect the dust (Stream no. 14).
+Further, waste gas (Stream no. 16) coming out from the EC, enters the electrostatic precipitator (ESP) for removal of
+particulate matter. The desired temperature of the waste gas is to be maintained below 250 °C. ESP exit (Stream no. 18) is
+connected to the chimney through an induced direct fan. After ESP, the filtered waste gas (Stream no. 18) goes to the
+atmosphere and remaining material of ESP is collected as dust (Stream no. 17).
+
+3. The energy survey
+In order to carry out an energy survey it is necessary to produce energy balances. Mass balance is used for calculating
+unknown mass flows and as a tool to verify measurement. It is considered that the sponge iron plant has a system i.e. rotary
+kiln. The system is assumed to be stationary. Thus, the energy flows crossing the system boundary are described by Eq. (1).
+
+IN +PRODUCED=OUT
+
+(1)
+
+IN represents energy flow into the system, as OUT represents energy flow out of the system. The term PRODUCED refers to
+energy of different physical processes and can be both negative and positive. In this case it is the chemical reactions due to
+the reduction of iron ore into sponge iron.
+First, all flows over the system boundaries must be identified. Then their mass flow rate, temperature and specific heat
+capacity are determined to be able to calculate their energy content. At the end, the energy flows into and out of the system
+should be equal.
+Eq. (2) is the general equation for calculating the energy flows:
+
+Q = mCp ΔT
+
+(2)
+
+6
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+Energy released by combustion is calculated by Eq. (3):
+
+Q = mc (NHV)
+
+(3)
+
+where NHV is the net heating value of the coal.
+The heat involved in each reaction at molar basis is shown through Eqs. (4)–(10) which indicates that amongst seven
+reactions, Reaction (3) is endothermic. Thus, overall process is exothermic in nature. In the pre-heat zone, the reduction of
+iron oxide proceeds only to ferrous oxide (FeO)
+
+Reaction (1): Fe2 O3 + CO = 2FeO + CO2 − 2.05656 GJ/kmol
+
+(4)
+
+Final reduction to metallic iron occurs in the metallization zone by reaction of CO with FeO to form CO2 and metallic iron:
+
+Reaction (2): FeO + CO = Fe + CO2 − 0. 25738 GJ/kmol
+
+(5)
+
+Most of the CO2 reacts with the excess solid fuel in the kiln and is converted to CO according to following combustion
+reaction:
+
+Reaction (3): CO2 + C = 2CO + 75.0 GJ/kmol
+
+(6)
+
+Coals with higher reactivity are preferred as they provide rapid conversion of CO2 to CO thereby maintaining reducing
+conditions in the kiln metallization zone. The highly endothermic reaction of coal with CO2 prevents the bed from overheating and attaining high temperature that could lead to melting or sticking of the charge.
+High coal reactivity decreases the reduction zone bed temperature. Desired bed and gas temperature in the freeboard can
+be achieved with high reactivity fuels even with very high throughput rates.
+Along with this following reactions also take place inside the kiln:
+
+Reaction (4): 2CO + O2 = 2CO2 − 135. 71417 GJ/kmol
+
+(7)
+
+Reaction (5): C + O2 = CO2 − 97. 994248 GJ/kmol
+
+(8)
+
+Reaction (6): 2C + O2 = 2CO − 3. 439722 GJ/kmol
+
+(9)
+
+Reaction (7): 2H2 + O2 = 2H2 O − 29. 8268 GJ/kmol.
+
+(10)
+
+3.1. Heat of reactions for reduction reactions
+
+Heat of reaction at T °C = enthalpy of product at T °C –enthalpy of reactants at T °C
++ heat of formation of reaction at 25 °C
+Heat of formation at 25 °C = heat of formation of products at 25 °C –heat of formation of reactants at 25 °C .
+
+(11)
+(12)
+
+3.2. Heat of reactions for combustion reactions
+
+Heat of reaction at T °C = enthalpy of product at T °C –enthalpy of reactants at T °C
++ heat of combustion of reaction
+Heat of combustion = heat of combustion of reactants at 25 °C –heat of combustion of products at 25 °C
+
+(13)
+(14)
+
+Heat of formations for Fe2O3, CO, FeO, Fe and CO2 at 25 °C is taken from Green and Perry [8] and is found as –198.5, –
+26.42, –64.62, 0 and –94.05 kcal/mol, respectively. Heat of combustion for C, CO and CO2 at 25 °C is –94.05, –67.64 and
+0 kcal/mol, respectively [8].
+It is necessary that physico-thermal properties of iron ore, sponge iron and coal such as density and specific heat capacity
+should be known. These properties of materials generally depend on the presence of different constituents and its composition in the material.
+
+3.2.1. Iron ore
+The temperature dependent value of Cp of iron ore, Fe2O3, is shown through Eq. (15) [8].
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+7
+
+Cp = 24.72 + 0.01604 × T − 423, 400/T 2 kcal/kmol K
+
+(15)
+
+The density of iron ore is 325 lb/ft3 [8] or 5206 kg/m3.
+3.2.2. Sponge iron
+Hajidavalloo and Alagheband [9] show the thermal properties of sponge iron. According to authors specific heat capacity
+(Cp) of sponge iron is 0.46 kJ/kg K. Generally, the value of Cp of sponge iron depends on the composition of constituents
+present in sponge iron and Cp value of each constituent.
+3.2.3. Coal
+Speight [10] showed the variation of Cp of coal with moisture content, carbon, volatile matter of coal. The author proposed a relationship between Cp and elemental analysis (%wt) of coal which is given below:
+
+Cp = 0.189C + 0.874H + 0.491N + 0.36O + 0.215S
+
+(16)
+
+where C, H, N, O and S respective amounts (% w/w) of elements in the coal
+3.2.4. Specific heats
+Enthalpy of products and reactants are calculated based on following correlations of Cp taken from Green and Perry [8]:
+
+FeO: Cp = 12.62 + + 0.001492 × T –76, 200/T 2 kcal/kmol K
+
+(17)
+
+CO: Cp = 6.6 + 0.0012 × T kcal/kmol K
+
+(18)
+
+Fe: Cp = 6.12 + 0.00336 × T kcal/kmol K
+
+(19)
+
+CO2 : Cp = 10.34 + 0.00274 × T − 195, 500/T 2 kcal/kmol K
+
+(20)
+
+Fe2 O3 : Cp = 24.72 + 0.01604 × T − 423, 400/T 2 kcal/kmol K
+
+(21)
+
+C: Cp = 2.673 + 0.002617 × T –116, 900/T 2 kcal/kmol K
+
+(22)
+
+Specific heat is required for heat as well as energy balance whereas density is used in mass balance. Specific heats of
+different streams are provided in Table 2.
+3.2.5. Densities
+The densities of necessary streams are provided in Table 3.
+Table 2
+Specific heat of streams.
+Stream number (name)
+
+1 (kiln feed)
+
+2 (kiln air)
+6 and 7 (kiln outlet)
+
+8 and 9 (inlet to RC)
+14 (dust of WS)
+
+17 (dust of ESP)
+
+18 (waste gas)
+
+Component
+
+Iron ore
+Feed coal
+Dolomite
+Air
+Sponge iron
+Char
+Ash
+Lime
+Water
+Carbon
+Fe (total)
+Iron ore
+Ash
+Carbon
+Fe (total)
+Iron ore
+Ash
+VM
+Waste gas
+
+Specific heat (J/kg K)
+Value
+
+Reference
+
+960
+1380
+1028.38
+1032.6
+594.93
+1035.3
+1067.14
+1038.47
+4187
+890
+585.7
+960
+1067.14
+890
+585.7
+960
+1067.14
+2049
+1140
+
+[11]
+[12]
+[8]
+[8]
+[8]
+[12]
+[12]
+[12]
+[12]
+[12]
+[8]
+[11]
+[12]
+[8]
+[8]
+[11]
+[12]
+[12]
+[12]
+
+Mass flow rate (t/h)
+
+Specific heat of mixture (J/kg K)
+
+30
+13.99
+0.6
+–
+18.9
+2.9
+1.813
+0.175
+
+0.18
+0.25
+0.3574
+0.2126
+0.12
+0.234
+0.334
+0.302
+0.01
+–
+
+1092.7
+
+1032.6
+687.9
+
+4187
+876.6
+
+907.3
+
+1140
+
+8
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+Table 3
+Density of different streams.
+Component
+
+Density (kg/m3)
+
+Reference
+
+Water
+Air
+Waste gas
+Water vapor
+
+1000
+1.12
+1.2
+0.58
+
+[8]
+[12]
+[12]
+[13]
+
+3.2.6. Constituents of different streams
+Analysis, of different streams, is required to know the constituents present in the streams. The component mass balance
+depends on these components of the streams. The analysis of streams, obtained directly from the sponge iron plant, is
+presented in the subsequent paragraphs.
+The constituents present in the waste gas (Stream no. 18) and its percent composition is shown in Table 4.
+Iron ore is the source of metallic iron (Fe) which is also called Fe (total) or sponge iron. The main components of ore are
+given in Table 5.
+The components present in the coal and char are summarized in Table 6. Constituents of coal (in feed as well as slinger)
+are found using ultimate analysis. The calorific values of feed and injection coal are 22,530.2 kJ/kg and 23,362.02 kJ/kg,
+respectively.
+The composition of sponge iron is shown in Table 7 where Fe (total) is 92.5%.
+Dolomite is mainly used as a desulphurizing agent to prevent the pickup of sulfur by the sponge iron from the sulphur
+released by the burning of coal inside the kiln. The main constituents of dolomite are reported in Table 8.
+The constituents present in the fly ash (a part of Stream no. 10) and its percent composition is shown in Table 9.
+3.3. Assumptions
+In making heat balance calculation the volatile matter was assumed to be present as phenol and further assumptions
+were made for the injection coal V.M. utilization of the V.M. in the kiln based on analysis of the waste gas. (i) All the feed end
+V.M. and 33% of report to ABC. 42% of the injection coal V.M. burns to CO2 and 25% burns to CO. 1/3 of H2 from feed end coal
+reports to ABC as CH4. The rest remains in the V.M. as other compounds. The amount of sulfur burnt is negligible and this
+was not taken on to account.
+3.4. Material balances
+The material balances of the sponge iron process, shown in Table 1, are carried out using steps given below. Component
+mass balance is performed around rotary kiln based on plant data that is presented in Table 1. For this purpose, components
+such as iron, gangue, carbon and ash are considered for mass balance as these are the main components of feed material
+which is composed of iron ore, coal and dolomite. Using analysis of different streams presented in Section 3.2.6, the material
+balance is shown in Table 10 in detail.
+3.5. Heat balance
+The heat balance is carried out and shown in Table 11.
+Heat balance around the kiln is given by the following expression:
+
+Total heat in (by different streams) + heat generated through reactions
+–heat consumed in reaction
+= total heat out
+
+(23)
+
+Table 4
+Analysis of waste gas.
+Constituents
+
+Composition (%)
+
+N2
+CO2
+CO
+H2
+H2O
+O2
+CH4
+
+59.79
+34.91
+1.32
+0.17
+3.72
+0.80
+0.59
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+9
+
+Table 5
+Components of iron ore.
+Constituents
+
+Composition (%)
+
+Fe (total)
+Gangue
+
+63
+4.06
+
+Table 6
+Analyses of coal and char.
+Constituents
+
+Feed coal
+(%)
+
+Slinger coal
+(%)
+
+Char (%)
+
+Volatile matter (V.M.)
+Fixed carbon (F.C.)
+H2O
+N2
+H2
+Ash
+O2
+S
+Total C (C present in V.M.
+and F.C.)
+
+32.05
+40.95
+3.26
+1.15
+3.96
+23.74
+6.59
+0.70
+60.60
+
+31.71
+43.10
+3.9
+1.19
+4.04
+21.29
+6.67
+0.70
+62.21
+
+1.9
+28.5
+–
+–
+–
+69.6
+–
+–
+–
+
+Table 7
+Components and compositions of sponge iron.
+Constituents
+
+Composition (%)
+
+Remarks
+
+Fe (M)
+FeO
+
+83.5
+11.71
+
+Fe metallic
+Fe present in
+FeO¼ 56/72  11.71¼9%
+
+Gangue
+Carbon
+
+4.62
+0.17
+
+Table 8
+Components of dolomite.
+Constituents
+
+Composition (%)
+
+CaO
+MgO
+SiO2
+
+28
+20
+8
+
+Table 9
+Composition of fly ash.
+Constituents
+
+Composition (%)
+
+Fe2O3
+C
+Volatiles
+CaO
+SiO2 þ Al2O3
+
+42.4
+13.48
+5.89
+2.29
+35.94
+
+Total heat in (by different streams) is the sensible heat carried by the iron ore, coal and air when these streams enter to
+the kiln. It is computed considering zero as reference temperature as given below:
+
+Iron ore = mCp ΔT = 30, 000 × 0.96 × (25 − 0) = 720, 000 kJ = 0.1719 Gcal
+
+10
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+Table 10
+Material balances.
+Material
+
+Input
+
+kg/h
+
+Output
+
+kg/h
+
+Iron
+
+Fe 0.63  30,000
+
+18,900
+
+FeM 18,900  0.835
+Fe in FeO 18,900  0.09
+Fe lost in dust 3159  0.424  112/160 as Fe2O3
+Other losses by difference
+
+Total
+
+18,900
+
+15,781.5
+1701
+937.59
+479.9
+18,900
+
+From ore 30,000  0.0406
+
+1218
+
+In sponge iron 0.0462  189,000
+Lost in flue dust
+
+Total
+
+1218
+
+873.18
+344.82
+1218
+
+F.E. coal 13,990  0.606
+I.C. coal 7730  0.6221
+Limestone 600  0.28  12/56
+
+84,77.94
+48,08.833
+36
+
+F.C. in F.E. coal
+C in F.E. coal V.M.
+F.C. in I.C. coal
+C in I.C. coal V.M.
+Total
+
+5728.905
+2749.035
+3331.63
+1477.203
+13,322.77
+
+C out in char 2900  0.285
+C out in flue 3159  0.1348 dust
+C in sponge 18,900  0.0017
+C consumed in reaction to form CO
+C burnt to CO2
+V.M.C. burnt to CO and CO2
+Unburnt V.M.C.
+C in Co2 from limestone
+
+826.5
+425.83
+32.13
+5404.77
+2371.3
+967.478
+3258.76
+36
+13,322.77
+
+Ash in F.E. coal 13,990  0.2374
+Ash in I.C. coal 7730  0.2129
+
+3321.226
+1645.717
+
+Ash in char 2900  0.696
+Ash in fly ash 3159  0.3594
+Free ash to cooler
+
+Total
+
+4966.943
+
+2018.4
+1135.345
+1813.2
+4966.943
+
+Gangue
+
+Carbon
+
+Coal ash
+
+I.C.: injection coal, F.E.: feed end, V.M.C.: volatile matter carbon.
+
+Table 11
+Heat balance.
+Reduction reaction
+
+Reaction (kg/h)
+Fe2O3
+
+[1] Fe2O3 þCO¼ FeOþ CO2
+[2] FeOþ CO¼FeþCO2
+
+25,660
+
+Combustion reactions
+
+Reaction (kg/h)
+C
+
+[3] C þCO2 ¼2CO
+[4] 2COþ O2 ¼ 2CO2
+[5] C þO2 ¼ CO2
+[6] I.C. V.M.C. burnt to CO2
+[7] I.C. V.M.C burnt to CO
+[8] I.C. V.M. H2 burnt to H2O
+[9] Coal devolatization
+Miscellaneous heat
+[10] Radiation loss from the kiln wall
+
+5405
+12,611
+2371.3
+606.48
+360.99
+
+CO
+
+Product (kg/h)
+FeO
+
+CO
+
+FeM
+
+20,881.34
+
+4490.6
+8120.52
+
+16,241
+
+HG (cal/h)
+
+FeO
+
+CO2
+
+23,094
+
+7056.66
+12,760.82
+Product (kg/h)
+
+CO2
+
+H2
+
+O2
+
+204.53
+
+7206
+6323
+1617
+481.3
+1636
+
+19,817.48
+
+CO
+
+CO2
+
+HG (cal/h)
+
+H2O
+
+25,222.24
+19,817.6
+8694.8
+2223.75
+842.33
+1840.9
+
+πDL  6366
+Heat transfer coefficient ¼ 6366 kcal/h m2
+
+ 0.492
+ 0.616
+
+þ 17.94
+ 32.47
+ 18.67
+ 4.775
+ 0.823
+ 7.135
+þ 0.816
+
+þ 8.00
+
+[11] Vaporization of moist ¼ 2047  540
+[12] Decomposition of CaCO3
+
+þ 1.10
+þ 0.246
+
+[13] Sensible heat loss in
+(a) Sponge iron
+(b) Char and ash
+(c) Flue dust
+(d) CaO
+(e) Waste gas
+(f) V.M.
+Total
+
+þ 2.74
+þ 1.20
+þ 0.72
+þ 0.10
+þ 28.3
+þ 2.28
+ 64.98
+
+Other losses by difference
+
+þ 63.436
+1.544
+¼ 64.98
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+11
+
+Similarly, sensible heat input for coal and air can be calculated and found as 0.1789 Gcal and 0.3875 Gcal, respectively.
+
+Total heat in (by different streams) = 0.7383 Gcal
+
+(24)
+
+Heat generated through reactions = 64.98 Gcal (From Table 11)
+
+(25)
+
+Heat consumed in reactions = (+17.94) + (+0.816) + (+0.246) = 19.002 Gcal
+
+(26)
+
+Total heat out = (+8.0) + (+2.74) + (+1.2) + (+0.72) + (+0.1) + (+28.3) + (+2.28) = + 43.34 Gcal
+
+(27)
+
+Thus, based on Eqs. (24)–(27), it can be seen that balanced value of 3.3763 Gcal is considered as other losses.
+Heat balance shows that total 62.342 Gcal [Eqs. (26) and (27)] of energy is consumed in kiln from which 35.35 Gcal [Eq.
+(27) – 8.0] is lost in the form of sensible heat and only 26.992 Gcal is utilized in the process which is 43.3%. The major
+fraction of total energy is lost to the atmosphere through waste gas exiting from the rotary kiln. This fact is used to develop
+model for coal consumption as shown in Section 3.6.
+3.6. Model development for coal consumption
+In the sponge iron plant, the only source of energy is coal which produces energy through its combustion. Coal consumption is decided by the energy demand of the process which depends on heat requirement of incoming air and feed
+materials for pre heating, heat involved in the reaction of reduction process, heat lost through the rotary kiln wall, preheating required by coal itself and latent heat required for evaporation of moisture of feed material.
+The estimation of total heat requirement for conventional process consists of the following expressions.
+3.6.1. Heat gained by the inlet air and bed of material
+In the preheating zone inlet air and iron ore is heated upto reaction temperature and then reduction takes place in the
+respective zone. The sensible heat gained by air and ore is supplied by combustion of coal and computed using following
+equations:
+
+Q a = ma Ca (Tp − Ti )
+
+(28)
+
+Q s = ms Cs (Tp − Ti )
+
+(29)
+
+where Tp is the reaction temperature and Ti is the ambient temperature.
+3.6.2. Heat involved for the reduction process to continue
+This heat is computed using heat balance of the process where heat of reaction is computed for reduction reactions,
+Reactions (1) and (2), as shown in Eqs. (4) and (5) and also in Table 11.
+3.6.3. Heat lost through the kiln wall
+
+Qloss = 2pDL × hr
+
+(30)
+
+The actual heat lost through the wall includes the heat lost through the kiln shell, inlet and outlet hoods, post combustion chamber and inlet area of the cooler. Therefore, the total heat loss is considered as twice as that of the kiln [1].
+3.6.4. Heat gained by coal
+The coal is also required to be preheated upto the reaction temperature and sensible heat involved for this is shown as
+
+Q c = mc Cc (Tp –Ti ).
+
+(31)
+
+3.6.5. Heat required for removing moisture of feed material
+
+Q m = mm × λ
+
+(32)
+
+The final empirical relation for estimating coal requirement is
+
+Q s + Q a + Q p + Qloss + Q c + mm × λ = mc NHV (0.433)
+or
+Q s + Q a + Q p + Qloss + 0.04ms × λ = mc ⎡⎣NHV (0.433) − Cc (Tp − Ti ) ⎤⎦
+
+(33)
+
+12
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+where NHV is the net heating value of coal. The value of mc can be predicted from Eq. (33).
+3.7. Air requirement
+Computation of air requirement based on oxygen demand of the process, which is computed from reduction as well as
+combustion reactions, is carried out.
+
+Oxygen required = total O2 consumed in reactions − total O2 present in coal
+
+(34)
+
+Total O2 consumed in reactions = Reaction nos. (4) − (8) (From Table 11) = 17, 263.3 kg/h
+
+(35)
+
+Total O2 present in coal = 0.0659 × 13990 + 0.0667 × 7730 = 1437.53 kg/h (From Table 6)
+
+(36)
+
+Oxygen required = Eqs. (35) and (36) = 15, 825.77 kg/h
+Air required (theoretical) = 15, 825. 77/0. 21 = 75, 360. 8 kg/h
+Air required (A tune of excess air 11.348% as per plant practice) = 83, 913 kg/h
+
+(37)
+
+3.8. Coal consumption
+The model for computation of coal consumption is developed under Section 3.6. Where
+
+Q s = 30, 000 × 0.96 × (1020 − 30) = 28, 512, 000 kJ/h
+
+(38)
+
+Q a = 83, 913 × 1.0326 × (1020 − 30) = 85, 782, 078.16 kJ/h
+
+(39)
+
+Q p = Eqs. (4) + (5) (Also shown in Table 11) = − 4, 638, 085.6 kJ/h
+
+(40)
+
+Qloss = 66, 989, 919.34 kJ/h (From Table 11)
+
+(41)
+
+Using Eqs. (38)–(41) and ms, λ, NHV, Cc, Tp and Ti as 30,000 kg/h, 2256.9 kJ/kg, 22,759.3 kJ/kg, 1.38 kJ/kg K, 1020 °C and 30 °C,
+respectively, mc is predicted from Eq. (33) and found as 21,720 kg/h. In the present sponge iron processes ratio of feed coal to
+coarse coal is 1.8. Thus, feed coal and injection coal value is to be 13,990 kg/h and 7730 kg/h, respectively. Above
+computation shows that in sponge iron production process the ratio of air to coal is 3.86339.
+
+4. Results and discussion
+It can be seen from Table 11 that the product to feed ratio comes out to be 63%. About 479.9 kg of iron per hour is lost. It
+may be seen that the ore undergoes disintegration inside the kiln resulting in higher loss of gangue content as compared to
+loss of iron. Such higher loss of gangue material produces iron rich product. The iron oxide loss in the fly ash is about 42%
+which may be due to higher velocity of the waste gas.
+The calculations show that as per plant practice, air requirement is about 2497.4 m3 per ton of ore feed. This should be
+very controlled very carefully which will sustain reducing atmosphere inside the kiln. It is also seen that CO/(COþ CO2) in
+the kiln is 56% indicating that atmosphere is reducing.
+The efficiency of the coal based sponge iron process is defined as the energy needed for the reduction reactions compared to the energy added to the system. Due to chemical reactions and combustion the heat generated inside the kiln is
+64.98 Gcal/h and the heat value of coal input is 118.6 Gcal/h resulting in a thermal efficiency of the process to be 51.31%.
+Considerable amount of heat is lost in the waste gas which is about 43.5% of the heat generated in the kiln. Sponge iron
+containing 92.5% total iron could be produced with FC/Fe(T) ratio of 0.381.
+It is the fact that the coal consumption per ton sponge iron produced increases when the retention time decreases, since
+the loss of waste gas increases. The increase of exhaust losses is due to the shortened preheating zone and resulting decreased preheating of kiln bed by exhaust gas compared to longer retention times. Shortened preheating zone at less
+exhaust losses can be achieved by preheating the feed materials. Preheating of inlet air will give another advantage in this
+impasse. Besides above, preheating the feed material outside the kiln reduces the preheating time which in turn, reduces
+preheating zone. Larger reduction zone will lead to operate the kiln at lower temperature than that of the existing maximum temperature of the kiln i.e. 1170 °C. Undoubtedly, amount of coal requirement will come down. Secondly, increasing
+heat transfer using higher temperature for sponge iron making may lead to inefficient operation and operational problems
+such as localized heating and liquid phase formation. The combined effect of above two advantages gives an impact on the
+process of sponge iron making.
+Coal being the costliest raw materials for sponge iron making and if very high volatile material (VM) coals are used i.e.
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+13
+
+(fixed carbon) FC/VM ratio is 1 or less, it would be an ideal reductant to react. However, most of the VM in feed coal is lost at
+the kiln mouth when coal encounters counter flowing hot waste gases. Productive utilization of energy in waste gases help
+reap this benefit and would even permit to use even higher VM coals [2].
+In the present process, the only source of heat is coal and the required heat is generated by combustion of coal with the
+air in the rotary kiln. This heat is utilized in removing the moisture of feed and coal, preheating of feed up to desired
+temperature, metallization of iron ore, compensating radiation loss from kiln wall and decomposition of dolomite, etc. So,
+coal and air can be taken as hot utility streams as far as process integration terminology is concerned. The four potential
+possible areas are identified, where energy is being lost and can form a part of heat integration, are as follows:
+(1) An appreciable portion of the energy is being lost in the rotary kiln which has been shown through material and energy
+balance reported in Tables 10 and 11. The computation points out that 4.2%, 1.12%, 43.5% and 3.6% energy is lost through
+streams of sponge iron, char, waste gas and volatile matter, respectively. It is clear from this figure that significant
+amount of heat is also lost with waste gas.
+(2) Hot sponge iron is being cooled with water in rotary cooler. For this purpose water is being sprayed on the shell of cooler
+and the vapor generated from it goes directly to atmosphere. As a consequence of it the temperature of sponge iron
+drops from 1020 °C to 110 °C. In this process the cold water is heated up from 30 °C to 34.7 °C. Such type of cooling is
+recommended in Process Integration as it is an avoidable loss of driving forces.
+(3) Clean waste gas is generated in ESP from where it goes to the chimney at the temperature of 220 °C. From the chimney
+waste gas goes to the atmosphere, which is also a loss of considerably high temperature heat.
+(4) Feed material as well as air enters the process (mainly rotary kiln) at ambient temperature and reduction reactions are
+taking place at 1020 °C. This requires feed to be preheated up to 1020 °C before the reactions to be started which needs
+the significant amount of heat generated from combustion of coal. This preheating could be done by the waste gas.
+However this is not done in the process which can be under taken for the study. As a result of it a large amount of coal is
+being utilized for preheating the feed material and air which otherwise could have been saved.
+Thus, these are the four potential areas where energy is being lost and not tapped. This energy can be utilized in the
+process through proper heat integration and thus, could decrease the amount of heat demand in other words coal.
+These scenarios offer possible savings through heat integration within the process. The philosophy behind the above heat
+integration can be understood from Fig. 6. The figure shows the placement of all equipments, used for sponge iron production and that are abbreviated in Fig. 1, between highest and lowest temperatures available in the industry. The highest
+quality heat (in terms of highest temperature) is supplied to the process and lowest quality (in terms of lowest temperature)
+is being discharged from the process to sink (i.e. atmosphere or cold water). Reduction in the highest quality heat (coal and
+air) using proper heat integration in the process automatically reduces the cold utility (water) requirement also.
+Further, it will be interesting to know that how much heat is being recovered through process to process heat transfer
+which is also called as internal heat exchange. For this purpose a ideal case is formulated where solid streams as well as total
+air stream is being preheated upto the reaction temperature so that the possibility of maximum process to process heat
+recovery can be achieved. In fact, this case may not be practically feasible as streams are heated to a considerably higher
+temperature i.e. equal to 1020 °C. However, it may give an idea that how much heat can be recovered within the process.
+This case is considered as most ideal case to grade other scenarios. The stream data for this case is abbreviated from Table 1
+and composite curve is drawn at in Fig. 7. The energy requirements for this case are targeted using Pinch Analysis [14,15]
+considering ΔTmin as 50 °C and found that requirement of hot utility cold utility are 9808.3 kW and 142.3 kW, respectively.
+Here, waste gas (Stream no. 18) as a hot stream is utilized and heat integrate it with cold streams. Due to the lower heat
+transfer coefficient of the waste gas stream, it will require substantially large area for heat transfer. However, the effect of
+
+Highest quality heat supplied to process
+1050
+1020
+RK
+
+900
+EC
+
+Temperature
+
+RC
+
+250
+220
+
+Sponge iron
+production
+process
+
+ABC
+DSC
+
+110
+
+CH
+
+80
+WS
+
+30
+Lowest quality heat rejected from the process
+
+Fig. 6. Placement of different equipments between highest and lowest quality heat.
+
+14
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+Possible heat
+recovery within
+the process
+[34294.5 kW]
+
+1200
+
+Temperature [C]
+
+1000
+
+Hot
+composite
+curve
+
+800
+600
+400
+
+Cold
+composite
+curve
+
+200
+0
+
+0
+
+10000
+
+20000
+
+30000
+
+40000
+
+50000
+
+Enthalpy [kW]
+
+Fig. 7. Composite curve for case with maximum possible internal heat exchange.
+
+lower heat transfer coefficient can be somewhat compensated by increasing the temperature difference (ΔT) between the
+waste gas stream and the cold stream [14]. It shows that maximum internal heat exchange is 34,294.5 kW. The amount of
+energy that can be saved in term of coal using process integration is 24.9%. Due to 24.9% less coal consumption, air requirement in the process is dropped down from 83.9 t/h to 63 t/h and water requirement is dropped down from 57 t/h to
+42.8 t/h, consequently, waste gas generation is also reduced from 157.9 t/h to 118.6 t/h.
+
+5. Conclusions
+Thermal efficiency of merely 51.3% may seem low, but since the reduction reactions require such high temperatures
+energy losses are inevitable. A material and energy balance around the kiln indicates that due to chemical reactions and
+combustion, heat generated inside the kiln is 272 GJ/h, which is the total theoretical energy required for the kiln. However,
+the actual energy consumption in a conventional plant in the kiln comes out to be 498 GJ/h. This value is 45.2% more than
+the theoretical energy consumption. The above departure in energy consumption figures decreases an efficiency of the kiln.
+It can be enhanced by proper process to process heat integration using the four potential areas of the sponge iron process
+where energy is being lost and untapped. This is the internal use of energy of the processes. Power generation by adopting
+the WHRB is not very successful in Indian conditions as described in the above section. For external energy supply, the waste
+gas can be used for space heating and to generate hot water for surroundings. But, this will also not suit in Indian conditions
+as this type of energy conservation is not very demanding and valuable in India.
+The largest improvements in energy efficiency would in this case be obtained by one of the possible ways to reduce
+energy consumption is to integrate the heat available in the process and thus, minimize heat demand from outside source.
+Based on the above discussions, the following conclusions are formulated for the present study:
+1. By applying process integration principles, the maximum possible heat of an amount 34,294.5 kW can be recovered
+within the process.
+2. The amount of energy that can be saved in the present study in terms of coal is 24.9%.
+3. Process integration is the best option to reduce the heat losses in the process of sponge iron making which also reduces
+the waste gas generation and water consumption as reduction in the highest quality heat (coal and air) using proper heat
+integration in the process automatically reduces the cold utility (water) requirement also.
+4. Due to 24.9% less coal consumption, air requirement in the process is dropped down from 83.9 t/h to 63 t/h and water requirement is dropped down from 57 t/h to 42.8 t/h, consequently, waste gas generation is also reduced from 157.9 t/h to 118.6 t/h.
+
+References
+[1] S.C. Jena, N.K. Patnaik, A. Sarangi, Heat and mass balance in rotary kiln sponge iron making, in: Proceedings of the International Conference on Alternative Routes
+to Iron and Steel, Jamshedpur, India, January 11–13, 1996, pp. 59–64.
+[2] V.P. Agarwal, K.C. Sood, Direct reduction through coal route & power generation from the kiln waste gases, in: Proceedings of the International Conference on
+Alternative Routes to Iron and Steel, Jamshedpur, India, January 11–13, 1996, pp. 51–56.
+[3] H.P. Misra, B. Ipicol, Indian sponge iron production-problems and solution, SGAT Bull. 7: (2006) 37–46..
+[4] D.K. Biswas, S.R. Asthana, V.G. Rau, Some studies on energy savings in sponge iron plantJ. Energy Resour. Technol. 125 (2003) 228–237.
+[5] D. Ruifeng, Z. Zaoxiao, L.U. Hongfang, Y.U. Yunsong, Recovery of waste heat in cement plants for the capture of CO2Front. Chem. Sci. Eng. 6 (1) (2012) 104–111.
+[6] V. Kumar, S. Khanam, Recovery and utilization of waste heat in a coal based sponge iron process, Chem. Eng. Process.: Process Intensif. 56 (2012) 19–28.
+[7] A.K. Prasad, R.K. Prasad, S. Khanam, . Design modifications for energy conservation of sponge iron plants, J. Therm. Sci. Eng. Appl.: ASME 3 (1) (2011) 1–11.
+[8] D.W. Green, R.H. Perry, Perry's Chemical Engineers' Handbook, 8th ed. McGraw-Hill, New York, 2008.
+
+N.R. Dey et al. / Case Studies in Thermal Engineering 6 (2015) 1–15
+
+15
+
+[9] E. Hajidavalloo, A. Alagheband, Thermal analysis of sponge iron preheating using waste energy of EAF, J. Mater. Process. Technol. 208 (2008) 336–341.
+[10] J.G. Speight, Handbook of Coal Analysis, John Wiley and Sons Inc, New Jersey, 2005.
+[11] F. Grønvold, E.J. Sawelsen, Heat capacity and thermodynamic properties of α-Fe2O3 in the region 300–1050 K antiferromagnetic transition, J. Phys. Chem. Solids
+36 (1975) : 249–256.
+[12] 〈www.engineeringtoolbox.com〉, November 2013.
+[13] 〈www.taftan.com〉, November 2013.
+[14] B. Linnhoff, D.W. Townsend, D. Boland, G.F. Hewitt, B.E.A. Thomas, A.R. Guy, R.H. Marsland, User Guide on Process Integration for the Efficient Use of Energy, The
+Institution of Chemical Engineers, Rugby, 1982.
+[15] T. Gundersen, Heat integration: targets and heat exchanger network design, in: J.J. Klemes (Ed.), Handbook of Process Integration (PI): Minimization of Energy
+and Water Use, Waste and Emissions, Woodhead Publishing, Cambridge, 2013.
+
+Update
+Case Studies in Thermal Engineering
+Volume 7, Issue , March 2016, Page 120
+DOI: https://doi.org/10.1016/j.csite.2016.01.004
+
+Case Studies in Thermal Engineering 7 (2016) 120
+
+Contents lists available at ScienceDirect
+
+Case Studies in Thermal Engineering
+journal homepage: www.elsevier.com/locate/csite
+
+Corrigendum
+
+Corrigendum to: “Energy survey of the coal based sponge
+iron industry” [CSITE 6C (2015) 1–15]$
+Nishant R. Dey, Anil K. Prasad, Shravan K. Singh
+Department of Mechanical Engineering, National Institute of Technology, Jamshedpur, Jharkhand 831014, India
+
+Following publication of the article, and in discussion with the Editor-in-Chief, Prof. Huihe Qiu, it has been agreed that
+the authorship of this article should be amended to read as follows:
+A.K. Prasad, R.K. Prasad, Shabina Khanam and Nishant R. Dey
+Department of Mechanical Engineering, National Institute of Technology, Jamshedpur, Jharkhand 831014, India
+This change has been approved by the authors, by the Editor-in-Chief, Professor Qiu, and by the Publisher, Keith Lambert.
+
+DOI of original article: http://dx.doi.org/10.1016/j.csite.2015.04.001
+☆
+DOI of original article: http://dx.doi.org/10.1016/j.cplett.2015.07.012
+http://dx.doi.org/10.1016/j.csite.2016.01.004
+2214-157X/& 2016 The Authors. Published by Elsevier Ltd. All rights reserved.
+
+

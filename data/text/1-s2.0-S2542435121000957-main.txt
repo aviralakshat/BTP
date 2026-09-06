@@ -1,0 +1,2465 @@
+ll
+Review
+
+Low-carbon production of iron
+and steel: Technology options,
+economic assessment, and policy
+Zhiyuan Fan1,* and S. Julio Friedmann1
+
+SUMMARY
+
+Context & scale
+
+Given increased urgency to transition the global economy to netzero CO2 emission, governments and industry have increased focus
+on decarbonizing hard-to-abate sectors, including steel making,
+which contributes roughly 6% of global CO2 emission and 8% of energy-related emission (including power consumption emission). This
+paper reviews current global iron and steel production and assesses
+available decarbonization technologies, including hydrogen injection, solid biomass substitution, zero-C electricity substitution, carbon capture and storage (CCS) retrofit, and combinations of these
+decarbonization approaches. Blast furnace-basic oxygen furnace
+(BF-BOF) dominates production (71%) and is particularly stubborn
+to any decarbonization technology. Direct reduced iron to electric
+arc furnace (DRI-EAF) production is 5% and growing, it appears to
+have better decarbonization potential to move toward net-zero.
+Secondary steel production using mainly steel scrap in electric arc
+furnace (EAF-scrap) is 24% of global production and has both the
+lowest energy consumption and is technically simplest to decarbonize through electrification but is limited in market share to recycled steel capacity. Of the options assessed, blue hydrogen,
+carbon neutral biomass, and CCS appear to have the lowest cost
+and highest technical maturity. However, no single approach today
+can deliver deep decarbonization to the iron and steel industry and
+all approaches lead to substantial production cost increase. No uniform ideal solution exists, and different geographies, infrastructure,
+and economies will determine the local optimum solution with
+viability and cost. Policy measures will be required to provide financial incentives for decarbonization and to avoid unwelcome outcomes such as emissions leakage or job loss.
+
+This paper explores existing
+approaches and potential
+decarbonization paths of the
+global iron and steel industry: fuel
+switching to low-C hydrogen,
+solid biomass, zero-carbon
+electricity substitution, and
+retrofit with carbon capture and
+storage (CCS). Achieving net-zero
+primary production with current
+available technologies faces many
+challenges from plant design
+fundamentals (BF or DRI),
+resource availability, carbon
+footprint uncertainty, and cost.
+Long-term opportunities to reach
+net-zero require asset
+replacement, combining
+approaches, or both. Short-term
+opportunities lie in CCS retrofit
+and fuel substitution, particularly
+blue hydrogen, carbon-neutral
+biomass, and zero-carbon
+electricity but only provide low or
+partial GHG reductions. For
+individual plants, the optimal local
+solution depends on geography,
+natural resources, infrastructure,
+and economies. Large-scale
+deployment is limited by resource
+availability, infrastructure, and
+policy incentives.
+
+INTRODUCTION
+A core challenge in the energy transition and deep decarbonization is the growing demand for primary energy services. It is widely understood that man-made climate change
+is chiefly caused by greenhouse gas emissions, especially carbon dioxide (CO2), and that
+the consequences of global warming will be profound, widespread, and destructive.1
+Nonetheless, global emissions have risen more or less continuously for the past 25 years
+and have increased each of the last 3 years.2 This is chiefly due to the growing demand of
+energy and of products that require energy for their production.
+Nowhere is this challenge more evident than in the industrial sector, which has
+grown profoundly and rapidly over the last 20 years.3 Steel, a major sector from
+
+Joule 5, 829–862, April 21, 2021 ª 2021 Elsevier Inc.
+
+829
+
+ll
+Review
+
+Figure 1. Top 20 steel-producing countries in million tons (2015)
+Source: Worldsteel association. 4
+
+a commercial and emissions standpoint, is an essential material for the modern
+world and is a key component of many national economies (Figure 1). It is used
+in construction, military and defense, and manufacturing (e.g., automobiles). A
+globally traded commodity, iron and steel production has tripled production since
+2000, and 2018 saw $2.5 trillion in sales.4 It is also an enormous source of greenhouse gases: today’s dominant production pathway BF-BOF is very carbon intensive (see Table 1), whereas the iron and steel industry generates roughly 6% of
+global CO2 emissions (see Table 2).
+From a technical perspective, the challenge of decarbonization involves two processes: chemical reduction for iron ore refining (process emission), commonly with
+metallurgical coal and coke, and from the high-temperature heat sourced needed
+to operate blast furnace (BF) and other production reactor.5
+Unlike the power sector, there are relatively few technical options to manage these
+challenges. From a non-technical perspective, challenges include the globally
+traded nature of the commodity, national dependencies for both security and economic well-being, the small margins of most producers, and labor politics.6 Moreover, operating assets have long capital lives and are expected to operate for
+many decades, limiting the rate and range of options to substitute for existing facilities and thereby reduce emissions.7
+
+830
+
+Joule 5, 829–862, April 21, 2021
+
+1Center on Global Energy Policy, Columbia
+
+University, New York City, NY, USA
+*Correspondence: zf2198@columbia.edu
+https://doi.org/10.1016/j.joule.2021.02.018
+
+ll
+Review
+
+Figure 2. Steel production by pathway
+Source: Worldsteel association. 4
+
+This paper examines near-term options to rapidly reduce greenhouse gas (GHG)
+emissions in steel production and seeks to identify and explain near-term pathways
+to reduce GHG emissions of steel hot metal (HM). We examine technical options in
+terms of cost, viability, readiness, and ability to scale. In addition, we assess key aspects of current commercial markets and potential policy options to accelerate a
+transition to low-emissions production of steel.
+Overview of iron and steel production
+World crude steel production exceeded 1,808 million tons in 2018 and had a 4.5%
+growth compared with the 2017 level.4 Three dominant production processes
+contributed to 99.6% of steel HM production (Figure 2) as follows:
+1. Blast furnace-basic oxygen furnace (BF-BOF): This is the dominant steel production route in the iron and steel industry, involving the reduction of iron
+ore to pig iron in the blast furnace. BF-BOF operation relies almost entirely
+on coal products, emitting 70% of CO2 in the integrated plant (BF iron
+making). Hot iron is then charged to a basic oxygen furnace (BOF) to make
+steel HM (BOF steel making). An integrated BF-BOF production plant also includes process plants for coking, pelletizing, sinter, finishing, and associated
+power production.
+2. Electric arc furnace (EAF): this steel making process using electric arc to heat
+charged materials such as pig iron, steel scraps, and direct reduced iron (DRI)
+product (also referred as sponge iron) with electricity as the only energy
+source. Today, EAF is the dominant approach for steel recycling (i.e., secondary steel production) and also contributes to primary steel production by upgrading or refining DRI sponge iron. EAF steel production operates in batch
+mode instead of continuous like a BF-BOF plant.
+3. DRI: This iron production process directly reduces iron ore in solid-state with
+the reaction temperature below the melting point of iron. Reducing gases are
+produced from natural gas (gas-based DRI) or coal (coal-based DRI) called syngas, a mixture of H2 and CO. Although DRI production is more energy efficient
+than pig iron production from BF, additional processing (typically EAF) is
+needed to upgrade DRI sponge iron for market.
+These processes operate with different feedstocks. The BF-BOF pathway converts raw iron ore to pig iron and then to steel HM, whereas EAF converts both
+steel scrap and sponge iron to steel HM. DRI converts raw iron ore to sponge
+iron, a porous, permeable, and highly reactive product that requires treatment
+
+Joule 5, 829–862, April 21, 2021
+
+831
+
+ll
+Review
+
+Figure 3. BF-BOF pathway (71% global production) flow diagram, electricity consumption, and
+CO2 emission sources
+See Tables 1 and 2.
+
+with EAF before selling to market. One of the well-known hard-to-abate sectors,
+substantial iron and steel industry decarbonization will increase production cost
+significantly (> $120 per ton).8 The core issue of decarbonizing it is not lack of
+technological solutions but that these solutions carry high abatement costs,
+which directly affects market share, trade, and labor.
+This study focuses on the full process decarbonization of steel making, including the
+three primary or secondary processes discussed above and any necessary pre-treatments (such as sintering and coking in BF-BOF production) to produce HM (not
+including post treatment such as finishing and alloying). Specific integrated
+decarbonization methods that recover part of the energy input (e.g., quench gas reusing, top gas recycling, waste heat for carbon capture and storage (CCS), or H2 production) are discussed on a case basis.
+Blast furnace-basic oxygen furnace (BF-BOF)
+The BF-BOF route employs BF to reduce the iron ore to molten iron and subsequently refined to steel in a BOF. As the dominant technology for primary steelmaking, BF-BOF route produced 71% of global crude steel production, over
+1,279 million tons in 2018.4 Integrated BF-BOF operations (Figure 3) include pelleting, sintering, coking, and iron making (in BF) plus steelmaking (in BOF). This study
+covers the integrated route carbon emission and energy consumption, and assumptions are listed in Table 1.
+
+832
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 1. CO2 emission using integrated route BF-BOF technology
+Process
+
+Emission (kg-CO2 per ton-HM)a
+
+Emission (kg-CO2 per ton-HM)b
+
+BF
+
+1,514
+
+1,476
+
+coke production
+
+101
+
+97
+
+sintering
+
+276
+
+260
+
+pelletizing
+
+46
+
+35
+
+BOF steelmaking
+
+229
+
+193
+
+total
+
+2,225c
+
+2,061
+
+See Orth et al.9
+a
+The U.S. average electricity carbon intensity case: CO2 460 kg/MWh
+b
+The zero-C electricity case
+c
+2016 global weighted average for the top fifteen steel production countries is 2238 kg/ton crude steel
+HM, covering > 85% global steel production from BF-BOF.10
+
+The single biggest contributor to integrated BF-BOF steeling making CO2 emission
+is mainly driven by the requirement of carbon, usually coke, as the reductant. The potential to further minimize CO2 emissions with equipment upgrades and operation
+optimization is limited.11 This study targets low-carbon heat and low-carbon reductant for BF specifically, such as H2 and biomass-based material. Other assumptions
+that might be applied include the following: (1) zero-C electricity supply, (2) ore fines
+to avoid agglomeration, (3) fine coal to avoid coking. Combining these approaches
+could eliminate CO2 emission from coking, sintering, and pelletizing completely,
+yielding in maximumly 20% CO2 decrease for a facility.
+
+ELECTRIC ARC FURNACE (EAF)
+EAF is the most common way of producing secondary (recycled) steel from steel
+scrap feedstocks. EAF contributes 24% of global steel production, over 430 million
+tons (Mt) in 2018.4 It is the major steel production method for North American Free
+Trade Agreement (NAFTA) countries (59%), and the European Union (EU) (41%).4 As
+the most important electrification opportunity in the steelmaking industry, EAF production is intrinsically low-carbon compared with the integrated BF-BOF route and is
+easiest to modify. Studies show that the carbon footprint per ton of EAF steel can be
+as low as 0.230.46 ton CO2 depending on iron type (pig iron or scrap), electricity
+sources, and efficiencies. This would be only 10%20% of conventional BF-BOF operations.12 A typical EAF facility has about 1 Mt steel production capacity in
+comparing with a typical 3 Mt or large capacity of integrated BF-BOF mill,13
+requiring less up-front capital to invest in modifications.
+Limitations prevent EAF from playing a larger role in decarbonizing the whole steelmaking industry. First and foremost, EAF takes recycled steel scraps as feedstocks
+and is therefore subject to supply limitation. Second, batch operation yields intermittent and discontinuous duty cycles, causing power quality problems for transmission and generation.14 Both limitations prevent EAF from easy penetration deeper
+into the global steelmaking profile. In contrast, the higher penetration of intermittent renewables power generation might lead to increased market share and use.
+
+DIRECT REDUCTION OF IRON (DRI)
+EAF also consumes the products of DRI, also referred as sponge iron. DRI is as pure
+as pig iron and is an ideal feedstock to EAF efficiency gains. As a feedstock, EAF can
+take any fraction of sponge iron (from 0% to 100%). The DRI-EAF combination allows
+for higher electrification and lower emission if low-carbon feedstocks and electricity
+are used. The production of steel from the DRI-EAF route exceeded 90 million tons
+
+Joule 5, 829–862, April 21, 2021
+
+833
+
+ll
+Review
+
+Figure 4. EAF-scrap (24% global production) and DRI-EAF pathways (5% global production) flow
+diagrams, electricity consumption, and CO2 emission sources
+See Table 2.
+
+in 2018 (5% global production),4 with DRI sponge iron production over 100 million
+tons.15 India (coal feedstock) and Iran (gas feedstock) are the leading countries in
+producing DRI.
+DRI production requires lower temperatures for its direct reduction reaction and is a
+solid-state process at temperatures below the melting point of iron (1,200 C).
+Reduction gas (commonly a mixture of H2 and carbon monoxide [CO] syngas) is typically made from either natural gas or coal. Two of the main reduction reactions in the
+kiln: Fe2O3 + CO and FeO + CO, are still the main sources of CO2. The current DRIEAF route using natural gas has only 62% the carbon footprint as a traditional integrated BF-BOF route.16 It also has a better deep decarbonization potential, given
+that the reduction gas is easily replaced with higher H2 mixtures or even full
+hydrogen,17 whereas BF-BOF faces greater difficulty in higher H2 use because of facility retrofit barriers (see the section ‘‘hydrogen in BF and DRI’’ below).
+Both EAF steelmaking pathways’ flow diagram are shown jointly in Figure 4.
+
+NOVEL APPROACHES
+The above summaries cover the overwhelming majority of world steel production
+(> 99%). Multiple novel technologies under development show great potential to
+
+834
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 2. Data input for steel production scenarios
+Production methods
+
+BF-BOF
+
+EAF
+
+DRI-EAF
+
+global production share (%)
+
+71%
+
+24%
+
+5% (coal-based 1% +
+gas-based 4%)
+
+primary reactors: CCS suitablea
+(kgCO2 per ton)
+
+1,4769
+
+0
+
+1,048 (coal-based)
+522 (gas-based)23,24
+
+pre-treatment reactors: not CCS
+suitable (kgCO2 per ton)
+
+5859
+
+42025
+
+30726
+
+electricity intensity (kWh per ton)
+
+35627
+
+91827
+
+380 (coal-based DRI)
+313 (gas-based DRI)27
+
+DRI-EAF electricity intensity (kWh per ton)
+
+N/A
+
+N/A
+
+91827
+
+electricity carbon intensity (kg per MWh)
+
+460
+
+28
+
+28
+
+460
+
+HM carbon intensity (kgCO2 per ton)
+
+2,225
+
+842
+
+46028
+
+global weighted average (kgCO2 per ton)
+
+1,857c (electricity emission: 246 kgCO2
+per ton-HM, 13.3%)
+
+1953 (coal-based)
+1395 (gas-based)b
+
+See Dey et al.23, Orth et al.9, Holling and Gellert24, United States Environmental Protection Agency25, Barati26, Hasanbeigi et al.27, and U.S. Energy Information Administration28
+a
+In this paper, CCS applies only on large-point source CO2 emission from the primary production reactors
+such as BF top-gas and DRI exit gas.
+b
+Conversion of DRI to HM in weight is assumed 90% (2018 data, 100 Mt DRI15 produced 90 Mt HM).4 HM
+carbon intensity from DRI-EAF include both DRI carbon emission and EAF carbon emission (electricity
+only)
+c
+On average for 2017, roughly 1.9 tons of CO2 were emitted for every ton of steel produced, which accounts for approximately 6.7% of global GHG emission.29 These 3 hypothetical models’ weighted
+average matches the global carbon emission from the iron and steel industry.
+
+replace the dominant steel production pathways in the far future but not yet
+commercially available. These include the HIsarna smelting ironmaking process
+and molten oxide electrolysis (MOE), both anticipated to enter pilot plant testing
+in the short-term future.
+HIsarna is a direct bath-smelting reduction technology that combines coal preheating and partial pyrolysis with the smelting reduction vessel working as its
+core reaction container.18 It can allow non-coking coal and low-cost iron ores
+(outside BF quality range) to produce iron with 20% less carbon footprint.19 Commercial level successfulness for this technology is expected in 10–20 years.20
+MOE can allow electricity as the only energy source and reduction agent for steelmaking.21,22 Its carbon footprint is therefore chiefly determined by electricity
+sources. Although promising, novel processes such as these are outside the
+scope of this study, which focuses on existing facility decarbonization, and only
+discussed cursorily.
+In this study, we use three hypothetic plants to represent the global steelmaking
+asset base (Table 2): one integrated BF-BOF plant, one EAF plant with steel scrap
+as feedstock, and one DRI-EAF configuration. The data in Table 2 is representative.
+We recognize that EAF can take feedstock from DRI sponge iron (e.g., India & Iran),
+BF pig iron (e.g., China), and steel scraps (most Organization for Economic Co-operation and Development [OECD] countries) and process them together.10 Similarly,
+the DRI carbon footprint will vary if syngas is produced from a coal-based process
+or gas-based process15 (also see Table 2). As such, our analyses are representative
+and inclusive but not comprehensive.
+Using these data and production scenarios, we assess multiple decarbonization options applied to existing facilities or pathways, including H2, biomass, top-gas CCS,
+and zero-C electricity. Existing plants’ retrofit is essential, given that most
+
+Joule 5, 829–862, April 21, 2021
+
+835
+
+ll
+Review
+Table 3. H2 assumptions summary
+H2 price
+values
+
+Hydrogen
+production
+price ($ per kg)
+
+Electricity
+consumption
+MWh per
+ton DRI
+
+Wind elec.
+price $ per
+MWh
+
+Basic cost
+($ per Nm3)
+
+Total: basic +
+preheat
+($ per Nm3)
+
+H2 green
+
+6.645
+
+N/A
+
+N/A
+
+0.536
+
+0.582
+
+H2 blue (89% CCS)
+
+1.935
+
+N/A
+
+N/A
+
+0.156
+
+0.201
+
+H2 pre-heat
+
+N/A
+
+0.2334
+
+11934
+
+0.046
+
+N/A
+
+production capacity is in Asia Pacific (e.g., China) and most facilities have more than
+25 years average capital life remaining.30 We compare the potential, production
+cost, and supply requirement among these decarbonization options by using the
+current integrated BF-BOF route as a baseline.
+
+HYDROGEN IN BF-BOF AND DRI
+Chemically, H2 is carbon-free and capable of satisfying both heating (direct combustion) and reduction requirements (replacing coke and CO) for steelmaking. Today,
+almost all H2 supply is produced from fossil fuel, with global demand exceeding
+73.9 million tons in 2018.31 H2 production consumes 6% of global natural gas and
+2% of global coal, emitting 830 million tons of CO2. As such, current hydrogen production is far from carbon-free on a life-cycle assessment (LCA) basis. However, blue
+H2 (fossil fuel + CCS H2 production) and green H2 supply (renewable electricity + water electrolysis H2 production) show potential and are reasonably mature, with
+potential for near-term cost decline and production growth.32,33 For this study,
+blue H2 is selected to be steam methane reforming (SMR) + 89% CCS production.
+Adapting H2 into iron making (BF and DRI) has great potential to proceed to
+deep-decarbonization and with carbon-free or carbon-neutral endmembers as a
+function of feedstock. Preheating of H2 gas is found to be needed for DRI injection
+in literature (see Table 3) and therefore included. A similar pre-heating requirement
+does not show up in the BF injection because of inherent hot air blast design.
+
+BF-BOF HYDROGEN INJECTION
+Yilmaz et al.35 show that using H2 as an auxiliary reducing gas for BF to partly
+replace CO derived from either coal or coke can reduce CO2 emission by 21.4%.
+Pure H2 injection into the BF by tuyeres through its raceway at the bottom of the
+BF, replacing 120 kg/t pulverized coal (PC) with 27.5 kg/t heated H2 injection. Simulations showing that the energetic state is not changed significantly if only the
+auxiliary reducing gas is replaced when operating with H2 in relation to the reference case by using pulverized coal, suggesting minor BF retrofit requirement
+and universal application potential. With this approach, each 1-ton CO2 emission
+reduction requires 95 kg of H2 so the cost of zero-C H2 determines the associated
+cost increase of low-carbon steel production (HM). Schematics of green H2 feeding
+into BF is shown in Figure 5.
+Unsurprisingly, existing BFs have operational requirements and designs that limit
+higher H2 substitution and full H2 operation.36 Further increasing H2 concentration
+in the CO + H2 mixture will gradually transform the exothermic reaction to endothermic, lowering the temperature and greatly affecting the basic chemistry inside
+the BF.37 The effect of adding H2 to BF includes the optimum temperature, gas utilization rate, reaction rate, etc. that the overall content of H2 in gas-injection BF
+should be 5%–10% considering all limitations.35 Extreme high H2 penetration in
+BF-route-based steelmaking equipment will be very challenging.
+
+836
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+
+Figure 5. Schematic of H2 injection in BF using green H2 from water electrolysis
+
+To substitute reducing agents like coke with hydrogen in a BF-BOF, 27.5 kg
+hydrogen per ton of HM production is needed, which would decrease carbon emissions 21.4% (0.46 ton-CO2 per ton steel production). At scale, 35.2 million tons of
+hydrogen for the BF-BOF route, 1,279 million tons production will be consumed.
+For comparison, 73.9 million tons H2 served markets in 2018 (global refining
+consumed 38.2 million tons of H2; global ammonia production consumed 31.5
+million tons).31 Using hydrogen to decarbonize BF-BOF steelmaking would consume
+the same amount of hydrogen and all hydrogen production must be low-carbon
+(e.g., blue or green).
+As shown in Table 4, H2 substitution with green H2 will be cost competitive today if
+the carbon price is $300 per ton-CO2. Blue H2 from blue H2 (SMR 89% CCS) is cost
+competitive if carbon price is $120 per ton-CO2. This means hydrogen fuel substitution is a pathway to BF-BOF decarbonization and would require very large volumes
+of hydrogen production world-wide if deployed in large scale.
+
+HYDROGEN IN DRI
+DRI is a proven technology to use H2-rich gas for steel making from iron ore, producing over a 100 million tons of iron and ultimately over 90 million tons of steel in 2018.
+The reducing gas used for DRI production is syngas, produced from either coal gasification or SMR. Increasing H2 fraction in reducing gas for DRI production is simpler
+than replacing pulverized coal with H2 in a BF. In a gas-based DRI production process, up to 30% natural gas can be substituted by hydrogen directly without changing the process.17 Pre-heating and other pre-treatment of injected hydrogen might
+be needed, depending on hydrogen quality and quantity.34 Gas-based DRI process
+
+Joule 5, 829–862, April 21, 2021
+
+837
+
+ll
+Review
+Table 4. Cost increase per ton steel HM with hydrogen substitution and carbon tax avoided
+Cost comparison
+
+Price
+
+Cost increase
+($ per ton-HM)
+
+Marginal CO2 abatement cost
+($ per ton-CO2)
+
+0.46 ton-CO2 per ton-HM decarbonization cost (27.5 kg per ton H2 cost)
+hydrogen SMR
+
+$1.28 per kg
+
+$35 per ton
+
+hydrogen blue: SMR 89% CCUS
+
+$1.93 per kg
+
+$53 per ton
+
+$246 per ton
+$120 per ton
+
+hydrogen green
+
+$5.57 per kg
+
+$153 per ton
+
+$368 per ton
+
+0.46 ton-CO2/ton-HM decarbonization avoided carbon tax
+carbon price
+
+$60 per ton
+
+$28 per ton
+
+carbon price
+
+$120 per ton
+
+$57 per ton
+
+N/A
+N/A
+
+carbon price
+
+$300 per ton
+
+$142 per ton
+
+N/A
+
+For H2 cost sources, see supplemental information.
+
+can be adapted to 100% hydrogen operation with minor equipment retrofit—and
+have been.
+
+GAS-BASED DRI
+The total cost of DRI depends to a large extent on hydrogen prices. Production of the
+hydrogen process is dependent on the availability of clean electricity or carbon
+emission prices. In current applications, the proportion of H2 and CO after reformer
+is approximately 55% and 36%. Use of natural gas in DRI is widespread,34 especially
+in Iran, Malaysia, and other regions with rich natural gas resources. In a gas-based
+DRI plant, a reformer is first used to convert the natural gas into two main reducing
+gases (H2 and CO), which then enter into the reaction vessel shaft for chemical reduction of ore. According to Midrex,17 DRI systems have the potential to accept mixtures with different CO + H2 concentrations: up to 30% of natural gas (NG) can be
+substituted by H2 without changing the process and 100% replacement will be
+possible with minor retrofit (provided an economic supply of hydrogen). European
+steelmakers are experimenting with the use of green hydrogen in steelmaking,
+but currently there are very few commercial systems.
+Model analysis
+In this study, we consider the economics of hydrogen in DRI production and its GHG
+emission reduction performance. Calculations are based on MIDREX’s actual plant
+data at Cleveland-cliffs.38 The production data and raw material input data of the
+plant can be found in the supplemental information. For the chemistry of DRI production, hydrogen can substitute for natural gas at a volume ratio of 3:1 (3 m3 of
+hydrogen would replace 1 m3 of methane). Some additional energy would also be
+needed for a pre-heating step (Table 3) to meet operational temperature
+requirements.34
+The zero-C hydrogen production methods have different costs, which affect DRI plant
+economics. For example, Vogl et al.34 show how renewable power is used to produce
+hydrogen and the pre-heat step to reduce DRI-related CO2 emission, theoretically
+reducing emissions to only 2.8% of BF. Some relevant data for H2 assumption comes
+the production study showing 650 Nm3 of H2 yielded 1 ton of DRI hot-metal38 with
+hydrogen sourced either from SMR or electrolysis.
+Using the previously mentioned assumption, we set the replacement rates of H2 to
+30%, 90%, and 100%, for three different cases (see Table 5). The prices of natural
+gas is $0.1223 per Nm3, and H2 prices from Table 3 were used. For the calculation
+of CO2 emission intensity, we assume that the CO2 produced from DRI is the same
+
+838
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 5. DRI-gas H2 injection analysis
+H2 replacement rate
+
+Base
+Case: 0%
+
+Case 1: 30%
+
+Case 2: 90%
+
+Case 3: 100%
+
+NG consumption Nm3 / ton DRI
+
+266.67
+
+186.67
+
+26.67
+
+0
+
+H2 consumption Nm3 / ton DRI
+
+0
+
+240.00
+
+720.00
+
+800.00
+
+NG cost, $ per ton DRI
+
+32.62
+
+22.83
+
+3.26
+
+0
+
+carbon abatement (kg-CO2
+per ton-DRI steel)
+
+0
+
+113.76
+
+341.28
+
+379.20
+
+fuel cost: NG + H2 ($ per tonDRI steel)
+
+32.62
+
+162.40
+
+421.96
+
+465.22
+
+carbon abatement cost ($ per
+ton-CO2)
+
+N/A
+
+1,140.83
+
+1,140.83
+
+1,140.83
+
+carbon abatement (kg-CO2 per
+ton-DRI)
+
+0
+
+131.40
+
+394.20
+
+437.00
+
+fuel cost: NG + H2 ($ per ton-DRI)
+carbon abatement cost ($ per
+ton-CO2)
+
+32.62
+N/A
+
+71.20
+293.57
+
+148.34
+293.57
+
+162.20
+293.57
+
+Green H2
+
+Blue H2 (SMR + 89% CCS)
+
+For model details, see supplemental information.
+
+assumption as identified in the gas-DRI model: 522 kg-CO2 per ton-DRI (Table 2).
+For hydrogen, assuming green H2 from renewable electricity and complete combustion of H2 to emit no CO2 onsite. The CO2 emission intensity of green and
+blue H2 equals its LCA results (for sources and assumptions see supplemental
+information).
+The calculation results in Table 5 show that the use of H2 instead of natural gas for
+DRI production will significantly reduce CO2 emissions but at substantially higher
+costs. Blue H2 and green H2 different by roughly $100 per ton-DRI in production
+cost (HM) but by $1,000 per ton-CO2 in marginal CO2 abatement cost. Blue H2 provides the best current substitution option for natural gas in DRI production, which is
+reliable, technically available, and relatively low in cost for most markets (see ‘‘CCS
+retrofit DRI’’ below).
+Japan’s Mitsubishi Heavy Industry is building the world’s largest steel plant capable
+attaining net-zero emission in Austria, adopting DRI with hydrogen injection.39 The
+project stresses the importance of low-cost hydrogen to achieve cost-competitive
+steel production. Hydrogen Europe40 also summarized projects adopting hydrogen
+for steel making (e.g., SALCOS project and HYBRIT projects), all focusing on DRI replacing BF to adopt more hydrogen injection potentials.
+
+HYDROGEN INJECTION SUMMARY
+As shown in Figure 6, all hydrogen injection technologies can provide a practical carbon reduction, which is close to its decarbonization potential limits, given that both
+blue and green H2 have very low results. Both green and blue hydrogen can already
+deliver energy and reduction agent in a safe and close-to-carbon-neutral way. Given
+the overwhelming majority (71%) of steelmaking is from BF-BOF operations and facility lifespans are long, hydrogen injection can already provide a technically acceptable solution for retrofit decarbonization. Blue H2 appears to add much less cost per
+unit HM production than green H2 in most markets and cases. Green H2 injection
+could be regarded as a version of electrification penetration as well, given that it
+adopts zero-C electricity to replace fossil fuel (see ‘‘combined technologies set’’
+section).
+
+Joule 5, 829–862, April 21, 2021
+
+839
+
+ll
+Review
+
+Figure 6. H2 injection decarbonization and cost summary
+
+Two significant limitations remain. First, decarbonization potential for BF-BOF
+hydrogen injection is about 20% unlikely to qualify as ‘‘deep decarbonization.’’
+Either a combined technology set or replacement DRI-based primary steel production would be needed to increase its decarbonization potential. Second, the cost of
+green H2 is high and unlikely to be cost competitive in most markets. Significant
+improvement is needed on both electrolyzer and zero-C electricity prices to lower
+hot metal production cost to commercial ranges.
+Biomass feedstocks for hydrogen production can result in very different hydrogen
+LCA. Recent research41 has compared the midpoint global warming potential
+(GWP) LCA of hydrogen production pathways, finding biomass-based hydrogen
+production can have either higher or lower LCA than SMR baseline. Another study42
+found hydrogen production from biomethane with CCS will lead to net negative
+emissions in all invested cases, showing promising greenhouse gas reduction potential. Hydrogen production from biomass is highly uncertain for (1) various feedstocks,
+(2) complicated processes, and (3) cost uncertainty. This paper did not estimate
+hydrogen production from biomass. Solid biomass substitution is discussed in the
+following section.
+
+SOLID BIOMASS IN BF-BOF AND DRI
+Given the challenges discussed above using hydrogen gaseous fuel to decarbonize
+iron and steel production, solid biofuel could prove a more useful pathway. Biomass,
+especially solid biofuels, provides a promising option for both low-C heat and
+possible low-C coking feedstock for use in primary production.
+Biomass feedstocks are never truly carbon neutral. The actual abatement of CO2, using bio-charcoal is sensitive to many factors, most importantly LCA and LUC of the
+biomass. The carbon abatement potential is very sensitive to land-use change
+(LUC) and cultivation practices, and carbon footprint greatly depends on the land,
+production, processing, transport, and final application.43 As many have documented, biomass must be grown, harvested, processed, and transported with minimal life-cycle CO2 emission for it to achieve substantial CO2 reductions through
+
+840
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+
+Figure 7. Typical mass-energy balance for wood torrefaction. See Ribeiro et al.49
+
+fossil fuel substitution44 and some biomass has a documented low life-cycle carbon
+footprint under the correct operational circumstances.
+The CO2 emission intensity of typical BF-BOF integrated facilities can reach up to
+two tons CO2 per ton of steel.45 Given that the reduction of iron ore in a blast furnace
+is entirely dependent on the carbon provided mainly by coal and coke, biomass energy is recognized as a potential alternative for its potentially sustainable carbon
+content, and under the right circumstances solid biofuels can substitute readily
+into conventional feed systems, exhibiting key physical properties (i.e., mechanical
+strength) needed during hot metal production. Studies by Helle et al.46 and Wiklund
+et al.47 have evaluated the injection of a biomass-based reducing agent into the BF,
+chiefly as charcoal produced from wood (bio-charcoal). Bio-charcoal making is a slow
+pyrolysis process under temperatures of about 300–400 C. As the most widely
+commercialized woody biomass process technology, bio-charcoal has carbon content the highest, up to 85%–98%,48 most chemically suitable for iron making, chemical reduction, and replacement of coke.
+The results show that using biomass-based reducing agents produced from torrefaction
+have the best operational properties. Torrefaction (Figure 7) is heating biomass to 250–
+300 C in absence of oxygen, which enhances biomass properties (e.g., energy density
+and strength) and makes torrified wood, or bio-coal48,49 with properties similar to fossil
+coal and can replace coking coal. High-quality solid fuels are essential in BF iron making,
+and many common biomass fuels do not meet the required standards. Biomass quality
+can be further improved by drying and removing volatiles.
+Some case studies show that completely replacing fossil fuel injection with biofuels
+can reduce greenhouse gas emissions of steelmaking by up to 25%.50 Other studies
+have calculated that if the biomass used were to be carbon neutral, the biomass
+could reduce net CO2 emissions by up to 58% through the normal BF-BOF
+route.51,52 However, the practical application of biomass has major restrictions,53
+and there are still significant technical limitations to using biomass to completely
+replace fossil fuels in the BF-BOF process, as follows:
+
+Joule 5, 829–862, April 21, 2021
+
+841
+
+ll
+Review
+
+Figure 8. Bio-charcoal substitution for BF-BOF under different carbon footprint assumptions
+
+1. Price: At present, coke (coal after the coking process) is roughly $200 per ton,
+compared with the cost of bio-charcoal at $295$525 per ton. From a purely
+economic point of view, biomass cannot compete with coal today.54
+2. Physical properties: Physical properties (such as mechanical strength, etc.) are
+not the same for bio-charcoal as coal or coke, and manufacturing performance
+standards might not be guaranteed. Bio-coke55 used directly to replace coke
+in BF must have properties similar to conventional coal.56
+3. Supply chain quality: Biomass resources are unevenly distributed, and the global
+supply chains are not mature and often not well governed. Brazil is the largest producer of bio-charcoal, with 9,893,000 tons,57 followed by India (1,728,000), the
+United States (940,000), and China (122,000). In those markets, bio-charcoal could
+credibly serve a fraction of their steel industries. In contrast, the EU receives 70% of
+its current bio-charcoal from Africa,58 which has heightened existing concerns
+about deforestation, loss of biodiversity, and eco-colonialism. In Japan and Korea,
+no local supplies exist, prompting similar concerns.59
+Many countries have undertaken research on the application of biomass in BF-BOF
+ironmaking with promising results. In Brazil,60 small blast furnaces have completely
+substituted bio-charcoal for coke and coal. Japanese research suggests that pressed
+woody biomass can be used to prepare metallurgical coke after mixing with coal,
+achieving partial decarbonization.61 German research indicates that when using
+biomass coke powder to completely replace coal powder, the amount of carbon dioxide input in the blast furnace has been reduced by up to 45%.62 Finnish research
+suggests that although the replacement rate of biomass coke in the blast furnace can
+only reach about 25%, it might still be economically feasible considering future coke
+prices and pollutant emissions.63
+For simplicity, feedstock availability and robust analysis, only woody biomass pyrolysis produced solid bio-charcoal with > 80% carbon content is considered in the
+following modeling for BF, including replacement ratio, decarbonization potential,
+cost, LCA result, and LUC effect. A special case is made for coal-based DRI using
+other literature-proven biomass feedstocks. Other feedstocks are not modeled.
+
+842
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+
+Figure 9. Ideal biomass substitution decarbonization and cost summary
+
+Bio-gas substitution for gas-based DRI is straightforward technically, with key considerations of cost and carbon footprint limitations.
+
+BIOMASS IN BF-BOF
+Our analysis focuses on applications of bio-charcoal and bio-coal (often mixed with
+coal for coke making) as replacements for solid fossil fuels in BF-BOF steelmaking.
+Raw material inputs to the BF base model are shown in Table 6. We consider the possibility of biomass substitution both in the main reduction reaction process in the
+blast furnace and heating fuel substitution, excluding subsequent processes such
+as exhaust gas treatment or heat recovery and utilization. For BF raw materials, we
+compare five replacement options: coking coal, pulverized coal, nut coke, coking
+plant residues, and sintering solid fuel. Under the current technical limitations, it is
+known that the estimated replacement rate of these five raw materials using charcoal
+can be achieved:47
+The basic replacement model reveals that 311.5 kg of charcoal can be used to
+replace coal consumption at a maximum for an integrated BF-BOF production.
+For the baseline scenario (Table 7), the model assumes carbon-neutral biomass,
+i.e., representing the maximum amount CO2 abatement and lowest abatement
+cost biomass (later referred as ideal biomass). Additional cost due to transportation
+would occur. The model also includes the LCA result of bio-charcoal production for
+its GWP and additional LUC for biomass production. Abatement cost is calculated
+by dividing added fuel cost (in dollars; bio-charcoal is more expensive than fossil
+coal) and its carbon abatement value (ton-CO2).
+The results show that ideal biomass (i.e., carbon neutral charcoal) in BF-BOF would
+perform well in BF-BOF settings, with both subsantial decarbonization potential
+(38.3% versus 21.4% with H2) and modest cost (both cost per ton HM production
+and abatement cost [$ per ton-CO2]).
+Unfortunately, ideal biomass does not exist, and the LCA cases indicate that nearly
+half of the potential carbon mitigation is negated by charcoal production’s carbon
+
+Joule 5, 829–862, April 21, 2021
+
+843
+
+ll
+Review
+
+Figure 10. Zero-C electricity decarbonization and cost summary
+
+footprint. LUC commonly makes this problem worse—negating nearly all carbon
+abated.
+From carbon abatement cost point of view, biomass substitution can be either one of
+the best options (< $100 per ton-CO2, with ideal biomass) or the one of the worst
+options (> $700 per ton-CO2) based largely on LCA and LUC effects (see Figure
+8). As such, solid biomass options for steel decarbonization (and many other low-carbon applications) must be very carefully assessed, curated, managed, and regulated
+from a carbon footprint perspective to avoid counterproductive results.64 All steps
+matter: harvesting from woody biomass sources (LUC), biomass processing emission
+control (LCA), and charcoal production method. Compared to many biomass scenarios, blue H2 is substantially better in both carbon footprint and cost.
+
+BIOMASS IN COAL-BASED DRI
+It appears that coal-based DRI production (i.e., in India and Malaysia) can accept
+100% biomass substitution and can tolerate a wide range of feedstocks: straw,
+normal charcoal, and bamboo charcoal. The basic model of DRI production plant parameters are shown in Table 8. In these facilities, the main function of feed-coal is to
+act as a reducing agent and react with the ore; some energy needed for the kiln reactions also comes from the coal. Total coal demand for DRI production is 853 kg per
+ton DRI sponge iron.
+In considering biomass as DRI fuel, Han et al.65 studied straw, bamboo charcoal, and
+regular charcoal in a main reaction vessel (RHF). We assume that biofuels such as
+
+844
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 6. Biomass input assumptions
+Initial materials
+
+Demand kg
+per ton-HM
+
+Bio-charcoal
+replace ratio (%)
+
+CO2 emission per unit
+fossil fuel (kg per kg)
+
+cokemaking (coking coal)
+
+300
+
+2%~10%
+
+3.11
+
+BF tuyere injection (pulverized coal)
+
+150
+
+0%~100%
+
+2.33
+
+BF nut coke replacement
+
+45
+
+50%~100%
+
+3.11
+
+BF briquette 4 (coking plant residues)
+
+10
+
+0%~100%
+
+3.11
+
+sintering solid fuel 5
+
+76.5
+
+50%~100%
+
+3.11
+
+See Wiklund et al.47
+
+charcoal only replace feed-coal and assume 100% replacement rate (Table 9). Estimated demand for each source of bio-charcoal is slightly different due to its product
+carbon content (i.e., one cannot assume 1:1 replacement).
+Table 9 assumes an ideal biomass scenario for coal substitution, i.e., it does not
+include carbon footprint estimates from production LCA or LUC. Including those factors would increase the cost and carbon footprint estimates, similar to the BF-BOF
+case above.
+Similar to hydrogen injection analysis results, biomass substitution has higher decarbonization potential associated with DRI-based pathways than BF-BOF. DRI involves
+lower cost and lower footprint options from the other biomass feedstock substitution today (in part because of residual or waste biomass use) (see Figure 9). However,
+straw is also the hardest to commercialized because its carbon content is the lowest
+at only 20% (compared with 80% for bamboo char and biomass charcoal). Biomass
+substitution in DRI-based pathways will require additional study, prototype testing,
+and demonstration to verify estimates and potential for viable large-scale use.
+
+DIRECT ELECTRIFICATIONS: ENERGY FLUX REQUIREMENT AND
+CARBON FOOTPRINT
+Although the industrial sector is one of the well-known hard-to-abate sectors to decarbonize, electrification is commonly presented as a decarbonization option. The most immediate opportunity to consider is replacing the current electrical load used in steel
+facilities with zero-C electricity sources. However, given that current steel production
+remains dominantly BF-BOF for primary steel production (71%) with EAF mostly the secondary steel production (24%), applying zero-C electricity globally could only decarbonize global steel production a maximum of 13.3% (Table 2).
+To increase beyond this small fraction, deeper levels of electrification are needed.
+For example, although EAF using steel scrap remains 24% of global production
+today, increasing DRI-EAF fraction for primary steelmaking has dual effect in decarbonization: the process is intrinsically more energy efficient that reduces the carbon
+emission, and it also allows higher electricity fraction in the total energy consumption profile, allowing bigger role for zero-C electricity in decarbonization. Higher
+penetration of electricity would require growth of electric loads reflecting the energy
+flux requirements of production—in short, requiring additional zero-C electricity
+generation.
+In this section, we present three scenarios featuring zero-C electricity: substitution for
+current electricity supplies in the existing global production share, full BF-BOF plant
+replacement with DRI-EAF in primary steelmaking, and novel (revolutionary) technology
+(e.g., MOE) replacing existing plants and using zero-C electricity. The first two scenarios
+
+Joule 5, 829–862, April 21, 2021
+
+845
+
+ll
+Review
+Table 7. Bio-charcoal replacing coal in BF-BOF under different cost per carbon footprint
+Sub-case
+
+Baseline:
+ideal
+biochar
+
+500 km
+transportation:
+ideal biochar
+
+Biochar
+LCA GWP
+
+Biochar LCA
+GWP + LUC
+
+abated emission (kg-CO2
+per ton-HM)
+
+851.8
+
+851.8
+
+451.1
+
+122.8
+
+decarbonization potential
+(%)
+
+38.3%
+
+38.3%
+
+20.3%
+
+5.5%
+
+charcoal unit cost ($ per ton)
+
+295~525
+
+328~558
+
+295~525
+
+295~525
+
+replacement cost ($ per
+ton-HM)
+
+92~164
+
+102~173
+
+92~164
+
+92~164
+
+original coal fuel cost ($ per
+ton-HM)
+
+34.2
+
+carbon abatement cost
+($ per ton-CO2)
+
+67.8~151.9
+
+80.0~164.0
+
+128.0~286.8
+
+470.3~1053.9
+
+For cost and carbon footprint assumptions, see supplemental information.
+
+are technically mature and available for deployment now. The novel technology options
+are not yet available at commercial scale but remain interesting, considering options to
+achieve zero-C primary steel production in the long-term.
+The zero-C electricity assumption is for simplicity to avoid discussion of various
+renewable LCA results and demonstrate its maximum decarbonization potential.
+Local costs estimates must assess renewable electricity supply to each iron and steel
+facilities case by case, and grid-based electricity would require more complicated
+LCA results.
+Zero-C electricity power supply under current production profile
+Electricity consumption for steel making is significant: BF-BOF routes consume
+356 kWh/t production and the EAF route consumes 918 kWh/t production.23 For
+coal-based and gas-based DRI production, electricity takes 8% of the total energy
+consumption (17.9 gigjoules (GJ)/ton and 14.1 GJ/ton respectively), or 380 kWh/t
+production for coal-based DRI and 313 kWh/t HM production for gas-based DRI.
+Today, most facilities require continuous electricity supply, either from the local
+grid or from captive generation facilities. In most facilities, electricity is almost
+entirely provided by fossil fuels, which provide the necessary high-capacity factors
+(one noteworthy exception is Sweden, where steel plants have access to grid power
+with high fractions of both hydropower and nuclear).
+Using 2018 global steelmaking statistics and baseline electricity carbon intensity
+(460 kg/MWh), electricity represents 13.3% of the total steelmaking CO2 emissions.
+Given that China’s electricity carbon intensity is higher (711 kg/MWh in 2013), electricity there contributes 20.9% of total CO2 emissions. Uncertainties of these estimates come from (1) significant variations in electricity carbon intensity from country
+to country and (2) variations in electricity share to total primary energy country to
+country. Even given these uncertainties, analysis reveals that zero-C electricity power supplies have limited decarbonization potential for steel industry under current
+production profiles (Table 10). Using zero-C electricity as a strategy, deep decarbonization of steel production must involve replacing BF-BOF with DRI-EAF or adding
+additional pathways.
+Deep electrification using DRI + EAF for BF-BOF replacement
+In this scenario, secondary EAF steel in the total steelmaking profile maintains the
+same share and role, limited to scrap recycling and scrap feedstock. In contrast,
+
+846
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 8. DRI: coal-based model
+Material input or output
+
+Flow rate (kg per h)
+
+Consumption
+(ton per ton DRI)
+
+kiln feed-iron ore
+
+30,000
+
+1.587
+
+kiln feed-coal
+
+10,293
+
+0.545
+
+inject coal
+
+5,837
+
+0.309
+
+coal consumption
+
+16,130
+
+0.853
+
+output DRI
+
+18,900
+
+1
+
+output CO2
+
+19,816
+
+1.048
+
+See Dey et al. 23
+
+combined DRI-EAF production increases dramatically and replaces BF-BOF as the
+primary steel production method in hypothetical future production is calculated
+by altering production share.
+As shown in Table 2, DRI-EAF plants are much less carbon intensive than traditional
+the BF-BOF route, and deep electrification via DRI-EAF replacement in Table 11
+could significantly reduce carbon emission from steelmaking in the following two
+ways:
+1. Lower carbon intensity: Even with no improvement in baseline electricity carbon intensity, DRI-EAF would reduce 8% carbon emission if it grows to 25% of
+global steel production through replacement of BF-BOF. Higher substitution
+rates of 50% of global steel production would directly reduce 17% carbon
+emission.
+2. Higher electricity energy contribution: Considering electricity carbon emission share of the total emission, global growth to 25% DRI-EAF through BFBOF replacement (medium DRI penetration) would increase this fraction
+from 13.5% to 19.1% and increase to 50% displacement (high DRI penetration)
+would grow this fraction to 28%. If all electricity used is zero-C, 25% DRI-EAF
+can yield 25% total emissions reduction, and 50% DRI-EAF can yield 40%
+reduction.
+DRI-EAF is technically available and could play an essential role for decarbonizing
+steelmaking industry. This would require enormous new supplies of zero-C power
+generation. For example, the 25% DRI growth-substitution case requires 450 TWh
+of zero-C electricity additional annual generation to supply the new DRI-EAF systems—roughly the same as all France (Table 12). At high (85%) capacity factors,
+this would require 60 GW of new zero-C power generation. For intermittent systems
+with lower capacity factors, additional generation (oversupply) would be needed
+with additional costs for storage and/or with firm power provided by fossil resources,
+reducing the overall system effectiveness (see Table 12). The high-DRI substitution
+case would require 1,010 TWh additional generation—roughly the same as all of
+Japan.
+In summary to Tables 10, 11, and 12, Table 10 considers how much decarbonization
+current production could get with zero-C electricity under different electricity footprint and substitution assumptions. Table 11 considers how much more decarbonization can the whole industry get if a certain amount of primary steel HM production
+from BF-BOF is replaced from DRI-EAF. Table 12 further discussed how much electricity flux is needed for such replacement transition to happen. DRI-EAF is found to
+be an essential part to decarbonization and electrification of the current BF-BOF
+dominated production profile.
+
+Joule 5, 829–862, April 21, 2021
+
+847
+
+ll
+Review
+Table 9. Biomass replacement in DRI coal
+Biomass type
+
+Straw
+
+Bamboo charcoal
+
+Charcoal
+
+demand (ton per ton-DRI)
+
+3.37
+
+0.8
+
+1.03
+
+bio-charcoal C-content
+
+20.89%
+
+87.50%
+
+68.45%
+
+biomass cost ($ per ton-DRI)
+
+118.5~140.7
+
+203.3~600
+
+303.0~539.2
+
+original coal/coke cost ($ per ton-DRI)
+
+85.34
+
+cost increase ($ per ton-DRI)
+
+33.1~55.3
+
+117.9~514.7
+
+217.6~453.8
+
+carbon abatement cost ($ per ton-CO2)
+
+31.6~52.8
+
+112.5~490.9
+
+207.6~432.8
+
+See Han et al.65
+
+Cost of hot metal and carbon abatement using zero-C electricity
+Assuming $120 per MWh for zero-C electricity costs, results appear promising.67
+Given that the same zero-C electricity source is assumed for all production pathways,
+the carbon abatement costs ($ per ton-CO2) are the same (see Figure 10). But
+decarbonization potential and added cost per ton-HM are significantly different.
+Self-referenced case (taking its own production pathway as baseline) reveals that
+all EAF involved technologies has decarbonization potential > 30%, as high as
+40%. Including the intrinsic carbon reduction due to pathway switching (i.e., BF-BOF
+reference case, taking BF-BF pathway as baseline), secondary steel production using
+scrap for EAF could achieve 80% decarbonization. Both DRI-based pathways could
+be >40% less carbon intensive as well. This significant improvement can be achieved
+at less than $70 per ton-HM cost increase. For these cases, zero-C electricity penetration could prove a low-cost, high-effectiveness abatement solution by replacing
+BF-BOF with any other production pathways.
+Full electrification of steel HM production with advanced technology
+Although many different approaches have been proposed to achieve deep decarbonization for steelmaking, significant amounts of fossil fuel remain in use today
+and for the foreseeable future. Additional emissions reductions would need either
+carbon capture and storage (CCS) retrofits (see next section) or revolutionary approaches based on electrical primary production. One example of a revolutionary
+primary steelmaking approach is MOE, which might have long-term potential for
+low-carbon steelmaking. Given that electricity is the only energy source during the
+whole production process, the carbon footprint is solely determined by the carbon
+footprint of electricity. One company, Boston Metal, has successfully demonstrated
+the production of primary steel using their MOE technology.21 In their system, about
+4 MWh are needed to produce 1 ton of steel HM.
+MOE steelmaking is a continuous hot-operation process and requires constant power
+supply, ideally at low cost and high reliability. Economic models developed by Boston
+Metal show that MOE could be cost competitive with electricity prices at $15 per
+MWh—a very difficult threshold without subsidies, especially for firm power. With a
+$30 per ton-CO2 carbon price, MOE could be cost competitive with $35 per MWh electricity.21 Both $35 per MWh and $15 per MWh prices are much lower than the wholesale
+industrial electricity prices in most countries and generally far from high capacity-factor
+carbon-neutral generation. These cost and reliability barriers are significant challenges
+for large-scale replacement of BF-BOF with MOE systems. Not just MOE, most decarbonization approaches involve electricity as energy supply (e.g., green hydrogen) would
+require very cheap electricity inputs to be market relevant.68
+On a systems level, the challenge is multiplied by the additional power requirements
+necessary to run the substitute plants. Replacing all BF-BOF steel production (1,279
+
+848
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 10. Substitution of zero-C electricity into current global steel production under different
+electricity carbon footprint assumptions
+Steelmaking options
+
+BF-BOF
+
+EAF
+
+DRI-EAF
+
+Total
+
+global production share
+
+71%
+
+24%
+
+5% (1% coalbased + 4%
+gas-based)a
+
+100%
+1,857 kg-CO2
+per ton
+(see Table 2)
+
+electricity: baseline CO2
+intensity (baseline: 460 kg
+per MWh)
+
+163.8 kg
+
+422.3 kg
+
+597.1 kg +
+566.3 kg
+(coal-based +
+gas-based)
+
+N/A
+
+electricity: high carbon
+intensity (China: 711 kg
+per MWh66)
+
+253.1 kg
+
+652.7 kg
+
+922.9 kg +
+875.2 kg
+(coal-based +
+gas-based)
+
+N/A
+
+weighted electricity carbon
+emission (baseline: 460 kg
+per MWh)
+
+116.5 kg
+
+101.3 kg
+
+6.0 kg + 22.7 kg
+(coal-based +
+gas-based)
+
+13.3%
+246.2 kg-CO2
+per ton
+
+weighted electricity carbon
+emission (China: 711 kg
+per MWh66)
+
+179.7 kg
+
+156.6 kg
+
+9.3 kg + 35.0 kg
+(coal-based +
+gas-based)
+
+19.1%
+380.6 kg-CO2
+per ton
+
+a
+
+From 2018 data;15 the conversion rate of DRI to crude steel is assumed to be 90%.
+
+million tons per year) with MOE would require 5,116 TWh electricity consumption,
+almost 20% of 2018’s total global electricity consumption (26,700 TWh).69 In
+2018, the world generated a record 4,185 TWh from hydropower, which is wellsuited to the MOE process and relatively cheap. To provide the additional load
+MOE would require, the world’s current hydropower generation would have to increase more than 120%. Gernaat et al.70 have estimated the new low-cost hydropower potential to be 5,670 TWh per year, mostly in South America, Africa, and
+the Asia-Pacific region. The geography of hydropower potential is highly correlated
+to current and future steel production (i.e., Asia Pacific and other developing economies) but not at sufficient generation levels.
+
+CCUS RETROFIT
+It has long been understood that CO2 could be captured from an existing or new
+steel plant and stored indefinitely underground.71,72 This is chiefly because of the
+large volumes and high concentrations of CO2 at many iron and steel facilities and
+the small number of large emitting sources within integrated plants. In part, this reflects the ability of carbon capture to manage and eliminate the by-product process
+chemical remissions from iron ore refining as well as emissions from high-temperature heat. CCUS is widely accepted as the key bridge from today’s fossil energy society to the renewable future,73,74 especially given the vintages of current steel
+production.75
+In a conventional primary production facility, most of the emissions exit the BF-BOF
+directly, with small volumes also coming from the coking and sintering units.
+Capturing these emissions would require post-combustion applications to these
+sources. From a typical DRI plant, most CO2 exits the DRI unit and would require
+post-combustion capture there. Alternatively, operators could apply pre-combustion capture to blue-hydrogen production at the front-end of a DRI system (or for
+substitution with coal in the BF-BOF).
+Many of the world’s primary steel production facilities sit near viable CO2 storage
+sites (Figure 11). This is true of the US Great Lakes, China’s eastern provinces, around
+
+Joule 5, 829–862, April 21, 2021
+
+849
+
+ll
+Review
+Table 11. Substitution of DRI-EAF with zero-C electricity supply for BF-BOF production
+Steelmaking options
+
+BF-BOF
+
+EAF
+
+DRI-EAF
+
+Total
+
+production share (baseline,
+current global profile)
+
+71%
+
+24%
+
+5% (1% coal-based +
+4% gas-based)
+
+100%
+1,857 kgCO2
+per ton
+
+weighted electricity carbon
+emission (baseline: 460 kg
+per MWh)
+
+116.5 kg
+
+101.3 kg
+
+6.0 kg + 22.7 kg (coalbased + gas-based)
+
+13.5%
+246.2 kgCO2
+per ton
+
+production share (medium DRI
+penetration profile, hypothetical
+future)
+
+51%
+
+24%
+
+25% (5% coal-based +
+20% gas-based)
+
+100%
+1713 kgCO2
+per ton
+
+weighted electricity carbon
+emission (baseline: 460 kg
+per MWh)
+
+83.5 kg
+
+101.3 kg
+
+29.9 kg + 113.3 kg (coalbased + gas-based)
+
+19.1%
+328.0 kgCO2
+per ton
+
+production share (high DRI
+penetration profile,
+hypothetical future)
+
+26%
+
+24%
+
+50% (10% coal-based +
+40% gas-based)
+
+100%
+1534 kgCO2
+per ton
+
+Weighted electricity carbon
+emission (Baseline: 460 kg
+per MWh)
+
+42.6 kg
+
+101.3 kg
+
+59.7 kg + 226.5 kg (coalbased + gas-based)
+
+28.0%
+430.1 kgCO2
+per ton
+
+the North Sea, the Eastern Bloc nations, Brazil, and some of India’s largest plants. No
+formal estimate exists regarding what fraction of steel emissions could be effectively
+managed by CCUS applications. However, the estimated global storage capacity is
+between 10–20 trillion tons, suggesting ample capacity for CO2 emissions from steel
+production.
+Retrofit of blast furnace
+Typical BF exhaust gas contains a mix of gases: typically, 17%–25% CO2, 20%–28%
+CO, 1%–5% H2, and 50%–55% N2.77 Separation of CO2 from the exhaust gas mixture
+can significantly increase the capture rate of the carbon capture facility and reduce
+cost per ton-CO2 avoided. The difference of capture potential is demonstrated
+below with oxygen blast furnace (OBF) CCS and traditional BF CCS.
+CCS process on an oxygen blast furnace
+Top-gas-recycling in a blast furnace (TGR-BF) technology, i.e., OBF, is less carbon
+intensive for its inherent ability to capture and dispose of the CO2 of the BF top
+gas, which implies additional cost as high as $56 per ton-CO2.76 The methyl diethanolamine (MDEA) and piperazine (Pz) solvent system modeled to capture CO2 from
+BF top-gas could reduce 47% emission for an integrated steel mill using the OBF
+process.
+OBF-connected carbon capture looks promising for several reasons. In the proposed
+process, the near-100% oxygen blast replaces traditional hot blast, which produces
+top-gas enriched in CO2 for more efficient capture. The remaining top-gas is CO-enriched and readily recycled to reduce coke and pulverized coal consumption, further
+reducing plant emissions. Oxygen blast and CCS retrofit is the prerequisite to recycle
+the top-gas and therefore subjected to additional capital cost. The techno-economic
+comparison shows that capital cost and energy cost dominate the CO2 avoidance
+cost (over 80%), making the cost per ton-CO2 sensitive to both fuel prices and interest
+rates. If a zero-C electricity supply operates the system, the integrated process reduction
+should abate 57% CO2 emission. Other research78 shows that TGR-BF has the highest
+CO2 avoidance rate comparing with other CCS retrofits: 0.780.82 ton-CO2 per tonHM, equivalent to 36%38% capture rate. Avoidance cost per ton-O2 is estimated to
+be $48$71per ton-CO2.
+
+850
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 12. Zero-C electricity demand under DRI penetration scenarios
+Zero-C
+electricity
+demand
+
+DRI-EAF-coal
+DRI-EAF-gas
+Total (TWh Installed capacity Installed capacity
+(TWh per year) (TWh per year) per year)
+(GW): 85%
+(GW): 35%
+capacity factor
+capacity factor
+
+medium DRI 93.8
+penetration
+
+355.9
+
+449.7
+
+60.4
+
+146.7
+
+high DRI
+penetration
+
+800.8
+
+1011.9
+
+135.9
+
+330.0
+
+211.1
+
+Traditional BF-process-based CCS
+Air-blown BF with CCS (BF-CCS) has lower CO2 avoidance potential (rates of
+0.330.36 ton-CO2 per ton-HM, equivalent to 15%17% capture rate). Avoidance
+cost per ton CO2 is estimated at $45$71 per ton-CO2. Comparing with OBF-based
+CCS retrofit, air-blown type BF-CCS is more technically mature, less capitally intensive. However, in terms of per ton CO2 abatement cost, BF-CCS does not show any
+cost advantage over OBF-CCS. Many other estimates fall in the same range.79–82 For
+this study, $60 per ton-CO2 for TGR-BF-based CCS retrofit and $58 per ton-CO2 for
+air-blown BF based CCS retrofit serve as the basis for comparison.
+Retrofit of DRI systems
+CCS retrofit for DRI system is similar to BF retrofit: high CO2 concentration leads to
+more efficient CO2 capture. DRI-CCS retrofit captures CO2 from the DRI reactor
+exhaust gas given that the separation of CO2 is much easier as the reducing gas is
+hydrogen rich, producing water vapor. Water vapor can be easily separated from
+BF exhaust gas (unlike N2 and CO). Gas-based DRI has an additional CCS-related decarbonization path using blue hydrogen, in which the CO2 capture occurs prior to
+use in the DRI reactor.
+The Al Reyadah project in Abu Dhabi, UAE, is the sole example of CCS applied to an
+existing steel mill. The project was commissioned as a joint venture between Abu
+Dhabi National Oil Company (ADNOC) and Masdar, the Abu Dhabi Future Energy
+Company, with the goal of demonstrating the viability of CCS in steel production
+and to show regional and global leadership in decarbonization. The Al Reyadah83,84
+plant uses SMR for syngas production and then feeds it as reducing gas to a HYL DRI
+plant for sponge iron production. The off-gas from the process consists of CO2 and
+H2O, which is the source of capture for CCS facility. Byproduct CO2, 800,000 tons
+CO2 per year, is transported 42 km by pipeline to the Bab field, where it is injected
+and stored as part of an enhanced oil recovery project. The project costs were
+$122M (in 2016 USD).
+This project provides a clear example of how other gas-based DRI plants might be
+decarbonized. However, given that most such plants are in Iran, it is unlikely that
+many existing gas-DRI plants will follow the Al Reyadah example (for lack of political
+interest). For a new DRI plant, Al Reyadah provides a sense of project capital and
+operating costs as well as construction timeline. Model studies85 showing that
+CCS for DRI-based reactors could be as low as $25 per ton-CO2 (Nth plant optimum)
+and this study borrows the result for analysis. In contrast, studies of MIDREX DRI
+plants lack standalone CCS examples.86
+To date, there has been no example of retrofitting and existing BOF-BF plant for
+CCUS. Plans for a US project, the New Steel Intl. project, have not yet matured.
+The project aimed to build new BOF-BF systems in Michigan and Ohio integrated
+with carbon capture systems but has not reached final investment decision. 87
+
+Joule 5, 829–862, April 21, 2021
+
+851
+
+ll
+Review
+Table 13. Fractional decarbonization potential combining hydrogen and zero-C electricity
+Technology
+
+BF-BOF
+
+DRI-gas
+
+H2 injection abatement potential (%), self referencea
+
+21.4%
+
+37.4%
+
+Zero-C electricity abatement potential (%), self reference
+
+7.4%
+
+40.6%
+
+combined abatement potential (%), self reference
+
+28.8%
+
+78.0%
+
+combined abatement potential (%), BF-BOF reference
+
+28.8%
+
+86.2%
+
+a
+
+‘‘self reference’’ takes its own production method emission as reference (e.g., DRI using zero-C electricity
+comparing with DRI baseline). BF-BOF reference takes BF-BOF production emission as reference (e.g.,
+DRI using zero-C electricity comparing with BF-BOF baseline); this is the same for Table 14.
+
+Selected combined technology sets
+The key basis to apply multiple technology sets is to increase the decarbonization
+potential. As identified, H2, biomass, zero-C electricity, and CCS retrofit are all
+promising options for steelmaking decarbonization. In some facilities, several of
+these technologies are compatible and could be applied together (e.g., hydrogen +
+zero-C electricity + bioenergy + CCS retrofit). Some technology combinations are
+less compatible with each other and require additional study to assess viability of
+combined systems.
+Hydrogen + zero-C electricity
+Using H2 (which can be green H2 that produced from zero-C electricity) and zero-C
+electricity for BF-BOF can abate up to 28.8% of the carbon emission (see Table 13). If
+using gas-based DRI production, however, this decarbonization potential is surprisingly high: 78% decarbonized reference to DRI-gas itself and 86% is taking BF-BOF
+technology as reference. Considering the fact that the H2 can be produced from
+zero-C electricity, electrification appears promising if gas-based DRI is the primary
+production pathway.
+Biomass + CCS retrofit
+A discussed above, biomass can be low carbon and is sometimes considered carbon
+neutral. Biomass conversion (biocoke reduction or combustion) emits CO2 onsite,
+which can be captured, leading to additional carbon footprint reductions. In practice, LUC and full LCA reveal that the carbon footprint can vary dramatically and is
+rarely carbon negative.88 However, under the right circumstances, biomass energy +
+CCS (BECCS) is a viable deep decarbonization pathway for steel production and is
+currently the only pathway with the potential to be carbon negative (see Table 14).
+Analysis reveals that a BECCS retrofit could reduce an existing facility 80% but still
+could not achieve a carbon-negative (CO2 removal) footprint. If zero-C electricity was
+added, carbon abatement potential would further increase. To achieve carbon-negative
+steel production, all three pathways must be applied to DRI-based production.
+Combined technologies set summary
+The limits of the combined technology options underscores how hard a sector steel
+is to abate (see Figure 12).85 The only theoretical possible way to achieve carbonnegative steel (production involves replacing BF-BOF production with DRI-based
+primary steel pathway, using ideal biomass as a fuel, and adding both CCS retrofit
+with reliable zero-C electricity. All the other combinations could yield substantial
+HM production emissions abatement. All face significant cost increase and technical
+barriers.
+BF-BOF-based production is particularly stubborn. Key producing nations, notably
+China, Japan, Korea, Germany, and the US, should consider substitution with DRI-
+
+852
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Table 14. Added carbon abatement potential with biomass and CCS retrofit, and zero-C
+electricity
+Technology
+
+BF-BOF
+
+biomass abatement potential (%), self reference
+
+38.3%
+
+DRI-gas
+53.7%
+
+CCS retrofit abatement potential (%), self reference
+
+47.0%
+
+26.8%
+
+combined biomass + CCS abatement potential (%), self reference
+
+85.3%
+
+80.6%
+
+combined biomass + CCS abatement potential (%), BF-BOF reference
+
+85.3%
+
+82.9%
+
+zero-C electricity (ZCe) abatement potential (%), self reference
+
+7.4%
+
+40.6%
+
+combined biomass + CCS+ ZCe abatement potential (%), self reference
+
+93.6%
+
+121.1%
+
+combined biomass + CCS+ ZCe abatement potential (%), BF-BOF reference
+
+93.6%
+
+118.6%
+
+based primary steel production if the main focus is decarbonization, especially for
+older facilities. Sweden and SSAB have already made this choice, enabled by lowcost, low-carbon, firm electric power from large hydro and nuclear.89
+
+DISCUSSION AND COMPARISONS
+Given the limits detailed above, more and better options are urgently needed to
+decarbonize steelmaking. Given the urgency of climate action, today’s available options should be deployed as soon as is practical, and the most promising options for
+decarbonizing steel production are H2, biomass, zero-C electricity, and CCS retrofit.
+Each of the decarbonization technology, separately and in combination, has potential limits (see Figure 12, blue bars) based on production chemical or operations. All
+these options should be further analyzed, developed, and tested, suggesting an
+innovation agenda for policy makers as well as a deployment agenda.
+Currently, the difficulty and high cost of decarbonizing BF-BOF production suggests
+this pathway has ‘‘locked-in’’ emission, i.e., emission will persist for decades without
+attempts to mitigate it. The lack of technology options to reduce deeply the emission from BF-BOF steelmaking limit even the most aggressive decarbonization technology set, biomass + CCS + zero-C electricity (Figure 13). This means any BF-BOF
+capacity existing or being constructed now will be a potential emitter for 40 or more
+years in a world moving toward net-zero.75 Considering the limits of biomass supply,
+CCS storage availability, LCA, and LUC effect, the practical situation of BF-BOF
+pathway decarbonization limits require urgent policy attention.
+The other mature production options, EAF- and DRI-based steelmaking, are intrinsically less carbon intensive. EAF-scrap is secondary steelmaking (e.g., recycled steel
+making) and scrap steel supply sets practical limits to its scaling potential. A policy to
+grow recycling could help improve the fraction of secondary steel production share,
+especially in developing countries; however, it would be unlikely to reduce primary
+steel production. Gas-based DRI and coal-based DRI production have the greatest
+potential to accept different decarbonization technologies: gas-based to hydrogen
+and coal-based to biomass and CCS. Hydrogen production can be green (electrolysis) and complement electrification policy development, provided adequate zero-C
+power supplies, most likely through addition of generation. Biomass and CCS are
+subjected to their geographical limitations (carbon storage and biomass supply),
+although global transportation networks exist for biomass and could exist for CO2.59
+On the other hand, production costs will limit adoption of any decarbonization technology beyond purely technical barriers (Figure 14). The estimated increase to cost
+per ton hot-metal production ($ per ton-HM) only includes the marginal cost increase
+and, not surprisingly, biomass- and hydrogen-involved technologies appear more
+
+Joule 5, 829–862, April 21, 2021
+
+853
+
+ll
+Review
+
+854
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+Figure 11. CO2 storage sites and characteristics
+Top, CO 2 storage sites worldwide. Shown on the bottom left (green) are CO 2 storage sites in North America; in the bottom center (blue) are CO2 storage
+sites in Europe. Shown on the bottom right (red) are CO 2 storage sites in South, Southeast, and East Asia.
+Source: Wilcox et al.76
+
+expensive, despite their value to deep decarbonization. From the perspective of HM
+production costs, CCS and zero-C electricity appear to be better options but with
+modest total decarbonization potential. Using $400 per ton-HM as standard
+average cost for steelmaking, CCS and zero-C electricity could control cost increases
+within $100 per ton-HM (< 25%), whereas most deep-decarbonization options yield
+cost increases > 50% (+$200 per ton-HM) and in some cases > 100% (+$400 per tonHM)
+Figures 13 and 14 demonstrate the dilemma of steelmaking decarbonization and
+why the sector is hard to abate: cost-effective approaches are limited in potential,
+and adoption of high-decarbonization options would lead to high-cost burdens
+for producers. This dilemma requires policy measures, either incentives or regulations, sufficient to speed decarbonization in the steelmaking industry.8
+From the perspective of cost per ton-CO2 abatement (Figure 15), ideal biomass,
+CCS, and zero-C electricity can deliver relatively low-cost emissions reduction (<
+$200 per ton-CO2), with CCS retrofits appearing to have both low-cost profile and
+substantial potential. CCS retrofits are also compatible with biomass substitution.
+Wherever CCS is viable, it appears to be most promising option given its substantial
+potential and relatively low cost (both on a $ per ton-HM and $ per ton-CO2 basis).
+Other studies reach the same finding.68 In contrast, green hydrogen today is
+extremely costly in most markets, whereas blue hydrogen should be seriously
+considered more broadly. Where CCS is viable, retrofits could include both blue
+hydrogen and top-gas capture with some economic benefits in shared infrastructure.
+
+FINDINGS AND CONCLUSIONS
+Finding 1: Multiple approaches exist today to decarbonize existing iron and
+steel production.
+These include (1) partial or complete substitution of fossil fuels with low-carbon
+hydrogen or biofuels, (2) CCS retrofits, (3) replacement of current electricity supplies
+with low-C electricity, (4) low-carbon biomass substitution of coke with biocoke or
+charcoal, and (5) replacement of gas- or coal-based DRI plants with biogas or
+zero-C hydrogen. Although modest decarbonization is possible by substituting today’s electric power supplies with low-C electricity, it is not possible to completely
+electrify existing facilities.
+Finding 2: All approaches to steel decarbonization lead to substantial cost
+increases
+The primary reason is the high cost of substitute fuels compared with fossil fuels. Carbon-neutral biomass, low-C hydrogen, and high-capacity zero-C power all cost more
+today than current fossil-fueled systems. Although the costs of these alternatives are
+dropping, it is unlikely that they will be cost competitive with unabated fossil systems
+in the next 10–20 years.
+Finding 3: Many approaches to decarbonizing steel face substantial technical
+challenges
+Some of these challenges are intrinsic, such as improving the heat content and mechanical strength of biocoke. Others are systemic, such as integration of CCUS or
+redesigning fuel feed systems. Given the slow rate of replacement and capital
+
+Joule 5, 829–862, April 21, 2021
+
+855
+
+ll
+Review
+
+Figure 12. Combined technology set decarbonization and cost summary
+
+upgrades in existing systems, it is likely that owners and operators of today’s facilities would tolerate only minor cost increases.
+Finding 4: Existing BF-BOF facilities are inherently challenging to decarbonize
+They could be abated with a mix of approaches; zero-C hydrogen for heat, biomass
+for coking and for heat, and CCUS can reduce GHG emissions individually or combined. Different geographies, economies, and infrastructure will determine the
+cost and viability of these applications.
+Finding 5: DRI with hydrogen + EAF with zero-C power is the most mature lowemission pathway
+Gas-based DRI systems are commercially available at scale and one commercial
+plant operates on hydrogen today. EAF systems operate around the world at scale.
+Combined, these systems could yield 80% or greater CO2 reductions. Although the
+ability to change existing plants is limited (e.g., most gas-based DRI plants are in
+Iran), some systems worldwide might prove amenable to retrofit and modification,
+and ultimately replacement.
+Finding 6: Substantial progress is being made in pilots and innovation
+Unfortunately, progress remains slow and, in most nations, decarbonizing steel is
+not a focus of either policy measures or an innovation agenda. New approaches
+should be encouraged and supported politically, including applied research (e.g.,
+retrofit fuel systems and better heat recovery), pilots and demonstrations, and
+advanced production approaches.
+Finding 7: Policy measures are needed to achieve deep abatement and avoid
+dislocations
+Painful outcomes such as loss of market share or critical manufacturing, carbon
+leakage, and job loss are likely with ill-planned or implemented climate policies.
+Slow or incomplete decarbonization are alternative outcomes from protectionist
+measures and insufficient focus.
+
+856
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+
+Figure 13. Decarbonization potential and practical reduction (%) summary and decarbonization
+loss factors (%)
+
+These seven findings prompt a set of conclusions for investigators, policy makers,
+and potential investors in steel production and in steel decarbonization. The most
+important conclusion is that existing steel production facilities are inherently challenging and costly to abate. This means that a range of policies should be considered to accomplish deep decarbonization from steel production at existing sites.
+Given the importance of steel production to many economies and nations, including
+dimensions of national security and labor, priority should be extended to steel production decarbonization.
+An important consideration is resource planning. All the approaches for steel decarbonization discussed (hydrogen, zero-c electricity, and biomass) have applications in
+decarbonizing other sectors (e.g., transportation or heating). Given the resource
+limits of any given nature, especially for biomass, power infrastructure, and CO2 storage resource, policy makers should consider how to make best use of resources and
+capital to accomplish decarbonization and maintain competitiveness. In this framework, biomass resources might be best used to decarbonize steel instead of the power sector (where more options and economic alternatives exist), requiring a policy
+preference for that market applications. Similarly, transmission infrastructure buildout for steel could be very large, and my provide less value to nations than
+
+Joule 5, 829–862, April 21, 2021
+
+857
+
+ll
+Review
+
+Figure 14. Marginal cost increase per ton hot metal (HM) production ($/ton-HM)
+
+alternative uses for low-carbon power (e.g., for electric vehicles). Understanding
+these tradeoffs requires additional analysis, e.g., coupled system modeling or levelized cost of carbon abatement (LCCA) analysis.
+For those nations where steel production plays an important economic role, a richer
+innovation agenda is warranted. A few nations (e.g., Sweden, Japan, and the
+Netherlands) are supporting pilots and pre-commercial demonstrations of
+advanced low-carbon technology options through public-private partnerships,
+grants, and broad research, design, and development (RD&D) support. Overall,
+this is rare and makes it likely that decarbonization will be slower and more expensive
+than necessary. Novel approaches, such as MOE or biocoke development, require
+specific dedicated research funds to deliver potential options to market in 10–20
+years’ time. Given the long lead times required to bring new technologies to market,
+there is climate and economic competitiveness value in starting today.
+Fundamentally, overt market-facing policies will be needed to avoid dislocations
+and speed decarbonization. These include the following:
+Investments in low-carbon infrastructure enablers, such as low-carbon transmission systems, hydrogen pipelines, and CO2 storage hubs and clusters.
+
+858
+
+Joule 5, 829–862, April 21, 2021
+
+ll
+Review
+
+Figure 15. Marginal abatement cost of CO2 ($ per ton-CO2)
+
+Support for domestic decarbonization with incentives. These could include revenue enhancements, such as grants, feed-in tariffs, and contracts for differences,
+or capital treatments, such as tax credits.
+Green procurement, including authorization to purchase low-carbon steel made
+by domestic industry at elevated prices. This is particularly straightforward for
+infrastructure and military procurement.
+Development of low-carbon production standards as a regulatory driver,
+matches with border tariffs to avoid leakage and offshoring of jobs and industry.
+Deliberate early retirement and replacement of current steel-producing facilities
+with low-emission options, as well as a shift to increased scrap steel recycling using zero-C electric power.
+International coordination, including sector ‘‘clubs’’ that include major steel-producing companies and nations. This could serve to develop international lowemission production standards for steel among buyers and sellers (akin to the
+Montreal Protocol), potentially avoiding future challenges to the International
+Monetary Fund.
+To hasten the development and deployment of decarbonization options, nations
+should adopt these measures and others. The inherent difficulty of steel decarbonization will require innovation in policy and market design that embrace multiple
+
+Joule 5, 829–862, April 21, 2021
+
+859
+
+ll
+Review
+options and possibly all options. These policies will have implications for labor,
+trade, security, and climate, requiring care in construction. Ideally, the technical findings from this report and future work will help to advise that policy design process.
+
+SUPPLEMENTAL INFORMATION
+Supplemental Information can be found online at https://doi.org/10.1016/j.joule.
+2021.02.018.
+
+ACKNOWLEDGMENTS
+This work benefited greatly from the review of six anonymous reviewers. The
+research was made possible, in part, thanks to grants from the Hewlett Foundation
+and Breakthrough Energy. More information is available at https://energypolicy.
+columbia.edu/about/partners.
+
+REFERENCES
+1. IPCC (2018). Summary for Policymakers. In
+Global Warming of 1.5 C. An IPCC Special
+Report on the impacts of global warming of
+1.5 C above pre-industrial levels and related
+global greenhouse gas emission pathways,
+in the context of strengthening the global
+response to the threat of climate change,
+sustainable development, and efforts to
+eradicate poverty, V. Masson-Delmotte, P.
+Zhai, H.-O. Pörtner, D. Roberts, J. Skea, P.R.
+Shukla, A. Pirani, W. Moufouma-Okia, C.
+Péan, R. Pidcock, S. Connors, J.B.R.
+Matthews, Y. Chen, X. Zhou, M.I. Gomis, E.
+Lonnoy, T. Maycock, M. Tignor, and T.
+Waterfield, eds. (World Meteorological
+Organization), p. 32.
+
+from harder-to-abate sectors. https://www.
+energy-transitions.org/publications/missionpossible/.
+9. Orth, A., Anastasijevic, N., and Eichberger, H.
+(2007). Low CO2 emission technologies for iron
+and steelmaking as well as titania slag
+production. Miner. Eng. 20, 854–861.
+10. Hasanbeigi, A., and Springer, C. (2019). How
+clean if the U.S. steel industry? An international
+benchmarking of energy and CO2 intensities
+(Global Efficiency Intelligence). https://www.
+greengrowthknowledge.org/research/howclean-us-steel-industry.
+
+2. United Nations Environment Programme
+(2019). Emissions Gap Report 2019. https://
+www.unenvironment.org/resources/
+emissions-gap-report-2019.
+
+11. Cameron, I., Sukhram, M., Lefebvre, K., and
+Davenport, W. (2019). Blast Furnace
+Ironmaking Analysis, Control, and
+Optimization. In Blast Furnace Ironmaking
+Analysis, Control, and Optimization,
+pp. 453–459.
+
+3. International Energy Agency (2020). Data and
+Statistics, CO2 emissions by sector. https://
+www.iea.org/data-and-statistics?
+country=WORLD&fuel=CO2%
+20emissions&indicator=CO2BySector.
+
+12. Kirschen, M., Badr, K., and Pfeifer, H. (2011).
+Influence of direct reduced iron on the energy
+balance of the electric arc furnace in steel
+industry. Energy 36, 6146–6155.
+
+4. Worldsteel Association (2019). World steel in
+figures 2019. https://www.worldsteel.org/en/
+dam/jcr:96d7a585-e6b2-4d63-b9434cd9ab621a91/World%2520Steel%2520in%
+2520Figures%25202019.pdf.
+
+13. U.S. Department of Energy. (2000). Energy and
+Environmental Profile of the U.S. Iron and Steel
+Industry (U.S. Department of Energy Office of
+Industrial Technologies). https://www.energy.
+gov/sites/prod/files/2013/11/f4/steel_profile.
+pdf.
+
+5. Friedmann, J., Fan, Z., and Tang, K. (2019).
+Low-Carbon Heat Solutions for Heavy Industry:
+Sources, Options, and Costs Today (Center on
+Global Energy Policy). https://www.
+energypolicy.columbia.edu/research/report/
+low-carbon-heat-solutions-heavy-industrysources-options-and-costs-today.
+
+14. Seker, M., Memmedov, A., Huseyinov, R., and
+Kockanat, S. (2017). Power Quality
+Measurement and Analysis in Electric Arc
+Furnace for Turkish Electricity Transmission
+System. Elektron. Elektrotech. 23, 25–33.
+
+6. Sandalow, D., Friedmann, J., Aines, R.,
+McCormick, C., McCoy, S., and Stolaroff, J.
+(2019). ICEF Industrial Heat Decarbonization
+Roadmap (ICEF). https://www.icef-forum.org/
+roadmap/.
+7. Friedmann, J. (2019). ‘‘Congressional
+Testimony, House Energy and Commerce
+Committee, Hearing on Industrial
+Decarbonization.’’ CGEP, SIPA (Columbia
+University).
+8. Energy Transitions Commission (2018). Mission
+Possible: Reaching net-zero carbon emissions
+
+860
+
+Joule 5, 829–862, April 21, 2021
+
+15. Midrex (2019). 2018 World Direct Reduction
+Statistics. https://www.midrex.com/wpcontent/uploads/Midrex_STATSbookprint_
+2018Final-1.pdf.
+16. European commission (2018). European Steel:
+The Wind of Change, Brussels Seminar. https://
+ec.europa.eu/research/index.cfm?
+eventcode=80BB405C-DA08-56D3800BC46FC9A6F350&pg=events.
+17. Midrex H2 (2020). Midrex H2: helping
+steelmakers reduce CO2 emissions. https://
+www.midrex.com/technology/midrexprocess/midrex-h2/.
+
+18. van der Stel, J., Meijer, K., Teerhuis, C.,
+Zeijlstra, C., Keilman, G., and Ouwehand, M.
+(2013). Tata steel. https://ieaghg.org/docs/
+General_Docs/Iron%20and%20Steel%202%
+20Secured%20presentations/2_1330%20Jan%
+20van%20der%20Stel.pdf.
+19. Quader, A., Ahmed, S., Dawal, S.Z., and
+Nukman, Y. (2016). Present needs, recent
+progress and future trends of energy-efficient
+Ultra-Low Carbon Dioxide (CO2) Steelmaking
+(ULCOS) program. Renew. Sustain. Energy Rev.
+55, 537–549.
+20. Yan, J. (2018). Progress and Future of
+Breakthrough Low-carbon Steelmaking
+Technology (ULCOS) of EU. International
+Journal of Mineral Processing and Extractive
+Metallurgy 3, 15–22.
+21. Boston Metal (2020). Metal oxide electrolysis.
+https://www.bostonmetal.com/moetechnology/.
+22. Allanore, A., Yin, L., and Sadoway, D.R. (2013).
+A new anode material for oxygen evolution in
+molten oxide electrolysis. Nature 497, 353–356.
+23. Dey, N., Prasad, A., and Singh, S. (2015). Energy
+survey of the coal based sponge iron industry,.
+Case Studies in Thermal Engineering 6, 1–15.
+24. Holling, M., and Gellert, S. (2018). Direct
+Reduction: Transition from Natural Gas to
+Hydrogen? Conference: ICSTI 2018. https://
+www.researchgate.net/publication/
+327962750_Direct_Reduction_Transition_
+from_Natural_Gas_to_Hydrogen.
+25. United States Environmental Protection
+Agency (2012). Available and emerging
+technologies for reducing greenhouse gas
+emissions from the iron and steel industry (U.S.
+Environmental Protection Agency). https://
+www.epa.gov/sites/production/files/2015-12/
+documents/ironsteel.pdf.
+26. Barati, M. (2010). Energy intensity and
+greenhouse gases footprint of metallurgical
+processes: A continuous steelmaking case
+study. Energy 35, 3731–3737.
+27. Hasanbeigi, A., Price, L., Aden, N., Zhang, C.,
+Li, X., and Shangguan, F. (2011). A Comparison
+of Iron and Steel Production Energy Use and
+Energy Intensity in China and the U.S. DOE.
+https://www.osti.gov/biblio/1050727.
+
+ll
+Review
+28. U.S. Energy Information Administration (2019).
+U.S. Energy-Related Carbon Dioxide
+Emissions, 2018. https://www.eia.gov/
+environment/emissions/carbon/archive/2018/.
+29. Worldsteel Association (2017). Steel’s
+contribution to a low carbon future and climate
+resilient societies - worldsteel position paper.
+https://www.worldsteel.org/en/dam/
+jcr:66fed386-fd0b-485e-aa23-b8a5e7533435/
+Position_paper_climate_2018.pdf.
+30. International Energy Agency (2020). The
+challenge of reaching zero emissions in heavy
+industry. https://www.iea.org/articles/thechallenge-of-reaching-zero-emissions-inheavy-industry.
+31. International Energy Agency H2 (2019). The
+future of hydrogen (IEA). https://www.iea.org/
+reports/the-future-of-hydrogen.
+32. van Hulst, N. (2019). The clean hydrogen future
+has already begun (IEA). https://www.iea.org/
+commentaries/the-clean-hydrogen-future-hasalready-begun.
+33. Dickel, R. (2020). Blue hydrogen as an enabler
+of green hydrogen: the case of Germany
+(Oxford Institute for Energy Studies). https://
+www.oxfordenergy.org/wpcms/wp-content/
+uploads/2020/06/Blue-hydrogen-as-anenabler-of-green-hydrogen-the-case-ofGermany-NG-159.pdf.
+34. Vogl, V., Ahman, M., and Nilsson, L. (2018).
+Assessment of hydrogen direct reduction for
+fossil-free steelmaking,. Journal of Cleaner
+Production 203, 736–745.
+35. Yilmaz, C., Wenderstorf, J., and Turek, T.
+(2017). Modeling and simulation of hydrogen
+injection into a blast furnace to reduce carbon
+dioxide emissions. Journal of Cleaner
+Production 154, 488–501.
+36. Lyu, Q., Qie, Y., Liu, X., Lan, C., Li, J., and Liu, S.
+(2017). Effect of hydrogen addition on
+reduction behavior of iron oxides in gasinjection blast furnace. Thermochimica Acta
+648, 79–90.
+37. Longbottom, R.J., and Kolbeinsen, L. (2008).
+Iron Ore Reduction with CO and H2 Gas
+Mixtures – Thermodynamic and Kinetic
+Modelling (University of Wollongong). https://
+ro.uow.edu.au/engpapers/1260.
+38. Chevrier, V. (2018). Hydrogen uses in
+ironmaking. https://www.energy.gov/sites/
+prod/files/2018/08/f54/fcto-h2-scale-kickoff2018-8-chevrier.pdf.
+39. Kawakami, A. (2020). Mitsubishi Heavy to build
+biggest zero-carbon steel plant (NikkeiAsia).
+40. Hydrogen Europe (2017). Decarbonise
+Industry. https://hydrogeneurope.eu/
+decarbonise-industry.
+41. Mehmeti, A., Angelis-Dimakis, A., Arampatzis,
+G., McPhail, S.J., and Ulgiati, S. (2018). Life
+Cycle Assessment and Water Footprint of
+Hydrogen Production Methods: From
+Conventional to Emerging Technologies.
+Environments 5, 24. https://www.mdpi.com/
+2076-3298/5/2/24.
+42. Antonini, C., Treyer, K., Streb, A., van der Spek,
+M., Bauer, C.B., and Mazzotti, M. (2020).
+Hydrogen production from natural gas and
+biomethane with carbon capture and storage –
+
+A techno-environmental analysis. Sustainable
+Energy Fuels 4, 2967–2986.
+43. Johnson, E. (2009). Goodbye to carbon neutral:
+Getting biomass footprints right.
+Environmental Impact Assessment Review 29,
+165–168.
+44. U.S. Department of Energy (2016). 2016 Billion
+ton report: Advancing Domestic Resources for
+a Thriving Bioeconomy. https://www.energy.
+gov/sites/prod/files/2016/12/f34/
+2016_billion_ton_report_12.2.16_0.pdf.
+45. Material Economics (2018). The Circular
+Economy - a Powerful Force for Climate
+Mitigation. https://materialeconomics.com/
+publications/the-circular-economy-apowerful-force-for-climate-mitigation-1.
+46. Helle, M., Wiklund, C.-M., Kohl, T., Järvinen,
+M., and Saxen, H. (2016). Numerical Study of
+biomass use in a steel plant. In SCANMET V 5th
+International Conference on Process
+Development in Iron and Steelmaking.
+47. Wiklund, C.-M., Pettersson, F., and Saxén, H.
+(2013). Optimization of a Steel Plant with
+Multiple Blast Furnaces Under Biomass
+Injection. Metall. Mater. Trans., B, Process
+Metall. Mater. Proc. Sci. 44, 447–458.
+48. Mayhead, G., Snell, R., and Shelly, J.R.. Woody
+Biomass Factsheet – WB4 Pyrolysis of Woody
+Biomass. University of California Berkeley.
+https://ucanr.edu/sites/WoodyBiomass/
+newsletters/InfoGuides43122.pdf.
+
+reducing agents in the blast furnace: A review
+of thermochemical conversion technologies
+and assessments related to sustainability.
+Renewable and Sustainable Energy Reviews 25,
+511–528.
+57. NationMaster (2020). Production from charcoal
+plants: Countries Compared. https://www.
+nationmaster.com/country-info/stats/Energy/
+Charcoal/Production-from-charcoal-plants.
+58. Research, T.F.T. (2015). Charcoal TFT research
+February 2015. https://silo.tips/queue/
+charcoal-tft-research?&queueid=1&v=1609406528&u=MTQ0Lj
+M0LjE2OS4yNTM.
+59. Sandalow, D., Aines, R., Friedmann, J.,
+McCormick, C., and Sanchez, D.L. (2020).
+Biomass Carbon Removal and Storage (BiCRS)
+Roadmap (ICEF). https://www.icef-forum.org/
+pdf/2020/roadmap/roadmap.pdf.
+60. Fujihara, M.A., Goulart, L.C., and Moura, G.
+(2005). Chapter 14 - Cultivated Biomass for the
+Pig Iron Industry in Brazil. In Bioenergy Realizing the Potential.
+61. Ueki, Y., Nunome, Y., Yoshiie, R., Naruse, I.,
+Nishibata, Y., and Aizawa, S. (2014). Effect of
+Woody Biomass Addition on Coke Properties.
+ISIJ International 54, https://doi.org/10.2355/
+isijinternational.54.2454.
+62. Babich, A., Senk, D., and Fernandez, M. (2010).
+Charcoal Behaviour by Its Injection into the
+Modern Blast Furnace. ISIJ Int. 50, 81–88.
+
+49. Ribeiro, J.M.C., Godina, R., Matias, J.C.O., and
+Nunes, N. (2018). Future Perspectives of
+Biomass Torrefaction: Review of the Current
+State-Of-The-Art and Research Development.
+Sustainability 10, 2323.
+
+63. Suopajärvi, H., Pongrácz, E., and Fabritius, T.
+(2014). Bioreducer use in Finnish blast furnace
+ironmaking – Analysis of CO2 emission
+reduction potential and mitigation cost. Appl.
+Energy 124, 82–93.
+
+50. Natural resources Canada (2016). Biofuels for
+Steelmaking. https://www.nrcan.gc.ca/energy/
+efficiency/industry/processes/energy-systems/
+metallurgical-fuels/5619?wbdisable=true.
+
+64. Tanzer, S.E., Blok, K., and Ramı́rez, A. (2020).
+Can bioenergy with carbon capture and
+storage result in carbon negative steel? Int. J.
+Greenh. Gas Control 100, 103104.
+
+51. Mandova, H., Gale, W.F., Williams, A., Heyes,
+A.L., Hodgson, P., and Miah, K.H. (2018).
+Global assessment of biomass suitability for
+ironmaking – Opportunities for co-location of
+sustainable biomass, iron and steel production
+and supportive policies,. Sustainable Energy
+Technologies and Assessments 27, 23–39.
+
+65. Han, H., Duan, D., Yuan, P., and Li, D. (2015).
+Biomass reducing agent utilisation in rotary
+hearth furnace process for DRI production.
+Ironmaking & Steelmaking Processes, Products
+and Applications 42, https://doi.org/10.1179/
+1743281215Y.0000000001.
+
+52. Mathieson, J.G., Rogers, H., Somerville, M.A.,
+Jahanshahi, S., and Ridgeway, P. (2011). Potential for
+the use of biomass in the iron and steel industry.
+Chemeca 2011: Engineering a Better World. https://
+search.informit.com.au/documentSummary;dn=
+191853314279437;res=IELENG.
+53. Fick, G., Migaux, O., Neau, P., and Patisson, F.
+(2013). Using Biomass for Pig Iron Production:
+A Technical, Environmental and Economical
+Assessment. Waste Biomass Valoriz. 5, 43–55.
+54. Suopajärvi, H., and Fabritius, T. (2013). Towards
+More Sustainable Ironmaking—An Analysis of
+Energy Wood Availability in Finland and the
+Economics of Charcoal Production.
+Sustainability 5, 1188–1207.
+55. Seo, M.W., et al. (2020). Carbonization
+characteristics of biomass/coking coal blends
+for the application of bio-coke. Chem. Eng. J.
+394, 124943.
+56. Suopajärvi, H., Pongrácz, E., and Fabritius, T.
+(2013). The potential of using biomass-based
+
+66. Compare your country (2020). Climate change
+mitigation policies. http://www.
+compareyourcountry.org/climate-policies?
+cr=oecd&lg=en&page=2.
+67. Friedmann, J., Fan, Z., Ochu, E., Sheerazi, H.,
+Byrum, Z., and Bhardwaj, A. (2020). Levelized
+Cost of Carbon Abatement: An Improved
+Cost-Assessment Methodology for a Net-Zero
+Emissions World (CGEP, SIPA, Columbia
+University). https://www.energypolicy.
+columbia.edu/research/report/levelized-costcarbon-abatement-improved-costassessment-methodology-net-zero-emissionsworld.
+68. Bataille, C., et al. (2020). Low and zero
+emissions in the steel and cement industries
+BARRIERS, TECHNOLOGIES AND POLICIES
+(OECD). https://www.oecd-ilibrary.org/
+environment/low-and-zero-emissions-in-thesteel-and-cement-industries_5ccf8e33-en.
+69. International Energy Agency (2020). Electricity
+Information: Overview. https://www.iea.org/
+reports/electricity-information-overview.
+
+Joule 5, 829–862, April 21, 2021
+
+861
+
+ll
+Review
+70. Gernaat, D.E.H.J., Bogaart, P.W., Vuuren, V.,
+Biemans, H., and Niessink, R. (2017). Highresolution assessment of global technical and
+economic hydropower potential. Nat. Energy
+2, 821–828.
+71. IPCC (2005). Special Report on Carbon Dioxide
+Capture and Storage. https://www.ipcc.ch/
+report/carbon-dioxide-capture-and-storage/.
+72. International Energy Agency (2016). 20 years of
+carbon capture and storage. https://www.iea.
+org/reports/20-years-of-carbon-capture-andstorage.
+73. Bain, P., and Wilcox, J. (2017). CO2 capture
+from the industry sector. Combustion Science
+63, 146–172.
+74. International Energy Agency (2020). CCUS in
+Clean Energy Transitions. https://www.iea.org/
+reports/ccus-in-clean-energy-transitions.
+75. International Energy Agency (2020). Energy
+Technology Perspectives 2020. https://www.
+iea.org/reports/energy-technologyperspectives-2020.
+76. Wilcox, J., Kolosz, B., and Freeman, J. (2021).
+CDR Primer. https://cdrprimer.org/about.
+77. Kuramochi, T., Ramı́rez, A., Turkenburg, W.,
+and Faaij, A. (2011). Techno-economic
+assessment and comparison of CO2 capture
+technologies for industrial processes:
+
+862
+
+Joule 5, 829–862, April 21, 2021
+
+Preliminary results for the iron and steel sector.
+Energy Procedia 4, 1981–1988.
+78. Pal, P., Gupta, H., and Kapur, D. (2016). Carbon
+mitigation potential of Indian steel industry.
+Mitig. Adapt. Strategies Glob. Change 21,
+391–402.
+79. Hooeya, L., Tobiesen, A., Johns, J., and Santos,
+S. (2013). Techno-economic study of an
+integrated steelworks equipped with oxygen
+blast furnace and CO2 capture. Energy
+Procedia 37, 7139–7151.
+80. Kuramochi, T. (2011). CO2 capture in industries
+and distributed energy systems: Possibilities
+and limitations (Uitgeverij BOXPress,
+Oisterwijk). https://dspace.library.uu.nl/
+bitstream/handle/1874/205115/kuramochi.
+pdf?sequence=1.
+81. Ho, M.T., Allinson, G.W., and Wiley, D.E. (2011).
+Comparison of MEA capture cost for low CO2
+emissions sources in Australia. International
+Journal of Greenhouse Gas Control 5, 49–60.
+82. Arasto, A., Tsupari, E., Kärki, J., Sihvonen, M.,
+and Lilja, J. (2013). Costs and Potential of
+Carbon Capture and Storage at an Integrated
+Steel Mill. Energy Procedia 37, 7117–7124.
+83. CSLForum (2020). Al Reyadah Carbon Capture,
+Use, and Storage (CCUS) Project. https://www.
+cslforum.org/cslf/Projects/AlReyadah.
+
+84. Sakaria, D. (2017). Case Study: Al Reyadah
+CCUS Project. https://www.cslforum.org/cslf/
+sites/default/files/documents/AbuDhabi2017/
+AbuDhabi17-TW-Sakaria-Session2.pdf.
+85. Carpenter, A. (2012). CO2 abatement in the
+iron and steel industry (IEA). https://usea.org/
+sites/default/files/012012_CO2%20abatement
+%20in%20the%20iron%20and%20steel%
+20industry_ccc193.pdf.
+86. Santos, S. (2014). CO2 Capture in the Steel
+Industry Review of the Current State of Art.
+Industry CCS Workshop. https://
+nachhaltigwirtschaften.at/resources/iea_pdf/
+events/20140428_workshop_ccs_in_
+industry_vortrag_03_stanley_santos.pdf?
+m=1469661440&.
+87. GCCSI (2017). CCS: a necessary technology for
+decarbonising the steel sector. https://www.
+globalccsinstitute.com/news-media/insights/
+ccs-a-necessary-technology-fordecarbonising-the-steel-sector/.
+88. Campbell, R., Anderson, N., Daugaard, D., and
+Naughton, H. (2018). Financial viability of
+biofuel and biochar production from forest
+biomass in the face of market price volatility
+and uncertainty. Appl. Energy 230, 330–343.
+89. SSAB (2020). First in fossil-free steel. Using
+HYBRIT Technology. https://www.ssab.com/
+company/sustainability/sustainableoperations/hybrit.
+
+

@@ -1,0 +1,1545 @@
+Energy 301 (2024) 131512
+
+Contents lists available at ScienceDirect
+
+Energy
+journal homepage: www.elsevier.com/locate/energy
+
+Recovery and utilisation of waste heat for sponge iron process through
+combined preheating and power generation
+Gajendra Kumar Gaurav a, b, Shabina Khanam b, *, Fuchun Zhang a, Xinghui Liu c, d, e, **
+a
+
+School of Physics and Electronic Information, Yan’an University, Yan’an-716000, China
+Department of Chemical Engineering, Indian Institute of Technology Roorkee, Roorkee - 247 667, India
+c
+Department of Materials Physics, Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences (SIMTS), Thandalam, Chennai, 602105,
+Tamilnadu, India
+d
+Science and Technology on Aerospace Chemical Power Laboratory, Hubei Institute of Aerospace Chemotechnology, Xiangyang 441003, China
+e
+Division of Research and Development, Lovely Professional University, Phagwara, India
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Handling Editor: Wojciech Stanek
+
+This paper deals with an option accounted for total waste gas heat recovered through combined preheating as
+well as power generation of feed material, kiln air, as well as slinger coal when it reaches 250 ◦ C from 994 ◦ C.
+The heat recovery is obtained through GCC Profile is plotted using HINT software. The power produced is 2.757
+MW with an optimal condition having a temperature of 280 ◦ C saturated, 600 ◦ C superheated, as well as superheated pressure of 350 bar. The heat required around the superheater, boiler and preheater is 5066.9 kW,
+12,669.93 kW and 6873.6 kW. The air requirement for this option is 52.588 t/h after iteration. Also, the iterative
+waste gas flow rate is 22.31 kg/s. Three new heat exchangers are required to achieve possible heat recovery by
+designing HEN through Pinch Analysis. The water requirement around EC is 14.88 t/h and 7.8 t/h as in the case
+of actual and modified HEN. The calculated pressure drops of different ducts having lengths 25 m and pressure
+0.034 atm, 80 and 105 m are obtained pressure as 0.034, 0.12 and 0.16 atm. 3 FD fans are required for
+maintenance of required pressures in the duct. The TAC is INR 8068.8/y; payback period is 2.62 y.
+
+Keywords:
+Preheating
+Power generation
+Economic analysis
+Boiler-turbine system
+Duct temperature profile
+
+1. Introduction
+Sponge iron is manufactured in the form of solid by direct reduction
+of iron ore. Due to its honeycomb structure, it is called ‘Sponge Iron’.
+The sponge iron quality is measured through % metallization, which is
+defined in the fraction of metallic iron i.e. Fe to the total iron available in
+the final product [1]. This is used in the steel manufacturing process as a
+predominant source. Agarwal and Sood [2] found that the required
+energy quantity of sponge iron for the kiln is available in the range of
+14.63–20.9 GJ/t. A huge heat quantity is produced during the operation,
+which is not utilised in the system. So, the problems associated with
+energy are the major critical troublesome in this type of industry. Many
+investigators suggested numerous ways to the utilisation of waste gas
+heat in the process. Bandyopadhyay et al. [3] observed that bulk volatile
+matter (VM) quantity was lost with hot waste gases at the kiln feed end.
+Elsenheimer and Serbent [4] supported discussed feature and revealed
+
+that waste gas contained around 40 % of total kiln energy. They suggested numerous options to improve energy via the heat of waste gas,
+but they didn’t discuss its practical difficulties as well as saved energy
+with the installation of these options. Hajidavalloo and Alagheband [5]
+incorporated preheating of raw materials using waste gas heat before
+admitting to the electric arc furnace. Sponge iron productivity was
+enhanced and energy consumption was reduced by 13 % and 14 %.
+Eriksson and Larsson [6] proposed different methods to increase process
+energy efficiency. These are available through the use of internal energy,
+the contribution of external energy and power generation. Mignard and
+Pritchard [7] discussed generation of marine energy in remote case and
+analyzed transmission and storage in the case of the sponge iron process.
+Biswas et al. [8] saved 10–12 % energy considering the reduced amount
+of air through axial as well as radial injection.
+Kumar and Khanam [9] used waste gas heat for air preheating up to
+170◦ C carried out using a plate heat exchanger. As a result, a reduction
+
+* Corresponding author. Department of Chemical Engineering, Indian Institute of Technology Roorkee, Roorkee, 247 667, India.
+** Corresponding author. Science and Technology on Aerospace Chemical Power Laboratory, Laboratory of Emergency Safety and Rescue Technology, Hubei
+Institute of Aerospace Chemotechnology, Xiangyang, 441003, China.
+E-mail addresses: shabinahai@gmail.com, shabina.khanam@ch.iitr.ac.in (S. Khanam), liuxinghui119@gmail.com (X. Liu).
+https://doi.org/10.1016/j.energy.2024.131512
+Received 13 July 2023; Received in revised form 3 March 2024; Accepted 1 May 2024
+Available online 11 May 2024
+0360-5442/© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+in coal consumption was found up to 8.7 % correspondingly, waste gas
+was reduced up to 16.7 %. A water bath has been proposed by them for
+utilisation of available heat content around kiln discharge and found
+that 96.3 % water consumption was reduced in comparison to the
+existing system due to minimisation of heavier evaporation losses.
+Prasad et al. [10] suggested two cases case-1 and case-2 which were
+reckoned as firstly feed material preheating and secondly combined feed
+material and air preheating. They found that Case-2 was the most suited
+heat recovery alternative in comparison to case-1 as well as the existing
+recovery process, whereas reduction in coal, as well as water utilisation,
+was calculated as 30.5 % as well as 72.6 %. Prasad et al. [11] considered
+three practicable options for best design and energy conservation. They
+found that air and feed material preheating was most suitable for kiln
+utilising waste gas heat. Consumption of coal was reduced up to 12.5 %
+as compared to the existing available system.
+Jena et al. [12] proposed a measurable evaluation of the process,
+presuming air requirement, loss of dust particles, waste gas composition,
+etc. The heat of waste gas is used for power generation suggested by
+authors and also achieved thermal efficiency was 46 % in the process
+where approx. 33 % kiln heat vanished accompanied by waste gas. How
+to get or compute to perform this matter is not described by them.
+Agarwal and Sood [13] proposed and installed a waste heat recovery
+boiler (WHRB) for generating process steam as well as tapping waste gas
+heat remains goes to waste. The total generated heat from coal is not
+used in reduction; only 35 % heat is used. A few difficulties faced by
+them in the installation areas:
+
+between the existing industrial process and the power generation heat
+recovery system. They found that Total Site Efficiency was improved by
+13.9 % as compared to the original or existing process due to optimization as well as Energy Integration in the third strategy while 6.7 % and
+6.9 % were achieved in the case of the first and second strategies [17].
+Nduagu et al., 2022 stated The comprehensive life cycle assessment of
+three different technological pathways for DRI production: rotary kiln
+DRI process, coal gasifier DRI process, and natural gas reformer DRI
+process are described well [18]. An inventory approach based on hybrid
+life cycle is employed, involves literature data, industry consultation and
+process modelling, to setup baseline process metrics, along with a
+sensitivity analysis to explain the variabilities and uncertainties impact.
+Energy input of 25 % and 8 % are reported through flue gases and shell
+losses respectively, whereas the free moisture vaporization consumes
+almost 15 % energy input. The rotary kiln furnace shows energy efficiencies of 66.4 %, in case of waste heat recovery. The results are used in
+optimizing operating conditions and provide thermal effects of mineralogical ore composition [19]. Green transformation has been outlined
+for rethinking innovation in case of iron and steel for advanced performance [20]. The recent challenges, technoeconomic analysis and
+vigorous development in case of steel industries are outlined [21].
+The research gap is very much clear from the literature that preheating and power generation using the heat of waste gas have been
+performed by very few authors in the literature in the case of DRI production processes. In the present paper utilisation of available heat of
+waste gas used in preheating and power generation together in sponge
+iron process. This paper focuses on heat recovery through preheating
+and power generation and also detailed discussion about profitability
+analysis has been described.
+
+(i) Generation of steam quality is not acceptable to turbine application in the start-up,
+(ii) Formation of accretion in the kiln,
+(iii) (iii) Not proper feedstock availability as well as shut down also
+mix up steam generation, and
+(iv) (iv) an enormous amount of dust particles as 35 × 106 to 40 ×
+106 kg/m3 found in kiln contained by waste gas. Ulrich and
+Tondo [2] described the feasibility of the plant comprising a
+WHRB and mentioned that plant production potentiality of
+sponge iron having 1000 t/d or beyond this is practicable,
+whereas a module plant having 500 t/d would be questionable.
+This feature was also favoured by Agarwal and Sood [13].
+
+2. Description of sponge iron process
+The simplified process flow diagram (PFD) of an Indian sponge iron
+process, of 500 t/d production capacity, is shown in Fig. 1 along with
+industrial data. In this process, raw material admits to the kiln from the
+feed end and because of rotation as well as inclination inside the kiln
+feed moves to the discharge end. The product collects at the discharge
+end. On the other hand, as per process demand air supplies into the kiln
+in the form of primary as well as secondary air as indicated in Fig. 1. A
+non-oxidising environment is maintained, so that product temperature is
+cooled down to 110◦ C from 1,067◦ C. At 110◦ C, solid products come out
+from the rotary kiln and enter to rotary cooler [13]. A detailed
+description of the process is discussed by Gaurav and Khanam, 2017
+[21].
+
+Numerous studies have been done in other plants using WHRB other
+than the direct reduced iron (DRI) process. Sui et al. [14] studied energy
+as well as exergy efficiencies of the cement production processes.
+Without considering WHRB in the process, the values for energy efficiencies for the preparation system of raw material, a rotary system as
+well as preparation system of pulverised coal, were obtained as 39.4 %,
+50.2 %, as well as 10.8 %. With the installation of WHRB, the energy
+efficiencies values for the preparation system of raw material, a rotary
+system as well a preparation system of pulverised coal, were predicted as
+45.8 %, 55.1 %, and 15.5 %. They found that the saved amount of energy
+is 30.75 kWh/t for waste heat power generation, which signified
+numerous economic as well as environmental benefits. They also suggested several energy-saving strategies for power generation using waste
+heat as a degree of resource, energy-saving effect as well as energy
+utilisation. Wang et al. [15] discussed three models based on thermodynamics in detail considering single, dual pressure as well as Energy
+Integration systems using Pinch Method principles for energy integration, power generation and heat recovery optimization utilising waste
+gas associated with the industry. A Total site hierarchical method
+related to energy integration is proposed for increment in power generation added with fuel-saving [16]. Integration based energy system
+was most profitable as compared to the other two strategies observed by
+them. In the first strategy, heat recovery was carried out the waste gas
+treatment, while in the second strategy, enhancing power generation
+was considered using optimised parameters, efficient equipment for heat
+recovery, and a steam cycle. The last strategy was Energy Integration
+
+3. Description of energy-saving strategy and corresponding
+necessary data
+A strategy is proposed for saving energy, where preheating of raw
+materials as well as power generation are considered simultaneously,
+which is a novel option for energy conservation in the sponge iron
+process. In this case, preheating of kiln feed, kiln air and slinger coal is
+carried out using the heat of waste gas. The remaining heat of waste gas
+is used for power generation. For the recovery and utilisation of waste
+heat, data on the sponge iron process is collected. The stream data for
+this strategy is shown in Table 1 where preheating of feed materials, kiln
+air and slinger coal streams are done up to 200 ◦ C, 600 ◦ C and 200 ◦ C.
+Waste gas is available from 994 ◦ C to 250 ◦ C. For preheating 9271.99 kW
+heat of waste gas is used and beyond that waste gas heat is recovered
+through power generation.
+Along with stream data, a few more data are required such as specific
+heats of various streams and cost data of different materials, which are
+reported in Tables 1 and 2. For the installation of a duct to carry waste
+gas from one place to another in the process, the distance between
+different equipment is shown in Table 3.
+
+2
+
+Energy 301 (2024) 131512
+
+G.K. Gaurav et al.
+
+Fig. 1. Process Flow Diagram (PFD) of the sponge iron process.
+
+4. Solution methodology
+
+Table 1
+Data of different streams specific heat.
+Stream
+
+Specific heat (J/kg oC)
+
+kiln feed
+Kiln air
+Slinger Coal
+Kiln outlet
+Inlet to RC
+Waste gas
+
+1092.7
+1032.6
+1884.30
+687.9
+4187
+1140
+
+Different steps used to solve energy saving [22] strategy options are
+shown in Fig. 2. The expression to compute coal consumption for this
+strategy is detailed in the work of Gaurav and Khanam (Gaurav and
+Khanam, 2017) and shown in Eq. (1). Expressions involved in the estimation of total heat requirement for conventional process Hot utility is
+determined by pinch analysis [17]. Based on heat balance, it is found
+that heat utilised in the process is only 43.3 % of the total heat energy
+thus, term 0.433 is used. The, mass ratio of air to coal, practiced in actual
+plant is 3.8703. Now, air enters to the plant in three ways such as kiln
+air, in ABC and with slinger coal in mass fractions as 0.8504, 0.16107
+and 0.03356, respectively. These are preheated up to different temperatures due to 600 ◦ C, 200 ◦ C, 200 ◦ C respectively. Thus, different temperature approaches are applicable for these fractions such as △Ta1,
+△Ta2, and △Ta3 are used for fractions 0.8504, 0.16107 and 0.03356,
+respectively. The average moisture contents are found in iron ore and
+coal are 2 % and 13 % by weight, respectively, in Indian conditions [23]
+and the amount of heat required to remove it. Considering all these
+values, fractions and temperature approaches and rearranging the
+resultant equation the final expression is found as:
+
+Table 2
+Cost operating data of different materials.
+Cost
+
+Material
+Iron ore
+Coal (Mixing of feed coal and Slinger coal)
+Standard Cost of Boiler Turbine System
+Standard Maintenance cost
+The unit cost of power generation around the turbine
+Fuel (HSD) for firing
+Water
+Electricity cost
+
+Value
+
+Unit
+
+2600
+2500
+46,800
+0.2
+6.5
+33.4
+60
+3.5
+
+INR/t
+INR/t
+INR/kW
+INR/kWh
+INR/kW
+INR/litre
+INR/kilolitre
+INR/kWh
+
+Qhu + Qs + Qp + Qloss + (0.02 × Ms × λ) = Mc [NHV × 0.433
+− {3.8703 × ((0.8504
+× Ca (ΔTa1 )) + (0.03356
+
+× Ca × (ΔTa2 )) + (0.1611
+
+Table 3
+Temperatures profiles of waste gas in the duct.
+For a length of 125 m
+0
+
+For a length of 80 m
+
+For a length of 25 m
+
+0
+
+0
+
+Length, m
+
+T, C
+
+Length, m
+
+T, C
+
+Length, m
+
+T, C
+
+0
+10
+20
+40
+50
+60
+70
+80
+100
+105
+
+600
+592.8
+592
+592
+591.5
+591.5
+591
+591
+589.6
+589.6
+
+0
+10
+20
+40
+50
+60
+70
+80
+
+906.2
+905.6
+905
+904.3
+904
+903.7
+902.8
+902.5
+
+0
+10
+20
+25
+
+994
+993.5
+993
+992.7
+
+× Ca × (ΔTa3 ))}
+
+(1)
+
+− (0.13 × 2256.9)
+− (Cc × (Td − Tsc )]
+
+where NHV = 22759.3 kJ/kg and λ = 2256.9kJ∕kg.
+5. Results and discussion
+The modification proposed through the present strategy considers
+preheating of feed material to a kiln, kiln air and slinger coal using waste
+gas heat. The remaining heat of waste gas is considered for power
+generation. Through this scheme total heat of waste gas is recovered
+3
+
+G.K. Gaurav et al.
+
+4
+
+Fig. 2. Different steps used to solve energy saving strategy options.
+
+Energy 301 (2024) 131512
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+during preheating and power generation, where it is cooled from 994 ◦ C
+to 250 ◦ C.
+
+optimum saturated temperature is found at which maximum power
+generated. Further, with variation in saturated temperature from 200◦ C
+to 280◦ C, Carnot efficiency is fixed at 43 %, which is an obvious outcome
+as inlet and outlet temperatures of power generation cycle are fixed.
+Further, at optimum saturated temperature of 280◦ C and superheated
+pressure of 70 bar are considered constant with variation the superheated temperature from 300◦ C to 700◦ C. For such variation maximum
+power generation of 8.02 MW is found at 700◦ C superheated temperature as shown in Table 5. However, at these conditions’ wetness fraction
+is found as negative and thus, it is neglected. Thus, the selected
+maximum power generation is 7.67 MW corresponding to 600◦ C, where
+wetness fraction and Carnot efficiency are predicted as 0.003 and 59 %,
+respectively.
+Table 5 shows that the Carnot efficiency and power generation increase with increase in superheated temperature, whereas, wetness
+fraction decreases with increase in superheated temperature. Finally,
+superheated pressure is varied from 80 bar to 400 bar while fixing the
+values of saturated temperature and superheated temperature at optimum conditions i.e. 280◦ C and 600◦ C, respectively. For this case
+maximum power of 9.13 MW is generated with wetness fraction of 0.168
+and Carnot efficiency as 57 %, which are corresponding to superheated
+pressure of 400 bar. As, wetness factor achieved at 400 bar is above than
+the tolerable value of 0.15. Therefore, optimum superheated pressure is
+accounted as 350 bar where power generation is 8.97 MW. Therefore,
+for generating 8.97 MW power the values of saturated temperature,
+superheated temperature and superheated pressure are considered as
+280◦ C, 600◦ C and 350 bar, respectively as shown in Table 5. The final
+cycle of power generation with all operating parameters is shown in
+Fig. 6. Fig. 5 shows that a maximum of 2.82 MW power can be generated
+utilising waste gas heat. For generating 2.82 MW power, the values of
+saturated temperature, superheated temperature as well as superheated
+pressure are obtained as 280 ◦ C, 548 ◦ C as well as 250 bar. The total
+superheated steam generated is 2.779 kg/s. The power generation cycle
+is shown in Fig. 6 considering all parameters which are considered in
+operation in the cycle.
+For this strategy, 10 t/h and 157.5 t/h of water are consumed in the
+power generation cycle as well as the condenser. In the modified system
+total coal and water consumptions are found as 13.587 t/h and 917.5 t/
+h. An amount of 13.587 t/h coal is utilised by HEN which is designed
+through Pinch Analysis [25,26] software-HINT considering ΔTmin as
+50 ◦ C as presented in Fig. 7.
+For achieving possible heat recovery, a requirement for heat exchangers is needed of three in numbers. These two of them are (G-S) gassolid, as well as one is G-G (gas-gas) exchanger. Along with these power
+generation systems are also employed. The effects of waste gas at various
+initial temperature such as 1020◦ C, 1035◦ C, 1050◦ C on output like coal
+consumption and power generation are shown in Table 5. It shows that it
+follows the same trends as discussed above in case of initial temperature
+994◦ C. The water consumption will be increased in the similar manner
+because steam is increases with increment in temperature variation.
+
+5.1. Coal and water consumption
+For the present strategy, feed material, kiln air and slinger coal are
+preheated from 30 ◦ C to 200 ◦ C, from 30 ◦ C to 600 ◦ C and from 30 ◦ C to
+200 ◦ C. For this purpose, 2271.83 kW and 10,782.6 kW and 503.74 kW
+of the heat of waste gas are required and consequently, it drops from
+994 ◦ C to 925.3 ◦ C, from 925.3 ◦ C to 599.4 ◦ C and from 599.4 ◦ C to
+584.1 ◦ C. It has been observed that waste gas should be cooled to 250 ◦ C
+before entering ESP. Heat available in this from 584.1 ◦ C to 250 ◦ C is
+used for power generation. As consider ΔTmin as 50 ◦ C and stream data
+shown in Table 4, the hot and cold utilities are computed as 0 and
+11,052.3 kW, using Pinch Analysis. Due to preheating of the air, feed
+material and slinger coal up to 600 ◦ C, 200 ◦ C and 200 ◦ C, in this
+strategy coal consumption, is reduced significantly as coal is utilised to
+heat air, iron ore and coal from 600 ◦ C, 200 ◦ C and 200 ◦ C, to reaction
+temperature instead of 30 ◦ C to reaction temperature.
+To find the value of coal consumption using Eq. (1), a ratio of air to
+coal is maintained as 3.87, which is found considering flowrates of coal
+and total air utilised in the existing sponge iron [24] process. As preheating of kiln air, feed material and slinger coal are involved in this
+strategy, coal consumption for this scheme is computed based on the
+iterative method shown in Fig. 3.
+It shows that the final value of coal consumption is found as 13.587
+t/h, which is 37.4 % less compared the existing PFD. After preheating
+kiln air, feed material and slinger coal up to 600 ◦ C, 200 ◦ C and 200 ◦ C,
+waste gas drops its temperature to 597.8 ◦ C. Further, it is used for power
+generation to reach a temperature of 250 ◦ C. For this purpose, the steam
+generation profile is plotted in the GCC as shown in Fig. 4.
+It shows waste gas profile through solid line which is cool down from
+572.8 ◦ C to 225 ◦ C considering ΔTmin as 50 ◦ C. At the actual scale, it
+moves from 597.8 ◦ C to 250 ◦ C. The steam profile is also plotted at a
+shifted temperature in GCC. For power generation, it is assumed that
+saturated steam is produced at 280 ◦ C whereas, superheated steam is
+generated at 350 ◦ C and 70 bar. The steam profile in Fig. 4 shows that
+consuming 2604.78 kW of the heat of waste gas water is preheated from
+80 ◦ C to 280 ◦ C. At shifted scale preheating of water is shown from
+105 ◦ C to 305 ◦ C. At 305 ◦ C it is drawn as a straight line as it is saturated
+steam, which consumes 4801.35 kW of the heat of waste gas. Finally,
+while taking 732.44 kW heat superheated steam is generated at 375 ◦ C
+as shown in Fig. 4.
+As a result, the temperature of waste gas decreases from 597.8 ◦ C to
+250 ◦ C. Considering 85 % isentropic efficiency and 80 ◦ C condensing
+temperature of superheated steam 2.28 MW of power is produced. As
+power generation depends on saturation and superheating conditions, it
+can be maximised while varying these parameters as shown in Fig. 5.
+Fig. 5 shows overall power generation, Carnot efficiency and wetness
+fraction while varying the parameters like saturated temperature, superheated temperature as well as superheated pressure. The effect of
+variation of these parameters on power generation can be explained in
+as saturated temperature is varied from 200◦ C to 280◦ C considering
+fixed values of superheated temperature and superheated pressure as
+350◦ C and 70 bar, respectively. The maximum power can be generated
+as 70 bar. However, to generate it value of wetness fraction is found as
+0.155, which is almost equal to the maximum limit i.e. 0.15. Therefore,
+
+5.2. Operability analysis
+For the present strategy waste gas is used to preheat feed material,
+kiln air and slinger coal as well as to produce power. Before using the
+waste gas for these purposes, it should be cleaned as it consists of 6.1 t/h
+dust when it comes out from ABC. To remove these dust particles a hightemperature ceramic filter is installed after the ABC. it is noted that to
+preheat the feed material, kiln air and slinger coal waste gas moves from
+ABC to rotary kiln, which is in a backward direction than that maintained through an induced draft fan. Such movement of gas is possible
+using forced draft fans in the ducts.
+Initially, waste gas moves from ABC to kiln inlet through an insulated
+duct of 25 m length to preheat the feed material from 30 ◦ C to 200 ◦ C,
+which is carried out using direct contact gas-solid heat exchanger of
+2023.92 kW. Gas enters to 80 m duct to reach to discharge end of the kiln
+
+Table 4
+Modified system stream data for Option-3.
+Steam
+
+Type
+
+Ts
+
+Tt
+
+CP (kW/◦ C)
+
+Unit
+
+Waste gas
+Kiln air
+Kiln feed
+S coal
+
+h1
+c1
+c2
+c3
+
+994
+30
+30
+30
+
+250
+600
+200
+200
+
+23.402
+12.148
+11.905
+1.903
+
+ABC
+Rotary kiln
+Rotary kiln
+Rotary kiln
+
+5
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+Fig. 3. Iterative Coal consumption, air requirement and flow rate of waste gas, t/h.
+
+Fig. 4. Grand composite curve.
+
+Fig. 5. Overall power generation, Carnot efficiency and wetness factor.
+6
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+Table 5
+Iterations results for calculation of coal consumption in Option-3.
+S.
+No.
+
+Saturation temp.
+(oC)
+
+Super-heated temp.
+(oC)
+
+Superheated pressure
+(bar)
+
+Power generation
+(MW)
+
+Wetness
+fraction
+
+Carnot efficiency,
+%
+
+Condensate Temperature
+(oC)
+
+1
+
+280
+270
+260
+240
+230
+220
+200
+280
+280
+280
+280
+280
+280
+280
+280
+280
+280
+280
+280
+280
+280
+280
+280
+
+350
+350
+350
+350
+350
+350
+350
+300
+400
+450
+500
+545
+548
+550
+548
+548
+548
+548
+548
+548
+548
+548
+548
+
+70
+70
+70
+70
+70
+70
+70
+70
+70
+70
+70
+70
+70
+70
+80
+90
+100
+125
+150
+175
+200
+250
+300
+
+2.28
+2.27
+2.26
+2.25
+2.245
+2.241
+2.235
+2.237
+2.32
+2.37
+2.42
+2.47
+2.476
+2.478
+2.52
+2.55
+2.58
+2.65
+2.69
+2.74
+2.77
+2.82
+2.85
+
+0.155
+0.155
+0.155
+0.155
+0.155
+0.155
+0.155
+0.206
+0.118
+0.086
+0.056
+0.032
+0.029
+0.028
+0.039
+0.049
+0.057
+0.075
+0.091
+0.105
+0.118
+0.143
+0.166
+
+43
+43
+43
+43
+43
+43
+43
+38
+48
+51
+54
+57
+57
+57
+57
+57
+57
+57
+57
+57
+57
+57
+57
+
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+80
+
+2
+
+3
+
+Fig. 6. Power generation cycle.
+
+where it preheats kiln air from 30 ◦ C to 200 ◦ C using a shell and tube
+heat exchanger. Waste gas at 609.88 ◦ C exchangers heat with slinger
+coal and preheats it from 30 ◦ C to 200 ◦ C using a gas-solid heat
+exchanger of 323.87 kW heat duty. Waste gas reduces its temperature to
+597.8 ◦ C as shown in Fig. 6. Waste gas at 597.8 ◦ C enters to 105 m length
+insulated duct to move from kiln outlet to ABC outlet. At this temperature waste gas enters to power generation system where it supplies
+2326.75 kW, 4288.85 kW and 1523.45 kW of heat in preheating, boiling
+and superheating, of water as evident from Fig. 4. For power generation
+2.78 kg/s of water with CP 11.63 kW/◦ C is preheated from 80 ◦ C to
+280 ◦ C using 2326.75 kW heat of waste gas. Water goes to a boiler where
+saturated vapour is formed at 280 ◦ C and 64.202 bar using 4288.85 kW
+of the heat of waste gas. The saturated vapour enters to superheater
+where it is heated up to 548 ◦ C and 250 bar pressure using 1523.45 kW
+heat. While supplying a total of 8139.04 kW of the heat of waste gas to
+the power generation system, it exits the system at 250 ◦ C and then
+
+enters ESP as usually carried out in the existing system shown in Fig. 1.
+Lengths used for ducts are as per the distances between different
+equipment, shown in Table 3.
+Therefore, in this strategy total of three ducts are required: first of 25
+m length from ABC to kiln inlet, second of 80 m length from kiln inlet to
+kiln outlet and third of 105 m length from kiln outlet to ABC. All these
+ducts are insulated. The casing of these ducts is made of mild steel where
+outside insulation of glass wool is used. The temperature profiles [27]
+for 25 m, 80 m and 105 m long ducts are shown in Table 3. The exit
+temperatures of gas from 25 m, 80 m and 105 m long ducts are 992.7 ◦ C,
+902.5 ◦ C and 589.6 ◦ C as shown in Table 3. These are the actual temperatures of waste gas that affect the outlet temperatures of feed material, kiln air and slinger coal. Considering these temperatures of gas
+feed material, kiln air and slinger coal are preheated to 200 ◦ C, 600 ◦ C
+and 200 ◦ C. Waste gas enters to power generation system at 589.6 ◦ C and
+exits at 250 ◦ C generates 2.76 MW of power instead of 2.82 MW. The
+7
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+Fig. 7. Hen diagram of Option-3.
+
+Fig. 8. Modified PFD of Option-3.
+
+modified PFD of the present strategy is shown in Fig. 8.
+There is a certain amount of pressure drop when the waste gas flows
+from ABC to the kiln and back to EC. The pressure drops for ducts are
+obtained using Eq. 2 and are found as 0.032 atm, 0.103 atm and 0.135
+atm for 25 m, 80 m and 105 m long ducts. All these pressure drops have
+to be compensated through external means. For this purpose, 1 FD fan is
+used in the first duct of 25 m length to sustain 0.032 atm pressure. A duct
+of 80 m requires 1 FD fans for maintaining necessary pressures in the
+duct. 1 FD fans are required for a duct of 105 m length as air may move
+
+with a blower mounted at the periphery of a kiln. Thus, modified PFD for
+this strategy requires 3 FD fans. [The
+pressure drop
+] calculated
+(
+) can be
+using following equations: ΔР = 0.109136 ×q1.9 /de 5.02 —————
+(2).
+Where, ΔР = Pressure drop, (inches water gauge/100 ft of duct) q =
+Volumetric flow rate, (cfm - cubic feet per minute) de = equivalent duct
+diameter (inches).
+
+8
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+5.3. Economic analysis
+
+subsequent to ABC as indicated in Fig. 9 used in modified PFD. This is a
+feasible key solution in dust removal of waste gas. FD fans are used in
+different ducts for making usual flow of waste gas movement in case of
+preheating of waste gas.
+In the beginning, feed material is preheated via waste gas limit to
+200 ◦ C G-S HX which is of rotary type having direct connection with it,
+allocated nearby rotary kiln. Feed material enters to this exchanger at
+30 ◦ C via conveying belt. From feed end, waste gas entered to exchanger.
+Due to heat exchange, heated feed materials which is added to hopper
+directly, further goes to kiln, waste gas leaves exchanger at temperature
+of 992.72 ◦ C.
+After that, it moves via duct having length 25 m and reaches
+discharge end of kiln where gas admits to shell & tube type HX at
+906.23 ◦ C. The temperature reaches to 902.5◦ C as it passes through
+exchanger tubes. Accordingly, air is entered to kiln at 600 ◦ C when it
+gains heat from 30.
+◦
+C to 600 ◦ C. The hot air leaves shell & tube HX enters to chamber
+which is of hollow cylinder type directly which is located near to
+discharge end of kiln. The hot air permits to pass via nine different
+blowers, connected to nine ducts. On the other end, for maintaining a
+temperature of 600 ◦ C to the kiln, a constant supply of hot air is allowed
+which is managed through these nine ducts which are directly connected
+with hollow cylinder. For maintaining airflow rate at high temperature i.
+e. 600 ◦ C, metal dampers are used available in the blowers, has capacity
+to sustain high temperature of air. Air should not be entered to kiln at
+atmospheric temperature through nine blowers one should always
+ensure that hot air filled in the hollow cylinder. An assembly is suggested
+in which an adjustment of metal plate having circular shape is fitted
+inside hollow cylinder. This plate is attached with hot air outlet leaves
+the shell & tube HX. The condition should be static for circular plate as
+well as hot air pipe. Therefore, an assembly having U-shape is suggested
+which circulates along cylinder and inside assembly where plate is
+available. For sealing, this plate is used by avoiding mixed hot air in
+accompany with atmospheric air. At same rpm, assembly revolve successively with kiln as well as allow hot air entered to the kiln. Although,
+shell & tube HX, as well as duct in connection with it and plate, stand
+static so that it makes no attempt to shutdown kiln operation.
+Preheating of slinger coal is done via G-S HX having direct contact
+type, where waste gas interchanges heat with air. The HX design, as well
+as functioning, is very much equivalent as applied in case of iron ore
+preheating. This is situated close by discharge end. Further, slinger coal
+allows near 30 ◦ C through conveyer as well as warms till 200 ◦ C. Waste
+gas enters into this exchanger at 606.6 ◦ C and leaves at 592.8 ◦ C. In
+pneumatic way, heated slinger coal leave via kiln discharge end.
+Moreover, waste gas passes through duct having length 105 m up to EC
+at a temperature of 432.1 ◦ C and cooled down at a temperature of 250 ◦ C
+utilising water having amount of 7.8 t/h.
+
+The economic analysis of the present strategy, which accounts for
+operating as well as capital costs, is discussed hereunder:
+This strategy involves preheating of feed material, kiln air and
+slinger coal along with power generation. For this scheme operating cost
+is computed based on coal and water consumptions in the modified PFD,
+shown in Fig. 8. Based on 8000 h/y as working hours of the plant INR
+2678.1 lakh/year and INR 4340.1 lakh/year are found for coal and
+water consumption. It is computed considering INR 2500/t and INR 60/
+kL for coal and water, as shown in Table 2. The operating cost of INR
+577.5 lakh is predicted for maintenance of the filter based on the volume
+of dust gas handled by the ceramic filter per unit time. Due to regular
+tear and wear in parts of the boiler turbine system an expenditure of INR
+44.112 lakh/year is invested in maintenance. Apart from this operating
+cost also includes the cost of electricity required to run 3 FD fans, which
+is predicted as INR 367.26 lakh/y as discussed by Gaurav and Khanam
+[25]. These costs for strategy are summarized in Table 7.
+The scheme proposed through the present strategy involves a hightemperature ceramic filter, two gas-solid exchangers, one gas-gas
+exchanger, three ducts, 3 FD fans and a power generation system as
+additional equipment. The capital cost of a ceramic filter is computed as
+INR 2941.1 lakh [14]. Costs of gas-solid, as well as gas-gas exchangers,
+are found as INR 164.86 lakh and INR 50.8 lakh as discussed by Gaurav
+and Khanam [25]. The cost of the insulating duct of 25 m, 80 m and 105
+m are computed as INR 9.628 lakh. As similar, the cost of the remaining
+two ducts is predicted as INR 95.21 lakh. The cost of 3 FD fans is
+computed and found as INR 367.26 lakh. The total capital investment for
+this strategy is presented in Table 6. Considering straight-line depreciation with 10 y as equipment life total annual cost (TAC) is found as INR
+8086.8 lakh/year. A payback period of 2.62 years is predicted for this
+strategy as shown in Table 6.
+The feasibility analysis of Option-3 is discussed as waste gas includes
+of an appreciable quantity of dust, which is deposited on tube surface in
+boiler, preheater as well as super-heater. The operation becomes
+impracticable/infeasible inside these because of regular deposition of
+dust. This issue can be controlled in two manners: firstly, periodically
+cleaning of the equipment should be happened for the removal of
+deposited dust and on the other hand, dust is drawn off first before
+admitting to the system of power generation. In initial case, regular
+washing/cleaning, as well as repairing/servicing of equipment, is
+required. Secondarily, clean gas is used at system entrance so that low
+equipment servicing is required. Second case is preferred here, as well as
+a ceramic filter associated with high-temperature is selected for this
+scheme in this work. It releases clean gas by trapping dust particles.
+Therefore, movement in waste gas is altered in case of modified PFD as
+compare to existing/actual PFD. Then, power generation system is being
+installed in path of waste gas. For ensuring feasibility of this movement,
+an induced type fan is connected afore chimney to ensure this movement
+is feasible. However, a large capacity induced type draft fan is needed to
+install in case of modified PFD as gas passes over heavier perplexed
+direction as compared to actual system.
+A ceramic filter associated with high-temperature is installed
+
+6. Comparison of results of the present strategy with that of
+published work
+The results of the present energy-saving strategy are compared with
+that of published studies based on coal as well as water consumptions,
+
+Table 6
+Economic analysis of Option-3.
+Operating cost (Lakh/year)
+
+Capital cost (Lakh)
+
+Commodity
+
+Amount
+
+Cost
+
+Item
+
+Cost
+
+Coal
+Water
+Ceramic filter
+Electricity cost
+The maintenance cost of the turbine
+
+13.587
+917.5
+
+2678.1
+4340.1
+577.5
+74.5
+44.112
+
+G-G HX
+G-S HX
+G-S HX
+Ceramic filter
+Ducts
+Insulation
+FD fans
+Boiler & turbine system
+
+50.8
+142.14
+22.72
+2941.1
+9.628
+85.58
+367.26
+1290.28
+
+9
+
+Power (MW)
+
+TAC (Lakh/y)
+
+Profit (Lakh/y)
+
+Payback period (y)
+
+2.757
+
+8086.8
+
+1897.1
+
+2.62
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+Table 7
+Comparison of different heat recovery options.
+Option
+
+Coal
+cons., t/
+h
+
+Water
+cons, t/h
+
+Operating
+cost, lakh/
+year
+
+Electricity
+cost, lakh/
+year
+
+Capital Investment, Lakh
+
+TAC,
+lakh/
+year
+
+Waste gas
+generated, t/
+h
+
+Profit,
+lakh/
+year
+
+Payback
+period,
+Years
+
+Power
+Generation,
+MW
+
+Existing
+System
+
+21.72
+
+795
+
+3866.9
+
+–
+
+765
+
+4431.3
+
+128.376
+
+728
+
+1.05
+
+–
+
+1
+
+21.72
+
+1242.7
+
+10308.9
+
+–
+
+Item
+Boiler and
+turbine
+system
+Ceramic
+filter
+G-G HX
+G-S HX
+G-S HX
+Ceramic
+filter
+Ducts
+Insulation
+FD fan
+G-G HX
+G-S HX
+G-S HX
+Ceramic
+filter
+Ducts
+Insulation
+FD fans
+Boiler and
+turbine
+system
+
+12104.3
+
+98.358
+
+2029.9
+
+4.17
+
+8.97
+
+7272.4
+
+82.679
+
+1126.8
+
+3.22
+
+–
+
+8086.8
+
+82.679
+
+1897.1
+
+2.62
+
+2.76
+
+2
+
+3
+
+13.587
+
+13.587
+
+757.8
+
+917.5
+
+6262.8
+
+7018.8
+
+74.5
+
+74.5
+
+Cost
+4197.96
+4157.3
+50.8
+142.14
+22.72
+2941.1
+8.97
+42.79
+367.26
+50.8
+142.14
+22.72
+2941.1
+9.628
+85.58
+367.26
+1290.28
+
+Fig. 9. Feasibility Diagram for option-3.
+
+payback period, total required capital, profit, etc. and reported in
+Table 8.
+Eight cases were proposed by Prasad et al. [10] for energy conservation. As compared to the existing system the best-case of Prasad et al.
+[10] has been observed to consume 93.7 % and 12.3 % less water and
+coal. In this case, three S-G and one G-G heat exchangers with an investment of INR 621.06 lakh are required. In the present strategy, a
+similar case study is chosen for energy conservation along with power
+generation. When compared with the best case of Prasad et al. [10], the
+
+present strategy has been found to have preheating of air up to 600 ◦ C in
+instead of 300 ◦ C by Prasad et al. [10]. The present strategy recovers
+more energy than that of the best case of Prasad et al. [10] due to the
+higher temperature of preheated air. As shown in Table 8, the reduction
+of coal in this strategy and Prasad et al. [10] have been found to be 37.4
+% and 12.3 %. Coal saving in the present strategy is more compared to
+Prasad et al. [10], whereas compared to this strategy, the payback
+period for Prasad et al. [10] is very less. The reason for this observation
+is that in Prasad et al. [11], the percentage of water saving is 93.7 %
+10
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+Table 8
+Comparison of results of Option-3 with the published work.
+S.
+No.
+
+Strategy Name/Author
+name
+
+Integration done in best case
+
+Capital
+required, lakh
+INR
+
+Coal
+saved
+%
+
+Water
+saved
+%
+
+Payback
+Period, years
+
+Profit, lakh
+INR/year
+
+Net Profit in
+plant life, lakh
+INR
+
+1
+2
+
+Prasad et al. [11]
+Prasad et al. [28]
+
+621.06
+588.2
+
+12.3
+30.5
+
+93.7
+72.6
+
+0.15
+0.56
+
+3092.6
+1180.2
+
+30,457
+11,141
+
+3
+
+Kumar and Khanam [9]
+
+122.98
+
+4.8
+
+96.3
+
+0.93
+
+132.9
+
+1206
+
+4
+
+Option-3 with preheating
+and power generation
+
+Preheating of air up to 300 ◦ C with ESP exit
+Preheating of feed material and air up to
+110 ◦ C and 385.7 ◦ C
+Air is preheated to 80 ◦ C by kiln outlet
+using water bath
+Air preheated to 600 ◦ C by kiln outlet. Feed
+and slinger coal preheated to 200 ◦ C by ESP
+exit.
+
+4909.51
+
+37.4
+
+37.2
+
+2.62
+
+1897.1
+
+14,000
+
+whereas 13.35 % more water is needed in this strategy, because of which
+there have been a many fold increase in profit for Prasad et al. [10] when
+compared to Option-3 as shown in Table 8. Feasibility of the modification proposed by Prasad et al. [10] has not been discussed while
+reducing 93.7 % of water. Waste gas has been proposed by them as a
+coolant instead of water in rotary cooler. Use of waste gas as coolant is
+not feasible in a rotary cooler as the cooler is a rotating device whereas
+waste gas comes from a stationary source such as ESP. On one hand the
+practical aspect of the best case of Prasad et al. [10] is not clear. On the
+other hand, in the present strategy water is consumed in the power
+generation cycle as well as condenser, which is a more feasible solution
+because here water is further used as steam. A ceramic filter [29] is also
+used as additional equipment along with different heat exchangers as
+well as FD fans. The cost of a ceramic filter is significantly higher in
+comparison to other equipment cost as shown in Table 7. Due to higher
+capital investment and lesser profit than that of Prasad et al. [11]
+payback periods are higher for this strategy.
+A heat recovery option is evaluated when it is multiplied by total
+profit with the difference between plant life and the payback period. The
+prediction for the payback periods of the strategy are based on total
+profit and capital investment of the modification. The plant life
+considered in the present work and Prasad et al. [10] is 10 y. Due to the
+very less payback period for Prasad et al. [10] the net profit is significantly higher than that of the present strategy.
+Two modifications were proposed by Prasad et al. [11] for utilising
+the heat obtained from waste gas. The existing system gets compared
+with these cases based on coal and water consumption. Other cases
+being capital cost, profit, and payback period. The best modification is
+obtained for the Case-2 where air and feed material are preheated up to
+385.7 ◦ C and 110◦ C. When the results of Case-2 are compared with of
+this strategy of present study, it comes out to be the combination of
+preheating of slinger coal, air and feed material up to 200◦ C, 600◦ C and
+200◦ C. For this strategy, the preheating saving for coal is found as 37.4
+%. However, for the Case-2, it is only 30.5 % as shown in Table 8. When
+compared to Prasad et al. [11], the payback period is significantly high
+for this strategy. This is due to fact that present strategy involves 8.35
+times higher capital investment as compared to that of Case-2 of Prasad
+et al. [11]. Water consumption is 72.6 % less for Case-2 whereas there is
+an increment of 13.35 % in this strategy. Due to this, there is an increase
+in the profit for Case-2. For the present strategy, there is more payback
+periods because of more capital investment and less profit. The main
+drawback of the study being the absence of discussion by another on
+practical implication of modification in Case-2. Based on the plant life of
+10 years, the net profit of the plant life is less than that of the present
+strategy.
+Two cases were also proposed by Kumar and Khanam [9] for the
+recovery and utilisation of the heat of waste gas. 4.8 % less coal is
+consumed in the best case of Kumar and Khanam [9] which is 37.4 % in
+this strategy. This is because of preheating of air is done up to 600◦ C,
+which is significantly higher than the best case of Kumar and Khanam
+[9], where is preheating of air only up to 80◦ C as shown in Table 7.
+Payback period is very high for this strategy than that of Kumar and
+
+Khanam [9], this is again due to the similar facts as given by Prasad et al.
+[11]. From Tables 8 and it is evident that the profit for the present
+strategy is significantly higher than that of Kumar and Khanam [9] as
+huge amount of coal consumption is saved by this strategy as compared
+to the best case of Kumar and Khanam [9]. From Tables 8 and it is also
+evident that net profit in the plant life is higher for the present strategy
+due to more profit as compared to Kumar and Khanam [9] as shown in
+Table 8.
+It is evident on the basis of above discussion that the result of the
+present work have been compared against the published literature.
+When compared with few studies such as Prasad et al. [11] and Prasad
+et al. [10], the present strategy shows lower profit than Prasad et al. [10]
+and higher profit than Prasad et al. [11].
+7. Conclusions
+(i) The proposed option of Heat Integration in this paper is reckoned
+with combined preheating as well as power generation which
+accounts for the total waste gas obtainable in the process. Option3 uses total waste gas heat collected from the process, where it
+loses heat from 994 ◦ C to 250 ◦ C. The heat exits ABC has been
+utilised for Energy Integration. The prominent conclusions are:
+On the basis of the payback period combined preheating and
+power generation are considered the most cost-effective case as
+compared to preheating as well as power generation separately.
+In terms of net profits, Option-3 is more cost-effective compared
+to the other two options.
+(ii) Option-3 is specified as a superlative option in accordance with
+heat integration. A valuable amount of coal consumption 8.13 %
+is saved which is higher with reference to Kumar work Kumar and
+Khanam [9]. Also, an amount of 37.2 % water is saved via integration in case of water consumption.
+(iii) The reduction in waste gas is observed and reached 112.8 t/h
+from 143.4 t/h. This is a supplementary profit in the case of
+Option - 3.
+(iv) The existing system utilises 7.45 times higher energy as compared
+to the theoretical value. It decreased to 4.69 times due to
+appropriate energy integration in the case of Option – 3, it saved
+high energy with reference to Prasad work saved 6.2 times only
+Prasad et al. [10].
+(v) An amount of 2.757 MW of power is generated using waste gas
+heat present in the existing system from 994 ◦ C to 250 ◦ C. The
+operation of the power generation system is enhanced through
+proper solving of problems associated with scaling as well as the
+removal of dust that is deposited in boiler tubes and exchangers
+too.
+CRediT authorship contribution statement
+Gajendra Kumar Gaurav: Conceptualization, Investigation, Methodology, Validation, Writing – original draft. Shabina Khanam:
+Conceptualization, Supervision, Validation, Writing – original draft,
+11
+
+G.K. Gaurav et al.
+
+Energy 301 (2024) 131512
+
+Writing – review & editing. Fuchun Zhang: Supervision, Writing – review & editing. Xinghui Liu: Supervision, Writing – review & editing.
+
+[17] Kemp IC, Analysis Pinch Integration Process. A user guide on Process integration
+for efficient use of energy. second ed. Butterworth-Heinemann, Elsevier Pvt. Ltd;
+2007. p. 53–5.
+[18] Nduagu EI, Yadav D, Bhardwaj N, Elango S, Biswas T, Banerjee R, Rajagopalan S.
+Comparative life cycle assessment of natural gas and coal-based directly reduced
+iron (DRI) production: a case study for India. J Clean Prod 2022;347:131196.
+[19] Quintero-Coronel DA, Guillin-Estrada WD, Echeverri-Roman JL, Maury H,
+Corredor L, Ruiz JA, Rueda BS, Gonzalez-Quiroga A. Large- and Particle-Scale
+energy assessment of reduction roasting of nickel laterite ore for Ferronickel
+production via the rotary Kiln-Electric furnace process. Therm Sci Eng Prog 2022;
+32:101331.
+[20] Mallett A, Pal P. Green transformation in the iron and steel industry in India:
+rethinking patterns of innovation. Energy Strategy Rev 2022;44:100968.
+[21] Shahabuddin M, Brooks G, Rhamdhani MA. Decarbonisation and hydrogen
+integration of steel industries: recent development, challenges and technoeconomic
+analysis. J Clean Prod 2023;395:136391.
+[22] Choudhary Rajesh, Mukhija Abhishek, Sharma Subhash, Choudhary Rohitash,
+Chand Ami, Dewangan Ashok K, Kumar Gaurav Gajendra, Jaromír Klemeš Jiří.
+Energy-saving COVID–19 biomedical plastic waste treatment using the thermal Catalytic pyrolysis. Energy 2023;264:126096.
+[23] Agarwal BB, Prasad KK, Sarkar SB, Ray HS. Cold bonded ore-coal composite pellets
+for sponge iron making. Part 1 Laboratory scale development. Ironmak Steelmak
+2000;27:421–5.
+[24] Gajendra Kumar Gaurav, Khanam Shabina. Computational fluid dynamics analysis
+of sponge iron rotary kiln, Case Studies in Thermal Engineering 2017;9:14–27.
+[25] Gaurav GK, Khanam S. Profitability analysis of power generation using waste heat
+of sponge iron process, vol. 141; 2017. p. 333–47.
+[26] Prasad AK. An application of pinch technology for process integration in coal based
+sponge iron plant [PhD thesis]. India: National Institute of Technology
+Jamshedpur, University to be Deemed; 2011. p. 321–33.
+[27] Gajendra Kumar Gaurav, Khanam Shabina. Analysis of temperature profile and %
+metallization in rotary kiln of sponge iron process through CFD. Journal of the
+Taiwan Institute of Chemical Engineers 2016;63:473–81.
+[28] Prasad AK, Prasad RK, Khanam S. Development of energy conservations scenarios
+for sponge iron industry using process integration. Energy Efficiency 2011;4:
+321–33.
+[29] EPA-600/2-77-056 Evaluation of ceramic filters for high-temperature/highpressure fine particulate control. 1977.
+
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgement
+The authors thank to Indian Institute of Technology, Roorkee for
+providing the financial support and facilities to conduct the research
+work. This research was supported by the National Natural Science
+Foundation of China (No:62264015).
+References
+[1] Chatterjee A. Sponge iron production by direct reduction of iron oxide. PHI
+learning Pvt. Ltd.; 2010. p. 82–127.
+[2] Ulrich H, Tandon JK. The CODIR process for India–an example for optimum coal
+usage and its potential for energy recovery, vol. 2. Jamshedpur, India: Proceedings
+of Conference based on Alternative Routes on Iron and Steel; 1988. p. 21–5.
+[3] Bandyopadhyay A, Ray AK, Srivastava MP, Subba Rao SVB, Prasad KK,
+Bandyopadhyay PK, Haque R, Choudhary BR. Selection of coals for rotary kiln
+sponge iron plant. Trans Indian Inst Met 1987;40:209–18.
+[4] Elsenheimer G, Serbent H. The current position of the SL/RN process, taking into
+account conditions in India. In: Proceedings of international conference on
+alternative routes to iron and steel. vol. 2; 1988. p. 105–10. Jamshedpur, India.
+[5] Hajidavalloo E, Alagheband A. Thermal analysis of sponge iron preheating using
+waste energy of EAF. J Mater Process Technol 2008;208:336–41.
+[6] Eriksson K, Larsson M. Energy survey of the sponge iron process. Department of
+Chemical Engineering, Lund Institute of Technology 2004:1–4. Lund, Sweden.
+[7] Mignard D, Pritchard C. A review of the sponge iron process for the storage and
+transmission of remotely generated marine energy. Int J Hydrogen Energy 2007;
+32:5039–49.
+[8] Biswas DK, Asthana SR, Rau VG. Some studies on energy savings in sponge iron
+plants. Trans ASME 2003;125:228–37.
+[9] Kumar V, Khanam S. Recovery and Utilization of waste heat in coal-based sponge
+iron Process. Chem Eng Process 2012;56:19–28.
+[10] Prasad AK, Prasad RK, Khanam S. Design modifications for energy conservation of
+sponge iron plants. J Therm Sci Eng Appl 2011;3. 015001-1.
+[11] Prasad AK, Prasad RK, Khanam S. An investigation for generation of energy
+conservation measures for sponge iron plants using process integration principles.
+International Journal of Research and Reviews in Applied Sciences, IJRRAS 2011;
+6:77–88.
+[12] Jena SC, Patnaik NK, Sarangi A. Heat and mass balance in rotary kiln sponge iron
+making. In: Proceedings of international conference on alternative routes to iron
+and steel; 1996. p. 59–64. Jamshedpur, India.
+[13] Agarwal VP, Sood KC. Direct reduction through coal route & power generation
+from the kiln waste gases. In: Proceedings of international conference on
+alternative routes to iron and steel; 1996. p. 51–8. Jamshedpur, India.
+[14] Sui X, Zhang Y, Shao S, Zhang S. Exergetic life cycle assessment of cement
+production process with waste heat power generation. Energy conservation and
+management 2014;88:684–92.
+[15] Wang Y, Niu Y, Zhang X, Wang Z, Wang S, Hui S. Optimization and energy
+integration of heat recovery and power generation system. Appl Therm Eng 2016;
+107:294–300.
+[16] Linnhoff B, Townsend DW, Boland D, Hewitt GF, Thomas BEA, Guy AR, et al.
+A user guide on Process integration for efficient use of energy. first ed. Rugby, UK:
+Institution of Chemical Engineers; 1982.
+
+Nomenclature
+C: specific heat, J/kg◦C
+D: diameter of kiln, m
+G: gas
+h: heat transfer coefficient, kJ/h m2
+L: length of kiln, m
+m: mass flow rate, kg/h
+Q: heat, kW
+S: solid
+T: temperature
+NHV: net heating value, kJ/kg
+CC: capital cost, Rupees
+
+Subscript
+
+a: air
+c: coal
+m: moisture
+p: process
+hu: hot utility
+s: ore, supply
+t: target
+r: radiation
+loss: from kiln
+i: inlet to kiln
+
+Greek
+
+Lemda l =: latent heat of vaporization, kJ/k
+INR =: Indian Rupee
+
+12
+
+

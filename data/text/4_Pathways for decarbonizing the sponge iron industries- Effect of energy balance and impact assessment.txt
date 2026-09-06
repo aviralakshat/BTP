@@ -1,0 +1,1502 @@
+Journal of Cleaner Production 450 (2024) 141962
+
+Contents lists available at ScienceDirect
+
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+
+Pathways for decarbonizing the sponge iron industries: Effect of energy
+balance and impact assessment
+Vigneswaran V. S , Sarath C. Gowd , Karthik Rajendran *
+Department of Environmental Science and Engineering, School of Engineering and Sciences, SRM University-AP, Amaravati, Andhra Pradesh, 522240, India
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Handling Editor: Panos Seferlis
+
+The major share of energy consumption during steel manufacturing is spent on iron making. The unavailability of
+the required quantity of recyclable steel in India has made the industries depend on sponge iron (SI) for steel
+manufacturing. However, 78.5% of the SI manufactured in India uses coal as an energy source. Thus, increasing
+the carbon footprint of steel manufactured in India by 18% compared to the global level. Hence, in this study, the
+potential of palm kernel shell charcoal (PKSC) to decarbonize the rotary kiln-based SI production process was
+analysed by framing three scenarios and comparing them with the business-as-usual (BAU). Meanwhile, the life
+cycle assessment of the SI production through different scenarios was done to identify the sustainability of the
+process. A cradle-to-gate approach was adopted, and it was found that during BAU, the net greenhouse gas (GHG)
+emissions were 2525 CO2eq./t SI. However, usage of PKSC (scenario 3) in the SI production process aided in
+achieving negative net GHG emissions of − 41 kg CO2eq./t SI. Meanwhile, the net GHG emission was 1092 kg
+CO2eq./t SI and 1197 kg CO2eq./t when the coal used in the feed and injection end was replaced with PKSC in
+scenario 1 and scenario 2, respectively. Thus, the usage of the PKSC instead of coal can abet in decarbonizing the
+sponge iron industry thereby aiding in reducing the GHG emitted during the production of 1 t of steel in India to
+2.4 t by 2030–31.
+
+Keywords:
+Decarbonization
+Sponge iron
+Directly reduced iron
+Life cycle assessment
+Steel
+Sustainability
+
+1. Introduction
+The growing demand for iron and steel in diverse sectors has resulted
+in a surge in global production, reaching a total of 1951 Mt in 2021
+(World Steel in Figures, 2022). The energy-intensive iron and steel industry is responsible for 8% of global energy consumption (Iron and
+Steel Technology Roadmap, 2020). As a result, the sector accounts for
+3.7 GT of CO2 emissions due to its reliance on coal and coke to satisfy
+approximately 74% of its energy demands (Malhotra et al., 2022). India
+is the world’s second-largest producer of iron and steel, where the share
+of coal and coke used to meet the sector’s energy demands has surged to
+85% (Iron and Steel Technology Roadmap, 2020). Thus, leading to an
+increase in energy consumption (18.8–20.9 GJ) and emissions (2.6 t
+CO2eq.) happening during the production of 1 t of crude steel (tcs) by
+30% and 40.5%, respectively compared to the global average (Government of India, 2022). Usage of steel with high carbon footprint to
+construct solar (67.9 MW/t) and wind (107–132 MW/t) energy systems
+reduces its decarbonization potential (Carrara et al., 2020). Meanwhile,
+the transformation in electrical power sector (60% electricity from
+
+renewable sources) is expected to increase the demand for steel, as wind
+and solar photo-voltaic system of capacity 6 TW wind and 9 TW needs to
+be installed (Bhaskar et al., 2021). Hence, to achieve global climate
+goals by 2050, it is imperative to cut direct CO2 emissions (2.6 GT) by
+50% (World Steel Association World Steel Association, 2022).
+In this regard, the Indian government has set a target to reduce the
+greenhouse gas (GHG) emissions of the iron and steel sector to 2.4 t
+CO2eq./tcs by 2030 (Ministry of steel, 2017). The government also plans
+to increase its production capacity from 113.6 Mt in 2021–22 to 300 Mt
+by 2030, thereby underscoring the need for decarbonizing the iron and
+steel industry (Ministry of Steel, 2022). Hence, to mitigate the carbon
+footprint of the sector, recycled steel scrap was imported to increase its
+proportion in total metallic inputs. However, the share of metallic scrap
+contributes to 23% of total metallic inputs which is lower than the global
+average of 32%. Hence, 25% of the iron manufactured in India was
+sourced from direct reduction of iron (DRI) ore to produce SI (Elango,
+2020). Thus, making them the frontrunner in SI production since 2003
+(Association, 2020). During SI production, the iron ore is reduced below
+its melting point to achieve 90–95% metallization that can fed in blast,
+
+* Corresponding author.
+E-mail address: rajendran.k@srmap.edu.in (K. Rajendran).
+https://doi.org/10.1016/j.jclepro.2024.141962
+Received 14 December 2023; Received in revised form 15 March 2024; Accepted 25 March 2024
+Available online 28 March 2024
+0959-6526/© 2024 Elsevier Ltd. All rights reserved.
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+basic oxygen, and electric arc furnace to manufacture steel (Ministry of
+Steel, 2023).
+The SI can be produced by DRI ore in either rotary kiln or shaft energy by using coal, H2, and natural gas (NG) as energy sources (Ramakgala and Danha, 2019). Among these, the usage of H2 and NG for SI
+production can aid in reducing its energy and carbon emissions. But the
+share of green H2 is <1% of global H2 production. (Hydrogen). On the
+other hand, shifting to NG-based SI production can lead to unsustainability over the years, with 46.3% of its demand being met through
+imports (Ministry of coal and Natural gas, 2022). Moreover, the rotary
+kiln process that is predominately employed for SI production in India is
+incompatible to the use of NG and H2 for its operation. As a result, 79%
+of the SI produced in India is derived from coal (World Steel Association,
+2020). However, utilizing coal for SI production increases the CO2
+emissions (3.4 t) by 2.4 times compared to NG usage.
+In this context, it is necessary to identify a sustainable energy source
+to substitute coal in the rotary kiln to decarbonize the sector. The fuel
+used in rotary kiln must exhibit high reactivity and its fixed carbon (FC)
+should be higher to ensure that the concentration of CO inside the kiln is
+maintained around 50–60% to facilitate DRI ore (Dey et al., 2015). The
+charcoal derived from biomass can satisfy the conditions specified above
+(Dey et al., 2015).
+Globally, the Indian economy holds the position of being the secondlargest agriculture-based economy and generates about 869.11 MT of
+agricultural residues per year (Deka et al., 2023). Cereals, and sugarcane
+account for approximately 77% of the agricultural residues generated in
+India while oil seeds and pulses account for 10% and 9%, respectively
+(Tagade et al., 2021). These residues are primarily generated during the
+kharif and rabi seasons and are utilized as animal fodder, a source of
+cooking energy in rural areas, and for thatching purposes (Kumar et al.,
+2023). The surplus agricultural residues (288.14 MT/y) are generally
+burnt in fields thereby leading to GHG emissions (1.4 t CO2/t of agricultural residue). However, the energy security of the nation can be
+improved by converting these surplus agricultural residues into biofuels
+by adopting advanced bioenergy techniques. Among the various bioenergy techniques, pyrolysis emerges as the promising option because of
+its ability to produce biofuel at cheaper price (Ahmed et al., 2020).
+Hence, the fuel characteristics of charcoal derived from various agricultural residues were analysed and juxtaposed with coal employed in
+the rotary kiln-based SI production process (Han and Duan, 2015). The
+analysis revealed that PKSC has the potential to replace coal in the rotary kiln.
+Substituting coal with PKSC, a carbon-neutral fuel, in the rotary kiln
+process can facilitate the decarbonization of SI production without the
+need for any capital investment. Thus, enabling faster adoption by SI
+industries. As most of the prior research on enhancement in efficiency of
+the rotary kiln-based SI production necessitated capital investment due
+to the integration of additional sub-system namely waste heat recovery
+units (Kumar and Khanam, 2012), generators, steam turbines (Ramanaiah and Khanam, 2018), and gasifiers (Mohan Ghosh and N Vasudevan, 2021). These techniques were not embraced by the small-scale SI
+industries that dominate Indian market. Charcoal derived from biomass
+was used to decarbonize steel production in blast furnace/basic oxygen
+furnace (Fan and Friedmann, 2021) and to manufacture SI in rotary
+hearth furnace (Han and Duan, 2015). However, no work was carried
+out to decarbonize the rotary kiln-based SI production without incurring
+additional capital investment. At the same time, researchers are yet to
+investigate the potential of utilizing charcoal derived from agricultural
+waste as reducing agent and energy source for SI production.
+Therefore, this study entails the substitution of coal with PKSC obtained from pyrolyzing palm kernel shells at 350 ◦ C to decarbonize the SI
+production process without necessitating further investments. To
+accomplish this, three distinct scenarios were developed by altering the
+fuel input at both the feed and injection ends of the rotary kiln. Meanwhile, the system’s performance was assessed by comparing it to the
+conventional business-as-usual (BAU) approach. The objective of this
+
+study is to (i) Estimate the mass flow in different sub-systems; (ii) Assess
+energy balance of SI production process for all the scenarios; (iii)
+Determine the decarbonization potential and sustainability of SI production process by comparing the life cycle assessment of the three
+scenarios with BAU.
+2. Methodology
+2.1. Business as usual
+The conventional rotary kiln-based sponge iron (SI) production
+process in India, which contributed to the manufacture of 33.88 million
+tons of SI in 2022 was depicted in Fig. 1 (Ministry of Steel, 2023). The SI
+production system of 100 ton per day (TPD) capacity comprised an inclined rotary kiln (3◦ ), a rotary cooler, an after burning chamber (ABC),
+a waste heat recovery unit, an electrostatic precipitator (ESP), and a
+magnetic separator. During the SI production process, lump ore, dolomite, and coal (non-coking) were fed into the rotary kiln through the
+feeders. The fuel characteristics of feed and fuel coal are given in supplementary material S.Table 1 (Arabinda Sarangi, 2011).
+At the discharge end of the rotary kiln, 6.2 t/h of fuel coal was
+injected along with the primary air to produce SI. The heat generated
+due to oxidation of the coal was utilized to elevate the temperature of
+raw materials fed to the kiln to about 950–1025 ◦ C (Mohan Ghosh and N
+Vasudevan, 2021). At this temperature, the iron ore (18.4 t/h) was
+reduced to elemental Fe. The heat required for sustaining the endothermic reactions was also provided through the coal supplied at feed
+end (6 t/h). Subsequently, the gases containing the unburnt component
+of the feed and injection coal was directed to the ABC for complete
+oxidation. Thus, ensuring that the concentration of CO in the flue gas
+remained <1% (Sharma et al., 2019).
+The flue gas from the ABC was passed through a waste heat recovery
+(WHR) unit, where the heat energy present in the flue gas was utilized to
+produce hot air. The hot air was employed to preheat the iron ore fed to
+the kiln thereby improving the system efficiency. The flue gas exiting the
+WHR unit was passed through an ESP to remove the dust particles suspended in it. Finally, the flue gases were released to the atmosphere via a
+stack. On the injection end, the SI and char produced after reduction of
+iron ore was discharged to the rotary cooler where it was cooled down to
+100–120 ◦ C before being fed to the magnetic separator. In the magnetic
+separator, the SI was separated from char with the aid of magnetic force.
+2.1.1. Scenario 1
+In this scenario, the fuel supplied at the injection end was PKSC at
+5.8 t/h, in contrast to the coal (6.2 t/h) used in BAU. The reduction in
+the quantity of fuel supplied can be attributed to the higher calorific
+value of PKSC (6 Mcal) in comparison to the fuel coal (4.84 Mcal).
+However, the total energy available in the injected fuel remained the
+same irrespective of the scenarios adopted. The energy available in the
+injected fuel must ensure that reduction environment was maintained at
+the discharge thereby inhibiting reoxidation of SI. Meanwhile, the
+quantity of metal oxide reduced to form SI and the C content in SI can be
+regulated by the heat energy supplied at the discharge end (CPCB,
+2007). It was assumed that about 67% of the C present in volatile matter
+(VM) of the fuel introduced at the injection end underwent oxidation in
+the kiln (Arabinda Sarangi, 2011).
+2.1.2. Scenario 2
+In this case, PKSC was introduced at the feed end instead of coal used
+in BAU. Thus, PKSC served as a reducing agent in this scenario, in
+contrast to its role as a heat source in scenario 1. Nevertheless, the
+quantity of PKSC (4.6 t/h) fed to the kiln was determined by estimating
+the FC present in the feed coal used in the BAU because the primary
+function of the feed coal was to provide the necessary carbon for the
+reduction of iron ore. The decrease in the quantity of PKSC can be
+attributed to its higher FC concentration of 53.3% compared to feed coal
+2
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+Fig. 1. Schematic representation showing the process involved in rotary kiln-based sponge iron production (This figure showcases each step involved in
+direct reduction of iron).
+
+neither be created nor be destroyed in a system. The mass flow
+happening across each sub-system was designed based on the literature
+(Han and Duan, 2015).
+
+Table 1
+Inventory of input materials, fuels, solid waste, and avoided products during
+different scenarios.
+S.no
+
+Parameters
+
+Input material
+1
+Dolomite
+2
+Iron ore
+3
+Air
+Fuels
+3
+Hard coal
+4
+PKSC
+Solid waste
+5
+Char
+6
+Fly dust
+7
+Gangue
+Direct emissions
+8
+CO2
+9
+N2
+10
+H2O
+Avoided products
+11
+Hard coal
+
+Unit
+
+BAU
+
+Scenario 1
+
+Scenario 2
+
+Scenario 3
+
+kg
+kg
+kg
+
+27
+1471
+4554
+
+27
+1471
+4375
+
+27
+1471
+4430
+
+27
+1471
+3351
+
+kg
+kg
+
+976
+–
+
+482
+462
+
+494
+370
+
+–
+857
+
+kg
+kg
+kg
+
+149
+178
+46
+
+149
+143
+46
+
+54
+178
+46
+
+54
+143
+46
+
+kg
+kg
+kg
+
+1956
+4252
+374
+
+1750
+3348
+333
+
+1744
+3401
+328
+
+1563
+2568
+285
+
+kg
+
+–
+
+494
+
+482
+
+976
+
+Accumulation = Input + Generation − Output − Consumption
+
+Eq.1
+
+The mass of fuel (both at the feed and fuel end), dolomite, iron ore,
+char, flue dust, gangue, SI, and the air supplied to rotary kiln and ABC
+were accounted while calculating the mass balance for each scenario.
+The quantity of iron ore and dolomite required for the production of 1 t
+of SI was 1471 kg and 27 kg, respectively, for all the scenarios (Arabinda
+Sarangi, 2011). Meanwhile, the composition of char and flue dust was
+considered same across all scenarios.
+2.3. Energy balance
+In rotatory kiln-based SI production process, ca. 98% of the energy
+consumed by the system is attributed to thermal energy, with the
+remaining 2% supplied by electricity. The electricity consumed during
+the production of 1 t of SI (functional unit) by employing rotary kiln
+system of capacity 100 TPD was considered as 70 kWh for all the scenarios (Mohan Ghosh and N Vasudevan, 2021).
+The thermal energy consumed by the rotary kiln was determined by
+calculating the energy flow happening across the rotary kiln system as
+expressed in Eq. (2), where Energyin and Energyout denote the energy
+entering and exiting the system, respectively. The energy associated
+(released/absorbed) with the reduction of iron ore in the kiln and
+oxidation of unburnt component of the flue gases in the ABC was represented as Energyreduction (Dey et al., 2015).
+
+with 42.86%. Thus, the higher FC content of PKSC aided in reducing the
+energy supplied at feed end by 6.7% compared to feed coal, despite its
+higher heating value. The FC present in fuel supplied at the feed end was
+assumed to be entirely utilized in the process of reducing iron ore within
+the rotary kiln, while the C in the VM of the unburnt fuel was combusted
+in ABC (Nduagu et al., 2022).
+2.1.3. Scenario 3
+In this scenario, the coal supplied at the feed end and injection end of
+the rotary kiln during SI product was substituted with PKSC. Thus,
+resulting in mitigation of coal consumption by 12.2 t/h during the
+production of SI using a rotary kiln with a capacity of 100 TPD. The
+entire energy required for SI production was supplied by PKSC. Thus,
+eliminating the need for coal thereby aiding to decarbonize the SI industry. The fuel characteristics of feed and fuel coal was taken from
+literature (supplementary material S. Table 1) (Lee et al., 2013).
+
+Energyin → Energyout + Energyreduction
+
+Eq. 2
+
+The Energyreduction in the rotary kiln system was calculated based on
+the enthalpy change (ΔH) associated with the reactions (Eq. (4) - Eq.
+(13)) occurring during the SI production process. The ΔH was calculated
+using Eq. (3) (Constales et al., 2017).
+
+2.2. Mass balance
+The mass balance to produce 1 t of sponge iron through a rotary kiln
+was calculated based on Eq. (1), where generation, accumulation, and
+consumption were considered zero based on the principle that mass can
+3
+
+ΔH →enthalphy of the product − enthalphy of the rectant
+
+Eq. 3
+
+Fe2 O3 + CO → 2FeO + CO2 ΔH1 = − 1755.32 kcal / kg
+
+Eq. 4
+
+FeO + CO → Fe + CO2 ΔH2 = − 275.79 kcal / kg
+
+Eq. 5
+
+C + CO2 → 2CO ΔH3 = 1172.24 kcal / kg
+
+Eq. 6
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+2CO + O2 → 2CO2 ΔH4 = − 1172.24 kcal / kg
+
+Eq. 7
+
+2.4. Life cycle assessment (LCA)
+
+C + O2 → CO2 ΔH5 = − 2146.57 kcal / kg
+
+Eq. 8
+
+2C + O2 → 2COΔH6 = − 974.33 kcal / kg
+
+Eq. 9
+
+2CO + O2 → 2CO2 ΔH7 = − 1172.24 kcal / kg
+
+Eq. 10
+
+H2 + 0.5O2 → H2 OΔH8 = − 3315.22 kcal / kg
+
+Eq. 11
+
+2H2 + C → CH4 ΔH9 = -5344.44kcal / kg
+
+Eq. 12
+
+Based on the mass and energy balance, LCA was carried out to find
+the effect on sustainability and decarbonization potential in the sponge
+iron industry. The sustainability of sponge iron production through the
+proposed scenarios (including BAU) was analysed by conducting LCA
+using SimaPro software (v9.3.0.3). The LCA analysis adhered to the
+standardized methodology outlined by the International Organization
+for Standardization (ISO 14040) that includes, goal and scope definition,
+inventory analysis, impact assessment, and interpretation of results.
+
+2CaO + 2SO2 + O2 → 2CaSO4 ΔH10 = − 346.36 kcal / kg
+
+Eq. 13
+
+2.4.1. Goal and scope
+The goal of this study was to assess the environmental impact associated with the direct reduction of iron (DRI) in rotary kiln by adopting
+different scenarios. The LCA aided to quantify all the environmental
+impact that happened during SI production by adopting cradle to gate
+approach. The environmental impact was investigated by considering 1
+ton of SI as the functional unit.
+
+Among these reactions, the reduction of Fe2O3 to Fe happens in two
+steps (Eqs. (4) and (5)). Hence, the energy consumed during this reaction was considered same for all the scenarios. Additionally, the coal and
+PKSC used in this study does not contain S. Hence, dolomite was used to
+absorb the SO2 formed due to the presence of sulphur (0.011%) in iron
+ore. As a result, the energy consumed during the reaction of CaO with
+SO2 to form CaSO4 was considered same across all the scenarios. The
+energy emitted during rest of the reactions depends on the composition
+of the fuel used in various scenarios.
+The energy entering the system was determined by calculating the
+quantity of fuel (PKSC/coal) fed at both the ends of the rotary kiln and
+its calorific value as shown in Eq. (14).
+Energyin = Massfuel × Calorific value
+
+2.4.2. System boundary
+The entry of dolomite, iron ore, and fuel (coal/PKSC) marked the
+beginning of the system boundary in this study, as depicted in Fig. 2. All
+the stages, ranging from fuel extraction (coal, PKSC, and electricity), and
+material mining (dolomite and iron ore) to SI production was confined
+within the system. The quantification of greenhouse gas (GHG) emissions during the production of 1 ton of SI was based on the 100-year
+global warming potential values.
+The system boundary outlined for BAU encompasses the mining,
+washing, and transportation activities associated with raw materials
+(iron ore and dolomite) and energy sources to the SI factory. In the BAU,
+the energy source consists of coal and electricity, while PKSC and
+electricity are considered as energy sources in scenario 3. On the other
+hand, coal, PKSC, and electricity served as energy sources in scenario 1
+and scenario 2. Additionally, the environmental impact stemming from
+the pyrolysis of palm kernel shell at 350 ◦ C was considered when PKSC
+was utilized as an energy source. Across all scenarios, the SI produced,
+along with char, ash, flue dust, and flue gases, exits the system.
+
+Eq. 14
+
+On the other, the Energyout was computed by incorporating the energy leaving the system as sensible heat (SH) through SI, char, flue dust,
+air, and ash. Meanwhile, the energy dissipated as radiation and convection from the outer surface of the rotary kiln (Eq. (15)) was also
+factored into the Energyout calculation, considering the length (L),
+diameter (D) and unified convective heat transfer coefficient (h) of the
+kiln as 42 m, 3 m, and 30.1 kcal/h m2, respectively (Dey et al., 2015).
+Heat lost from rotary kiln surface = h.πDL.ΔT
+
+Eq. 15
+
+Across all scenarios, the energy content of the fuel introduced at the
+injection end of the rotary kiln was maintained at 2.9 Gcal/t SI. However, the energy of the fuel supplied at the feed end exhibited variation,
+as the quantity of fuel fed at this end was determined based on its FC
+content.
+
+2.4.3. Life cycle inventory
+The life cycle inventory (LCI) for the SI production process was
+compiled by incorporating input materials (dolomite and iron ore), fuels
+(coal, PKSC, and electricity), direct emissions (CO2, H2O, and N2), solid
+waste (char and fly dust), and avoided products. The inventory was
+
+Fig. 2. Schematics of system boundary showing SI production from different scenarios (This figure provides insights of the materials, energy source, and
+process encompassed within the boundary of life cycle assessment of SI production system).
+BAU – Business as usual, PKSC – Palm kernel shell charcoal, ABC – After burning chamber, ESP – Electrostatic precipitator, WHR - Waste heat recovery.
+4
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+based on the Ecoinvent 3 and Agri-footprint databases, as summarized in
+Table 1.
+This study considered emissions from diesel and electricity utilized
+in mining, transportation, and beneficiation of all raw materials and
+fuels (Nduagu et al., 2022). Emissions from coal mining in India was
+estimated by considering open mining because 96% of the coal produced
+in India originates from open mining (Ministry of coal, 2023). Meanwhile, emissions associated with pelleting the iron ore were excluded, as
+the ore was introduced to the rotary kiln in lumps following concentration. Transport-related emissions were determined by factoring in
+freight movement via both rail and trucks.
+In the case of trucks, India transitioned from Bharat Stage (BS) IV to
+BS-VI standards in April 2020. However, not all trucks adhere to BS-VI
+standards. For analysis, it was assumed that the share of BS-III, BS-IV,
+and BS-VI trucks in India was 20%, 53%, and 27%, respectively (Ministry of Road Transport and Highways, 2023). The weighted average
+emissions for the above-mentioned mix of heavy-duty transport in India
+were calculated based on the emissions standards associated with each
+BS norm, considering that the actual emissions are always within the
+threshold specified in these norms.
+
+3. Result and discussion
+LCA for rotary kiln-based SI production was carried out for three
+different scenarios and compared with BAU. The mass and energy balance for 1 t of SI production using the rotary kiln system was computed
+for all the scenarios. Input materials for all scenarios comprised of 1471
+kg iron ore and 27 kg of dolomite. It was considered that the dolomite
+was composed of 82.14% CaCO3 and only 40% of the CaO formed after
+the decomposition of CaCO3 reacted with SO2 released during the
+reduction process to produce CaSO3 (Yrjas et al., 1996). It was assumed
+that the FC of the fuel (coal and PKSC) was completely oxidized in the
+rotary kiln. 33% and 100% of VM present in the coal/PKSC supplied at
+feed and injection ends, respectively were assumed to be oxidized at
+ABC (Arabinda Sarangi, 2011).
+3.1. Mass balance
+The feed materials namely, coal, iron ore, and PKSC (excluding
+dolomite) were crushed before it was fed to the rotary kiln. The air
+required for the reduction process and the combustion of coal/PKSC was
+determined based on the stochiometric condition (Carroll et al., 2013).
+The quantity and composition of the ash, flue dust, and char generated
+during the SI production in BAU were obtained from the literature
+(Arabinda Sarangi, 2011). For the other scenarios, the composition of
+ash and char (ash-69.6%, VM-1.9%, and FC-28.5%) was assumed to be
+the same as that of BAU. In case of flue dust, the quantity of Fe2O3
+present in the flue dust was assumed to be the same for all the scenarios
+because the amount of iron ore fed to the rotary remained unchanged
+irrespective of the scenarios. As the quantity of FC present in fuel supplied at the feed end was the same for all the scenarios. The quantity of
+FC carried away with the flue dust was assumed to be constant for all the
+scenarios. The quantity of VM present in the flue dust was assumed to be
+contact (as the difference in composition VM of fuel employed at injection end is minimal) to simplify the mass and energy balance analysis.
+However, the composition of the ash in fly dust varied based on the ash
+content of the fuel (coal/PKSC) used in the respective scenarios. The
+mass balance analysis for all scenarios is depicted in Fig. 4.
+The quantity of fuel (PKSC - both feed and injection) consumed in
+scenario 3 was found to be the least (832 kg) when compared to other
+scenarios because of its high heating value (HHV) and FC content
+compared to coal. Meanwhile, the ash content of PKSC was approximately 50% lower than coal used in rotary kiln for SI production. The
+presence of 28.55% of O2 in PKSC aided in reducing the quantity of air
+supplied to rotary kiln and ABC. Hence, the concentration of N2 in the
+flue gas released during SI production through scenario 3 was the least
+(58.15%) when compared to all the other scenarios.
+On the other hand, during BAU, 976 kg of fuel was (coal – feed and
+injection) consumed, the air supplied (5529 kg), and the flue gas
+generated (6582 kg) was found to be highest when compared to other
+scenarios. The increase in mass flow during BAU can be attributed to the
+high ash and moisture content of coal. Meanwhile, the oxygen content of
+coal (feed end-7.29% and fuel end-7.37%) used in BAU was approximately 3.9 times lower than the oxygen present in PKSC. Hence, the air
+supplied to rotary kiln and ABC increases in case of BAU which in turn
+led to increase in N2 concentration in the flue gas to 64.65% (highest
+among all scenarios).
+From the mass balance analysis of scenarios 1 and scenario 3, it was
+identified that usage of PKSC at the injection end aided in reducing the
+mass flow in the rotary kiln system when compared to its usage at the
+feed end. As the replacement of 494 kg of coal containing 7.37% of O2
+with 462 kg of PKSC containing 28.55% of O2 during scenario 1, aided in
+reducing the quantity of air supplied from the atmosphere to the kiln.
+Therefore, the total quantity of air required to produce 1 t of SI
+decreased by 15.9%, 14.8%, and 35.6% for scenario 1, scenario 2, and
+scenario 3, respectively, in comparison to the values reported in the
+prior study (5200 kg) (Choudhury, 2014). Thus, the presence of higher
+
+2.4.4. Life cycle assessment
+The ISO 14040:2006 standard procedure was adopted to conduct a
+LCA for investigating the environmental impact of SI production (b).
+Since, the system boundary considered for this study concludes with the
+production stage consequential LCA was employed. SimaPro v9.3.03
+served as the tool for assessing environmental impact, with background
+information sourced from the Ecoinvent 3 database for LCI mapping.
+Impact assessment involved consideration of various categories namely,
+global warming potential (GWP), stratospheric ozone depletion,
+ionizing
+radiation,
+ozone
+formation-human
+health,
+ozone
+formation-terrestrial ecosystems, terrestrial acidification, freshwater
+eutrophication, marine eutrophication, terrestrial ecotoxicity, marine
+ecotoxicity,
+freshwater
+ecotoxicity,
+carcinogenic
+toxicity,
+non-carcinogenic toxicity, land use, mineral resource scarcity, fossil
+resource scarcity, and water consumption. The ReCiPe 2016 Midpoint
+(v1.03) method was employed for the impact assessment.
+The energy and materials consumed in each scenario were briefed in
+the previous section. It was assumed that the 70 kWh of electricity
+consumed during the production of 1 ton of SI in all scenarios originated
+from the Indian grid (Central electricity Authority, Ministry of power,
+2022).
+2.5. Sensitivity analysis
+The sensitivity analysis explores the extremities indicated in literature and industry data. In this study, the influence of sulphur content in
+both the feed and discharge coal on the greenhouse gas emissions during
+SI production was assessed. The sulphur content was varied from 0.1 to
+0.9% for different scenarios (excluding scenario 3 as PKSC does not
+contain S). The presence of S concentration in coal beyond this range
+affects the quality of SI (INDUSTRIAL TECHNICAL CONSULTANT).
+Additionally, the effect of the FC to VM ratio was estimated by varying it
+from 1.5 to 1.8 for all the scenarios, as suggested by the Bureau of Energy Efficiency of India (Sharma et al., 2019).
+2.6. Uncertainty analysis
+The ambiguity associated during sponge iron production in rotary
+kiln can be addressed by estimating its uncertainty analysis. Hence, to
+make the results reliable, Monte Carlo simulation was adopted for uncertainty analysis (with 10,000 steps) as some assumptions and parameters taken from literature are not consistent in real time. The
+uncertainty of these parameters was estimated by pedigree matrix. The
+uncertainty analysis of all the impact categories is estimated at 95%
+confidence interval.
+5
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+concentration O2 in PKSC compared to coal reduced the quantity of air
+required to oxidize the carbon source supplied at the feed and injection
+end of the rotary kiln thereby reducing the sensible heat lost through
+flue gas.
+
+high oxygen content in PKSC compared to coal aided to conserve energy.
+The substitution of PKSC for coal at the injection end led to an increase in the quantity of excess FC (remaining after reducing iron ore to
+Fe) available to supply heat energy required during the process. Hence,
+the heat energy transferred via flue gas from rotary kiln to ABC was
+higher when PKSC was used as fuel at injection end. For instance, in
+BAU, the energy released due to the oxidation of excess FC was 481.7
+Mcal but it increased to 694.7 Mcal and 958.6 Mcal when PKS was used
+as fuel at the injection end. However, the replacement of coal (both feed
+and injection) with PKSC contributed to a 7.6% reduction in the energy
+required to produce sponge iron because the amount of energy lost
+through char, dust, and flue gas was less in scenario 3. Additionally, in
+scenario 3, no energy was lost to vaporize the moisture present in the
+fuel, as PKSC does not contain any moisture. Thus, usage of PKSC in SI
+production facilitated in reducing the GHGs emissions and energy
+consumed during the process.
+
+3.2. Energy balance
+The energy balance analysis facilitated in identification of the intricacies of each unit and sub-process of sponge iron (SI) production.
+Most of the energy supplied during SI production was spent in the rotary
+kiln, designating it as the central component of the SI production process. About 77.8% of the energy available in the PKSC (both at the injection and feed ends) was consumed in the rotary kiln thereby aiding to
+reduce the losses happening during SI production. On the other hand, in
+BAU, only 53.7% of energy available in the fuel was utilized in rotary
+kiln. The low concentration of C in the VM (6.75%) of PKSC compared to
+coal (~60%) ensured that the quantity of unburnt C leaving the kiln was
+low in scenario 3 compared to BAU.
+The energy consumed to produce 1 t of SI during BAU and scenario I
+was 5366.8 Mcal (Fig. 5 and supplementary material S. Fig. 1), showing
+a marginal increase of 2.4% compared to the reported value (Nduagu
+et al., 2022). However, the energy requirement was reduced by 7.4%
+when scenario 2 and scenario 3 were adopted to produce 1 t of SI, as
+depicted in supplementary material S. Fig. 2 and S. Fig. 3. Therefore, it
+can be deduced that the energy consumed for SI production increased
+when the fuel supplied on the feed end was coal which can be attributed
+to the 30% lower FC content of coal compared to PKSC. Thus, increasing
+the amount of coal (482 kg) required for reducing 1471 kg iron ore to 1 t
+sponge iron.
+At the same time, the usage of coal as fuel on the injection end increases the energy consumed during SI production primarily due to its
+higher concentration of ash and moisture compared to PKSC. Meanwhile, more amount of air must be supplied to the rotary kiln during the
+usage of coal as fuel due to its low O2 content compared to PKSC. The N2
+in the air was also heated up to 900 ◦ C before exiting the rotary kiln,
+leading to energy losses. For instance, in the BAU, the energy lost
+through the sensible heat (SH) of N2 in flue gases was 898.5 Mcal/t of SI.
+But it got reduced to 542.7 Mcal/t SI in scenario 3. Thus, the presence of
+
+3.3. Global warming potential
+The LCA was conducted using SimaPro by employing LCI and the
+ReCiPe 2016 Midpoint indicator to analyse the 18 impact categories. It
+was observed that among the 18 impact categories global warming potential (GWP), terrestrial ecotoxicity, human non-carcinogenic toxicity,
+and fossil fuels scarcity are the impact categories that were predominately affected during SI production.
+All the aforementioned impact categories underwent a steep decline
+when PKSC replaced feed/injection coal or both of it, as indicated in
+Table 2. The carbon footprint of rotary kiln-based SI production was
+2525 kg CO2eq./t during BAU, encompassing the carbon emissions from
+both the supply chain and the manufacturing process (Fig. 6). Other
+studies have reported GWP ranging from 70 to 2800 kg CO2eq./t of SI
+produced (Fig. 7) (Ministry of Road Transport and Highways, 2023).
+However, the boundary conditions, fuel, plant capacity, concentration
+of iron ore, and fuel characteristics considered in these studies varied
+from the present study (100 TPD). For instance, a GWP of 2800 kg
+CO2eq./t was estimated in a study where the iron ore fed to the rotary
+kiln was pelletized, leading to increased energy and carbon footprint for
+SI production. In another study, despite feeding bio-syngas derived from
+
+Fig. 3. Fixed carbon vs volatile matter of charcoal derived from agriculture waste (Parikh et al., 2005) (The figure depicts the variation in concentration of
+fixed carbon and volatile matter of various fuels) CH – Canola hull.
+6
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+Fig. 4. Mass balance for 1 t of sponge iron production (This figure illustrates the mass flow happening across each sub-units of rotary kiln-based sponge iron
+production process) BAU – Coal is supplied at feed and discharge end, Scenario 1 – Coal is supplied at feed end and PKSC at discharge end, Scenario 2 – PKSC is
+supplied at feed end and coal at discharge end, Scenario 3 – PKSC is supplied at feed and discharge end. SI – Sponge iron, BAU – Business as usual, PKSC – Palm kernel
+shell charcoal, ABC – After burning chamber, ESP – Electrostatic precipitator.
+
+forest residues into a shaft furnace to produce SI, the GWP of the process
+was 70 kg CO2eq./t. However, the usage of PKSC as fuel in the rotary kiln
+during scenario 3 aided in achieving negative carbon emissions (− 41 kg
+CO2eq./t). Furthermore, the GWP of SI production in scenario 1 and
+scenario 2 was 1092 kg CO2eq./t and 1197 kg CO2eq./t respectively,
+which was found to be lower than that of SI manufactured in shaft
+furnace using natural gas as an energy source (Nduagu et al., 2022).
+In scenario 3, the greenhouse gas (GHG) emissions during SI production were considered zero, as the PKSC used as fuel originated from a
+carbon-neutral energy source (palm kernel shell-agricultural waste).
+Meanwhile, the utilization of PKSC in scenario 3 resulted in the avoidance of 976 kg of coal usage, thereby mitigating the emission of 304.7 kg
+CO2eq. associated with coal mining and processing in the upstream (as
+shown in Fig. 8). Thus, scenario 3 achieved negative emissions, even
+though there was an emission of 263.8 kg CO2eq. in the upstream related
+to production of electricity (1.2 kg CO2eq./kWh), iron ore (0.12 kg
+CO2eq./kg), and dolomite (0.05 kg CO2eq./kg). In scenarios 1 (discharge
+
+end) and 2 (feed end), where PKSC was used for SI production, the
+avoidance of 494 kg and 482 kg of coal, respectively. Thus, facilitating in
+the mitigation of 154.2 kg CO2eq. and 150.5 kg CO2eq. in scenario 1 and
+scenario 2 respectively.
+3.4. Other impact categories
+Previous life cycle assessment (LCA) investigations focused solely on
+calculating the global warming potential (GWP) during sponge iron (SI)
+production within the Indian context. The current study expands its
+scope to include all environmental impacts associated with SI production across all scenarios.
+Fossil resource scarcity and terrestrial ecotoxicity are the other
+impact categories that are highly affected during SI production in BAU.
+The fossil resource scarcity quantifies the energy derived from fossil
+fuels. The utilization of coal in BAU to meet the energy demand for SI
+production increased the potential for fossil resource scarcity to 653.5
+7
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+Fig. 5. Energy balance of coal-based sponge iron production (Business as usual) (This figure depicts the consumption, recovery, and loss of energy fed to the rotary
+kiln across each sub-units of sponge iron production process).
+Table 2
+Sustainability assessment of Sponge iron production base case scenario.
+Impact category
+
+Unit
+
+BAU
+
+Scenario
+1
+
+Scenario
+2
+
+Scenario
+3
+
+Global warming
+
+kg CO2
+eq.
+kg
+CFC11
+eq.
+kBq Co60 eq.
+kg NOx
+eq.
+kg
+PM2.5
+eq.
+kg NOx
+eq.
+
+2525
+
+1091.8
+
+1196.8
+
+− 40.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+2.3
+
+1.6
+
+1.6
+
+0.8
+
+3.7
+
+2.2
+
+2.3
+
+0.8
+
+2.1
+
+1.3
+
+1.4
+
+0.6
+
+3.8
+
+2.3
+
+2.3
+
+0.8
+
+kg SO2
+eq.
+kg P eq.
+
+4.8
+
+2.4
+
+2.5
+
+0.2
+
+0.15
+
+0.0
+
+0.0
+
+− 0.1
+
+kg N eq.
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+kg 1,4DCB
+kg 1,4DCB
+kg 1,4DCB
+kg 1,4DCB
+
+1008.1
+
+609.3
+
+618.9
+
+220.1
+
+0.7
+
+0.6
+
+0.6
+
+0.4
+
+1.6
+
+1.1
+
+1.1
+
+0.7
+
+3.8
+
+2.38
+
+2.3
+
+0.8
+
+kg 1,4DCB
+
+36
+
+25.46
+
+25.7
+
+15.1
+
+m2a
+crop eq.
+kg Cu
+eq.
+kg oil
+eq.
+m3
+
+26.9
+
+4.8
+
+5.3
+
+− 16.9
+
+71
+
+70.58
+
+70.5
+
+70.1
+
+653.5
+
+77.0
+
+91.1
+
+− 485.3
+
+2.1
+
+1.1
+
+1.1
+
+0.1
+
+Stratospheric ozone
+depletion
+Ionizing radiation
+Ozone formation,
+Human health
+Fine particulate
+matter formation
+Ozone formation,
+Terrestrial
+ecosystems
+Terrestrial
+acidification
+Freshwater
+eutrophication
+Marine
+eutrophication
+Terrestrial
+ecotoxicity
+Freshwater
+ecotoxicity
+Marine ecotoxicity
+Human
+carcinogenic
+toxicity
+Human noncarcinogenic
+toxicity
+Land use
+Mineral resource
+scarcity
+Fossil resource
+scarcity
+Water consumption
+
+Fig. 6. Net greenhouse gas emissions for different scenarios (The potential
+of decarbonizing the sponge iron sector by substituting coal with palm kernel
+shell charcoal is illustrated) BAU – Coal is supplied at feed and discharge end,
+Scenario 1 – Coal is supplied at feed end and PKSC at discharge end, Scenario 2
+– PKSC is supplied at feed end and coal at discharge end, Scenario 3 – PKSC is
+supplied at feed and discharge end. BAU – Business as usual.
+
+kg oil equivalent. However, in scenario 3, the fossil fuel scarcity became
+negative (− 485.34 kg oil eq.) due to the replacement of coal with carbon
+neutral PKSC. The use of PKSC in scenario 1 and scenario 2 contributed
+to an 88.2% and 86.1% reduction, respectively, in its impact on fossil
+fuel scarcity compared to BAU.
+On the other hand, terrestrial ecotoxicity quantified the emission of
+pollutants during a process affecting the atmosphere (land, water, and
+air). The lower ash content (11.27%) in PKSC compared to coal (~23%)
+helped in reducing the amount of solid waste entering the atmosphere in
+all scenarios except BAU. Additionally, emissions occurring during the
+oxidation of PKSC in rotary kiln were considered carbon neutral, as it
+8
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+3.5. Fuel selection
+Decarbonization of the sponge iron industry can be achieved by
+substituting the coal used in SI production (BAU) with a sustainable
+energy source. The chosen fuel for the rotary kiln should exhibit high
+reactivity, and its FC content must be higher to ensure that the concentration of CO inside the kiln is maintained around 50–60% to facilitate the direct reduction of iron ore (Tagade et al., 2021). The charcoal
+derived from biomass can satisfy the conditions specified above (Ahmed
+et al., 2020). Hence, the fuel characteristics of charcoal derived from
+various agricultural wastes were analysed and compared with coal utilized in the rotary kiln-based SI production process (Arabinda Sarangi,
+2011). Charcoal derived from fuel wood was excluded from consideration due to concerns regarding its sustainability. Meanwhile, PKSC was
+employed as reducing agent instead of coal to produce Fe and MnSiO4
+from FeTiO3 (Setiawan et al., 2020) and MnO2 (Suharto et al., 2020),
+respectively. Thus, affirming its potential as a reducing agent.
+An analysis of the fuel characteristics of PKSC revealed its potential
+to replace coal in rotary kilns. The FC to the VM ratio of PKSC was 1.5
+which falls within the range (1.5–1.8) suggested by the Bureau of Energy
+Efficiency of India (illustrated in Fig. 3) (Nduagu et al., 2022). In
+addition, the bio-oil and syngas generated during the pyrolysis of palm
+kernel shell at 350 ◦ C can satisfy the energy required during the SI
+production process. Thus, making PKSC, a carbon-neutral energy source.
+The absence of sulphur and moisture content in the PKSC added to its
+advantage (Kumar and Khanam, 2012). Furthermore, the higher calorific value (24.99 MJ/kg) and lower ash content (11.7%) of PKSC aided
+in reducing the cost and emissions incurred during transportation when
+compared to coal.
+Approximately 600 million tonnes (MT) of palm kernel shell are
+produced annually in India, capable of producing 276 MT of PKSC.
+Utilization of PKSC instead of coal in rotary kiln for SI production coal
+has the potential to replace 313 t of coal/a that can be used to produce
+321 t of SI. Thus, mitigating the emission of 810.5 t CO2eq./a (Ministry of
+Road Transport and Highways, 2023).
+
+Fig. 7. Comparison of global warming potential during 1 t of sponge iron
+production with literature (The figure compares the emissions happening
+during sponge iron production by using different fuels namely coal (Elango,
+2020), natural gas (Han and Duan, 2015), bio-syngas (Ministry of Road
+Transport and Highways, 2023)) Business as usual (BAU) – Coal is supplied at
+feed and discharge end, Scenario 1 – Coal is supplied at feed end and PKSC at
+discharge end, Scenario 2 – PKSC is supplied at feed end and coal at discharge
+end, Scenario 3 – PKSC is supplied at feed and discharge end.
+
+was derived from agricultural waste. Hence, the terrestrial ecotoxicity
+impact of scenario 3 was the least among all scenarios (220.1 kg 1,4DCB), representing a 78.2% reduction compared to BAU. Thus, the
+usage of PKSC in SI production not only contributed to the decarbonization of the sector but also helped in preventing terrestrial ecotoxicity
+and conserving fossil fuels.
+
+Fig. 8. Greenhouse gases emitted at each stage of sponge iron production (The figure compares the emissions happening during each stage of sponge iron
+production by adopting different scenarios) Business as usual (BAU) – Coal is supplied at feed and discharge end, Scenario 1 – Coal is supplied at feed end and PKSC at
+discharge end, Scenario 2 – PKSC is supplied at feed end and coal at discharge end, Scenario 3 – PKSC is supplied at feed and discharge end.
+9
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+3.6. Impact of decarbonized SI on sustainable development goals
+The United Nations member states have pledged to promote prosperity without affecting the environment by achieving the 17 sustainable development goals (SDG) by 2030. SDGs provide a qualitative
+framework that needs quantitative validation for a comprehensive understanding of the impact of any industrial process (Gowd et al., 2023).
+Hence, LCA was employed to evaluate the sustainability of SI production
+process. The LCA results revealed that the production of SI by adopting
+scenario 3 can aid in achieving SDG 7, 9,12, 13, and 15. Additionally,
+fulfilling the energy required for SI production using agricultural waste
+promotes economic growth (SDG 8) by reducing dependence on energy
+imports. The detailed mapping of SDGs with SI production using PKSC as
+an energy source (scenario 3) was illustrated in S. Fig. 4.
+3.7. Sensitivity analysis
+When coal, PKSC, iron ore, dolomite, and electricity are sourced
+from the same location, the variability in SI production using rotary kiln
+process can be attributed to the composition of fuel used during its
+production. Among them, S content and the ratio of FC to VM are the
+main parameters influencing SI production. However, for effective
+production of SI using rotary kiln process, the S content in the fuel
+should not be >0.9% and the ratio of FC to VM should be between 1.5
+and 1.8. Therefore, the impact of these parameters on the GHGs emitted
+during the SI production process (excluding supply chain and electricity)
+was evaluated for all the scenarios adopted in this study.
+The impact on the carbon footprint of the SI production was examined by varying the S content of the fuel from 0.1% to 0.9% with a step
+interval of 0.1%. In scenario 3, there was no change in the quantity of
+greenhouse gases (GHGs) emitted due to the absence of S in palm kernel
+shell char (PKSC) (Fig. 9). However, the maximum increment in GHG
+emission was observed in BAU from 4 kg CO2eq./t SI to 34 kg CO2eq./t SI
+when the S content in the fuel was raised from 0.1 to 0.9%.
+On the other hand, when the ratio of FC to VM in the fuel was varied
+from 1.5 to 1.8 with a step interval of 0.1%, the GHG emission during
+scenario 3 increased from 1563 kg CO2eq./t SI to 1588 kg CO2eq./t
+(Fig. 10). However, in the BAU, GHG emissions decreased from 1906 kg
+CO2eq./t SI to 1866 kg CO2eq./t SI as the FC to VM ratio increased from
+1.5 to 1.8. The reversal in trend can be attributed to the decrease in FC
+
+Fig. 10. Impact of fixed carbon/volatile matter on GHG emissions (The
+figure illustrates the effect of variations in fixed carbon and volatile mater
+concentration in the fuel used for sponge iron production on its carbon footprint) Business as usual (BAU) – Coal is supplied at feed and discharge end,
+Scenario 1 – Coal is supplied at feed end and PKSC at discharge end, Scenario 2
+– PKSC is supplied at feed end and coal at discharge end, Scenario 3 – PKSC is
+supplied at feed and discharge end.
+
+lost through char and flue dust in BAU as the FC to VM ratio increased
+from 1.5 to 1.8.
+3.8. Conventional steel vs decarbonized steel
+The primary objective of this work was to decarbonize the SI sector
+thereby reducing the carbon footprint associated with steel production.
+In India, 25% of the steel produced makes use of SI as raw material. The
+energy required to produce 1 t of steel using SI as ranges from 3046 kg
+CO2eq./t (Nduagu et al., 2022) to 3885 kg CO2eq./t (Elango, 2020). The
+replacement of coal with PKSC in three scenarios framed in this study
+aided in reducing the GHG emitted during steel production. The GHG
+emitted during the production of steel by adopting scenario 1, scenario
+2, and scenario 3 was 2177 CO2eq./t, 2282 CO2eq./t, and 1156 CO2eq./t,
+respectively (depicted in Fig. 11). Hence, utilizing SI produced in scenario 3 as a raw material for steel production in an electric arc furnace
+resulted in a maximum GHG reduction of 70.2%, compared to the
+conventional steel production process.
+3.9. Renewable energy to abate GHG emissions
+About 70 kWh of electricity was consumed during the production of
+1 t of SI by employing a rotary kiln system of capacity 100 TPD (Mohan
+Ghosh and N Vasudevan, 2021). However, the carbon footprint of the
+electricity consumed depends on the generation source. The GHGs
+emitted during electricity generation can be reduced by replacing fossil
+fuels with renewable energy. In this regard, the share of renewable energy in electricity generation was increased from 0 to 100% with a step
+interval of 25% and its impact on GHG emission was analysed for all the
+scenarios (Table 3). It was assumed that the electricity was entirely
+derived from coal power plants when the share of renewable energy in
+electricity production was 0%. However, when the proportion of
+renewable energy exceeded 0%, for instance, 25%, it was considered
+that an equal share of electricity was generated through solar and wind
+power plants.
+The carbon footprint for generating 1 kWh of electricity varied
+among energy sources, with coal, solar, and wind contributing 1356 g
+CO2 eq., 58 g CO2 eq., and 37 g CO2 eq., respectively. Except for scenario 3,
+minimal greenhouse gas (GHG) reduction was observed in the other
+
+Fig. 9. Impact of sulphur concentration on greenhouse emissions (The
+figure depicts the effect of variations in sulphur concentration in the fuel used
+for sponge iron production on its carbon footprint) Business as usual (BAU) –
+Coal is supplied at feed and discharge end, Scenario 1 – Coal is supplied at feed
+end and PKSC at discharge end, Scenario 2 – PKSC is supplied at feed end and
+coal at discharge end, Scenario 3 – PKSC is supplied at feed and discharge end.
+10
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+should be minimal. The CV values of all the above-mentioned impact
+categories were <20% thereby making the results reliable. Fig. 12 depicts the uncertainty analysis of GWP caused during the production of 1 t
+SI production in different scenarios. The CV of GWP was highest for
+scenario 3 at 3.55% (SEM - 0.542) and was the least foe BAU (SEM 0.662).
+In the case of terrestrial ecotoxicity, the CV was 10.5% (SEM - 0.231)
+for scenario 3. However, the CV varied between 2.07% (BAU) - 3.45%
+(scenario 1) for the remaining three scenarios (as shown S. Fig. 5).
+Furthermore, the CV for fossil resource scarcity was − 4% (SEM - 0.019)
+during scenario 3 (shown S. Fig. 6) as it dropped down to − 485.3 kg oil
+eq. from 653.5 kg oil eq. in BAU (CV – 2.12%)
+4. Limitations and challenges
+Replacement of coal with PKSC in the rotary kiln can abet in
+decarbonizing the SI industry thereby aiding in reducing the GHG
+emitted during the production of 1 t of steel in India to 2.4 t by 2030–31
+(Government of India, 2022). The impact on land usage change, water
+usage, food security, and other environmental parameters must be
+assessed before expanding the cultivation area of palm trees to harvest
+palm kernel shells (Bellamy et al., 2021). However, ensuring a continuous year-round supply of feedstock poses challenges.
+Palm kernel shells are widely utilized as low-cost feedstock to
+manufacture activated carbon which are used as bio absorbents for gas/
+liquid separation and wastewater treatment (Uchegbulam et al., 2022).
+Meanwhile, it is employed as reducing agent in pyrometallurgical process, aggregates for the construction of building and feedstocks to produce advanced biofuel (Rashidi and Yusup, 2017). However, most of the
+palm kernel shells are either incinerated or discarded into atmosphere
+without extracting the energy present in it. Thus, causing negative
+impact on economics and environment. Hence, implementing effective
+mechanism to collect the palm kernel shell without expanding its
+cultivation area will aid in lowering the above-mentioned environmental impacts, as it is a carbon neutral energy source.
+Despite being carbon neutral, the cost of charcoal derived from
+biomass varies from $295/t to $525/t which is higher than the cost of
+coal used in rotary kiln (~$162.6/t) (Suopajä et al., 2013). However,
+implementation of a uniform carbon tax across nations and policies
+mandating the usage biomass-based energy sources to produce SI will
+facilitate in achieving decarbonization of the sector at a faster rate
+(Ganeshan et al., 2023). Presently, the carbon tax levied in various
+countries ranges from $47.1/t CO2 eq. to $198.7/t CO2eq. (Mousa et al.,
+2016).
+
+Fig. 11. Comparison of GHG emitted during steel production by adopting
+different methods (The figure compares the emissions happening during steel
+production using sponge iron manufactured in rotary kiln as raw material with
+literature (Iron and Steel Technology Roadmap, 2020), (Elango, 2020), (Han
+and Duan, 2015)) Business as usual (BAU) – Coal is supplied at feed and
+discharge end, Scenario 1 – Coal is supplied at feed end and PKSC at discharge
+end, Scenario 2 – PKSC is supplied at feed end and coal at discharge end,
+Scenario 3 – PKSC is supplied at feed and discharge end.
+Table 3
+Impact on GWP with the change in share of electricity from renewable energy.
+Scenario
+
+Renewable Energy Share
+
+Net GWP
+
+GWP reduction
+
+Unit
+BAU
+
+(%)
+0
+25
+50
+75
+100
+0
+25
+50
+75
+100
+0
+25
+50
+75
+100
+0
+25
+50
+75
+100
+
+kg CO2 eq./t SI
+2536
+2513
+2490
+2467
+2444
+1103
+1080
+1057
+1034
+1011
+1208
+1185
+1162
+1139
+1116
+− 30
+− 53
+− 75.9
+− 98.8
+− 121.7
+
+%
+0
+1
+1.8
+2.7
+3.6
+0
+2
+4.2
+6.2
+8.3
+0
+2
+4
+6.1
+8.2
+0
+176.7
+253
+329
+406
+
+Scenario 1
+
+Scenario 2
+
+Scenario 3
+
+5. Conclusion
+The iron and steel industry contributes to 7% of global GHG emissions, necessitating decarbonization to meet climate targets. India, the
+second largest steel producer, relies on coal to satisfy 85% of the sector’s
+energy demand, emphasizing the need to find a sustainable alternative.
+Hence, the potential of PKSC to decarbonize the SI industry was
+explored in this study.
+Switching from coal to PKSC not only resulted in negative net GHG
+emissions (− 41 kg CO2eq./t SI) but also aided in attaining a sustainable
+circular economy. Negative emission was achieved in scenario 3 as PKSC
+usage resulted in the avoidance of 976 kg of coal thereby mitigating the
+emission (304.7 kg CO2eq.) happening in the upstream of coal mining
+process. Thus, scenario 3 achieved negative emissions, even though
+there was an emission of 263.8 kg CO2eq. in the upstream related to
+production of electricity, iron ore, and dolomite. Even the partial
+replacement of coal with PKSC (scenario 1 and scenario 2) at the feed/
+injection end reduced the SI production process’s carbon footprint by
+~55%. However, ensuring a continuous year-round supply of feedstock
+poses challenges. Hence, identifying an energy source by blending
+charcoal from coconut or cashew shells with char from agricultural
+
+scenarios. The GHG emissions during the production of 1 ton of SI
+decreased by 3.6%, 8.3%, and 8.2% for BAU, scenario 1, and scenario 2,
+respectively, when 100% of the electricity was sourced from renewable
+energy. On the other hand, GHG emissions decreased by approximately
+1.8 times, 2.5 times, 3.3 times, and 4 times when 25%, 50%, 75%, and
+100% of the electricity used for SI production was derived from
+renewable energy sources.
+3.10. Uncertainty analysis
+To make the results reliable, Monte Carlo simulation was adopted for
+determining the uncertainty of following impact categories (GWP,
+terrestrial ecotoxicity, fossil resource scarcity) that are highly affected
+during 1 t of SI production. For the results to be reliable, the coefficient
+of variance (CV) must be <20% and the standard error mean (SEM)
+11
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+Fig. 12. Uncertainty analysis of GWP in different scenarios
+(The figure compares the uncertainty of GWP caused during the production of 1 t sponge iron by rotary kiln process) Business as usual (BAU) – Coal is supplied at feed
+and discharge end, Scenario 1 – Coal is supplied at feed end and PKSC at discharge end, Scenario 2 – PKSC is supplied at feed end and coal at discharge end, Scenario
+3 – PKSC is supplied at feed and discharge end.
+
+waste (stack, straw, husk, etc.), becomes crucial. Implementing policies
+to promote biomass-based feedstocks can expedite the adoption and
+hasten the decarbonization of the SI sector.
+
+Ahmed, G., Acharya, S., Kawale, H., Singh, A., Kishore, N., Pal, S., 2020.
+Thermochemical conversion of Polyalthia longifolia leaves at different temperatures
+and characterization of their products. Fuel 280. https://doi.org/10.1016/j.
+fuel.2020.118574.
+Arabinda Sarangi, B.S., 2011. Sponge Iron Production in Rotary Kiln. PHI learning
+private limited.
+Association, W.S., 2020. World Steel in Figures.
+Bellamy, R., Fridahl, M., Lezaun, J., Palmer, J., Rodriguez, E., Lefvert, A., et al., 2021.
+Incentivising bioenergy with carbon capture and storage (BECCS) responsibly:
+comparing stakeholder policy preferences in the United Kingdom and Sweden.
+Environ. Sci. Pol. 116, 47–55. https://doi.org/10.1016/j.envsci.2020.09.022.
+Bhaskar, A., Assadi, M., Somehsaraei, H.N., 2021. Can methane pyrolysis based hydrogen
+production lead to the decarbonisation of iron and steel industry? Energy Convers.
+Manag. X 10, 100079. https://doi.org/10.1016/j.ecmx.2021.100079.
+Carrara, S., Alves Dias, P., Plazzotta, B., Pavel, C., 2020. Raw materials demand for wind
+and solar PV technologies in the transition towards a decarbonised energy system.
+https://doi.org/10.2760/160859.
+Carroll, E. Goering, Hansen, Alan C., 2013. CHAPTER 6 Fuels and Combustion. Engine
+Tract. Power, fourth ed., pp. 111–142. https://doi.org/10.13031/2013.24141
+Central electricity Authority, Ministry of power, 2022. CO2 Base Line Data Base for
+Indian Power Sector.
+Choudhury, A., 2014. Energy audit methodology of sponge iron manufacturing units
+using DRI process. Open J. Energy Effic. 41–49. https://doi.org/10.4236/
+ojee.2014.33005, 03.
+Ministry of Coal. Production of Raw Coal from Opencast & Under-ground Mines, 2023.
+https://coal.gov.in/sites/default/files/2021-01/Production-Opencast-and-Underground-mines-durin-last-ten-years.pdf.
+Constales, D., Yablonsky, G.S., D’hooge, D.R., Thybaut, J.W., Marin, G.B., 2017.
+Chemical composition and structure: linear algebra. Adv. Data Anal. Model. Chem.
+Eng. 9–34 https://doi.org/10.1016/B978-0-444-59485-3.00002-3.
+CPCB, 2007. Sponge iron industry - comprehensive industry documents series. Cent
+pollut control board. Minist Environ. For 130.
+Deka, T.J., Osman, A.I., Baruah, D.C., Rooney, D.W., 2023. Assessment of bioenergy and
+syngas generation in India based on estimation of agricultural residues. Energy Rep.
+9, 3771–3786. https://doi.org/10.1016/j.egyr.2023.02.054.
+Dey, N.R., Prasad, A.K., Singh, S.K., 2015. Energy survey of the coal based sponge iron
+industry. Case Stud. Therm. Eng. 6, 1–15. https://doi.org/10.1016/j.
+csite.2015.04.001.
+Elango, S., 2020. Life Cycle Assessment of Coal Based Direct-Reduced Iron Production in
+India.
+
+CRediT authorship contribution statement
+Vigneswaran V S: Writing – original draft, Data curation, Conceptualization. Sarath C. Gowd: Software, Data curation. Karthik Rajendran: Writing – review & editing, Supervision, Project administration,
+Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.jclepro.2024.141962.
+References
+ISO 14040:2006. Environmental management — life cycle assessment — principles and
+framework. n.d. https://www.iso.org/standard/37456.html. (Accessed 31 August
+2023).
+
+12
+
+V. V. S et al.
+
+Journal of Cleaner Production 450 (2024) 141962
+
+Fan, Z., Friedmann, S.J., 2021. Low-carbon production of iron and steel: Technology
+options, economic assessment, and policy. Joule 5, 829–862. https://doi.org/
+10.1016/j.joule.2021.02.018.
+Ganeshan, P., V, S.V., Gowd, S.C., Mishra, R., Singh, E., Kumar, A., et al., 2023.
+Bioenergy with carbon capture, storage and utilization: potential technologies to
+mitigate climate change. Biomass Bioenergy 177, 106941. https://doi.org/10.1016/
+j.biombioe.2023.106941.
+Government of India, 2022. Annual Report 2021-22. Ministry of Steel Government of
+India.
+Gowd, S.C., Ramesh, P., Vigneswaran, V.S., Barathi, S., lee, J., Rajendran, K., 2023. Life
+cycle assessment of comparing different nutrient recovery systems from municipal
+wastewater: a path towards self-reliance and sustainability. J. Clean. Prod. 410,
+137331 https://doi.org/10.1016/J.JCLEPRO.2023.137331.
+Han, H., Duan, D., 2015. PY& DL. Biomass reducing agent utilisation in rotary hearth
+furnace process for DRI production. Ironmak. Steelmak. 42, 579–584.
+https://www.irena.org/Energy-Transition/Technology/Hydrogen. (Accessed 9
+September 2023).
+Ministry of coal and Natural gas, 2022. Press information Bureau. https://pib.gov.in/Pre
+ssReleseDetail.aspx?PRID=1881748. (Accessed 8 September 2023).
+Iron and Steel Technology Roadmap, 2020. https://doi.org/10.1787/3dcc2a1b-en.
+Kumar, V., Khanam, S., 2012. Recovery and utilization of waste heat in a coal based
+sponge iron process. Chem. Eng. Process Process Intensif 56, 19–28. https://doi.org/
+10.1016/j.cep.2012.03.002.
+Kumar, R., Kumar, V., Nagpure, A.S., 2023. Bio-energy potential of available livestock
+waste and surplus agriculture crop residue: an analysis of 602 rural districts of India.
+Sci. Total Environ. 889, 163974 https://doi.org/10.1016/j.scitotenv.2023.163974.
+Lee, Y., Park, J., Ryu, C., Gang, K.S., Yang, W., Park, Y.K., et al., 2013. Comparison of
+biochar properties from biomass residues produced by slow pyrolysis at 500◦ C.
+Bioresour. Technol. 148, 196–201. https://doi.org/10.1016/j.biortech.2013.08.135.
+Malhotra, R.K., Shukla, V., Ray, A., Pant, K.K., Kumar, M., Kumar, P., 2022. Roadmap for
+Coal to Hydrogen Production.
+Ministry of Road Transport and Highways, 2023. Road Transport Year Book (2019-20).
+INDUSTRIAL TECHNICAL CONSULTANT. https://spongeitc.com/.(Accessed 10
+September 2023).
+Ministry of Steel, 2023. Annual Report 2022-23. Ministry of Steel Government of India.
+https://doi.org/10.1016/B0-12-176480-X/00371-5.
+Mohan Ghosh, Ananda, N Vasudevan, S.K., 2021. Direct Reduction. https://doi.org/
+10.1016/b978-0-408-10713-6.50009-4.
+Mousa, E., Wang, C., Riesbeck, J., Larsson, M., 2016. Biomass applications in iron and
+steel industry: an overview of challenges and opportunities. Renew. Sustain. Energy
+Rev. 65, 1247–1266. https://doi.org/10.1016/j.rser.2016.07.061.
+Nduagu, E.I., Yadav, D., Bhardwaj, N., Elango, S., Biswas, T., Banerjee, R., et al., 2022.
+Comparative life cycle assessment of natural gas and coal-based directly reduced
+iron (DRI) production: a case study for India. J. Clean. Prod. 347, 131196 https://
+doi.org/10.1016/j.jclepro.2022.131196.
+
+Sharma, Anukriti Roy, Hiranmoy, Dalei, Nath, Narendra, 2019. Estimation of energy
+intensity in Indian iron and steel sector: A panel data analysis Bureau of Energy
+Efficiency 20 (2), 107–121.
+Parikh, J., Channiwala, S.A., Ghosal, G.K., 2005. A correlation for calculating HHV from
+proximate analysis of solid fuels. Fuel 84, 487–494. https://doi.org/10.1016/j.
+fuel.2004.10.010.
+Ramakgala, C., Danha, G., 2019. A review of ironmaking by direct reduction processes:
+quality requirements and sustainability. Procedia Manuf. 35, 242–245. https://doi.
+org/10.1016/j.promfg.2019.05.034.
+Ramanaiah, V., Khanam, S., 2018. Modified approach of total site integration for energy
+conservation: a case study of sponge iron cluster. Chem. Eng. Res. Des. 133,
+142–154. https://doi.org/10.1016/j.cherd.2018.03.014.
+Rashidi, N.A., Yusup, S., 2017. Potential of palm kernel shell as activated carbon
+precursors through single stage activation technique for carbon dioxide adsorption.
+J. Clean. Prod. 168, 474–486. https://doi.org/10.1016/j.jclepro.2017.09.045.
+Setiawan, A., Shaw, M., Torpy, A., Pownceby, M.I., Harjanto, S., Rhamdhani, M.A., 2020.
+Solar carbothermic reduction of ilmenite using palm kernel shell biomass. Jom 72,
+3410–3421. https://doi.org/10.1007/s11837-020-04297-z.
+Suharto, Nurjaman F., Shofi, A., Sudibyo, Milandia A., Rismananda, M.H., 2020. Analysis
+of the effect of temperature on the reduction roasting process of Lampung
+manganese ore using palm kernel shell charcoal. IOP Conf. Ser. Earth Environ. Sci.
+483 https://doi.org/10.1088/1755-1315/483/1/012012.
+Suopajärvi, H., Fabritius, T., 2013. Towards more sustainable ironmaking-an analysis of
+energy wood availability in Finland and the economics of charcoal production.
+Sustain. Times 5, 1188–1207. https://doi.org/10.3390/su5031188.
+Tagade, A., Kirti, N., Sawarkar, A.N., 2021. Pyrolysis of agricultural crop residues: an
+overview of researches by Indian scientific community. Bioresour. Technol. Rep. 15,
+100761 https://doi.org/10.1016/j.biteb.2021.100761.
+Uchegbulam, I., Momoh, E.O., Agan, S.A., 2022. Potentials of palm kernel shell
+derivatives: a critical review on waste recovery for environmental sustainability.
+Clean Mater. 6, 100154 https://doi.org/10.1016/j.clema.2022.100154.
+Ministry of steel,2017. (ESTABLISHMENT. NATIONAL STEEL POLICY 2017.
+Ministry of Steel, 2022, Government of India. DEVELOPMENT OF INDIAN STEEL
+SECTOR SINCE 2010-11. vol. 18. 2022.
+2022 World Steel in Figures, 2022.
+World Steel Association World Steel Association. https://worldsteel.
+org/climate-action/climate-change-and-the-production-of-iron-and-steel/.
+(Accessed. (Accessed 11 September 2023).
+Yrjas, P., Iisa, K., Hupa, M., 1996. Limestone and dolomite as sulfur absorbents under
+pressurized gasification conditions. Fuel 75, 89–95. https://doi.org/10.1016/00162361(95)00204-9.
+This work acknowledges the support from SRM University – AP through the SRM
+University – AP Research Grant under Grant No. SRMAP/URG/E&EP/2022–23/004.
+
+13
+
+

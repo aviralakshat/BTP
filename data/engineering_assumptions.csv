@@ -1,0 +1,2 @@
+parameter,value,unit,rationale,assumption_type,sensitivity_required,literature_gap
+baseline_coal_consumption,0.95,t/t DRI,Typical Indian DRI plant based on CEEW report,Base,Yes,False

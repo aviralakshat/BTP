@@ -1,0 +1,1128 @@
+Journal of Cleaner Production 347 (2022) 131196
+
+Contents lists available at ScienceDirect
+
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+
+Comparative life cycle assessment of natural gas and coal-based directly
+reduced iron (DRI) production: A case study for India
+Experience I. Nduagu a, *, Deepak Yadav b, Nishant Bhardwaj c, Sabarish Elango b,
+Tirtha Biswas b, Rangan Banerjee c, Srinivasan Rajagopalan a
+a
+b
+c
+
+Corporate Strategic Research, ExxonMobil Research and Engineering Company, Annandale, New Jersey, USA
+Council on Energy, Environment and Water, India
+Department of Energy Science and Engineering, Indian Institute of Technology, Bombay, India
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Handling Editor: Kathleen Aviso
+
+The energy-intensive steel industry is responsible for >7% of global greenhouse gas (GHG) emissions, of which
+the process of ironmaking contributes a large majority. Direct Reduced Iron (DRI) manufacturing, a growing
+technology in ironmaking, offers the potential to reduce emissions. India, as the largest manufacturer of DRI, is
+characterized by technological diversity, while simultaneously dominated by coal-based DRI processes. This
+study develops a comprehensive cradle-to-gate (raw material to iron product) life cycle assessment of three
+distinct technological pathways for producing DRI: direct coal reduction in a rotary kiln (rotary kiln DRI process), coal gasifier and shaft furnace (coal gasifier DRI process), and reformed natural gas and shaft furnace (NG
+reformer DRI process). A hybrid life cycle inventory approach is employed, involving process modeling, literature data, and industry consultation to establish baseline process metrics, followed by a sensitivity analysis to
+address the impact of variabilities and uncertainties. Depending on the supply chain and process assumptions,
+emissions attribution approach to multi-product systems, and the specific choice of inputs and outputs, the life
+cycle GHG emissions associated with DRI production range from 1391.1 to 1880.0 kgCO2e/t-DRI for the rotary
+kiln DRI process, 1565.5 to 1969.1 kgCO2e/t-DRI for the coal gasifier DRI process, and 815.3 to 1160.1 kgCO2e/
+t-DRI for the NG reformer DRI process. While the research considers India as a case study, the methodology and
+results can be directionally and broadly applicable to other geographies and process conditions.
+
+Keywords:
+Ironmaking
+Directly reduced iron
+Coal versus natural gas
+Process analysis
+Life cycle assessment
+
+1. Introduction
+The iron and steel industry accounts for >7% (IEA, 2020) of the
+global greenhouse gas (GHG) emissions, of which the energy-intensive
+ironmaking process (crucial to primary steelmaking) contributes the
+vast majority. Further, the share of primary steelmaking (steel produced
+from iron ore) in global steel output exceeds 80%, while scrap recycling
+meets about 20% of worldwide demand (IEA, 2020). The major processes for primary steelmaking are the Blast Furnace (BF) – Basic oxygen
+furnace (BOF), Direct Reduced Iron (DRI) – Electric Arc Furnace (EAF),
+and Smelt Reduction – BOF routes. The BF-BOF route is primarily
+coal-based and has a reported overall emissions intensity of 2.2 tonne (t)
+CO2/tonne of crude steel (TCS) (IEA, 2020). DRI is characterized by a
+portfolio of diverse technology options consisting broadly of coal-based
+and gas-based processes. The CO2 emissions associated with the natural
+gas (NG) DRI-EAF route are 1.4 t-CO2/TCS, while scrap based steel
+
+production is reported to have an emissions intensity of 0.3 t-CO2/TCS
+(IEA, 2020) due to the absence of emissions involving the
+energy-intensive ironmaking step. Recently, Fan and Friedmann (2021)
+have reviewed various low-carbon technology pathways in iron and
+steelmaking, citing carbon emission values based on prior literature.
+Notably, the messages from these macro-level studies do not have the
+benefit of detailed life cycle assessment (LCA) for various DRI pathways.
+India’s steel sector is unique in technology diversity - integrated (BFBOF) process co-exists with significant DRI capacity. The Indian ironmaking industry is one of the more GHG-intensive globally, with a noted
+emissions intensity of about 2.3 t-CO2/TCS - well above the global
+average of 1.85 t-CO2/TCS (IEA, 2020; WSA, 2020a). Heavy reliance on
+coal, lower-grade iron ore and process inefficiencies are offered as primary reasons for the high emissions intensity. As the second-largest
+steel-producing country, India produced 110 million tonnes (MT) of
+steel in 2019 (~6% of global output) (WSA, 2020b). Further, production
+
+* Corresponding author
+E-mail address: experience.i.nduagu@exxonmobil.com (E.I. Nduagu).
+https://doi.org/10.1016/j.jclepro.2022.131196
+Received 30 October 2021; Received in revised form 5 February 2022; Accepted 1 March 2022
+Available online 2 March 2022
+0959-6526/© 2022 Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+capacity is anticipated to rise to 300 MT by 2030 (MoS, 2017). With
+unavailability of scrap and low per-capita steel consumption levels, a
+majority of the future steel demand would be met through primary
+production. As a fast-growing economy with a large base capacity, India
+offers a unique opportunity to mitigate emissions from primary steelmaking through the adoption of low-carbon technologies and feedstock.
+This requires an in-depth discussion of the key factors contributing to
+GHG emissions in various ironmaking technologies. More specifically, a
+critical analysis, using India as a case study, of emissions-reduction
+pathways in DRI manufacturing may be especially beneficial, given
+the significant potential of this technology space towards low-carbon
+steelmaking technologies of the future.
+Material and energy flow for several pathways in the iron and steel
+industry, including BF-BOF (Griffina et al., 2019), DRI-EAF (Dey et al.,
+2015), hydrogen-based DRI or H-DRI (Vogl et al., 2018) and hydrogen
+injection (Yilmaz et al., 2017) in blast furnaces (Tang et al., 2021) have
+been discussed. An accumulative model was developed for the life cycle
+comparison of energy, resources and waste factors (Li et al., 2002), but
+the study does not cover GHG emission factors. On sponge iron-making
+in coal-based rotary kilns, there are studies on process modeling (Gaurav
+and Khanam, 2016), energy efficiency analysis (Dey et al., 2015), heat
+loss minimization (Chakrabarti et al., 2016), and benchmarking (CSIR
+CIMFR, 2015). Jin et al. (2017) investigated the life cycle emissions from
+the BF-BOF process. Direct CO2 emissions associated with DRI production using natural gas (NG), coal-derived syngas, and coke oven gas
+making have been discussed (Sarkar et al., 2018).
+To the best of authors’ knowledge, there is no rigorous LCA study
+comparing various coal and natural gas (NG)-based DRI technologies in
+practice today - coal-based rotary kiln DRI, coal gasification-based DRI
+and NG-based DRI manufacturing, even though these options are likely
+to dominate the DRI technological choices of the future, especially for
+India. This study attempts to fill the existing gap by presenting a
+comprehensive, systematic, and comparative LCA of the following three
+routes for DRI production: i) coal-based rotary kiln, ii) coal gasificationbased shaft furnace (hereafter referred to as coal gasifier DRI process),
+and iii) NG-based shaft furnace (hereafter referred to as NG reformer
+DRI process. The study uses a unique hybrid approach that combines
+first-principles-based modeling for material and energy balances with
+data validation through industry expert consultations, and rigorous
+implementation of Life Cycle Inventory (LCI) from established databases
+and publications. A detailed GHG inventory is provided, covering all the
+life cycle stages of DRI production, from upstream processes (i.e., from
+extraction and processing of raw materials and fuels) to transportation
+and use of these materials in a DRI plant. It is expected that the insights
+from applying this consistent, uniform basis to compare the GHG
+emissions of the above-mentioned three routes for producing DRI will
+spur further research interest in low-carbon DRI technologies (e.g., HDRI) and enable informed policy decisions regarding future trajectories
+
+for mitigating emissions from the global steelmaking industry in general
+and the Indian steel industry in particular.
+2. Methodology for life cycle assessment
+Recognizing DRI as the uniform primary output from all three processes, the sections below discuss system definition, major assumptions
+and scenarios explored.
+2.1. Scope and system boundaries
+Representative processes for rotary kiln, coal gasifier, and NG
+reformer processes for producing DRI are described in Section S2.2 of
+the Supplementary Material. The functional unit of the study is one
+tonne of DRI (t-DRI) produced in the plant. As shown in Fig. 1, the study
+quantifies the “cradle-to-gate” GHG impacts of DRI manufacturing,
+covering all stages from raw materials (iron ore and dolomite) and fuel
+extraction (coal and natural gas) to DRI production, following best
+practices (ISO 14040, 2006; ISO 14044, 2006). The cumulative GHG
+(CO2, CH4, and N2O) emissions across the DRI value chain are quantified
+as CO2-equivalents (CO2eq) using the 100-year Global Warming Potential (GWP-100) values (IPCC, 2013).
+2.2. Base case assumptions and other scenarios
+Table 1 lists input data and parameters that are potential sources of
+uncertainty and variability in the cradle-to-gate emissions assessment of
+the DRI processes. A selected set of assumptions for the base case and the
+other scenarios are shown therein.
+Based on industry data and literature, appropriate grades of feed and
+injection coal are assumed for the base case processes (Supplementary
+Material S4.1). Lump ore is considered for the rotary kiln process (Sarangi and Sarangi, 2011), whereas the shaft furnace-based processes use
+pellets (Chatterjee, 2014). The base case for the coal gasifier DRI process
+uses low ash coal for gasification, and a Top Gas Recycle Ratio (TGRR) of
+85% (Section S4.2). Using Sensitivity analysis enables testing the effect
+of parameters listed in Table 1 on the GHG emissions. For the NG
+reformer DRI process, the base case uses lean gas with a 98.3 vol%
+methane content and a TGRR of 65% (Supplementary Material S4.3).
+Noting that the coal gasifier and rotary kiln DRI processes generate
+multiple products, attribution of emissions to DRI and other valuable byproducts is carried out using ISO 14044 (ISO 14040, 2006; ISO 14044,
+2006) recommendations. For the coal gasifier DRI process, allocation of
+emissions is avoided by using process partitioning–a method that considers only the segments of the process involved in generating the
+by-products, but excludes the rest of the operations unconnected to their
+production. However, the rotary kiln process may generate electricity as
+a co-product, and in this case, the use of allocation is avoided by using
+
+Fig. 1. System boundary for coal-based and NG-based DRI processes.
+2
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+3.2. Industry cluster and transportation mapping
+
+system expansion, assuming that the generated electricity is exported to
+the grid.
+
+Steel industry clusters in six states are considered (Table 1, Fig. 2),
+representing approximately 60% of India’s total installed DRI capacity
+in 2019. Distances between the steel plant and the nearest raw material/
+fuel supply locations are estimated based on geo-spatial mapping. The
+nearest import terminal is identified from the import-export dashboard
+(Ministry of Commerce and Industry, 2020).
+Transport emissions are obtained by considering freight movement
+through trucks (CPCB, 2021; DieselNet, 2020), rail (Indian Railways,
+2019), and ships. Road transport is assumed to provide last-mile connectivity in cases with no direct rail connectivity. For shipping emissions, a Bulk Shipping Emissions Estimation tool (HEC, 2018) is used to
+estimate the specific emission factors for ships running on marine gas oil
+or heavy fuel oil. The transport calculations and discussions are
+described in Supplementary Material, S3.5-S3.8.
+
+3. Life cycle inventory
+The study uses a combination of relevant literature data and process
+modeling (using Aspen Plus and Microsoft Excel), validation by
+consultation with industry experts, and generic data from the Ecoinvent
+database (Wernet et al., 2016) to generate relevant LCI. Peer-reviewed
+studies are the first choice of data selection; for example, coal and NG
+extraction and supply chain data can be reliably sourced from LCA
+literature. Where complete inventory data is unavailable (e.g., mass,
+energy and emissions inventory), as is the case for DRI processes, data
+generated from process modeling is used and validated with inputs from
+industry experts and other reports. For national grid inventories,
+Ecoinvent database (obtained via SimaPro software) is used. The GHG
+inventories for feed and fuel sourcing, industry clusters and transportation pathways are presented below.
+
+3.3. Process data and analysis
+
+3.1. Feed and fuel sourcing
+
+Table 2 lists the process parameters of the rotary kiln, coal gasifier,
+and NG reformer DRI processes discussed in this study.
+
+The sponge iron industry in India uses a mix of domestic and imported iron ore, coal and dolomite. The study considers emissions from
+diesel and electricity used for mining, beneficiation, transportation and
+shipping for all raw material and fuel. Emissions from coal mining across
+India (Mallapragada et al., 2019) and other countries are estimated by
+considering open cast (Mutchek et al., 2016) or underground (Burchart-Korol et al., 2016) mines along with national fuel mix and associated
+emissions factors (for India, Australia, Indonesia and South Africa).
+Literature data is used to estimate emissions from iron ore mining in
+South Africa (Kumbka, 2019), Australia (Haque and Norgate, 2015) and
+India (IBM, 2014–15, NMDC, 2018). Emissions from ore-to-pellet conversion are also included in the analysis (KIOCL, 2019). Inventory data
+on dolomite mining are calculated from mine statistics published by the
+Indian Government (DGMS, 2015). LNG import from the Marcellus shale
+region in the US (Laurenzi and Jersey, 2013) and associated LCI (Mallapragada et al., 2019) are considered for this study. A detailed
+description of fuel and feed sourcing can be found in the Supplementary
+Material (Section S3).
+
+3.3.1. Rotary kiln DRI process data and analysis
+Modeling data indicates a specific energy requirement of 21.9 GJ/tDRI (HHV basis) from coal fed to the kiln (Fig. 2, Fig. S6, Supplementary
+Material). Heat losses in the kiln include the furnace skin (2.2 GJ/t-DRI),
+DRI product’s sensible heat (4.1 GJ/t-DRI) losses, and the char’s sensible
+heat (0.26 GJ/t-DRI) and chemical energy (1.95 GJ/t-DRI). The kiln offgas carries 4.1 GJ/t-DRI of energy content, which is used for producing
+451 kWh/t-DRI electricity in a waste heat recovery (WHR) unit. About
+100 kWh/t-DRI is consumed at the plant for meeting the auxiliary load,
+whereas the residual 351 kWh/t-DRI is assumed to be exported to the
+grid. The remaining input energy is used to drive various chemical reactions in the kiln. More discussion on process energetics is reported in
+the Supplementary Material (Section S5.8).
+3.3.2. Coal gasifier DRI process data and analysis
+The feed coal requirements are a function of the coal quality and
+quantity (Table 3). For the base case using low-ash coal with an 85%
+
+Table 1
+Base case assumptions and other scenarios explored in the analysis.
+Sensitivity
+parameter
+
+Base Case
+
+Other scenarios
+
+Coal sourcing
+
+Domestic - Talcher
+
+Coal typea
+NG typed
+TG H2O scrubbingd
+TGRRa
+Coal washingb
+Industry cluster
+
+Low-ash
+Lean NG
+50% H2O Scrubbing
+85%/65%
+76% of coal
+Odisha – Cuttack
+
+Indonesia – South
+Kalimantan
+High-ash
+Rich NG
+90% H2O Scrubbing
+65%
+66% of coal
+Jharkhand - Jamshedpur
+
+Domestic transport
+Iron ore sourcing
+Dolomite sourcing
+
+Road & Rail
+Domestic - Keonjhar
+Domestic - Sundergarh
+
+Road only
+Australia - Pilbara
+Vietnam – Luc Yen
+
+Attributional
+methodsc
+
+Process partitioning and
+Substitution
+
+Mass allocation
+
+Australia – Bowen
+Basin
+
+South Africa – Ecca
+Basin
+
+Domestic – Urub, Libara, Bhupalpally,
+Khottadih, Basundhara
+
+No washing
+Chhattisgarh Raigarh
+
+Karnataka - Bellary
+
+West Bengal Durgapur
+
+South Africa - Kathu
+UAE – Ras al
+Khaimah
+No Attribution
+
+Odisha Sundergarh
+
+Domestic – Meghahatuburu, Appalapur, Noamundi, Rourkela,
+Domestic – Tulsidamar, Baradwar, Bagalkot, Ramgarh, Birmitrapur,
+
+a
+85% TGRR and 65% TGRR are the base cases the coal gasifier and NG reformer DRI processes, respectively. An additional case of 65% TGRR for the coal gasifier
+DRI process is explored.
+b
+Indicates the fraction of coal (as mined) washed, which is a function of the coal quality. About 76 wt% and 66 wt% of the coal, respectively, is used for the coal
+gasifier and coal kiln DRI processes.
+c
+Coal gasifier and coal kiln DRI processes generate multi-products that the processes’ life cycle burdens are attributed to. Process partitioning is applied to the coal
+gasifier DRI process, whereas Substitution is used in the rotary kiln process.
+d
+Applies to NG-based processes only.
+
+3
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+TGRR, about 530 kg/t-DRI (11.64 GJ HHV/t-DRI) of coal is fed to the
+gasifier. However, switching from low-ash to high-ash coal increases the
+feed coal requirement by 45% (~240 kg). Oxygen requirement for
+gasification is 246 kg/t-DRI for the base case–an oxygen-to-coal ratio of
+0.47. Switching to high-ash coal increases this requirement by 10%.
+However, the specific energy and net electricity requirements for the
+coal gasifier DRI process vary only slightly with coal quality (Fig. 3).
+
+of 22.6–23.4 GJ/t-DRI reported by Agrawal et al. (2016). The estimate
+(100 kWh/t-DRI) of power consumption in the rotary kiln DRI process is
+also in agreement with industrial data (85–100 kWh/t-DRI) (Agrawal
+et al., 2016). For power generation using waste heat recovery systems,
+the estimate of 351 kWh/t-DRI are within the range of best available
+technology (Worrel et al., 2008) and industry data (Agrawal et al.,
+2016).
+The coal gasifier DRI process model is validated with literature data
+(Cheeley, 1999; Srivastava et al., 2017) and operational insights derived
+from industry consultation (Private Communications, 2020). Process
+data for the base case show oxygen-to-gasifier feed coal ratio of 0.47,
+similar to the value reported by Yang et al. (2020) for a Lurgi gasifier
+using lignite coal. This study yields a steam-to-feed coal ratio of
+0.99–1.35 - within the range reported by Yang et al. (2020) and Chatterjee (2014). The crude syngas composition (H2/CO ratio = 1.63) and
+volume from the model (Table S35, Section S5.8, Supplementary Material) align with previously reported industrial (Chatterjee, 2014; Srivastava et al., 2017) and modeling (Yang et al., 2020) data. Net coal
+requirement of 830 kg/t-DRI (with a total ash content of 33 wt%) for the
+base case is close to the value of 840 kg/t-DRI reported for the
+Sasol-Lurgi gasifier (Chatterjee, 2014).
+NG requirement of 180.1 kg/t-DRI (11.06 kmol or 265.4 Nm3/t-DRI)
+used for the base case NG reformer DRI process is similar to the previously reported values of 266.67 Nm3/t-DRI (Fan and Friedmann, 2021),
+
+3.3.3. NG reformer DRI process data and analysis
+The NG requirements for iron ore reduction vary slightly with
+composition (Table 3). In the base case, 180.1 kg/t-DRI (11.06 kmol/tDRI or 265.4 Nm3/t-DRI) of lean gas is required to generate syngas. In
+the alternative rich gas case, an additional 1.3 kg NG is needed. A
+suitable TGRR must be chosen to generate an acceptable syngas quality
+(H2/CO ratio >1.6) (Chatterjee, 2014) required for iron ore reduction
+and to supply the thermal energy needs. The total specific energy
+requirement for the lean gas case is 10.98 GJ HHV/t-DRI (reduced by
+0.1% upon switching to rich gas), showing that the energetics of the
+process may not be significantly affected by NG composition (Fig. 3).
+3.3.4. Data validation
+For the rotary kiln DRI process, overall findings are validated with
+industrial survey data and performance indicators (Agrawal et al.,
+2016). The base-case energy intensity of 21.9 GJ/t-DRI is near the range
+
+Fig. 2. Map of mainland India showing iron ore mines, coal mines, coal based DRI plants and DRI clusters selected for the life cycle analysis.
+4
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+Table 2
+Inputs, outputs and performance parameters for coal gasifier and NG reformer
+DRI processes.
+Process parameter
+
+Rotary kiln, gasifier
+or reformer unit
+Input raw material
+Natural gas (kg/tDRI)
+Feed coal (kg/tDRI)
+Fuel coal (kg/tDRI)a
+Oxygen/Air (kg/tDRI)
+Steam (kg/t-DRI)
+Dolomite (kg/tDRI)
+Shaft furnace and RK
+process
+Input raw materials
+Iron ore pellets (kg/
+t-DRI)
+Oxygen (kg/t-DRI)
+Clean syngasb
+Mass flow (kg/tDRI)
+Volume flow (Nm3/
+t-DRI)
+H2/CO ratio
+Output materials
+TG/Kiln off-gas
+mass flow (kg)
+Char (kg)
+Flue dust (kg)
+Tar
+Gas oil
+Phenolic pitch
+Electricity
+Requirements
+ASU Power
+required (kWh/tDRI)c
+Power required
+(kWh/t-DRI)d
+Power produced
+(kWh/t-DRI)
+Net power needed
+(kWh/t-DRI)
+
+Table 3
+Upstream GHG emissions (kg/t-DRI) from Rotary kiln, Coal gasifier DRI and NG
+Reformer DRI processes.
+
+Rotary
+kiln DRI
+
+Coal gasifier DRI
+
+NG reformer DRI
+
+Sr.
+No.
+
+Component
+
+Rotary kiln
+DRI
+
+Coal gasifier
+DRI
+
+NG Reformer
+DRI
+
+Rotary
+kiln coal
+
+Low-ash
+coal
+
+High-ash
+coal
+
+Lean
+gas
+
+Rich
+gas
+
+1
+2
+3
+4
+5
+
+88.9
+5.2
+13.3
+7.7
+1.4
+
+70.8
+4.1
+11.7
+6.7
+1.2
+
+–
+–
+11.7
+6.7
+1.2
+
+–
+
+–
+
+–
+
+198.9
+
+200
+
+–
+
+252.4
+
+252.4
+
+611
+
+530
+
+770
+
+–
+
+–
+
+465
+
+300
+
+310
+
+–
+
+–
+
+Coal mining
+Coal transport
+Iron ore mining
+Iron ore transport
+Iron ore
+concentration
+Iron ore
+pelletization
+Dolomite mining
+Dolomite transport
+NG upstream
+
+0.2
+0.4
+
+0.2
+0.4
+
+3228
+
+246
+
+270
+
+–
+
+–
+
+117.0
+
+347.5
+
+0.2
+0.4
+181.3
+453.9
+
+–
+50
+
+717
+
+759
+
+–
+
+–
+
+6
+7
+8
+9
+Total
+
+acceptable syngas quality (Chatterjee, 2014) for iron ore reduction.
+3.4. Criteria pollutants
+
+1574
+
+1375
+
+1375
+
+1375
+
+1375
+
+–
+
+42
+
+42
+
+–
+
+–
+
+–
+
+337.9
+
+336.6
+
+975.0
+
+983.8
+
+–
+
+618.5
+
+617.1
+
+1846
+
+1798.9
+
+–
+–
+4250
+
+1.63
+
+1.63
+
+1.67
+
+1.6
+
+1103.3
+
+1101.6
+
+1247.7
+
+1262.8
+
+13.3
+8.5
+2.2
+
+19.3
+12.3
+2.2
+
+–
+
+80.6
+
+87.4
+
+–
+
+–
+
+100
+
+320.6
+
+327.4
+
+120
+
+120
+
+451
+
+29
+
+29
+
+–
+
+–
+
+− 351
+
+291.6
+
+298.4
+
+120
+
+120
+
+157
+256
+
+Upstream and plant criteria emissions of SOx, NOx and Particulate
+matter (PM) are reported based on literature estimates. While assuming
+that industries adhere to emissions regulation wherever mandated by
+norms, this study considers uncontrolled criteria emissions for unregulated sectors. Plant-level emissions are calculated by mass balance and
+actual measurements indicated by UNEP (1983), CPCB (2007) and US
+EPA (1998).
+Unlike GHG emissions that have a global footprint, criteria pollutants
+have a local impact. Therefore, this study lists unregulated criteria
+pollutants emitted to the atmosphere at various phases. Details on the
+methodology and approach are expounded in the Supplementary Material (Section S5.11). In general, criteria pollutant emissions across
+upstream processes are proportional to the energy use and the respective
+GHG emissions.
+4. Results and discussion
+Emissions from upstream processes (4.1) and DRI plant (4.2) are
+presented first, and then aggregated into the life cycle “cradle-to-gate”
+results (4.3), following which a detailed discussion on key sensitivity
+parameters is presented (4.4).
+4.1. Upstream process emissions
+
+a
+Fuel coal, combusted together with TG for steam generation and feed preheating, has the same composition as high-ash coal.
+b
+Produced after syngas scrubbing, which is only applicable to the coal gasifier
+process. The composition of the syngas from the NG reformer process is unchanged because it is used directly in the shaft furnace without syngas cleaning.
+c
+Not modeled but assumes 280 kWh/tonne O2 as the specific power
+requirement for oxygen production (Air Liquide, 2017).
+d
+Includes power requirement for ASU, which is only applicable to the coal
+gasifier process. The electricity requirement for NG reformer DRI process is from
+Chatterjee (2014).
+
+Upstream emissions for the rotary kiln, coal gasifier and NG DRI
+processes are provided in Table 3. The largest contributions are from
+iron ore pelletization, followed by NG supply and coal mining supply
+chains (for more details, refer to S5.1-S5.7 in the Supplementary Material). The coal gasifier and NG reformer DRI processes use iron ore
+pellets (67% Fe) compared to the rotary kiln process that uses lump ore
+(64.1% Fe). Thus, pelletization emissions are not considered in the base
+case of the rotary kiln process. Due to relatively small amounts of
+dolomite used, the dolomite supply chain emissions are assumed to be
+negligible compared to other components.
+
+and 11.15 kmol/t-DRI (Sarkar et al., 2018), but with unspecified NG
+composition. An additional 18.8 kg NG is needed to compensate for heat
+losses, bringing the total NG requirement to 198.9 kg/t-DRI. These
+process energy losses do not appear to be captured in previous studies
+(Fan and Friedmann, 2021; Sarkar et al., 2018). The NG requirement
+translates directly to the specific energy of 9.88 GJ (Low Heating
+Value)/t-DRI or 10.98 GJ HHV/t-DRI, which is within the range
+(9.5–10.5 GJ LHV/t-DRI) reported elsewhere (Chatterjee, 2014). Syngas
+and TG composition, and the TGRR utilized in this study correspond to
+that reported elsewhere (Sarkar et al., 2018; Chatterjee, 2014). A TGRR
+of 65% was determined to be an appropriate design choice to generate
+
+4.2. DRI process emissions
+Fig. 4 shows a breakdown of the plant GHG emissions for the three
+routes considered in the study. In general, the rotary kiln process has the
+highest direct GHG emissions, followed by the coal gasifier DRI process
+and the NG reformer DRI process.
+The total GHG emissions from the rotary kiln process are 1763 kg
+CO2/t-DRI with ~84% being direct emissions from the kiln, while the
+rest are from the After Burning Chamber (ABC) unit. Captive electricity
+generated in the rotary kiln DRI process exceeds the electricity
+5
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+Fig. 3. Specific energy (GJ High Heating Value [HHV], on the primary y-axis) and net electricity requirements (kWh, on the secondary y-axis) of coal-based and NGbased DRI processes.
+
+Fig. 4. Breakdown of plant and electricity-based GHG emissions associated with coal-based and NG-based DRI processes.
+
+requirement, allowing for surplus electricity to be exported to the grid.
+For the coal gasifier DRI route, the process chemistry and combustor
+emissions make up 46% and 37% of the process GHG emissions,
+respectively, whereas electricity use emissions comprise the rest
+(~17%). For the NG reformer DRI process, the direct plant GHG emissions are 507 kgCO2e/t-DRI, whereas the indirect GHG emissions from
+electricity use are 107 kgCO2e/t-DRI. Electricity-related GHG emissions
+are the same for the lean and rich NG cases, given the equivalent electricity requirement. Similarly, direct plant GHG emissions for the lean
+gas case are 1.8% (9 kgCO2e/t-DRI) lower than that of the rich gas case.
+
+are 1818 kgCO2e/t-DRI. Given that the NG reformer DRI process generates no by-products, the entire life cycle GHG emissions (1068
+kgCO2e/t-DRI) are assigned to the DRI product.
+Process plant emissions account for the majority of the GHG emissions of the DRI processes, resulting in 93%, 81%, and 58% of the net life
+cycle GHG intensity of the rotary kiln, coal gasifier, and NG reformer
+DRI processes, respectively, signifying the greatest opportunity for
+emissions reduction. Switching from coal to NG as the feedstock leads to
+a 58% reduction in the GHG emissions of the coal-based DRI process
+plants (including electricity use). On a life cycle basis, GHG emissions
+from the NG reformer DRI process are lower than for the coal-based
+rotary kiln and gasifier DRI processes by 33% and 41%, respectively,
+when uniformly compared across base case scenarios.
+Thermal (i.e. heat-related) plant emissions for the coal gasification
+process (1222.6 kg CO2/t-DRI) are lower than for the rotary kiln process
+(1480 kg CO2/t-DRI). However, the life cycle emissions from the coal
+gasifier process are higher than the rotary kiln process due to the electricity required for the plant auxiliary load (251.5 kg CO2/t-DRI) and the
+pelletization (252.4 kg CO2/t-DRI) process applicable to the coal gasifier
+process. Similarly, the life cycle emissions from NG-based process increase primarily due to the upstream processes for producing and
+transporting natural gas (181 kg CO2/t-DRI), ore pelletization (252.4 kg
+CO2/t-DRI) and the auxiliary power requirement (106.6 kg CO2/t-DRI)
+
+4.3. Life cycle emission results
+Fig. 5 shows the life cycle GHG emissions intensity of the three DRI
+routes. The base case for the rotary kiln process has a total life cycle
+emissions of 1880 kgCO2e/t-DRI, without accounting for surplus electricity. About 290 kgCO2e can be attributed to the exported power of
+351 kWh/t-DRI based on the amount of export and grid emissions intensity. The resulting net life cycle GHG emissions of the rotary kiln
+process become 1590 kgCO2e/t-DRI. Similarly, the gasifier DRI process
+has a total life cycle emissions of 1905.6 kgCO2e/t-DRI, without emission attribution to other by-products. With energy-based process partitioning, the net life cycle GHG emissions of the coal gasifier DRI process
+6
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+Fig. 5. Life cycle GHG emissions of the coal-based processes (rotary kiln and coal gasifier MIDREX processes) and NG-based MIDREX process for basecase scenarios.
+
+at the DRI plant. Clearly, the hierarchy of technologies differs when
+viewed from the basis of process-related emissions versus life cycle
+emissions. These results therefore highlight the importance of uniform
+development and application of LCA as a tool for quantifying the GHG
+impacts of DRI fuel, feedstock and technology options on a holistic,
+cradle-to-gate basis.
+
+provides significant GHG emission benefits over imports. The implementation of energy-based process partitioning for multi-product
+emission allocation leads to a lower-range emissions burden – 95.4%
+of life cycle emissions of the process – assigned to the DRI product,
+resulting in a GHG emission footprint of 1817.9 kgCO2e/t-DRI. However, the GHG emission intensity of DRI increases by 2.9% if mass-based
+emission allocation is applied and by 4.6% if all the life cycle emissions
+are assigned to the DRI product.
+The life cycle GHG footprint of the NG reformer DRI is sensitive to
+iron ore sourcing and pelletization, upstream NG production, a mix of
+NG composition and the extent of TG water scrubbing, and inland
+transport mode (Fig. 6c). Similar to the trend observed with the coalbased DRI processes, iron ore pelletization is the most sensitive
+parameter, contributing to about 252 kgCO2e/t-DRI or 24% of the life
+cycle GHG footprint.
+Related to upstream emissions, a recent study (Rutherford et al.,
+2021) reported higher methane emissions from the oil and gas sector in
+the US than those reported by the U.S. Environmental Protection Agency
+GHG inventory (EPA, 2020) in 2015. They attributed the divergence in
+emissions to a few sites referred to as super-emitters experiencing
+episodic events under abnormal operating conditions, such as in liquid
+storage tank hatches and vents (Alvarez et al., 2018). Given the nature of
+the equipment from which the higher methane emissions are potentially
+released, results by Rutherford et al. (2021) may be attributable to the
+crude oil production boundary in a few regions dominated by these
+so-called super-emitters. The results do not affect the GHG footprint of
+natural gas production because they lie outside the system boundary of
+natural gas systems. On the other hand, Mallapragada et al. (2019) used
+relevant data of natural gas systems obtained from field measurements
+(Mitchell et al., 2015; Zimmerle et al., 2015). Additionally, the data
+aligns with a recent aerial survey data of the Permian Basin (Contreras
+et al., 2021) where fugitive methane emissions from compressor stations
+are similar in magnitude to previous estimates by Mitchell et al. (2015).
+Using the 10th and 90th percentile of GHG emission values for upstream NG (Laurenzi and Jersey, 2013) as the range for sensitivity
+analysis, the variability in the GHG emissions associated with NG production could materially affect the life cycle GHG impacts of DRI production. The life cycle GHG emissions of the base case for NG reformer
+DRI (1067.6 kgCO2e/t-DRI) can be reduced to 1045 kgCO2e/t-DRI
+(2.1% reduction) or increased to 1130 kgCO2e/t-DRI (5.8% increase)
+using the 10th or 90th percentile upstream NG emission values. Other
+
+4.4. Sensitivity analysis
+Noting that the sources of variability in the rotary kiln DRI process
+(Fig. 6A) span the supply and process chains, the following parameters
+are most sensitive to the GHG emission intensity of DRI: emissions
+attribution to the electricity by-product generated via waste heat recovery (18.2%), iron ore pelletization (15.9%), sourcing of coal and iron
+ore from different geographies (6.7–13.4%), VM-C combustion in the
+kiln (− 12.5%), waste heat recovery efficiency (− 6.5%–6%) and injection coal quality (− 1.2%–4.7%). Integrating the rotary kiln process with
+a waste heat recovery unit significantly impacts the life cycle GHG intensity. With no waste heat recovery, the GHG intensity increases to
+1880 kgCO2e/t-DRI. Similarly, the captive power unit’s net efficiency
+has a significant impact on the life cycle GHG emissions of the coal kiln
+process. Using pelletized ores instead of lump ores increases the net life
+cycle GHGs by ~16%. The life cycle GHG emissions of the rotary kiln
+DRI process are sensitive to the process modeling uncertainty relating to
+combustion of the feed coal’s volatile matter (VM-C) in the kiln. If the
+VM-C burns in the kiln, it significantly reduces the plant’s feed and injection coal consumption, thus also reducing the net life GHG cycle
+emissions from 1590 to 1391 kgCO2e/t-DRI. Using domestically sourced
+raw material provides significant GHG emission benefits relative to
+sourcing coal, iron ore, or dolomite from abroad.
+For the coal gasifier DRI process, the following parameters are the
+most sensitive to the GHG emission footprint of DRI (Fig. 6B): iron ore
+pelletization (− 13.9%), coal and iron ore sourcing from South Africa,
+Australia, or Indonesia (4.3%–8.3%) and emission attribution to byproducts (4.9%). The GHG emission footprint of the coal gasifier DRI
+process is highly sensitive to a set of parameters related to sourcing and
+transport of coal and iron ore, specifically mining, iron ore pelletization,
+and inter-country shipping and transport. A GHG reduction of 252.4
+kgCO2e/t-DRI (~13%) from the base case could be realized if concentrated iron ore lumps can be used in lieu of pelletized ores. Similar to the
+rotary kiln DRI case, the use of domestically sourced raw materials
+7
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+Fig. 6. Sensitivity analysis showing the most important life cycle parameters for: A) Rotary kiln DRI process, B) Coal gasifier DRI process and C) NG reformer
+DRI process.
+
+parameters such as process electricity use, inland transport mode (rail
+plus road vs. exclusively road transport) in India, NG composition, TG
+water scrubbing, and electricity use have a relatively modest effect on
+the DRI production’s life cycle GHG emissions.
+
+uniform and comprehensive comparison of the GHG emissions and
+criteria pollutant impacts from rotary kiln, coal gasifier and NG reformer
+processes for unit production of DRI. The comprehensive assessment
+presented here highlights the significance of feedstock/fuel-switching
+and technology options in reducing energy requirements and GHG
+emissions associated with DRI production. Replacing coal-based (rotary
+kiln and coal gasifier) DRI processes with NG-based process reduces the
+life cycle GHG footprint of DRI by ~33–41% in the analyzed base cases.
+The life cycle GHG emissions of the coal gasifier and the rotary kiln DRI
+
+5. Conclusions
+This study uses life cycle inventory from process modeling, literature, and data from industry consultation to provide a consistent,
+8
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+
+processes are noted to be similar.
+Depending on the supply chain and process assumptions, emission
+attribution to by-products, and the specific choice of inputs and outputs,
+the life cycle GHG emissions associated with DRI production range from
+1391 to 1880 kgCO2e/t-DRI for the rotary kiln DRI process, 1566 to
+1969 kgCO2e/t-DRI for the coal gasifier DRI process, and 815 to 1160
+kgCO2e/t-DRI for the NG reformer DRI process. With the range of uncertainties and variabilities considered, sensitivity analysis results show
+that the NG reformer DRI process has the potential to lower life cycle
+GHG footprint of DRI from the coal-based processes by 17–59%. The
+rotary kiln DRI process offers 11% and 4.5% lower GHG emissions on the
+lowest and highest end of the sensitivity band, when compared to the
+coal gasifier DRI process. However, if ore pelletization is uniformly
+considered for all DRI process, the emissions of the coal gasifier process
+could be up to 7.7% lower than the rotary kiln process (higher range).
+Therefore, the choice of operational conditions and supply chain parameters determines which coal-based DRI has the lowest GHG
+footprint.
+Even though the process emissions are lower for the coal gasification
+process than the rotary kiln, the life cycle emissions from the former are
+higher than the latter due to the imported electricity and iron ore
+pelletization requirements. This underscores the importance of uniform,
+consistent approaches and application of LCA as a tool for quantifying
+the GHG impacts of different fuel and technology options on a holistic
+cradle-to-gate basis.
+The study can be further extended to refine the process energetics by
+considering reaction kinetics aspects of the three routes considered in
+the analysis. Further, a comparative techno-economic analysis can be
+done to compare the cost-competitiveness of the three processes
+considered for the analysis. Approaches in this study can also provide a
+consistent and uniform basis to assess the emissions reduction potential
+of Hydrogen-based DRI (H-DRI) processes, projected to be a long-term,
+deep GHG reduction solution for iron and steelmaking. Specifically, HDRI studies require significant system-level assessment of blue, gray and
+green hydrogen pathways that merit a separate study. On a life cycle
+emissions basis, this study establishes that technologies like NG reformer
+DRI offer significant potential for GHG emissions reduction relative to
+coal-based processes for DRI manufacture in India. The economic, sociopolitical, and policy implications of the technology transition to lowercarbon production processes of the future lie outside the scope of this
+study, and also merit separate discussion.
+
+Acknowledgments
+Financial support from ExxonMobil Research and Engineering
+Company (EMRE), as well as helpful discussions with Prof. N. Viswanathan (IIT Bombay), Mr. A.N. Tiwari (JSPL Angul), Mr. H. Mallya
+(CEEW), Dr. S.K. Desai, Dr. D.P. Cherney and Dr. I.J. Laurenzi (EMRE)
+are acknowledged.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.jclepro.2022.131196.
+References
+Agrawal, B.K., Sahoo, S.K., Mohanty, S.B., 2016. Energy Management Practices at Tata
+Sponge. http://knowledgeplatform.in/wp-content/uploads/2016/03/4.1-Best
+-Practices_Tata-Sponge.pdf. (Accessed 30 March 2021).
+Air Liquide, 2017. Standard Plants: Fully-Packaged Modular Solutions. https://www.en
+gineering-airliquide.com/sites/activity_eandc/files/2017/05/09/standard_plants_
+brochure_standard_plants_150dpi_05-017.pdf. (Accessed 2 March 2021).
+Alvarez, R.A., et al., 2018. Assessment of methane emissions from the US oil and gas
+supply chain. Science 362, 186–188.
+Burchart-Korol, D., Fugiel, A., Czaplicka-Kolarz, K., Turek, M., 2016. Model of
+environmental life cycle assessment for coal mining operations. Sci. Total Environ.
+562, 61–72.
+Chakrabarti, S.S., Sangewar, R.K., Bhandarkar, L., Singh, S.P., 2016. A mathematical
+modelling and simulation for reduction in thermal losses by painting DRI kiln. Int. J.
+Eng. Res. Technol. 5, 374–385.
+Chatterjee, A., 2014. Sponge Iron Production by Direct Reduction of Iron Oxide, 2.
+Edition. PHI Publishers, Delhi.
+Cheeley, R., 1999. Gasification and the MIDREX direct reduction process. In: Gasification
+Technologies Conference, Oct. vols. 17–19 (San Francisco, California, USA).
+Contreras, W., Hardy, C., Tovar, K., Piwetz, A.M., Harris, C.R., Tullos, E.E., Bymaster, A.,
+McMichael, J., Laurenzi, I.J., 2021. Life cycle greenhouse gas emissions of crude oil
+and natural gas from the Delaware Basin. J. Clean. Prod. 328, 129530.
+CPCB, 2007. Sponge Iron Industry. Central Pollution Control Board, Delhi, India.
+CPCB, 2021. Vehicular Exhaust - Emission Norms for Heavy Diesel Vehicles. https://cpc
+b.nic.in/vehicular-exhaust/. (Accessed 24 March 2021).
+CSIR CIMFR, 2015. Setting up of Modalities for Normative Coal Requirement in Respect
+of Cement and Sponge Iron Industries. CSIR CIMFR, Digwadih.
+Dey, N.R., Prasad, A.K., Singh, S.K., 2015. Energy survey of the coal based sponge iron
+industry. Case Stud. Therm. Eng. 6, 1–15.
+DGMS, 2015. Directorate General of Mine Safety. http://www.dgms.gov.in/writereadda
+ta/UploadFile/VOLUME_II_NON_COAL_2015.pdf. (Accessed 29 March 2021).
+DieselNet, 2020. India: Heavy-Duty Truck and Bus Engines. https://dieselnet.com
+/standards/in/hd.ph. (Accessed 11 February 2021).
+EPA, GHGI, 2020. Inventory of U.S. Greenhouse Gas Emissions and Sinks. US
+Environmental Protection Agency. https://www.epa.gov/ghgemissions/inventoryus-greenhouse-gas-emissions-and-sinks. (Accessed 20 January 2022).
+Fan, Z., Friedmann, J.S., 2021. Low-carbon production of iron and steel: technology
+options, economic assessment, and policy. Joule 5, 829–862.
+Gaurav, G.K., Khanam, S., 2016. Analysis of temperature profile and % metallization in
+rotary kiln of sponge iron process through CFD. J. Taiwan Inst. Chem. Eng. 63, 1–9.
+Griffina, W., Hammond, G., Norman, J., 2019. Industrial energy use and carbon
+emissions reduction in the iron and steel sector: a UK perspective. Appl. Energy 249,
+109–125.
+Haque, N., Norgate, T., 2015. Life cycle assessment of iron ore mining and processing. In:
+Iron Ore: Mineralogy, Processing and Environmental Sustainability. Woodhead
+Publishing, pp. 615–630.
+HEC, 2018. Bulk Carrier GHG & Emissions Calculator. Herbert Engineering Corp,
+Alameda, California.
+IBM, 2014. Iron Ore - Production, Dispatches and Stock. Indian Bureau of Mines, Nagpur.
+IEA, 2020. Iron and Steel Technology Roadmap - towards More Sustainable Steelmaking.
+International Energy Agency, Paris.
+Indian Railways, 2019. Indian Railways Year Book 2018-19. http://www.indianrailways.
+gov.in/railwayboard/uploads/directorate/stat_econ/Year_Book/Year Book
+2018-19-English.pdf. (Accessed 10 June 2020).
+IPCC, 2013. Climate Change 2013: the Physical Science Basis. Contribution of Working
+Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate
+Change. Cambridge University Press, UK.
+ISO 14040, 2006. Environmental Management — Life Cycle Assessment —Principles and
+Framework (ISO 14040:2006). International Standard Organization, Brussels.
+ISO 14044, 2006. Environmental Management - Life Cycle Assessment - Requirements
+and Guidelines (ISO 14044:2006). International Standard Organization, Brussels.
+Jin, P., Jiang, Z., Bao, C., Hao, S., Zhang, X., 2017. The energy consumption and carbon
+emission of the integrated steel mill with oxygen blast furnace. Resour. Conserv.
+Recycl. 117 (A), 58–65.
+KIOCL, 2019. 43rd Annual Report 2018-19. Bengaluru, India.
+Kumbka, 2019. Kumba Iron Ore Limited Sustainability Report. Kumba, Centurion,
+Gauteng, South Africa.
+
+CRediT authorship contribution statement
+Experience I. Nduagu: established the Investigation approach,
+Methodology, Visualization, writing, Writing – review & editing of the
+manuscript. Deepak Yadav: established the Investigation approach,
+Methodology, Visualization, writing, Writing – review & editing of the
+manuscript. Nishant Bhardwaj: established the Investigation approach,
+Methodology, Visualization, writing, Writing – review & editing of the
+manuscript. Sabarish Elango: established the Investigation approach,
+Methodology, Visualization, writing, Writing – review & editing of the
+manuscript. Tirtha Biswas: Contributed through Conceptualization,
+Visualization of the study, writing, Writing – review & editing of the
+manuscript. Rangan Banerjee: Contributed through Conceptualization,
+Visualization of the study, writing, Writing – review & editing of the
+manuscript. Srinivasan Rajagopalan: Contributed through Conceptualization, Visualization of the study, writing, Writing – review & editing
+of the manuscript.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+9
+
+E.I. Nduagu et al.
+
+Journal of Cleaner Production 347 (2022) 131196
+cation/322117802_Identification_of_controlling_parameters_for_operational_impro
+vements_in_coal_gasification_based_DRI_plant_An_Introductory_Approach.
+Tang, J., Chu, M., Li, F., Zhang, A., Tang, Y., Liu, Z., Yagi, J., 2021. Mathematical
+simulation and life cycle assessment of blast furnace operation with hydrogen
+injection under constant pulverized coal injection. J. Clean. Prod. 278, 123191.
+UNEP, 1983. Environmental Aspects of the Direct Reduction Route to Steel Making.
+United Nations Environmental Programme.
+US EPA, 1998. AP-42, I, CH1.1 Bituminous and Subbituminous Coal Combustion. United
+States Environmental Protection Agency, Washington, DC.
+Vogl, V., Åhman, M., Nilsson, L.J., 2018. Assessment of hydrogen direct reduction for
+fossil-free steelmaking. J. Clean. Prod. 203, 736–745.
+Wernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., Weidema, B., 2016.
+The ecoinvent database version 3 (part I): overview and methodology. Int. J. Life
+Cycle Assess. 21, 1218–1230.
+Worrel, E.l., Price, L., Neelis, M., Galitsky, C., Nan, Z., 2008. World Best Practice Energy
+Intensity Values for Selected Industrial Sectors. Ernest Orlando Lawrence Berkeley
+National Laboratory, California.
+WSA, 2020a. Sustainability Indicators. World Steel Association, Brussels.
+http://worldsteel.org/steel-by-topic/sustainability –indicators. (Accessed 25
+January 2022).
+WSA, 2020b. Steel Statistical Yearbook - 2020 Concise Version. World Steel Association,
+Brussels. WSA, 2012. Steel Statistical Yearbook. World Steel Association, Brussels.
+Yang, S., Xian, Z., Deng, C., Liu, Z., Zhou, H., Ren, J., Zhou, T., 2020. Techno-economic
+analysis of coal-to-liquid processes with different gasifier alternatives. J. Clean. Prod.
+253, 120006.
+Yilmaz, C., Wendelstorf, J., Turek, T., 2017. Modeling and simulation of hydrogen
+injection into a blast furnace to reduce carbon dioxide emissions. J. Clean. Prod. 154,
+588-501.
+Zimmerle, D.J., Williams, L.L., Vaughn, T.L., et al., 2015. Methane emissions from the
+natural gas transmission and storage system in the United States. Environ. Sci.
+Technol. 49 (15), 9374–9383.
+
+Laurenzi, I.J., Jersey, G.R., 2013. Life cycle greenhouse gas emissions and freshwater
+consumption of Marcellus shale gas. Environ. Sci. Technol. 47, 4896–4903.
+Li, G., Nie, Z., Zhou, H., Di, X., Liu, Y., 2002. Zuo, T., an accumulative model for the
+comparative life cycle assessment case study: iron and steel process. Int. J. Life Cycle
+Assess. 4, 225–229.
+Mallapragada, D.S., Naik, I., Ganesan, K., Banerjee, R., Laurenzi, I.J., 2019. Life cycle
+greenhouse gas impacts of coal and imported gas-based power generation in the
+Indian context. Environ. Sci. Technol. 53, 539–549.
+Ministry of Commerce and Industry, 2020. Government of India - Ministry of Commerce
+and Industry - Department of Commerce. http://dashboard-commerce.gov.in/.
+(Accessed 22 March 2021).
+Mitchell, A.L., Tkacik, D.S., Roscioli, J.R., et al., 2015. Measurements of methane
+emissions from natural gas gathering facilities and processing plants: measurement
+results. Environ. Sci. Technol. 49, 3219–3227.
+MoS, 2017. Ministry of Steel - National Steel Policy. Ministry of Steel, New Delhi.
+Mutchek, M., Cooney, G., Pickenpaugh, G., Marriott, J., Skone, T., 2016. Understanding
+the contribution of mining and transportation to the total life cycle impacts of coal
+exported from the United States. Energies 9, 559.
+NMDC, 2018. NMDC Sustainability Report – 2018. National Mineral Development
+Corporation, Hyderabad.
+Private Communications, 2020. Coal Gasifier Process Data.
+Rutherford, J.S., Sherwin, E.D., Ravikumar, A.P., et al., 2021. Closing the methane gap in
+US oil and natural gas production emissions inventories. Nat. Commun. 12, 4715.
+Sarangi, A., Sarangi, B., 2011. Sponge Iron Production in Rotary Kiln. PHI Learning Pvt
+Ltd, New Delhi.
+Sarkar, S., Bhattacharya, R., Roy, G.G., Sen, K., 2018. Modeling MIDREX based process
+configurations for energy and emission analysis. J. Iron Steel Res. Int. 89, 1700248.
+Srivastava, A., Bansal, S., Kumar, S., Bandyopadhyay, S., 2017. Identification of
+controlling parameters for operational improvements in coal gasification based DRI
+plant: an introductory approach. Available at: https://www.researchgate.net/publi
+
+10
+
+

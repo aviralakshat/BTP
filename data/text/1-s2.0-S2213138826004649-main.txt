@@ -1,0 +1,1422 @@
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+Contents lists available at ScienceDirect
+
+Sustainable Energy Technologies and Assessments
+journal homepage: www.elsevier.com/locate/seta
+
+Techno-economic assessment of hydrogen-based direct reduction for
+India’s steel sector: comparative analysis with natural gas DRI and
+policy enablers
+Haris Kamal a,b , Lene Hviid c,1 , Rutger Ijzermans d , Asad H. Sahir a,*
+a
+
+Department of Chemical Engineering, Indian Institute of Technology Ropar, Rupnagar, Punjab 140001, India
+Shell India Markets Private Limited, Bangalore 560 103 Karnataka, India
+Radboud University, Nijmegen, Netherlands
+d
+Shell Global Solutions International B.V., Grasweg 31, 1031HW Amsterdam, the Netherlands
+b
+c
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Techno-economic analysis
+Iron and steel
+Natural gas
+Hydrogen
+Process engineering
+Decarbonization
+
+The iron and steel sector contributes nearly 7% of the global energy-related CO2 emissions. In India, this challenge is amplified due to high production of coal based direct reduced iron (DRI) (~80% share). This research
+evaluates the techno-economic feasibility of hydrogen-based direct reduction (H2–DRI) for India’s steel industry
+and benchmarks its results against natural gas-based DRI (NG–DRI), under realistic market conditions. A 1
+million tons per annum (MTPA) H2–DRI plant and NG-DRI plant is modeled using ASPEN Plus v14, and economic
+estimates are developed with sensitivity to renewable electricity tariffs, load factor, and policy levers such as
+carbon pricing and green steel premiums. By comparing DRI based on natural gas, hydrogen and coal the impact
+of capital expenditure, operational expenditure and overall economics in terms of levelized cost of iron production is evaluated. Results indicate that demand side dynamics like green steel premium and carbon pricing
+are important factors towards economic viability of H2 based DRI.
+
+Introduction
+The world encounters the challenge posed by continued greenhouse
+gas emissions which are projected to increase global warming, with
+scenarios indicating a likely rise in the global average temperature this
+century to 1.5◦ C above pre-industrial levels [1]. In 2024, global energy
+related CO2 emissions were approximately 37.8 gigatons, showcasing
+the magnitude of efforts required in achieving net-zero emission targets
+[2]. The iron and steel sector remains one of the most carbon intensive
+sectors, emitting ~ 2.6 Gt CO2 annually, equivalent of ~ 7% of global
+energy system emissions [3]. In this scenario, conventional steel
+manufacturing, an important activity for industrial growth emits on an
+average of 2.18 t CO2 per ton (t) of crude steel, with energy consumption
+of ~ 21 GJ/t. The share of renewable energy in iron and steel production
+is below 2%, and several efforts are in place to further increase its
+penetration [4].
+It is widely accepted that decarbonization of the iron and steel
+
+industry requires a strategic approach which addresses both process
+efficiency and fuel substitution. Energy efficiency improvements, such
+as advanced furnace technologies and waste heat recovery, have the
+promise to deliver immediate reductions in energy intensity [5].
+Increasing scrap utilization through Electric Arc Furnace (EAF) routes
+further lowers emissions by reducing reliance on virgin iron ore [5].
+Transitioning from coal-based rotary kiln DRI to Natural Gas-based DRI
+(NG-DRI) offers a pragmatic intermediate step, cutting CO2 emissions by
+nearly 50–70% compared to coal-based routes while leveraging existing
+shaft furnace infrastructure, specifically in developing countries like
+India [6].
+In the long term, Hydrogen-based Direct Reduction (H2-DRI) represents a near-zero carbon pathway, with lifecycle emissions below 0.1 t
+CO2 per ton of steel when powered by renewable electricity [7]. These
+measures can further be augmented by Carbon Capture, Utilization, and
+Storage (CCUS) through which residual emissions in Blast Furnace-Basic
+Oxygen Furnace (BF-BOF) and transitional DRI processes can be further
+
+* Corresponding author.
+E-mail address: asad.sahir@iitrpr.ac.in (A.H. Sahir).
+1
+Present Address: Lene Hviid is currently affiliated with the Radboud University, Nijmegen, Netherlands and this paper is based on her contribution as a co-author
+at Shell Global Solutions International B.V.
+https://doi.org/10.1016/j.seta.2026.105278
+Received 2 March 2026; Received in revised form 29 July 2026; Accepted 31 July 2026
+Available online 12 August 2026
+2213-1388/© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+minimized [8].
+Replacing coal with hydrogen in shaft furnaces is an important step
+towards achieving the goal of net-zero ironmaking [9]. When hydrogen
+is produced via renewable-powered electrolysis and process heat is fully
+electrified, CO2 emissions can be significantly reduced. Hydrogen based
+iron-oxide reduction also yields ultra-pure iron with no dissolved carbon, differentiating it from conventional pig iron [10,11]. The technical
+feasibility of this approach has been further demonstrated by global
+projects such as MIDREX-H2 and HYBRIT [12–14].
+However, there are major economic barriers persisting in deployment of hydrogen-based steel production on a commercial scale:
+
+relevance in emissions intensity tracking and target–setting. On the
+technology front, HYBRIT has produced more than 5000 tonnes (t) of
+hydrogen–reduced iron at pilot scale and submitted its six–year results
+(2018–2024) before moving to the next industrial implementation phase
+which serves as evidence that H2–DRI is beyond laboratory maturity and
+entering scale–up [28]. Future projections in countries like China
+envisage adoption of H2 based DRI technology, highlighting its potential
+as sustainable low carbon route for steel making and projecting 20% to
+30% hydrogen based total steel production by 2060 [29,30].
+Several studies have examined the thermodynamics and kinetics of
+hydrogen-based DRI (H2-DRI), highlighting its potential as a near-zero
+carbon solution [31,32]. Process modeling of H2-DRI approaches vary
+from open-source Python-based mass and energy flow models [10] to
+ASPEN Plus simulations for green hydrogen production and integration
+into DRI plants [33]. Facility-level assessments have quantified energy
+consumption, greenhouse gas (GHG) emissions, and cost implications
+for electrically driven H2-DRI plants using water electrolysis [34–36].
+Gurgel et al. [37] demonstrate through multiple scenarios that a CO2
+price greater than US$100 per t is required to reduce sectoral emissions
+by more than 40 %. It also demonstrates that H2-DRI will be a dominant
+pathway for future scenario at a green hydrogen price less than US$1 per
+kg, and substantial reduction in CO2 emissions could be possibly achieved by switching fuel from coal to natural gas.
+According to the life-cycle assessment conducted by Nduagu et al.
+(2022) [38], greenhouse gas emissions associated with coal-based DRI
+production range from 1.4 to 2.0 t CO2e/t-DRI, while NG-DRI production emits 0.8 to 1.1 t CO2e/t-DRI. Therefore, the adoption of NG-based
+DRI offers a significant reduction in life-cycle GHG emissions relative to
+coal-based DRI pathways. Lifecycle analyses also confirm that green
+hydrogen-based DRI has the promise to achieve emissions below 0.1 t
+CO2 per t steel, positioning it as a near-zero carbon pathway [39].
+Recent techno-economic studies emphasize that electricity cost,
+specific energy consumption or electrolyzer efficiency, and load factor
+are dominant drivers of hydrogen production economics [33,40].
+Sensitivity analyses show that increasing load factor significantly reduces the Levelized Cost of Hydrogen (LCOH), while high renewable
+tariffs and low utilization rates undermine competitiveness [31]. A
+comparative study between electrolyzer technology Proton Exchange
+Membrane (PEM) and Alkaline Water Electrolysis (AWE) demonstrates
+the trade off, in terms of initial capital investment vs system efficiency
+[41]. In a detailed analysis Rosner et al.[7] have proposed that using
+renewable H2 for both iron ore reduction and process heating can cut
+direct emissions by ~ 85%, with economic viability around US$1.6–1.7
+per kg H2. Furthermore, they have recommended to consider optimizing
+top–gas recycle pressure from shaft furnace and H2 excess ratios as
+process operation options to improve energy use and costs.
+Cost modeling for electrolyzer technologies (proton exchange
+membrane electrolyzer (PEMEL) and Alkaline Electrolyzer (AEL) predicts substantial CAPEX reductions by 2030, with economies of scale
+delivering major cost benefits up to ~ 10 MW plant size [42]. Further
+studies have explored integrated hydrogen utilization pathways in
+ironmaking, combining process modeling with techno-economic and
+environmental assessment. Kim et al. (2021) [43] demonstrated that a
+Blast Furnace integrated with a Solid Oxide Electrolysis Cell (BF–SOEC)
+integration can achieve significant CO2 reduction, with economic
+viability strongly dependent on hydrogen production costs. Kim et al.
+(2026) [44] highlighted the role of alternative hydrogen pathways such
+as methane pyrolysis and system-level integration. These insights reinforce the importance of hydrogen supply pathways in techno-economic
+evaluation of H2-DRI systems.
+For natural gas based DRI to effectively replace coal in India which
+relies on importing energy, it is imperative that a robust gas infrastructure in terms of re-gasification terminal and pipelines is in place to
+reach to the end industrial customer. It is also essential that imported
+liquefied natural gas (LNG) is available at competitive and stable price
+with low CO2 footprint to ensure affordability and sustainability for the
+
+• High initial investment for green hydrogen production despite projected cost declines [15].
+• Renewable electricity cost and intermittency, requiring high load
+factors for competitive hydrogen [8].
+• Development of Hybrid power purchase agreements and storage as
+enablers for firm renewable supply [16,17].
+• Policy levers such as carbon pricing, green steel premiums, and
+capital expenditure (CAPEX) subsidies are essential to bridge the cost
+gap [18,19]. EU benchmarks RED III, the Innovation Fund, and the
+EU Hydrogen Bank illustrate how mandates and financial instruments accelerate H2–DRI adoption [20,21].
+India is the world’s second-largest steel producer, expected to supply
+~ 20% of global steel by 2050 [22]. Its production structure is dominated by coal-based rotary kiln DRI (~80%), making it one of the most
+carbon-intensive globally [23,24]. Emission intensities of coal-based
+plants often exceed 2.5 t CO2/t steel, compared to the global average
+of ~ 1.8 t CO2/t [8]. The Indian iron ore and non-coking coal is
+concentrated in five states (Odisha, Chhattisgarh, Jharkhand, Karnataka, and West Bengal) which results in low capital costs and constitutes
+86% of country’s sponge iron capacity [25,26].
+The Ministry of Steel’s 2024 roadmap outlines pathways for green
+transition, including energy efficiency, renewable integration, and
+gradual integration of hydrogen based technologies [25]. The recently
+introduced taxonomy for green steel defines thresholds for CO2 intensity
+and sets benchmarks for “percentage greenness” rating system, which
+helps in creating benchmarking and certification.
+The National Green Hydrogen Mission and Ministry of New and
+Renewable Energy MNRE’s 2024 guidelines have sanctioned pilot projects for hydrogen use in DRI and Blast Furnace (BF) injections, backed
+by ~ US$ 50 million funding for scale up and technical feasibility [27].
+Think tanks in India like IRADe highlight the dominance of coal-based
+DRI, limited domestic gas availability, and the need for hybrid renewable power purchase agreements (PPAs) to ensure high electrolyzer
+utilization [6].
+Recognizing this challenge, India launched the National Green
+Hydrogen Mission and pilot projects for H2DRI, alongside Round-TheClock Power renewable auctions to ensure firm renewable supply to
+achieve a net-zero target by 2070 [16,27].
+This article hence focuses on a techno-economic assessment of
+hydrogen-based direct reduction (H2-DRI) for the Indian steel industry
+and is benchmarked against natural gas-based DRI (NG-DRI), by
+modeling a 1 MTPA plant under Indian economic conditions.
+Background
+There is broad consensus that deep steel decarbonization requires a
+shift away from coal–intensive Blast Furnace-Basic Oxygen Furnace
+(BF–BOF) towards Natural gas Direct Reduction of Iron-Electric Arc
+Furnace (NG DRI–EAF) and hydrogen–enabled routes, complemented by
+higher scrap use and selective carbon capture utilization and sequestration (CCUS). The World Steel Association’s Sustainability Indicators
+2024 report [5] defines performance metrics that explicitly recognize
+the growing role of DRI–EAF in the global mix, underscoring the route’s
+2
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+H. Kamal et al.
+
+end user [45].
+Despite efforts globally, techno-economic studies catering to needs of
+coal-based iron production process which can benefit from decarbonization options brought in by an alternate lower carbon intensive fuel
+such as hydrogen and natural gas remain limited. This article aims to
+address the following aspects:
+
+based catalysts), which enhances supply chain robustness and cost stability [48]. The techno-economic comparison between alkaline (AEL)
+and PEM electrolyzers has been demonstrated in Supplementary
+material (Table S3) which indicates a narrowing CAPEX gap, with AEL
+(~US$235–535/kW) and PEM (~US$245–575/kW) exhibiting comparable cost ranges [49].
+H2 is supplied to the reduction process after compression, purification, and preheating (~800–1000 ◦ C). The reduction gas, consisting of
+H2, reacts with descending iron ore in a shaft furnace in a countercurrent configuration. The reduction mechanism is represented using
+stoichiometric reactor blocks simulating stepwise conversion of iron
+oxides (Fe2O3(s) → Fe3O4(s) → FeO(s) → Fe(s) ), based on literaturereported kinetics and thermodynamic feasibility [32,50,51]. Thermodynamic properties are evaluated using the Peng–Robinson equation of
+state. A hydrogen excess ratio is maintained to ensure a near-complete
+reduction to metallic iron and to sustain the thermodynamic driving
+force.
+A closed-loop configuration is adopted wherein the top gas, consisting of unreacted hydrogen and water vapor, is cooled, dewatered in a
+flash unit, and partially recycled to the reactor inlet after recompression
+and reheating. This recycle loop improves hydrogen utilization and
+overall process efficiency. Material and energy balances derived from
+the Aspen model form the basis for techno-economic analysis. Material
+and energy balances derived from the Aspen model (Table 1a and
+Table S1: Supplementary Material) form the basis of techno-economic
+analysis. Detailed process flowsheets, stream data, and validation results are provided in Supplementary Section S1 (Figs. S1–S2, Tables S1).
+The model is validated against literature-reported hydrogen consumption (≈53.5–59.6 kg/t DRI) [52,53], with the present study yielding
+55.7 kg/t DRI, confirming consistency with industrial benchmarks and
+shown in Table S2: Supplementary Material. For the techno-economic
+analysis, a more conservative design value of 59.6 kg H2/t DRI was
+adopted to account for operational inefficiencies, performance degradation, and uncertainties which are not explicitly captured by the
+steady-state process model.
+Electric heating is assumed for both hydrogen and iron ore preheating to maintain a low-carbon process boundary. The electricity
+requirement of the H2-DRI process is a combination of electricity demand for hydrogen production through electrolyzer and auxiliary
+electricity demand associated with the process requirement such as
+hydrogen recycle compressor and electrical heaters. Electrolyzer electricity demand is calculated based on electrolyzer specific electricity
+consumption, considering alkaline electrolyzer, electrolyzer array efficiency and hydrogen demand from DRI process as per equations (1) and
+(2).
+
+• Industrial-scale modeling (1 MTPA H2-DRI and NG-DRI) as a decarbonization option under Indian market conditions.
+• Comparison of H2-DRI and NG-DRI economics using actual Indian
+fuel and electricity prices.
+• Impact of renewable intermittency and load factor on H2-DRI
+viability.
+• Comparison of the LCOP of H2-DRI across varying renewable electricity prices with the benchmark LCOPs of NG-DRI and coal-based
+DRI production routes
+• Policy levers such as carbon pricing and green steel premiums.
+The following sections present the results of simulations for a 1
+million tons per annum (MTPA) H2-DRI plant and a NG-DRI plant in
+India. The analysis estimates capital expenditure (CAPEX), operating
+expenditure (OPEX), levelized cost of production (LCOP), and net present value (NPV). It also compares the economic performance of H2-DRI
+and NG-DRI pathways and evaluates the sensitivity of results to key
+parameters, including electricity tariffs, plant load factor, carbon pricing, and green premium assumptions. While these techno-economic
+drivers are well established in literature, their combined application
+under India-specific cost structures, electricity conditions, and policy
+context remains limited, which is addressed in this study.
+Methodology: Process modelling
+The study adopts a techno-economic framework exemplified in
+Thomassen et al. [46], which is useful in calculating annual energy
+consumption and material requirements for a steel plant with a production capacity of 1 MTPA of DRI. A DRI plant of that capacity represents the scale of commercial plants being currently considered in this
+study. A similar capacity techno-economic study has been conducted for
+establishing a hydrogen direct reduced iron (H2-DRI) plant in New
+Zealand [40]. The electrolyzer capacity and H2 requirement for 1 MTPA
+plant are within the achievable scale to make this study more realistic.
+Large scale green hydrogen projects emerging worldwide could cater for
+the H2 demand for the DRI plant [47]. This capacity also aligns with
+typical NG-DRI plant, ensuring a fair and practical comparison as
+demonstrated in the supplementary material. For comparative assessment, coal-based DRI is included as a reference baseline using literaturereported data, while H2–DRI and NG–DRI are developed using Aspen
+Plus process models within this study. In the second step, detailed economic analysis of the H2-DRI plant is conducted for Indian conditions to
+evaluate its economic viability, including sensitivity analysis against
+CAPEX, OPEX and electricity pricing. Third, a comparative assessment
+of H2-DRI and NG-DRI is performed for same capacity plant using a
+financial model to determine the relative competitiveness of NG-DRI
+against H2-DRI. Finally, sensitivity analyses of H2-DRI are carried out
+on critical variables such as carbon tax and green steel premium to assess
+their impact on financial viability.
+
+EDRI = EELEC + EAUX
+
+(1)
+
+Table 1a
+Summary of key material, energy, and equipment parameters used in the Aspen
+Plus–based process model.
+
+H2-DRI process description and modelling
+The H2–DRI process is modeled using a shaft furnace based direct
+reduction configuration in Aspen Plus under steady-state conditions.
+The model integrates hydrogen production, gas conditioning, shaft
+furnace reduction, and recycle loops within a single process framework.
+An alkaline electrolyzer (AEL) is selected in this study based on its
+higher technology maturity, longer operational lifetime (60–90 k hours
+vs. 40–60 k hours for PEM), and reliance on non-critical materials (Ni3
+
+Key variables
+
+Value
+
+Unit
+
+Reference
+
+Electrolyzer array efficiency (Eeff)
+Alkaline Electrolyzer specific energy
+consumption (ESEC)
+Iron ore required for 1 MTPA DRI
+Iron ore consumption for 1MTPA
+DRI
+H2 required for 1 MTPA DRI (H2-DRI)
+Electricity required for DRI (EDRI)
+
+85
+50
+
+%
+kWh/kg
+
+[52]
+[53]
+
+1.5
+172
+
+MTPA
+t/h
+
+ASPEN model
+ASPEN model
+
+6.8
+3.55
+
+ASPEN model
+ASPEN Model
+Calculation
+ASPEN Model
+Calculation
+ASPEN Model
+Calculation
+ASPEN Model
+Calculation
+
+Electrolyzer required for 1 MTPA
+DRI
+Energy Heater Input
+
+400
+
+t/h
+MWh/ton
+of DRI
+MW
+
+35
+
+MW
+
+Compressor capacity
+
+2
+
+MW
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+Table 2
+Comparative process-level CO2 emission intensity for DRI production routes.
+
+Where:
+EDRI (MWh/ton of DRI) = Electricity required in H2-DRI process.
+EELEC (MWh/ton of DRI) = Electricity required in electrolyzer.
+EAUX (MWh/ton of DRI) = Electricity required in auxiliary system
+(heaters + compressor)
+EELEC =
+
+ESEC *H2− DRI
+Eeff *1000
+
+(2)
+
+Where:
+EELEC (MWh/ton of DRI) = Electricity required in electrolyzer.
+ESEC (kWh/kg) = Electrolyzer specific energy consumption
+H2-DRI (kg/ton of DRI) = H2 required/ton of DRI.
+Eeff = Electrolyzer array efficiency.
+Specific energy consumption represents stack-level electrolysis performance, whereas the efficiency term reflects losses associated with the
+complete electrolyzer system, including balance-of-plant and array-level
+operation.
+
+The NG–DRI process is modeled using a MIDREX-type configuration
+in Aspen Plus under steady-state conditions to establish the fundamental
+model for material and energy balance [54]. A schematic representation
+of the NG–DRI process is provided in Fig. S3 (Supplementary Material).
+Natural gas (assumed primarily as methane) is reformed in a hightemperature catalytic reformer (~900 ◦ C, Ni-based catalyst) through a
+combination of steam reforming, CO2 reforming, and partial oxidation
+reactions to generate a reducing gas mixture composed of CO and H2.
+This gas is introduced at the base of a shaft furnace, where it reacts
+counter-currently with descending iron ore at temperatures of approximately 900–950 ◦ C, leading to stepwise reduction of iron oxides
+(Fe2O3(s) → Fe3O4(s) → FeO(s) → Fe(s)) (Table S4: Supplementary
+Material). The process is represented by using stoichiometric reactor
+blocks for both reforming and shaft furnace reduction stages, enabling
+explicit simulation of reaction pathways and material flows (Fig. S4). A
+closed-loop configuration is implemented, wherein the top gas is cooled,
+dewatered, and partially recycled to the reformer after recompression to
+maintain gas composition and improve energy efficiency. Thermodynamic properties are evaluated using the Peng–Robinson equation of
+state. The simulation is initially developed under open-loop conditions
+to establish baseline mass and energy balances and subsequently
+extended to a closed-loop configuration to achieve convergence through
+adjustment of recycle and conversion parameters. Material and energy
+balances derived from the simulation (Table 1b) form the basis of
+techno-economic evaluation. The model is validated against literaturereported plant data Parisi et al. [55] and Hamadeh et al. [56],
+showing good agreement in gas composition and reduction performance
+(Table S5-S6: Supplementary Material). Detailed reaction systems,
+process flowsheets, and validation results are provided in
+Supplementary Section S2 (Fig. S3–S4, Tables S4–S6).
+
+Unit
+
+Reference
+
+MTPA
+
+ASPEN model
+
+0.16
+52
+8.2*106
+
+MTPA
+MJ/kg
+MMBTU/
+annum
+
+ASPEN model
+​
+
+Coal-DRI
+
+1.8–2.5
+
+[38]
+
+NG-DRI
+
+0.45
+
+H2-DRI (renewable
+electricity)
+H2-DRI (Indian grid
+electricity)
+
+0.1–0.25
+
+Literature
+benchmark
+Process model (this
+study)
+External literature
+
+2.5
+
+Process model (this
+study)
+
+CT = (CE + CBoP + CC )*Ec
+
+Table S11
+[39]
+Table S11
+
+(3)
+
+Where:
+CE = Unit cost of electrolyzer (US$/kW).
+CBoP = Unit cost of Balance of Plant (US$/kW).
+CC = Unit cost of H2 compressor (US$/kW).
+Ec = Total electrolyzer capacity (kW).
+For the DRI plant, fixed capital investment is estimated using the
+power law scaling method [58]. Equation (4) provides the relation of
+plant cost with scaling factor.
+( )x
+C
+I
+CI = CIref
+(4)
+Cref Iref
+
+Table 1b
+Material and energy flow in NG-DRI ASPEN simulation.
+1.5
+
+Reference
+
+The key economic parameters used in the techno-economic assessment of the H2-DRI process are based on the standard cost–engineering
+and financial–evaluation practices. The evaluation involves estimating
+Capital Expenditure (CAPEX) and Operating Expenditure (OPEX), followed by applying financial assumptions to calculate indicators such as
+Net Present Value (NPV) and levelized cost of production (LCOP).
+The total capital cost of the H2-DRI process is calculated by considering the summation of all the costs of major equipment and associated
+balance-of-plant components. For electrolyzer based hydrogen production, the total CAPEX (CT ) is given by equation (3):
+
+Table 2 presents a comparative emission study for Coal-DRI, NG-DRI,
+and H2-DRI production routes under a consistent process-level
+
+Value
+
+Source basis
+
+Methodology: Economic analysis
+
+CO2 emission intensity for DRI production routes
+
+Iron ore consumption for 1MTPA
+DRI
+Natural Gas required for 1 MTPA
+Natural Gas calorific value
+Natural Gas required for 1 MTPA
+
+Indicative
+Emissions
+(t CO2/t-DRI)
+
+boundary. The system boundary is defined on a cradle-to-gate basis up
+to DRI production, excluding downstream steelmaking (EAF) and upstream mining/logistics. NG-DRI and H2-DRI are derived from processlevel energy consumption calculated in this work, enabling direct estimation of associated CO2 emissions. All emission values are normalized
+to DRI process-level boundary to ensure comparability across routes,
+despite differences in fuel sources. The emission values reported
+combine contribution of direct process emissions (Scope 1) and
+electricity-related emissions (Scope 2) under Indian grid electricity
+conditions. A detailed breakdown of Scope 1 and Scope 2 emissions,
+including normalization methodology based on process energy inputs, is
+provided in Table S11 in the Supplementary Material. H2-DRI exhibits a
+strong dependence on the carbon intensity of electricity supply. Under
+low-carbon or renewable electricity conditions, emissions are significantly reduced, reflecting the absence of fossil carbon input in the
+reduction process. However, when electricity is sourced from the current
+Indian grid mix, with grid emission factor of 0.71 tCO2/MWh [57] the
+emission intensity increases significantly, indicating that the decarbonization potential of hydrogen-based ironmaking is critically dependent on access to low-carbon electricity.
+
+NG-DRI process description and modelling
+
+Key variable
+
+DRI-route
+
+where:
+CIref = Reference plant cost.
+C, Cref = Plant capacities.
+x = Economy of scale factor (typically 0.6–0.7).
+I, Iref = Cost price indices for current and reference years.
+
+Unit
+conversion
+
+4
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+To perform the calculations, the following assumptions have been
+applied. The Chemical Engineering Plant Cost Index (CEPCI) [59] for
+2024 is 800 and for 2017 is 567. Straight line depreciation has been
+considered, and escalations are treated consistently with a 10% real
+post‑tax discount rate and 20‑year project life as per existing practices
+for preliminary estimates for process engineering projects. Table 3
+supported by Table S7 in Supplementary Material provides the main
+parameters used for the estimation of capital and operating expenditure
+of H2-DRI.
+To estimate the economic feasibility of the H2-DRI process, Net
+Present Value (NPV) and Levelized Cost of Production (LCOP) metrics
+are calculated ([60,68]) as per equations (5) and (6)
+NPV =
+
+n
+∑
+Cashflow
+t=0
+
+LCOP =
+
+t
+
+(1 + r)
+
+t
+
+− CAPEX
+
+Table 4
+Main components for CAPEX and OPEX estimation for NG DRI.
+
+r(1 + r)n
+(1 + r)n − 1
+
+Reference
+
+AEL Electrolyzer CAPEX
+Balance of Plant CAPEX
+H2 Compressor CAPEX
+DRI Plant CAPEX
+
+390
+280
+130
+280
+
+[49,60]
+[61]
+[61]
+[52]
+
+H2-DRI total CAPEX
+Discount factor
+Project life years
+Cost price Index 2017; 2024
+Economy of scale factor
+Renewable electricity cost in
+India
+Iron ore cost in India
+Electrolyzer + BOP OPEX
+
+600
+10%
+20
+568; 800
+0.67
+0.04
+
+US$/kW
+US$/kW
+US$/kW
+US$/ton of
+steel
+US$ in million
+​
+​
+​
+​
+US$/kWh
+US$/ton
+​
+
+[66]
+[52]
+
+​
+
+[52]
+
+H2-DRI plant total OPEX
+
+79
+3% of
+CAPEX
+3% of
+CAPEX
+195
+
+Utilization base value %
+
+70
+
+DRI base price
+
+400
+
+DRI Plant OPEX
+
+US$/yr in
+million
+​
+US$/metric-ton
+
+NG-DRI total CAPEX
+Project Life Cycle
+Utilization base value %
+(U)
+Natural gas price base
+value
+Total OPEX
+
+US$ 325 million
+20 years
+90
+
+[31]
+Calculated (Supplementary
+material)
+[69]
+[69]
+Base assumption
+
+US$7.5/MMBtu
+
+[70]
+
+US$ 225 million/
+yr
+US$400/ton
+
+Calculated (Supplementary
+material)
+[67]
+
+Results and Discussion
+The sensitivity analysis of Net Present Value (NPV) for 1 MTPA of H2DRI process highlights three major economic drivers: capital expenditure (CAPEX), operating expenditure (OPEX), and price of Direct
+Reduced Iron (DRI) as shown in Fig. 1. The analysis shows the impact of
+percentage variation in these parameters on project NPV.
+Among these, DRI pricing exerts the most significant influence on
+project viability. A 25% increase in DRI pricing could improve the NPV
+by US$500 million. This means that a positive NPV is achievable when a
+premium price for low carbon DRI is assumed, indicating that market
+willingness to pay for low-carbon steel is critical for economic feasibility. While reductions in both CAPEX and OPEX improve H2-DRI
+project economics, these measures alone are insufficient to make H2-DRI
+profitable without providing an incentive to produce green steel.
+The economic model developed in this study indicates that H2-DRI
+capital expenditure is dominated by hydrogen production infrastructure, electrolyzer and balance of plants, collectively accounting for more
+than 50% of the total CAPEX. This finding is consistent, with previous
+findings as reported by Rosner et al. [7], who similarly identify the
+electrolyzer cost as the dominant cost contributor in steel making
+through H2-DRI configuration. Therefore, technological advancements
+and cost reductions in electrolyzer systems are essential to enhance
+competitiveness.
+Similarly, the study also shows that OPEX of Hydrogen production is
+strongly influenced by electricity tariffs, significantly contributing to
+total operating cost. This finding is reinforced by IEA’s 2023 hydrogen
+based DRI cost model study [71], which highlights electricity pricing as
+the primary determinant of total operating cost. Therefore, electrolyzer
+efficiency plays a pivotal role in reducing electricity consumption, and
+future improvements in efficiency are expected to significantly lower
+
+Table 3
+Main components for CAPEX and OPEX estimation of H2-DRI.
+Unit
+
+1.0 MTPA
+0.16 MTPA
+
+Where PDRI represents the assumed market price of DRI, QDRI is the
+annual production capacity and U is the % utilization of the plant. The
+cash-flow structure includes initial capital expenditure (CAPEX)
+incurred in year 0 and annual operating expenditure (OPEX), with
+revenues generated over the plant lifetime. Net present value (NPV) is
+calculated using a real post-tax discount rate, assuming constant annual
+production and steady-state operating conditions. For comparative
+assessment between NG‑DRI and H2‑DRI, a common DRI selling price of
+US$300/t was adopted, while sensitivity analyses use the base-case
+value of US$400/t. All NPV results are derived from this consistent
+cash-flow framework. The NG–DRI CAPEX is adopted as a total installed
+cost (TIC) from literature sources representing fully integrated MIDREX
+plants, whereas the H2–DRI CAPEX is developed through a bottom-up
+cost breakdown to explicitly capture the contribution of hydrogen production systems and associated balance-of-plant components
+
+where r is the annualized discount rate and n is the project lifetime (in
+years). CRF enables conversion of total CAPEX into equivalent annualized cost.
+The process model for 1 MTPA Natural Gas based Direct Reduction of
+Iron process was developed using ASPEN Plus v14 and the specifications
+have been provided in the supporting information. The outcomes of the
+model were used to develop an economic analysis for the NG-DRI process on similar lines. The financial model inputs are based on a detailed
+techno-economic analysis of the MIDREX process [68]. These inputs
+represent the total installed plant cost, including natural gas (NG)
+reforming, the shaft furnace, and other supporting plant equipment. The
+cost data are provided in Table 4 and Table S8 (Supplementary Material)
+and have been adjusted to 2024 US$ for consistency across all sources
+and scenarios.
+The techno-economic assessment in this study is based on a simplified discounted cash flow model for a 1 MTPA plant of NG-DRI and H2-
+
+Value
+
+DRI Capacity (QDRI)
+NG required
+
+Revenue = PDRI *QDRI *U
+
+(7)
+
+Key variables
+
+Reference
+
+DRI. Annual revenue is calculated as:
+
+(6)
+
+Where, capital recovery factor (CRF) is used to annualize capital cost
+invested over the project life cycle incorporating the time value of
+money to give a direct comparison between one time CAPEX vs annual
+OPEX to evaluate the NPV, it is given by equation (7):
+CRF =
+
+Value
+
+DRI base price (PDRI)
+
+(5)
+
+(CAPEX*CRF + Annual OPEX)
+Annual Production
+
+Parameter
+
+Calculated
+[61,62]
+[63]
+[59]
+[64]
+[65]
+
+Calculated
+Base
+assumption
+[67]
+
+5
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+Fig. 1. NPV sensitivity analysis for the H2-DRI process under varying DRI pricing, CAPEX, and OPEX assumptions (M$ refers to Million US$).
+
+OPEX. Although several studies have evaluated the economics of green
+hydrogen production and the H2-DRI process, this study provides a key
+insight. The NPV sensitivity analysis shows that project feasibility is
+influenced more by demand-side factors, particularly DRI selling prices,
+than by reductions in production costs.
+
+load factor may provide a significant competitive edge to Hydrogen
+based steel making in India. To assess the impact of load–factor variability on project economics, two sensitivity scenarios are examined of
+load factor sensitivity against CAPEX and revenue generation to assess
+the impact on project economics.
+Sensitivity scenario 1: Fixed DRI production rate at 1 MTPA with changing
+CAPEX
+To maintain the annual hydrogen demand for 1 MTPA of DRI production under lower load factor conditions, electrolyzer and balance of
+plant capacity needs to be increased to compensate for reduced operating hours. Fig. 2a is based on variations of model parameters defined
+in Table 3, the NPV and CAPEX sensitivity analysis for the H2-DRI
+process is determined under load factor with fixed revenue.
+At lower load factor (less than 60%), plant operates fewer hours per
+year, so the electrolyzer must be oversized to meet the hydrogen demand
+for 1 MTPA production. Revenue generated is insufficient to offset the
+high CAPEX, so NPV is steeply negative. At high load factor greater than
+70%, the electrolyzer capacity approaches a minimum feasibility limit,
+the impact on CAPEX is minimum and consequently the impact on NPV
+becomes progressively smaller. This scenario is important in the design
+stage of the project to estimate the required capital allocation against the
+
+Load factor sensitivity assessment
+The economic viability of a 1 MTPA H2-DRI plant in India is strongly
+influenced by the load factor, which represents the percentage of time
+the electrolyzer operates at full capacity using renewable electricity. The
+load factor sensitivity analysis presented in this study assumes that the
+H2-DRI plant operates without dedicated hydrogen storage and grid
+electricity backup support through battery energy storage system
+(BESS). Therefore, the electrolyzer load factor is directly linked to the
+availability of renewable electricity supply. These boundary conditions
+(no storage and no grid backup) are consistently applied across both
+sensitivity scenarios. This assumption was adopted to directly evaluate
+the standalone influence of renewable electricity availability and electrolyzer utilization on H2-DRI project economics. The renewable electricity tariff in India is relatively lower (₹3.5/kWh ~ US$0.04/kWh), in
+comparison to Europe (~US$0.085–0.12/kWh) [72], achieving high
+
+Fig. 2a. NPV and CAPEX sensitivity analysis for the H2-DRI process under load factor with fixed revenue in M US$ (million US$).
+6
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+load factor to articulate its effect on the project economics and avoid
+under designing of the electrolyzer capacity.
+
+follows the global trend of combining energy produced through solar
+and wind in hybrid PPAs to minimize disruption of renewable energy for
+high industrial utilization [75].
+
+Sensitivity scenario 2: Fixed electrolyzer capacity and varying revenue
+When electrolyzer capacity is fixed while load-factor varies, the
+analysis in Fig. 2b derived from variations of model parameters defined
+in Table 3, demonstrates that the reductions in load factors directly
+impact hydrogen output, which drives the lower DRI production and
+subsequently affects revenue generation. Despite the reduction in
+operating expenses due to operational costs, the revenue shortfall
+clearly dominates the economics, leading to negative NPV across the
+lower and mid-range load-factor conditions. This cost sensitivity emphasizes the need to ensure stable and high availability of renewable
+energy supply to justify high investment in green hydrogen infrastructure. These findings are valuable in providing guidance on economic
+penalties due to underutilization of the hydrogen DRI plant and supports
+investors and policy makers in addressing the challenges under condition of intermittent renewable energy supply.
+Previous studies on load factor and utilization [33,73] focus more on
+external factors such as electricity pricing, energy source and renewable
+availability to understand their impact on the levelized cost of hydrogen
+(LCOH). In contrast, this study evaluates plant-level scenario which
+assesses load-factor sensitivity by examining how capital expenditure
+decisions are made during the design stage of the plant. Furthermore, it
+also provides insights on how operating expense and revenue generation
+during the operational phase, collectively shapes the overall technoeconomic performance of H2-DRI system. This result demonstrates for
+both under designing and underutilization of the H2-DRI plant imposes a
+structural economic risk that must be proactively mitigated. These insights establish a need to determine a minimum viable threshold for load
+factor, which will be useful to protect against large capital investments
+and prevent economic under performance due to insufficient plant
+utilization.
+Mitigating the risk of low load factor in H2-DRI plants caused by
+intermittent renewable energy supply is essential for economic viability.
+Hybrid power purchase agreements (PPAs) aggregating solar and wind
+sources coupled with battery energy storage system (BESS), have the
+potential to deliver firm and consistent supply of electricity to maintain
+high load factor. This approach ensures round-the-clock energy supply,
+significantly improving the load factor and economic viability. In 2024,
+hybrid auctions for PPAs (solar + wind) accounted for over 50% of India’s 59 GW renewable auction volumes, signaling a strong shift towards
+firm and dispatchable renewable energy (FDRE) solutions [74]. This also
+
+H2-DRI discount rate sensitivity
+A sensitivity analysis of discount rate was performed to assess the
+impact of financing assumptions on project viability based on financial
+data mentioned in Table 3. The discount rate was varied between 6%
+and 14%, representing a realistic range of financing conditions for industrial projects in India. The results (Fig. 3) show that NPV is highly
+sensitive to discount rate, decreasing from US$ 258 million at 6% to US$
+(− ) 105 million at 14%. The project remains economically viable up to a
+discount rate of approximately 11%, beyond which NPV becomes
+negative under the base-case assumptions. In contrast, LCOP increases
+more gradually from US$354/t to US$409/t of DRI, indicating that
+financing assumptions primarily impact investment viability rather than
+production cost competitiveness. Lower discount rate scenarios can be
+interpreted as reflecting favorable financing conditions with higher debt
+participation, while higher discount rates represent higher-risk investment conditions, which are typical challenges for capital-intensive
+projects in the Indian context.
+
+Fig. 3. Sensitivity of NPV and levelized cost of production DRI production
+(LCOP) to discount rate for a 1 MTPA H2–DRI plant (70% utilization).
+
+Fig. 2b. NPV CAPEX and OPEX sensitivity analysis for the H2-DRI process under load factor with varying utilization.
+7
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+H2-DRI economic comparison against natural gas and coal-based fuel
+
+cost production route, explaining its long standing dominance in India’s
+steel sector despite its significantly higher CO2 intensity, contributing to
+India’s position as one of the largest steel-related CO2 emitters globally.
+The expanded comparison shown in Fig. 5 represents a relative economic position of coal based DRI, NG-DRI against H2-DRI across varying
+renewable electricity prices. The H2-DRI and NG-DRI routes are developed using Aspen Plus process models in this study, while the coal-based
+DRI route is represented using literature-reported benchmark values
+[77–81]. This approach is adopted due to the inherent variability of
+small-scale coal-based rotary kiln systems in India, and the absence of
+standardized and publicly validated process models. Additionally, coalDRI is included primarily as a reference baseline, for which wellestablished energy and emission benchmarks are available in literature and used for calculation of LCOP (Table S10: Supplementary
+Material). This position natural gas as a bridge technology for India’s
+steel decarbonization, offering competitive LCOP and significantly
+lower carbon intensity than coal until green hydrogen technology becomes cost competitive. However, the scalability of natural gas as a fuel
+depends on upgrading gas infrastructure and ensuring stable industrial
+gas pricing (Table S9: Supplementary Material). H2-DRI represents the
+long-term decarbonization pathway, delivering near-zero emissions but
+encounters substantial economic challenges under current conditions.
+Policy interventions such as carbon pricing, green steel premiums, and
+incentives for renewable integration and hydrogen infrastructure are
+expected to play a critical role in accelerating adoption.
+
+The transition from natural gas based DRI to hydrogen based DRI
+represents one of the most critical technological shifts to drive decarbonization of the iron and steel industry. As India explores the decarbonization roadmap for iron and steel sector, understanding the
+economic implications of this transition becomes essential. Fig. 4 presents a comparative analysis of the techno-economic performance of
+hydrogen-based direct reduction (H2-DRI) and natural gas-based direct
+reduction (NG-DRI) for a 1 MTPA steel plant under Indian market conditions. To ensure a comparison on similar lines between NG‑DRI and
+H2‑DRI, a DRI selling price of US$300/t and a plant utilization factor of
+90% were adopted for the comparative assessment. These assumptions
+differ from the base-case H2‑DRI values used in the sensitivity analyses
+and were selected to represent typical commercial operating conditions
+and prevailing market realities for NG‑DRI plants. The rest of the calculations are derived from CAPEX/OPEX inputs in Tables 3 and 4. The
+comparison examines capital expenditure (CAPEX), operating expense
+(OPEX), Net Present Value (NPV), and Levelized Cost of Production
+(LCOP) calculation based on capital recovery factor estimated as 0.117.
+H2-DRI requires significantly higher capital investment compared to
+NG-DRI. For the 1 MTPA case, H2-DRI CAPEX is nearly double that of
+NG-DRI. This difference is primarily driven by the electrolyzer system
+and balance-of-plant components, which accounts for roughly half of
+total H2-DRI CAPEX. The balance of plant components includes electric
+power supply units (e.g. transformers), water purification (demineralization plant), heat exchangers for energy transfer, and gas drying and
+separation [76]. In contrast, NG-DRI benefits from technologically
+matured process and lower infrastructure costs. Operating costs for H2DRI are also higher than NG-DRI, with the dominant contributor to H2DRI OPEX is electricity cost for hydrogen production, which represents
+nearly half of the total operating expenses.
+At the other end NG-DRI relies on natural gas pricing, which remains
+relatively competitive in India and global markets. Consequently, the
+levelized cost of DRI production (LCOP) for H2-DRI is substantially
+higher than NG-DRI, reflecting the combined impact of upfront capital
+cost and energy intensive operating cost. While, H2-DRI offers near-zero
+CO2 emission reduction, with strong alignment with India’s long-term
+vision, however, the current competitiveness is constrained by high
+electrolyzer related capital cost and renewable electricity driven OPEX.
+While, NG-DRI emerged as a more economically favorable option
+compared to H2-DRI under the current market condition, it is important
+to address that in the Indian context, coal-based DRI remains the lowest-
+
+Fig. 5. LCOP comparative assessment between Coal based DRI, NG-DRI and H2DRI process.
+
+Fig. 4. NPV, CAPEX, OPEX and LCOP comparative assessment between H2-DRI and NG-DRI process.
+8
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+Building up on this foundation, the heat map in Fig. 6, derived from
+variation of model parameters defined in Table S7 (Supplementary
+Material), extends the analysis by quantifying the scale of policy in
+terms of carbon pricing and market support in terms of green steel
+premium, required to close the economic gap. A green steel premium is
+defined as the extra price paid for sustainably produced steel [25]. The
+carbon price and green steel premium are added to the revenue generation of H2-DRI which positively impacts the NPV.
+The heat map illustrates how combining the carbon pricing (US
+$/tCO2) and green steel premium (US$/ton) impact the net present
+value of a 1 MTPA H2-DRI plant in India. In the absence of external
+incentives in terms of carbon pricing and green steel premium, NPV is
+highly negative, confirming that H2-DRI is not economically viable
+under current market conditions. The slope of the breakeven contour
+indicates that carbon pricing has a slightly stronger influence on NPV
+compared to green premium. The threshold value of carbon price and
+green steel premium required for economic competitiveness is not fixed
+and depends on key techno-economic assumptions, particularly OPEX
+(electricity cost) and CAPEX (electrolyzer cost) and Load Factor. Under
+the base-case assumptions used in this study, positive NPV is achieved
+when carbon pricing and green steel premium fall within the range of US
+$40–60/ton.
+Therefore, the sensitivity analysis confirms that policy-driven carbon
+pricing and market-driven green steel premiums are strategic enablers
+for H2-DRI viability. While technological improvements and renewable
+tariff reductions are expected to lower costs, these alone cannot close the
+economic viability gap. Carbon price of US$50–60/tCO2 or a green
+premium of US$40–50/t, or a combination of both are important levers
+which can shift NPV into positive territory. This underscores the need
+for:
+
+competitive decarbonization pathway for India’s steel sector by 2030.
+Limitations and future work
+This study presents a process-level techno-economic assessment of
+NG‑DRI and H2‑DRI under India-specific conditions; however, several
+limitations remain to be addressed in future. The system boundary is
+restricted to direct reduced iron (DRI) production and excludes downstream steelmaking (e.g., EAF), which may influence overall economics
+and emissions depending on scrap availability. The analysis assumes
+steady-state operation without explicit hydrogen storage or grid backup,
+which could improve utilization under renewable intermittency. In
+addition, water demand for electrolysis is not explicitly modelled and
+may affect feasibility in water-stressed regions. The results are based on
+India-specific assumptions and therefore represent contextual insights,
+though the framework is transferable to other coal-intensive economies
+(e.g., China, Indonesia, South Africa). Future work should incorporate
+integrated DRI–EAF systems, storage and grid-backup configurations,
+water–energy interactions, and probabilistic approaches such as Monte
+Carlo simulation to capture parameter uncertainties and improve
+robustness of techno-economic outcomes.
+Conclusions
+This study developed an Aspen Plus–based techno-economic framework to evaluate the feasibility of hydrogen-based direct reduction
+(H2–DRI) for India’s steel sector and benchmark its performance against
+NG–DRI and coal-based DRI routes. The results demonstrate that
+H2–DRI is a technically viable and strategically important pathway for
+deep decarbonization of the Indian steel industry, with the potential to
+significantly reduce CO2 emissions when supported by low-carbon
+electricity. While current economics are influenced by higher CAPEX,
+electricity costs, plant utilization, and financing conditions, sensitivity
+analyses indicate clear pathways for improving competitiveness through
+technology maturation, higher renewable energy utilization, and supportive policy measures. Under the base-case assumptions, positive NPV
+can be achieved through a combination of carbon pricing and green steel
+premiums in the range of US$ 40–60/ton, although these values should
+be interpreted as indicative rather than prescriptive. In the near term,
+NG–DRI offers a practical transition pathway, delivering significantly
+
+• Regulatory frameworks introducing carbon pricing for industrial
+emissions.
+• Original Equipment Manufacturers (OEM) commitments to procure
+green steel at premium pricing.
+• Integration with India’s Green Hydrogen Mission [27] to align incentives and infrastructure development.
+These measures, combined with falling renewable tariffs and electrolyzer cost reductions, are expected to enable H2-DRI to become a
+
+Fig. 6. Impact of carbon pricing and green steel premium on H2-DRI economics.
+9
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+lower CO2 emissions than coal-based DRI while leveraging existing industrial infrastructure. Overall, the results suggest that coordinated
+policy support, continued reductions in renewable electricity and electrolyzer costs, and growing demand for low-carbon steel can position
+H2–DRI as a key enabler of India's long-term green steel transition and
+net-zero ambitions.
+
+References
+[1] Intergovernmental Panel on Climate Change (IPCC) Climate Change Synthesis
+Report 2023 Available at: https://www.ipcc.ch/report/ar6/syr/downloads/report
+/IPCC_AR6_SYR_SPM.pdf Accessed February 21, 2026.
+[2] International Energy Agency (IEA) Global Energy Review Available at: https://
+www.iea.org/reports/world-energy-outlook-20232025 , Accessed February 21,
+2026.
+[3] International Energy Agency (IEA), 2022. Achieving net zero heavy industry
+sectors in G7 members. https://doi.org/10.1787/f25c9648-en (Accessed February
+21, 2026).
+[4] World Steel Association Sustainability Indicators Report 2025 Available at:
+https://worldsteel.org/wider-sustainability/sustainability-indicators/ 2025,
+Accessed February 21, 2026.
+[5] World Steel Association Sustainability performance of the steel industry Available
+at: https://worldsteel.org/wp-content/uploads/Sustainability-Indicators-report
+-2024.pdf 2024, Accessed February 21, 2026.
+[6] Integrated Research and Action for Development (IRADe) Green-Hydrogens-Rolein-Decarbonization-of-Indias-Iron-Steel-Industry , Available at: https://irade.
+org/website/wp-content/uploads/2024/07/Green-Hydrogens-Role-in-Decarboniz
+ation-of-Indias-Iron-Steel-Industry.pdf 2024, Accessed February 21, 2026.
+[7] Rosner F, Papadias D, Brooks K, et al. Green steel: Design and cost analysis of
+hydrogen-based direct iron reduction. Energy & Environmental Science 2023.
+https://doi.org/10.1039/D3EE01077E.
+[8] International Energy Agency (IEA) Iron and Steel Technology Roadmap Available
+at: https://www.iea.org/reports/iron-and-steel-technology-roadmap 2024,
+Accessed February 21, 2026.
+[9] da Costa AR, Wagner D, Patisson F. Modelling a new, low CO2 emissions, hydrogen
+steelmaking process. Journal of Cleaner Production 2013;46:27–35. https://doi.
+org/10.1016/j.jclepro.2012.07.045.
+[10] Bhaskar A, Assadi M, Somehsaraei HN. Decarbonization of the iron and steel
+industry with direct reduction of iron ore with green hydrogen. Energies 2020;13:
+758. https://doi.org/10.3390/en13030758.
+[11] Hornby S., Broak G. Impact_of_Hydrogen_DRI_on_EAF_Steelmaking. Available at:
+https://www.researchgate.net/publication/354477453_Impact_of_Hydrogen_DRI
+_on_EAF_Steelmaking, 2021.
+[12] Ripke J, Kopfle J. MIDREX H2: Ultimate low CO2 ironmaking and its place in the
+new hydrogen economy. In: ESTAD Conference, Midrex Technologies, In. 2017.
+[13] Kushnir D, Hansen T, Vogl V, Åhman M. Adopting hydrogen direct reduction for
+the swedish steel industry: a technological innovation system study. Journal of
+Cleaner Production 2020;242:118185. https://doi.org/10.1016/j.
+jclepro.2019.118185.
+[14] Hybrit Six years of research paves the way for fossil-free iron and steel production
+on an industrial scale, Available at: https://www.hybritdevelopment.se/en/hybri
+t-six-years-of-research-paves-the-way-for-fossil-free-iron-and-steel-produ
+ction-on-an-industrial-scale/ 2024 , Accessed February 21, 2026.
+[15] International Renewable Energy Agency (IRENA) Green hydrogen strategy: a guide
+to design 2024 Available at: https://www.irena.org/-/media/Files/IRENA/Agen
+cy/Publication/2024/Jul/IRENA_Green_hydrogen_strategy_design_2024.pdf,
+Accessed February 21, 2026.
+[16] Seci Hybrid & ESS – Solar Energy Corporation of India Available at: https://www.
+seci.co.in/hybrid-ess 2024, Accessed February 21, 2026.
+[17] Central Electricity Authority (CEA) Techno-Economic-Analysis-of-RenewableEnergy-Round-the-Clock-RE-RTC-Supply-for-Achieving-Indias-500-GW-Non-FossilFuel-Based-Capacity-Target-by-2030 2025 Available at: https://bimstecenergyce
+ntre.org/wp-content/uploads/2025/11/India_Techno-Economic-Analysis-of-Rene
+wable-Energy-Round-the-Clock-RE-RTC-Supply-for-Achieving-Indias-500-GW-No
+n-Fossil-Fuel-Based-Capacity-Target-by-2030-.pdf, Accessed February 21, 2026.
+[18] Organisation for Economic Co-operation and Development (OECD) Policy and
+financial instruments to support the decarbonisation of the iron and steel sector
+2025 Available at: https://www.oecd.org/en/publications/implementing-the-o
+ecd-framework-for-industry-s-net-zero-transition-in-south-africa_841540e8-en/full
+-report/policy-and-financial-instruments-to-support-the-decarbonisation-of-th
+e-iron-and-steel-sector_90432be6.html, Accessed February 21, 2026.
+[19] Green Steel Economics Global Efficiency Intelligence 2024, Available at: https://
+static1.squarespace.com/static/5877e86f9de4bb8bce72105c/t/669de2f613dcdf7
+00774b846/1721623332020/Green_Steel_Economics_240721.pdf, Accessed
+February 21, 2026.
+[20] European Commission Renewable Energy Directive (RED) 2024 Available at:
+https://energy.ec.europa.eu/topics/renewable-energy/renewable-energy-direc
+tive-targets-and-rules/renewable-energy-directive_en ,Accessed February 21, 2026.
+[21] European Commission Innovation Fund projects 2025, Available at: https://clima
+te.ec.europa.eu/eu-action/eu-funding-climate-action/innovation-fund/innovation
+-fund-projects_en, Available at: Accessed February 21, 2026.
+[22] International Energy Agency (IEA) Iron and steel technology roadmap 2020,
+Available at: https://iea.blob.core.windows.net/assets/eb0c8ec1-3665-4959-97d
+0-187ceca189a8/Iron_and_Steel_Technology_Roadmap.pdf , Accessed February 21,
+2026.
+[23] Teri Energy-Efficient Technology Options for Direct Reduction of Iron Process
+,2021,Available at: https://www.teriin.org/sites/default/files/2021-08/Direct%
+20Reduction%20of%20Iron%20Process.pdf, Accessed February 21, 2026.
+[24] Steel decarbonisation in India Institute for Energy Economics and Financial
+Analysis, Available at: https://ieefa.org/resources/steel-decarbonisation-india
+2023. Accessed February 21, 2026.
+
+Disclaimer
+In this article, the views and opinions of the authors expressed herein
+do not necessarily state or reflect those of the Government of India or
+any agency thereof.
+The views and opinions expressed in this paper are those of the authors and do not necessarily reflect the official policy or position of Shell
+plc or its affiliates.
+The principal author (HK) has carried out his research as a part of his
+doctoral degree at Indian Institute of Technology Ropar and has based
+his analysis based on openly available data, and the calculation basis has
+been provided in the Supplementary Material.
+Declaration of generative AI use
+During the preparation of this work the author(s) used Copilot as an
+AI-assisted tool in order to edit and improve language clarity. After using
+this tool/service, the author(s) reviewed and edited the content as
+needed and take(s) full responsibility for the content of the published
+article.
+CRediT authorship contribution statement
+Haris Kamal: Writing – review & editing, Writing – original draft,
+Visualization, Validation, Software, Methodology, Investigation, Formal
+analysis, Data curation, Conceptualization. Lene Hviid: Writing – review & editing, Supervision, Methodology, Conceptualization. Rutger
+Ijzermans: Writing – review & editing, Supervision. Asad H. Sahir:
+Writing – review & editing, Supervision, Methodology,
+Conceptualization.
+Funding
+This research did not receive any (specific) grant from funding
+agencies in the public, commercial, or not-for-profit sectors.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgments
+The authors (HK, AHS) will like to acknowledge Prof. Dhiraj K.
+Mahajan for introducing them to the efforts of Petroleum and Natural
+Gas Regulatory Board (PNGRB) in India and their reports. Also, the
+authors (HK, AHS) would like to acknowledge Dr. Cristina Nenu for
+sharing their experience and insight into this field.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.seta.2026.105278.
+Data availability
+All the data reported has been shared in Supplementary Material
+10
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+
+[25] Ministry of Steel Annual Report , 2024, Available at: https://steel.gov.in/sites/def
+ault/files/2025-04/Annual%20Report%202023-24%20Final_0.pdf , Accessed
+February 21, 2026.
+[26] NITI Aayog, 2024, report on low carbon technology https://www.niti.gov.in/sites/
+default/files/2022-11/Report-Committee-on-Low-Carbon-Technologies.pdf
+(Accessed February 21, 2026).
+[27] Ministry of New and Renewable Energy (MNRE) National Green Hydrogen Mission
+2024 Available at: https://mnre.gov.in/en/national-green-hydrogen-mission/,
+Accessed February 21, 2026.
+[28] Ssab HYBRIT: six years of research paves the way for fossil-free iron and steel
+production on an industrial scale, 2024, Available at: https://www.ssab.com/en/
+news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-a
+nd-steel-production-on-an-industrial, Accessed February 21, 2026.
+[29] Maximilian Arras, Tim-Fabian Jeandey etal, Decarbonizing China’s iron and steel
+industry: Hydrogen-based mitigation pathway and techno-economic implications,
+International Journal of Hydrogen Energy, Volume 154, https://doi.org/10.1016/
+j.ijhydene.2025.06.136.
+[30] Tian S, Shen J, Zhang Qi. Decarbonizing pathways for China's iron and steel sector:
+the role of hydrogen. International Journal of Hydrogen Energy 2025;105. https://
+doi.org/10.1016/j.ijhydene.2025.01.162.
+[31] Shahabuddin M, Rahbari A, Sabah S, et al. Process modelling for the production of
+hydrogen-based direct reduced iron in shaft furnaces using different ore grades.
+Ironmaking & Steelmaking 2025;52(1). https://doi.org/10.1177/
+03019233241254666.
+[32] Pineau A, Kanari N, Gaballah I. Kinetics of reduction of iron oxides by H2 Part I:
+Low temperature reduction of hematite. Thermochimica Acta 2006;447:89–100.
+https://doi.org/10.1016/j.tca.2005.10.004.
+[33] Villarreal Vives AM, Wang R, Roy S. Techno-economic analysis of large-scale green
+hydrogen production and storage. Applied Energy 2023;346:121333. https://doi.
+org/10.1016/j.apenergy.2023.121333.
+[34] Vogl V, Åhman M, Nilsson LJ. Assessment of hydrogen direct reduction for fossilfree steelmaking. Journal of Cleaner Production 2018;203:736–45. https://doi.
+org/10.1016/j.jclepro.2018.08.279.
+[35] Krüger J, Andersson J, Grönkvist S, Cornell A. Integration of water electrolysis for
+fossil-free steel production. International Journal of Hydrogen Energy 2020;45
+(55):29966–77. https://doi.org/10.1016/j.ijhydene.2020.08.116.
+[36] Pauluzzi, D., Giraldo, A. H., Dalle Nogare, D., & Martinis, A. (2021). CFD Study of
+an Energiron Reactor Fed With Different Concentrations of Hydrogen. Iron & Steel
+Technology, AIST, March 2021 https://tenova.com/sites/default/files/2021-09/
+MARCH-2021_AIST-IRON-STEEL-TECHNOLOGY.pdf (Accessed February 21,
+2026).
+[37] Gurgel A, Benavides K, Morris J, et al. Role of advanced steelmaking technologies
+in global climate change mitigation scenarios. Journal of Cleaner Production 2025;
+513:145726. https://doi.org/10.1016/j.jclepro.2025.145726.
+[38] Nduagu EI, Yadav D, Bhardwaj N, Elango S, Biswas T, Banerjee R, et al.
+Comparative life cycle assessment of natural gas and coal-based directly reduced
+iron (DRI) production: a case study for India. Journal of Cleaner Production 2022;
+347:131196. https://doi.org/10.1016/j.jclepro.2022.131196.
+[39] World Steel Association Hydrogen (H2)-based ironmaking: Fact sheet Available at:
+https://worldsteel.org/wp-content/uploads/Fact-sheet-hydrogen-H2-based-ironm
+aking.pdf , 2022 , Accessed February 21, 2026.
+[40] Cassidy van Vuuren C, Zhang A, Hinkley JT. The potential for hydrogen
+ironmaking in New Zealand. Cleaner Chemical Engineering 2022;4:100075.
+https://doi.org/10.1016/j.clce.2022.100075.
+[41] Usman N, Javed A, Ullah A, et al. Deployment of a green hydrogen-based energy
+solution for the hard-to-abate steel sector. International Journal of Hydrogen
+Energy 2026;207. https://doi.org/10.1016/j.ijhydene.2026.153540.
+[42] Reksten AH, Thomassen MS, Møller-Holst S, Sundseth K. Projecting the future cost
+of PEM and alkaline water electrolysers; a CAPEX model including electrolyser
+plant size and technology development. International Journal of Hydrogen Energy
+2022;47. https://doi.org/10.1016/j.ijhydene.2022.08.306.
+[43] Kim J, Lee H, Lee B, Kim J, Oh H, Lee I-B, et al. An integrative process of blast
+furnace and SOEC for hydrogen utilization: Techno-economic and environmental
+impact assessment. Energy Conversion and Management 2021;250:114922.
+https://doi.org/10.1016/j.enconman.2021.114922.
+[44] Kim D, Kim J, Park J. Process integration of turquoise hydrogen via natural gas
+pyrolysis for blast furnace ironmaking: techno-economic viability and CO2
+mitigation. Energy Conversion and Management 2026;321:121211. https://doi.
+org/10.1016/j.enconman.2026.121211.
+[45] International Energy Agency (IEA) India Gas Market Report Outlook to 2030 ,
+2025, Available at: https://iea.blob.core.windows.net/assets/ef262e8d-239f-4cf
+c-8f8c-4d75ac887a0f/IndiaGasMarketReport.pdf, Accessed February 21, 2026.
+[46] Thomassen G, Van Dael M, Van Passel S, You F. How to assess the potential of
+emerging green technologies? Towards a prospective environmental and technoeconomic assessment framework. Green Chemistry 2019;21:4868. https://doi.org/
+10.1039/C9GC02223F.
+[47] International Energy Agency (IEA) Hydrogen production and infrastructure
+projects database , 2025 , Available at: https://www.iea.org/data-and-statistics/
+data-product/hydrogen-production-and-infrastructure-projects-database, Accessed
+February 21, 2026.
+[48] Energy Sector Management Assistance Program (ESMAP), 2026. Electrolyzers for
+Hydrogen Production: Technical and Economic Characteristics. ESMAP Technical
+Report. Washington, DC: World Bank. Available at: https://www.esmap.org/Electr
+olyzers_for_Hydrogen_Production.
+
+[49] Bühler L, Möst D. Projecting technological advancement of electrolyzers and the
+impact on the competitiveness of hydrogen. International Journal of Hydrogen
+Energy 2025;98:1174–84. https://doi.org/10.1016/j.ijhydene.2024.12.078.
+[50] Munteanu G, Ilieva L, Andreeva D. Kinetic parameters obtained from TPR data for
+α-Fe2O3 and systems, Thermochimica Acta volume 291. Issues 1997;1–2. https://
+doi.org/10.1016/S0040-6031(96)03097-3.
+[51] Wimmers OJ, et al. Determination of the Reduction Mechanism by TemperatureProgrammed Reduction: Application to Small Fe2O3 Particles. J Phys Chem 1986;
+90. https://doi.org/10.1021/j100398a025.
+[52] Elsheikh H, Eveloy V. Assessment of variable solar- and grid electricity-driven
+power-to-hydrogen integration with direct iron ore reduction for low-carbon
+steelmaking. Fuel 2022;324:124758. https://doi.org/10.1016/j.fuel.2022.124758.
+[53] Lange H, Klose A, Lippmann W, Urbas L. Technical evaluation of the flexibility of
+water electrolysis systems to increase energy flexibility: a review. Available at:
+International Journal of Hydrogen Energy 2023;48. https://www.sciencedirect.co
+m/science/article/pii/S0360319923000459.
+[54] Cavaliere P. Clean Ironmaking and steelmaking Processes. Springer, Cham 2019.
+https://doi.org/10.1007/978-3-030-21209-4.
+[55] Parisi DR, Laborde MA. Modeling of counter current moving bed gas-solid reactor
+used in direct reduction of iron ore. Chemical Engineering Journal 2004;104:
+35–43. https://doi.org/10.1016/j.cej.2004.08.001.
+[56] Hamadeh H, Mirgaux O, Patisson F. Detailed modeling of the direct reduction of
+iron ore in a shaft furnace. Materials 2018;11:1865. https://doi.org/10.3390/
+ma11101865.
+[57] Central Electricity Authority (CEA), Government of India (2025), CO2 Baseline
+Database for the Indian Power Sector, Available at: https://cea.nic.in/wp-content/
+uploads/baseline/2025/12/User_Guide_V_21.0.pdf.
+[58] Peters MS, Timmerhaus KD, West RE. Plant Design and Economics for Chemical
+Engineers. (5th ed.). McGraw–Hill; 2003.
+[59] Chemical Engineering Magazine Chemical Engineering Plant cost Index (CEPCI)
+Available at: https://www.chemengonline.com/site/plant-cost-index(accessed
+February 21, 2026).
+[60] European Hydrogen Observatory, 2024. Electrolyser cost. Available at: Electrolyser
+cost | European Hydrogen Observatory, https://observatory.clean-hydrogen.eur
+opa.eu/sites/default/files/2024-11/The%20European%20hydrogen%20market%
+20landscape_November%202024.pdf (Accessed February 21, 2026).
+[61] Agrawal VS, Guha Roy D, Vijay Kumar V. Techno-economic assessment of solarpowered green hydrogen production in India: a case study. International Journal of
+Hydrogen Energy 2025;175:151401. https://doi.org/10.1016/j.
+ijhydene.2025.151401.
+[62] Vogl V, Åhman M, Nilsson LJ. The making of green steel in the EU: a policy
+evaluation for the early commercialization phase. Climate Policy 2021;21:78–92.
+https://doi.org/10.1080/14693062.2020.1803040.
+[63] Bhaskar A, Abhishek R, et al. Decarbonizing primary steel production: Technoeconomic assessment of a hydrogen-based green steel production plant in Norway.
+Journal of Cleaner Production 2022;350:131339. https://doi.org/10.1016/j.
+jclepro.2022.131339.
+[64] Johnson S, Deng L, Gençer E. Environmental and economic evaluation of
+decarbonization strategies for the Indian steel industry. Energy Conversion and
+Management 2023;293. https://doi.org/10.1016/j.enconman.2023.117511.
+[65] Central Electricity Regulatory Commission (CERC), 2025. Order No. 234-AT-2025.
+Available at: https://cercind.gov.in/2025/orders/234-AT-2025.pdf (Accessed
+February 21, 2026).
+[66] NMDC, Prices of iron ore https://www.nmdc.co.in/investors/financial-details/pri
+ces-of-iron-ore 2025, Available at: Accessed February 21, 2026.
+[67] Steelonthenet.com, Direct reduced iron (DRI) export prices—monthly historical
+data. Steelonthenet Ltd. Available online: https://www.steelonthenet.com/prices
+/dri.html (accessed April 2026).
+[68] Blank L, Tarquin A. Engineering Economy. 8th ed. McGraw-Hill Education; 2018.
+[69] Thang Toan Vu, Seo J, et al. Techno-economic analysis of integrated MIDREX
+process with CO2 capture and storage: evaluating sustainability and viability for
+iron production. Process Safety and Environmental Protection 2024. https://doi.
+org/10.1016/j.psep.2024.07.005.
+[70] Petroleum Planning and Analysis Cell, Natural Gas Pricing, https://ppac.gov.in/
+natural-gas/gas-price (Accessed February 21, 2026).
+[71] International Energy Agency (IEA), 2023, Indicative production costs for crude
+steel via electrolytic hydrogen-based DRI in selected regions compared to current
+references, https://www.iea.org/data-and-statistics/charts/indicative-producti
+on-costs-for-crude-steel-via-electrolytic-hydrogen-based-dri-in-selected-regions-c
+ompared-to-current-references.
+[72] Mercom India, 2025, https://www.mercomindia.com/germany-sets-price-ceilingsfor-2026-onshore-wind-and-rooftop-solar-auctions (Accessed February 27, 2026).
+[73] Malyan A., Kogekar P., Ningthoujam J. Green Hydrogen Production Pathways for
+India: Techno–economic considerations for green hydrogen project development.
+Available at: https://rmi.org/green-hydrogen-production-pathways-for-india/
+(Accessed February 21, 2026).
+[74] Institute for Energy Economics and Financial Analysis (IEEFA) India’s Renewable
+Energy Drive: Progress, Bottlenecks, and Strategic Imperatives. Available at: https
+://ieefa.org/resources/indias-renewable-energy-drive-progress-bottlenecks-and-st
+rategic-imperatives 2025, Accessed February 21, 2026.
+[75] Aurora Energy Research Hybrid PPAs in Europe: Unlocking New Value Streams,
+Available at: https://auroraer.com/resources/webinar/hybrid-ppas-in-europe-un
+locking-new-value-streams 2025 Accessed February 21, 2026.
+[76] Balance of Plant for Electrolyser (BoP), Hyfindr, https://hyfindr.com/en/hydroge
+n-knowledge/balance-of-plant-for-electrolyser-bop (Accessed February 27, 2026).
+
+11
+
+H. Kamal et al.
+
+Sustainable Energy Technologies and Assessments 93 (2026) 105278
+Climate Change, Government of India. HYPERLINK “https://eur02.safelinks.
+protection.outlook.com/?url=https%3A%2F%2Fenvironmentclearance.nic.in%
+2F&data=05%7C02%7Charis.kamal%40shell.com%
+7C0f9f1358ec464a56b06408de71063cc5%
+7Cdb1e96a8a3da442a930b235cac24cd5c%7C0%7C0%
+7C639072468915319330%7CUnknown%7CTWFpbGZsb3d8eyJFb
+XB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoi
+TWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%
+7C&sdata=IAhQXcbFs97wBjSqMWMrILWrjbrzVkYtJXvVFwF2GUU%
+3D&reserved=0” https://environmentclearance.nic.in/ (Accessed February 27,
+2026).
+[81] Sponge Iron price in India, https://www.bigmint.co/insights/detail/india-spongeiron-prices-showed-mixed-trends-amid-uneven-regional-demand-721307
+(Accessed February 27, 2026).
+
+[77] Towards a Low Carbon Steel Sector, TERI, Available at: https://www.teriin.org
+/sites/default/files/2020-02/Towards%20a%20Low%20Carbon%20Steel%20Sect
+or%20Report_0.pdf 2020, Accessed February 27, 2026.
+[78] CEEW, Decarbonising Coal-based Direct Reduced Iron Production: Surveying the
+Landscape in Steel Clusters of India., New Delhi, 2024. https://www.ceew.in/p
+ublications/how-can-india-decarbonise-coal-based-direct-reduced-iron-plants-in-s
+teel-production (Accessed February 27, 2026).
+[79] M B Sponge and Power Limited (2022) Draft environmental impact assessment report
+for expansion in existing sponge iron plant. [Online] West Bengal Pollution Control
+Board. https://www.wbpcb.gov.in/files/Mo-07-2023-07-03-32MB_Sponge_EIA.pdf
+(Accessed: 21 February 2026).
+[80] Anjar TMT Steel Private Limited. (2022). Pre-feasibility report for proposed
+greenfield metallurgical unit: 500 TPD DRI kiln and 25 MW captive power plant
+(Proposal No. IA/GJ/IND/221430/2021). Ministry of Environment, Forest and
+
+12
+
+
