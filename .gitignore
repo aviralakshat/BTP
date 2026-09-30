@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+project/venv/
+project/outputs/*.txt
+.DS_Store
+~$*.docx

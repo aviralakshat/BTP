@@ -1,0 +1,826 @@
+{
+  "_meta": {
+    "description": "Single source of truth for every numeric assumption in the DRI digital twin.",
+    "provenance_status_values": {
+      "verified": "Value read directly from the cited source text in ../data/text/.",
+      "needs_citation": "Plausible engineering default, NOT yet traced to a source in this repository. Must be cited before submission.",
+      "physical_constant": "Thermodynamic or stoichiometric constant (molar mass, standard enthalpy, Cp).",
+      "derived": "Computed by the model from other parameters; listed here only as a validation target."
+    },
+    "calibration_plant": "Dey et al. (2015), Case Studies in Thermal Engineering 6, 1-15. 30 t/h ore feed, 18.9 t/h sponge iron (453.6 TPD). Full measured material + heat balance in Tables 4-11.",
+    "units_convention": "Masses in kg per tonne of DRI unless stated. Energy in kJ internally; Gcal only for display. 1 Gcal = 4.1868e6 kJ."
+  },
+  "plant.capacity_tpd": {
+    "value": 100,
+    "unit": "t/d",
+    "min": 50,
+    "max": 600,
+    "status": "needs_citation",
+    "sensitivity": false,
+    "source": "User input. Indian sponge iron kilns are typically 100/350/500 TPD.",
+    "notes": "100 TPD is the standard Indian MSME kiln module."
+  },
+  "plant.utilization": {
+    "value": 0.9,
+    "unit": "-",
+    "min": 0.7,
+    "max": 0.95,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default.",
+    "notes": "Capacity utilisation; CEEW survey notes idling but gives no single figure."
+  },
+  "plant.operating_days": {
+    "value": 330,
+    "unit": "d/yr",
+    "min": 300,
+    "max": 345,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default (35 d/yr planned shutdown for kiln relining)."
+  },
+  "ore.fe_total_frac": {
+    "value": 0.63,
+    "unit": "kg/kg",
+    "min": 0.6,
+    "max": 0.67,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 5: Fe (total) 63%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "ore.gangue_frac": {
+    "value": 0.0406,
+    "unit": "kg/kg",
+    "min": 0.03,
+    "max": 0.08,
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 5: Gangue 4.06%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "ore.moisture_frac": {
+    "value": 0.02,
+    "unit": "kg/kg",
+    "min": 0.01,
+    "max": 0.05,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default for screened lump ore/pellets."
+  },
+  "ore.cp_kj_kgk": {
+    "value": 0.96,
+    "unit": "kJ/kg.K",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) heat balance: 'Iron ore = mCp dT = 30,000 x 0.96 x (25-0)'",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "ore.fe_loss_to_dust_frac": {
+    "value": 0.0496,
+    "unit": "kg/kg Fe in",
+    "min": 0.02,
+    "max": 0.07,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 10: Fe lost in dust 937.59 of 18,900 kg/h Fe in",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "ore.fe_other_loss_frac": {
+    "value": 0.0254,
+    "unit": "kg/kg Fe in",
+    "min": 0.0,
+    "max": 0.05,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 10: 'Other losses by difference' 479.9 of 18,900 kg/h Fe in",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dri.fe_metallic_frac": {
+    "value": 0.835,
+    "unit": "kg/kg",
+    "min": 0.8,
+    "max": 0.86,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 7: Fe (M) 83.5%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dri.feo_frac": {
+    "value": 0.1171,
+    "unit": "kg/kg",
+    "min": 0.07,
+    "max": 0.15,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 7: FeO 11.71%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dri.gangue_frac": {
+    "value": 0.0462,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 7: Gangue 4.62%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dri.carbon_frac": {
+    "value": 0.0017,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 7: Carbon 0.17%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dri.cp_kj_kgk": {
+    "value": 0.7,
+    "unit": "kJ/kg.K",
+    "status": "needs_citation",
+    "sensitivity": false,
+    "source": "Engineering default for sponge iron."
+  },
+  "dri.discharge_temp_c": {
+    "value": 1020,
+    "unit": "degC",
+    "min": 950,
+    "max": 1050,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Kiln discharge before rotary cooler."
+  },
+  "coal.rate_mode": {
+    "value": "solve",
+    "unit": "solve | specified",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Section 3.6 'Model development for coal consumption' derives the coal requirement from the kiln heat demand rather than assuming it: Qs + Qa + Qp + Qloss + mm*lambda = mc*NHV*(0.433).",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "In 'solve' mode the coal rate is whatever closes the energy balance for the given coal quality and loss set, and is then validated against CEEW's surveyed 0.9-1.6 t-coal/t-DRI band. This is the intended default: it makes coal consumption a model RESULT instead of a free input."
+  },
+  "coal.rate_t_per_t_dri": {
+    "value": 0.95,
+    "unit": "t/t DRI",
+    "min": 0.9,
+    "max": 1.6,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "TERI: 'calorific value of coal as 5200 kcal/kg, and coal to iron ratio of 0.95'. CEEW range: imported 0.9-1.1, domestic 1.4-1.6 t-coal/t-DRI.",
+    "source_file": "ENERGY-EFFICIENT TECHNOLOGY OPTIONS FOR DIRECT REDUCTION OF IRON PROCESS_TERI",
+    "notes": "Used directly only when coal.rate_mode is 'specified'. In 'solve' mode the coal rate is derived by closing the energy balance and this value becomes the starting guess plus a cross-check. 0.95 is TERI's IMPORTED-coal ratio; pairing it with Dey's domestic-grade coal analysis (23.7% ash, 5,384 kcal/kg) is internally inconsistent and leaves the energy balance ~11% short."
+  },
+  "coal.injection_share": {
+    "value": 0.356,
+    "unit": "-",
+    "min": 0.3,
+    "max": 0.45,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 10: injection 7,730 of 21,720 kg/h total coal",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.volatile_matter": {
+    "value": 0.3205,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, feed coal",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.fixed_carbon": {
+    "value": 0.4095,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, feed coal",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.total_carbon": {
+    "value": 0.606,
+    "unit": "kg/kg",
+    "min": 0.5,
+    "max": 0.68,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 6, feed coal: 'Total C (C present in V.M. and F.C.) 60.60' by ultimate analysis",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "Measured. Supersedes the FC + 0.5*VM approximation, which gives 57.0% and understates carbon by 3.6 points."
+  },
+  "coal_feed.hydrogen": {
+    "value": 0.0396,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, feed coal: H2 3.96%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.oxygen": {
+    "value": 0.0659,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, feed coal: O2 6.59%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.nitrogen": {
+    "value": 0.0115,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, feed coal: N2 1.15%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.ash": {
+    "value": 0.2374,
+    "unit": "kg/kg",
+    "min": 0.11,
+    "max": 0.35,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 6, feed coal: Ash 23.74%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.moisture": {
+    "value": 0.0326,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, feed coal: H2O 3.26%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.sulphur": {
+    "value": 0.007,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, feed coal: S 0.70%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_feed.nhv_kj_kg": {
+    "value": 22530.2,
+    "unit": "kJ/kg",
+    "min": 18840,
+    "max": 23400,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015): 'The calorific values of feed and injection coal are 22,530.2 kJ/kg and 23,362.02 kJ/kg'",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "= 5384 kcal/kg. BEE's 4500 kcal/kg is a GROSS calorific value for generic MSME coal and must not be used as a net/lower heating value."
+  },
+  "coal_inj.volatile_matter": {
+    "value": 0.3171,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.fixed_carbon": {
+    "value": 0.431,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.total_carbon": {
+    "value": 0.6221,
+    "unit": "kg/kg",
+    "min": 0.5,
+    "max": 0.68,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 6, slinger coal: Total C 62.21%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.hydrogen": {
+    "value": 0.0404,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal: H2 4.04%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.oxygen": {
+    "value": 0.0667,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal: O2 6.67%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.nitrogen": {
+    "value": 0.0119,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal: N2 1.19%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.ash": {
+    "value": 0.2129,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal: Ash 21.29%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.moisture": {
+    "value": 0.039,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal: H2O 3.9%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.sulphur": {
+    "value": 0.007,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, slinger coal: S 0.70%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal_inj.nhv_kj_kg": {
+    "value": 23362.02,
+    "unit": "kJ/kg",
+    "min": 19000,
+    "max": 24500,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015): injection coal 23,362.02 kJ/kg",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "coal.cp_kj_kgk": {
+    "value": 1.26,
+    "unit": "kJ/kg.K",
+    "status": "needs_citation",
+    "sensitivity": false,
+    "source": "Engineering default for bituminous coal."
+  },
+  "coal.devolatilization_kj_per_kg_vm": {
+    "value": 493.0,
+    "unit": "kJ/kg volatile matter",
+    "min": 300.0,
+    "max": 700.0,
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Derived from Dey et al. (2015) Table 11 item [9] 'Coal devolatization' = +0.816 Gcal/h against 6,934 kg/h volatile matter in (13,990 x 0.3205 + 7,730 x 0.3171).",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "char.rate_t_per_t_coal": {
+    "value": 0.13351,
+    "unit": "t char/t coal",
+    "min": 0.1,
+    "max": 0.18,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 10: char 2,900 kg/h against total coal 21,720 kg/h (13,990 feed + 7,730 injection).",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "Expressed per tonne of COAL, not per tonne of DRI. Dolochar is a coal residue, so tying it to DRI output makes the inert-solids balance fail whenever the coal rate moves."
+  },
+  "char.fixed_carbon": {
+    "value": 0.285,
+    "unit": "kg/kg",
+    "min": 0.15,
+    "max": 0.35,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 6, char: F.C. 28.5%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "char.volatile_matter": {
+    "value": 0.019,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, char: V.M. 1.9%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "char.ash": {
+    "value": 0.696,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 6, char: Ash 69.6%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "char.cp_kj_kgk": {
+    "value": 0.85,
+    "unit": "kJ/kg.K",
+    "status": "needs_citation",
+    "sensitivity": false,
+    "source": "Engineering default for char/ash solids."
+  },
+  "dust.rate_t_per_t_ore": {
+    "value": 0.1053,
+    "unit": "t dust/t ore",
+    "min": 0.07,
+    "max": 0.14,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 10: flue dust 3,159 kg/h against ore feed 30,000 kg/h.",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "Expressed per tonne of ORE: Table 9 shows the dust is 42.4% Fe2O3 and 35.9% SiO2+Al2O3, so it is predominantly entrained ore fines. Its 13.48% carbon is coal-derived, which is a minor inconsistency in this basis."
+  },
+  "dust.fe2o3_frac": {
+    "value": 0.424,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 9, fly ash: Fe2O3 42.4%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dust.carbon_frac": {
+    "value": 0.1348,
+    "unit": "kg/kg",
+    "min": 0.08,
+    "max": 0.2,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 9, fly ash: C 13.48%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dolomite.rate_t_per_t_dri": {
+    "value": 0.0317,
+    "unit": "t/t DRI",
+    "min": 0.02,
+    "max": 0.045,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 10: 600 kg/h at 18.9 t/h DRI. Cross-check: Vigneswaran et al. report 27 kg dolomite per t sponge iron.",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dolomite.cao_frac": {
+    "value": 0.28,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 8: CaO 28%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dolomite.mgo_frac": {
+    "value": 0.2,
+    "unit": "kg/kg",
+    "status": "verified",
+    "sensitivity": false,
+    "source": "Dey et al. (2015) Table 8: MgO 20%",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+  },
+  "dolomite.cao_cp_kj_kgk": {
+    "value": 0.92,
+    "unit": "kJ/kg.K",
+    "status": "needs_citation",
+    "sensitivity": false,
+    "source": "Engineering default."
+  },
+  "kiln.reaction_temp_c": {
+    "value": 1020,
+    "unit": "degC",
+    "min": 1000,
+    "max": 1050,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Bhardwaj et al.: 'metallization zone in the range of 1000 degC-1050 degC'",
+    "source_file": "Decarbonizing rotary kiln induction furnace based sponge iron production_Nishant Bhardwaj et al"
+  },
+  "kiln.ambient_temp_c": {
+    "value": 25,
+    "unit": "degC",
+    "status": "physical_constant",
+    "sensitivity": false,
+    "source": "Reference state for all sensible-heat terms."
+  },
+  "kiln.waste_gas_temp_c": {
+    "value": 900,
+    "unit": "degC",
+    "min": 850,
+    "max": 1000,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Kiln outlet / ABC inlet temperature."
+  },
+  "kiln.excess_air_frac": {
+    "value": 0.15,
+    "unit": "-",
+    "min": 0.05,
+    "max": 0.4,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default; Dey computes air from stoichiometric O2 demand with no explicit excess-air figure."
+  },
+  "kiln.unburnt_vm_carbon_frac": {
+    "value": 0.245,
+    "unit": "kg/kg coal C",
+    "min": 0.1,
+    "max": 0.3,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 10: 'Unburnt V.M.C. 3,258.76' of 13,286.77 kg/h coal carbon",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "Largest single carbon inefficiency in the kiln. Leaves the kiln as hydrocarbons and is post-combusted in the after-burner chamber, so it still becomes CO2 at the stack."
+  },
+  "kiln.h2_burnt_in_kiln_frac": {
+    "value": 0.785,
+    "unit": "kg/kg coal H2",
+    "min": 0.6,
+    "max": 0.95,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Section 3.3 assumptions: '1/3 of H2 from feed end coal reports to ABC as CH4'. Feed-end coal is 13,990 of 21,720 kg/h total coal (64.4%), so the unburnt share of coal hydrogen is 0.644/3 = 0.215 and the share burnt inside the kiln is 0.785.",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "Corroborated by Dey's Table 4 waste gas analysis, which finds only 0.17 vol% H2 and 0.59 vol% CH4 -- almost all coal hydrogen is oxidised by the sampling point. An earlier reading of this model derived 0.24 from the O2 demand of reaction [8] alone, which counts only injection-coal V.M. hydrogen and so understates kiln hydrogen combustion roughly threefold."
+  },
+  "kiln.co_in_waste_gas_frac": {
+    "value": 0.0364,
+    "unit": "mol/mol oxidised C",
+    "min": 0.01,
+    "max": 0.15,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 4 waste gas analysis: CO 1.32 vol%, CO2 34.91 vol%; CO/(CO+CO2) = 3.64 mol%.",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "Measured CO slip is small because Dey's sample point is downstream of post-combustion. Raise towards 0.15 to model a kiln-exit sample point."
+  },
+  "kiln.radiation_loss_frac": {
+    "value": 0.0676,
+    "unit": "- of coal NHV",
+    "min": 0.04,
+    "max": 0.11,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Dey et al. (2015) Table 11 item [10]: radiation loss 8.00 Gcal/h against coal NHV input of 118.4 Gcal/h (13,990 kg/h x 22,530.2 kJ/kg + 7,730 kg/h x 23,362.02 kJ/kg) = 6.76%. Dey takes total wall loss as twice the kiln shell loss to cover the hoods, ABC and cooler inlet.",
+    "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+    "notes": "Expressed against coal NHV, not against 'reaction heat', so the term is unambiguous. As a share of Dey's reaction heat the same 8.00 Gcal/h is 12.3%."
+  },
+  "kiln.waste_gas_cp_kj_kgk": {
+    "value": 1.15,
+    "unit": "kJ/kg.K",
+    "min": 1.05,
+    "max": 1.25,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Mean Cp of kiln waste gas over 25-900 degC."
+  },
+  "power.aux_kwh_per_t_dri": {
+    "value": 60,
+    "unit": "kWh/t DRI",
+    "min": 55,
+    "max": 100,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "CEEW: 'consumption is in the range of 55 kWh/t-DRI to 65 kWh/t-DRI'; survey also found some plants at 80-100 kWh/t-DRI",
+    "source_file": "Decarbonising Coal-based DRI Production_Kartheek Nitturu et al",
+    "notes": "Replaces the previous hardcoded 24 MWh/d, which was capacity-independent and equivalent to 267 kWh/t at 90 TPD - roughly 4x the surveyed value."
+  },
+  "power.grid_ef_t_per_mwh": {
+    "value": 0.82,
+    "unit": "t CO2/MWh",
+    "min": 0.7,
+    "max": 0.9,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Indian grid emission factor. CEA CO2 Baseline Database is the standard citation - NOT present in this repository."
+  },
+  "whr.boiler_efficiency": {
+    "value": 0.75,
+    "unit": "-",
+    "min": 0.65,
+    "max": 0.85,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default for a waste heat recovery boiler."
+  },
+  "whr.cycle_efficiency": {
+    "value": 0.25,
+    "unit": "-",
+    "min": 0.18,
+    "max": 0.3,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Rankine cycle gross efficiency at sponge-iron WHRB steam conditions."
+  },
+  "whr.stack_temp_c": {
+    "value": 200,
+    "unit": "degC",
+    "min": 150,
+    "max": 250,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "WHRB outlet / ESP inlet temperature."
+  },
+  "whr.abc_combustion_frac": {
+    "value": 0.95,
+    "unit": "-",
+    "min": 0.8,
+    "max": 1.0,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Fraction of unburnt VM carbon and CO post-combusted in the after-burner chamber ahead of the WHRB."
+  },
+  "whr.capex_inr_per_mw": {
+    "value": 60000000,
+    "unit": "INR/MW",
+    "min": 45000000,
+    "max": 80000000,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default (INR 6 crore/MW)."
+  },
+  "whr.opex_frac_of_capex": {
+    "value": 0.04,
+    "unit": "1/yr",
+    "min": 0.02,
+    "max": 0.06,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Annual O&M as a fraction of CAPEX."
+  },
+  "biomass.nhv_kj_kg": {
+    "value": 14600,
+    "unit": "kJ/kg",
+    "min": 12000,
+    "max": 18000,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Agricultural residue / raw biomass net heating value (~3500 kcal/kg)."
+  },
+  "biomass.carbon_frac": {
+    "value": 0.38,
+    "unit": "kg/kg",
+    "min": 0.35,
+    "max": 0.45,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Typical lignocellulosic residue carbon content."
+  },
+  "biomass.ash_frac": {
+    "value": 0.15,
+    "unit": "kg/kg",
+    "min": 0.02,
+    "max": 0.2,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Rice husk is at the high end of this range."
+  },
+  "biomass.moisture_frac": {
+    "value": 0.1,
+    "unit": "kg/kg",
+    "min": 0.05,
+    "max": 0.2,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Air-dried residue."
+  },
+  "biomass.char_reactivity": {
+    "value": 0.8,
+    "unit": "-",
+    "min": 0.6,
+    "max": 1.0,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Vigneswaran et al. and Bhardwaj et al. both note biochar gasifies to CO more readily than coal char; this factor scales biomass carbon's availability as a reductant.",
+    "source_file": "Pathways for decarbonizing the sponge iron industries_Vigneswaran V S et al"
+  },
+  "biomass.price_inr_per_t": {
+    "value": 4000,
+    "unit": "INR/t",
+    "min": 2500,
+    "max": 6000,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default. Fan and Friedmann quote $295-525/t for biomass, which is far above Indian agri-residue prices - do not use that range for India without justification."
+  },
+  "biomass.biogenic_co2_zero_rated": {
+    "value": 1,
+    "unit": "boolean",
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "IPCC convention: biogenic CO2 is reported separately from fossil CO2 and scored as zero in the fossil total. This is an ACCOUNTING CHOICE - set to 0 to see gross stack CO2."
+  },
+  "biomass.max_substitution_frac": {
+    "value": 0.3,
+    "unit": "-",
+    "min": 0.1,
+    "max": 0.4,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Upper bound imposed by kiln flame stability and biomass bulk density."
+  },
+  "hydrogen.nhv_kj_kg": {
+    "value": 119960,
+    "unit": "kJ/kg",
+    "status": "physical_constant",
+    "sensitivity": false,
+    "source": "Lower heating value of H2 = 119.96 MJ/kg (28,660 kcal/kg)."
+  },
+  "hydrogen.price_inr_per_kg": {
+    "value": 305,
+    "unit": "INR/kg",
+    "min": 170,
+    "max": 440,
+    "status": "verified",
+    "sensitivity": true,
+    "source": "Hall et al. (TERI): 'India, of around $3.5/kg, DRI from a hydrogen rotary kiln would be close to competitive'. Converted at INR 87/USD.",
+    "source_file": "Hydrogen Rotary Kilns for Ironmaking in India_Will Hall et al"
+  },
+  "hydrogen.ef_t_per_t": {
+    "value": 0.0,
+    "unit": "t CO2/t H2",
+    "min": 0.0,
+    "max": 10.0,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Green (electrolytic, RE-powered) hydrogen assumed. Grey SMR hydrogen would be ~9-10 t CO2/t H2 - change this to test a grey-H2 sensitivity."
+  },
+  "hydrogen.max_substitution_frac": {
+    "value": 0.3,
+    "unit": "-",
+    "min": 0.1,
+    "max": 1.0,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Retrofit limit for an existing kiln. Full H2-DR needs 53.5-59.6 kg H2/t DRI (Kamal et al.), which is a greenfield shaft-furnace case, not a kiln retrofit."
+  },
+  "econ.ore_price_inr_per_t": {
+    "value": 6000,
+    "unit": "INR/t",
+    "min": 4000,
+    "max": 9000,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default; NMDC lump ore price is the standard reference."
+  },
+  "econ.coal_price_inr_per_t": {
+    "value": 8000,
+    "unit": "INR/t",
+    "min": 5000,
+    "max": 16000,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default for imported non-coking coal landed cost."
+  },
+  "econ.dolomite_price_inr_per_t": {
+    "value": 1500,
+    "unit": "INR/t",
+    "min": 800,
+    "max": 2500,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default."
+  },
+  "econ.power_tariff_inr_per_kwh": {
+    "value": 7.0,
+    "unit": "INR/kWh",
+    "min": 5.0,
+    "max": 9.0,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Industrial HT tariff. State-specific; cite the relevant SERC tariff order."
+  },
+  "econ.export_tariff_inr_per_kwh": {
+    "value": 4.0,
+    "unit": "INR/kWh",
+    "min": 2.5,
+    "max": 6.0,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Surplus WHR power exported to the grid / sold via open access. Lower than the import tariff, which is why self-consumption is credited first."
+  },
+  "econ.char_credit_inr_per_t": {
+    "value": 1200,
+    "unit": "INR/t",
+    "min": 0,
+    "max": 2500,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Dolochar sold to AFBC captive power plants and brick makers."
+  },
+  "econ.fixed_opex_inr_per_day": {
+    "value": 50000,
+    "unit": "INR/d",
+    "min": 25000,
+    "max": 150000,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Engineering default: labour, maintenance, refractory, overheads for a 100 TPD kiln.",
+    "notes": "Should scale with capacity; currently capacity-independent."
+  },
+  "econ.discount_rate": {
+    "value": 0.11,
+    "unit": "1/yr",
+    "min": 0.08,
+    "max": 0.15,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Weighted average cost of capital for an Indian secondary steel producer."
+  },
+  "econ.project_life_yr": {
+    "value": 20,
+    "unit": "yr",
+    "min": 10,
+    "max": 25,
+    "status": "needs_citation",
+    "sensitivity": true,
+    "source": "Retrofit economic life."
+  }
+}
