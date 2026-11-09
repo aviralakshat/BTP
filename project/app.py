@@ -18,15 +18,15 @@ import streamlit as st
 
 sys.path.insert(0, os.path.dirname(__file__))
 
+from src.analysis.scenarios import (CO2_TARGETS, evaluate, h2_breakeven_price,
+                                    least_cost, pareto_front, pathway_grid)
 from src.data.parameters import GCAL_PER_KJ, Parameters
 from src.economics.economics import EconomicsModel
 from src.emissions.co2_model import CO2Model
 from src.models.energy_balance import EnergyBalance
 from src.models.mass_balance import MassBalance
 from src.models.plant import build_plant
-from src.retrofits.biomass import Biomass
 from src.retrofits.hydrogen import Hydrogen
-from src.retrofits.whr import WHR
 from src.ui import charts
 from src.ui import components as ui
 from src.ui import theme as T
@@ -85,7 +85,7 @@ overrides.update(SCENARIOS[scenario])
 
 st.sidebar.markdown("### Plant Configuration")
 capacity = st.sidebar.select_slider(
-    "Rated Capacity", [50, 100, 175, 350, 500, 600], value=100,
+    "Rated Capacity", [50, 100, 175, 200, 350, 500, 600], value=100,
     format_func=lambda v: f"{v} TPD")
 utilization = st.sidebar.slider(
     "Capacity Utilisation", 0.50, 0.95, float(defaults["plant.utilization"]),
@@ -151,53 +151,44 @@ def validate(overrides_key: tuple, capacity_tpd: int, util: float) -> dict:
     return result
 
 
+def _row(r: dict) -> dict:
+    """Flatten one evaluated scenario into a cacheable table row."""
+    return {"label": r["label"], "whr": r["whr"],
+            "biomass_frac": r["biomass_frac"], "h2_frac": r["h2_frac"],
+            "feasible": r["feasible"],
+            "reductant_carbon_ratio": r["reductant_carbon_ratio"],
+            "co2_t_per_t_dri": r["co2"]["co2_total_t_per_t_dri"],
+            "co2_reduction_frac": r["co2_reduction_frac"],
+            "cost_per_t_dri": r["econ"]["cost_per_t_dri"],
+            "cost_delta_inr_per_t_dri": r["cost_delta_inr_per_t_dri"],
+            "abatement_cost_inr_per_t_co2": r["abatement_cost_inr_per_t_co2"],
+            "capex_inr": r["capex_inr"], "payback_yr": r["payback_yr"],
+            "econ": {"cost_per_t_dri": r["econ"]["cost_per_t_dri"]}}
+
+
+@st.cache_data(show_spinner="Running Every Retrofit Combination", max_entries=24)
+def pathways(overrides_key: tuple, capacity_tpd: int, util: float) -> dict:
+    p = Parameters().with_overrides(dict(overrides_key))
+    pl = build_plant(p, capacity_tpd, util)
+    e = EnergyBalance(pl).calculate_balance()
+    rows = [_row(r) for r in pathway_grid(pl, e)]
+    h2_kg = {f: Hydrogen(pl, f).calculate_impact()["h2_required_kg_per_t_dri"]
+             for f in sorted({r["h2_frac"] for r in rows if r["h2_frac"] > 0})}
+    return {"rows": rows, "h2_kg": h2_kg,
+            "h2_breakeven": h2_breakeven_price(pl),
+            "h2_price": p["hydrogen.price_inr_per_kg"]}
+
+
 params = defaults.with_overrides(overrides)
 _key = tuple(sorted(overrides.items()))
 _solved = solve(_key, capacity, utilization)
 plant, eb, mb = _solved["plant"], _solved["energy"], _solved["mass"]
 
 aux = params["power.aux_kwh_per_t_dri"]
-net_import, export, capex, capex_opex = aux, 0.0, 0.0, 0.0
-extra_opex, fossil_offset, biogenic_c, extra_scope2 = 0.0, 0.0, 0.0, 0.0
-retrofits: dict[str, dict] = {}
-warnings: list[str] = []
-
-if whr_on:
-    r = WHR(plant).calculate_impact(eb)
-    retrofits["Waste Heat Recovery"] = r
-    net_import, export = r["net_import_kwh_per_t_dri"], r["export_kwh_per_t_dri"]
-    capex += r["capex_inr"]
-    capex_opex += r["annual_opex_inr"]
-if biomass_pct > 0:
-    r = Biomass(plant, biomass_pct).calculate_impact()
-    retrofits["Biomass Substitution"] = r
-    extra_opex += r["opex_delta_inr_per_t_dri"]
-    fossil_offset += r["fossil_carbon_removed_kg_per_t_dri"]
-    biogenic_c += r["biogenic_carbon_to_gas_kg_per_t_dri"]
-    if not r["reductant_carbon_adequate"]:
-        warnings.append(
-            f"Biomass at {biomass_pct:.0%} leaves a reductant carbon ratio of "
-            f"{r['reductant_carbon_ratio']:.2f}. Below 1.0 there is not enough "
-            "carbon to strip the oxygen from the burden.")
-if h2_pct > 0:
-    r = Hydrogen(plant, h2_pct).calculate_impact()
-    retrofits["Hydrogen Substitution"] = r
-    extra_opex += r["opex_delta_inr_per_t_dri"]
-    fossil_offset += r["fossil_carbon_removed_kg_per_t_dri"]
-    extra_scope2 += r["h2_supply_co2_t_per_t_dri"]
-    if not r["reductant_carbon_adequate"]:
-        warnings.append(
-            f"Hydrogen at {h2_pct:.0%} leaves a reductant carbon ratio of "
-            f"{r['reductant_carbon_ratio']:.2f}.")
-
-co2 = CO2Model(plant).calculate_emissions(
-    net_power_import_kwh_per_t=net_import, biogenic_carbon_kg_per_t=biogenic_c,
-    fossil_carbon_offset_kg_per_t=fossil_offset,
-    extra_scope2_t_per_t=extra_scope2)
-econ = EconomicsModel(plant).calculate_economics(
-    net_power_import_kwh_per_t=net_import, power_export_kwh_per_t=export,
-    extra_opex_inr_per_t=extra_opex, capex_inr=capex,
-    capex_opex_inr_per_yr=capex_opex)
+scenario_result = evaluate(plant, eb, whr_on, biomass_pct, h2_pct)
+co2, econ = scenario_result["co2"], scenario_result["econ"]
+retrofits, warnings = scenario_result["retrofits"], scenario_result["warnings"]
+net_import, capex = scenario_result["net_import_kwh_per_t_dri"], scenario_result["capex_inr"]
 
 # Retrofit-free reference for every delta shown.
 base_key = tuple(sorted(
@@ -234,8 +225,8 @@ if not eb["is_valid"]:
     st.error(f"Energy balance does not close: "
              f"{eb['closure_error_percent']:.2f}%.", icon="■")
 
-tabs = st.tabs(["Overview", "Mass & Energy", "Emissions", "Economics",
-                "Validation", "Parameters"])
+tabs = st.tabs(["Overview", "Retrofit Pathways", "Mass & Energy", "Emissions",
+                "Economics", "Validation", "Parameters"])
 
 # ===========================================================================
 # Overview
@@ -317,9 +308,113 @@ with tabs[0]:
                    "against this baseline.")
 
 # ===========================================================================
-# Mass & Energy
+# Retrofit Pathways
 # ===========================================================================
 with tabs[1]:
+    pw = pathways(_key, capacity, utilization)
+    grid = pw["rows"]
+    front = pareto_front(grid)
+    feasible = [r for r in grid if r["feasible"]]
+    max_cut = max((r["co2_reduction_frac"] for r in feasible), default=0.0)
+
+    c = st.columns(4)
+    with c[0]:
+        ui.stat_tile("Combinations Run", str(len(grid)))
+    with c[1]:
+        ui.stat_tile("Feasible", str(len(feasible)), "reductant carbon ≥ 1")
+    with c[2]:
+        ui.stat_tile("Deepest Feasible Cut", f"{max_cut:.0%}", "of baseline CO2")
+    with c[3]:
+        ui.stat_tile("H2 Break-Even", T.rupees(pw["h2_breakeven"]), "/ kg",
+                     delta=0.0, delta_text=f"against {T.rupees(pw['h2_price'])}/kg assumed")
+
+    ui.section("Decarbonisation Roadmap",
+               "Cheapest feasible combination that reaches each CO2 target. "
+               "Each row is re-solved with every retrofit acting together, not "
+               "by adding the single-retrofit reductions.")
+    roadmap = []
+    for t in CO2_TARGETS:
+        r = least_cost(grid, t)
+        roadmap.append({
+            "Target": f"{t:.0%}",
+            "Least-Cost Combination": r["label"] if r else "Not reachable",
+            "CO2 Cut": f"{r['co2_reduction_frac']:.1%}" if r else "",
+            "Change INR / t DRI": f"{r['cost_delta_inr_per_t_dri']:+,.0f}" if r else "",
+            "Abatement INR / t CO2": (f"{r['abatement_cost_inr_per_t_co2']:+,.0f}"
+                                      if r and r["abatement_cost_inr_per_t_co2"]
+                                      is not None else ""),
+            "CAPEX": T.rupees(r["capex_inr"], compact_form=True) if r and r["capex_inr"] else "",
+            "Payback (yr)": (f"{r['payback_yr']:.1f}" if r and r["payback_yr"]
+                             and r["payback_yr"] < 50 else ""),
+        })
+    st.dataframe(pd.DataFrame(roadmap), width="stretch", hide_index=True)
+    if max_cut < max(CO2_TARGETS):
+        st.caption(f"Targets above {max_cut:.0%} are not reachable within the "
+                   "configured substitution caps (biomass.max_substitution_frac, "
+                   "hydrogen.max_substitution_frac) without starving the bed of "
+                   "reductant carbon.")
+
+    ui.section("Cost Against CO2 Reduction",
+               "Every combination of waste heat recovery, biomass at 0 to 20% and "
+               "hydrogen at 0 to 30%. The line is the least-cost frontier.")
+    st.plotly_chart(charts.abatement_curve(grid, front), config=PLOT_CONFIG)
+    table(pd.DataFrame([{
+        "Combination": r["label"],
+        "Feasible": "Yes" if r["feasible"] else "No",
+        "Reductant Carbon Ratio": round(min(r["reductant_carbon_ratio"], 99), 2),
+        "CO2 t / t DRI": round(r["co2_t_per_t_dri"], 3),
+        "CO2 Cut %": round(r["co2_reduction_frac"] * 100, 1),
+        "Cost INR / t DRI": round(r["cost_per_t_dri"]),
+        "Change INR / t DRI": round(r["cost_delta_inr_per_t_dri"]),
+        "Abatement INR / t CO2": (None if r["abatement_cost_inr_per_t_co2"] is None
+                                  else round(r["abatement_cost_inr_per_t_co2"])),
+        "CAPEX INR": round(r["capex_inr"]),
+    } for r in sorted(grid, key=lambda r: r["co2_reduction_frac"])]))
+
+    ui.section("Hydrogen Price Sensitivity",
+               f"Hydrogen is substituted energy-for-energy against coal, so the "
+               f"break-even price is the same at every level: "
+               f"{T.rupees(pw['h2_breakeven'])}/kg at the configured coal price. "
+               "Higher substitution only steepens the line.")
+    be = pw["h2_breakeven"]
+    prices = list(range(25, 425, 25))
+    levels = [f for f in pw["h2_kg"] if f in (0.10, 0.20, 0.30)]
+    h2_rows = [{"level": f, "price": P, "delta": pw["h2_kg"][f] * (P - be)}
+               for f in levels for P in prices]
+    st.plotly_chart(charts.h2_price_lines(h2_rows), config=PLOT_CONFIG)
+    table(pd.DataFrame([{"H2 Substitution": f"{r['level']:.0%}",
+                         "H2 Price INR / kg": r["price"],
+                         "Change INR / t DRI": round(r["delta"])}
+                        for r in h2_rows]))
+
+    ui.section("Plant Scale",
+               "The same least-cost search at each rated capacity, at the "
+               "utilisation set in the control panel.")
+    scale_rows = []
+    for cap in (100, 200, 350, 500):
+        g = pathways(_key, cap, utilization)["rows"]
+        row = {"Capacity": f"{cap} TPD"}
+        for t in (0.20, 0.40, 0.60):
+            r = least_cost(g, t)
+            row[f"{t:.0%} Target"] = (
+                f"{r['label']} ({r['cost_delta_inr_per_t_dri']:+,.0f} INR/t)"
+                if r else "Not reachable")
+        scale_rows.append(row)
+    st.dataframe(pd.DataFrame(scale_rows), width="stretch", hide_index=True)
+
+    st.caption(
+        "Read these with the model's stated limits. Waste heat recovery "
+        "generation overshoots the literature by 20 to 30% (see Validation), so "
+        "WHR savings are optimistic. Biomass handling and hydrogen supply "
+        "systems carry no CAPEX yet, so their costs are operating costs only. "
+        "WHR CAPEX is linear in MW and fixed cost does not scale with capacity, "
+        "so the plant-scale table shows no economy of scale yet. Process "
+        "optimisation and syngas are not modelled.")
+
+# ===========================================================================
+# Mass & Energy
+# ===========================================================================
+with tabs[2]:
     ui.section("Mass Flow", "Kilograms per tonne of DRI. Combustion air and "
                             "waste gas dominate the flow, as they do in a real "
                             "kiln.")
@@ -367,7 +462,7 @@ with tabs[1]:
 # ===========================================================================
 # Emissions
 # ===========================================================================
-with tabs[2]:
+with tabs[3]:
     c = st.columns(4)
     with c[0]:
         ui.stat_tile("Direct, Stack", f"{co2['co2_direct_t_per_t_dri']:.3f}",
@@ -402,7 +497,7 @@ with tabs[2]:
 # ===========================================================================
 # Economics
 # ===========================================================================
-with tabs[3]:
+with tabs[4]:
     c = st.columns(4)
     with c[0]:
         ui.stat_tile("Total Cost", T.rupees(econ["cost_per_t_dri"]), "/ t DRI")
@@ -431,7 +526,7 @@ with tabs[3]:
 # ===========================================================================
 # Validation
 # ===========================================================================
-with tabs[4]:
+with tabs[5]:
     c = st.columns(4)
     for col, key in zip(c, ("PASS", "WARN", "FAIL", "INFO")):
         style = T.VERDICT[key]
@@ -460,7 +555,7 @@ with tabs[4]:
 # ===========================================================================
 # Parameters
 # ===========================================================================
-with tabs[5]:
+with tabs[6]:
     summary = params.provenance_summary()
     c = st.columns(4)
     with c[0]:

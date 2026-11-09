@@ -8,6 +8,8 @@ Forms are chosen by the data's job, not by variety:
   Energy ledger      magnitude by group -> grouped horizontal bar
   Validation         one ratio against a limit -> meter, band track + marker
   Scenario delta     before -> after per item -> dumbbell, one hue two shades
+  Pathways           cost against CO2 cut -> scatter + Pareto frontier line
+  H2 price           cost delta against H2 price, per level -> lines, fixed slots
 
 Every builder returns a Plotly figure and every chart in app.py ships a
 table-view twin, which is how the palette's sub-3:1 contrast warning on the
@@ -290,3 +292,69 @@ def scenario_dumbbell(metrics: list[dict]) -> go.Figure:
     fig.update_xaxes(title="Indexed to Baseline = 100", ticksuffix="")
     fig.update_yaxes(showgrid=False, tickfont=dict(color=T.INK_SECONDARY, size=12))
     return _layout(fig, 40 * len(metrics) + 120)
+
+
+# ---------------------------------------------------------------------------
+def abatement_curve(rows: list[dict], front: list[dict]) -> go.Figure:
+    """Every retrofit combination, cost change against CO2 cut.
+
+    Feasibility is carried by marker shape as well as shade: an open square is a
+    combination that starves the bed of reductant carbon. The Pareto frontier
+    is drawn as a line and labelled directly.
+    """
+    fig = go.Figure()
+    for feasible, name, symbol, color in (
+            (True, "Feasible", "circle", T.BLUE[250]),
+            (False, "Reductant-Starved", "square-open", T.INK_MUTED)):
+        sel = [r for r in rows if r["feasible"] is feasible]
+        if not sel:
+            continue
+        fig.add_trace(go.Scatter(
+            x=[r["co2_reduction_frac"] * 100 for r in sel],
+            y=[r["cost_delta_inr_per_t_dri"] for r in sel],
+            mode="markers", name=name,
+            marker=dict(size=9, symbol=symbol, color=color,
+                        line=dict(color=T.SURFACE if feasible else color,
+                                  width=1)),
+            customdata=[r["label"] for r in sel],
+            hovertemplate="<b>%{customdata}</b><br>%{x:.1f}% CO2 cut<br>"
+                          "INR %{y:+,.0f} per t DRI<extra></extra>"))
+    fig.add_trace(go.Scatter(
+        x=[r["co2_reduction_frac"] * 100 for r in front],
+        y=[r["cost_delta_inr_per_t_dri"] for r in front],
+        mode="lines+markers+text", name="Least-Cost Frontier",
+        line=dict(color=T.BLUE[650], width=2),
+        marker=dict(size=11, color=T.BLUE[650],
+                    line=dict(color=T.SURFACE, width=2)),
+        text=[r["label"] for r in front], textposition="top left",
+        textfont=dict(color=T.INK_SECONDARY, size=11),
+        customdata=[r["label"] for r in front],
+        hovertemplate="<b>%{customdata}</b><br>%{x:.1f}% CO2 cut<br>"
+                      "INR %{y:+,.0f} per t DRI<extra></extra>"))
+    fig.add_hline(y=0, line_width=1, line_color=T.BASELINE)
+    fig.update_xaxes(title="CO2 Reduction Against Baseline (%)", rangemode="tozero")
+    fig.update_yaxes(title="Change in Cost (INR per Tonne DRI)", tickformat=",.0f")
+    return _layout(fig, 480)
+
+
+def h2_price_lines(rows: list[dict]) -> go.Figure:
+    """Cost change against hydrogen price, one line per substitution level."""
+    levels = sorted({r["level"] for r in rows})
+    fig = go.Figure()
+    for i, lvl in enumerate(levels):
+        sel = [r for r in rows if r["level"] == lvl]
+        fig.add_trace(go.Scatter(
+            x=[r["price"] for r in sel], y=[r["delta"] for r in sel],
+            mode="lines", name=f"H2 {lvl:.0%}",
+            line=dict(color=T.SERIES[i % 4], width=2.5),
+            hovertemplate=f"<b>H2 {lvl:.0%}</b><br>INR %{{x:,.0f}}/kg<br>"
+                          "INR %{y:+,.0f} per t DRI<extra></extra>"))
+        last = sel[-1]
+        fig.add_annotation(x=last["price"], y=last["delta"],
+                           text=f"H2 {lvl:.0%}", showarrow=False,
+                           xanchor="left", xshift=6,
+                           font=dict(color=T.INK_SECONDARY, size=11))
+    fig.add_hline(y=0, line_width=1, line_color=T.BASELINE)
+    fig.update_xaxes(title="Hydrogen Price (INR per kg)", tickformat=",.0f")
+    fig.update_yaxes(title="Change in Cost (INR per Tonne DRI)", tickformat=",.0f")
+    return _layout(fig, 400, margin=dict(l=8, r=64, t=8, b=8))
