@@ -1,0 +1,1670 @@
+ FORGING
+TRANSITION
+   Decarbonizing the Indian Iron
+  and Steel Sector through Energy
+             Efficiency
+
+
+
+
+                                    1
+ FORGING
+TRANSITION
+   Decarbonizing the Indian Iron
+  and Steel Sector through Energy
+             Efficiency
+Research direction: Parth Kumar
+
+Author: Sayantan Haldar and Parth Kumar
+
+Editor: Archana Shankar
+
+Cover and design: Ajit Bajaj
+
+Layout: Kirpal Singh
+
+Production: Rakesh Shrivastava and Gundhar Das
+
+
+
+
+Acknowledgement: We are grateful to the following experts for their
+invaluable inputs:
+Rajesh Kumar Vijayavergian, Ex Executive Director (Operations), Steel
+Authority of India Limited
+Maruti Prasad T., General Manager SMS-2, Mechanical, JSW Steel Ltd
+
+
+
+
+© 2026 Centre for Science and Environment
+
+Material from this publication can be used, but with acknowledgement.
+
+Citation: Parth Kumar and Sayantan Haldar 2026, Forging Transition: Decarbonizing the Indian
+Iron and Steel Sector through Energy Efficiency, Centre for Science and Environment, New Delhi
+
+Published by
+Centre for Science and Environment
+41, Tughlakabad Institutional Area
+New Delhi 110 062
+Phone: 91-11-40616000
+E-mail: cse@cseindia.org
+Website: www.cseindia.org
+                    CONTENTS
+
+                       List of abbreviations 7
+                     EXECUTIVE SUMMARY 8
+                       1. INTRODUCTION 10
+                       2. SECTOR PROFILE 11
+               2.1 Production scale and structure 11
+                2.2 Specific energy consumption 12
+                          2.3 Emissions 12
+               3. DECARBONIZATION PATHWAYS 14
+                    3.1 Overview of pathways 14
+     3.2 Role of energy-efficient technologies for decarbonizing
+                 the iron and steel sector in India 15
+                       4. METHODOLOGY 16
+                      4.1 Key assumptions 16
+                         4.2 Limitations 17
+            5. ENERGY-EFFICIENCY TECHNOLOGIES 18
+            5.1 Integrated BF-BOF route technologies 18
+          5.2 Coal-based DRI (rotary kiln) technologies 21
+           5.3 EAF and EIF steelmaking technologies 23
+5.4 Shared auxiliaries in electric arc and induction furnace plants 24
+
+
+
+
+                                                                         5
+    FORGING TRANSITION
+
+
+
+
+                     6. SECTOR-WIDE REDUCTION POTENTIAL 27
+           7. POLICY CONTEXT AND IMPLICATIONS: CCTS AND GEI TARGETS
+                     FOR THE INDIAN IRON AND STEEL SECTOR 28
+               8. COST ANALYSIS AND FINANCING OPPORTUNITIES 31
+                      8.1 Payback period and economic viability 31
+                             8.2 Barriers to investment 33
+             8.3 Major financing mechanisms for adoption of energy-efficient
+                                    technologies 33
+                                  9. CONCLUSION 36
+                                   REFERENCES 37
+
+
+
+
+6
+LIST OF ABBREVIATIONS
+AFR      Alternative fuels and raw material
+BAU      Business as usual
+BEE      Bureau of Energy Efficiency
+BF-BOF   Blast furnace—basic oxygen furnace
+CCC      Carbon Credit Certificate
+CCTS     Carbon Credit Trading Scheme
+CCUS     Carbon Capture, Utilization and Storage
+CO       Carbon dioxide
+DRI      Direct reduced iron
+EAF      Electric arc furnace
+EE       Energy efficiency
+ESCert   Energy Savings Certificate
+ESCO     Energy Service Company
+GEI      Greenhouse Gas Emission Intensity
+GHG      Greenhouse gas
+HPGR     High pressure grinding roller
+IF       Induction furnace
+kg       Kilogram
+MoEFCC   Ministry of Environment, Forest & Climate Change
+MTOE     Million tonnes of oil equivalent
+MTPA     Million tonnes per annum
+PAT      Perform, Achieve and Trade
+PCI      Pulverized coal injection
+SEC      Specific energy consumption
+SIDBI    Small Industries Development Bank of India
+TPD      Tonnes per day
+TRT      Top-pressure recovery turbine
+UHP      Ultra-High Power
+VFD      Variable Frequency Drive
+WHR      Waste Heat Recovery
+WHRS     Waste Heat Recovery System
+YoY      Year-on-year
+
+
+
+
+                                                            7
+    FORGING TRANSITION
+
+
+
+
+       EXECUTIVE SUMMARY
+       India is the world’s second largest producer of crude steel. In FY 2023–24, the
+       country had a crude steel capacity of 179.5 million tonnes per annum (MTPA)
+       and produced 144.3 million tonnes (MT) from an industry that contributes about
+       2 per cent of national GDP and provides direct and indirect employment to some
+       2.6 million people. Under the National Steel Policy 2017, the sector is expected to
+       reach 300 MTPA of capacity by 2030, with per capita consumption rising from
+       98 kg to approximately 160 kg over the same period. The sector is also among the
+       most carbon-intensive in the country, with an average emission intensity of 2.54
+       tonnes of CO2 per tonne of crude steel.
+
+       Indian steel emitted approximately 366.52 million tonnes of CO2 in FY 2023–24,
+       which represents 10–12 per cent of the country’s total CO2 emissions. A major
+       part of the emissions in Indian steelmaking are energy-related, arising from the
+       combustion of coal and coke for heat and chemical reduction and from electricity
+       use in furnaces, mills and auxiliaries. Emission intensity in this sector is therefore
+       directly addressable through energy-efficiency measures.
+
+       Multiple decarbonization pathways are available for the sector, including increasing
+       energy efficiency, increasing scrap use, renewable electricity integration, green
+       hydrogen-based ironmaking, and carbon capture, utilization and storage (CCUS).
+       For India to achieve net zero by 2070, efforts to widely adopt all these pathways
+       will be required.
+
+       While most of these technologies will require more time to achieve technological
+       maturity and economic viability, energy efficiency remains a distinct pathway.
+       Energy-efficient technologies are commercially proven, and they can be deployed
+       at the earliest. These measures reduce energy costs, thereby covering the cost
+       of installation after a certain period of time. In the past, the Perform, Achieve
+       and Trade scheme prompted large integrated producers to implement some
+       energy-efficiency improvement measures, but there is still substantial scope for
+       improvements. Benchmarking studies indicate a gap of 30–42 per cent between
+       average Indian plant performance and global best practice.
+
+       Out of the several technologies available for energy efficiency, this study assesses
+       15 commercially available and emerging technologies based on their potential
+       to reduce energy consumption and subsequent CO2 emissions across the blast
+       furnace and basic oxygen furnace route, the coal-based DRI route and electric
+
+
+8
+arc and induction furnace steelmaking. For each, the report quantifies the further
+reduction available from extending the technology across capacity that does not
+have it. It finds that complete deployment to that remaining potential would
+reduce the sector’s average emission intensity by 0.150–0.241 tCO2 per tonne of
+crude steel, bringing it from 2.54 to approximately 2.30–2.39, and would reduce
+overall sectoral emissions by 21.58–34.75 MT, or 5.9–9.5 per cent of the country’s
+average emission intensity for the sector. The potential is concentrated: blast
+furnace ironmaking and coal-based DRI together account for roughly 85 per cent
+of it, and five technologies carry about two-thirds. The study also sets out the
+indicative capital cost and payback period for each technology. These are tentative
+estimates and actual figures will vary case by case, but they show that the cost
+of 11 out of the 13 technologies (for which a payback figure is available) can be
+recovered within two years.
+
+The findings indicate that the targets assigned to the sector under the Carbon
+Credit Trading Scheme can be met through the adoption of these technologies. The
+second draft notification for iron and steel greenhouse emission target, published
+in June 2026, covers 255 obligated entities and requires a 5.82 per cent reduction
+in greenhouse gas emission intensity by FY 2026–27 on average across the sector.
+
+This study shows a reduction potential of 5.9–9.5 per cent through energy efficiency
+alone. The margin at the lower end of that range is narrow, and it is realized only
+by the sector that actually installs the equipment rather than the sector that could.
+This report demonstrates that the immediate compliance obligation can be met
+with energy-efficiency improvement technologies that are available today, without
+recourse to hydrogen, carbon capture or any change of feedstock or process route.
+
+
+
+
+                                                                                        9
+     FORGING TRANSITION
+
+
+
+
+        1. Introduction
+        Iron is a key element that has played a major role in the advancement of human
+        civilization. Through the ages, it has contributed as the foundation for modernizing
+        human society. Steel, an alloy of iron, is used extensively due to its strength and
+        abundance in infrastructure, housing, transportation, capital goods, machinery,
+        defence and space equipment. Its demand is closely tied to GDP growth. However,
+        extraction of iron from its ore is energy intensive.
+
+        As countries around the world industrialize and urbanize, demand for steel will
+        continue to rise through this century. For a country like India, extensive growth
+        plans with new infrastructure and manufacturing industries will continue to drive
+        the demand for iron and steel manufacturing in the coming years. The National
+        Steel Policy (2017) suggests that based on current trends, steel consumption on a
+        per capita basis will increase from approximately 90 kg to approximately 160 kg
+        by 2030.1 India’s growth trajectory will clash directly with the emissions reduction
+        commitments made under the Nationally Determined Contribution (NDC) goals
+        of 47 per cent reduction in emissions intensity from 2005 levels by 2035 and
+        achieving net zero emissions by 2070.2 To meet these targets, decarbonizing hard-
+        to-abate sectors will play a key role and iron and steel is an important industry that
+        will require focus.
+
+        The iron and steel sector is structurally complex, especially since it encompasses
+        multiple distinct production routes with fundamentally different emission profiles,
+        energy inputs and efficiency improvement pathways. This report therefore
+        explores energy-efficiency pathways route by route, treating the blast furnace (BF)
+        ironmaking system, coal-based direct reduced iron (DRI) system, basic oxygen
+        furnace (BOF) steelmaking system, electric arc furnace (EAF) and electric induction
+        furnace (EIF) steelmaking system, and the common rolling and utilities systems as
+        separate analytical units.
+
+
+
+
+10
+2. Sector profile
+
+2.1 Production scale and structure
+Iron and steel production is responsible for 7–9 per cent of total global greenhouse
+gas emissions (GHG) emissions.3 India is the second-largest producer of crude
+steel in the world and therefore plays a significant role in shaping global industrial
+trends. The sector accounts for 2 per cent of India’s GDP and provides direct and
+indirect employment to around 2.6 million people.4 According to the Ministry of
+Steel, Government of India, as of Financial Year 2023–24, the country possesses a
+total crude steel production capacity of 179.5 MTPA and produced 144.299 MT.5
+
+Despite the prowess, per capita steel consumption remains relatively low at 98 kg
+(FY 2025), and is expected to rise to 160 kg by 2030.6 In 2017, the Government of
+India introduced the National Steel Policy to achieve a production target of 300
+MTPA by 2030.7 Since 2024, India has been a net importer of steel, with a steady
+increase in domestic demand. As the market grows, domestic steel companies will
+establish more production units.
+
+The steel industry in India consists of both large integrated companies and smaller
+businesses. The distribution is highly heterogeneous, with over 1,091 crude steel-
+producing units and more than 1,200 re-rolling mills downstream.8 The composition
+of crude steel production is broadly classified into blast furnace—basic oxygen
+furnace (BF-BOF) at approximately 42.7 per cent, electric induction furnaces (EIF)
+at approximately 35.4 per cent, and electric arc furnaces (EAF) routes at 21.9 per
+cent (see Table 19 for a broad distribution of the pathways).
+
+Table 1: Product-wise production capacity, actual production and share of
+sector production
+ Sector        End product/type of industry                           Capacity        Actual production       Share of sector
+                                                                      (MT)            FY 2023–24 (MT)         production (%)
+ Iron          Blast furnace—hot metal                                95.80           87.04                   62.8
+               Blast furnace—pig iron                                                 7.36                    5.3
+               DRI/sponge iron producers—coal based                   48.20           41.80                   30.2
+               DRI/sponge iron producers—gas based                    12.30           9.80                    7.1
+               Sector total                                           156.30          138.64                   –
+ Crude         Electric arc furnace (large and small)                 39.50           31.61                   21.9
+ steel
+               Induction furnace                                      68.80           51.08                   35.4
+               Basic oxygen furnace                                   71.20           61.61                   42.7
+               Sector total                                           179.50          144.30                    –
+Source: Greening the steel sector in India: Roadmap and action plan, Ministry of Steel, Government of India
+
+                                                                                                                                11
+     FORGING TRANSITION
+
+
+
+
+        While global DRI production is predominantly gas-based, India’s DRI sector is
+        highly dependent on coal, with a production capacity of approximately 52 MTPA.
+        The sector sees extensive use of rotary kilns and typically has a capacity between 100
+        and 500 tonnes per day (TPD). This distribution adds up to India’s steel emission
+        profile and sets it apart from every other major steel-producing economy.
+
+        2.2 Specific energy consumption
+        Indian steelmaking is energy-intensive by international standards. According to
+        the Ministry of Steel statement, ‘energy consumption in most of the integrated steel
+        plants in India is generally high at 6-6.5 giga calorie per tonne of crude steel as
+        compared to 4.5-5.0 in steel plants abroad’.10 This implies that Indian plants, at an
+        average, consume a quarter to a third more energy for the production of each tonne
+        of steel as compared to their global competitors. Columbia University’s Center on
+        Global Energy Policy finds greenhouse gas emissions in the Indian steel industry
+        are about 30 per cent higher than the global average.11 This report aims to address
+        the gap from the lens of energy efficiency.
+
+        2.3 Emissions
+        The steel sector is one of the most carbon-intensive industries. However, unlike
+        cement, where 50–56 per cent of emissions arise from process emissions, most of
+        the emissions in the steel sector, especially in the Indian industrial landscape, are
+        energy-related. Processes such as combustion of coal and coke for heat and chemical
+        reduction, along with electricity use in furnaces, mills and auxiliaries, constitute the
+        largest share of the emissions. As a result, reduction in emission intensity is directly
+        addressable through energy efficiency and fuel management measures.
+
+        Globally, the sector accounts for 7–9 per cent of the total GHG emissions. 12 In
+        India, it contributes 10–12 per cent of the total CO2 emissions13 in the country. At
+        2.54 tCO2/t, India’s emission of crude steel is higher than the global average of 1.91
+        tCO2/MT.14 The high carbon footprint is primarily due to the heavy reliance on
+
+        Table 2: Route-wise average carbon emission intensity in India
+         Route                                                         Average carbon emission (tCO2​/tcs)
+
+         BF-BOF                                                        2.2–2.6
+
+         Coal-based DRI-EIF/EAF                                        2.7–3.1
+
+         Natural gas-based DRI-EAF                                     1.4–1.6
+
+         100 per cent scrap-based steel through EAF                    0.55–0.65
+         Average emission intensity of steel production in
+                                                                       2.54
+         India
+        Source: Greening the steel sector in India: Roadmap and action plan, Ministry of Steel, Government of India
+
+
+
+
+12
+coking coal in blast furnaces and thermal coal in DRI rotary kilns. As of 2023–24,
+the cumulative emissions of the Indian iron and steel manufacturing sector are
+366.52 million tonnes (MT) of CO2. Table 215,16 demonstrates emission intensity of
+crude steel production from each route.
+
+An energy benchmarking study report17 by the Centre for Science Technology and
+Environmental Policy shows that average primary specific energy consumption of
+major Indian steel plants is at 27.3 gigajoule per tonne (GJ/t)of crude steel against
+global best-practice benchmarks of 16.4 GJ/tcs (BF-BOF), 19.1 GJ/tcs (coal-based
+DRI-EAF) and 15.9 GJ/tcs (gas-based DRI-EAF). This shows a gap of 30.04–41.76
+per cent. This gap defines the magnitude of the efficiency opportunity assessed in
+this report.
+
+
+
+
+                                                                                        13
+     FORGING TRANSITION
+
+
+
+
+        3. Decarbonization pathways
+
+        3.1 Overview of pathways
+        Decarbonization roadmaps target net zero by 2070 through multiple pathways.
+        To achieve this goal, India’s steel sector will have to go through a multi-pathway
+        approach. The following are the pathways:
+
+        Energy efficiency (EE): This is the most readily available route that can be
+        implemented within the shortest time frame. Energy-efficiency measures are
+        low-hanging fruit for decarbonizing the Indian steel sector by reducing thermal
+        and electrical specific energy consumption per unit of output, achieved through
+        improving equipment efficiency and performance across all production routes.
+
+        Increased scrap use: The Steel Scrap Recycling Policy aims to introduce circularity
+        in domestic iron and steel use in India. By raising the share of scrap-based
+        steelmaking, both Scope 1 and Scope 2 emissions can be significantly reduced by
+        reducing the need for primary iron production.
+
+        Renewable electricity integration: The EAF and IF routes together account for
+        57.3 per cent of crude steel production in the country, which runs on electricity.
+        Sourcing this electricity from renewable sources will help reduce the sector’s Scope
+        2 emissions. The Ministry of Steel targets a substantial increase in the use of
+        renewable energy in the iron and steel sector by 2030.18
+
+        Carbon Capture, Utilization and Storage (CCUS): Even after switching fuel
+        and implementing energy efficiency measures, emissions are produced from
+        blast furnaces due to process emissions. CCUS is an advanced technology under
+        development, which addresses this issue by capturing emissions at source, converting
+        and/or storing them in the form of their chemical components. As outlined by the
+        Department of Science and Technology (DST),19 for India, CCUS in steel is a long-
+        term (2035–50) option rather than a near-term solution.
+
+        Green hydrogen: Hydrogen can replace fossil-based reducing agents in direct-
+        reduction processes, enabling low-carbon ironmaking. Hydrogen injection into
+        blast furnaces can also reduce fossil fuel consumption, reducing emission. This is
+        especially effective for plants operating blast furnaces. India defines green hydrogen
+        as ‘hydrogen produced using renewable energy, such as solar or wind power, instead
+        of fossil fuels’, with total emissions from the process not exceeding 2 kg of CO 2
+        equivalent per kg of hydrogen produced.20
+
+14
+3.2 Role of energy-efficient technologies for
+decarbonizing the iron and steel sector in India
+The energy-efficiency pathway of decarbonizing the iron and steel sector provides
+two important benefits. It mitigates energy-related emissions and saves production
+costs in an industry where energy represents 20–40 per cent of total production
+cost21 (coking coal for integrated producers; electricity for EAF/EIF producers).
+
+The Indian steel industry has seen a reduction in Specific Energy Consumption
+(SEC) over the last two decades. The change is also driven by regulatory mandates
+from the Perform Achieve and Trade (PAT) scheme, which pushed the large
+integrated manufacturers to modernize their production technologies. Despite
+these advances, significant savings potential remains. The 30.03–41.76 per cent
+(approx.) gap between average Indian plant performance and global best practice,
+discussed earlier, shows that energy efficiency measures are not widely adopted by
+iron and steel manufacturing units in the country. For example, a typical 500-TPD
+coal-based DRI plant has been found to operate at a process efficiency of only about
+51 per cent, with waste gas losses alone accounting for 43.5 per cent of total heat
+input.22 In other words, these plants are wasting about half of their energy input,
+part of which can be captured and rerouted for utilization in plant processes or
+generation of electricity through steam generation. The coal DRI-based secondary
+steel manufacturing pathway with an emission intensity of 2.7–3.1 tCO2/tcs presents
+a strong opportunity in which energy-efficiency measures can achieve substantial
+reduction of emissions as well as energy cost.
+
+While the PAT cycle has achieved some targets, especially in large integrated plants,
+the new Greenhouse Gases Emission Intensity Target Rules (2025) mandate
+obligated entities to meet specific CO2-equivalent reduction targets and introduce
+a carbon credit system to achieve these targets. As a result, manufacturers failing to
+achieve their targets will bear more cost.
+
+
+
+
+                                                                                         15
+     FORGING TRANSITION
+
+
+
+
+        4. Methodology
+
+        This report expresses thermal savings in gigajoules per tonne (GJ/t) of route
+        product and electrical savings in kilowatt hours per tonne (KWh/t) of route product.
+        For each technology, the reduction in carbon dioxide intensity per tonne of route
+        product is calculated as the energy savings multiplied by the emission factor.
+
+        The thermal emission factor used is 0.0946 tCO2/GJ,23 a standard factor for coal-
+        dominated process heat. The electrical emission factor used is 0.962 kg of carbon
+        dioxide per kilowatt hour, equivalent to 0.000962 t/KWh.24
+
+        Secondary data was collected from published sources including Government of
+        India reports, international reports, benchmarking studies, BEE’s ADEETIE list
+        of energy-efficient technologies, and peer-reviewed articles to calculate potential
+        reductions in emissions due to improvements in thermal and electrical energy usage.
+        The data was cross-referenced by Industry experts. Since the steel sector comprises
+        multiple distinct production routes, technologies are organized by the following
+        production pathways: blast furnace (BF) ironmaking, coal-based direct reduced
+        iron (DRI), basic oxygen furnace (BOF) steelmaking and electric arc furnace (EAF)/
+        induction furnace (IF) steelmaking. The sector-wide reduction potential of each
+        technology is calculated only over the respective production route.
+
+        For each technology, sector-wide CO2 reduction scope is calculated as:
+        (CO2 reduction scope per tonne of crude steel) × (production base of the applicable
+                                  route) × (adoption potential*)
+
+        *adoption potential is 1 minus the mean of the current adoption rate.
+
+        This report assumes current technologies that are commercially available and
+        have documented performance in Indian plants, and emerging technologies that
+        are at the pre-commercial or early demonstration stage and are not yet widely
+        implemented in India.
+
+        4.1 Key assumptions
+        All savings figures are expressed as ranges rather than point estimates, reflecting
+        variation across plant configurations, feedstock qualities and operating practices.
+        The ranges are taken from the source literature.
+
+
+
+16
+Table 3: Key assumptions for calculation
+ Parameter                                                                    Value
+ Sector annual production                                                     144.3 Mt crude steel25
+ Average emission intensity                                                   2.54 tCO2/tcs26
+ Baseline sectorial emission                                                  366.52 MTPA27
+                                                                              BF-BOF 42.7% (61.61 Mt); IF 35.4% (51.08
+ Route shares of production
+                                                                              Mt); EAF 21.9% (31.61 Mt)28
+ Coal-based DRI                                                               41.80 Mt29
+ Electrical emission factor (coal-based power generation)                     0.000962 t/KWh30
+ Thermal emission factor                                                      0.0946 t CO2/GJ (3.96×10-7 tCO2/kcal)31
+Sources:
+1.   Greening the steel sector in India: Roadmap and action plan, Ministry of Steel, Government of India
+2.   Central Electricity Authority (CEA). Report
+3.   IPCC Guidelines for National Greenhouse Gas Inventories (2026)
+
+
+
+4.2 Limitations
+•     The analysis assumes that the savings from each technology are independent
+      and additive. In practice, a plant deploying several measures simultaneously
+      may see interaction effects in either direction: waste heat recovery and feed
+      preheating compete for the same heat, reducing the combined benefit, while
+      improved process control may increase the effectiveness of physical upgrades.
+      No interaction adjustment has been applied, and the totals should be read as
+      indicative of the scale of the opportunity rather than as a prediction of what any
+      individual plant would achieve.
+•     Equipment capital costs are tentative. Actual figures may vary depending on
+      factors including the age of the manufacturing unit, exchange rates and market
+      conditions.
+•     Adoption rates are approximate. As route-wise adoption is not uniformly
+      reported in published sources, the adoption rate is estimated with stakeholder
+      consultation.
+
+
+
+
+                                                                                                                         17
+     FORGING TRANSITION
+
+
+
+
+        5. Energy-efficiency
+        technologies
+
+        This chapter focuses on the assessment of 15 commercially available energy
+        efficiency technologies across the BF-BOF route, coal-based DRI route, IF/EAF
+        route. For each technology, the sector-wide CO2 reduction scope shown is the
+        further reduction available from extending the technology across the remaining
+        unequipped capacity of the route to which it applies. It is calculated, following the
+        methodology in Chapter 4, as ‘per-tonne reduction scope’ (tCO2/tcs) multiplied by
+        the route’s production base and the adoption potential. Electrical savings are valued
+        at the coal-based power emission factor of 0.962 tCO2/MWh and thermal savings
+        at the thermal emission factor of 0.0946 tCO2/GJ. The technologies are organized
+        by production route, and a consolidated summary with indicative capital costs and
+        adoption rates is discussed.
+
+        5.1 Integrated BF-BOF route technologies
+        India’s primary production is dominated by blast furnace and basic oxygen furnace
+        integrated units. The blast furnace is the single largest contributor to emissions
+        in this route, accounting for approximately 68 per cent of process emissions. 32
+        The total share of emissions from the sector stands at 148 Mt. The average blast
+        furnace in India consumes about 20–30 per cent more energy than the most
+        efficient plants globally. This is due to the use of high-ash coking coal, suboptimal
+        operating practices at some plants, and uneven technology adoption.33 The basic
+        oxygen furnace step that follows is exothermic and relatively energy-efficient. Its
+        primary opportunity lies in recovering energy-rich converter gas. The technologies
+        mentioned in the following section include the ironmaking (BF) and steelmaking
+        (BOF) stages of the integrated route.
+
+        5.1.1 Pulverized coal injection (PCI) optimization
+        Energy savings: 1.0–1.5 GJ/t | Sector-wide CO2 reduction scope: 2.88–4.32 Mt |
+        Emission intensity reduction scope: 0.020–0.030 tCO2/tcs
+        Pulverized coal injection optimization introduces fine coal directly into the blast
+        furnace through the tuyeres (specialized nozzles, pipes or tubes that inject a blast of
+        pressurized air, oxygen or gases into a furnace or forge) as a partial replacement for
+        metallurgical coke. Production of metallurgical coke is itself an energy-intensive
+        process and is therefore one of the most energy-intensive inputs for ironmaking.
+        While Indian furnaces work at a consumption rate of 565 to 572 kg/t,34 modern
+
+
+18
+furnaces achieve coke consumption as low as 286–320 kg/t globally.35 Almost
+every large integrated producer in India operates PCI systems, but achievable
+injection rates are constrained by the high ash content of available coals, which
+reduces burnout efficiency in the raceway. Optimization remains uneven across
+the fleet at around 60–70 per cent. Optimizing injection rates together with oxygen
+enrichment of the blast is the key lever where the basic infrastructure already exists.
+Complete optimization of PCI in India will further help reduce 2.88–4.32 Mt CO2
+from the sector.
+
+5.1.2 Top gas recovery turbine (TRT)
+Energy savings: 30–40 kWh/t | Sector-wide CO2 reduction scope: 1.38–1.84 Mt |
+Emission intensity Reduction scope: 0.010–0.013 tCO2/tcs
+Blast furnace gas exits the furnace top at a pressure of 2-3 bar. Without recovery,
+this pressure energy is throttled away in the gas cleaning system. A top gas recovery
+turbine expands the gas through a turbine connected to a generator, producing 30
+to 40 kWh36 of electricity per tonne of hot metal from what would otherwise be
+waste. TRT is standard at large modern blast furnaces globally and at India’s larger
+integrated plants, with adoption of around 40 to 50 per cent across the fleet, but
+it is not universal. Capital cost is in the range of Rs 30 to 60 crore per turbine.
+Complete adaptation of TRT in India will help reduce 1.38–1.84 Mt CO2 from the
+sector.
+
+5.1.3 Hot stove heat optimization
+Energy savings: 0.4–0.8 GJ/t | Sector-wide CO2 reduction scope: 2.14–4.28 Mt |
+Emission intensity Reduction scope: 0.015–0.030 tCO2/tcs
+Hot blast stoves preheat the air blown into the blast furnace, typically operating three
+or four to a furnace on a cyclic regenerative basis in which each stove is alternately
+fired and then blasted. Stove efficiency governs blast temperature, and blast
+temperature governs coke rate: each 100°C increase in blast temperature reduces
+coke consumption by roughly 0.4–0.8 GJ/t.37 Indian stoves commonly deliver blast
+at 1050–1150°C against 1200–1250°C at internationally competitive operations,
+with losses arising from excessive flue gas exit temperature, air ingress through
+burner and valve seals, uncontrolled combustion air excess, deteriorated dome
+insulation and fouled checker brickwork. The remedies are automated combustion
+control, waste heat recovery from stove flue gas to preheat combustion air and fuel
+gas, dome and shell reinsulation, and ceramic burner upgrades. Adoption of a full
+optimization stands at only 30–40 per cent, and because the measures are modular
+they can be implemented progressively without a furnace outage. Sector-wide, stove
+optimization offers further 2.14–4.28 Mt CO2 of annual reduction.
+
+
+
+                                                                                           19
+     FORGING TRANSITION
+
+
+
+
+        5.1.4 Bell-less top charging and burden distribution optimization
+        Energy savings: 0.2–0.5 GJ/t | Sector-wide CO2 reduction scope: 0.49–1.24 Mt |
+        Emission intensity reduction scope: 0.003–0.009 tCO2/tcs
+        Iron-bearing material (pellet, sinter or ore), coke and fluxes are added from the top
+        of the furnace and are known as ‘burden’. On the other hand, hot gas flows from
+        the bottom of the furnace to the top. The efficiency of heat transfer in the blast
+        furnace is dependent on the distribution of burden (flowing top to bottom), and it
+        determines how the gas flows from bottom to top. Bell-less top charging systems
+        uses rotating chutes that allow precise programmatic control of burden distribution
+        and enable more uniform gas utilization. This in turn lowers coke consumption,
+        typically by 0.2–0.5 GJ/t38 as compared to plants currently using older double-bell
+        systems. Several large Indian furnaces have been retrofitted, but older and smaller
+        furnaces often retain outdated charging systems. Adoption of this technology is
+        around 60–80 per cent. A complete adoption of this technology will help achieve
+        0.49–1.24 Mt CO2 from the sector.
+
+        5.1.5 AI and machine learning-based process control (blast
+        furnace)
+        Energy savings: 0.3–0.5 GJ/t | Sector-wide CO2 reduction scope: 2.10–3.50 Mt |
+        Emission intensity reduction scope: 0.015–0.024 tCO2/tcs
+        The blast furnace is a complex, multi-variable system with slow, non-linear fluid
+        dynamics. Between the input and output, there is a time lag of several hours.
+        Conventionally, the system is controlled using Proportional-Integral-Derivative
+        (PID). In recent years, developments in AI and machine learning-based control
+        systems have improved the prediction capability of fluid mechanics. The system
+        can be trained on historical operating data and continuously updated sensor feeds
+        to anticipate process deviations and make preemptive adjustments. This helps in
+        optimizing operations. Case studies have reported that AI and ML integration
+        can achieve coke rate reductions of 10–20 KG/t,39 translating to energy savings of
+        0.3–0.5 GJ/t. As in other process steps, these savings are achieved without plant
+        outage or major hardware replacement. Current adoption is around 10–20 per cent
+        in the industry. Complete adaptation of this technology can help further achieve
+        2.10–3.50 Mt reduction of CO2 from the sector.
+
+        5.1.6 Converter gas recovery (OG system)
+        Energy savings: 0.50–0.79 GJ/t liquid steel | Sector-wide CO2 reduction scope:
+        1.02–1.61 Mt | Emission intensity reduction scope: 0.007–0.011 tCO2/tcs
+        Oxygen blowing in the basic oxygen furnace decarburizes the hot metal charge and
+        evolves a gas stream at 1600–1700°C containing 60–80 per cent carbon monoxide.
+
+
+
+20
+An oxygen converter gas recovery system captures this stream through a suppressed-
+combustion hood, cools it, cleans it by wet or dry dedusting and stores it in a gas
+holder for use as plant fuel, in place of flaring it to atmosphere. Recovery is typically
+60–90 Nm3 per tonne of liquid steel at a calorific value of 8.4–8.8 MJ/Nm3,40
+equivalent to roughly 2,000 kcal/Nm3, giving a potential energy saving of 0.50–
+0.79 GJ per tonne. Most Indian integrated plants have an OG system installed, and
+adoption stands at 60–70 per cent, but recovered volumes vary widely, and some
+plants continue to flare a material fraction because gas holder capacity, downstream
+demand or blowing-cycle scheduling do not permit full capture. The remaining
+opportunity therefore lies as much in raising recovery rates at existing installations
+as in new capital projects. Sector-wide potential is 1.02–1.61 Mt CO2 per year.
+
+5.2 Coal-based DRI (rotary kiln) technologies
+India is the largest manufacturer of coal-based DRI in the world. It is one of the
+least energy-efficient industries in India. With a low setup cost and access to cheap
+local coal, a large number of DRI units are present throughout the country. Sponge
+iron, the end product from this route is used as metallic charge by IF and EAF
+plants alongside scrap. While IF and EAF routes have low emission intensity, the
+embedded intensity remains high for finished steel utilizing coal-based sponge iron.
+Indian DRI plants employ kilns with production capacity as low as 100 tonnes per
+day (TPD), which limits the economic viability of the larger waste heat recovery
+systems. As a result, a very small percentage of plants currently have installed
+WRHS. The technologies in this section apply to the coal-based DRI production
+base of 41.80 Mt.
+
+5.2.1 Waste heat recovery boiler (WHRB) for power generation
+Energy savings: 60–90 kWh/t DRI | Sector-wide CO2 reduction scope: 2.11–3.17 Mt
+| Emission intensity reduction scope: 0.015–0.022 tCO2/tcs
+Waste gas from a coal-based rotary kiln leaves the after-burner chamber at 900–
+1000°C, carrying a large fraction of the energy originally supplied as coal. A waste
+heat recovery boiler raises steam from this stream to drive a turbo-generator,
+converting an otherwise wholly wasted flow into electricity that displaces grid or
+captive coal-fired supply. Recovery of 60–90 kWh41 per tonne of sponge iron is
+achievable. Adoption is only 5–20 per cent, the lowest of any measure examined in
+this report other than kiln control, and is concentrated almost entirely in larger units.
+The obstacle is capital rather than technology. Secondary technical constraints are
+heavy dust loading and alkali-bearing deposits that foul boiler surfaces, requiring
+careful design and disciplined cleaning. Full deployment would deliver 2.11–3.17
+Mt CO2 of annual reduction.
+
+
+
+                                                                                            21
+     FORGING TRANSITION
+
+
+
+
+        5.2.2 Kiln shell heat loss reduction and refractory improvement
+        Energy savings: 0.021–0.042 GJ/t DRI | Sector-wide CO2 reduction scope: 0.06–
+        0.12 Mt | Emission intensity reduction scope: 0.000–0.001 tCO2/tcs
+        Heat radiated and convected from the shell of a rotary kiln is a continuous loss
+        proportional to shell temperature and exposed area. Upgrading the lining to
+        mullite-based or low-cement high-alumina castables, with ceramic fibre backup
+        insulation, can lower shell temperature from a typical 300–350°C to 200–250°C,
+        saving 5–10 kcal per kg of sponge iron produced. 42 At an indicative capital cost
+        below Rs 1 crore, this is the cheapest measure in the catalogue, and it requires no
+        process modification, no change in operating practice and no shutdown beyond
+        the relining interval that the kiln already observes. Adoption is nevertheless only
+        20–30 per cent, which reflects the measure’s low visibility rather than any barrier:
+        refractory specification is treated as a maintenance decision driven by campaign life
+        rather than as an energy investment, and the two objectives are not always aligned.
+        The individual contribution is at 0.06–0.12 Mt CO2 per year.
+
+        5.2.3 Kiln feed preheating and process integration
+        Energy savings: 1.52–1.90 GJ/t DRI | Sector-wide CO2 reduction scope: 4.96–6.20
+        Mt | Emission intensity reduction scope: 0.034–0.043 tCO2/tcs
+        A substantial share of the coal charged to a rotary kiln is consumed simply in
+        bringing the iron ore and coal to reaction temperature. Preheating the charge using
+        kiln exhaust gas before it enters the kiln addresses this loss directly, reducing coal
+        consumption by 8–10 per cent against a reference specific energy consumption
+        of 19.0 GJ per tonne of sponge iron and yielding 1.52–1.90 GJ/t.43 Adoption is
+        only 15–20 per cent at an indicative capital cost of Rs 5–15 crore. The barriers
+        are physical rather than financial. Retrofitting a preheater requires space at the
+        kiln inlet that many existing layouts do not provide, and the dust-laden exhaust
+        demands robust materials handling. A further consideration is that preheating
+        and waste heat recovery draw on the same exhaust stream, so a unit deploying
+        both will realize less than the sum of the two individually assessed savings. The
+        sequencing decision between them should be made on plant-specific grounds. On
+        the calculation presented in this report, kiln feed preheating is the single largest
+        contributor to the sector-wide total at the low end of the range, offering 4.96–6.20
+        Mt CO2 of annual reduction.
+
+        5.2.4 AI and sensor-based kiln control
+        Energy savings: 0.57–0.95 GJ/t DRI | Sector-wide CO2 reduction scope: 2.20–3.66
+        Mt | Emission intensity reduction scope: 0.015–0.025 tCO2/tcs
+        A coal-based rotary kiln is fired through six to eleven air injection points distributed
+        along its length, and the resulting temperature profile determines both metallization
+        and coal consumption. In most Indian units these injection points are adjusted
+
+22
+manually on the basis of periodic sampling and operator judgement, with the
+consequence that the kiln operates well away from its optimal profile for much of
+the campaign. Continuous instrumentation such as shell-mounted thermocouples,
+infrared pyrometry and exhaust gas analysis coupled to a model-based controller
+allows coal split and air distribution to be optimized in real time, reducing coal
+consumption by 3–5 per cent, potentially saving 0.57–0.95 GJ/t. 44 Adoption
+is below 5 per cent, so virtually the entire potential remains available, and at an
+indicative cost of Rs 0.5–1 crore. The capital requirement is negligible compared
+to the energy-saving potential. This is the most cost-effective measure identified in
+this report, offering 2.20–3.66 Mt CO2 of annual reduction.
+
+5.3 EAF and EIF steelmaking technologies
+Electric arc furnaces in India are typically fed with a mix of scrap and coal-based
+DRI on coal-dominated grid power, reporting specific electricity consumption of
+400–600 kWh per tonne of liquid steel depending on charge mix, furnace age and
+practice. The induction furnace segment, accounting for around 35 per cent of
+crude steel production, is characterized by small furnaces and a large base of MSME
+operators. EAF-specific technologies below apply to the EAF production base of
+31.61 Mt; variable frequency drives and ladle practice apply across the combined
+EAF and induction furnace base of 82.69 Mt.
+
+5.3.1 Scrap preheating
+Energy savings: 50–100 kWh/t liquid steel | Sector-wide CO2 reduction scope:
+1.29–2.58 Mt | Emission intensity reduction scope: 0.009–0.018 tCO2/tcs
+Electric arc furnace off-gas leaves the fourth hole at 1200–1600°C and carries
+15–20 per cent of the total energy input to the furnace. Scrap preheating recovers
+part of this by passing the off-gas through the incoming charge. Savings of 50–100
+kWh per tonne is achievable.45 The principal technical constraint is the formation
+of dioxins and furans as the off-gas passes through the 250–450°C window in
+the presence of organic contamination on the scrap, which requires either rapid
+quenching downstream or strict control of charge cleanliness. Adoption in India
+is 10–20 per cent at an indicative Rs 30–60 crore. Beyond capital, the barriers
+are the variable and often contaminated quality of domestically available scrap and
+the space required to retrofit a shaft or conveyor into an existing melt shop. Full
+deployment offers 1.29–2.58 Mt CO2 of annual reduction.
+
+5.3.2 Ultra-High Power (UHP) transformer upgrades
+Energy savings: 20–40 kWh/t liquid steel | Sector-wide CO2 reduction scope: 0.40–
+0.79 Mt | Emission intensity reduction scope: 0.003–0.005 tCO2/tcs
+Electric arc furnaces are classified by the transformer power available per tonne
+of furnace capacity: regular power below 400 kVA/t, high power at 400–500
+
+                                                                                        23
+     FORGING TRANSITION
+
+
+
+
+        kVA/t, and ultra-high power above 500 kVA/t. Higher power delivery shortens
+        the tap-to-tap cycle. As heat loss occurs through the furnace shell, roof and off-
+        gas proceeds continuously, a shorter cycle reduces the total energy lost per tonne
+        produced. Upgrading to ultra-high power, together with optimization of secondary
+        voltage and circuit reactance, typically saves 20–40 kWh per tonne.46 Adoption
+        stands at 30–40 per cent at an indicative Rs 5–15 crore. The constraint is rarely
+        the transformer itself but the electrical connection: an ultra-high-power furnace
+        imposes a substantial and highly variable load, and compliance with grid flicker
+        limits may require static Volt-Ampere Reactive (VAR) compensation, adding
+        materially to project cost. The remaining potential is 0.40–0.79 Mt CO2 per year.
+
+        5.3.3 Electrode management and arc control systems
+        Energy savings: 10–20 kWh/t liquid steel | Sector-wide CO2 reduction scope: 0.17–
+        0.33 Mt | Emission intensity reduction scope: 0.001–0.002 tCO2/tcs
+        The graphite electrodes of an arc furnace are positioned by hydraulic regulators that
+        respond continuously to changes in arc impedance as the scrap charge collapses
+        and melts beneath them. The speed and stability of that regulation determine how
+        much of the delivered electrical energy reaches the bath rather than being lost due to
+        arc instability, radiation to the water-cooled panels, or electrode breakage. Modern
+        adaptive regulation systems, which adjust their control parameters according to
+        the melting phase, deliver 10–20 kWh per tonne of saving relative to conventional
+        impedance-based control, and their benefit compounds with foamy slag practice,
+        in which the arc is submerged in a slag layer that both shields the sidewalls from
+        radiation and improves heat transfer to the bath. Adoption is comparatively high
+        at 40–50 per cent, reflecting a well-established technology, a short payback and
+        an indicative capital cost of only Rs 1–3 crore. The remaining potential for carbon
+        reduction is 0.17–0.33 Mt CO2 per year with the remaining adoption of this
+        technology.
+
+        5.4 Shared auxiliaries in electric arc and induction
+        furnace plants
+        Two of the fifteen technologies assessed in this report act not on the melting process
+        itself but on the auxiliary systems that support it, and are therefore common to both
+        electric arc and induction furnace operations. Variable frequency drives govern the
+        fans, pumps, blowers and compressors that serve any melt shop irrespective of
+        its furnace type, and ladle preheating and insulating lids address the handling of
+        liquid steel after tapping, which is likewise route-agnostic. Because neither measure
+        depends on the melting technology, both are assessed against the combined electric
+        arc and induction furnace production base of 82.69 Mt, comprising 31.61 Mt of
+        electric arc furnace crude steel and 51.08 Mt of induction furnace output.
+
+
+24
+5.4.1 Variable Frequency Drives (VFDs)
+Energy savings: 2–5 kWh/t crude steel | Sector-wide CO2 reduction scope: 0.08–
+0.20 Mt | Emission intensity reduction scope: 0.001–0.001 tCO2/tcs
+Fans, pumps, blowers and compressors in a steel plant are conventionally driven
+by fixed-speed motors, with output regulated by dampers or throttling valves, a
+practice that dissipates excess as pressure drops. Because the power absorbed by
+a centrifugal machine varies with the cube of its speed, matching motor speed to
+actual demand via a variable frequency drive typically reduces consumption on the
+driven load by 20–50 per cent, which across a plant’s auxiliary population amounts
+to 2–5 kWh per tonne of crude steel.47 Adoption stands at 40–60 per cent, with
+an indicative capital cost of Rs 0.1–1 crore, the lowest of any measure assessed.
+The remaining barriers are largely matters of awareness and specification rather
+than economics: harmonic distortion introduced by drives requires filtering on
+weaker networks, and older motors may need insulation upgrades to withstand the
+switching waveform. Although the per-tonne saving is the smallest in this catalogue
+and the sector-wide contribution correspondingly modest at 0.08–0.20 Mt CO2 per
+year, the measure’s low cost, universal applicability and short payback make it the
+natural entry point for a small producer beginning an efficiency programme.
+
+5.4.2 Ladle preheating and insulating lids
+Energy savings: 5–15 kWh/t crude steel | Sector-wide CO2 reduction scope: 0.30–
+0.89 Mt | Emission intensity reduction scope: 0.002–0.006 tCO2/tcs
+A steel ladle must be brought to 1000–1200°C before receiving liquid steel, and
+any shortfall in that temperature is made up by superheating the melt in the
+furnace, where each additional 10°C of superheat costs roughly 4–5 kWh per tonne.
+Conventional open-flame ladle preheating operates at 30–40 per cent thermal
+efficiency. Recuperative and regenerative burner systems reach 60–70 per cent,
+while insulating lids fitted during preheating, transit and idle periods substantially
+reduce radiation loss from the ladle mouth. Together these measures save 5–15 kWh
+per tonne of crude steel, partly in preheating fuel and partly in indirectly through
+reduced furnace superheat.48 Adoption is 20–30 per cent at an indicative Rs 2–5
+crore. Sector-wide potential is 0.30 –0.89 Mt CO2 per year.
+
+
+
+
+                                                                                         25
+     FORGING TRANSITION
+
+
+
+
+Table 4: Energy efficiency technologies in the Indian iron and steel sector: Energy
+savings, indicative cost, current adoption and CO2 reduction potential
+  S.        Technology             Production         Energy      Indicative   Current    CO2 reduction      Sector
+  no                                  route           savings       CapEx      adoption     potential       reduction
+                                                                  (Rs crore)        (%)     (tCO2/tcs)      (Mt CO2)
+        Pulverized coal
+                                                                  50–100
+ 1      injection (PCI)         BF ironmaking      1.0–1.5 GJ/t                60–70      0.020–0.030     2.88–4.32
+                                                                  per BF
+        optimization
+        Top gas recovery
+ 2                              BF ironmaking      30–40 kWh/t    30–60        40–50      0.010–0.013     1.38–1.84
+        turbine (TRT)
+        Hot stove heat
+ 3                              BF ironmaking      0.4–0.8 GJ/t   15–30        30–40      0.015–0.030     2.14–4.28
+        optimization
+        Bell-less top
+ 4                              BF ironmaking      0.2–0.5 GJ/t   20–40        60–80      0.003–0.009     0.49–1.24
+        charging
+        AI/ML process
+ 5                              BF ironmaking      0.3–0.5 GJ/t   2–5          10–20      0.015–0.024     2.10–3.50
+        control
+        Converter gas
+                                BOF                0.50–0.79
+ 6      recovery (OG                                              60–100       60–70      0.007–0.011     1.02–1.61
+                                steelmaking        GJ/t †
+        system)
+        Waste heat
+ 7                              Coal-based DRI     60–90 kWh/t    30–60        5–20       0.015–0.022     2.11–3.17
+        recovery boiler
+        Kiln shell and
+                                                   0.021–0.042
+ 8      refractory              Coal-based DRI                    <1           20–30      0.000–0.001     0.06–0.12
+                                                   GJ/t †
+        improvement
+        Kiln feed
+                                                   1.52–1.90
+ 9      preheating and          Coal-based DRI                    5–15         15–20      0.034–0.043     4.96–6.20
+                                                   GJ/t ‡
+        integration
+        AI and sensor-                             0.57–0.95
+ 10                             Coal-based DRI                    0.5–1        <5         0.015–0.025     2.20–3.66
+        based kiln control                         GJ/t ‡
+                                EAF
+ 11     Scrap preheating                           50–100 kWh/t 30–60          10–20      0.009–0.018     1.29–2.58
+                                steelmaking
+        Ultra-high-power        EAF
+ 12                                                20–40 kWh/t    5–15         30–40      0.003–0.005     0.40–0.79
+        transformer             steelmaking
+        Electrode and arc       EAF
+ 13                                                10–20 kWh/t    1–3          40–50      0.001–0.002     0.17–0.33
+        control                 steelmaking
+        Variable frequency      EAF/IF
+ 14                                                2–5 kWh/t      0.1–1        40–60      0.001–0.001     0.08–0.20
+        drives                  auxiliaries
+        Ladle preheating        EAF/IF
+ 15                                                5–15 kWh/t     2–5          20–30      0.002–0.006     0.30–0.89
+        and insulating lids     steelmaking
+        TOTAL                                                                             0.150–0.241     21.58–34.75
+Sources: Multiple sources (see references 32–48)
+
+
+
+
+26
+6. Sector-wide reduction
+potential
+
+Complete deployment of the adoption potential available on each technology
+would reduce Indian steel sector emissions by between 0.150–0.241 tCO2/t. This
+is equivalent to 21.58–34.75 Mt CO2 per year, or 5.9–9.5 per cent of the 366.52 Mt
+baseline.
+
+The reduction potential is distributed unevenly across different pathways. Across
+the total estimated scope of emission reduction, BF–BOF iron making has a
+reduction scope of 0.07–0.12 tCO2/t of the sector's overall intensity reduction, the
+single largest share. Coal-based DRI has a reduction scope of 0.06–0.09 tCO2/t,
+and EAF/EIF steelmaking has a reduction scope of 0.02–0.03 tCO2/t. Therefore,
+energy efficiency technologies discussed above for the BF–BOF and coal-based DRI
+pathways together have the potential to deliver roughly 86.7–89.3 per cent of the
+total emission reduction estimated in this report.
+
+EMISSION REDUCTION POTENTIAL IN INDIA’S STEEL SECTOR
+Complete deployment of the adoption potential available on each technology would reduce
+
+
+
+
+   0.150–0.241 tCO2 /t                5.9–9.5%                 Equivalent to                    Baseline:
+     in emission intensity      of the sector’s baseline   21.58–34.75 Mt CO2                 2.54 tCO2/t
+                                       emissions                    per year                     per year
+
+                             WHERE IS THE POTENTIAL?
+                                                                           Roughly 86.7–89.3 per cent of the
+                    BF–BOF STEEL                 0.07–0.12 tCO2/t
+                                                                             addressable intensity-reduction
+                      MAKING                                                potential estimated in this report
+                                                                           can be achieved from implementing
+                                                                          energy-efficiency technologies in the
+                     COAL-BASED                                                  BF-BOF + Coal-based
+                        DRI                      0.06–0.09 tCO2/t                   DRI pathways
+
+
+                       EAF/EIF
+                    STEELMAKING                  0.02–0.03 tCO2/t
+
+                                                               Note: Figures may not add up exactly due to rounding
+   Source: CSE analysis
+
+
+
+                                                                                                                      27
+     FORGING TRANSITION
+
+
+
+
+        7. Policy context and
+        implications: CCTS and GEI
+        targets for the Indian iron
+        and steel sector
+        India’s principal market-based efficiency instrument to date has been the Perform,
+        Achieve and Trade (PAT) scheme, administered by the Bureau of Energy Efficiency
+        since 2012. The scheme assigned specific energy consumption reduction targets to
+        designated consumers above a sectoral threshold and issued tradable energy saving
+        certificates to those that over-performed.
+
+        The scheme’s limitations are now widely acknowledged. Targets were often set at
+        levels well below demonstrated technical potential, certificates were over-supplied,
+        resulting in collapsed prices, and enforcement was weak. Studies of the integrated
+        steel segment found that producers had the technical potential to reduce energy
+        intensity by up to 20 per cent while the scheme set targets of about 4.31 per cent to
+        2024–25.49
+
+        The Carbon Credit Trading Scheme, notified in June 2023, is the successor
+        instrument. It shifts the basis of regulation from energy consumption to greenhouse
+        gas emission intensity, measured in tonnes of carbon dioxide equivalent per tonne
+        of product. The Bureau of Energy Efficiency administers the scheme, the Central
+        Electricity Regulatory Commission regulates it, the Grid Controller of India
+        operates the registry, and carbon credit certificates are traded through the power
+        exchanges. The scheme explicitly provides for the transition of PAT-designated
+        consumers into the compliance segment, converting specific energy consumption
+        targets into emission intensity targets, and building on the measurement, reporting
+        and verification infrastructure the earlier scheme established.
+
+        The CCTS marks a genuine change of metric, not merely a rebranding of PAT.
+        Where PAT set an energy-efficiency goal, the CCTS sets a greenhouse-gas emission
+        intensity (GEI) goal in tonnes of CO2-equivalent per unit of product, capturing fuel
+        switching, feedstock change and process emissions, not just energy intensity, and
+        covering non-CO2 gases. Each Carbon Credit Certificate (CCC) represents 1 tCO2
+        equivalent reduced, removed or avoided. The scheme is an intensity-based baseline-
+        and-credit system, not an absolute cap-and-trade: obligated entities receive a GEI
+
+
+28
+target relative to a financial year (FY) 2023–24 baseline, earn CCCs if they meet it,
+and must purchase CCCs (or pay compensation) if they miss the target.
+
+The institutional architecture is deliberately distributed. The National Steering
+Committee for the Indian Carbon Market (NSCICM) is co-chaired by the Secretaries
+of the Ministry of Power and the Ministry of Environment, Forest and Climate
+Change (MoEFCC) for oversight of the framework. BEE is the administrator, setting
+trajectories and issuing CCCs, as it did for PAT. The Ministry of Environment, Forest
+and Climate Change (MoEF&CC) notifies the legally binding intensity targets
+under the Environment (Protection) Act, 1986. The Central Electricity Regulatory
+Commission (CERC) is the market regulator. In March 2026 it notified the CERC
+(Terms and Conditions for Purchase and Sale of Carbon Credit Certificates)
+Regulations, 2026. Grid Controller of India Ltd operates the ICM registry, and
+trading takes place on the power exchanges.
+
+Key market parameters are yet to be published. However, in June 2026, the revised
+(2nd) draft targets for CCTS for the iron and steel sector were published. The baseline
+average GHG intensity reduction target according to this draft document is 5.82
+per cent for the targeted FY 2026–27 from the baseline.
+
+With an average year-on-year (YoY) growth of 2.9 per cent,50 production is
+estimated to reach 157.2 MTPA as of 2026–27. A business-as-usual (BAU) scenario
+with no change in emission intensity as compared to the baseline with emission
+intensity at 2.54 tCO2/t production will bring the total emission at 399.34 Mt.
+Implementing the CCTS target of an average reduction of 5.82 per cent in emission
+intensity, total emissions would fall to approximately 376.10 Mt, a reduction of
+23.24 Mt per annum. This target can be achieved by implementing the specified 15
+energy efficiency technologies alone across various routes of the sector, with a total
+sectorial reduction potential at 21.58–34.75 tCO2 (5.9–9.5 per cent from the overall
+sectoral emissions in the country).
+
+For the sector as a whole, proven energy efficiency technology is therefore more
+than sufficient to meet the first compliance cycle. For future cycles and targets
+(if ambitious), the recourse to green hydrogen, carbon capture, or any change in
+feedstock or process route will become significant.
+
+The secondary sector
+The secondary steel sector accounts for the largest share of untapped potential
+and faces the sharpest challenges. These include high upfront capital costs relative
+to balance sheet size, limited access to affordable finance, onerous collateral
+
+
+                                                                                          29
+     FORGING TRANSITION
+
+
+
+
+        requirements, low levels of automation and digital readiness, retrofit complexity
+        in plants never designed for the equipment, and a degree of informality that limits
+        both institutional finance and policy visibility.
+
+        The Carbon Credit Trading Scheme covers 255 obligated entities in the iron and steel
+        sector. The secondary sector comprises many thousands of units, most below any
+        plausible obligation threshold, and they collectively hold a majority of the potential
+        quantified in this report. A compliance mechanism alone will not reach them. What
+        is required is a parallel programme of targeted finance, technical assistance and
+        demonstration for units the compliance mechanism does not reach, funded in part
+        by the revenues the compliance mechanism generates.
+
+        Energy efficiency is the among the most effective decarbonization levers available
+        to the Indian iron and steel sector in the near term. The 15 technologies discussed
+        earlier can abate 21.58–34.75 Mt CO2 per year, and the analysis below finds that
+        the large majority of that potential is available at negative net cost (energy-cost
+        savings exceed the annualized capital outlay). Yet it remains unrealized because of
+        financing and structural barriers concentrated in the coal-based DRI and secondary
+        segments.
+
+        This report focuses on monetization of energy savings using current Indian energy
+        prices, computes plant-level paybacks and a marginal-abatement-cost ranking,
+        examines why economically attractive measures are deferred, and maps the
+        financing mechanisms available against the technologies and producer segments
+        that actually need them.
+
+
+
+
+30
+8. Cost analysis and financing
+opportunities
+
+The principal benefit of energy efficiency investment in an Indian steel plant is the
+reduction in operating cost it delivers, in an industry where energy accounts for
+20–40 per cent of total production cost.51 Reducing specific energy consumption
+therefore delivers both a direct financial return and emission reductions, and the
+two arrive together. Most of the technologies assessed in this report have been
+commercially available for years and carry relatively low technical risk because their
+performance is well documented across a large installed base. This distinguishes
+them from breakthrough pathways such as hydrogen-based reduction, carbon
+capture and electrolytic ironmaking.
+
+Capital requirements across the 15 technologies span three orders of magnitude,
+from under Rs 1 crore to Rs 100 crore, depending on the scale of the intervention, the
+age of the plant and its capacity to accommodate a retrofit. Converter gas recovery
+and pulverized coal injection optimization sit at the upper end and represent a large
+share of the total investment required at an integrated plant. Waste heat recovery in
+coal-based DRI is similarly capital-intensive at power-generation scale.
+
+At the other end, process control systems, variable frequency drives, refractory
+improvements and ladle insulation require modest capital and repay it quickly,
+making them the natural entry point for producers beginning an efficiency
+programme and the measures most readily financed from working capital.
+
+The economic case for each technology is best assessed through its payback period,
+which varies considerably across the fifteen measures.
+
+8.1 Payback period and economic viability
+
+Short payback (one to two years)
+Eleven of the 13 technologies for which a payback figure is available have payback
+periods of two years or less, which is the central finding of the cost analysis. Process
+control systems repay fastest: AI and machine learning control on the blast furnace,
+and sensor-based control on the DRI kiln, both recover their cost within eight to
+ten months and require the least capital in the catalogue. Variable frequency drives
+repay over the same period. Refractory and shell improvements on DRI kilns, and
+
+
+                                                                                           31
+     FORGING TRANSITION
+
+
+
+
+        Table 5: Cost and payback period of major energy efficiency technologies in the
+        Indian iron and steel industry
+         Technology                                   CapEx range (Rs crore)         Payback period (months)            Adoption level
+
+         Pulverized coal injection optimization 50–100 per BF                        12–15                              High
+
+         Top gas recovery turbine                     30–60                          15–18                              Medium
+
+         Hot stove heat optimization                  15–30                          12–14                              Medium
+
+         Bell-less top charging                       20–40                          Not listed                           –
+
+         AI/ML process control (BF)                   2–5                            8–10                               Low
+
+         Converter gas recovery (OG)                  60–100                         Not listed                           –
+
+         WHR boiler—process heat                      30–60                          54–60                              Low
+
+         Kiln shell and refractory                    Below 1                        11–12                              Low
+
+         Kiln feed preheating                         5–15                           12–14                              Low
+
+         AI and sensor-based kiln control             0.5–1                          8–10                               Low
+
+         Scrap preheating                             30–60                          26–48                              Low
+
+         Ultra-high-power transformer                 5–15                           12                                 Medium
+
+         Electrode and arc control                    1–3                            21–24                              Medium
+
+         Variable frequency drives                    0.1–1                          8–10                               Medium
+
+         Ladle preheating and lids                    2–5                            11–12                              Low
+        Source: BEE List of Energy Efficient Technologies and stakeholder discussion; CapEx and adoption from Table 4
+
+
+
+        ladle preheating with insulating lids, repay in eleven to twelve months. Ultra-high-
+        power transformer upgrades in electric arc furnaces repay in twelve months.
+
+        Three larger interventions also fall within this band. Hot stove optimization and
+        kiln feed preheating both repay in 12–14 months, and pulverized coal injection
+        optimization in 12–15 months despite requiring Rs 50–100 crore per furnace,
+        because the volume of coke displaced is large and coke is costly. Top gas recovery
+        turbines follow at 15–18 months, and electrode and arc control at 21–24.
+
+        Medium payback (two to four years)
+        Scrap preheating in electric arc furnaces repays over 26–48 months. The wide
+        range reflects strong dependence on charge composition and on the configuration
+        installed, from a simple bucket preheater to a continuous shaft system. The measure
+        requires `30–60 crore and its economics are correspondingly sensitive to furnace
+        utilization.
+
+        Long payback (four years and above)
+        Waste heat recovery in coal-based DRI repays over 54–60 months, the longest in
+
+
+32
+the catalogue. This is the exception to the pattern above. It is a large untapped
+opportunity. The adoption stands at only 5–20 per cent, but it is the one measure in
+the DRI group whose payback extends beyond four years.
+
+Technologies without a listed payback
+Bell-less top charging and converter gas recovery do not carry a payback figure in
+this report. In both cases, the measure is best undertaken during scheduled work.
+The relevant comparison for both is the incremental cost of installation during
+planned work rather than the full cost of a dedicated project, and this should be
+assessed on a plant-by-plant basis.
+
+The payback periods above rest principally on Bureau of Energy Efficiency estimates.
+They were assessed against prevailing energy prices and make no allowance for
+carbon value. Once rising fuel and electricity costs are taken into account, and once
+the compliance value of avoided emissions under the Carbon Credit Trading Scheme
+is recognized, the effective payback for every measure reduces. In the future, when
+more stringent emission reduction targets are set for obligated entities, to avoid the
+penalty alone will justify measures that appear marginal on energy savings.
+
+8.2 Barriers to investment
+The principal barriers to investment are:
+• High initial capital requirement for major upgrades, particularly waste heat
+   recovery and scrap preheating, relative to the balance sheet size of the units
+   concerned;
+• Limited access to affordable finance for smaller producers;
+• Downtime during retrofit;
+• Limited information on technology availability, vendor selection, suitability
+   for particular plant configurations, and uncertainty about realized savings;
+• Absence of sub-metering and energy accounting in many secondary units, which
+   prevents savings from being measured and therefore defeats performance-
+   based financing; and
+• Competition for internal capital against capacity expansion, which carries
+   higher headline returns and greater strategic priority in board-level allocation.
+
+8.3 Major financing mechanisms for adoption of
+energy-efficient technologies
+The financing landscape for industrial energy efficiency in India has developed
+considerably over the past decade. Large integrated producers have been early
+movers and can generally fund upgrades internally or through capital markets.
+Smaller producers frequently lack the credit history, collateral, technical data and
+
+
+                                                                                         33
+     FORGING TRANSITION
+
+
+
+
+        institutional capacity to access mainstream finance. Closing this gap is as much of
+        a policy issue as a financial challenge. The technologies are commercially proven
+        and economically viable. What is required is a structured and accessible financing
+        ecosystem that directs capital to where the abatement potential is greatest.
+
+        Internal funding
+        Producers with strong operating cash flow and sound credit standing generally fund
+        efficiency investments from retained earnings, the simplest and cheapest route.
+        Large integrated producers have financed process control, waste heat recovery
+        and auxiliary upgrades this way. Internal funding is far less available to smaller
+        producers operating on thin margins with little retained surplus. Even where funds
+        exist, efficiency investment competes with capacity expansion, which is generally
+        accorded higher strategic priority, so internal capital allocation may deprioritize
+        efficiency absent a strong regulatory or carbon price signal. This structural barrier
+        persists even in well-capitalized firms, and it is why policy signaling matters to
+        board-level decisions.
+
+        Government and regulatory schemes
+        The PAT scheme established India’s first market-based mechanism for monetizing
+        energy savings through Energy Saving Certificates. Its successor CCTS extends this
+        by allowing entities that outperform their emission intensity target to earn tradable
+        carbon credit certificates, creating a direct revenue stream as the carbon price
+        matures. The Assistance in Deploying Energy Efficient Technologies in Industries
+        & Establishments (ADEETIE) scheme, launched by the Ministry of Power through
+        BEE in July 2025 with a Rs 1,000 crore outlay, provides interest subvention of 5
+        per cent for micro and small enterprises and 3 per cent for medium enterprises on
+        efficiency loans. It also provides support for investment-grade energy audits. The
+        Small Industries Development Bank of India (SIDBI) operates the most developed
+        set of MSME instruments, offering loans of Rs 10 lakh to Rs 5 crore at concessional
+        rates, with a bundled energy audit, a green finance line up to Rs 20 crore, and the
+        Partial Risk Sharing Facility providing risk cover for energy performance contracts.
+        The Partial Risk Guarantee Fund for Energy Efficiency offers lenders cover of 50
+        per cent of the loan or Rs 10 crore, whichever is lower, and is well suited to the low-
+        collateral waste heat recovery problem if deployed at scale. The Credit Guarantee
+        Fund Trust for Micro and Small Enterprises provides collateral-free guarantee
+        cover. It is applicable to secondary-sector efficiency investment.
+
+        Commercial bank and NBFC lending
+        Equipment loans from commercial banks typically carry interest of 8–12 per
+        cent with repayment over three to seven years, and some lenders offer lease-to-
+
+
+34
+own structures. Bank finance is in principle the most suitable route for mid-sized
+producers. However, it also has its own challenges. Most lenders assess collateral
+and balance sheet strength rather than projected energy savings, and efficiency
+equipment provides weak security. Loan officers may lack the technical background
+to assess energy efficiency project risk accurately. This may at times lead to
+conservative underwriting and rejection of proposals.
+
+Green bonds and sustainability-linked instruments
+Large producers can access sustainability-linked loans and bonds, where pricing is
+tied to emission intensity or renewable energy targets. JSW Steel issued the global
+steel industry’s first dollar-denominated sustainability-linked bond in 2021. These
+instruments suit a portfolio of efficiency measures at investment-grade producers
+but are effectively closed to smaller firms. The process for issuing the bond is costly
+and time-consuming, and includes third-party certification, legal documentation
+and continuous impact reporting.
+
+Multilateral and bilateral development finance
+The World Bank, Asian Development Bank and International Finance Corporation
+provide concessional finance and credit guarantees for large capital projects. The
+World Bank’s Clean Technology Fund, the Global Environment Facility, KfW
+and JICA provide bilateral concessional lines for industrial clean technology.
+These sources supply the concessional and risk-bearing tranches that make
+MSME efficiency lending viable. However, access to these financial instruments
+has limitations. The application and compliance with environmental and social
+safeguard frameworks impose preparation costs and documentation burdens that
+smaller producers struggle to meet without assistance.
+
+Equipment leasing and energy service companies (ESCO)
+Leasing allows a producer to use equipment owned by a lessor in exchange for
+periodic payments, often with maintenance and servicing included, reducing both
+capital outlay and operational risk. It suits firms willing to adopt a technology
+but unwilling to commit capital before proving it, and is particularly relevant to
+the longer-payback measures. The leasing market for heavy industrial machinery
+in India is however considerably less developed than for logistics or construction
+equipment, and lessors are cautious about specialized steel plant equipment for
+which no ready secondary market exists. The energy service company model, in which
+a third party finances and installs equipment and is repaid from verified savings,
+addresses the capital constraint directly. However, this remains underdeveloped in
+India due to limited measurement and verification capability at host plants.
+
+
+
+                                                                                          35
+     FORGING TRANSITION
+
+
+
+
+        9. Conclusion
+
+        The iron and steel industry in India is at a critical point. In line with the National
+        Steel Policy's target of 300 MTPA by 2030, the sector's capacity is expected to
+        expand substantially over the coming years. An expansion of this scale will have
+        major consequences for India's emissions trajectory and its national climate
+        change commitments. There is an array of energy-efficient technologies available
+        for the iron and steel sector. This report attempts to identify the most impactful
+        and commercially available options across the BF-BOF, coal-based DRI, and EAF/
+        EIF routes that can be leveraged to achieve emission reductions through energy
+        efficiency in the near future. The study shows that full deployment of the 15 assessed
+        technologies to their remaining adoption potential could reduce emissions by 0.150–
+        0.241 tCO2/t crude steel, equivalent to 21.58–34.75 MTPA CO2 from the sector.
+        This would translate into a reduction of 5.9–9.5 per cent in the current average
+        emission intensity of the sector, bringing it down from 2.54 to approximately 2.30–
+        2.39 tCO2/t. These outcomes are achievable using technologies whose performance
+        has already been established. It is important to note that the potential for energy
+        efficiency will likely differ from plant to plant depending on parameters such as age,
+        current technologies etc. The largest untapped opportunity is concentrated in the
+        coal-based DRI sector.
+
+        There is a need for policy interventions to provide easier access to finance,
+        information and technological understanding, especially for smaller and older units
+        that lack the balance sheet strength or credit history to access mainstream finance.
+        With the commencement of the CCTS, energy efficiency will play a crucial role in
+        enabling the sector to achieve its targets for the upcoming compliance cycle and
+        beyond. The sector faces a tentative compliance target of a 5.82 per cent reduction
+        in emission intensity by FY 2026–27 (still in the draft stage), which is equivalent
+        to roughly 23.24 Mt of absolute emissions reduction against a business-as-usual
+        scenario. The energy efficiency technologies evaluated in this report can deliver this
+        required target, demonstrating that energy efficiency measures alone are sufficient
+        to enable steel plants to meet their regulatory compliance obligations in the near
+        term. Achieving deeper decarbonization beyond this will require clear strategies,
+        targets and investments in pathways such as increasing scrap-based steelmaking,
+        renewable electricity integration for electric arc and induction furnace operations,
+        green hydrogen-based ironmaking, and CCUS for residual process.
+
+
+
+
+36
+References
+1.  Cabinet Committee (May 3, 2017). Cabinet approves National Steel Policy 2017 [press
+    release]. Press Information Bureau, Government of India. Retrieved from https://
+    www.pib.gov.in/PressReleasePage.aspx?PRID=1489262&reg=3&lang=2
+2. India’s Nationally Determined Contribution (NDC) 2031–35 (2026). United Nations
+    Framework Convention on Climate Change. Retrieved from https://unfccc.int/sites/
+    default/files/2026-04/INDIA%20NDC%202031-35.pdf
+3. Swalec, C., and Torres Morales, E. (2024). A matter of transparency: 2024 insights on
+    the steel industry’s evolving commitments to reach net zero by 2020. Briefing. Global
+    Energy Monitor, LeadIt (Leadership Group for an Industry Transition). Retrieved from
+    https://www.sei.org/publications/a-matter-of-transparency-leadit/
+4. TERI (2023). Financing Decarbonization of the Secondary Steel Sector in India:
+    Towards an Enabling Environment. New Delhi, India: The Energy and Resources
+    Institute.Retrieved from https://www.teriin.org/sites/default/files/2023-12/
+    SNAPFI%20Steel%20Report%202023.pdf
+5. Ministry of Steel, Government of India. Annual Report 2024–25 (2025). Retrieved
+    from https://steel.gov.in/sites/default/files/2025-04/Steel_English_AR_2024%20
+    %281%29.pdf
+6. Prime Minister’s Office (April 24, 2025). Prime Minister Shri Narendra Modi
+    addresses the India Steel 2025 programme [press release]. Press Information Bureau,
+    Government of India. Retrieved from https://www.pib.gov.in/PressReleasePage.
+    aspx?PRID=2124042&reg=3&lang=2
+7. Ministry of Steel, Government of India. National Steel Policy – NSP (2017). Retrieved
+    from https://steel.gov.in/national-steel-policy-nsp-2017
+8. Indian Steel Association (2025). Roadmap for decarbonisation of Indian steel sector.
+    Presentation to the World Steel Association Workshop for National and Regional
+    Associations, December 1, 2025. Retrieved from: https://worldsteel.org/wp-content/
+    uploads/07_India.pdf
+9. Ministry of Steel, Government of India (2024). Greening the Steel Sector in India:
+    Roadmap and Action Plan. Neha Verma, Deepak Yadav, Karthik Shetty, Rudhi
+    Pradhan, Karan Kothadiya, Rishabh Patidar, Hemant Mallya, Sobhanbabu P.R.K.,
+    Dr N.K. Ram, Souvik Bhattacharjya, Manish Kumar Shrivastava, Arupendra Nath
+    Mullick, Mayank Aggarwal, Mandavi Singh. Retrieved from https://steel.gov.in/sites/
+    default/files/2025-03/GSI%20Report.pdf
+10. Ministry of Steel, Government of India (n.d.). Energy and Environment Management
+    in iron and Steel Sector. Retrieved from https://steel.gov.in/energy-and-environment-
+    management-iron-steel-sector-0
+
+
+
+
+                                                                                            37
+     FORGING TRANSITION
+
+
+
+
+        11. Sengupta, S. (2024). India’s ambitious green steel plan hinges on mitigating coal. Energy
+            Explained, Center on Global Energy Policy, Columbia University SIPA. https://www.
+            energypolicy.columbia.edu/indias-ambitious-green-steel-plan-hinges-on-mitigating-
+            coal/
+        12. World Steel Association (2025). Climate Change and the Production of Iron and Steel
+            [policy paper] Retrieved from https://worldsteel.org/wp-content/uploads/Policy-
+            Paper-climate-change-and-the-production-of-steel.pdf
+        13. Ministry of Steel, Government of India. (2024) Greening the steel sector in India:
+            Roadmap and action plan. Neha Verma, Deepak Yadav, Karthik Shetty, Rudhi Pradhan,
+            Karan Kothadiya, Rishabh Patidar, Hemant Mallya, Sobhanbabu P.R.K., Dr N.K. Ram,
+            Souvik Bhattacharjya, Manish Kumar Shrivastava, Arupendra Nath Mullick, Mayank
+            Aggarwal, Mandavi Singh. Retrieved from https://steel.gov.in/sites/default/files/2025-
+            03/GSI%20Report.pdf
+        14. Ibid.
+        15. Parth Kumar (2022), Decarbonizing India: Iron and Steel Sector, Centre for Science and
+            Environment, New Delhi. Retrieved from https://www.cseindia.org/decarbonizing-
+            india-s-iron-and-steel-sector-report-11434
+        16. Ministry of Steel, Government of India (2024). Greening the steel sector in India:
+            Roadmap and action plan. Neha Verma, Deepak Yadav, Karthik Shetty, Rudhi Pradhan,
+            Karan Kothadiya, Rishabh Patidar, Hemant Mallya, Sobhanbabu P.R.K., Dr N.K. Ram,
+            Souvik Bhattacharjya, Manish Kumar Shrivastava, Arupendra Nath Mullick, Mayank
+            Aggarwal, Mandavi Singh. Retrieved from https://steel.gov.in/sites/default/files/2025-
+            03/GSI%20Report.pdf
+        17. Centre for Study of Science, Technology and Policy (CSTEP) (2013). A Study of Energy
+            Efficiency in the Indian Iron and Steel Industry: Key Messages. Retrieved from https://
+            cstep.in/wp-content/uploads/2025/10/CSTEP_RR_A_Study_of_Energy_Efficiency_
+            in_the_Iron_and_Steel_Industry_2013.pdf
+        18. Ministry of Steel, Government of India (2024). Greening the steel sector in India:
+            Roadmap and action plan. Neha Verma, Deepak Yadav, Karthik Shetty, Rudhi Pradhan,
+            Karan Kothadiya, Rishabh Patidar, Hemant Mallya, Sobhanbabu P.R.K., Dr N.K. Ram,
+            Souvik Bhattacharjya, Manish Kumar Shrivastava, Arupendra Nath Mullick, Mayank
+            Aggarwal, Mandavi Singh. Retrieved from https://steel.gov.in/sites/default/files/2025-
+            03/GSI%20Report.pdf
+        19. Department of Science and Technology, Government of India (2022). Carbon capture,
+            utilisation and storage in India and the UK. https://dst.gov.in/sites/default/files/DST-
+            UKRI%20CCUS%20Report.pdf
+        20. Ministry of New and Renewable Energy (August 4, 2025). Scheme guidelines (revised)
+            for implementation of pilot projects for production and use of green hydrogen using
+            innovative methods/pathways in the residential, commercial, localized community,
+
+
+
+
+38
+    decentralized/non-conventional applications, including any new sector or technology
+    not covered in previous Mission schemes. Government of India. Retrieved from
+    https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploa
+    ds/2025/08/20250806545556112.pdf
+21. World Steel Association (2021). Energy use in the steel industry [fact sheet]. Retrieved
+    from https://worldsteel.org/wp-content/uploads/Fact-sheet-Energy-use-in-the-steel-
+    industry.pdf
+22. Dey, N.R., Prasad, A.K. and Singh, S.K. (2015). Energy Survey of the Coal Based Sponge
+    Iron Industry. Case Studies in Thermal Engineering, 6, 1–15. Retrieved from https://
+    www.sciencedirect.com/science/article/pii/S2214157X15000167
+23. Central Electricity Authority (2024). CO2 baseline database for the Indian power sector:
+    User guide version 20.0. Ministry of Power, Government of India. Retrieved from
+    https://static-cdn.publive.online/saur-energy/media/pdf_files/2025/01cea-report.pdf
+24. Central Electricity Authority (2024). CO2 baseline database for the Indian power sector:
+    User guide version 20.0. Ministry of Power, Government of India. Retrieved from
+    https://static-cdn.publive.online/saur-energy/media/pdf_files/2025/01cea-report.pdf
+25. Ministry of Steel, Government of India (2024). Greening the steel sector in India:
+    Roadmap and action plan. Neha Verma, Deepak Yadav, Karthik Shetty, Rudhi
+    Pradhan, Karan Kothadiya, Rishabh Patidar, Hemant Mallya, Sobhanbabu P.R.K., Dr
+    N K Ram, Souvik Bhattacharjya, Manish Kumar Shrivastava, Arupendra Nath Mullick,
+    Mayank Aggarwal, Mandavi Singh. Retrieved from https://steel.gov.in/sites/default/
+    files/2025-11/GSI%20Report%20FINAL%20NEW_18092025_2.pdf
+26. Ibid.
+27. Ministry of Steel, Government of India (2024). Greening the Steel Sector in India:
+    Roadmap and Action Plan. Neha Verma, Deepak Yadav, Karthik Shetty, Rudhi
+    Pradhan, Karan Kothadiya, Rishabh Patidar, Hemant Mallya, Sobhanbabu P.R.K.,
+    Dr N.K. Ram, Souvik Bhattacharjya, Manish Kumar Shrivastava, Arupendra Nath
+    Mullick, Mayank Aggarwal, Mandavi Singh. Retrieved from https://steel.gov.in/sites/
+    default/files/2025-11/GSI%20Report%20FINAL%20NEW_18092025_2.pdf
+28. Ibid.
+29. Ibid.
+30. Central Electricity Authority (CEA). Report. Retrieved from https://static-cdn.publive.
+    online/saur-energy/media/pdf_files/2025/01cea-report.pdf
+31. Intergovernmental Panel on Climate Change (IPCC). Volume 2: Energy (2006). IPCC
+    Guidelines for National Greenhouse Gas Inventories. Retrieved from https://www.ipcc-
+    nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_2_Ch2_Stationary_Combustion.
+    pdf
+32. Tikadar, B., Swami, D., and Chowdhary, V. (2025). Process-level emission analysis and
+    decarbonization pathway for BF-BOF route in Indian iron and steel industry. Journal of
+
+
+
+
+                                                                                               39
+ FORGING TRANSITION
+
+
+
+
+         Environmental Management, 373, 123483. Retrieved from https://www.sciencedirect.
+         com/science/article/abs/pii/S0301479724034698https://www.sciencedirect.com/
+         science/article/abs/pii/S0301479724034698
+     33. P.R.K. Sobhanbabu, Aggarwal M., Ghosh A.M. and Vijayakumar C. (2026). Energy
+         Efficiency in Steel Sector: A Comprehensive Review of Best Available Technologies. The
+         Energy and Resources Institute. Retrieved from https://www.teriin.org/policy-brief/
+         energy-efficiency-steel-sector-comprehensive-review-best-available-technologies
+     34. Krishnan, S.S., Vunnam, V., Shyam Sunder, P., Sunil, J.V. and Ramakrishnan, A.M.
+         (2013). A Study of Energy Efficiency in the Indian Iron and Steel Industry. Center for
+         Study of Science, Technology and Policy. Retrieved from https://shaktifoundation.in/
+         wp-content/uploads/2017/06/A_Study_of_Energy_Efficiency_in_the_Indian_IS.pdf
+     35. Mousa, E., Wang, C., Riesbeck, J. and Larsson, M. (2016). Biomass applications in
+         iron and steel industry: An overview of challenges and opportunities. Renewable and
+         Sustainable Energy Reviews, 65, 1247–66.https://www.sciencedirect.com/science/
+         article/abs/pii/S1364032116303896
+     36. International Institute for Industrial Productivity Network (IIPI). (n.d.). Top Pressure
+         Recovery Turbines. Retrieved from https://www.iipinetwork.org/wp-content/Ietd/
+         content/top-pressure-recovery-turbines.html
+     37. Ministry of Steel, Government of India. (2024) Greening the steel sector in India:
+         Roadmap and action plan. Neha Verma, Deepak Yadav, Karthik Shetty, Rudhi Pradhan,
+         Karan Kothadiya, Rishabh Patidar, Hemant Mallya, Sobhanbabu P.R.K., Dr N.K. Ram,
+         Souvik Bhattacharjya, Manish Kumar Shrivastava, Arupendra Nath Mullick, Mayank
+         Aggarwal and Mandavi Singh (Authors). Retrieved from https://steel.gov.in/sites/
+         default/files/2025-11/GSI%20Report%20FINAL%20NEW_18092025_2.pdf
+     38. International Institute for Industrial Productivity Network (IIPI). (n.d.). Blast Furnace
+         System. Retrieved from https://www.iipinetwork.org/wp-content/Ietd/content/blast-
+         furnace-system.html
+     39. Lawrence, F. (June 6, 2026). AI blast furnace optimization for modern steel plants.
+         iFactory AI. Retrieved from https://ifactoryapp.com/industries/steel-plant/ai-blast-
+         furnace-optimization-steel-plant
+     40. Institute for Industrial Productivity (n.d.). BOF heat and gas recovery. Industrial
+         Efficiency Technology Database. Retrieved from https://www.iipinetwork.org/
+         wp-content/Ietd/content/bof-heat-and-gas-recovery.html
+     41. Ghosh, A.M., Vasudevan, N. and Kumar, S. (2021). Compendium: Energy-efficient
+         Technology Options for Direct Reduction of Iron Process (Sponge Iron Plants). New
+         Delhi: The Energy and Resources Institute. Retrieved from https://www.teriin.
+         org/sites/default/files/2021-08/Direct%20Reduction%20of%20Iron%20Process.
+         pdfhttps://www.teriin.org/sites/default/files/2021-08/Direct%20Reduction%20
+         of%20Iron%20Process.pdf
+
+
+
+
+40
+42. Ibid.
+43. Kumar, V., and Khanam, S. (2012). Recovery and utilization of waste heat in a coal based
+    sponge iron process. Chemical Engineering and Processing: Process Intensification, 56,
+    19–28. Retrieved from https://www.sciencedirect.com/science/article/abs/pii/
+    S0255270112000621
+44. Sponge Iron Manufacturers Association. (2018, December). DRI update. Retrieved
+    from https://www.spongeironindia.com/images/publications/DRI%20UPDATE%20
+    December%202018.pdf
+45. E. Nand Gopal, Ayan Ganguly and N. Vasudevan, TERI (2017). Ready Reckoner on
+    Energy Efficient Technology Packages for Electric Arc Furnace New Delhi: The Energy
+    and Resources Institute, 33pp. A study for UNDP. https://sameeeksha.org/books/
+    Electric-Arc-Furnace.pdf
+46. Ibid.
+47. Bureau of Energy Efficiency. (n.d.). List of energy efficient technologies. ADEETIE,
+    Ministry of Power, Government of India. Retrieved from https://adeetie.beeindia.gov.
+    in/list-of-energy-efficient-technologies
+48. E. Nand Gopal, Ayan Ganguly and N. Vasudevan, TERI (2017). Ready Reckoner on
+    Energy Efficient Technology Packages for Electric Arc Furnace New Delhi: The Energy
+    and Resources Institute, 33pp. A study for UNDP. https://sameeeksha.org/books/
+    Electric-Arc-Furnace.pdf
+49. Nayak, A., Nayak, N. and Sahu, B.K. (2026). Transitioning from Energy Saving Certificates
+    to Carbon Credits: Evidence from India’s Integrated Steel Industry. Sustainable
+    Chemistry for Climate Action, 100199. https://www.sciencedirect.com/science/article/
+    pii/S2772826926000179
+50. Ministry of Steel (June 4, 2026). India’s steel output sustains growth in May 2026
+    [press release]. Press Information Bureau, Government of India. Retrieved from
+    https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268816&reg=48&lang=1
+51. Krishnan, S.S., Vunnam, V., Sunder, P.S., Sunil, J.V. and Ramakrishnan, A.M. (2013).
+    A Study of Energy Efficiency in the Indian Iron and Steel industry. Center for Study of
+    Science, Technology and Policy: Bangalore, India, 132. https://web.cstep.in/drupal/
+    sites/default/files/2019-01/CSTEP_RR_A_Study_of_Energy_Efficiency_in_the_
+    Iron_and_Steel_Industry_2013.pdf
+
+
+
+
+                                                                                                41
+     FORGING TRANSITION
+
+
+
+
+42
+ FORGING TRANSITION
+
+
+
+     India is the second-largest manufacturer of crude steel in the world.
+     In FY 2023–24, the sector produced 144.3 million tonnes of crude
+     steel at an average intensity of 2.54 tCO2 per tonne, releasing
+     366.52 million tonnes of CO2. A major part of that emission comes
+     from energy-related sources. The average Indian steel plant still
+     consumes 30–42 per cent more energy per tonne as compared to
+     global best plants.
+
+     Forging Transition argues that this gap is the opportunity. This report
+     assesses 15 commercially proven energy-efficiency technologies
+     across the blast furnace, coal-based DRI and electric furnace routes,
+     quantifying the emissions that can be reduced from the existing
+     capacity. Complete deployment would cut sectoral emissions
+     by 21.6–34.8 million tonnes, or 5.9–9.5 per cent, with most
+     technologies paying for themselves within two years. This could also
+     be a major contributor in achieving the upcoming Carbon Credit
+     Trading Scheme (CCTS) targets.
+
+
+
+
+                         Centre for Science and Environment
+                         41, Tughlakabad Institutional Area, New Delhi 110 062
+                         Phone: 91-11-40616000 Fax: 91-11-29955879
+                         E-mail: cse@cseindia.org Website: www.cseindia.org
+
+
+
+
+44
+

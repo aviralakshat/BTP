@@ -68,11 +68,15 @@ PROVENANCE = {
     "physical_constant": {"color": INK_MUTED, "icon": "○",
                           "label": "Physical Constant"},
     "derived": {"color": INK_MUTED, "icon": "○", "label": "Derived"},
+    "indicative": {"color": INK_MUTED, "icon": "◐", "label": "Indicative"},
+    "scenario_choice": {"color": INK_MUTED, "icon": "◇",
+                        "label": "Scenario Choice"},
 }
 
-FONT = 'system-ui, -apple-system, "Segoe UI", sans-serif'
-#: Bars are capped rather than filling their band, so the leftover is air.
-BAR_CORNER_RADIUS = 4
+FONT = '"Avenir Next", "Segoe UI", system-ui, sans-serif'
+DISPLAY = '"Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif'
+#: Square ends. A rounded bar reads as a control, not an exhibit.
+BAR_CORNER_RADIUS = 0
 
 
 def register_template() -> str:

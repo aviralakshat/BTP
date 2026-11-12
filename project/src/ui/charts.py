@@ -10,6 +10,10 @@ Forms are chosen by the data's job, not by variety:
   Scenario delta     before -> after per item -> dumbbell, one hue two shades
   Pathways           cost against CO2 cut -> scatter + Pareto frontier line
   H2 price           cost delta against H2 price, per level -> lines, fixed slots
+  Tornado            one parameter's range -> horizontal bar, one hue
+  Abatement curve    marginal cost against cumulative CO2 -> bars, cost polarity
+  Carbon price       cost against a carbon price, per pathway -> lines, fixed slots
+  Cost sample        draws of cost per tonne -> histogram, one hue, P10/P50/P90 markers
 
 Every builder returns a Plotly figure and every chart in app.py ships a
 table-view twin, which is how the palette's sub-3:1 contrast warning on the
@@ -20,12 +24,31 @@ from __future__ import annotations
 import plotly.graph_objects as go
 
 from src.ui import theme as T
+from src.ui.labels import plain_route
 from src.ui.labels import COST_LINES, ENERGY_GROUPS, stream, title_case
 
 
 def _layout(fig: go.Figure, height: int, **kwargs) -> go.Figure:
     fig.update_layout(height=height, **kwargs)
     return fig
+
+
+def labeled_bars(rows: list[dict], axis_title: str) -> go.Figure:
+    """Two or three bars, one colour, one axis. The label sits on the bar."""
+    fig = go.Figure(go.Bar(
+        x=[row["label"] for row in rows],
+        y=[row["value"] for row in rows],
+        marker=dict(color=T.SERIES[0], cornerradius=T.BAR_CORNER_RADIUS),
+        text=[row["text"] for row in rows],
+        textposition="outside", cliponaxis=False,
+        textfont=dict(color=T.INK_PRIMARY, size=13, family=T.FONT),
+        showlegend=False,
+        hovertemplate="%{x}<br>%{text}<extra></extra>",
+    ))
+    top = max(row["value"] for row in rows)
+    fig.update_yaxes(title=axis_title, rangemode="tozero", range=[0, top * 1.28])
+    fig.update_xaxes(title="")
+    return _layout(fig, 300, margin=dict(l=8, r=12, t=24, b=4))
 
 
 # ---------------------------------------------------------------------------
@@ -46,7 +69,7 @@ def cost_composition(econ: dict) -> go.Figure:
         textposition="outside", cliponaxis=False,
         textfont=dict(color=T.INK_SECONDARY, size=12),
         hovertemplate="<b>%{customdata}</b><br>%{y}<extra></extra>",
-        customdata=[T.rupees(v) + " per tonne DRI" for v in values],
+        customdata=[T.rupees(v) + " per tonne" for v in values],
         showlegend=False,
     ))
     # Zero is the anchor, so the axis need not be symmetric -- forcing symmetry
@@ -54,7 +77,7 @@ def cost_composition(econ: dict) -> go.Figure:
     lo, hi = min(values), max(values)
     pad = (hi - lo) * 0.18
     fig.update_xaxes(range=[min(lo - pad, -pad), hi + pad * 1.6],
-                     title="INR per Tonne DRI", tickformat=",.0f")
+                     title="Rupees per tonne of sponge iron", tickformat=",.0f")
     fig.add_vline(x=0, line_width=1, line_color=T.BASELINE)
     fig.update_layout(bargap=0.55)
     return _layout(fig, 34 * len(items) + 96)
@@ -70,11 +93,11 @@ def co2_composition(co2: dict, baseline: dict | None = None) -> go.Figure:
     """
     # Plotly stacks the first category at the bottom, so the list is reversed
     # to make Baseline read first, top-down.
-    cols = ([("Scenario", co2), ("Baseline", baseline)] if baseline
-            else [("Baseline", co2)])
-    parts = [("Direct (Stack)", "co2_direct_t_per_t_dri", T.SERIES[0]),
-             ("Scope 2 (Power)", "co2_scope2_t_per_t_dri", T.SERIES[1]),
-             ("Biogenic", "co2_biogenic_t_per_t_dri", T.SERIES[2])]
+    cols = ([("With the changes", co2), ("Kiln alone", baseline)] if baseline
+            else [("This kiln", co2)])
+    parts = [("From the stack", "co2_direct_t_per_t_dri", T.SERIES[0]),
+             ("From bought power", "co2_scope2_t_per_t_dri", T.SERIES[1]),
+             ("Rice-husk carbon, reported separately", "co2_biogenic_t_per_t_dri", T.SERIES[2])]
 
     totals = {name: sum(abs(d.get(k, 0.0)) for _, k, _ in parts)
               for name, d in cols}
@@ -101,7 +124,7 @@ def co2_composition(co2: dict, baseline: dict | None = None) -> go.Figure:
         ))
     fig.update_layout(barmode="stack", bargap=0.68,
                       legend=dict(traceorder="normal"))
-    fig.update_xaxes(title="Tonnes CO2 per Tonne DRI", tickformat=".1f")
+    fig.update_xaxes(title="Tonnes of CO2 per tonne of sponge iron", tickformat=".1f")
     fig.update_yaxes(showgrid=False,
                      tickfont=dict(color=T.INK_SECONDARY, size=12))
     return _layout(fig, 74 * len(cols) + 110)
@@ -188,7 +211,7 @@ def energy_ledger(energy: dict, nhv_kj: float) -> go.Figure:
     # same order as the chart.
     fig.update_layout(barmode="relative", bargap=0.5,
                       legend=dict(traceorder="reversed"))
-    fig.update_xaxes(title="Gcal per Tonne DRI",
+    fig.update_xaxes(title="Heat, Gcal per tonne of sponge iron",
                      range=[0, max(r[2] for r in rows) * 1.22])
     return _layout(fig, 30 * len(rows) + 120)
 
@@ -244,7 +267,7 @@ def validation_meters(rows: list[dict]) -> go.Figure:
         ))
 
     fig.update_xaxes(range=[-0.75, 1.9], showticklabels=False, showgrid=False,
-                     title="Position Within Literature Band")
+                     title="Where the answer sits in the published range")
     fig.update_yaxes(showgrid=False,
                      categoryorder="array",
                      categoryarray=[title_case(r["label"]) for r in rows],
@@ -272,7 +295,7 @@ def scenario_dumbbell(metrics: list[dict]) -> go.Figure:
             hoverinfo="skip", showlegend=False))
     fig.add_trace(go.Scatter(
         x=[100] * len(metrics), y=[m["label"] for m in metrics],
-        mode="markers", name="Baseline",
+        mode="markers", name="Kiln alone",
         marker=dict(size=11, color=T.BLUE[250],
                     line=dict(color=T.SURFACE, width=2)),
         customdata=[f"{m['baseline']:,.4g} {m['unit']}" for m in metrics],
@@ -280,7 +303,7 @@ def scenario_dumbbell(metrics: list[dict]) -> go.Figure:
     fig.add_trace(go.Scatter(
         x=[100.0 * m["scenario"] / m["baseline"] if m["baseline"] else 100.0
            for m in metrics],
-        y=[m["label"] for m in metrics], mode="markers+text", name="Scenario",
+        y=[m["label"] for m in metrics], mode="markers+text", name="With the changes",
         marker=dict(size=13, color=T.BLUE[650],
                     line=dict(color=T.SURFACE, width=2)),
         text=[f"{m['scenario']:,.4g}" for m in metrics],
@@ -289,7 +312,7 @@ def scenario_dumbbell(metrics: list[dict]) -> go.Figure:
         customdata=[f"{m['scenario']:,.4g} {m['unit']}" for m in metrics],
         hovertemplate="<b>%{customdata}</b><br>%{y}, Scenario<extra></extra>"))
     fig.add_vline(x=100, line_width=1, line_color=T.BASELINE)
-    fig.update_xaxes(title="Indexed to Baseline = 100", ticksuffix="")
+    fig.update_xaxes(title="Kiln alone = 100", ticksuffix="")
     fig.update_yaxes(showgrid=False, tickfont=dict(color=T.INK_SECONDARY, size=12))
     return _layout(fig, 40 * len(metrics) + 120)
 
@@ -304,8 +327,8 @@ def abatement_curve(rows: list[dict], front: list[dict]) -> go.Figure:
     """
     fig = go.Figure()
     for feasible, name, symbol, color in (
-            (True, "Feasible", "circle", T.BLUE[250]),
-            (False, "Reductant-Starved", "square-open", T.INK_MUTED)):
+            (True, "Workable", "circle", T.BLUE[250]),
+            (False, "Not enough carbon", "square-open", T.INK_MUTED)):
         sel = [r for r in rows if r["feasible"] is feasible]
         if not sel:
             continue
@@ -316,24 +339,24 @@ def abatement_curve(rows: list[dict], front: list[dict]) -> go.Figure:
             marker=dict(size=9, symbol=symbol, color=color,
                         line=dict(color=T.SURFACE if feasible else color,
                                   width=1)),
-            customdata=[r["label"] for r in sel],
+            customdata=[plain_route(r["label"]) for r in sel],
             hovertemplate="<b>%{customdata}</b><br>%{x:.1f}% CO2 cut<br>"
                           "INR %{y:+,.0f} per t DRI<extra></extra>"))
     fig.add_trace(go.Scatter(
         x=[r["co2_reduction_frac"] * 100 for r in front],
         y=[r["cost_delta_inr_per_t_dri"] for r in front],
-        mode="lines+markers+text", name="Least-Cost Frontier",
+        mode="lines+markers+text", name="Cheapest mix",
         line=dict(color=T.BLUE[650], width=2),
         marker=dict(size=11, color=T.BLUE[650],
                     line=dict(color=T.SURFACE, width=2)),
-        text=[r["label"] for r in front], textposition="top left",
+        text=[plain_route(r["label"]) for r in front], textposition="top left",
         textfont=dict(color=T.INK_SECONDARY, size=11),
-        customdata=[r["label"] for r in front],
+        customdata=[plain_route(r["label"]) for r in front],
         hovertemplate="<b>%{customdata}</b><br>%{x:.1f}% CO2 cut<br>"
                       "INR %{y:+,.0f} per t DRI<extra></extra>"))
     fig.add_hline(y=0, line_width=1, line_color=T.BASELINE)
-    fig.update_xaxes(title="CO2 Reduction Against Baseline (%)", rangemode="tozero")
-    fig.update_yaxes(title="Change in Cost (INR per Tonne DRI)", tickformat=",.0f")
+    fig.update_xaxes(title="Carbon dioxide removed (%)", rangemode="tozero")
+    fig.update_yaxes(title="Change in cost (rupees per tonne)", tickformat=",.0f")
     return _layout(fig, 480)
 
 
@@ -355,6 +378,157 @@ def h2_price_lines(rows: list[dict]) -> go.Figure:
                            xanchor="left", xshift=6,
                            font=dict(color=T.INK_SECONDARY, size=11))
     fig.add_hline(y=0, line_width=1, line_color=T.BASELINE)
-    fig.update_xaxes(title="Hydrogen Price (INR per kg)", tickformat=",.0f")
-    fig.update_yaxes(title="Change in Cost (INR per Tonne DRI)", tickformat=",.0f")
+    fig.update_xaxes(title="Hydrogen price (rupees per kg)", tickformat=",.0f")
+    fig.update_yaxes(title="Change in cost (rupees per tonne)", tickformat=",.0f")
     return _layout(fig, 400, margin=dict(l=8, r=64, t=8, b=8))
+
+
+# ---------------------------------------------------------------------------
+def tornado_ranges(rows: list[dict], low_key: str, high_key: str,
+                   axis_title: str, base: float | None = None) -> go.Figure:
+    """Horizontal range from the low case to the high case. Largest swing on top."""
+    shown = list(reversed(rows))
+    labels = [r["axis_label"] for r in shown]
+    bases = [min(r[low_key], r[high_key]) for r in shown]
+    spans = [abs(r[high_key] - r[low_key]) for r in shown]
+    fig = go.Figure(go.Bar(
+        y=labels, x=spans, base=bases, orientation="h",
+        marker=dict(color=T.SERIES[0], cornerradius=T.BAR_CORNER_RADIUS),
+        text=[r["bar_label"] for r in shown],
+        textposition="outside", cliponaxis=False,
+        textfont=dict(color=T.INK_SECONDARY, size=11),
+        hovertemplate="<b>%{y}</b><br>%{customdata}<extra></extra>",
+        customdata=[r["hover"] for r in shown],
+        showlegend=False,
+    ))
+    if base is not None:
+        fig.add_vline(x=base, line_width=1, line_color=T.BASELINE)
+    fig.update_xaxes(title=axis_title)
+    fig.update_layout(yaxis=dict(title=""), bargap=0.45)
+    return _layout(fig, 32 * len(rows) + 96, margin=dict(l=8, r=88, t=8, b=8))
+
+
+def macc(bars: list[dict]) -> go.Figure:
+    """Marginal abatement cost in the order the measures were added."""
+    centers, widths, heights, colors, names = [], [], [], [], []
+    start = 0.0
+    for bar in bars:
+        width = bar["marginal_co2_t_per_t"]
+        centers.append(start + width / 2.0)
+        widths.append(width)
+        heights.append(bar["abatement_cost_inr_per_t_co2"])
+        colors.append(T.DIVERGING_NEG if bar["abatement_cost_inr_per_t_co2"] < 0
+                      else T.DIVERGING_POS)
+        names.append(bar["measure"])
+        start += width
+    fig = go.Figure(go.Bar(
+        x=centers, y=heights, width=widths,
+        marker=dict(color=colors, line=dict(color=T.SURFACE, width=1)),
+        text=[str(bar["order"]) for bar in bars],
+        textposition="outside", cliponaxis=False,
+        textfont=dict(color=T.INK_PRIMARY, size=12),
+        customdata=names,
+        hovertemplate="<b>%{customdata}</b><br>INR %{y:,.0f} per t CO2<extra></extra>",
+        showlegend=False,
+    ))
+    fig.add_hline(y=0, line_width=1, line_color=T.BASELINE)
+    fig.update_xaxes(title="Carbon dioxide avoided, running total (t per tonne)", rangemode="tozero")
+    fig.update_yaxes(title="Rupees per extra tonne of CO2 avoided", tickformat=",.0f")
+    return _layout(fig, 480, margin=dict(l=8, r=16, t=28, b=28))
+
+
+def carbon_price_lines(lines: list[dict]) -> go.Figure:
+    """Cost per tonne against a carbon price. One colour per pathway, in fixed order."""
+    fig = go.Figure()
+    shown = lines[:len(T.SERIES)]
+    for i, line in enumerate(shown):
+        fig.add_trace(go.Scatter(
+            x=line["prices"], y=line["costs"], mode="lines",
+            name=line["label"],
+            line=dict(color=T.SERIES[i], width=2.5),
+            hovertemplate=f"<b>{line['label']}</b><br>INR %{{x:,.0f}}/t CO2<br>"
+                          "INR %{y:,.0f} per t DRI<extra></extra>",
+        ))
+        fig.add_annotation(
+            x=line["prices"][-1], y=line["costs"][-1], text=line["label"],
+            showarrow=False, xanchor="left", xshift=6,
+            font=dict(color=T.INK_SECONDARY, size=11))
+    fig.update_xaxes(title="Carbon price (rupees per tonne of CO2)", tickformat=",.0f",
+                     rangemode="tozero")
+    fig.update_yaxes(title="Cost of one tonne (rupees)", tickformat=",.0f")
+    return _layout(fig, 440, margin=dict(l=8, r=168, t=8, b=8))
+
+
+def cost_distribution(counts: list[int], edges: list[float],
+                      markers: list[tuple[float, str]]) -> go.Figure:
+    """Histogram of bare-plant cost. Markers carry P10, P50 and P90."""
+    centers = [(edges[i] + edges[i + 1]) / 2.0 for i in range(len(counts))]
+    width = edges[1] - edges[0]
+    fig = go.Figure(go.Bar(
+        x=centers, y=counts, width=width * 0.96,
+        marker=dict(color=T.SERIES[0], cornerradius=2),
+        showlegend=False,
+        hovertemplate="INR %{x:,.0f} per t<br>%{y} draws<extra></extra>",
+    ))
+    for x, name in markers:
+        fig.add_vline(x=x, line_width=1, line_dash="dot", line_color=T.INK_PRIMARY,
+                      annotation_text=name, annotation_position="top")
+    fig.update_xaxes(title="Cost of one tonne (rupees)", tickformat=",.0f")
+    fig.update_yaxes(title="How many draws landed here", rangemode="tozero")
+    return _layout(fig, 380)
+
+
+def morris_mu(names: list[str], mu: list[float], axis_title: str) -> go.Figure:
+    """Mean absolute elementary effect. Largest at the top. One hue."""
+    order = list(reversed(list(zip(names, mu))))
+    fig = go.Figure(go.Bar(
+        y=[name for name, _ in order],
+        x=[value for _, value in order],
+        orientation="h",
+        marker=dict(color=T.SERIES[0], cornerradius=T.BAR_CORNER_RADIUS),
+        text=[f"{value:,.3g}" for _, value in order],
+        textposition="outside", cliponaxis=False,
+        textfont=dict(color=T.INK_SECONDARY, size=11),
+        showlegend=False,
+    ))
+    fig.update_xaxes(title=axis_title, rangemode="tozero")
+    fig.update_layout(yaxis=dict(title=""), bargap=0.45)
+    return _layout(fig, 32 * len(names) + 96, margin=dict(l=8, r=72, t=8, b=8))
+
+
+def kiln_temperatures(cells: list[dict]) -> go.Figure:
+    """Gas and solids temperature on one axis. Both are degrees Celsius."""
+    z = [c["z_mid_m"] for c in cells]
+    gas = [c["gas_temp_c"] for c in cells]
+    solid = [c["solid_temp_c"] for c in cells]
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(
+        x=z, y=gas, mode="lines", name="Waste gas",
+        line=dict(color=T.SERIES[0], width=2.5)))
+    fig.add_trace(go.Scatter(
+        x=z, y=solid, mode="lines", name="Solids",
+        line=dict(color=T.SERIES[1], width=2.5)))
+    fig.add_annotation(x=z[0], y=gas[0], text=f"Gas {gas[0]:.0f} °C",
+                       showarrow=False, yshift=12, font=dict(color=T.INK_SECONDARY, size=11))
+    fig.add_annotation(x=z[-1], y=gas[-1], text=f"Gas {gas[-1]:.0f} °C",
+                       showarrow=False, yshift=12, font=dict(color=T.INK_SECONDARY, size=11))
+    fig.add_annotation(x=z[-1], y=solid[-1], text=f"Solids {solid[-1]:.0f} °C",
+                       showarrow=False, yshift=-14, font=dict(color=T.INK_SECONDARY, size=11))
+    fig.update_xaxes(title="Distance from the Feed End (m)")
+    fig.update_yaxes(title="Temperature (°C)")
+    return _layout(fig, 380)
+
+
+def kiln_metallisation(cells: list[dict]) -> go.Figure:
+    """Prescribed metallisation. One series, one axis."""
+    z = [c["z_down_m"] for c in cells]
+    met = [100.0 * c["metallisation_frac"] for c in cells]
+    fig = go.Figure(go.Scatter(
+        x=z, y=met, mode="lines", name="Metallisation",
+        line=dict(color=T.SERIES[0], width=2.5), showlegend=False))
+    fig.add_annotation(x=z[-1], y=met[-1], text=f"{met[-1]:.1f}%",
+                       showarrow=False, xanchor="left", xshift=6,
+                       font=dict(color=T.INK_SECONDARY, size=12))
+    fig.update_xaxes(title="Distance from the Feed End (m)", rangemode="tozero")
+    fig.update_yaxes(title="Metallisation at the Downstream Face (%)", rangemode="tozero")
+    return _layout(fig, 320, margin=dict(l=8, r=48, t=8, b=8))

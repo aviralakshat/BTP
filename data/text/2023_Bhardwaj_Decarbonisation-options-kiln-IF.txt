@@ -1,0 +1,279 @@
+                                                                                                                                    607
+
+                                                                                                                       A publication of
+
+
+                CHEMICAL ENGINEERING TRANSACTIONS
+VOL. 103, 2023                                                                                                 The Italian Association
+                                                                                                             of Chemical Engineering
+                                                                                                             Online at www.cetjournal.it
+
+Guest Editors: Petar S. Varbanov, Panos Seferlis, Yee Van Fan, Athanasios Papadopoulos
+Copyright © 2023, AIDIC Servizi S.r.l.
+                                                                                                           DOI: 10.3303/CET23103102
+ISBN 979-12-81206-02-1; ISSN 2283-9216
+
+
+
+
+   Decarbonisation Options for Rotary Kiln-Induction Furnace
+             Process of Crude Steel Production
+Nishant Bhardwaj*, Srinivas Seethamraju, Santanu Bandyopadhyay, Rangan
+Banerjee
+Department of Energy Science and Engineering, Indian Institute of Technology Bombay, Powai, Mumbai, 400076, India
+nishantbhardwaj@iitb.ac.in
+
+The iron and steel industry is one of the significant contributors to global greenhouse gas emissions, and iron-
+making is the most energy- and emission-intensive step. India is the world’s second-largest steel producer and
+the largest producer of sponge iron. The Indian sponge iron industry is primarily rotary kiln based and integrated
+with a captive power plant and a steel-making unit. This study investigates various decarbonisation options and
+their impact on the rotary kiln process for sponge iron production. The current process uses two different streams
+of coal, which can be replaced with bio-char and natural gas, whereas the low-grade dolomite can be replaced
+with a better grade one. The rotary cooler and magnetic separator in a conventional sponge iron plant can be
+replaced with a gravimetric separator enabling hot charging of sponge iron to the steel-making furnace. The
+savings in energy and carbon dioxide (CO2) emissions are estimated based on the changes in electricity
+production/demand and the reduction in CO2 emissions due to the elimination of coal. The options considered
+can reduce the emission intensity of crude steel production by 2,579 kg CO2/t crude steel.
+
+1. Introduction
+The iron and steel industry is one of the world’s largest carbon dioxide (CO 2) producing sectors due to its high
+production volume, with 1,816.6 Mt of crude steel produced in 2018. The direct emission from this sector is 2.6
+Gt CO2 which is 7 % of the global CO2 emissions from energy systems (International Energy Agency, 2020).
+The average emission and energy intensities of this industry of crude steel (tcs) are 1.81 t CO 2/t and 19.51 GJ/t
+(World Steel Association, 2023).
+Many studies on the decarbonisation of the iron and steel sector were reported in the literature. Hasanbeigi et
+al. (2013) discussed a model to estimate the energy efficiency improvement and CO 2 emission reduction
+possibilities for the Chinese iron and steel industry. Li and Zhu (2014) discussed the impact of various
+technology options on energy and emission savings and the associated cost for the Chinese iron and steel
+industry. Dey et al. (2015) analysed the energy aspects of the rotary kiln process for sponge iron production and
+discussed the possibilities of energy conservation through heat integration. Toktarova et al. (2020) proposed
+various future scenarios for steel-making based on different decarbonisation measures and compared them
+based on the cost and CO2 intensity of steel. Nwachukwu et al. (2021) investigated the role of forest biomass in
+decarbonising the iron and steel industry. Fan and Friedman (2021) discussed the technology options and their
+economic assessment for the global iron and steel industry, considering all major processes. Nduagu et al.
+(2022) performed the life cycle assessment of greenhouse gas emissions for the Indian sponge iron industry
+considering rotary kiln and shaft furnace-based processes.
+Most studies on the decarbonisation of the iron and steel industry analysed the blast furnace–basic oxygen
+furnace and electric arc furnace routes. Only a few research works focused on the rotary kiln–induction furnace
+process in detail, including technological and economic analysis. This paper analyses a 350 t/day (tpd) sponge
+iron plant integrated with an induction furnace and a captive power plant. Several decarbonisation options, such
+as the use of a gravimetric separator, better grade dolomite, use of biochar, and natural gas injection, are
+identified. The impact of these decarbonisation options on direct CO 2 abatement, power loss/power savings,
+and additional power generation is discussed in this work, along with their economic evaluation.
+
+
+Paper Received: 02 May 2023; Revised: 02 August 2023; Accepted: 23 August 2023
+Please cite this article as: Bhardwaj N., Seethamraju S., Bandyopadhyay S., Banerjee R., 2023, Decarbonisation Options for Rotary Kiln-
+Induction Furnace Process of Crude Steel Production, Chemical Engineering Transactions, 103, 607-612 DOI:10.3303/CET23103102
+608
+
+2. Indian iron and steel sector
+India is the second largest iron and steel producer, with 111 Mt of crude steel production in 2018-19 (Ministry of
+Steel, 2020), and contributes to 6.0 % of the global crude steel output. Indian iron and steel sector is one of the
+most diversified iron and steel sectors in the world, with an estimated 44.5 % of production from the Blast
+Furnace – Basic Oxygen Furnace process, 19.6 % from the Rotary Kiln-Induction Furnace process, and 5.1 %
+from the Shaft Furnace- Electric Arc Furnace process (Ministry of steel, 2020). The remaining production is from
+blast furnaces combined with electric arc furnaces, scrap processing in electric furnaces, and other processes
+like Corex. With a specific energy consumption of 25.1-27.2 GJ/t (Ministry of Steel, 2021) and a CO2 emission
+intensity of 2.3 t CO2/t (International Energy Agency, 2020), the Indian iron and steel sector is both energy-and
+emission-intensive.
+India is the world’s largest producer of sponge iron, contributing to nearly one-third of the global sponge iron
+output. Global sponge iron production in 2018 was 104 Mt. Contrary to other geographies of the world where
+sponge iron is produced in shaft furnaces using natural gas, 80.1 % of the sponge iron produced in India is from
+the coal-based process (Ministry of Steel, 2020). The rotary kiln process uses iron ore (hematite), non-coking
+coal, and dolomite as feed material. Most of these sponge iron plants are integrated with a captive power plant
+for waste heat recovery and induction furnaces to convert sponge iron into crude steel. Indian sponge iron
+industry uses locally available high-grade iron ore (>60 %). However, using low-grade non-coking coal makes
+the Indian sponge iron industry more energy-and emission-intensive.
+2.1 Process description
+In the rotary kiln process, feed (iron ore, coal, and dolomite) and slinger coal (also called injection coal) enter
+the kiln through the feed and discharge end. Air is injected into the kiln through the discharge end and portholes
+along the length of the kiln. A schematic diagram of a typical rotary kiln-based sponge iron plant is shown in
+Figure 1.
+
+
+
+
+Figure 1: Schematic diagram of a rotary kiln-based sponge iron plant integrated with a captive power plant and
+induction furnace for crude steel production
+
+Coal is a source of reductant and thermal energy and dolomite acts as a sulfur absorber. The iron ore (Fe 2O3)
+is reduced to metallic iron in the kiln. Due to counter-current motion, waste gas leaves through the feed end,
+and sponge iron, calcined dolomite, and coal char leave as a solid mixture through the discharge end. This solid
+mixture is indirectly cooled in a rotary cooler to 110 °C (Dey et al., 2015), and the sponge iron is separated from
+the solid mixture using a magnetic separator. The sponge iron is finally melted in an induction furnace to make
+crude steel. Kiln off-gas with unburnt hydrocarbons is combusted, and the heat is recovered in a waste heat
+recovery boiler (WHRB). Dolo-char from the magnetic separator unit is mixed with coal and used as fuel in the
+captive power plant. The overall energy balance for the rotary kiln process is given in Eq(1).
+                                                                                                                 609
+
+
+𝑄 = 𝛴𝑚2 ℎ2 − 𝛴𝑚1 ℎ1 + 𝛥𝐻𝑟𝑒𝑑𝑢𝑐𝑡𝑖𝑜𝑛 + 𝛥𝐻𝑐𝑎𝑙𝑐𝑖𝑛𝑎𝑡𝑖𝑜𝑛 + 𝛥𝐻𝑙𝑜𝑠𝑠                                                        (1)
+Where Q is the energy required; m2 and m1 are the mass of products and reactants; h 2 and h1 are the specific
+enthalpies of products and reactants; ΔHreduction and ΔHcalcination are the energy required for the reduction of iron
+ore (Fe2O3) to iron (Fe), and calcination of dolomite; and ΔHloss represents the kiln energy losses. The mass and
+energy balances considering 1 t of crude steel as the basis are shown in Figures 2 and 3. The calculated CO 2
+emissions in the various steps of the rotary-kiln process are mentioned in Table 1. The power plant produces
+nearly 29 % of the emissions with an emission intensity of 1.21 kg CO 2/kWh. Surplus power generated is
+supplied to the grid. The plant can be given power generation credit in terms of CO 2, which is equal to the power
+supplied to the grid multiplied by the captive power plant emission intensity. Various decarbonisation options,
+their methodology of calculation, and their impact is discussed in section 3.
+
+
+
+
+Figure 2: Mass balance for rotary kiln – induction furnace process for crude steel production (basis: 1 t of crude
+steel)
+
+
+
+
+Figure 3: Energy balance for rotary kiln – induction furnace process for crude steel production (basis: 1 t of
+crude steel)
+610
+
+Table 1: CO2 emissions in various process heads in the rotary kiln-induction furnace process of crude steel
+production (Surplus power generated is supplied to the grid. Power generation credit equals the power
+supplied to the grid multiplied by the captive powerplant emission intensity.)
+              Process heads                        CO2 emissions (kg CO2 / tcs)
+Coal combustion (rotary kiln)                                                     2114
+Dolomite calcination                                                                56
+Char combustion (power plant)                                                      165
+Coal combustion (power plant)                                                      711
+Total CO2 emissions                                                               3046
+Power generation (credit)                                                         -750
+Net CO2 emissions                                                                 2296
+
+3. Decarbonisation measures
+Decarbonisation of the rotary kiln–induction furnace process is necessary to improve the emission intensity of
+the Indian iron and steel sector. Four emission reduction measures – one each encompassing energy efficiency,
+material efficiency, fuel change, and use of renewable energy – are considered in this study. Their impacts and
+the corresponding carbon abatement costs are mentioned in Table 2. The total cost of an option is calculated
+by adding the fixed cost, maintenance cost, and operation cost. Annual maintenance cost is assumed to be
+10 % of the fixed cost. The annualised fixed cost is the fixed cost times the capital recovery factor.
+
+Table 2: CO2 abatement potential and associated costs for various decarbonisation options
+ Sl. Decarbonisation    Type              Direct CO2        Loss in power Net CO2 abatement               Carbon
+ No.    options      of options           abatement            generation            (kg/tcs)      abatement cost
+                                             (kg/tcs)           (kWh/tcs)                             (US$/t CO2)
+1     Gravimetric         Energy                  0.0               -175.9             213.7                 -39.5
+      separator          efficiency
+2     Bio-char            Use of              1,241.5               -378.7                1701.6               45.4
+      replaces feed     renewable
+      coal                energy
+3     Better grade        Material               56.6                  0.0                  56.6               45.8
+      dolomite           efficiency
+4     Natural gas           Fuel                607.1               180.8                  607.1               66.0
+      injection           change
+
+3.1 Use of gravimetric separator
+In the conventional process, the sponge iron leaving the rotary kiln at 1,020 °C (Dey et al., 2015) is cooled to
+110 °C for two reasons: (i) to prevent re-oxidation of the sponge iron when exposed to air, and (ii) ease of
+magnetic separation owing to the strong magnetic properties of iron at a lower temperature. In the proposed
+alternative, a gravimetric separator can separate calcined dolomite, char, and sponge iron based on the
+differences in their densities. In plants with appropriate induction furnace capacity, a gravimetric separator can
+replace the rotary cooler and magnetic separator (see Figure 4). The hot sponge iron from the gravimetric
+separator can be directly fed to the induction furnace. The total electricity conserved in the induction furnace,
+rotary cooler, and magnetic separator is subtracted from the energy consumed by the gravimetric separator
+resulting in a net electricity savings of 175.9 kWh/tcs. The operating cost is calculated as the cost of power
+saved, which is negative due to electricity savings.
+3.2 Bio-char replaces feed coal
+Due to the high temperature inside the rotary kiln at the feed end, part of the feed coal is converted to char. This
+coal char helps form carbon monoxide (CO), which reduces the iron ore to sponge iron. The feed coal can be
+replaced with biochar. Biochar is substituted on an energy-equivalent basis. This helps to decrease the amount
+of fossil carbon consumed in processing sponge iron and crude steel. The amount of CO 2 savings is estimated
+by adding the emissions from feed coal and the emissions for the same amount of power generated from
+biomass pyrolysis by-products and subtracting the emissions due to power loss in waste heat recovery due to
+char substitution. Operating cost is estimated by subtracting the cost of coal and extra power generated from
+the cost of woody biomass required for biochar production.
+                                                                                                               611
+
+3.3 Use of better-grade dolomite
+Dolomite is added in the rotary kiln to absorb the sulfur present in coal, which is otherwise absorbed by sponge
+iron and reduces its quality. Calcination of dolomite releases CO 2 into the atmosphere. The amount of lime in
+dolomite that absorbs sulfur varies from 20 % to 60 %, depending upon the mines from which it is sourced (Yrjas
+et al., 1995). The use of better-grade dolomite helps decrease emissions from the calcination step. The net CO2
+abatement is calculated by adding the direct emissions from calcination and the emissions due to the coal
+(energy) used for it. This option doesn’t have a fixed cost. Operating cost is calculated by subtracting the cost
+of energy (coal) from the extra cost incurred due to the use of better-grade dolomite.
+
+
+
+
+Figure 4: Schematic diagram of rotary kiln – induction furnace process for crude steel production retrofitted with
+gravimetric separator
+
+3.4 Natural gas injection
+Coal is a solid fuel and is more carbon-intensive than a gaseous fuel like methane. Natural gas can replace
+slinger coal for a less carbon-intensive and energy-efficient process. In the kiln, slinger coal has a combustion
+efficiency of 71 %, while that of natural gas is 95 %. The fuel substitution is done on an energy-equivalent basis.
+The CO2 saving is estimated by subtracting emissions due to natural gas injection from emissions due to slinger
+coal and adding the emissions due to power loss because of natural gas injection. Operating cost is calculated
+by adding the cost of natural gas and the cost of power lost due to natural gas usage and subtracting the cost
+of slinger coal.
+
+4. Discussion
+A gravimetric separator option has a net negative cost of CO2 abatement, implying CO2 abatement is
+economically rewarding, and the rest of the decarbonisation options require a net positive cost (see Table 2).
+The negative cost of CO2 abatement is due to the electricity conserved. Despite better-grade dolomite usage
+being a material efficiency option, there is a net CO2 abatement cost due to the higher price for a better-grade
+material. The use of biochar is a decarbonisation option due to the use of renewable woody biomass. The
+marginal abatement cost curve for the decarbonisation options considered is presented in Figure 5. Together,
+all these options can help abate nearly 56 Mt of CO2 annually in the Indian iron and steel sector.
+
+5. Conclusions
+Among the options considered, the use of biochar to replace feed coal has the highest CO 2 abatement potential
+because of the carbon-neutral nature of biomass. The overall CO2 abatement by all four options is higher than
+the current emission intensity of 2,296 kg CO2/tcs because of the surplus power generation from biomass
+pyrolysis gas generated during the production of biochar. However, there is actual emission of 448.7 kg CO 2/tcs
+from natural gas combustion and calcination. These decarbonisation options are difficult to implement from a
+commercial perspective because of the high associated costs, as nearly 90 % of the emission abatement cost
+is in the range of 40-70 US$/t CO2 abated. By implementing the gravimetric separator option completely and
+the bio-char option partially, 399.7 kg CO2/t of crude steel can be abated without a net cost. This shows that the
+rotary kiln-based process route can be completely decarbonised conceptually, provided there are suitable
+612
+
+incentives for the industry and consumers. Future work is directed towards the inclusion of other decarbonisation
+options like painting the rotary kiln with low emissivity paint, use of variable frequency drives, replacement of
+slinger coal with bio-syngas, etc., for the cost-effective decarbonisation of the sponge iron sector.
+
+
+
+
+Figure 5: Marginal abatement cost curve for various technology options for decarbonisation of the rotary kiln-
+induction furnace process of crude steel production (Considering all four decarbonisation options, more CO 2
+seems to be abated than actually emitted because of the power credit from biomass pyrolysis gas generated
+during biochar production.)
+
+Acknowledgments
+The authors thank BP International Limited for funding this work (RD/0120-DONBP04-001).
+
+References
+Dey N.R., Prasad A.K., Singh S.K., 2015, Energy survey of the coal based sponge iron industry, Case Studies
+    in Thermal Engineering, 6, 1–15.
+Fan Z., Friedmann S.J., 2021, Low-carbon production of iron and steel: Technology options, economic
+    assessment, and policy, Joule, 5(4), 829-862.
+Hasanbeigi A., Morrow W., Sathaye J., Masanet E., Xu T., 2013, A bottom-up model to estimate the energy
+    efficiency improvement and CO2 emission reduction potentials in the Chinese iron and steel industry,
+    Energy, 50, 315-325.
+International      Energy        Agency,        2020,     Iron     and     Steel     Technology       Roadmap
+    <iea.blob.core.windows.net/assets/eb0c8ec1-3665-4959-97d0-
+    187ceca189a8/Iron_and_Steel_Technology_Roadmap.pdf> accessed 07.12. 2022.
+Li Y., Zhu L., 2014, Cost of energy saving and CO2 emissions reduction in China’s iron and steel sector, Applied
+    Energy, 130, 603-616.
+  Ministry        of       Steel,         2020,        Annual       report     2019-20,        New         Delhi
+     <steel.gov.in/sites/default/files/MoS%20AR%20Eng.pdf> accessed 02.04.2022.
+Ministry of Steel, 2021 <steel.gov.in/technicalwing/energy-and-environment-management-iron-steel-sector>
+    accessed 20.02.2023.
+Nduagu E.I., Yadav D., Bhardwaj N., Elango S., Biswas T., Banerjee R., Rajagopalan S., 2022, Comparative
+    life cycle assessment of natural gas and coal-based directly reduced iron (DRI) production: A case study for
+    India, Journal of Cleaner Production, 347, 131196.
+Nwachukwu C.M., Wang C., Wetterlund E., 2021, Exploring the role of forest biomass in abating fossil CO2
+    emissions in the iron and steel industry – The case of Sweden, Applied Energy, 288, 116558.
+Toktarova A., Karlsson I., Rootzén J., Göransson L., Odenberger M., Johnsson F., 2020, Pathways for Low-
+    Carbon Transition of the Steel Industry—A Swedish Case Study, Energies, 13(15), 3840.
+World Steel Association, 2023, Our performance: Sustainability Indicators <worldsteel.org/steel-
+    topics/sustainability/sustainability-indicators/> accessed 27.02.2023.
+Yrjas P., Iisa K., Hupa M., 1995, Comparison of SO2 capture capacities of limestones and dolomites under
+    pressure, Fuel, 74(3), 395-400.
+

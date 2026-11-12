@@ -1,0 +1,62 @@
+URL: https://www.kigl.co.in/guides/industrial-gas-prices-in-india
+Title: Industrial Gas Prices in India | Acetylene, Oxygen | KIGL
+Published: 2026-10-11
+Retrieved: 2026-11-10 (parallel-cli)
+
+By Mithillessh Garg , Director (Gas Supply)
+Indicative Indian prices, ex-works, as published on each product page: industrial oxygen ₹32 to ₹40 per Nm³, dissolved acetylene ₹350 to ₹450, nitrogen ₹50
+
+...
+
+All are ex-works, exclusive of GST , and all are indicative: your written quotation is the figure that counts.
+
+Gases, per Nm³ unless stated
+
+* Gas | Indicative range | Page
+* Industrial oxygen | ₹32 – ₹40 | Oxygen
+* Carbon dioxide | ₹35 – ₹50 per kg | Carbon dioxide
+* Compressed and synthetic air | ₹40 – ₹50 | Compressed air
+* Nitrogen | ₹50 – ₹65 | Nitrogen
+* Medical oxygen | ₹50 – ₹70 | Medical oxygen
+* Argon | ₹220 – ₹250 | Argon
+* Dissolved acetylene (industrial) | ₹350 – ₹450 | Acetylene gas
+* Hydrogen | ₹600 – ₹700 | Hydrogen
+
+...
+
+* PSA oxygen or nitrogen plant | ₹20 lakh – ₹2 crore by capacity | PSA oxygen
+* Acetylene plant, KIGL-DA-25, 25 Nm³/h | ₹35 – ₹45 lakh | DA-25
+* Acetylene plant, KIGL-DA-50, 50 Nm³/h | ₹55 – ₹65 lakh | DA-50
+* Acetylene plant, KIGL-DA-100, 100 Nm³/h | ₹70 lakh – ₹1.1 crore | DA-100
+
+Why acetylene costs ten times what oxygen does
+
+...
+
+Ask every supplier for the same six things and the comparison becomes possible:
+1. Rate per Nm³ or per kg, and at what quantity band.
+2. Cylinder water capacity in litres, and the nominal contents.
+3.
+
+...
+
+y ₹350 to ₹450 per Nm³ ex-works, with high purity at ₹600 to ₹800 and ultra-high-purity in DMF at ₹1,200 to ₹2,200.
+
+...
+
+A PSA oxygen or nitrogen plant runs ₹20 lakh to ₹2 crore by capacity and purity. Is it cheaper to make acetylene than to buy cylinders?
+Above a steady demand it is, and below it it is not.
+
+...
+
+Revision).
+2. Bureau of Indian Standards. (2024). Dissolved acetylene (IS 308:2024, Fourth Revision).
+
+At a glance
+
+Industrial oxygen, indicative ₹32 – ₹40 per Nm³ KIGL indicative range, ex-works
+Dissolved acetylene, indicative ₹350 – ₹450 per Nm³ KIGL indicative range, ex-works
+Acetylene plant, indicative ₹35 lakh – ₹1.2 crore, by capacity KIGL indicative range, ex-works
+
+========================================================================
+

@@ -1,0 +1,15 @@
+URL: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-inr.en.html
+Title: Indian rupee (INR) — ECB euro reference exchange rate
+Published: page dated 2026-11-06
+Retrieved: 2026-11-10 (parallel-cli extract)
+
+ECB euro reference exchange rate. Rates are rupees per one euro.
+
+The page, read on 10 November 2026, prints rates through Friday 6 November 2026. Monday 9 and Tuesday 10 November are blank on that page, so 6 November is the latest rate it shows.
+
+November 2026 (Mon–Sun):
+2 November 106.4505
+3 November 105.9155
+4 November 106.6318
+5 November 106.0395
+6 November 104.8645

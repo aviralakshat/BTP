@@ -1,0 +1,182 @@
+                         Energy integration of sponge iron production process
+
+
+
+
+                  Deepthi Tirumalaraju                                                 Dr. Shabina Khanam
+          Department of Chemical Engineering                                   Department of Chemical Engineering
+            National Institute of Technology                                     National Institute of Technology
+                     Rourkela, India                                                     Rourkela, India
+        e-mail: tirumalaraju.deepthi@gmail.com                                   e-mail: shabinahai@gmail.com
+
+
+                                                             Abanti Sahoo
+                                                Department of Chemical Engineering
+                                                  National Institute of Technology
+                                                          Rourkela, India
+                                                    e-mail: asahu@nitrkl.ac.in
+
+
+Abstract— The present work is an approach for conservation                                 I.    INTRODUCTION
+of energy in the coal based sponge iron industry by heat
+integration and incorporating certain design modifications                 Sponge iron is a metallic mass with honeycomb structure.
+without disturbing the SL/RN process technology involved in           It is a form of iron produced from direction reduction of iron
+the sponge iron production. Although the making of sponge             oxide below the fusion temperature of iron ore (1535ºC) by
+iron through direct reduction is being practiced in India, it still   utilizing hydrocarbon gases or carbonaceous fuels as coal.
+is having loopholes due to the non-optimal process parameters,        Sponge iron is produced primarily both by using non-coking
+high energy consumption and old running process technology            coal and natural gas as reductant and therefore classified as
+motivation of the present work.                                       coal based and gas based process respectively. Due to a
+                                                                      promising availability of coal in India, the coal based sponge
+The waste heat recovery in the process is done using waste            iron plants share the major amount of its production.
+gases exiting from ESP. For this purpose a case study of typical           The availability of raw materials, high demand of sponge
+Indian sponge iron process of capacity 100 tpd is considered.         iron and less payback period, sponge iron industry has
+After a complex reduction and combustion process waste gas            emerged as a profitable venture. However, due to lack of
+exits the sponge iron plant at substantially higher temperature       proper integration techniques, non-optimal process
+which is around 200-220C. At this range of temperature waste         parameters, high energy consumption and old running
+gas carries a lot of sensible heat which directly goes to the
+                                                                      process technology, the industry are facing a setback in
+atmosphere through chimney.
+                                                                      market.
+To apply heat integration on the sponge iron production                    Many investigators considered the process of sponge iron
+process a solution technique has been developed. A complete           manufacturing and recommended improvement in that [1, 2,
+material and energy balance is performed on the process to            3 and 4]. It is found that during the operation in the coal
+obtain theoretical oxygen and there by air demand of the              based sponge iron plant, an incredible amount of heat is
+process. Therefore air to coal ratio is calculated, which is kept     generated and a significant part of this heat associated with
+fixed for entire integration process. A model is developed to         the waste gas, remains unutilized. A few authors considered
+calculate the theoretical coal demand of the process based on         this fact and suggested improvement in the process. Prasad et
+heat of reactions, feed preheating, sensible and radiation losses,    al. [5] investigated the utilization of heat of waste gas,
+etc. Then heat integration is applied by incorporating the            through two case studies considering preheating of feed
+proposed design modifications to preheat the kiln feed and air.       material. They compared these cases with the existing waste
+This reduces the amount of coal consumption to 4.3%. In               heat recovery system of the plant based on coal consumption
+addition, due to decrease in the amount of air the waste gas          and economic analysis.
+amount is also decreased from 27.68155t/h to 26.3698 t/h.                  The literature indicates that for Indian sponge iron
+                                                                      industries the power consumption ranges from 45-130 kWh/t
+   Keywords- Sponge iron plant, Heat integration, Material and
+                                                                      [6]. Significant improvements in decreasing energy
+Energy balance
+                                                                      consumption were achieved in gas based direct reduction
+                                                                      processes. However, for coal based processes potential for
+                                                                      such savings is required. Although many plants have
+acquired the desired level of operational efficiency but from      (4.513 tph), Char (0.601 tph) and Ash (2.40 tph). This
+energy point of view various units is below optimum limit.         discharged material enters the rotary cooler where water is
+The principal cost factor in direct reduction is energy cost as    sprayed over the cooler and the temperature is brought down
+energy requirement for rotary kiln processes ranges between        to about 120ºC. The products, after cooling were separated
+14.63 GJ/t to 20.9 GJ/t [7].                                       into iron, char and other non- magnetic impurities using
+    Based on above discussion, it was observed that for heat       electromagnetic separators. These separated products are
+recovery several authors have considered only heat available       screened into different sizes and sent to storage.
+with waste gas; however, in the sponge iron process there are          The gases out of the rotary kiln are burnt in a chamber to
+many potential areas where unutilized heat is present.             ensure that CO is negligibly present. Air (4.018 tph) is fed
+Therefore, a fresh look is required on the existing process to     into the After Burning Chamber (ABC) to burn the CO
+integrate energy effectively. Thus, in the present paper, an       gases. The Waste gases from ABC at 1000ºC enter the waste
+approach is identified for energy integration and                  heat recovery boiler (WHRB). Here, waste gas is quenched
+modifications based on the actual data of sponge iron plant        to bring its temperature down to a workable limit for
+are suggested.                                                     downstream equipment. Water, coming out from the guns, is
+                                                                   sprayed to reduce temperature of waste gas to desired level,
+     II.    DESCRIPTION OF CONVECTIONAL COAL BASED                 which is 200-250°C. The bottom part of the WHRB and
+                       SPONGE IRON PLANT                           ABC is attached with a wet scraper to collect the dust.
+    The process flow sheet of a typical coal-based sponge              Further, waste gas coming out from the WHRB enters the
+iron plant with material and energy balanced operating data        electrostatic precipitator (ESP) for removal of particulate
+is shown in the figure. 1. The overall production capacity of      matter. Desired temperature of the waste gas is to be
+the plant is 100tpd. In this process screened iron ore (6.5tph),   maintained below 200-250°C. ESP exit is connected to the
+coal (3.529tph) and dolomite (0.2tph) are charged into the         chimney through an induced direct fan. After ESP, filtered
+rotary kiln. About 40% of total 5.958 tph coal i.e 2.429tph of     waste gas goes to the atmosphere and remaining material of
+slinger coal is also injected pneumatically from the discharge     ESP is collected as dust.
+end of the kiln. Compressed air (24.807 tph) is injected along
+the length of the rotary kiln at various places with the help of                     III.   HEAT INTEGRATION
+blowers which can be adjusted separately.                              The process description shows that waste gas exits the
+                                                                   ESP at 220°C which is significantly high. The heat available
+                                                                   with waste gas can be utilized in the process. Considering
+                                                                   this fact the heat integration study is done in the sponge iron
+                                                                   process by pre-heating the kiln feed mixture (iron ore, coal,
+                                                                   dolomite) and kiln air using waste gas exiting from ESP. The
+                                                                   waste gas from ESP is at 220ºC is carried out through duct to
+                                                                   the rotary kiln and a return duct is used to carry the waste gas
+                                                                   at from kiln to the chimney.
+
+                                                                               IV.    RESULTS AND DISCUSSION
+                                                                       In the present work modification in the design based on
+                                                                   the actual data of sponge iron plant is proposed where waste
+                                                                   gas exiting from ESP is used to preheat kiln feed and air. In
+           Figure 1: Flow Sheet of Typical Sponge Iron Plant       the actual plant feed mixture (iron ore, coal, dolomite) and
+                                                                   air is fed into the rotary kiln at 30ºC where it is preheated
+    The inside kiln is lined with refractory and supported on      inside the kiln upto reaction temperature which is assumed as
+three piers called support rollers with an inclination of 2.5 .    1020ºC. This is done by burning of coal inside the kiln.
+The girth gear is used for the rotation of the kiln. Due to its    However, by preheating the kiln feed and air using waste gas
+inclination and rotation, material in the bed of kiln moves        outside the kiln some amount of coal may be reduced.
+along the axis.                                                        The temperatures of kiln feed and air are increased to
+    CO and CO2 gases are produced when combustion of               120ºC and 114.5ºC, respectively through preheating by waste
+coal takes place in the presence of air inside the kiln. These     gas. Thus, preheating of kiln feed and air is carried out from
+exothermic reactions increase the temperature of coal which        120ºC to 1020ºC and 114.5ºC to 1020 ºC inside the kiln
+helps in bringing it to reaction temperature. The remaining        using combustion of coal. Thus, total coal consumption is
+amount of total coal is injected from the discharge end. It        reduced from 6.144 t/h to 5.95 t/h. The coal consumption is
+reacts with CO2 to produce CO, which acts as the reducing          computed using following equations [8]:
+agent to produce Fe from iron ore.
+    The residence time of iron ore inside the kiln is about 10        Qa + Qo + Qrxn + Qloss + Qc + Qw = mc ×NHV ×(0.675)
+hours. During this time iron ore is reduced optimally. Hot
+sponge iron along with semi burnt coal exits the kiln at the          Where, NHV is the net heating value of coal which is
+discharge end. The product stream at 1000ºC consists of Fe         27382.267kJ/kg. However, when the consumption of coal
+drops the quantity of air required to burn it also drops. So the         1.2m. This duct is modelled and simulated with Ansys
+solution of this problem requires trial and error. Based on the          workbench (Ver. 12) [8]. These ducts are made of steel
+trial and error method the final amount of coal required is              where glass wool is used as insulating material at the outer
+estimated to be 5.88 t/h and the corresponding air                       surface of the ducts. The modified flow sheet of sponge iron
+requirement comes out to be 23.74 t/h. Detailed computation              process is shown in Fig. 2.
+for it is shown in Table 1. The outlet temperature of the kiln
+feed is kept constant at 120 C due to conveying problems                                         V.     CONCLUSION
+       TABLE I.       RESULTS OF ITERATIVE APPROACH FOR COAL
+                                                                               The salient conclusions of the work are as follows:
+                            CONSUMPTION                                         The heat integration of the system was done by
+                                                                                   recovering the heat from the waste gases at 220ºC.
+            Coal           Air                              Air outlet
+S.No     consumptio    requiremen
+                                       Kiln feed outlet
+                                                           temperatur              For this purpose modifications were done in the
+  .           n             t
+                                       temperature(C           e                  existing system where the heat available with waste
+                                              )
+              (tph)         (tph)                             (C)                 gases are integrated in the process to preheat kiln
+   1        6.1442        24.8079          120                 109.94              feed mixture and air.
+   2        5.9541        24.0405          120                 113.29
+   3        5.8973        23.8112          120                 114.33
+                                                                                The additional equipments required for this
+   4        5.8838        23.7566          120                 114.58              modification are a duct to carry the waste gases from
+    Table 1 shows that the coal consumption is reduced by                          ESP to rotary kiln, a gas-solid heat exchanger for
+4.3%. Due to the drop down in air requirement the heat                             preheating kiln feed mixture from 30ºC to 120ºC, a
+required to preheat, which is supplied by the waste gas, will                      gas-gas heat exchanger fro preheating kiln air from
+also drop. Further, due to decrease in the amount of air the                       30ºC to 114.58ºC and a return duct to carry the waste
+waste gas amount will also decrease to 26.3698 t/h in                              gases back to chimney.
+comparison with earlier figure of 27.68155 t/h. For this                        A trial and error method is followed to calculate the
+modification temperature of waste gas drops down to 1500C.                         coal required. Based on this the final amount of coal
+In fact, this is a sufficient temperature of the waste for escape                  required is estimated to be 5.88t/h and the
+out through chimney. The present modification reduces the                          corresponding air requirement comes out to be 23.74
+coal consumption and waste gas generation. To achieve this                         t/h. 4.3 % reduction of coal is achieved.
+modification a gas-gas shell and tube heat exchanger for air
+preheating and a solid-gas exchanger for the pre-heating of
+kiln feed is employed. However, design of these equipment                                              REFERENCES
+is beyond the focus of the present work.                                 [1]   B.B. Agrawal, K.K. Prasad, S.B. Sarkar, and H.S. Ray, “Cold bonded
+                                                                               ore-coal composite pellets for sponge ironmaking. Part 1 laboratory
+                                                                               scale development”, Ironmaking and Steelmaking, vol. 27, pp. 421–
+                                                                               425, 2000.
+                                                                         [2]   B.B. Agrawal, K.K. Prasad, S.B. Sarkar, and H.S. Ray, “Cold bonded
+                                                                               ore-coal composite pellets for sponge ironmaking. Part 2. Plant trials
+                                                                               in rotary kiln”, Ironmaking and Steelmaking, vol. 28, pp. 23–26,
+                                                                               2001.
+                                                                         [3]   S. Rani Devi, and B. Mazumder, “Recovery of Carbon From Sponge
+                                                                               Iron Plants—Studies on Dedust Samples”, Env. Sci. Eng, vol. 5, pp.
+                                                                               11–16, 2007.
+                                                                         [4]   H.P. Misra, and B.Ipicol, “Indian Sponge Iron Production—Problems
+                                                                               and Solutions”, SGAT Bulletin, vol. 7, pp. 37–46, 2006.
+                                                                         [5]   A. K. Prasad, R. K. Prasad and S. Khanam, “Design Modifications for
+                                                                               Energy Conservation of Sponge Iron Plants”, J. Therm. Sci. Eng.
+                                                                               Appli., vol. 3, pp. 015001-1, 2011.
+                                                                         [6]   B.Sengupta, Sponge Iron Industry Central Pollution Control Board
+                                                                               [online], 2004. Available from:
+                                                                               http://www.cpcb.nic.in/upload/NewItems/NewItem_102_SPONGE_I
+         Figure 2: Modified Flow Sheet of Sponge Iron Process                  RON.pdf [Last Accessed on March 29, 2012]
+Further, waste gas from ESP is brought to the rotary kiln                [7]   K.H. Ulrich and J.K. Tandon, “The CODIR process for India—An
+through a duct and a return duct is used to carry the waste                    example for optimum coal usage and its potential for energy
+gas at from kiln to the chimney. Both ducts are insulated.                     recovery”, Proceedings of International Conference on Alternative
+                                                                               Routes on Iron and Steel under Indian Conditions, Jamshedpur, India,
+The distance between ESP outlet and rotary kiln is 43m in                      vol 2, pp 21–25, 1988.
+plant site the insulated duct of 43m length is required. The             [8]   V. Kumar, “Heat Integration of Sponge Iron Industry” M.Tech.
+diameter of duct, which is a hollow cylinder, is considered as                 Thesis, National Institute of Technology, Rourkela, India, 2011.
+

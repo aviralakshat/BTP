@@ -1,0 +1,37 @@
+URL: https://ieefa.org/wp-content/uploads/2022/02/Reality-Check-on-CO2-Emissions-Capture-at-Hydrogen-From-Gas-Plants_February-2022.pdf
+Title: Reality Check on CO Emissions Capture at Hydrogen-From-Gas Plants
+Published: 2022-02-08
+Retrieved: 2026-11-10 (parallel-cli)
+
+It is also essential for the CCS system to capture the CO2 generated in all aspects of the hydrogen production facility including (but not limited to) the emissions from the power required to run the
+
+...
+
+greatly reduced.
+
+1 Without carbon capture, natural gas-based hydrogen is called “gray hydrogen.” A conventional steam methane reformer (SMR) gray hydrogen system has a mean carbon intensity of approximately 9k g CO2/kg H2. See: Argonne National Laboratory, Energy Systems Division, Systems Assessment Center. Updates of Hydrogen Production from SMR Process in GREET®2019. October 2019.
+
+...
+
+• **Only two commercial plants producing hydrogen from natural gas capture more than 1 million metric tons per annum (Mtpa) of CO2** —one in the United States (Air Products’ Port Arthur, Texas,
+
+...
+
+Argonne National Laboratory, a U.S. Department of Energy (DOE) multidisciplinary science and engineering research center, analyzed the carbon emissions from gray hydrogen, which is produced from natural gas using the steam methane reform (SMR) process but without using a CCS system. It reported that the mean estimate for carbon content from gray hydrogen is 9 kilograms of CO2 per kilogram of hydrogen (9kgCO2/kgH2). The figure is a total that includes both process emissions and emissions from onsite power generation. ¹⁴ Some hydrogen production facilities export steam while others do not, which affects the ratio of the shares of emissions from feedstock natural gas and fuel combustion of natural gas for the project. ¹⁵ The Argonne research examined emissions from both types of SMR facilities. It reported that the comparative share of carbon dioxide emissions are as follows:
+
+11 _Ibid._ , p. 4.
+
+...
+
+### **Process Fuel Combustion**
+
+### **Share in Total Natural**
+
+### **Gas Use**
+
+### With steam export 59.4% 40.6%
+
+### Without steam export 67.2% 32.8%
+
+========================================================================
+

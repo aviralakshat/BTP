@@ -22,6 +22,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 from src.data.parameters import MW
 from src.models.baseline import BaselinePlant
 
+HOURS_PER_DAY = 24.0
+
 
 class Hydrogen:
     def __init__(self, plant: BaselinePlant, substitution_frac: float):
@@ -61,6 +63,14 @@ class Hydrogen:
                       - coal_saved_kg / 1000.0 * p["econ.coal_price_inr_per_t"])
         h2_co2 = h2_kg / 1000.0 * p["hydrogen.ef_t_per_t"]
 
+        # Kamal et al. price the compressor per kW of electrolyser, so the
+        # equivalent electrolyser rating sizes it. Storage and lances are not costed.
+        h2_kg_per_h = h2_kg * pl.production_tpd / HOURS_PER_DAY
+        electrolyser_kw = (h2_kg_per_h * p["hydrogen.electrolyser_sec_kwh_per_kg"]
+                           / p["hydrogen.electrolyser_array_eff"])
+        capex = (electrolyser_kw * p["hydrogen.compressor_capex_usd_per_kw"]
+                 * p["econ.usd_inr"])
+
         return {
             "substitution_frac": frac,
             "capped_at_max": self.capped,
@@ -75,5 +85,6 @@ class Hydrogen:
             "reductant_carbon_adequate": ratio >= 1.0,
             "h2_supply_co2_t_per_t_dri": h2_co2,
             "opex_delta_inr_per_t_dri": cost_delta,
-            "capex_inr": 0.0,
+            "equivalent_electrolyser_kw": electrolyser_kw,
+            "capex_inr": capex,
         }

@@ -128,10 +128,9 @@ class MassBalance:
             {"coal ash": _coal("ash"),
              "ore gangue": pl.ore_dry * p["ore.gangue_frac"],
              "dolomite inerts": pl.dolomite_inerts},
-            {"char ash": pl.char_mass * p["char.ash"],
+            {"char ash": pl.char_ash,
              "DRI gangue": 1000.0 * p["dri.gangue_frac"],
-             "flue dust (non-Fe, non-C)": pl.dust_mass * (
-                 1 - p["dust.fe2o3_frac"] - p["dust.carbon_frac"]),
+             "flue dust (non-Fe, non-C)": pl.dust_inerts,
              "free ash to cooler (by difference)": pl.free_ash})
         return rows
 

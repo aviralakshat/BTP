@@ -1,0 +1,251 @@
+URL: https://environmentclearance.nic.in/writereaddata/Online/TOR/0_0_03_Mar_2016_1806491201Annexure-Pre-feasibilityReport.pdf
+Title: KUNJ  BIHARI  STEEL  PVT
+Published: 2016-03-03
+Retrieved: 2026-11-10 (parallel-cli)
+
+# **( EXPANSION PROJECT )**
+## **W E S T B E N G A L**
+year 2006 to manufacture Sponge Iron of 100 TPD i.e. 30000 TPA After successfully
+running of the existing plant the promoters have decided for expansion of the existing unit
+and set up DRI Kiln of 1 x 100 TPD and 4 MW ( WHRB ) Power Plant. The expansion
+
+...
+
+cost of the project is estimated at Rs. 4053.82 Lacs with a implantation period of 15 months
+form the Environmental Clearance date.
+The site is accessible by NH 2 at a distance of 4.5 km. Nearest Railway Station is Raniganj
+
+...
+
+The major raw material required for the Plant are Iron ore , Coal, and Dolomite. Iron ore is
+available from Jharkhand & Orissa. Coal & Dolomite is locally available.
+**2.** **INTRODUCTION OF THE PROJECT/BACKGROUND INFORMATION**
+
+...
+
+Business
+3
+Amit Agarwal
+Graduate
+42
+Business
+**ii) Brief description of nature of the project:**
+The proposed expansion project will consume minerals mainly Iron ore, Coal & Dolomite as
+raw materials to produce Sponge Iron. The waste gases will be utilized for power
+generation. Solid wastes like Dolo Char will be sold to near by power generating unit and
+other solid wastes will be suitably used for various purposes.
+As per EIA Notification 2006 the Sponge Iron Plant production capacity 200 TPD and
+
+...
+
+of the public such as industrial establishments, roads, schools colleges, farmers,
+agriculturists, builders and general public at large.
+The unit is running for last 9 years with a plant capacity of 100 TPD Sponge Iron. The
+
+...
+
+and infrastructure, its fortune is dependent on the growth of these user industries.
+The Indian steel sector enjoys advantages of domestic availability of raw materials and
+cheap labour. Iron ore is also available in abundant quantities. This provides major cost
+
+...
+
+imported raw material. World crude steel production was 1547 million tonnes (MT) in 2015,
+as per World Steel
+Association (WSA). China accounted for 46% of the world's total crude steel production in
+
+...
+
+accommodation is reduced to the extent the local people are employed. The total staffs
+after the expansion will be as below :
+**Project Head Requirement /**
+**Day**
+Sponge Iron section (Existing) 55
+Sponge Iron section (Proposed) 40
+Power Plant(Proposed) 15
+Administrative staff (Existing) 18
+**Total (in Man Head) 128**
+**3. Project Description: (i) Type of project including interlinked and interdependent project, if any:**
+The unit is running for last 9 years with a plant capacity of 100 TPD Sponge Iron. The
+
+...
+
+## **Plant Site At Industrial Estate**
+**Sl. No. Unit MT per Day MT per Annum**
+**1. SPONGE IRON UNIT (DRI)**
+1 x 100 TPD (Existing) & 1 x 100 TPD (Expansion)
+200 60000
+**2. POWER PLANT: ( Expansion )**
+WHRB
+4MW
+27646000 units
+**(v) Project description with process details (a schematic diagram/flow chart**
+**showing the project layout, components of the project etc. should be given):**
+**Manufacturing Process:**
+**Sponge Iron :**
+Sponge Iron production using coal involves reducing iron ore with coal or lignite. The
+reduction is carried out in a Rotary kiln at a pre-determined temperature (about 900-
+1100 deg. Cel). and controlled atmosphere. The input raw materials i.e iron ore coal
+and limestone are cursed to the required size. The sized materials are stored in dad
+
+...
+
+Ispat with combined installed capacity of 3.86 million tons.
+Most solid reluctant process use non-coking coal as reluctant due to abundantly
+available non-coking coal. The different coal based processes include retort / shaft
+(Echeverria Kinglor Meter, Wiberg), Tunnel Kiln ( Hoeganes) rotary kiln ( ACCR/
+OSIL,Lurgi, Krupp Renn, DRC TDR, CODIR, Sill- SL/ RN)the SL / RN process is
+applied world wide with capacities raining form 12,000 TPA to 150,000 TPA, Units
+
+...
+
+coking, reduced sponge grade iron ore. Locally available raw material to set up low
+capacity kilns and the lowest capital cost per of installed capacity has promoted the
+
+...
+
+**Reaction mechanism**
+The reaction occurring inside the bed of iron ore and coal are heterogeneous in
+nature. Two sets of reaction take place.
+Set 1: Between coal, carbon dioxide and oxygen
+Set 2: Between iron ore particles and CO.
+
+...
+
+**Raw Material Specification: For Sponge Iron (DRI):**
+The main raw materials required for the proposed Sponge Iron Plant are Iron ore, Coal
+and dolomite.
+**Properties of Iron Ore:**
+**Chemical**
+Fe (Total) : 62.0 – 65.0
+Al2O3+SiO2 : 03.0 Max
+
+...
+
+8. Size : 1 – 20 mm
+**Properties Dolomite:**
+The organic Sulphur in the coal is responsible for Sulphur pick up in Sponge Iron,
+which occurs at high temperature, can be scavenged by adding lime stone or dolomite
+
+...
+
+### Raw Material Feeding at ground hopper (Coal, Ore)
+Coal
+Over Size
+Crushing
+Screening
+Coal Bin Iron Ore Bin
+
+...
+
+### Setting up of production of mixed raw materials for kiln feed
+Sponge Iron Lumps + Char
+Drum type magnetic Separator Drum type magnetic Separator
+Sponge Iron Fine + Dolo Char
+
+Sponge iron Lumps Bin
+Char Bin
+Dolo
+Char Bin
+Fines Bin
+**Captive Power Plant** The CPP comprises of WHR Boiler, Turbine Generator (TG) Set and other power
+plant related auxiliaries such as cooling tower and boiler feed pumps. Steam
+
+...
+
+**final products, mode of transport of raw material and finished product :**
+Raw material Requirement : For 200 TPD Sponge Iron
+
+### **DRI: (Proposed + Existing)**
+Raw material
+**Sp.**
+**Cons pt.**
+**Per Day**
+**Per**
+**Month**
+**Per**
+**Annum**
+
+### **Source**
+Iron ore 1.6 320 8000 96000 Barbil. Orissa
+Jharkhand
+Coal 1.3 260 6500 78000 Raniganj Belt
+Local
+Dolomite 0.04 8 200 2400 Local
+TOTAL 2.94 588 14700 176400
+
+Raw material ( Fuel ) Requirement for Power Plant: No raw materials will be required for WHR Boiler. The waste gas from DRI Kiln will be
+directly fed in Boiler to generate steam by which the turbine will be operated.
+
+...
+
+The project proponent has 1 x 100 TPD sponge iron plant in the industrial area and
+will set up another 1 x 100 TPD Sponge Iron Kiln with in the existing plant.
+The existing infrastructure facilities will help in successful implementation of proposed
+
+...
+
+Water supply system, Power substation, D G room etc are in existence for existing
+100 TPD DRI plant. The above sheds will be extended for additional 100 TPD DRI
+Kiln. Additional sheds for WHRB will be constructed.
+
+...
+
+requirement of water after expansion will be as follows:
+**Project** **Water Requirement Cu. M/day**
+Sponge Iron Project 160 Cu. M
+Power Plant 250 Cu. M
+Domestic 15 Cu. M
+Green Belt 10 Cu. M
+**Total** **435 Cu. M/day**
+
+...
+
+**(x) Power Requirement & Supply/Source**
+The power requirement after expansion will be as below:
+Electricity (power) for DRI : 2.5 MW
+Electricity (power) for lighting : 2.0 MW
+**Electricity (power) Total : 4.5 KW**
+
+...
+
+Lacs. The economic viability is still good due to availability of raw materials, market
+and infrastructural facilities
+**TOTAL COST OF EXPANSION PROJECT:**
+SL.
+NO.
+PARTICULARS SPONGE POWER TOTAL
+(Rs.In Lacs)
+1. Land & Site Development -- -- --
+
+...
+
+### **Cost of production Per Ton of Sponge Iron:**
+**S.NO DESCRIPTION**
+**CONSUMPTION**
+**NORMS**
+**UNIT**
+**RATES PER**
+**TON (IN**
+**RS.)**
+**AMOUNT**
+**(IN RS)**
+**VARIABLE COST**
+1) Iron Ore 1.60 Tons 3500.00 5600.00
+2) Coal 1.30 Tons 2500.00 3250.00
+3) Dolomite 0.040 Tons 750.00 30.00
+4) Fuel Oil 4.50 Liters 37.00 166.50
+5) Power 80 KWH 4.00 320.00
+Consumables, Repairs & Maintenance
+… 100.00 100.00
+**SUB TOTAL 9466.50**
+**FIXED COST**
+1) Salaries & Wages 200.00
+2) Overheads 50.00
+3) Interest 188.00
+4) Depreciation 128.00
+**SUB TOTAL 566.00**
+**TOTAL 10033.00**
+
+========================================================================
+

@@ -1,0 +1,758 @@
+                         D. K. Biswas
+             email: dkbiswas@csnml.nic.ren.in
+                              Deputy Director,
+                                 IRM Division,
+             National Metallurgical Laboratory,
+                                                       Some Studies on Energy Savings
+                    Jamshedpur 831 007, India
+
+                       S. R. Asthana
+                                                       in Sponge Iron Plants
+                 email: sasthana@pd.ncl.res.in
+                                                       This paper presents the potential for energy savings in various capacity sponge iron
+                                     Scientist,
+                                                       plants by estimating heat transfer rates using stabilized and optimized temperature data
+                Process Development Division,
+                                                       within the rotary kiln/reactor. Air jet seal instead of mechanical seal arrangements at
+
+
+
+
+                                                                                                                                                           Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                 National Chemical Laboratory,
+                                                       specific locations in the rotary kiln and cooler are proposed and this is shown to reduce
+                           Pune 411 008, India
+                                                       the power consumption and the size of the centralized grease lubricating system. The
+                                                       paper proposes atomized water spray on the post combustion chamber instead of larger
+                                V. G. Rau              droplets to reduce the size of the water handling system, thereby saving energy. The paper
+                email: vgrau@ee.iitkgp.ernet.in
+                                                       also suggests optimization of the performance of a pneumatic coal injector by optimizing
+                                        Professor,
+                                                       coal and air quantities. 关DOI: 10.1115/1.1577601兴
+             Electrical Engineering Department,
+                  Indian Institute of Technology,
+                       Kharagpur 721 302, India
+
+
+
+
+Introduction                                                                       ity ⭓100 TPD and 3 mm size in smaller plants with capacity
+                                                                                   ⬍100 TPD兲 is injected pneumatically over the heated bed along
+   One of the avenues for increasing the productivity of the iron
+                                                                                   the outlet portion of the kiln that serves to reduce the heated ore
+and steel sector lies in establishment of the rotary kiln based DR
+                                                                                   关5,6兴. The process of such transformation from iron oxide/ore to
+plant for sponge iron making, requiring less costly and abundantly
+                                                                                   iron is endothermic. Thus in order to sustain the temperature of
+available noncoking coal. Hence, the establishment of mini steel
+                                                                                   the bed material at about 1000°C, the necessary air for combus-
+plants using a noncoking coal based DR plant is now gaining
+                                                                                   tion is admitted in the kiln’s overboard space at a controlled rate
+importance. Although most of these plants have acquired the de-
+                                                                                   from its shell mounted air fan 关5,7兴. Normally, there are 6 to 7
+sired level of operational efficiency, the energy utilization of vari-
+                                                                                   fans in the smaller plants and 10 to 12 in the larger plants. The air
+ous units is found below of the optimum limit. Hence, an energy
+                                                                                   tube delivers air along the kiln axis towards either the outlet or
+audit is attempted in this study to optimize the energy utilization
+                                                                                   inlet direction. The reduced product is finally discharged from the
+in some of the important units of established noncoking coal
+                                                                                   reactor into an indirectly cooled rotary cooler where it is cooled to
+based DR plants and also to estimate the unit wise energy con-
+                                                                                   about 70–90°C and is then fed into the product handling system.
+sumption and saving opportunities. The study presented in this
+                                                                                      Process exhaust gases from the kiln are subsequently ducted
+paper attempts to estimate the scope of energy savings in some
+                                                                                   through the PCC where it is initially mixed with some fresh air
+areas, in and around the rotary kiln, as this is the main energy
+                                                                                   and burnt with the help of a burning flame that is maintained by a
+consuming part of a noncoking coal based sponge iron plant. This
+                                                                                   set of oil/gas burners. Then, the hot flue gas is cooled using water
+is done by estimating 共i兲 the optimum fuel/reductant, combustion
+                                                                                   spray and ducted through a scrubber in order to remove the par-
+air rate for the process requirement in rotary kiln, 共ii兲 the size of
+                                                                                   ticulate material as sludge. The clean flue gas is now ducted
+Induced Draft 共ID兲 fan for exhaust gas treatment, 共iii兲 air require-
+                                                                                   through ID fan and finally released to the atmosphere through a
+ment for the coal injection and combustion for utilization of un-
+                                                                                   stack.
+burnt fuel at the post combustion chamber 共PCC兲. Energy losses
+                                                                                      The reduced sponge iron is at about 200°C and is highly sus-
+are further minimized by 共a兲 estimating the frictional loss along
+                                                                                   ceptible to oxidation, therefore any ingress of air cannot be al-
+the mechanical sealing surface around the inlet and outlet end of
+                                                                                   lowed. The ingress of air is possible through the sealing areas
+the rotary kiln and cooler and incorporation of an air jet in some
+                                                                                   between the intermediate stationary housings and the outlet end of
+of these areas, 共b兲 optimizing the performance of coal injector and
+                                                                                   rotary kiln and of the inlet end of the rotary cooler. Therefore,
+共c兲 using atomized spray cooling along the PCC instead of droplet
+                                                                                   mechanical sealing 共Fig. 2兲 is usually provided in the mentioned
+size water spray cooling.
+                                                                                   areas.
+
+System Description
+   Figure 1 illustrates the operating principle of the rotary kiln.                Scope of Energy Savings in Rotary Kiln
+The incoming bed material consisting of ore 共6 –25 mm兲 and a
+major portion of feed coal 共12–20 mm兲 is heated not only by heat                      Some areas of the rotary kiln where energy savings are possible
+transfer through radiation and convection from the flue gas and                    are analyzed and discussed in this section.
+wall, but also due to heat generated by the combustion of coal                        Heat is generated due to combustion of fuel within the kiln as
+within the bed of material 关1– 4兴. Nearly half the portion 共length-                follows:
+wise兲 of the kiln is considered as the preheated zone. In this zone,                 • Combustion of solid coal (C⫹O2 volatile matter⫹O2
+the incoming bed of iron ore is heated to about 1000°C. The                            →CO2 , H2 O, CO etc.兲 within and on the surface of the bed
+remaining part of unburnt feed coal within the bed of material and                     of material. Most of the coal combustion should take place in
+some fresh amount of coal 共about 9 mm size in plants with capac-                       the preheating zone.
+                                                                                     • Combustion of unburned flue gas (CO⫹O2 (mainly)
+   Contributed by the Advanced Energy Systems Division for publication in the                                        1
+JOURNAL OF ENERGY RESOURCES TECHNOLOGY. Manuscript received at the AES
+                                                                                       →CO2 ,CnHm⫹O2 →nCO2 ⫹ 2 mH2 O) along the overboard
+Divison; April 2000; revised manuscript received Dec. 2002. Associate Editor: S.       area of the kiln.
+Garimella.                                                                           • Combustion or gasification of coal particles (C→CO,CnHm
+
+228 Õ Vol. 125, SEPTEMBER 2003                                      Copyright © 2003 by ASME                           Transactions of the ASME
+                                                                                                                                             Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                           Fig. 1 Operating principles of process concerning noncoking coal based
+                           direct reduction in a rotary kiln
+
+
+
+    →nCO⫹m1 H2 ⫹1/2 m2 H2 O) that are injected and sprayed             and finally to the bed of material at relatively lower temperature.
+    over the heated bed of material, at the outlet end region of the   The mode of this heat transfer is very complex, as it not only
+    reactor.                                                           involves the gas and solid but also the rotary motion of the kiln.
+Heat, thus generated due to combustion of solid coal and volatile        The total heat requirement of the process depends on 共i兲 the
+matters is transferred to the various components within the kiln       heat generated due to combustion, 共ii兲 heat gained by the incom-
+
+
+
+
+                                                   Fig. 2 The kiln seal arrangement
+
+
+Journal of Energy Resources Technology                                                           SEPTEMBER 2003, Vol. 125 Õ 229
+Table 1 Measured inside temperature °C „Á10°C variation… at ten equidistant locations in the kilns under stabilized operating
+conditions
+
+                 Kiln Size
+                   D共m兲,
+                    L共m兲
+               Plant Capacity             tg1 ,       tg2 ,         tg3 ,         tg4 ,          tg5 ,     tg6 ,      tg7 ,       tg8 ,         tg9 ,   tg10 ,
+               Tonne per Day              tw1 ,       tw2 ,         tw3 ,         tw4 ,          tw5 ,     tw6 ,      tw7 ,       tw8 ,         tw9 ,   tw10 ,
+                   共TPD兲                   ts1         ts2           ts3           ts4            ts5       ts6        ts7         ts8           ts10    ts10
+1                  0.9, 15.0              980        1000          1020          1020            1040     1060        1080        1100          1100    1100
+                     5– 8                 580        680           790           880             940      1000        1040        1040          1050    1060
+                                          370        500           630           760             870       940         990        1000          1000    1000
+2                  1.2, 22.0              950         990          1010          1010            1030     1050        1070        1090          1100    1100
+                    10–12                 560        670           750           860             940       990        1020        1030          1050    1050
+
+
+
+
+                                                                                                                                                                   Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                          350        490           620           750             870       940         980         990          1000    1000
+3                  2.6, 40.0              930         950           980          1020            1060     1070        1100        1100          1130    1130
+                      100                 550         660          730           820             930       980        1020        1040          1060    1060
+                                          300        450           580           730             840       910         980         990          1000    1000
+4                 3.75, 72.0              920         960          1000          1040            1100     1120        1140        1150          1150    1150
+                     300                  470         640          750           830             940       980        1010        1060          1070    1070
+                                          250        430           570           720             830       940         990        1000          1000    1000
+5                 4.25, 80.0              900         950          1000          1040            1080     1120        1140        1150          1170    1170
+                     400                  460         630          740           820             940      1000        1020        1060          1080    1080
+                                          250        430           570           710             820       940         990        1000          1010    1010
+
+Where t is temperature in °C and subscript g, w, s indicate gas, wall and solid respectively.
+
+
+
+
+ing air and bed of materials, 共iii兲 heat lost through the reactor wall,                   kiln shell and inside diameter 共m兲 of the refractory respectively.
+共iv兲 heat carried away by the outgoing flue gas and 共v兲 heat re-                          Dso is outside diameter 共m兲 of the shell. h in Eq. 共2兲 is given by
+quired for the endothermic reaction process of reduction to con-
+tinue. The coal and air consumption rate is decided by the con-                                              h⫽Nu .K/D,       Nu⫽C关 Gr .Pr兴 n                (3)
+stituent energy balance requirement of the process. Combustion of                         Where, h is heat transfer coefficient 共W/m°C兲, Nu is Nusselt num-
+flue gas overbed/overboard at selected locations and fuel within                          ber, K is thermal conductivity 共W/m°C兲, D is diameter 共m兲, Gr is
+the bed of material increases the temperature of flue gas and bed                         Grashof number, Pr is Prandtl number and C⫽0.54/0.25, n
+respectively. Therefore, to estimate fuel and air consumption rate,                       ⫽0.13/0.33 for Laminar/Turbulent range 关11兴.
+plant data during stabilized operation at several equidistant loca-                          The actual heat lost through the wall includes the heat lost
+tions 共for example say ten兲 along the length of the reactor for                           through kiln shell, inlet and outlet hood, and PCC and inlet area of
+various plants are required. These data for various plants and kiln                       the cooler. Therefore, the total heat loss is assumed as twice that
+sizes are obtained from Indian sponge iron industries and pre-                            of the kiln in the study and hence Qlt is taken as two times
+sented in Table 1. These data are taken as a basis for further study.                     the Qlk .
+   Due to variation in the temperatures of flue gas, wall and bed of
+material, the bed of material gains heat and attain the desired
+temperature in different locations of the kiln 关7–9兴.                                        Heat Required for the Reduction Process to Continue
+                                                                                          †12,13‡. The stoichiometric equations responsible for reduction
+                                                                                          of iron ore are:
+Estimation of Total Heat Requirement at any Stage
+                                                                                                   1/2 Fe2O3⫹3/2 CO⫽Fe⫹3/2 CO2⫺12,866 kJ/kmol                (4)
+  The estimation of total heat requirement consists of the follow-
+ing steps.                                                                                          1/3 Fe3O4⫹4/3 CO⫽Fe⫹4/3 CO2⫺3,904 kJ/kmol                (5)
+    Heat Gained by the Bed of Material †10,11‡.                                                          FeO⫹CO⫽Fe⫹CO2⫺16,108 kJ/kmol                        (6)
+                                  Qs⫽MsCs共 tsm⫺ts␣ 兲                             (1)            FeO⫹C⫽Fe⫹CO⫹156,482 kJ/kmol 共37,336 kcal/kmol)
+Where, Qs is heat transfer rate 共kcal/h兲 to solid, Ms is solid mate-                                                                                         (7)
+rial feed rate 共kg/h兲, Cs is specific heat of the solid, tsm is the                       Reaction 共7兲 indicates the quantum of heat required for the desired
+maximum temperature 共°C兲 of solid inside the reactor and ts␣ is                           rate of reduction of iron oxide to iron to take place. CO thus
+the ambient temperature 共°C兲 of the solid.                                                generated by the reaction 共7兲 is utilized either for further reduction
+                                                                                          of ore vide reaction Eqs. 共4兲 to 共6兲 or for combustion
+    Heat Lost Through the Kiln Wall and Refractory †11‡.
+                                                                                          (2CO⫹O2→2CO2 ) and subsequent heating of overbed of mate-
+
+                        冒 冋冉 冊 冉 冊 冉 冊
+          Q lk ⫽ 共 t ki ⫺t ko 兲
+                                           1
+                                        h ri A ri
+                                                  ⫹
+                                                       1
+                                                    2 ␲ K rL
+                                                             ln
+                                                                D si
+                                                                D ri
+                                                                                          rial. It is revealed from the reaction 共7兲 that 56 kg of sponge iron
+                                                                                          requires approximately 12 kg of carbon and 37,336 kcal of endot-
+                                                                                          hermic heat. Since noncoking coal contains approximately 70% of
+
+                  ⫹   冉 冊 冉 冊 冉 冊册
+                          1
+                       2 ␲ K sL
+                                ln
+                                   D so
+                                   D si
+                                        ⫹
+                                             1
+                                          h ␣ A so
+                                                                                 (2)
+                                                                                          fixed carbon, the coal requirement is about 20 kg against produc-
+                                                                                          tion of 56 kg of sponge iron. Therefore, the endothermic process
+                                                                                          heat 共kcal兲 required is:
+Where, Qlk is rate of heat loss 共kcal/h兲 through kiln/reactor wall,
+tki and tko are inside and outside temperatures 共°C兲 of the kiln shell                                             Qp⫽ 共 37336/56兲 Ms                        (8)
+respectively, hri and h␣ are heat transfer coefficients 共W/m2°C兲 of                       where, Qp is rate of heat 共kcal/h兲 required for the process to take
+rotary kiln at inside refractory and at the outer shell respectively.                     place and Ms is the material feed rate 共kg/h兲.
+Ari and Aso are areas 共m2兲 of rotary kiln at inside the refractory                           The coal required 共kg兲 for reduction is Mc⫽(20/56)Ms
+and at the outer shell respectively, L is length 共m兲 of the rotary                           Where, Mc is material feed rate 共kg/h兲 of coal.
+kiln, Kr and Ks are thermal conductivities 共W/m°C兲 of refractory
+and kiln shell respectively, Dsi and Dri are inside diameter 共m兲 of                               Heat carried away by flue gas, Qf⫽MaCa共 tgp⫺t␣ 兲           (9)
+
+230 Õ Vol. 125, SEPTEMBER 2003                                                                                                 Transactions of the ASME
+                  Table 2 Estimated heat requirement †11‡ against heating of bed of material, heat loss from wall
+                  and heat of reaction etc. based on measured values of temperatures in Table 1 „Assumptions:
+                  PrÄ0.7, ␳ aÄ0.2947Õ0.9980 kgÕm3 at 1000°CÕ100°C…
+
+                                  D共m兲,                  Qs                  Qlt               Qp
+                                  L共m兲,               kcal/day          kcal/day Eq.        kcal/day                               Qt
+                                 Capacity              Eq. 共1兲               共2兲             Eq. 共8兲                            kcal/day
+                                  共TPD兲                  共I兲                 共II兲             共III兲                          共IV⫽I⫹II⫹III兲
+                  1           0.9, 15.0, 5– 8        30⫻105              9⫻105              54⫻105                            93⫻105
+                  2           1.2, 22.0, 10–12       57⫻105              41⫻105             80⫻105                            178⫻105
+                  3           2.6, 40.0, 100         565⫻105             145⫻105            670⫻105                           1380⫻105
+                  4           3.75, 72.0, 300        1690⫻105            350⫻105            2000⫻105                          4040⫻105
+                  5           4.25, 80.0, 400        2260⫻105            425⫻105            2670⫻105                          5350⫻105
+
+
+
+
+                                                                                                                                                              Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+Where, Ma is a air feed rate 共kg/h兲, Ca is specific heat 共kcal/kg°C兲               Q gs            ␴
+
+                                                                                            冉                        冊
+of air, tgp and t␣ are flue gas temperatures 共°C兲 at PCC inlet and                      ⫽              共 T̂ 4g ⫺T̂ s4 兲 ⫹h gs 共 T̄ g ⫺T̄ s 兲           (13)
+                                                                                   A se         1   1
+ambient respectively.                                                                             ⫹ ⫺1
+  Total heat required Qt for the process at any stage:                                          ␧g ␧s
+
+                         Qt⫽Qs⫹Qlt⫹Qp                            (10)
+                                                                         Where, Ase is the exposed solid surface, ␴ is Stefan-Boltzman
+Assuming the approximate calorific value of the coal as 6000             constant 共kW/m2K4兲, ␧ g and ␧ s are emissivities of gas and solid
+kcal/kg. combustion efficiency as 0.7 and the heat carried away by       respectively. Solid and gas emissivities are taken as 0.5 and 0.16
+flue gas Qf⫽MaCa(tgp⫺t␣ )                                                respectively 关7兴. T̂ g and T̂ s are the fourth power average tempera-
+   The final empirical relation for estimating coal requirement is:      ture 共K兲, T̄ g and T̄ s are the arithmetic average temperatures of gas
+                                                                         and solid respectively, and subscript gs is used for gas to solid, se
+      Qt⫹MaCa共 tg,p⫺t␣ 兲 ⫹McCc共 1000⫺t␣ 兲 ⫽Mc6000共 0.7兲          (11)    for solid exposed, g for gas and s for solid. hgs is convective heat
+                                                                         transfer coefficient 共W/m2°C兲 from gas to solid.
+Moreover, the minimum air that is required per kg of coal burnt          Also,
+关13,14兴 is Ma⫽11.6Mc⫹34.8 关 H2 ⫺(O2 /8) 兴 ⫹4.355                                                       hgs⫽ 共 NuKg /D兲                     (14)
+   The analysis of Indian noncoking coal used for sponge iron
+making has revealed that it contains approximately 70% carbon;                             Nu⫽1.86共 RePr兲 1/3 for Re⬍2000
+6 – 8% hydrogen and 7– 8% oxygen. Therefore, the minimum air                            Nu⫽0.023 R0.8      0.4
+                                                                                                        e Pr    for Re⬎2000 and            (15)
+required for burning of this coal is about 11.1 kg/kg of coal 关3,9兴.                                    n                               n
+Operational data of noncoking coal based plant has revealed that
+the process requires 1600 kg of iron ore and 800 kg of coal to
+                                                                                                       兺T A
+                                                                                                       i⫽1
+                                                                                                                gi i                   兺T A
+                                                                                                                                       i⫽1
+                                                                                                                                                4
+                                                                                                                                                gi i
+
+produce a tonne of sponge iron. As air contains 21% oxygen and                                  T̄g⫽        n            ;     T̂4g⫽        n          (16)
+1.6 kg ore releases 0.48 kg of oxygen, the actual air requirement
+for combustion of 1 kg of coal in DR process is about 7.75 kg.
+                                                                                                        兺A
+                                                                                                        i⫽1
+                                                                                                                 i                      兺A
+                                                                                                                                        i⫽1
+                                                                                                                                                 i
+
+Hence, Eq. 共11兲 may be modified as follows:
+                                                                           共b兲 Gas-to-wall
+           Qt⫹MaCa共 tg,p⫺t␣ 兲 ⫹ 共 Ma/7.75兲 Cc共 1000⫺t兲                   The equation governing the heat transfer from gas to wall is
+              ⫽ 共 Ma/7.75兲 6000共 0.7兲                            (12)
+
+Using the methodology described above, the values of Qs , Qlt , Qp
+and Qt are estimated for various size plants 共of Table 1兲 and pre-
+sented in Table 2.
+   Mechanism of Heat Transfer. An understanding of the heat
+transfer mechanism inside a rotary kiln allows us to accurately
+estimate Qs . The mechanism of heat transfer 关7兴 is very complex
+because it not only involves the gas and solid, but also the wall of
+a rotating kiln. Apart from the conduction through kiln wall, the
+entire heat transfer involves five following components 共Fig. 3兲 as
+follows:
+  • Gas-to-solid by radiation and convection (Qgs)
+  • Gas-to-wall by radiation and convection (Qgw)
+  • Exposed wall-to-solid by radiation (Qwes)
+  • Covered wall-to-solid by radiation and convection (Qwes)
+  • Surface-to-interior of the bed by bulk mixing through con-
+    duction and convection (Qc)
+Estimation      of     above      mentioned      heat    transfer
+(Qgs ,Qgw ,Qwes ,Qwes) is using the following equations.
+   共a兲 Gas-to-solid
+The equation governing the heat transfer from gas to solid is
+关7,11兴                                                                                 Fig. 3 Heat flow path in a rotary kiln
+
+
+Journal of Energy Resources Technology                                                                      SEPTEMBER 2003, Vol. 125 Õ 231
+Table 3 Estimated Plant wise value of various heat transfer rate „Eqs. „13… to „20…… based on temperature data presented in
+Table 1
+
+                  TDP/                                  Qgw                Qgs           Qws                                             Qs
+              & Aw ,Ase ,Asc ,                        kcal/day           kcal/day     kcal/day           Qcs            Qs            kcal/day
+                 Ac 共m2兲                              Eq. 共17兲           Eq. 共13兲    Eq. 共18, 19兲      kcal/day      kcal/day         Table 2        Error %
+               approximate                               共I兲               共II兲          共III兲       共IV⫽I⫺III兲   共IV⫹III⫹II⫽V兲         共VI兲       V⫺VI/VIX 100
+1       5– 8/30.0, 11.0,13.0, 24.0                    23⫻105             12⫻105       15⫻105          8⫻105        35⫻105            30⫻105            14.2%
+2       10–12 58.0, 21.0, 25.0, 46.0                  48⫻105             22⫻105       26⫻105          16⫻105       64⫻105            57⫻105            12.2%
+3       100/230.0, 85.0, 97.0,182.0                   410⫻105            195⫻105      225⫻105         185⫻105      605⫻105           565⫻105           7.0%
+4       300596.0,229.0, 252.0,481.0                   1270⫻105           575⫻105      800⫻105         470⫻105      1845⫻105          1690⫻105          9.0%
+5       400840.0, 300.0,350.0, 650.0                  1745⫻105           785⫻105      1090⫻105        665⫻105      2545⫻105          2260⫻105          12.0%
+
+
+
+
+                                                                                                                                                                      Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+          Q gw             ␴                                                                the specific heat of the solid 共kcal/kg°C兲, dTs /dt is the rate of
+
+                    冉                  冊
+               ⫽               共 T̂ 4g ⫺T̂ w4 兲 ⫹h gw 共 T̄ g ⫺T̄ w 兲                (17)    increase of the temperature of the solid 共K/h兲. Plant wise estima-
+          A we          1   1                                                               tion of the above mentioned heat transfers is carried out and pre-
+                          ⫹ ⫺1
+                        ␧g ␧w                                                               sented in Table 3.
+Where, Awe is the exposed wall surface, subscript gw is gas to
+wall and we is wall exposed. The wall emissivity may be assumed
+as 0.5 关7兴.
+    共c兲 Exposed wall-to-solid                                                               Proposed Air Injection Distribution System
+The equation governing the heat transfer from exposed wall to                                  Qs is the heat transfer required for the solid and the estimated
+solid is 关7兴                                                                                value as mentioned in Table 3 is found to be slightly higher than
+                Qwes        ␴                                                               that of Table 2. This indicates that higher amount of heat transfer
+
+                                  冉              冊
+                     ⫽                4
+                                   共T̂wes ⫺T̂s4兲        (18)                                is required than the estimated values given in Table 2. Combustion
+                Ase     1    1                                                              air distribution and the air requirement can be estimated using Eq.
+                          ⫹ ⫺1
+                        ␧w ␧s                                                               共12兲. The distribution of air is very important as it controls the
+where, T̂ wes is temperature 共K兲 of exposed surface of the kiln wall                        temperature within the kiln. As mentioned earlier, coal used for
+and subscript wes is exposed wall to solid, se is solid exposed, w                          the sponge iron making normally has a volatile matter content in
+is wall and s is solid.                                                                     the range 28 –32%, large amount of these volatiles evolve along
+                                                                                            the inlet portion of the kiln i.e. in the preheating zone and some of
+    共d兲 Covered wall-to-solid                                                               these volatiles escape as waste gas without being fully utilized in
+The equation governing the heat transfer from covered wall to                               the rotary reactor, which decreases the plant energy utilization
+solid is                                                                                    capacity and thus increases overall coal consumption. In order to
+                                                                                            accomplish kiln operation under controllable temperature, most of
+                  Q wcs              ␴                                                      the kilns are provided with an air distribution system. Table 4
+
+                              冉                   冊
+                        ⫽                     4
+                                         共 T̂ wcs ⫺T̂ s4 兲                          (19)
+                  A sc            1   1                                                     summarizes plant wise estimated coal and air consumption rates.
+                                    ⫹ ⫺1                                                    The process of combustion is controlled using an air fan as shown
+                                  ␧w ␧s
+                                                                                            in Fig. 1. It is proposed that, a part of the required process air, say
+Where, wcs is covered wall to solid and Twcs is temperature 共K兲 of                          20–30% is injected inside the bed of material through specially
+covered surface of the kiln wall and Qws⫽Qwcs⫹Qwes , taking                                 designed radial nozzles, which will cause the carbon as well as
+Tw⬇Twe , Ase is unexposed/covered solid surface, Asc is covered                             volatile components released from coal within the bed of material
+solid surface and As⫽Ase⫹Asc                                                                at temperature range 300°C to 600°C to burn directly. This mode
+    共e兲 Surface-to-interior of the bed by bulk mixing                                       of injection of air into the bed promotes combustion and heat
+                                                                                            generation within the bed of material.
+Heat transfer coefficient of the solid increases due to tumbling,                              A major portion of the remaining air of the order of 50 to 60%
+rolling, slumping and sliding motion. Under these conditions, a                             is introduced through the air tubes distributed uniformly along the
+heat balance on the surface particle give rise to the following                             axis of the kiln to burn most of the unburned flue gas 共CO and part
+equation:                                                                                   of volatile兲 in the free/overboard space and in the axial zone of the
+                                                                                            reactor. The remaining portion of the process air of about 10 to
+                  ␴ S s 共 T̂ 4g ⫺T̂ s4 兲 A s ⫽V s ␳ s C s 共 dT s /dt 兲              (20)
+                                                                                            30% is injected radially through the nozzles in the kiln free board
+Where, Ss is the shape factor of solid/gray body. Vs is the volume                          space above its axial location. Thus, a major portion of the re-
+of solid 共m3兲, ␳ s is the bulk density 共kg/m3兲 of the solid and Cs is                       maining unburnt carbon monoxide and volatile burn near the top
+
+
+                                               Table 4 Plant wise estimated coal and air consumption rate
+
+                            Total Heat                 Coal                         Coal
+                           requirement            Consumption                  consumption           Total coal       Air          Max. no. of      Capacity of the
+          Plant              kcal/kg            rate for reduction            rate for heating      requirement   requirement         blower         suitable shell
+         Capacity             共Min.兲                  Eq. 共8兲                     Eq. 共12兲              rate        m3/day          to be used          blower
+          TPD                Table 2                   TPD                          TPD                TPD          Eq. 共12兲       共plant data兲           m3/h
+1          5– 8               93⫻105                     2.9                        5.1                 8.0         35⫻103              7              210–250
+2         10–12              178⫻105                     4.2                        6.3                10.5        42.6⫻103             7              260–300
+3          100              1380⫻105                      36                         49                85.0        31.4⫻103             8             1650–1750
+4          300              4040⫻105                     110                        120               230.0         90⫻104              10            3750– 4000
+5          400              5350⫻105                     150                        155               305.0        120⫻104              10            5000–5225
+
+
+
+232 Õ Vol. 125, SEPTEMBER 2003                                                                                                    Transactions of the ASME
+                                  Table 5 Proposed radial injection facility along the preheating zone
+
+                                                                                                      No. of shell air             No. of shell
+                                                                         Total no. of shell             tube 共axial兲             air tube 共axial兲
+                    No. of module             Total no. of blowers          air blowers               towards outlet              towards inlet
+   TPD           共Radial air injection兲        in preheated zone          along the kiln               end 共Fig. 4兲                end 共Fig. 4兲
+  5– 8           Only with 2nd shell                   3/4                      6/8                  1st and 2nd from          3rd to 6/8th
+                 air blower from the                                                                 the inlet end             from the inlet end
+                 inlet end
+  10–15          Only with 2nd & 3rd                   4                         8                   1st and 2nd from          3rd to 8th from
+                 shell air blowers                                                                   the inlet end             the inlet end
+                 from the inlet end
+  100            Only with 1st, 2nd &                  4                         8                   1st to 3rd from           4th to 8th from
+                 3rd shell air blowers                                                               the inlet end             the inlet end
+
+
+
+
+                                                                                                                                                    Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                 from the inlet end
+  300            With 1st to 4th shell                 5                        10                   1st to 4th d from         5th to 10th
+                 air blowers from the                                                                the inlet end             from the inlet
+                 inlet end                                                                                                     end
+  400            With 1st to 4th shell                 5/6                     10/12                 1st to 4th from           5th to 10/12th
+                 air blowers from the                                                                the inlet end             from the inlet
+                 inlet end                                                                                                     end
+
+
+
+region of the kiln i.e. near the refractory wall generates more heat.                 vcp⫽vac关 1⫺1.41共 dc/0.3038兲 0.3共 ␳ c/1000兲 0.5兴        (22)
+This proposed air injection distribution system for various plant
+capacities is summarized in Table 5.                                    Where, vac is the stabilized conveying velocity 共m/sec兲 of air, dc is
+   It is envisaged that some of the fuel value of the flue gas may      the average diameter 共mm兲 of the particles and ␳ c is its density
+be utilized by increasing its retention time in the kiln. This may be   共kg/m3兲 and vcp is the velocity of the coal particle.
+achieved by injecting axial air through the shell blower towards          Velocity of air injection through the nozzle of the injector using
+the outlet end, instead of towards the inlet end, in the preheating     energy balance:
+zone. Therefore, the air distribution system as shown in Fig. 4 and
+presented in Table 5 is proposed. It is preferable to deliver air                             1       1      1
+                                                                                                M v2 ⫽ M v2 ⫹ M v2                           (23)
+axially through only the shell air tube in the reducing zone to-                              2 a an 2 a ac 2 c c p
+wards inlet end as any radial injection in the reducing zone may
+re-oxidize the already reduced product at nascent state.                Where, Ma and Mc are mass flow rate of air and coal respectively,
+                                                                        van and vac are the velocities of air at nozzle and conveying duct
+Pneumatic Coal Injection                                                and van⫽v2ac⫹(Mc /Ma)v2cp
+   The performance of a rotary kiln for DR to a considerable ex-           The streams of coal particles leave the outlet of the injector in
+tent depends on the capability of the pneumatic coal injector           the free board space of the intermediate housing 共coupled to the
+共Figs. 1 and 4兲. Pneumatic injection of coal is achieved by utiliz-     kiln outlet end兲 as a free turbulent jet. The longitudinal velocity of
+ing kinetic energy/flow momentum of either more amount of air at        air free jet at a distance X from injector exit may be estimated as:
+
+
+                                                                                                    冋册
+low velocity or less amount of air at high velocity. Coal particles
+                                                                                        v acx       d i 0.5
+are sprayed over the heated bed of material mainly of iron ore in                             ⫽2.28             for 5⬎X/di⬍2000              (24)
+order to maintain reducing atmosphere. The power required for                           v aci       X
+coal injection 关6兴 can be estimated as follows:
+   Initial coal particle velocity:                                      where Vacx is the velocity of air at a distance X, Vaci is the veloc-
+                                                                        ity at injector exit and di is the injector diameter.
+                vcp⫽L/2关 gc / 共 D/2⫺bed depth兲兴 1/2              (21)      The coal particles are subjected to a drag force depending on
+Where, gc is acceleration due to gravity 共m/sec 兲, D is the kiln
+                                                   2                    the surrounding air. The drag force is given by
+inside diameter 共m兲 and L/2 is the length of the preheating zone.
+                                                                                                                ␳ a V c2pr
+   Conveying/transportation velocity of conveying medium and                                         F d ⫽c d                                (25)
+coal particle is:                                                                                                2g c
+
+
+
+
+                                          Fig. 4 Schematic of proposed air distribution system
+
+
+Journal of Energy Resources Technology                                                               SEPTEMBER 2003, Vol. 125 Õ 233
+                                                                                                                                                             Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                                          Fig. 5 Schematic of air jet sealing
+
+
+Where cd is the coefficient of drag, ␳ a is the density of air and vcpr
+is the relative velocity of coal particle with respect to the sur-
+rounding air. Ranges of various particle sizes may be estimated
+                                                                                     Pc⫽
+                                                                                           1
+                                                                                           ␩c
+                                                                                                •2.78⫻10⫺4 •
+                                                                                                                 k
+                                                                                                                   V p
+                                                                                                                k⫺1 1 1      冋冉 冊  p 2 k⫺1/k
+                                                                                                                                   p1
+                                                                                                                                             ⫺1   册   (29)
+
+using aforementioned equations 共Eqs. 共22兲 to 共25兲兲.                          Where, ␩ c is the compressor efficiency about 60%, inlet pressure
+   Minimum pressure to obtain the desired velocity through the               p1 (kPa), V1 is the volume flow rate 共m3/h兲, p2 is discharge pres-
+nozzle is                                                                    sure and p2 /p1 ⭐0.575. Eqs. 共21兲 to 共30兲 are evaluated based on
+
+                      冋                               册
+                                                                             capacity of the plant. Using these equations, the acceptable power
+                                  共 k⫺1 兲 .g.k.R.T ␣ k 共 k⫺1 兲               rating of the above mentioned components can be estimated. Plant
+             p an ⫽p ␣ 1⫺ v 2an                                       (26)
+                                           2                                 wise coal and air distribution rate is presented in Table 4.
+Where, p␣ is the ambient pressure 共bar兲, pan is the pressure at the
+nozzle point, k is ratio of specific heat of gas at constant pressure        Estimation of Savings due to Proposed Kiln Seal
+and volume. Eq. 共26兲 may be used for estimating the ranges of the            Arrangement
+particle injection and the pressure rating of the system.                       Any ingress of air is absolutely unwanted for freshly reduced
+   Power Requirement „kW… for Rotary Feeder. Power re-                       sponge iron at an elevated temperature. Therefore, the outlet end
+quirement estimation for rotary air lock feeder can be carried out           area of the rotary kiln and the inlet end area of the rotary cooler
+as follows 关6,15兴:                                                           and the intermediate hood require well-designed air sealing sys-
+   The force 共N兲 required for moving the material against fric-              tems. The mechanical sealing system as shown in Fig. 2 is the best
+tional resistance of rotor w.r.t. coal column in feeder hopper above         arrangement in which the chance of any air ingress is almost
+feeder and crushing of coal particles cramped along the tip area of          negligible. Commercial plants are however, provided with the
+bucket/vane of the rotor and feeder housing:                                 above mentioned type of mechanical sealing at both the end areas
+                                                                             of the kiln and the cooler. Frictional resistance along the mechani-
+                             ⌸D ro   b         dc   b                        cal sealing surface contributes toward considerable energy con-
+     F⫽F f ⫹F c ⫽h ␳ c g c         ⫻   ␾ ⫹C s     ⫻     m                    sumption. The energy consumption 共kW兲 between stationary parts
+                             1000 1000        1000 1000
+                                                                      (27)   and rotary parts of the mechanical seal at each area may be esti-
+                                                                             mated by the following empirical equation 关16兴:
+Where, ␳ c is density of coal particle 共kg/m 兲, Dro and D ri are the
+                                                  3
+
+outside and inside diameters of the rotor 共mm兲, b is the width of                                      Ps⫽2 ␲ TN/60000                                (30)
+the bucket/vane 共mm兲, h is the height of coal pile in feeder hopper
+                                                                             Where T is the torque 共N-m兲 and N is RPM of rotary part. The
+above rotor/feeder, ⌽ is the ratio of maximum number of vanes m
+                                                                             total torque at the gland area as rubbing area of the sealing system
+below feeder housing to that of total number, Cs is the crushing
+                                                                             is as follows 关16兴:
+strength of the coal 共N/m2兲, dc is the diameter of the maximum
+size of the coal 共mm兲.                                                                              T⫽ ␮ g F g D g ⫹ ␮ s F s D s                      (31)
+   Therefore, power 共kW兲 required to drive the feed P c ⫽F
+⫻⌸ D ro /1000⫻N/1000⫻60                                                      Where, T is the torque 共N-m兲, ␮ g and ␮ s are average coefficient of
+   For this study, to estimate the actual power required for the             friction of gland and face/surface seal respectively, Fg and Fs are
+motor, the power P is multiplied by 3 to allow for motor effi-               normal force 共kN兲 at sealing surface at gland and shell, face/
+ciency, rotor efficiency, bearing friction, resistance of any hard           surface Dg and Ds are gland and shell diameters 共mm兲.
+particle between bucket tips and feeder housing.                                This stringent sealing is not necessary at the inlet end of the
+                                                                             kiln and the outlet end of the cooler. The proposed air jet type
+                                       D ro    N                             sealing is shown in Fig. 5. In this arrangement, the air enters
+               Pm⫽3P⫽3⫻F⫻⌸                  ⫻                         (28)   through one end of the jet sealing device and is evenly delivered/
+                                       1000 1000⫻60
+                                                                             discharged and distributed through uniform jets to form an air
+  Compressed Air for Injection. The necessary power re-                      curtain/ring over the space between the stationary and rotary sur-
+quired for supplying the air at the required pressure and flow rate          faces. This ring does not allow process gas to escape and makes
+can be estimated as follows:                                                 the necessary sealing arrangement. Assuming the diameter of the
+
+234 Õ Vol. 125, SEPTEMBER 2003                                                                                      Transactions of the ASME
+rotary kiln to be 4.0 m, the clearance from the sealing area be-                        the bed of the material. The mentioned procedure can also be
+tween the kiln and the hood varies from 1.5 mm to 2 mm. The air                         utilized for the design estimation of various sizes rotary reactors
+jet device/distributor should be placed suitably and the required                       for sponge iron making.
+jet speed for sealing is about 2–3 m/sec. The total air required for                       The maximum temperature of the smaller kiln 共Table 1兲 is
+this purpose is of the order of 1000 to 1500 m3/h at 10 mbar and                        1100°C where as that of larger sized kiln is about 1170°C. This is
+system needs a blower of 5 to 6 kW rating. The system does not                          due to the fact that in the larger diameter kiln, the preheating time
+require maintenance or greasing between rubbing surfaces of the                         increases significantly as the ratio of surface area of charge bed
+mechanical seal.                                                                        across which heat transfer takes place and the volume charge de-
+                                                                                        creases. Increasing heat transfer using higher temperature for
+                                                                                        sponge iron making may lead to inefficient operation and opera-
+Use of Only High Pressure Atomized Water Supply in                                      tional problems such as localized heating and liquid phase forma-
+the Post Combustion Chamber                                                             tion.
+
+
+
+
+                                                                                                                                                                Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+   In order to make flue gas/exhaust emission free from suspended                          All the plants are provided with air tubes that deliver air at the
+particulate material and toxic gases such as carbon monoxide,                           desired rate from shell mounted blowers along the kiln axis to-
+unburnt hydrocarbon, sulphur oxides etc., the flue gas leaving the                      wards either inlet or outlet and from inlet feed chute area.
+kiln is initially mixed with fresh excess air and then burnt com-                          Some commercial plants are provided with highly efficient sub-
+pletely in the PCC by the application of a suitably short and stable                    merged air injection facility in the preheating zone for effective
+flame. The temperature of the gas leaving the kiln therefore, in-                       burning/utilization of evolved volatile materials from coal within
+creases in PCC, which needs to be brought down to a workable                            the bed of material and due to this, the kiln can be operated at
+limit for down stream equipment required for the removal of dust                        lower temperature. However, submerged air injection requires
+particles and toxic components. Thus, water is sprayed to reduce                        specially designed on/off control valves in the air module circuit
+the temperature of the flue gas in the PCC. Important parameters                        from a shell fan. These valves are operated through sets of strikers
+on which the cooling depend are the quantity of water sprayed,                          that are mounted on the stationary structure fixed on the kiln plat-
+and evaporation rate and retention time of water droplets in free                       form. Due to dusty and warm conditions, the valves often operate
+falling space within PCC. The evaporation rate of water particles                       under dry lubrication. Moreover, due to kiln rolling back during
+increases with increase of its surface area i.e. with the decrease of                   power failure and kiln expansion, the striker and valves are sub-
+the droplet size. Moreover, the retention time of the droplet in the                    jected to malfunctioning. Therefore, considering the cost of vigil
+gas stream also increases with the decrease in droplet size because                     maintenance of valves and strikers, the radial injection that oper-
+of increased viscous drag force. Therefore, a highly atomized wa-                       ates on 65–70% efficiency of the submerged air injection is pro-
+ter spray is expected to give a better result.                                          posed in this study.
+   The amount of water sprayed and the power required for circu-                           As mentioned already, the reducing zone of the kiln is created
+lation of the spraying water may be estimated as follows 关17兴:                          and controlled by a pneumatic coal injector. Pneumatic injection
+                                                                                        uses kinetic energy/flow momentum from either more air at low
+     M f C f 共 t f m ⫺t f f 兲 ⫽M w C s 共 t f f ⫺t ws 兲 ⫹M w L⫹M w C w 共 t ws ⫺t ␣ 兲     velocity or less air at high velocity. As the reducing zone is ad-
+or                                                                                      versely affected by excess air, use of less air is desirable. Further
+                                                                                        excess air used for coal injection requires excess equivalent coal
+                                        M f C f 共 t f m ⫺t f f 兲                        that ultimately may result in the overheating of the kiln. The in-
+                    M w⫽                                                         (32)   formation available in literature on coal injection is meager and
+                           C s 共 t f f ⫺t ws 兲 ⫹L⫹C w 共 t ws ⫺t ␣ 兲
+                                                                                        therefore, the present work is expected to be helpful for estimating
+Where, Mw is the rate of water spraying 共kg/h兲, Mf is rate of flue                      optimized coal injection rate and power requirement.
+generated 共kg/h兲, Cf , Cw and Cs are specific heat of flue, water                          The kiln inlet end as well as cooler outlet end areas may have
+and supersaturated water vapor respectively 共kJ/kg°C兲, L is latent                      an air jet type sealing arrangement as proposed in this study. In-
+heat of water 共kJ/kg兲, tfm , tff , tws and t␣ are maximum flue tem-                     corporation of such type of sealing in the aforementioned areas
+perature, final flue temperature, temperature of saturated vapor                        will not only reduce the power consumption of the kiln and cooler
+and ambient temperature 共°C兲 respectively.                                              motor but also reduce the sizes of centralized grease lubricating
+   It is to be noted that the flue gas contains some unburned                           system.
+hydrocarbons/volatile when they leave. In case of a highly atom-                           Some commercial plants are provided with coarser spray/
+ized system, water required for spraying will be 20 to 25% more.                        droplet system for cooling of high temperature flue gas at PCC.
+Further, high atomization requires the use of very high pressure                        Evaporating efficiency of coarser water droplet is very poor and
+water pumping 共20–25 bar兲 system 关18兴.                                                  requires very large quantity of water to reduce the temperature of
+   The power 共kW兲 requirement is p w ⫽ ␳ g M w H/1000␩                                  flue gas to the desired level. About 80– 85% of spray water par-
+   Where H is the equivalent pressure head 共m兲.                                         ticles are collected in the collecting chamber located at the bottom
+   Some of the commercial plants are provided with coarser spray/
+droplet system as the system can be operated using lower
+pressure/head rating centrifugal pumps.
+
+
+Discussion of Results
+   The entire heat transfer estimation carried out in this study is
+based on stabilized and optimized temperature data within the kiln
+of various sizes of sponge iron plants. Estimation of heating up
+cycle and cooling down period is not considered. Also, in the heat
+transfer analysis, the estimation of heat transfer from the bed sur-
+face to the interior of the bed by bulk mixing through tumbling
+action is not considered, as appropriate values of shape factor
+could not be ascertained. Moreover, Qs , the heat transfer to the
+solid 共Table 3兲 is found to be more that the Qs , the estimated heat
+required for bed of material in Table 2. This difference is of the
+order of 10–15%. The mentioned difference certifies that higher                         Fig. 6 Details of energy savings in 100 TPD DR sponge iron
+amount of heat rate must be available for the required heating of                       plant
+
+
+Journal of Energy Resources Technology                                                                            SEPTEMBER 2003, Vol. 125 Õ 235
+                                                                      Conclusions
+                                                                         A perusal of bar graph 6 –9 reveals that for the 100 TPD plant,
+                                                                      with 2.6 m kiln diameter and 40 m kiln length, the energy con-
+                                                                      sumption due to the mechanical seal is 10 kW per sealing area.
+                                                                      However, if the air ring sealing as proposed in this study is used,
+                                                                      at the inlet end of the rotary kiln and outlet end of rotary cooler,
+                                                                      the expected saving is 10 kW per area. The present energy con-
+                                                                      sumption due to coal injection facility is 35 kW up to 4 tonne/h
+                                                                      with 7.5 kW drive. However, 12.5 kW of savings is expected if
+                                                                      the system adopted is optimized using air jet sealing around the
+                                                                      kiln inlet and cooler outlet end with a low capacity blower. There
+                                                                      is a potential for 1.5 kW savings for each shell blower due to
+
+
+
+
+                                                                                                                                                              Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                                                      optimization of shell air blower as found in this study. As there are
+Fig. 7 Details of energy savings in 200 TPD DR sponge iron            8 blowers, the expected energy saving is 12 kW. Because of re-
+plant                                                                 duction of shell blower capacity and coal injection facility, the
+                                                                      total air handling capacity will reduce. Hence the ID fan capacity
+                                                                      will also reduce significantly. The expected savings due to reduc-
+                                                                      tion of ID fan capacity is 50 kW. Total energy savings due to
+                                                                      proposed modifications can be up to 85 kW for 100 TPD plants.
+                                                                      Similarly, the possible energy savings for 300 TPD plants are
+                                                                      worked out to be about 277 kW and for 400 TPD plants as 180
+                                                                      kW. Thus, the study presented in the paper finds considerable
+                                                                      potential for energy savings in various capacity DR sponge iron
+                                                                      plants and suggests mechanism to achieve it.
+
+
+
+                                                                      Acknowledgement
+                                                                         The information reported in this article is the work of many
+                                                                      scientists, research engineers and technicians of National Metal-
+                                                                      lurgical Laboratory 共NML兲, Jamshedpur, Tata Steel Jamshedpur,
+                                                                      RDCIS, Steel Authority of India Limited 共SAIL兲, Ranchi, Na-
+Fig. 8 Details of energy savings in 300 TPD DR sponge iron            tional Chemical Laboratory 共NCL兲, Pune and Indian Institute of
+plant
+                                                                      Technology 共IIT兲, Kharagpur. Authors are highly thankful to all of
+                                                                      them.
+
+
+                                                                      References
+                                                                       关1兴 Serbent, H., and Dayal, R., 1977, ‘‘Basic Principles, Process Characteristics
+                                                                           and Industrial Application of Rotary Kiln Iron Ore Reduction,’’ Transaction of
+                                                                           the Indian Institute of the Metals, 10共4兲, pp. 246 –254.
+                                                                       关2兴 Lepinski, J. A., 1980, ‘‘The ACCR System and its Application to Direct Re-
+                                                                           duction of Iron Ore,’’ Iron and Steel Engineer, pp. 25–30.
+                                                                       关3兴 Chatterjee, A., and Singh, R., 1981, ‘‘A Confident Future as Coal based DR
+                                                                           Approaches Maturity,’’ Iron and Steel International, pp. 79– 87.
+                                                                       关4兴 Ulrich, K. H., and Nanschuly, D., 1983, ‘‘Latest Development at Krupp in the
+                                                                           use of Coal for Direct Reduction,’’ Steel Times, 211共7兲, pp. 366 –368.
+                                                                       关5兴 Direct Reduction Corporation, 1983, ‘‘DRC Technology from Dave Mckee
+                                                                           共Stocklon兲 Ltd.,’’ 1983, Scaw Metal Coal Fuelled DR Plant at Germiston;
+                                                                           South Africa, Steel Times, 211共7兲, pp. 369–370.
+                                                                       关6兴 Biswas, D. K., 1993, ‘‘Some Design Aspects of Pneumatic Coal Injector for
+                                                                           Coal based Direct Reduction Process in Rotary Kiln,’’ Powder Handling and
+                                                                           Processing Trans. Tech., 5共2兲, pp. 145–152.
+Fig. 9 Details of energy savings in 400 TPD DR sponge iron             关7兴 Brimacombe, J. K., and Watkinson, A. P., 1978, ‘‘Heat Transfer in Direct Fired
+plant                                                                      Rotary Kiln; I Pilot Plant and Experimentation and II, Heat Flow Results and
+                                                                           their Interpretation,’’ Metallurgical Transaction B, 9, pp. 201–218.
+                                                                       关8兴 Schlebush, D. W., 1981, ‘‘The Present State of SL/RN Coal Based Direct
+                                                                           Reduction,’’ Report from LURGI, West Germany.
+                                                                       关9兴 Chatterjee, A., and Biswas, D. K., 1989, ‘‘Axial Rotary and Radial Injection of
+                                                                           Air in the Preheating Zone of a Kiln,’’ Transactions of the Indian Institutes of
+of the PCC that subsequently requires treatment against contami-           Metals, 42共3兲, pp. 281–289.
+nation before being used in the re-circulating system. Droplet size   关10兴 Krivandin, V. A., and Markov, B. L., 1980, ‘‘Metallurgical Furnaces,’’ MIR
+                                                                           Publisher, Moscow.
+spraying may be accomplished by adopting centrifugal pumps.           关11兴 Holman, J. P., 1989, Heat Transfer, McGraw Hill Book Co., New York.
+But, high-pressure positive displacement pump is required to gen-     关12兴 United States Steel, 1985, ‘‘The Making, Shaping and Treating of Steel,’’ 10th
+erate atomized spray. Therefore, if a plant is provided with high          edition, Association of Iron and Steel Engineers, Pennsylvania, U.S.A.
+pressure atomizing, the system will reduce the size of water spray-   关13兴 Perry, J., 1984, Chemical Engineering Handbook, 8th edition, McGraw Hill
+                                                                           Publication, New York.
+ing unit as well as the size of the main water handling sys-          关14兴 ‘‘SL/RN Coal Based DR, Technology from Lurgi at ISCOR,’’ 1983, New
+tem. With the proposed reduction of the size of the shell blower as        Zealand Steel Times, 211共7兲, pp. 371–372.
+well as coal injection system, size of ID fan will also decrease      关15兴 Brook N., 1971, ‘‘Mechanics of Bulk Material Handling,’’ Butterworth & Co.
+significantly.                                                             共Publisher兲 Ltd., London.
+                                                                      关16兴 Jain, R. K., 1980, Machine Design, Khanna Publishers, Delhi.
+   Figures 6 –9 shows comprehensive summary of energy saving          关17兴 Ballaney, P. L., 1976, Thermal Engineering, Khanna Publishers, Delhi.
+of various plants based on the analysis mentioned in the preceding    关18兴 Krivchenko, G. T., 1986, Hydraulic Machines Turbine and Pumps, MIR Pub-
+sections.                                                                  lications, Moscow.
+
+
+236 Õ Vol. 125, SEPTEMBER 2003                                                                                    Transactions of the ASME
+                      D. K. BISWAS Dilip Kumar Biswas graduated in Mechanical Engineering from Ranchi University and
+                      obtained Ph. D. from Indian Institute of Technology (IIT) Kharagpur, in 1971. For the past 28 years he has
+                      been working with R&D departments of CSIR, SAIL and TATA Steel in India. He currently holds the post
+                      of Deputy Director at National Metallurgical Laboratory, Jamshedpur. He actively participated in the
+                      development of 300 TPD capacity sponge iron plant in India. His other development includes 10 ton
+                      continuous drive Friction Welding Machine, Coil spreading and expanding machine for 100 kVA motor
+                      and generators. His area of interests includes Machine Design, Hydraulic and Pneumatic control, Pneu-
+                      matic conveying and injection.
+
+
+
+
+                                                                                                                                   Downloaded from asmedigitalcollection.​asme.​org/​energyresources/​article-pdf/​125/​3/​228/​5887968/​228_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                      S. R. ASTHANA Saroja Asthana received B. E. in Mechanical Engineering from Marathwada University,
+                      M.S. in Management Information Systems (MIS) from University of Baltimore, Maryland, USA and Ph.D.
+                      from Indian Institute of Technology (IIT) Kharagpur in 2000. Dr. Asthana is having experience of teaching
+                      and R&D. She joined National Chemical Laboratory, Pune in June 1997 and currently holds the position
+                      of Scientist. She worked as a member in various projects relating to energy and environment in sponge iron
+                      plants and foundries. Her area of interest for research and consultancy includes energy conservation and
+                      energy management, alternatives to CFC refrigerants and policy issues relating to CFC phase out.
+
+
+
+
+                      V. G. RAU V. Guruprasada Rau received the B. Tech. (Hons), M. Tech. and Ph. D. in electrical engineering
+                      from Indian Institute of Technology (IIT) Kharagpur. He joined the faculty of IIT Kharagpur in April 1977
+                      and currently holds the rank of a Professor. Teaching, Research and Consultancy interests of Dr. Rau are
+                      in the area of large power systems, solar photovoltaics, wind energy and energy conservation and man-
+                      agement. He has authored two books entitled Stability Analysis of Power Systems and Coherent Genera-
+                      tors. He had been a Senior Fulbright Fellow at University of Colorado, Boulder, USA. He is a Senior
+                      Member of IEEE and founder chairman of IEEE Kharagpur section. He is the winner of prestigious
+                      Republic Day (1998) award for Meritorious Inventions by NRDC, DSIR, Government of India.
+
+
+
+
+Journal of Energy Resources Technology                                                 SEPTEMBER 2003, Vol. 125 Õ 237
+

@@ -1,0 +1,7 @@
+{
+  "_meta": {
+    "description": "Optional overrides for the Monte Carlo and Morris sample. A parameter that is not listed under overrides is drawn from a triangular distribution on its minimum, its base value and its maximum in parameters.json. No correlation is applied: none is documented. The tornado keeps using the minimum and maximum in parameters.json.",
+    "override_shape": "triangular takes min, mode and max. point takes value and removes the parameter from the sample."
+  },
+  "overrides": {}
+}

@@ -1,0 +1,3359 @@
+WASTE HEAT RECOVERY POWER PLANT(4MW)– 200TPD
+
+
+
+
+                  ORISSA SPONGE IRON CLUSTER
+                     BEE, 2011
+                     Detailed Project Report on Waste Heat Recovery
+                     Power Plant (2MW)- 100 TPD
+                     Sponge Iron SME Cluster, Orissa (India)
+                     New Delhi: Bureau of Energy Efficiency;
+                     Detail Project Report No.: ORSA/SPONGE/WHP/10
+
+
+
+
+For more information                           Telephone +91-11-26179699
+Bureau of Energy Efficiency (BEE)
+                                               Fax+91-11-26178352
+(Ministry of Power, Government of India)
+                                               Websites: www.bee-india.nic.in
+4th Floor, Sewa Bhawan
+                                               Email: jsood@beenet.in/ pktiwari@beenet.in
+R. K. Puram, New Delhi – 110066
+                                Acknowledgement
+
+We sincerely appreciate the efforts of industry, energy auditors, equipment manufacturers,
+technology providers, consultants and other experts in the area of energy conservation for
+joining hands with Bureau of Energy Efficiency (BEE), Ministry of Power, and Government
+of India for preparing the Detailed Project Report (DPR) under BEE SME Program in
+SMEs clusters. We appreciate the support of suppliers/vendors for providing the adoptable
+energy efficient equipments/technical details to the SMEs.
+
+
+We have received very encouraging feedback for the BEE SME Program in various SME
+Clusters. Therefore, it was decided to bring out the DPR for the benefits of SMEs. We
+sincerely thank the officials of BEE, Executing Agencies and ISTSL for all the support and
+cooperation extended for preparation of the DPR. We gracefully acknowledge the diligent
+efforts and commitments of all those who have contributed in preparation of the DPR.
+
+
+
+
+                                                                                       vii
+                                                        CONTENT
+List of Annexure                                                                                                             vii
+List of Tables                                                                                                               vii
+List of Figures                                                                                                              viii
+List of Abbreviation                                                                                                        viii
+Executive summary                                                                                                            ix
+About BEE’S SME program                                                                                                      xi
+
+1           INTRODUCTION ........................................................................................................1
+
+1.1         Brief Introduction about cluster ...................................................................................1
+
+1.2         Energy performance in existing situation ....................................................................4
+
+1.3         Existing technology/equipment ...................................................................................5
+
+1.4         Establishing the baseline for the equipment ................................................................5
+
+1.5         Barriers for adoption of new and energy efficient technology / equipment ...................6
+
+2.          TECHNOLOGY/EQUIPMENT FOR ENERGY EFFICIENCY IMPROVEMENTS .........8
+
+2.1         Detailed description of technology/equipment selected ...............................................8
+
+2.2         Life cycle assessment and risks analysis ..................................................................10
+
+2.3         Suitable unit/plant size in terms of capacity/production .............................................10
+
+3.          ECONOMIC BENEFITS FOR THE INSTALLATION OF FUEL ECONOMIZER ........11
+
+3.1         Technical benefits .....................................................................................................11
+
+3.2         Monetary benefits .....................................................................................................11
+
+3.3         Social benefits ..........................................................................................................12
+
+3.4         Environmental benefits .............................................................................................12
+
+4.          INSTALLATION OF FUEL ECONOMIZER ...............................................................13
+
+4.1         Cost of technology/equipment implementation ..........................................................13
+
+4.2         Arrangement of funds ...............................................................................................13
+
+4.3         Financial indicators ...................................................................................................14
+
+4.4         Sensitivity analysis in realistic, pessimistic and optimistic scenarios .........................14
+
+4.5         Procurement and implementation schedule ..............................................................15
+
+ANNEXURE ...........................................................................................................................16
+
+                                                                                                                             viii
+Annexure 1: Process Flow Diagram .......................................................................................16
+
+Annexure 2: Detailed technology assessment report – Fuel Economizer for 100 TPD ...........17
+
+Annexure 3: Detailed drawing for civil work required for Fuel EconomizerError! Bookmark not defined.
+
+Annexure 3: Detailed drawing for civil work required for Fuel EconomizerError! Bookmark not defined.
+
+Annexure 4: Detailed financial calculations & analysis ...........................................................19
+
+Annexure 5: Details of procurement and implementation plan ................................................24
+
+Annexure 6: Details of technology/equipment and service providers ......................................25
+
+Annexure 7: Quotation or techno-commercial bid ...................................................................27
+
+
+List of Table
+
+Table 1.1: Energy consumption of typical units have 50 TPD kilnError! Bookmark not defined.
+Table 1.2: Specific energy consumption for typical units with 50 TPD kilnsError! Bookmark not defined.
+Table 1.4 Coal consumption of Sponge iron Cluster ...................Error! Bookmark not defined.
+Table 2.1: Fuel Economizer Specifications .................................Error! Bookmark not defined.
+Table 3.1: Energy and monetary benefits ...................................Error! Bookmark not defined.
+Table 4.1: Project detail cost ......................................................Error! Bookmark not defined.
+Table 4.2: Sensitivity analysis ....................................................Error! Bookmark not defined.
+
+Lists of Abbreviations
+
+BEE                - Bureau of Energy Efficiency
+DPR                - Detailed Project Report
+DSCR               - Debt Service Coverage Ratio
+GHG                - Green House Gases
+HP                 - Horse Power
+IRR                - Internal Rate of Return
+MoP                - Ministry of Power
+MoSME              - Micro Small and Medium Enterprises
+NPV                - Net Present Value
+ROI                - Return On Investment
+SIDBI              - Small Industrial Development Bank of India
+SME                - Small and Medium Enterprises
+
+
+
+
+                                                                                                                  ix
+                                 EXECUTIVE SUMMARY
+
+APITCO Ltd. is executing BEE-SME program in Orissa Sponge Iron Cluster, supported by
+Bureau of Energy Efficiency (BEE) with an overall objective of improving the energy
+efficiency in cluster units.
+
+Rourkela and Sundargarh area is renowned for Sponge iron manufacturing business and
+is a big hub for sponge iron supply. There are about 107 sponge iron units in the cluster
+and majority of industries located in Sundargarh area engaged in production of sponge
+irons which further converted into billets through induction furnace for further use.
+
+The major Energy consumption in sponge Iron cluster is of thermal energy derived from
+coal and electrical energy from grid electricity. Electricity is used for supplying energy for
+motor driven drives like kiln min drive, cooler main drive, crushers, bag filters, pumps,
+ESPs etc. and also for lighting purpose. If the percentage share of the total energy
+consumption is considered then the electrical is not more than 2% where as the remaining
+98% is the thermal energy requirement. HSD is used as fuel in DG sets for generation of
+electricity during the power failure from Electricity board.
+
+In the plant it is observed that a good amount of heat energy is expelled out of the kiln in
+the form of waste gases, more over an extra amount of electrical energy is given via
+forced draft fan to reduce the heat content of the flue gases for the environmental concern.
+The flue gases from the kiln’s ore feeding end contains a good percentage of carbon
+monoxide which is further burnt in the ABC i.e. the After Burning Chamber which causes
+rise in the outlet flue gases temperature. The waste heat of the flue gases can be used for
+generating power which results in the power consumption.
+
+The DPR highlights the details of study conducted for assessing the potential for reducing
+thermal energy consumption during operation by installing fuel economizer at the various
+units in the cluster, possible energy savings and its monetary benefit, availability of the
+technologies/design, local service providers, technical features and proposed equipment
+specifications, various barriers in implementation, environmental aspects, estimated GHG
+reductions, capital cost, financial analysis, and schedule of project Implementation.
+
+Total investment required and financial indicators calculated such as debt equity ratio,
+monetary saving, IRR, NPV, DSCR and ROI etc for proposed technology is furnished in
+Table below:
+
+
+
+                                                                                            x
+                 S. No.            Particular            Unit      Value
+                   1       Project cost            (in Lakh)       960.75
+                   2       Power Savings           KW/annum      28512000
+                   3       Monetary benefit        (in Lakh)       940.90
+                   4       Simple payback period   Months            12
+                   5       NPV                     (in Lakh)      1816.12
+                   6       IRR                     percentage      63.35
+                   7       ROI                     percentage      37.94
+                   8       Average DSCR            Ratio            3.40
+
+
+
+The projected profitability and cash flow statements indicate that the project
+implementation i.e. installation of waste heat power plant will be financially viable and
+technically feasible solution for the cluster.
+
+
+
+
+                                                                                       xi
+                            ABOUT BEE’S SME PROGRAM
+
+Bureau of Energy Efficiency (BEE) is implementing a BEE-SME Programme to improve
+the energy performance in 29 selected SMEs clusters. Orissa Sponge Iron Cluster is one
+of them. The BEE’s SME Programme intends to enhance the energy efficiency awareness
+by funding/subsidizing need based studies in SME clusters and giving energy
+conservation recommendations. For addressing the specific problems of these SMEs and
+enhancing energy efficiency in the clusters, BEE will be focusing on energy efficiency,
+energy conservation and technology up-gradation through studies and pilot projects in
+these SMEs clusters.
+
+Major activities in the BEE -SME program are furnished below:
+
+Activity 1: Energy use and technology audit
+
+The energy use technology studies would provide information on technology status, best
+operating practices, gaps in skills and knowledge on energy conservation opportunities,
+energy saving potential and new energy efficient technologies, etc for each of the sub
+sector in SMEs.
+
+Activity 2: Capacity building of stake holders in cluster on energy efficiency
+
+In most of the cases SME entrepreneurs are dependent on the locally available
+technologies, service providers for various reasons. To address this issue BEE has also
+undertaken capacity building of local service providers and entrepreneurs/ Managers of
+SMEs on energy efficiency improvement in their units as well as clusters. The local service
+providers will be trained in order to be able to provide the local services in setting up of
+energy efficiency projects in the clusters
+
+Activity 3: Implementation of energy efficiency measures
+
+To implement the technology up-gradation project in the clusters, BEE has proposed to
+prepare the technology based detailed project reports (DPRs) for a minimum of five
+technologies in three capacities for each technology.
+
+Activity 4: Facilitation of innovative financing mechanisms for implementation of
+energy efficiency projects
+
+The objective of this activity is to facilitate the uptake of energy efficiency measures
+through   innovative    financing    mechanisms    without   creating   market    distortion
+
+
+
+
+                                                                                         xii
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+1       INTRODUCTION
+
+1.1     Brief Introduction about cluster
+
+The state of Orissa is located in the South –East coast of India in the banks of Bay of
+Bengal. The state capital is Bhubaneswar. It is renowned for the Sponge Iron business.
+They even export to various countries throughout the world.
+There are about 107 sponge iron industries in the cluster and majority of industries are
+located in Orissa.
+
+The major Energy consumption in Ice making cluster are thermal energy from coal and
+grid electricity. Electricity is used for driving the prime movers of installed in the plants i.e.
+Reduction Kiln main drive, Cooler Kiln main, air compressors, pumps, and other drives
+and even for lighting purpose. The majority of the energy share is by the thermal energy
+drawn by burning coal which comes out to be around 98% of the total energy consumption
+the remaining is by the electrical energy.
+
+1.1.1   Production process
+Non-coking coal and iron ore along with limestone in the required size range and quantity
+are continuously fed into the feed – end of the inclined rotary kiln through a feed pipe. The
+materials move along the length of the kiln due to its inclination and rotation. Air is blown
+in through required number of air tubes suitably located along the length of the kiln. At the
+feed-end of the kiln air is blown in through nozzles for drying and pre heating of the
+charge. Initial heating of the kiln is carried through a central oil burner located at the
+discharge feed end. As the charge moves through the kiln, it is heated by the hot gases,
+which flow in the opposite direction to the charge (i.e. counter current flow). The initial part
+of the kiln (about 30%) is called the pre heating zone, where moisture in the charge and
+volatiles in the coal are removed / burnt off as waste gases. The required heat in this
+zone is provided by the combustion of the feed coal. The remaining portion of the kiln is
+called as the reduction zone. In this zone, oxygen in the iron ore is removed leaving
+metallic iron as per the following chemical reaction.
+                        3FeO3 + CO      --------------------   2 Fe2O4 + CO2
+                        Fe2O4 + CO      --------------------   3FeO + CO2
+                        FeO + CO        --------------------   Fe + CO2
+The CO is generated for the above reaction according to CO2 + C  2CO, at temperature
+above 900 deg. C, carbon monoxide will combine with the oxygen in the iron ore forming
+carbon dioxide and thus reduce the ore to metallic state.
+                                                                                                1
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Higher the temperature, the faster would be the oxygen removal. After the removal of
+oxygen and grater is the metallization of sponge iron. Metallization levels can roughly be
+checked by density of the sponge iron. It can also be judged by the metallic luster if a
+sample is rubbed against a rough surface.
+After the iron ore has been metallic to the desired level, sponge iron and residual char are
+discharged from the kiln into a rotary drum type cooler. In the cooler sponge iron is cooled
+to below 60 deg. C before the material is discharged on to a belt conveyor. If the sponge
+iron were exposed to air at high temperatures (about 150 deg. C) it would tend to re
+oxidize. It is therefore, necessary that the temperature of the product at the point of
+discharge from the cooler is as close as possible to the ambient temperature. The
+reduction process occurs in solid state. The crucial factor in this reduction process is the
+controlled combustion of coal and its conversion to carbon monoxide to remove oxygen
+from the iron ore.
+The overall process extends to a period of 10 to 12 hours inside the kiln. During this time,
+iron ore is optimally reduced and the hot reduced sponge iron along with semi-burnt coal
+is discharged to a rotary cooler for indirect cooling to a temperature of around 120°C.
+Sponge iron being magnetic in nature, the discharge from cooler main drive consisting of
+sponge iron, chars & other contaminations are routed through electromagnetic separators,
+to separate other impurities from sponge iron. The product is then screened in size
+fractions of lump (+3mm) and fines (0-3 mm). Separate bins are installed to preserve its
+quality, reduce re oxidation and facilitate faster loading on to the trucks.
+
+Detailed of process flow chart are finished in Figure 1.1 below:
+
+
+
+
+                                                                                          2
+                                       Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+        Figure 1.1: General process flowchart of a typical Sponge Iron unit
+
+                                 Raw material feeding at
+                                 ground hopper (Coal Ore)
+
+                Coal                       Sized Iron                          Over size
+                                           ore
+
+                Crushing                     Crushing
+                                                                Screening
+             Screening
+
+
+                     Coal bin              Iron ore
+                                           bin                      Dolomite
+
+
+
+Over                               Setting up of
+sized                              Production of mixed
+                                   raw materials for kiln
+                                   feed
+
+                             Processed in rotary kiln at
+                             1000 c
+
+
+
+                     Indirect cooling in rotary cooler
+                     with water spray
+
+                   Screening of mixed end product
+                   (sponge iron and un-burnt coal)
+
+
+
+         S.I. Lumps -                        S. I. Fines -
+         Char                                Dolochar
+
+                                                             Drum type
+Drum type magnetic
+                                                             magnetic
+separator
+                                                             separator
+S. I. Lump        Char bin
+bin                                           S. I. Fines bin                  Dolochar
+
+
+
+
+                                                                                           3
+                                              Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+1.2        Energy performance in existing situation
+1.2.1      Fuel and electricity consumption of a typical unit in the cluster
+The main energy used in a typical sponge iron industry is the thermal energy derived from
+coal and electrical energy from grid supply. Electricity is used for driving the prime movers
+like kiln drives, compressors, pumps, Bag filters, crushers, FD and ID fans etc. and even
+for lighting power consumption. The energy consumption details are given below in the
+Table 1.1 below:
+
+             Table 1.1: Energy consumption of typical units have 100 TPD kiln
+                                                                          Annual
+                                                        No.
+                                                                         Electricity
+                                                         of    Annual                   Annual Coal
+                                                                        consumpti
+S. No              Name of Industries             TPD   100    Produc                  Consumption
+                                                                             on
+                                                        TPD     tion                   (Tons/annum)
+                                                                        (millions of
+                                                        Kiln
+                                                                           kWh)
+       1   Govindam Projects P Ltd.               200     2    62415        4.99         108186
+       2   Jay Iron & Steel Pvt. Ltd.             200     2    59862        4.75         93119
+       3   Kalinga Sponge Iron Limited            200     2    58800        6.17         91467
+       4   Maa Shakamburi Sponge ltd.             100     1    29651         2.9         46124
+       5   Pooja Sponge Private Limited.          200     2    60000         4.7         93333
+       6   Shree Ganesh Metallics Ltd.            400     4    122000        9.8         199562
+       7   Singhal Enterprises Pvt. Limited       200     2    60500          6          95270
+       8   Sponge Udyog private limited           200     2    59700         4.8         92866
+       9   Sri Mahaveer Ferro Alloys Pvt.         200     2    60366        5.99         93887
+           Limited
+      10   Sri Mangalam Ispat Limited             200     2    61000        5.2           94888
+      11   Surendra Mining (IND) P. Ltd           200     2    59000       4.11           92714
+      12   Vishal Metallic Limited                100     1    28000        4.1           44091
+
+1.2.2      Average production by a typical unit in the cluster
+The average productions in a sponge iron unit depend on the installed TPD for a single
+100 TPD kilns it varies in between 28000 to 30000 tons per annum.
+1.2.3      Specific Energy Consumption
+For production of sponge iron both thermal and electrical energy are required. The major
+share of the energy is for the thermal energy which is around 98 % and the remaining is of
+the electrical energy. The over all specific energy consumption of the units is given below:
+
+
+
+
+                                                                                           4
+                                            Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+      Table 1.2: Specific energy consumption for typical units with 100 TPD kilns
+                                                                                         Over all Specific
+                                                             No. of
+S.                                                                        Annual             energy
+                     Name of Industries              TPD    100 TPD
+No.                                                                     Production        consumption
+                                                              Kiln
+                                                                                           (TOE/ Tons)
+  1     Govindam Projects P Ltd.                      200       2          62415               0.53
+  2     Jay Iron & Steel Pvt. Ltd.                    200       2          59862               0.47
+  3     Kalinga Sponge Iron Limited                   200       2          58800               0.48
+  4     Maa Shakamburi Sponge ltd.                    100       1          29651               0.48
+  5     Pooja Sponge Private Limited.                 200       2          60000               0.47
+  6     Shree Ganesh Metallics Ltd.                   400       4         122000               0.50
+  7     Singhal Enterprises Pvt. Limited              200       2          60500               0.48
+  8     Sponge Udyog private limited                  200       2          59700               0.47
+  9     Sri Mahaveer Ferro Alloys Pvt. Limited        200       2          60366               0.48
+ 10     Sri Mangalam Ispat Limited                    200       2          61000               0.47
+ 11     Surendra Mining (IND) P. Ltd                  200       2          59000               0.48
+ 12     Vishal Metallic Limited                       100       1          28000               0.48
+
+
+1.3      Existing technology/equipment
+1.3.1    Description of existing technology
+In the present condition there is no arrangement for the recovery of the waste heat which
+is expelling out of the kiln. The pre heating is of the ore is done in the 1st zone of the kiln
+where the temperature reaches to 7000C, just before the reduction zone. And the heat
+contained in the flue gas is force fully reduced by the help of the FD fans or GCT
+arrangements just after the ABC chamber. The heat contained in the flue gas coming out
+of the kiln is made to increase more in ABC as because the unburned carbon monoxide is
+made to burn in the ABC for converting it completely to cordon dioxide. This hot expelled
+out gas is conditioned in the ESP and FD or GCT arrangements and then is released in
+the atmosphere.
+
+1.3.2 Its role in the whole process
+As the system proposed is not replacing any of the existing technology thus to describe
+the role in the whole process is not applicable.
+
+1.4      Establishing the baseline for the equipment
+1.4.1 Design and operating parameters
+The present energy consumption for the production of sponge iron is given in the Table
+1.4. The coal consumption depends on the production per batch which can be considered
+to be 24 hours per day.
+
+
+
+                                                                                             5
+                                              Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+      1.4.2    Coal consumption in existing system
+      The coal consumption in the process of sponge iron manufacturing the units having at
+      least one 100 TPD kiln is given below with the specific coal consumption of the unit.
+
+                          Table 1.4 Coal consumption of Sponge iron Cluster
+                                                                                                Specific
+                                                                   Annual
+                                                                                                  Coal
+                                                                  Electrical   Annual Coal
+                                              No. of                                           Consumpti
+S.                                                     Annual      energy      consumption
+                                               100                                                  on
+No          Name of Industries          TPD            Product   consumpti     (from coal of
+                                               TPD                                              (tons of
+ .                                                       ion          on          CV 3000
+                                               Kiln                                            coal/ tons
+                                                                  (millions       kcal/kg)
+                                                                                               of Sponge
+                                                                   of kWh)
+                                                                                                  iron)
+1    Govindam Projects P Ltd.           200     2      62415        4.99          108186          1.73
+2    Jay Iron & Steel Pvt. Ltd.         200     2      59862        4.75          93119           1.56
+3    Kalinga Sponge Iron Limited        200     2      58800        6.17          91467           1.56
+4    Maa Shakamburi Sponge ltd.         100     1      29651         2.9          46124           1.56
+5    Pooja Sponge Private Limited.      200     2      60000         4.7          93333           1.56
+6    Shree Ganesh Metallics Ltd.        400     4      122000        9.8          199562          1.64
+7    Singhal Enterprises Pvt. Limited   200     2      60500          6           95270           1.57
+8    Sponge Udyog private limited       200     2      59700         4.8          92866           1.56
+9    Sri Mahaveer Ferro Alloys Pvt.     200     2      60366        5.99          93887           1.56
+     Limited
+10   Sri Mangalam Ispat Limited         200     2      61000         5.2          94888           1.56
+11   Surendra Mining (IND) P. Ltd       200     2      59000        4.11          92714           1.57
+12   Vishal Metallic Limited            100     1      28000         4.1          44091           1.57
+
+
+      1.4.3    Operating specific coal consumption of existing system.
+      The detailed energy audit studies had been undertaken in various units of the cluster to
+      evaluate the specific coal consumption in the cluster. Based on the installed TPD the
+      specific energy consumption varies from 1.56 to 1.73 tons of coal to tons of production. On
+      installing the fuel economizer there is a reduction of coal consumption by 5% of that of the
+      present coal consumption.
+
+      1.5      Barriers for adoption of new and energy efficient technology / equipment
+      1.5.1    Technological Barriers
+      The major technical barriers that prevented the implementation of the waste heat boiler in
+      the cluster are:
+
+               Lack of water availability.
+      1.5.2 Financial Barrier
+      Implementation of waste heat power plant requires high investment compare. Hence,
+      many of the owners don’t show interest due to high initial investment.
+
+                                                                                                 6
+                                        Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Energy Efficiency Financing Schemes such as SIDBI’s, if focused on the cluster, will play
+a catalytic role in implementation of identified energy conservation projects &
+technologies. The cluster has significant potential for implementing the fuel economizer.
+1.5.3   Skilled manpower
+Not applicable
+1.5.4   Other barrier(s)
+Information on energy efficient technologies is not available among cluster unit owners,
+though the suppliers are available in near by states to the sponge iron cluster. Such
+technology has a substantial potential to save power consumption in the cluster.
+
+
+
+
+                                                                                            7
+                                            Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+2. TECHNOLOGY/EQUIPMENT FOR ENERGY EFFICIENCY IMPROVEMENTS
+
+2.1     Detailed description of technology/equipment selected
+2.1.1 Description of equipment
+The project activity is installing the waste heat power in the existing operation. This
+arrangement uses to recover the waste heat of the exhaust flue gas coming out from the
+ABC outlet is feed in the waste heat boiler for generating power. The flue gas contains the
+heat content which is considerable to recover by adopting the proper heat recovery
+system. The sensible heat of the flue gases can be recovered to an extent. Complete
+recovery of waste heat is neither theoretically possible nor economically viable and hence
+only optimum quantity of the heat is recovered during this process. The waste heat
+recovery power plant has following special features:
+
+        The most effective feature implementation point of view is that it does not require
+        any additional space for installation.
+
+        It significantly reduces the effect the temperature of the flue gases expelling out in
+        the atmosphere.
+
+2.1.2   Technology /Equipment specifications
+The detailed specification of the Waste Heat Recovery power plant suggested is furnished
+in table 2.1 below:
+
+                 Table 2.1: Waste heat recovery power plant Specifications
+        Boiler: IBR 1950 with its latest amendments
+
+        S. No.        Specifications                     UNIT             Data
+            1         Design Pressure                   Kg/cm2             75
+            2         Design Temperature                  oC              317
+            3         Hydro test Pressure               Kg/cm2           112.5
+            4         Type                                              Vertical
+            5         Type of tubes                                       Bare
+            6         Tube outer diameter                mm               50.8
+            7         Tube thickness                     mm               4.47
+            8         Fin thickness                      mm                 5
+            9         MOC of tubes                                 BS 3059 Seamless
+           10         MOC of fins                                       IS 2002
+           11         MOC of headers                                 SA 106 Gr.B
+
+
+
+
+                                                                                            8
+                                        Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Turbine: Multi stage, Horizontal Spindle, Bladed Design, Axial Flow, Impulse, Bleed
+cum Condensing Steam Turbine.
+
+         S. No.     Specifications                       UNIT           Data
+             1      Make                                              KESSELS
+             2      Turbine Rating                        MW               4
+             3      Inlet steam pressure                 Kg/cm2           64
+             4      Inlet steam Temperature                oC            485
+             5      Inlet steam flow                      TPH             18
+             6      Bleed Steam                           TPH           1.75
+             7      Exhaust steam pressure                Bar           0.18
+             8      Steam flow to condenser               TPH           9.125
+             9      Power Generated (MAX)                 MW               2
+
+
+2.1.3    Justification of the technology selected & Suitability
+
+The flue gas coming out of the reduction kiln is having a very high thermal energy which
+not been used for any of the process activity. Further the high temperature content of the
+gas is made to cool down by the force draft fan in waste gas treatment zone which is then
+fed to the ESP for the waste gas cleaning due to the environment concern. This
+technology is very useful for exchanging the heat of the waste flue gases for generating
+power.
+
+2.1.4    Superiority over existing technology/equipment
+In the present process condition extra amount of energy is required to reduce the waste
+heat of the exhaust flue gas. This is the energy required to run the FD fans for cooling the
+flue gas for the safety of the environment. With the installation of the waste heat recovery
+boiler good amount of heat is absorbed for per heating water and producing steam.
+Utilizes the waste energy of the flue gas which unused in the previous system.
+
+            Reduces the environmental effect.
+2.1.5    Availability of proposed technology/equipment
+Such equipment suppliers are available and are already been installed in some of the
+sponge iron plants in Raipur. The detail of the supplier is provided in Annexure-6.
+2.1.6    Source of technology/equipment for the project
+The source of the technology is indigenous and is available.
+2.1.7    Service/technology providers
+A detail of supplier has been furnished in Annexure 6.
+2.1.8    Terms of sales
+
+                                                                                          9
+                                        Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+No any specific terms and conditions
+
+2.1.9   Process down time during implementation
+The process down time for installation of waste heat recovery boiler is Zero due to no
+major changes required for installing this technology.
+
+2.2     Life cycle assessment and risks analysis
+
+The life of the waste heat recovery boiler system is considered for 15 years. There is no
+risk involved as the technology is installed in few plants and running successfully.
+
+2.3     Suitable unit/plant size in terms of capacity/production
+
+The Waste heat recovery power plants are categorized by the following plant sizes they
+are 100 TPD, 200 TPD & 300 TPD if they are installed side by side and the flue gas output
+can be merged together from the out let of ABC.
+
+
+
+
+                                                                                       10
+                                        Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+3.      ECONOMIC BENEFITS FOR THE INSTALLATION OF WASTE HEAT
+        RECOVERY BOILER
+
+3.1     Technical benefits
+3.1.1   Fuel savings per year
+Waste Heat carried away by the flue gases is being recovered by the Waste Heat
+recovery Boilers and gainfully used for Steam and hence power generation.
+
+Fuel: The fuels available for power generation are:
+
+Off Gases from DR kiln after “After Burning Chamber (ABC)The waste Heat Boiler will be
+installed behind the ABC of DR kiln in bypass configuration. The flue gases after ABC will
+be taken to unfired furnace chamber and them flow over banks of super heater, convective
+evaporator and economizer before being discharged to atmosphere through ESP, ID Fan
+and chimney of DR Kiln. In case of outage of Waste Heat Boiler, Flue gases will pass
+through GCT- ESP ID Fan and Chimney. The flue gases will pass over various heat
+transfer surfaces to ESP and then finally discharges in to chimney by ID Fans. The boiler
+will have its own ESP, ID fans and Chimney.
+
+3.1.2 Electricity savings per year
+
+The power savings due to installation of WHR boiler and turbine is 14256000 kWh per
+annum.
+3.1.3   Improvement in product quality
+There is no significant impact on the product quality.
+3.1.4   Increase in production
+There is no increase of production capacity.
+3.1.5   Reduction in raw material consumption
+Not Applicable
+3.1.6   Reduction in other losses
+Not Applicable
+
+3.2     Monetary benefits
+
+The monetary benefit due to installation of waste recovery power plant for 100 TPD kiln is
+Rs. 499 lakhs per annum due to the generation of power. A detail of the saving is given in
+Table 3.1 below:
+
+
+
+                                                                                       11
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Table 3.1: Energy and monetary benefits
+
+S. No.                       Parameter                         Unit            Value
+
+1         Power generation                                    kwh/day        96000
+
+2         Auxiliary power consumption                         kwh/day        9600
+
+3         Power available for grid                            kwh/day        86400
+
+4         Power available for grid                           kwh/year        28512000
+
+5         Power Cost                                         Rs./kWh         3.3
+
+06        Energy cost due to power generation using flue   Rs.lakhs/year     998
+          gases
+
+3.3      Social benefits
+3.3.1    Improvement in working environment in the plant
+There is no such benefit achieved by waste heat recovery boiler..
+
+3.3.2    Improvement in skill set of workers
+The technology selected for implementation is waste heat recovery power plant will create
+the awareness among the workforce on advancement of the waste heat recovery system
+and how it will reduce the total energy consumption by existing process.
+
+3.4      Environmental benefits
+3.4.1    Reduction in effluent generation
+None
+3.4.2    Reduction in GHG emission such as CO2, NOX, etc
+The major GHG emission reduction source is CO2. The technology will reduce coal
+consumption and emission.
+3.4.3    Reduction in other emissions like SOx
+No significant impact on SOx emissions.
+
+
+
+
+                                                                                        12
+                                             Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+4.        INSTALLATION OF WASTE HEAT RECOVERY POWER PLANT
+
+4.1       Cost of technology/equipment implementation
+4.1.1     Cost of technology/equipments
+The total cost of waste heat recovery power plant is estimated to be Rs. 960.5 lakhs,
+which includes all the required equipment and man power for the installation of the waste
+heat recovery power plant. Other details are mentioned in the quotation attached in
+Annexure 7.
+4.1.2     Other costs
+Other charges include cabling and panel modification. Project cost details are furnished in
+Table 4.1 below:
+                                  Table 4.1: Project detail cost
+
+ S. No.                       Particular                              Unit          Value
+      1     Cost of Boiler                                         Rs. in lakhs    500.00
+      2     Cost of System                                         Rs. in lakhs    265.00
+      3     Erection & Commissioning                               Lump sum         35.00
+      4     Civil work                                             Lump sum         60.00
+      5     Taxes                                                  Rs. in lakhs     45.00
+      6     Other Misc. cost(supervision, other cost)              Rs. in lakhs     10.00
+      7     Total cost excluding EPC                               Rs. in lakhs    915.00
+      8     EPC cost                                               Rs. in lakhs     45.75
+      9     Total Investment                                       Rs. in lakhs    960.75
+
+4.2       Arrangement of funds
+4.2.1     Entrepreneur’s contribution
+The entrepreneur’s contribution is 25% of total project cost, which works out at Rs. 240.19
+lakhs.
+4.2.2     Loan amount
+The term loan is 75% of the total project, which is Rs. 720.56 lakhs.
+4.2.3     Terms & conditions of loan
+The interest rate is considered at 10% which is prevailing interest rate of SIDBI for energy
+efficiency related projects. The loan tenure is 5 years and the moratorium period is 6
+months.
+
+
+
+
+                                                                                         13
+                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+4.3     Financial indicators
+4.3.1   Cash flow analysis
+Considering the above discussed assumptions, the net cash accruals starting with 457.76
+lakh in the first year operation and increases to 2693.31 at the end of fifth year.
+4.3.2   Simple payback period
+The total project cost of the proposed technology is Rs. 960.5 lakh and monetary savings
+due to generation of power is Rs.998 lakh and the simple payback period works out to be
+12 months.
+4.3.3   Net Present Value (NPV)
+The Net present value of the investment at 10% interest rate works out to be Rs.1816.12
+lakh.
+4.3.4   Internal rate of return (IRR)
+The after tax Internal Rate of Return of the project works out to be 63.35 %. Thus the
+project is financially viable.
+4.3.5   Return on investment (ROI)
+The average return on investment of the project activity works out at 37.94%. The average
+DSCR is 3.40.
+
+4.4     Sensitivity analysis in realistic, pessimistic and optimistic scenarios
+
+A sensitivity analysis has been worked out to ascertain how the project financials would
+behave in different situations like there is an increase in power savings or decrease. For
+the purpose of sensitive analysis, two scenarios are considered are.
+
+        Increase in power savings by 5%
+
+        Decrease in power savings by 5%
+
+In each scenario, other inputs are assumed as constant. The financial indicators in each of
+the above situation are indicated along with standard indicators.
+
+Table 4.2: Sensitivity analysis
+Particulars                             IRR              NPV          ROI             DSCR
+Normal                                        63.35       1816.12       37.94           3.40
+5% increase in power savings                  70.37       2086.62       38.45           3.73
+5% decrease in power savings                  56.20       1545.62       37.30           3.06
+
+
+
+
+                                                                                               14
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+4.5    Procurement and implementation schedule
+
+The project is expected to be completed in 10 Months from the date of release of
+purchase order. The detailed schedule of project implementation is furnished in Annexure
+5.
+
+
+
+
+                                                                                     15
+                                     Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+                                                                         ANNEXURE
+Annexure 1: Process Flow Diagram
+
+Process flow diagram will remain the same after implementation of proposed waste heat
+recovery power plant.
+
+
+
+
+                                                                                  16
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+Annexure 2: Detailed technology assessment report –Waste heat recovery boiler for
+100 TPD
+S.No   Parameter                                            Unit        Existing    Proposed
+                                                                        System      WHR Power
+                                                                                    Generation
+  1    Rotary kiln Capacity                                 TPD           100              100
+  2    No of kilns in the plant                              No             2                2
+  3    Total Installed Capacity                             TPD           200              200
+  4    Iron ore Consumption                               Tons/hr        10.89            10.89
+  5    Iron ore Consumption                                 TPD           2178            2178
+  6    Coal Calarific Value                               kcal/kg         3000            3000
+  7    Lump coal consumption                              Tons/hr         6.75             6.75
+  8    fine coal consumption                              Tons/hr         4.14             4.14
+  9    Total Coal Consumption                             Tons/hr        10.89            10.89
+ 10    Total Coal Consumption                               TPD         2177.78          2177.78
+ 11    Dolamite Consumption                               Tons/hr         0.28             0.28
+ 12    Flue gas generated by kiln                         nm3/hr         24000            24000
+ 13    Total flue gas generated at installed capacity     nm3/hr         48000            48000
+ 14    Density of flue gas                                 kg/m3           1.3              1.3
+ 15    Actual gas flow                                     kg/hr         62400            62400
+ 16    Flue Gas Temperature at out let of kiln               C            1005            1005
+ 17    Enthalphy of flue gas at kiln out let @ 950C       kcal/kg         290              290
+ 18    Enthalphy of gas at Boiler out let @ 170 C         kcal/kg                    39.15
+ 19    Flue gas temperature at inlet of ESP                  C                        170
+ 20    Heat value available in flue gas                   kcal/hr                  15653040
+ 21    Radiation heat loss(1%)                            kcal/hr                   156530
+ 22    Blow down loss(2%)                                 kcal/hr                   313061
+ 23    Actual heat available after loss                   kcal/hr                  15183449
+ 24    Steam enthalphy or total heat at 66kg/cm2,                                     800
+       490C                                                kcal/kg
+ 25    Feed water temperature                                oC                       126
+ 26    Enthaly of feed water                               kcal/kg                    127
+ 27    Generated steam @66 kg/cm2, 485 C                    kg/hr                    22561
+ 28    Power generation by generated steam                   MW                        4
+ 29    Power generation                                   kwh/day                    96000
+ 30    Auxilary power consumption                         kwh/day                    9600
+ 31    Power availale for grid                            kwh/day                    86400
+ 32    Power availale for grid                            kwh/year                 28512000
+ 33    Power Cost                                         Rs./kWh                     3.3
+ 34    Energy cost due to power generation using        Rs.lakhs/year                 998
+       flue gases
+ 35    Investment cost of power plant                    Rs. Lakhs                   960.5
+ 36    O& M cost                                         Rs. Lakhs                   19.21
+ 37    Manpower Cost                                     Rs. Lakhs                   43.2
+ 38    Total investment Cost including O&M,              Rs. Lakhs                   1023
+       Manpower
+ 39    Payback period                                      years                     1.03
+                                                                                              17
+Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+                                         18
+                                        Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+Annexure 4: Detailed financial calculations & analysis
+Assumptions
+Name of the Technology                            WASTE HEAT RECOVERY BOILER
+Rated Capacity                                               4 MW
+Details                                   Unit           Values             Basis
+No of working days                       Days             330
+No of Shifts per day                     Shifts            3
+Capacity Utilization Factor                %
+Proposed Investment
+Proposed Investment
+Cost of Boiler                        Rs. in lakhs       500.00
+Cost of System                        Rs. in lakhs       265.00
+Erection & Comissioning                Lumpsum            35.00
+Civil work                             Lumpsum            60.00
+Taxes                                 Rs. in lakhs        45.00
+Other Misc. cost(supervision, other
+cost)                                 Rs. in lakhs        10.00
+Total cost excluding EPC              Rs. in lakhs       915.00
+EPC cost                              Rs. in lakhs        45.75
+Total Investment                      Rs. in lakhs       960.75
+Financing pattern
+Own Funds (Internal Accruals)         Rs. in lakhs       240.19       Feasibility Study
+Loan Funds (Term Loan)                Rs. in lakhs       720.56       Feasibility Study
+Loan Tenure                             Years              5             Assumed
+Moratorium Period                      Months              6             Assumed
+Repayment Period                       Months              60            Assumed
+Interest Rate                              %             240.19      SIDBI Lending Rate
+Estimation of Costs
+O & M Costs                           % on Plant &
+                                                           4          Feasibility Study
+                                         Equip
+Annual Escalation                          %               5          Feasibility Study
+Estimation of Revenue
+Power generation                      kW/Annum          28512000
+                                                                     Detailed calculations
+Savings per unit                       Rs./kWh            3.30         enclosed in DPR
+St. line Depn.                             %              5.28      Indian Companies Act
+IT Depreciation                            %              7.84        Income Tax Rules
+Income Tax                                 %              33.99          Income Tax
+
+
+
+
+                                                                                          19
+                                              Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Estimation of Interest on Term Loan                                      Rs. (in lakh)
+Years       Opening        Balance            Repayment                   Closing Balance                    Interest
+        1                 720.56                    108.08                            612.48                   84.05
+        2                 612.48                    144.11                            468.37                   69.76
+        3                 468.37                    144.11                            324.25                   67.23
+        4                 324.25                    144.11                            180.14                   64.33
+        5                 180.14                    144.11                             36.03                   61.19
+        6                  36.03                     36.03                             0.00                    57.27
+                          Total                     720.56
+
+WDV Depreciation                                                                                   Rs. (in lakh)
+Particulars / years                                     1            2            3            4            5             6
+Plant and Machinery
+ - Cost                                           960.75 885.43 816.01 752.03 693.08 638.74
+- Depreciation                                     75.32 69.42 63.98 58.96 54.34 50.08
+ - WDV                                            885.43 816.01 752.03 693.08 638.74 588.66
+
+Projected Profitability                                                                                  Rs. (in lakh)
+Particulars / Years                      1          2           3             4           5              6    Total
+Revenue through Savings
+savings in Coal                      940.90 940.90 940.90 940.90 940.90 940.90 5645.38
+Total Revenue(A)                     940.90 940.90 940.90 940.90 940.90 940.90 5645.38
+EXPENSES
+O & M Expenses                        38.43    40.35         42.37        44.49        46.71        49.05      261.40
+Total Expenses(B)                     38.43    40.35         42.37        44.49        46.71        49.05      261.40
+PBDIT(A)-(B)                         902.47   900.54        898.53       896.41       894.18       891.85     5383.98
+Interest                              84.05    69.76         67.23        64.33        61.19        57.27      403.83
+PBDT                                 818.42   830.78        831.30       832.08       832.99       834.58     4980.15
+Depreciation                          50.73    50.73         50.73        50.73        50.73        50.73      304.37
+PBT                                  767.69   780.05        780.57       781.35       782.26       783.85     4675.78
+Income tax                           252.58   258.79        260.81       262.78       264.66       266.65     1566.28
+Profit after tax (PAT)               515.11   521.27        519.76       518.57       517.60       517.20     3109.50
+
+Computation of Tax                                                                                 Rs. (in lakh)
+  Particulars / Years                         1             2                 3            4             5            6
+  Profit before tax                    767.69      780.05        780.57               781.35 782.26 783.85
+  Add: Book depreciation                50.73       50.73         50.73                50.73 50.73 50.73
+  Less: WDV depreciation                75.32       69.42         63.98                58.96 54.34 50.08
+  Taxable profit                       743.10      761.36        767.33               773.12 778.66 784.50
+  Income Tax                           252.58      258.79        260.81               262.78 264.66 266.65
+
+
+
+
+                                                                                                                        20
+                                 Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Projected Balance Sheet                                             Rs. (in lakh)
+Particulars / Years              1         2         3         4            5            6
+LIABILITIES
+ Share Capital               240.19    240.19    240.19    240.19     240.19         240.19
+ Reserves & Surplus          515.11   1036.38   1556.14   2074.70    2592.30        3109.50
+ Term Loans                  612.48    468.37    324.25    180.14      36.03           0.00
+TOTAL LIABILITIES           1367.78   1744.93   2120.58   2495.03    2868.52        3349.69
+ASSETS
+ Gross Fixed Assets          960.75 960.75       960.75 960.75        960.75 960.75
+ Less: Accm. depreciation     50.73 101.46       152.18 202.91        253.64 304.37
+ Net Fixed Assets            910.02 859.29       808.57 757.84        707.11 656.38
+ Cash & Bank Balance         457.76 885.64      1312.01 1737.19      2161.41 2693.31
+TOTAL ASSETS                1367.78 1744.93     2120.58 2495.03      2868.52 3349.69
+Net Worth                    755.30 1276.57     1796.33 2314.89      2832.49 3349.69
+Debt Equity Ratio              2.55    1.95        1.35    0.75         0.15    0.00
+
+
+
+
+                                                                                         21
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Projected Cash Flow                                                                                        Rs. (in lakh)
+Particulars / Years           0            1              2                 3               4               5              6
+Sources
+Share Capital            240.19       -              -                 -                -              -             -
+Term Loan                720.56
+Profit After tax                    515.11 521.27                 519.76            518.57           517.60       517.20
+Depreciation                         50.73 50.73                   50.73             50.73            50.73       50.73
+Total Sources            960.75     565.84 571.99                 570.49            569.29           568.33       567.93
+Application
+Capital Expenditure      960.75
+Repayment Of Loan          -        108.08         144.11 144.11 144.11    144.11    36.03
+Total Application        960.75     108.08         144.11 144.11 144.11    144.11    36.03
+Net Surplus                -        457.76         427.88 426.37 425.18    424.22   531.90
+Add: Opening Balance       -          -            457.76 885.64 1,312.01 1,737.19 2,161.41
+Closing Balance            -        457.76         885.64 1312.01 1737.19 2161.41 2693.31
+
+IRR                                                                                                        Rs. (in lakh)
+Particulars / months                  0             1              2                3            4            5            6
+Profit after Tax                      515.11 521.27 519.76 518.57 517.60 517.20
+Depreciation                           50.73 50.73 50.73 50.73 50.73 50.73
+Interest on Term Loan                  84.05 69.76 67.23 64.33 61.19 57.27
+Cash outflow                 (960.75)    -     -      -      -      -      -
+Net Cash flow                (960.75) 649.89 641.76 637.71 633.63 629.52 625.20
+IRR                           63.35%
+NPV                          1816.12
+
+Break Even Point                                                                                       Rs. (in lakh)
+Particulars / Years                            1              2                 3            4              5              6
+A. Variable Expenses
+Operation & Maintenance Exp (75%)     28.82              30.26             31.78        33.37          35.03       36.79
+Sub Total                             28.82              30.26             31.78        33.37          35.03       36.79
+B. Fixed Expenses
+Operation & Maintenance Exp (25%)       9.61  10.09  10.59  11.12  11.68  12.26
+Interest on Term Loan                  84.05  69.76  67.23  64.33  61.19  57.27
+Depreciation                           50.73  50.73  50.73  50.73  50.73  50.73
+Sub Total                             144.38 130.58 128.55 126.18 123.60 120.26
+C. Sales                              940.90 940.90 940.90 940.90 940.90 940.90
+D. Contribution                       912.07 910.63 909.12 907.53 905.86 904.11
+E. Break Even Point (B/D)            15.83% 14.34% 14.14% 13.90% 13.64% 13.30%
+F. Cash Break Even                   10.27% 8.77% 8.56% 8.31% 8.04% 7.69%
+G.BREAK EVEN SALES                    148.95 134.92 133.04 130.82 128.38 125.15
+
+
+
+                                                                                                                         22
+                                             Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Return on Investment                                                                 Rs. (in lakh)
+Particulars / Years              1            2       3            4            5         6   Total
+A.Net Profit Before           767.6
+Taxes                             9     780.05    780.57       781.35       782.26   783.85   4675.78
+B.Net Worth                   755.3     1276.5    1796.3       2314.8       2832.4   3349.6   12325.2
+                                  0          7         3            9            9        9      7
+                                                                                              37.94%
+Debt Service Coverage Ratio                                                               Rs. (in lakh)
+Particulars / Years                     1         2        3            4        5        6   Total
+CASH INFLOW
+ Profit after Tax                515.11 521.27 519.76 518.57 517.60 517.20 3109.50
+ Depreciation                     50.73 50.73 50.73 50.73 50.73 50.73 304.37
+ Interest on Term Loan            84.05 69.76 67.23 64.33 61.19 57.27 403.83
+TOTAL                            649.89 641.76 637.71 633.63 629.52 625.20 3817.70
+DEBT
+ Interest on Term Loan            84.05 69.76 67.23 64.33 61.19                       57.27 403.83
+ Repayment of Term Loan          108.08 144.11 144.11 144.11 144.11                   36.03 720.56
+TOTAL                            192.13 213.88 211.34 208.44 205.30                   93.30 1124.39
+Average DSCR                          3.40
+
+
+
+
+                                                                                                      23
+                                             Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+      Annexure 5: Details of procurement and implementation plan
+      Project Implementation schedule
+S.                   Month   Month   Month   Month   Month   Month   Month   Month   Month    Month
+No     Activity
+                       1       2       3       4       5       6       7       8       9       10
+1    Placement of
+     Orders for
+     Equipment
+2    Manufacturing
+3    Erection and
+     commissioning
+4    Trial runs
+
+
+
+
+                                                                                             24
+                                   Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Annexure 6: Details of technology/equipment and service providers
+
+
+   Equipment details      Source of technology     Service/technology providers
+
+ Waste heat recovery     Indian                    A.V.U. ENGINEERS PVT . Ltd.
+ Power plant                                      AN ISO - 9001-2008 CERTIFIED
+                                                  COMPANY)
+                                                  Survey No . 53 , Bahadurpally ,
+                                                  Quthbullpur Mandal ,
+                                                  R R Dist, Hyderabad 500043 .
+                                                  Andhra Pradesh, INDIA.
+                                                  Phone : +91-40-23090968 ,
+                                                  23092343, 9493547191
+
+                                                  E-mail : office@avuengineers.com
+                                                           avupurchase@yahoo.com
+
+
+
+
+                                                                                    25
+Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+                                         26
+                                  Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Annexure 7: Quotation or techno-commercial bid
+
+
+
+
+                   TECHNICAL PROPOSAL
+
+
+                                    FOR
+
+                 1 x 10 TPH WHR BOILERS
+
+                  IN SPONGE IRON PLANT
+
+
+                          SUBMITTED TO
+
+                            M/s. APTICO.
+
+
+                          SUBMITTED BY
+
+
+
+                                                                           27
+                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+            ARTICULATED VESSELS & UTILITY
+                 ENGINEERS PVT LTD.
+
+                      SECUNDERABAD- 500 009
+
+
+
+
+AV-UE/WHRS-APTICO/Q/11-12:110                                                      Date: 03-
+11-2011
+
+M/s. APTICO
+
+Kind Attn: Mr. GOPALA RAO
+
+Dear Sir,
+
+Ref:: With reference to the telephonic discussion had with our MD. Mr. PARAMVIR SINGH
+
+
+We thank you very much for showing interest in AV-UE for your boilers. As required by you, we
+are pleased to submit herewith our Commercial Proposal for Supply, Erection & Commissioning of
+2 x 10 TPH WHR Boilers at 66 Kg/cm2 (g) Pressure and 485±5 ºC Superheated Steam and
+Common Deaerator System for your Power Plant.
+
+
+AV&UE supplies boilers designed and manufactured to several national & international
+standards like IBR, ASME Sec VIII Div 1 & BS 113.
+
+                                                                                            28
+                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+We trust the above is in line with your requirement & in the meantime, if you need any
+further clarifications to evaluate our proposal please feel free to contact us.
+
+
+Assuring you of our best attention, always.
+
+
+
+Thanking you,
+
+Yours faithfully,
+for ARTICULATED VESSELS & UTILITY ENGINEERS PVT. LTD.
+
+
+
+
+PARAMVIR SINGH
+MANAGING DIRECTOR
+
+
+
+
+                                            INDEX
+
+
+         S.No.                          DESCRIPTION                               PAGE No.
+            1.      BRIEF DESCRIPTION OF THE SYSTEM                                 4-5
+            2.      EQUIPMENT DESCRIPTION                                           6-8
+
+            3.      TECHNICAL PROPOSAL                                               9
+
+            4.      THERMAL DESIGN DATA                                              10
+
+
+                                                                                          29
+                              Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+      5.       GUARANTEED PARAMETERS                            11 - 14
+
+      6.       EQUIPMENT TECHNICAL DATA                           15
+
+      7.       INSTRUMENTS & SPECIAL VALVES                     16 - 18
+
+      8.       SCOPE OF SUPPLY AND EXCLUSIONS                   19 - 24
+
+      9.       TERMINAL POINTS                                    25
+      10.      WATER QUALITY REQUIREMENT                        26 - 28
+               MATERIAL OF CONSTRUCTION OF MAJOR
+      11.                                                         29
+               QUIPMENTS
+      12.      CODES & STANDARDS APPLICATION                      30
+      13.      INSPECTION & DOCUMENTATION                         31
+               LIST OF PRINCIPAL VENDORS FOR BOUGHT
+      14.                                                       31 - 35
+               OUT COMPONENTS
+      15.      GENERAL SPECIFICATIONS                           36 - 37
+
+
+
+
+1.0   BRIEF DESCRIPTION OF THE SYSTEM:
+
+  i) THREE PASS THERMAL TECHNOLOGY FOR OPTIMUM HEAT RECOVERY
+
+      a) FIRST PASS CONSISTS OF:
+
+            FIRST ZONE OF WATER COOLED MEMBRANE WALLS
+                                                                          30
+                                   Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+          Provides Maximum Recovery of Heat through Radiation. Fin welded
+          membrane wall construction provides Gas tight furnace and structural
+          rigidity.
+
+        b) SECOND PASS CONSISTS OF:
+
+          SCREEN TUBES:
+
+          The Screen section consists of bare tubes arranged to form a tube bundle.
+          The tubes are arranged in such a manner that they face the gas flow
+          directly. The top and bottom ends of the tubes are duly welded to headers,
+          which in turn are connected to the water wall / water circuits respectively.
+
+          SUPER HEATER WITH MEMBRANE WALLS
+
+          Two stage Super heater with interstage spray type Attemperator enclosed
+          by fin welded extended water walls. In this zone the waste heat is utilized to
+          superheat the steam by convection and also additional recovery of heat by
+          water walls by radiation.
+
+          EVAPORATOR WITH MEMBRANE WALLS
+
+          Efficient utilization of waste heat to generate saturated steam by both
+          convection and radiation. Flag type evaporators which are arranged in a
+          manner to ensure natural circulation with ease.
+
+        c) THIRD PASS CONSISTS OF:
+
+          ECONOMISER
+
+          This zone consists of economizer, the heat is recovered to preheat the
+          Boiler Feed Water.
+
+ii).      Downward and upward flow through multipass arrangement of heat transfer
+          surfaces to enable positive dust settlement through hoppers.
+
+iii).     Inter-Bank Soot Blowers for Superheater, Evaporator, Economiser sections
+          for online cleaning.
+
+iv).      the equipments will be constructed in modules; this modular construction
+          ensures easy transportation and easy maintenance.
+
+v)        Upper and Lower Headers of the Membrane Wall and the Evaporator are
+          connected to the Steam Drum by Risers & Down Comers.
+
+vi)       Thermal Expansion joints are provided to absorb Thermal Expansion
+          impact of the Boiler.
+
+                                                                                     31
+                                  Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+ vii).    Feed Water Control Valve is located down Stream of the Economizer to
+          avoid steaming in the Economizer.
+
+ viii).   Superheated Steam Temperature is controlled through Intermittent Spray
+          Type Desuperheater located between primary & secondary super heater
+          banks.
+
+ ix).     Equipped with High Quality Standard Valves, Mountings & Instruments.
+
+ x).      The Internal Trays and the Column Shell of the Deaerator shall be made of
+          SS-304 material to eliminate rust formation due to Oxidation.
+
+ xi).     The system ensures arresting of total dust through 3-Stage trapping
+          system.
+
+               At the Furnace Entry, the primary heavy dust is collected/ removed
+               through Dust Hopper, provided at the bottom of the Furnace, by
+               rotating valve.
+
+               The Carry-Over dust particles from the Furnace chamber are
+               removed in the Super heater and collected at Dust Hopper at the
+               bottom of the Super heater Chamber.
+
+               Finally the dust particles will be removed in the dust collectors
+               provided at the bottom of the economizer hopper.
+
+ xii).    Please appreciate that the Dust particles carried by the flue gases from the
+          Sponge Iron plant are just not Dust particles, but also has appreciable heat
+          content in it. So removal of the dust from the Kiln exhaust flue gases,
+          before entering Boiler chamber would result in loss of heat content, which
+          ultimately hampers the over-all Thermal efficiency of W.H.R. System.
+          Therefore, the 3-stage dust removal system suggested and incorporated in
+          design (as above in Sl.No.11) is the most efficient and appropriate solution
+          to maintain high Thermal Efficiency of the system and render the overall
+          system dust free.
+
+xiii).    Most efficient, reliable, dependable and performance based system.
+
+xiv).     Since we have already supplied, Erected and Commissioned a number of
+          WHR Systems, we assure you that the Erection & Commissioning of the
+          WHRS, at your site, shall be within the stipulated schedules exhibiting a
+          superior quality of workmanship.
+
+
+
+
+                                                                                   32
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+2.0 EQUIPMENT DESCRIPTION:
+
+  2.1 RADIATION SECTION:
+
+  The objective of this section is to absorb the radiation heat & cool the gases well below
+  the ash melting point temperature. The radiation chamber is a hollow passage for flue
+  gas flow made of water cooled walls. The water-cooled walls consist of bare seamless
+  tubes welded to each other by means of plain strips. These bare tubes are then
+  welded to top and bottom headers, which in turn are connected to the steam drum
+  respectively. The entire chamber is fully fusion welded to provide gas-tight chamber.
+  Since heat transfer occurs in this section, predominantly by radiation mode, this
+  chamber is called radiation chamber. The entire first pass is of this construction only.
+  Heavy carry-overs from the Sponge Iron Kiln freely fall in to the hopper, without any
+  hindrance. The hopper portion is lined by Castable refractory. Since there is no other
+  heat transfer surfaces along this path, the choking problem is completely eliminated.
+
+  2.2 SCREEN TUBES:
+
+  The Screen section consists of bare tubes arranged to form a tube bundle. The tubes
+  are arranged in such a manner that they face the gas flow directly. The top and bottom
+  ends of the tubes are duly welded to headers, which in turn are connected to the
+  steam drum / water circuits respectively. The Screen section is of sloping tubes,
+  connected to the steam drum by means of the front wall tubes of the second pass
+  water wall casing. The bottom header is connected bottom headers of rear water wall
+  casing. Thus individual risers & down comers are eliminated. This reduces site
+  erection activities to a considerable extent.
+
+  2.3 SUPERHEATER SECTION:
+
+  The super heater section heats the saturated steam at corresponding saturation
+  temperature to required final temperature. The super heater section is divided in to two
+  parts. The first part which heats saturated steam called Primary Super heater. The
+  second part, which further heats superheated steam to the final required temperature,
+  is called the Secondary Super heater. The Super heaters are of bare tube
+  construction, tube material being SA 213 T11.
+
+  2.4 DE- SUPERHEATER SECTION:
+
+
+
+                                                                                        33
+                                    Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+Between the both the super heaters, an de-super heater is provided. The sole purpose
+of the de-super heater is to control final temperature of the super heater temperature.
+The De-Super heater is Spray Water Type, Which sprays relatively cold Boiler Feed
+Water in to the steam leaving the Primary Super heater. This causes the temperature
+of steam at outlet of primary Super heater to reduce. By varying the quantity of
+desuperheater spray water, the temperature of steam entering the secondary super
+heater can be controlled. Since the final temperature of steam leaving Secondary
+Super heater depends on the inlet temperature of steam, an attemperation at
+intermediate level is an efficient method of Final Superheat Temperature Control.
+
+2.5 EVAPORATOR SECTION:
+
+This section is formed by flag tube type evaporators, arranged in bundles, to ensure
+natural circulation of the steam and water. The bundles are constructed in Modules
+fashion, which will helpful to transportations as well as easy maintenance of the Boiler.
+The Heat Transfer takes mainly due to convection. The Tubes are welded to headers
+which in turn connected to risers and down comers.
+
+
+2.6 ECONOMISER SECTION:
+The Economizer section is provided to cool down flue gases to the required outlet
+temperature and use this heat to increase the temperature of Boiler Feed Water
+entering the Steam Drum. The economizer is of bare tube construction. The
+economizer is also constructed in modules. The feed water valve is located at the
+downstream of the economizer section to stop the steaming in the economizer.
+
+2.7 GAS CIRCUIT
+
+Exhaust gas from 1 x 100 TPD Plant ABC (After Burning Chamber) of kiln enters the
+radiant chamber where it gets cooled sufficiently before entering into second and third
+chamber. The gas then passes through the two stage superheater section, evaporator
+section and Economiser section and let into the ESP. ID Fan draws the cooled exhaust
+gas and lets into atmosphere through the chimney.
+
+2.8 BLOW DOWN TANK
+
+We have considered one no. common blowdown tank (Common for CBD & IBD for
+each boiler) to which the boiler blowdown, boiler drain lines from various systems will
+be connected.
+
+2.9    WATER AND STEAM CIRCUIT
+
+Deaerated water enters Economiser and gets heated. The heated water then enters
+the steam drum and then circulated (Natural Circulation) in evaporator sections and
+water wall. Saturated steam is collected in the steam drum. Saturated steam is
+then superheated in convection super heaters and taken out to turbine. Inter stage
+desuperheater is provided to control the steam temperature.
+
+2.10   SOOT BLOWING SYSTEM
+                                                                                      34
+                                   Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+Soot blowing system consists of retractable and rotary soot blowers which use steam
+as blowing media. Retractable soot blowers are provided in the superheater zone.
+Rotary type soot blowers are provided in the evaporator and Economiser zones. Piping
+to individual soot blowers are adequately sized and properly routed to prevent the
+entry of water droplets into the soot blowers. Steam traps are provided in the pipeline
+to remove the condensate from the system.
+
+2.11 DEAERATOR CUM STORAGE TANK:
+
+This system consists of Deaerator in which the oxygen content in the feed water
+is reduced to the required level by spraying water as droplets in the presence of
+steam. There will be a storage tank below the Deaerator to store deaerated water.
+
+
+
+
+2.12 CHEMICAL DOSING SYSTEM:
+
+
+2.12.1 LP CHEMICAL DOSING SYSTEM
+The feed water contains traces of oxygen due to the            incomplete mechanical /
+Thermal deaeration. These traces of Oxygen are scavenged by chemical deaeration.
+Chemicals like    sodium sulphite or hydrazine is dosed to the suction pipe of feed
+pump by LP dosing.      In LP dosing sodium sulphite react with oxygen and forms
+sodium sulphate or Hydrazine React with O2 and forms water & nitrogen.
+
+
+2.12.2 HP CHEMICAL DOSING SYSTEM
+Scale formation is limited by converting hardness salts to a free flowing sludge. HP
+dosing is done by carbonate        control and phosphate control by addition of
+sodium carbonate / or Trisodium phosphate respectively. Other chemicals such
+as sodium hydroxide carbonate or calcium      oxyphosphate can also be added. Best
+result of calcium     carbonate or magnesium hydroxide or calcium silicate,
+magnesium silicate will be available as       free   flowing     sludges where caustic
+                                                                                    35
+                                       Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+  alkalinity is 10 to 15% of the dis-solved solids. OH alkalinity leads to prevention of
+  magnesium phosphate as bad scale by converting magnesium to                    magnesium
+  hydroxide. Sludge conditioner can also be used,        if there is no effective means of
+  blowdown is available it is better not to concentrate on internal treatment.
+
+
+
+
+3.0 TECHNICAL PROPOSAL:
+
+ S.NO.     DESCRIPTION                        VALUE
+   3.1     BASIC DATA
+                                              Latest Version of IBR 1950. Where code is not
+           Construction Code                  applicable good engineering practice will be
+                                              applicable.
+                                              Three pass Vertical, Water tube, Natural
+                                              circulation single drum Boiler with membrane
+           Type of Boiler                     water walls furnace, Primary & Secondary
+                                              Super heaters, Bare tube Evaporator Bundle
+                                              and Economiser.
+   3.2     STEAM
+                                                                                        36
+                             Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+      CHARACTERISTICS
+      Pressure at SHO               66 ± 0.5     Kg/cm²(g)
+      Temp. at SHO
+                                    485 ± 5 °C
+
+      Flow at SHO                   10000 Kg/hr
+      Design Pressure               75    Kg/cm²(g)
+      Hydro Test Pressure           112.5 Kg/cm²(g)
+3.3   FLUE GAS PROPERTIES
+      Type of Flue gas              Sponge Iron Kiln Exhaust Flue gas
+      Kiln Gas Flow                 25000 Nm3/hr
+      Gas Inlet Temperature         950 °C
+      Gas Outlet Temperature at
+                                    160 ± 10 °C
+      exit of Economiser
+      FLUE GAS ANALYSIS
+3.4
+      (V/V)
+       CO2                          17.0 %
+       H2O                          15.0 %
+       O2                           02.4 %
+       N2                           65.6 %
+      Gas density                   1.303 Kg/Nm3
+      Dust Loading                  40 gm/Nm3
+      Water temperature inlet to
+                                    126 °C
+      Economiser
+      Blow         down    losses
+                                    2%
+      (considered)
+      Radiation            losses
+                                    2%
+      (considered)
+      Cooling water temperature     35 °C
+      Temperature for Guarantee     45 °C
+      Temperature for electrical
+                                    50 °C
+      design
+      Relative humidity             84%
+      Still air velocity            1m/s
+3.5   ELECTRICAL DATA
+      Supply                        AC Three Phase
+      Voltage                       415 + 10 V
+      Frequency                     50 CPS
+
+
+                                                                        37
+                                   Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+4.0      THERMAL DESIGN DATA:
+
+      S.No.   Description                       Unit         Value
+       4.1    Heating Surface Areas
+        a.     Water walls                      m2            415
+        b.     Screens                          m2            21
+        c.     Evaporator -I                    m2            173
+        d.     Evaporator -II                   m2            186
+        e.     Primary Super heater (SH-I)      m2            74
+        f.     Secondary Super heater (SH-II)   m2            69
+        g.     Economiser 1 & 2                 m2            508
+               Total                            m2            1446
+       4.2    Flue Gas Pressure Profile
+        a.     Radiation chamber                mmWC          10
+        b.     Superheater I & II               mmWC          10
+        c.     Evaporator I & II                mmWC          20
+        d.     Economiser I & II                mmWC          65
+        e.     Ducting                          mmWC          20
+        f.     ESP (Not in AVUE Scope)          mmWC          35
+               Total                            mmWC          160
+       4.3     Flue Gas velocity Profile
+        a.     Radiation chamber                m/s           7-5
+        b.     Superheater -II                  m/s           7-6
+        c.     Superheater -I                   m/s           7-6
+        d.     Evaporator I & II                m/s           7-6
+        e.     Economiser I & II                m/s           7-5
+       4.4     Steam & Water Pressure Profile
+        a.     At the outlet of MSSV            Kg/cm2 (g)    66
+        b.     Drum working Pressure            Kg/cm2 (g)    68
+        c.     Economiser inlet pressure        Kg/cm2 (g)    70
+        d.     Super heater S.V. Set Pressure   Kg/cm2 (g)    70
+        e.     Drum S.V.1 Set Pressure          Kg/cm2 (g)    72.5
+        f.     Drum S.V.2 Set Pressure          Kg/cm2 (g)    73.5
+       4.5     Flue Gas Temperature Profile
+        a.    Radiation chamber inlet           Deg C        950
+        b.    Inlet to Superheater -II          Deg C        740 -730
+
+                                                                            38
+                                    Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+        c.   Inlet to Superheater -I            Deg C         660-650
+        d.   Inlet to Evaporator I & II         Deg C         560-550
+        e.   Inlet to Economiser I & II         Deg C         365-355
+        f.   Inlet of ESP                       Deg C         160 ± 10
+       4.6    Water/ Steam Temperature
+        a.   Inlet to Economiser                Deg C         126
+        b.   Economiser Outlet                  Deg C         267
+        c.   Inlet of Super heater -I           Deg C         281
+        d.   Outlet of Super heater-I           Deg C         405
+        e.   Inlet of Super heater -II          Deg C         385
+        f.   Outlet of Super heater-II          Deg C         485± 5
+5.0     EQUIPMENT TECHNICAL DATA:
+
+      S.No   Description                    Value
+       5.1   Specification of Radiation chamber (membrane water walls)
+        a.   Design code                    IBR 1950 with its latest amendments
+        b.   Design pressure                75 kg/cm² g
+        c.   Design temperature             317 °C
+        d.   Hydro test pressure            112.5 kg/cm² g
+        e.   Type                           Vertical
+        f.   Type of tubes                  Bare
+        g.   Tube outer diameter            50.8 mm
+        h.   Tube thickness                 4.47 mm
+        i.   Fin thickness                  5 mm
+        j.   MOC of tubes                   BS 3059 Seamless
+        k.   MOC of fins                    IS 2062
+        l.   MOC of headers                 SA 106 Gr B
+       5.2   Specification of Secondary Superheater
+        a.   Design code                    IBR 1950 with its latest amendments
+        b.   Design pressure                75 kg/cm² g
+        c.   Design temperature             524 °C
+        d.   Working temperature            490± 5 °C
+        e.   Hydrotest pressure             112.5 kg/cm² g
+        f.   Type                           Horizontal
+        g.   Type of tubes                  Bare
+        h.   Tube outer diameter            38.1 mm
+        i.   Tube thickness                 4.06 mm
+        j.   MOC of tubes                   SA 213 T11
+        k.   MOC of headers                 SA 106 Gr B / SA 335 P11
+
+                                                                             39
+                              Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.No   Description                     Value
+ 5.3   Specification of Primary Superheater
+  a.   Design code                     IBR 1950 with its latest amendments
+  b.   Design pressure                 75 kg/cm² g
+  c.   Design temperature              444 °C
+  d.   Working temperature             405 °C
+  e.   Hydrotest pressure              112.5 kg/cm² g
+  f.   Type                            Horizontal
+  g.   Type of tubes                   Bare
+  h.   Tube outer diameter             38.1 mm
+  i.   Tube thickness                  4.06 mm
+  j.   MOC of tubes                    SA 210 Gr A1
+  k.   MOC of headers                  SA 106 Gr B
+ 5.4   Specification of Evaporator 1 &2
+  a.   Design code                     IBR 1950 with its latest amendments
+  b.   Design pressure                 75 kg/cm² g
+  c.   Design temperature               317 °C
+  d.   Working temperature             289 °C
+  e.   Hydro test pressure             112.5 kg/cm² g
+  f.   Type                            Flag
+  g.   Type of tubes                   Bare
+  h.   Tube outer diameter             44.5 mm
+  i.   Tube thickness                  4.06 mm
+  j.   MOC of tubes                    BS 3059 Seamless
+  k.   MOC of headers                  SA 106 Gr B
+ 5.5   Specification of Economiser 1 &2
+  a.   Design code                     IBR 1950 with its latest amendments
+  b.   Design pressure                 78 kg/cm² g
+  c.   Design temperature              300 °C
+  d.   Working temperature             289 °C
+  e.   Hydrotest pressure              117 kg/cm² g
+  f.   Type                            Horizontal
+  g.   Type of tubes                   Bare
+  h.   Tube outer diameter             38.1 mm
+  i.   Tube thickness                  3.66 mm
+  j.   MOC of tubes                    BS 3059 Seamless
+  k.   MOC of headers                  SA 106 Gr B
+ 5.6   Steam Drum specification
+
+                                                                        40
+                              Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.No   Description                     Value
+  a.   Design code                     IBR 1950 with its latest amendments
+  b.   Design pressure                 75 kg/cm² g
+  c.   Design temperature              317 °C
+  d.   Hydrotest pressure              112.5 kg/cm² g
+  e.   Length                          3750 mm
+  f.   Inner diameter                  1220 mm
+  g.   Thickness                       56 mm
+  h.   Material of construction        SA 516 Gr 70
+  i.   Quantity per boiler             1 no.
+  j.   Corrosion allowance             1.5 mm
+  k.   Internals                       Demister pad
+  l.   Quantity of safety valves       2 nos.
+ m.    Drum S.V.1 Set Pressure         73.5 kg/cm² g
+  n.   Drum S.V.2 Set Pressure         74.5 kg/cm² g
+ 5.7   Specification of Attemperator
+  a.   Type                            Fixed Nozzle spray type Attemperator
+  b.   Nos                             One
+ c.    Location                        Between primary & secondary SH
+ d.    MOC of headers                  SA 335 P11
+ e.    Header outer diameter &         219.1 mm, Thickness as per IBR
+       Thickness
+5.8    Specification of Soot Blowers
+                                      Long Retractable Rotary soot blower
+ a.    Location                       Super heater      Evaporator &
+                                                        Economiser zones
+ b.    Qty                            2                 4
+ c.    Steam temperature              Super-heated steam
+ d.    Steam pressure                 20-30 kg/cm2(g)
+ e.    Source of Steam                SH steam form primary SH Outlet header
+ f.    Drive                           Motorized
+5.9    Specification of HP Dosing System
+ a.    Major Parts                    Storage Tank – 1 No., Stirrer – 1 No.,
+                                      Dosing Pumps – 2 Nos.
+ b.    Size of Storage Tank           600 mm x 500 mm
+ c.    Tank Capacity                  150 liters
+ d.    MOC of Tank                    SS
+ e.    MOC of Chemical Basket         SS 304
+ f.    Pump Capacity                  6 LPH
+                                                                        41
+                                 Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.No   Description                     Value
+ g.    Pump Type                       Reciprocating Plunger Type
+ h.    Type of Operation               Motorised
+5.10   Specification of LP Dosing System
+ a.    Major Parts                     Storage Tank – 1 No., Stirrer – 1 No.,
+                                       Dosing Pumps – 2 Nos.
+ b.    Size of Storage Tank            800 mm x 650 mm
+ c.    Tank Capacity                     200 liters
+ d.    MOC of Tank                       SS
+ e.    MOC of Chemical Basket            SS 304
+ f.    Pump Capacity                     6 LPH
+ g.    Pump Type                         Reciprocating Plunger Type
+ h.    Type of Operation                 Motorized
+3.12   Deaerator cum Storage Tank
+ a.     Design Code                       As per IBR 1950 with Latest Amendments
+                                          & Good Engineering Practice
+ b.    Outside Diameter                   1200mm
+ c.    Length of shell (tan to tan)       4500 mm
+ d.    Thickness of shell                 12 mm
+ e.    Type of dish end                   2: 1 Ellipsoidal with straight face
+ f.    Thickness of dished end            12 mm
+ g.    Operating pressure                 2.45 kg/cm² a
+ h.    Design Pressure                    Full Vacuum/ 3.5 kg/cm² g
+ i.    Hydro Test Pressure                5.25 kg/cm² g
+ j.    Operating temperature              126 °C
+ k.    Design Temperature                 180 °C
+ l.    Design Outlet feed water           10.6 m3/hr
+       capacity
+ m.    Corrosion allowance                3.2 mm over & above design code
+                                          requirement
+        Condensate Oxygen content         Design = 300 ppb / Normal = 42 ppb
+        (at DA inlet)
+ n.     Condensate Oxygen content      0.005 ml/Ltr (7 PPB)
+        (at DA outlet)
+ o.     Storage capacity Normal Level  30 m3
+        to Low-Low water level)
+5.11   Specifications of Blow down tank
+ a.    Design code                    IBR
+ b.    Tank height                    1000 mm
+ c.    Tank OD                        960 mm
+ d.    Shell thickness                10 mm
+                                                                          42
+                                  Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.No   Description                        Value
+ e.    Type of ends                       Dished
+  f.   Material of construction           SA 516 Gr 70
+5.12   Boiler feed water pumps
+ a.     Qty                            2 Nos (1 W +1S, Common for Two WHR
+                                       Boilers)
+ b.     Design water flow              20 m3 /hr
+ c.     Pressure head                  865 mmWC
+ d.     Temperature                    126 ºC
+ e.     Speed                          2900 RPM
+  f.    Type                           Centrifugal
+5.13   Specifications of Sample Coolers
+ a.    Type                               Shell & Coil type
+ b.    Sampling Points                    Feed water line (Common for two boilers), Blow
+                                          down line, Saturated steam line & Superheated
+                                          Steam line
+ c.    Shell Material                     Carbon Steel
+ d.    Coils Material                     Stainless Steel
+5.14   Ducting
+ a.    Material of Construction           MS
+ b.    Thickness                          5 mm
+5.15   ID Fan
+       Flow                               12.3 m3/sec
+       Developed head (Design)            180 mmWC
+       Temperature (Design)               180 ± 10 °C
+       Motor rating                       Later, KW
+       Speed                              Later, RPM
+       Quantity                           1 no
+       Type of Fan                        Centrifugal
+       Medium                             Ambient
+       Motor Voltage, V                   415
+       Type of control                    Pneumatically generated power cylinder actuated
+                                             regulating damper control with VFD
+5.16   Painting
+ a.    Two Coats of Red Oxide in shop All the equipments supplied by AV-UE
+ b.    Final painting                     All the equipments supplied by AV-UE
+
+
+
+                                                                                  43
+                                    Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+6.0 GUARANTEED PARAMETERS:
+
+Following are the guaranteed parameters for WHRSG:
+
+Steam output at SH outlet                             Kg/h         10000
+
+Steam pressure at SH outlet                           Kg/cm2 (g)   66 ± 0.5
+
+Steam temperature at SHO                              °C           485 ± 5
+
+Design pressure                                       Kg/cm2 (g)   75
+
+Hydro test pressure                                   Kg/cm2 (g)   112.5
+
+Gas Flow Kiln                                         Nm3/hr       25000
+
+Gas side pressure Drop                                mm WC        160
+
+Gas Inlet Temperature (Considered Normal Condition)   °C           950
+Gas outlet Temperature (It may vary based on                       160 ± 10
+                                             °C
+Temperature and Gas flow)
+Blow down losses (considered)                %                     2
+
+Radiation losses (considered)                         %            2
+
+
+
+
+                                                                              44
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+    7.0 INSTRUMENTS AND SPECIAL VALVES:
+
+    7.1 Field Mounted Instruments:
+
+    a. Feed Water Circuit:
+
+S.No      Location of inst.      Measured         Qty    Instrument provided
+                                 variable         Nos
+1         Eco inlet header       Pressure         1      Field mounted Local Pressure gauge
+2         -do-                   Temperature      1      Field mounted RTD
+3         Eco outlet header      Temperature      1      Field mounted RTD
+4         -do-                   Pressure         1      Field mounted Local Pressure gauge
+5         Feed line              Flow             1      Field mounted local orifice plate
+6         -do-                   Flow             1      Field mounted local DP transmitter
+7         Feed pump outlet       Pressure         2      Field mounted Local Pressure gauge
+8         Feed pump inlet        Pressure         2      Field mounted Local Pressure gauge
+
+    b. Attemperator Spray water line:
+
+S.No      Location of Measured             Qty    Instrument provided
+          inst.        variable            Nos
+1         Attemperator Pressure            1      Field mounted local pressure gauge
+          line
+
+    c. Steam Drum:
+
+S.No      Location of Measured            Qty     Instrument provided
+          inst.       variable            Nos.
+1         Steam drum  Level               2       Field mounted local level gauge             of
+                                                  Transparent type with illumination
+2         -do-            Level           2       Field mounted Diff. Pressure transmitter
+3         -do-            Pressure        1       Field mounted Local Pressure gauge
+
+    d. Steam Drum to Soot Blower Steam line:
+
+S.No      Location of inst.       Measured       Qty    Instrument provided
+                                  variable       Nos
+1         After PCV in SB line    Temperature    1      Field mounted local temperature gauge
+2         After PCV in SB line    Pressure       1      Field mounted Local Pressure gauge
+3         After PCV in SB line    Pressure       1      Field mounted local Pressure
+                                                        transmitter
+                                                                                         45
+                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+    e. Steam line from Steam Drum to Main Steam Stop valve:
+
+S.No       Location of inst.       Measured       Qty     Instrument provided
+                                   variable       Nos
+1          Steam line after SH-2   Temperature    1       Field mounted local Thermocouple
+2          Main steam line         Pressure       1       Field mounted local Pressure gauge
+3          -do-                    Pressure       1       Field mounted local Pressure
+                                                          transmitter
+4          -do-                    Temperature    1       Field mounted local Thermocouple
+5          -do-                    Flow           1       Field mounted local orifice plate
+6          -do-                    Flow           1       Field mounted local DP transmitter
+
+     f. Flue gas path:
+
+S.N      Location of inst.   Measured       Qty       Instrument provided
+o                            variable       Nos
+1        Flue gas flow path Temperature     1         Field mounted local thermocouple
+         (at boiler inlet)
+2        Flue gas flow path Pressure        1         Field mounted manometer
+         (at boiler inlet)
+3        Flue gas flow path Pressure        1         Field mounted Local Pressure transmitter
+         (at boiler inlet)
+4        Flue gas flow path Temperature     1         Field mounted Local thermocouple
+         (between SH-1 and
+         SH-2)
+5        Flue gas flow path Temperature     1         Field mounted Local thermocouple
+         (between SH-1 and
+         Evaporator -1)
+6        Flue gas flow path Pressure        1         Field mounted local manometer
+         between
+         Evaporator - II and
+         Economiser
+7        Flue gas flow path Temperature     1         Field mounted local thermocouple
+         between
+         Evaporator - II and
+         Economiser
+8        Flue gas flow path Temperature     1         Field mounted local thermocouple
+         after Economiser
+9        Flue gas flow path Pressure        1         Field mounted local manometer
+         after Economiser
+10       Flue gas flow path Temperature     1         Field mounted local Temperature gauge
+         before ID fan
+11       Flue gas flow path Pressure        1         Field mounted local manometer
+         before ID fan
+12       Flue gas flow path Pressure        1         Field mounted local manometer
+         after ID fan
+
+
+                                                                                         46
+                                            Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+    g. Blow down tank:
+
+     S.No    Location of inst.Measured               Qty   Instrument provided
+                              variable               Nos
+     1       Blow down tank's Temperature            1     Field mounted local Temperature gauge
+             drain line
+     2       Blow down tank’s Level                  1     Field mounted local level gauge of
+             level gauge                                   tubular type
+
+    h. Deaerator cum storage tank:
+
+     S.No Location of inst.      Measured        Qty       Instrument provided
+                                 variable        Nos
+     1      Deaerator        cum Level           1         Field mounted Local Level gauge of
+            storage tank                                   Transparent type with illumination
+     2      Deaerator    cum     Level           1         Field mounted Level switch
+            storage tank
+     3      Deaerator    cum     Level           1         Field mounted Diff. Pressure transmitter
+            storage tank
+     2      Deaerator    cum     Pressure        1         Field mounted Diff. Pressure transmitter
+            storage tank
+     5      Deaerator    cum     Pressure        1         Field mounted local pressure gauges
+            storage tank
+
+
+i. Low Pressure Dosing system:
+
+     S.No Location of inst.    Measured          Qty       Instrument provided
+                               variable          Nos
+     1      LP Dosing system   Level             1         Field mounted Local Level gauge
+     2      LP Dosing system – Pressure          1         Field mounted local pressure gauges
+            Discharge line of
+            Dosing pumps
+
+
+j. High Pressure Dosing system:
+
+S.No     Location of inst.   Measured            Qty       Instrument provided
+                             variable            Nos
+1        HP Dosing system    Level               1         Field mounted Local Level gauge
+2        HP Dosing system Pressure               1         Field mounted local pressure gauges.
+         – Discharge line of
+         Dosing pumps
+
+
+7.2. LIST OF CONTROL VALVES:
+
+
+
+                                                                                            47
+                                              Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.No       Description of equipment /          Controlled      Qty        Details of control valve
+           pipeline     on    which     the    variable        Nos
+           instrument is mounted
+1          Attemperator line                   Flow            1          Pneumatic actuated
+2          Soot blower line                    Flow            1          Pneumatic actuated
+3          Start-up vent line                  Flow            1          Pneumatic actuated
+4          Feed line                           Flow            1          Pneumatic actuated
+5          DM Water line (to Deaerator)        Flow            1          Pneumatic actuated
+
+
+    7.3. LIST OF MOTORISED VALVES:
+
+S.No       Description of equipment Qt         Details of control valve
+           / pipeline on which the y
+           instrument is mounted    No
+                                    s
+1          Main steam line          1          Electric motor actuated with Limit switches for Open
+                                               / Close indication. - Gate valve (along with manual
+                                               bypass valve)
+
+
+
+
+     8.0     SCOPE OF SUPPLY & EXCLUSIONS:
+
+     AV-UE                 : ARTICULATED VESSELS & UTILITY ENGINEERS
+    SCOPE
+      CL                : CLIENT SCOPE
+
+     ENGG     : DETAILED ENGINEERING        SUP : SUPPLY
+     FAB : FABRICATION             E&C : ERECTION & COMMISSIONING
+
+       S.                                                                                        REMARK
+               DESCRIPTION                               ENGG        SUP       FAB      E&C
+       No.                                      QTY                                                 S
+       8.1     WATER WALLS
+        a.     Membrane Water Walls              1Set    AV-UE     AV-UE     AV-UE     AV-UE
+        b.     Hoppers                           1Set    AV-UE     AV-UE     AV-UE     AV-UE
+        c.     Screen section                    1Set    AV-UE     AV-UE     AV-UE     AV-UE
+        d.     Support tubes with cleats         1Set    AV-UE     AV-UE     AV-UE     AV-UE
+        e.     Headers for Support tubes         1Set    AV-UE     AV-UE     AV-UE     AV-UE
+        f.     Buckstays                         1Set    AV-UE     AV-UE     AV-UE     AV-UE
+       8.2     SUPER HEATER –II
+        a.     Headers with coil bundle          1Set    AV-UE     AV-UE     AV-UE     AV-UE
+        b.     Bends                             1Set    AV-UE     AV-UE     AV-UE     AV-UE
+        c.     Supports                          1Set    AV-UE     AV-UE     AV-UE     AV-UE
+                                                                                           48
+                            Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.                                                                         REMARK
+       DESCRIPTION                    ENGG      SUP      FAB      E&C
+No.                             QTY                                           S
+8.3    SUPER HEATER –I
+ a.    Headers with coil bundle  1Set AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Bends                     1Set AV-UE    AV-UE    AV-UE    AV-UE
+ c.    Supports                  1Set AV-UE    AV-UE    AV-UE    AV-UE
+8.4    DESUPERHEATER
+ a.    De-Superheater assembly   1Set AV-UE    AV-UE    AV-UE    AV-UE
+4.5    EVAPORATOR BANK-I
+ a.    Headers with coil bundle  1Set AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Bends                     1Set AV-UE    AV-UE    AV-UE    AV-UE
+ c.    Supports                  1Set AV-UE    AV-UE    AV-UE    AV-UE
+8.6    EVAPORATOR BANK-II WITH CASING
+ a.    Headers with coil bundle  1Set AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Bends                     1Set AV-UE    AV-UE    AV-UE    AV-UE
+                                  As
+ c.    Supports casing                AV-UE    AV-UE    AV-UE    AV-UE
+                                 Req.
+8.7    STEAM DRUM
+ a.    Shell                     1 No AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Dished ends              2 Nos AV-UE    AV-UE    AV-UE    AV-UE
+                                As
+ c.    Demister pads                  AV-UE    AV-UE    AV-UE    AV-UE
+                                Req.
+                                As
+ d.    Cyclone separators             AV-UE    AV-UE    AV-UE    AV-UE
+                                Req.
+ e.    Saddles                  2 Nos AV-UE    AV-UE    AV-UE    AV-UE
+                                  As
+ f.    Internal piping                AV-UE    AV-UE    AV-UE    AV-UE
+                                 Req.
+ g.    Manholes                 2 Nos AV-UE    AV-UE    AV-UE    AV-UE
+                                  As
+ h.    Nozzles                        AV-UE    AV-UE    AV-UE    AV-UE
+                                 Req.
+                                  As
+ i.    Canopy on steam drum           AV-UE    AV-UE    AV-UE    AV-UE
+                                 Req.
+8.8    ECONOMISER I & II
+ a.    Headers with coil bundle  1Set AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Bends                     1Set AV-UE    AV-UE    AV-UE    AV-UE
+ c.    Supports casing           1Set AV-UE    AV-UE    AV-UE    AV-UE
+8.9    RISERS & DOWNCOMERS
+ a.    Pipes                     1Set AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Bends & fittings          1Set AV-UE    AV-UE    AV-UE    AV-UE
+ c.    Supports                  1Set AV-UE    AV-UE    AV-UE    AV-UE
+8.10   SOOT BLOWERS
+ a.    Retractable blowers       1Set AV-UE    AV-UE    AV-UE    AV-UE
+
+                                                                     49
+                                  Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.                                                                               REMARK
+       DESCRIPTION                          ENGG      SUP      FAB      E&C
+No.                                 QTY                                             S
+ b.    Rotary blowers                1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ c.    Drive motors                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ d.    Limit switches                1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Power cabling from Control
+ e.    Panel to Soot blowers         1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       motors
+       Signal Cabling from Soot
+ f.    blower limit switches to      1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Control Panel
+ g.    Soot blower Supports          1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ h.    Soot blower drain valve       1Set   AV-UE    AV-UE    AV-UE    AV-UE
+  i.   Pressure Reducing Station     1Set   AV-UE    AV-UE    AV-UE    AV-UE
+8.11   FEED WATER PIPING
+       Water treatment plant to
+ a.    Make up water control         1Set     CL     CL         CL       CL
+       station
+       Make up water control
+ b.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       station to Deaerator
+       Deaerator to BFWP
+ c.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       suction
+       BFWP Discharge to FW
+ d.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Flow control station
+       FW flow control station to
+ e.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Economiser
+       Economiser to Steam
+ e.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Drum
+       FW Piping to
+ f.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Desuperheater FCV
+       Desuperheater FCV to
+ g.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Desuperheater
+8.12   STEAM PIPING
+                                      As
+ a.    Steam drum to PSH                    AV-UE    AV-UE    AV-UE    AV-UE
+                                     Req.
+                                      As
+ b.    PSH to Desuperheater                 AV-UE    AV-UE    AV-UE    AV-UE
+                                     Req.
+                                      As
+ c.    Desuperheater to SSH                 AV-UE    AV-UE    AV-UE    AV-UE
+                                     Req.
+                                      As
+ d.    SSH to MSSV                          AV-UE    AV-UE    AV-UE    AV-UE
+                                     Req.
+       Main steam stop valve to
+ e.                                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Common header                                                             15 Mtrs
+
+                                                                           50
+                                     Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.                                                                                  REMARK
+       DESCRIPTION                             ENGG      SUP      FAB      E&C
+No.                                    QTY                                             S
+       Common header to
+ f.                                     1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Turbine ESV                                                                  30 Mtrs
+       Super heater PRV to Soot
+ g.                                     1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       blowers
+       Venting points to Safe            As
+ h.                                            AV-UE    AV-UE    AV-UE    AV-UE
+       height                           Req.
+       SH line to Startup vent           As
+ i.                                            AV-UE    AV-UE    AV-UE    AV-UE
+       valve                            Req.
+       Startup vent valve to             As
+ j.                                            AV-UE    AV-UE    AV-UE    AV-UE
+       Silencer                         Req.
+       Superheater safety valve          As
+ k.                                            AV-UE    AV-UE    AV-UE    AV-UE
+       to Silencer                      Req.
+       Turbine extraction to             As
+m.                                               CL       CL       CL       CL
+       Deaerator PCV                    Req.
+       Steam piping from
+       common steam header to            As
+ n.                                              CL       CL       CL       CL
+       turbine emergency stop           Req.
+       valve
+       Steam piping from
+       common steam header to            As
+ o.                                              CL       CL       CL       CL
+       PRDS-1 for deaerator             Req.
+       initial heating
+       Steam piping from PRDS-1          As
+ p.                                              CL       CL       CL       CL
+       to deaerator                     Req.
+       Steam piping from
+       common steam header to            As
+ o.                                              CL       CL       CL       CL
+       PRDS-2 for ACC ejector           Req.
+       and GCV
+       Steam piping from PRDS-           As
+ o.                                              CL       CL       CL       CL
+       2 to ACC ejector and GCV         Req.
+       Deaerator PCV to                  As
+ p.                                              CL       CL       CL       CL
+       Deaerator                        Req.
+8.13   COOLING WATER PIPING
+                                         As
+ a.    Source to Battery limit                   CL       CL       CL       CL
+                                        Req.
+       Battery limit to Individual       As
+ b.                                              CL       CL       CL       CL
+       eqpts.                           Req.
+8.14   DRAIN PIPING
+                                         As
+ a.    Steam Drum to BD Tank                   AV-UE    AV-UE    AV-UE    AV-UE
+                                        Req.
+       Individual drain points to        As
+ b.                                            AV-UE    AV-UE    AV-UE    AV-UE
+       BD Tank                          Req.
+                                                                              51
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.                                                                                   REMARK
+       DESCRIPTION                              ENGG      SUP      FAB      E&C
+No.                                     QTY                                             S
+       BD Tank to Nearest                 As
+ c.                                               CL       CL       CL       CL
+       surtrench                         Req.
+8.15   BLOW DOWN TANK
+ a.    Shell & dished ends               1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Valves & Mountings                1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ c.    Foundation bolts                  1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ d.    Instruments as per list           1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ e.    Nozzles                           1Set   AV-UE    AV-UE    AV-UE    AV-UE
+8.16   DUCTING
+                                          As
+ a.    ABC outlet to Boiler inlet               AV-UE    AV-UE    AV-UE    AV-UE
+                                         Req.
+                                          As
+ b.    Boiler outlet to ESP inlet               AV-UE    AV-UE    AV-UE    AV-UE
+                                         Req.
+                                          As
+ c.    ESP outlet to ID fan inlet               AV-UE    AV-UE    AV-UE    AV-UE
+                                         Req.
+                                          As
+ d.    ID fan outlet to Stack inlet             AV-UE    AV-UE    AV-UE    AV-UE
+                                         Req.
+8.17   HOPPERS
+ a.    For first Pass                    1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ b.    For Second Pass                   1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ c.    For Third Pass                    1 No   AV-UE    AV-UE    AV-UE    AV-UE
+8.18   EXPANSION JOINTS
+ a.    At inlet of boiler                1 No   AV-UE    AV-UE    AV-UE    AV-UE
+       At other ducting supplied
+ b.                                      1 No   AV-UE    AV-UE    AV-UE    AV-UE
+       by AV-UE.
+       ESP inlet and outlet
+ c.                                     2 Nos     CL       CL       CL       CL
+       expansion joints
+8.19   STRUCTURE
+       Boiler Supporting Structure
+                                          As
+ a.    up to operating Floor                      CL       CL       CL       CL
+                                         Req.
+       (RCC)
+       Boiler supporting structure      As
+ b.                                             AV-UE    AV-UE    AV-UE    AV-UE
+       from Operating Floor             Req.
+       Platform & handrails above       As               AV-UE
+ c.                                             AV-UE             AV-UE    AV-UE
+       Operating floor,                 Req.
+                                        As               AV-UE
+ d.    Ladders staircases                       AV-UE             AV-UE    AV-UE
+                                        Req.
+       Foundation bolts for             As               AV-UE
+ e.                                             AV-UE             AV-UE    AV-UE
+       structures                       Req.
+       Supports for AV-UE               As               AV-UE
+ f.                                             AV-UE             AV-UE    AV-UE
+       supplied ducting                 Req.
+
+                                                                               52
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.                                                                                   REMARK
+       DESCRIPTION                              ENGG      SUP      FAB      E&C
+No.                                     QTY                                             S
+       Supporting steel structures                       AV-UE
+                                        As
+ g.    for boiler roof & side                   AV-UE             AV-UE    AV-UE
+                                        Req.
+       cladding
+8.20   FIELD INSRUMENTS
+ a.    As per standards practice         1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Remote Level Gauge                1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ c.    Instrument hardware               1Set   AV-UE    AV-UE    AV-UE    AV-UE
+       Instrument (Signal &
+                                          As
+ d.    control) cabling from field              AV-UE    AV-UE    AV-UE    AV-UE
+                                         Req.
+       instruments to local JB’s
+       Instrument cabling from
+                                          As
+ e.    local JB s to DCS and vice                 CL       CL       CL       CL
+                                         Req.
+       versa
+       Instrument air piping from         As
+ f.                                               CL       CL       CL       CL
+       source to battery limits          Req.
+       Instrument air piping from         As
+ g.                                             AV-UE    AV-UE    AV-UE    AV-UE
+       battery limit to instruments      Req.
+8.21   CONTROL PANEL
+       Control panel with its
+ a.                                      1Set     CL       CL       CL       CL
+       accessories
+ b.    DCS                               1Set     CL       CL       CL       CL
+ c.    UPS                               1Set     CL       CL       CL       CL
+8.22   SILENCER
+       silencer for Steam drum
+ a.                                     2 Nos   AV-UE    AV-UE    AV-UE    AV-UE
+       safety valves
+       Silencer for Superheater
+ b.    safety valve and start-up        2 Nos   AV-UE    AV-UE    AV-UE    AV-UE
+       vent valve
+8.23   VALVES & MOUNTINGS
+ a.    As per IBR requirement            1Set   AV-UE    AV-UE    AV-UE    AV-UE
+8.24   SAMPLE COOLERS
+ a.    On FW line                        1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ b.    On saturated steam line           1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ c.    On superheated steam line         1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ d.    On Blow down line                 1 No   AV-UE    AV-UE    AV-UE    AV-UE
+8.25   ELECTRICALS
+ a.    MCC Panel                         1 No     CL       CL       CL       CL
+       Compensating cables,
+       Impulse piping &                 As
+ b.                                               CL       CL       CL       CL
+       instrument cable, signal         Req.
+       cables, control cables from
+                                                                               53
+                                   Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.                                                                                REMARK
+       DESCRIPTION                           ENGG      SUP      FAB      E&C
+No.                                  QTY                                             S
+       field instruments to JB’s
+       Incoming cables to LT         As
+ c.                                            CL       CL       CL       CL
+       MCC                           Req.
+                                     As
+ d.    Local push button station               CL       CL       CL       CL
+                                     Req.
+                                     As
+ e.    Lighting for plant                      CL       CL       CL       CL
+                                     Req.
+                                     As
+ g.    Earthing materials                      CL       CL       CL       CL
+                                     Req.
+8.26   REFRACTORY
+                                     As
+ a.    On gas Inlet duct                       CL       CL       CL       CL
+                                     Req.
+                                     As
+ b.    On hoppers                              CL       CL       CL       CL
+                                     Req.
+                                     As
+ c.    Refractory anchors                      CL       CL       CL       CL
+                                     Req.
+                                       As
+ d.    Application curing                      CL       CL       CL       CL
+                                      Req.
+       INSULATION WITH                 As
+8.27                                           CL       CL       CL       CL
+       ALLUMINIUM CLADING             Req.
+8.28   DEAERATOR
+ a.    Deaerator                      1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ d.    Storage tank                   1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ e.    Valves & Mountings             1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ f.    Instruments                    1Set   AV-UE    AV-UE    AV-UE    AV-UE
+ g.    PRV station                    1Set    CL       CL       CL       CL
+8.29   HP DOSING SYSTEM
+ a.    Motorized stirrer              1 No   AV-UE    AV-UE    AV-UE    AV-UE
+ d.    Dosing pumps                  2 Nos   AV-UE    AV-UE    AV-UE    AV-UE
+ e.    Storage Tank                   1 No   AV-UE    AV-UE    AV-UE    AV-UE
+                                       As
+ f.    Interconnecting piping                AV-UE    AV-UE    AV-UE    AV-UE
+                                      Req.
+ g.    Instruments                    1Set   AV-UE    AV-UE    AV-UE    AV-UE
+8.30   FEED WATER PUMPS
+ a.    Centrifugal pumps             2 Nos   AV-UE    AV-UE    AV-UE    AV-UE
+ b.    Electric motors               2 Nos   AV-UE    AV-UE    AV-UE    AV-UE
+       Flexible spacer type with
+ c.                                  2 Nos   AV-UE    AV-UE    AV-UE    AV-UE
+       MS guards
+       Cabling from MCC to           As
+ d.                                            CL       CL       CL       CL
+       LPBS                          Req.
+ e.    LPBS                          As        CL       CL       CL       CL
+                                                                            54
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S.                                                                                   REMARK
+       DESCRIPTION                              ENGG      SUP      FAB      E&C
+No.                                     QTY                                             S
+                                        Req.
+                                        As
+ f.    Conical strainers                        AV-UE    AV-UE    AV-UE    AV-UE
+                                        Req.
+                                        As
+ g.    Auto Recirculation valves                AV-UE    AV-UE    AV-UE    AV-UE
+                                        Req.
+       Cooling water supply
+                                        As
+ h.    piping from Battery limit to               CL       CL       CL       CL
+                                        Req.
+       Feed water pump skid
+       Cooling water return piping
+                                        As
+ i.    from Feed water pump                       CL       CL       CL       CL
+                                        Req.
+       skid to Battery limit
+       Blow-off piping from Feed        As
+ j.                                               CL       CL       CL       CL
+       Water pumps to Deaerator         Req.
+       Leak-off piping from Feed
+                                        As
+ k.    water pumps to near-by                     CL       CL       CL       CL
+                                        Req.
+       surface trench
+       Spill-back piping from Auto
+                                        As
+ l.    Recirculation valves to                    CL       CL       CL       CL
+                                        Req.
+       Deaerator
+8.31    LP DOSING SYSTEM
+ a.    Motorized stirrer       1 No             AV-UE    AV-UE    AV-UE    AV-UE
+ d.    Dosing pumps           2 Nos             AV-UE    AV-UE    AV-UE    AV-UE
+ e.    Storage Tank            1 No             AV-UE    AV-UE    AV-UE    AV-UE
+                                As
+ f.    Interconnecting piping                   AV-UE    AV-UE    AV-UE    AV-UE
+                               Req.
+ g.    Instruments             1Set             AV-UE    AV-UE    AV-UE    AV-UE
+8.32   ELECTRO STATIC PRECIPITATOR
+ a.    ESP & its components    1Set               CL       CL       CL       CL
+8.33   INDUCED DRAFT FAN
+ a.    ID FAN                  1 No               CL       CL       CL       CL
+ b.    Motor                   1 No               CL       CL       CL       CL
+ c.    Coupling                1 No               CL       CL       CL       CL
+       Pneumatic operated
+ d.                            1 No               CL       CL       CL       CL
+       Control damper
+8.34   RCC STACK               1 No               CL       CL       CL       CL
+       ASH HANDLING SYSTEM
+8.35   (After RAV’s on boiler  1Set               CL       CL       CL       CL
+       and ESP)
+8.36   PAINTING
+                              As
+ a.    Shop primer                              AV-UE    AV-UE    AV-UE    AV-UE
+                              Req.
+
+                                                                               55
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+ S.                                                                                  REMARK
+          DESCRIPTION                              ENGG    SUP     FAB      E&C
+ No.                                    QTY                                             S
+                                        As
+  b.      Site final painting                       CL      CL      CL       CL
+                                        Req.
+ 8.37     CIVIL
+                                          As
+  a.      Civil load data                          AV-UE   AV-UE   AV-UE   AV-UE
+                                          Req.
+                                          As
+  b.      All civil design & civil works            CL      CL      CL       CL
+                                          Req.
+          Control room for control        As
+  c.                                                CL      CL      CL       CL
+          panel /MCC etc.                 Req.
+ 8.38     OTHER ITEMS
+                                          As
+  a.      First fill of lubricants                 AV-UE   AV-UE   AV-UE   AV-UE
+                                          Req.
+                                          As
+  b.      Alkali bailouts                          AV-UE   AV-UE   AV-UE   AV-UE
+                                          Req.
+          Complete water treatment
+  c.                                        1 No    CL      CL      CL       CL
+          plant
+  d.      DM water storage tank             1 No    CL      CL      CL       CL
+          Air Compressor with
+  f.                                        1Set    CL      CL      CL       CL
+          accessories
+ 8.39     Erection & Commissioning
+                                          For
+          Erection &                    supplied
+  a.                                               AV-UE   AV-UE   AV-UE   AV-UE
+          commissioning                equipmen
+                                           ts
+ 8.40     IBR Formalities
+          Issue of certificate of
+  a.                                               AV-UE   AV-UE   AV-UE   AV-UE
+          materials supplied
+  b.      Site IBR activities                      AV-UE   AV-UE   AV-UE   AV-UE
+  c.      Statutory IBR Fees                        CL      CL      CL      CL
+
+
+
+
+9.0 TERMINAL POINTS:
+
+ S. No.       Description              Terminal
+
+                                                                               56
+                                Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+S. No.   Description            Terminal
+9.1      DM water               At the inlet of Deaerator LCV.
+9.2      Condensate Return      At the inlet Nozzle of Deaerator.
+9.3      Startup Vent Steam     At the outlet of silencers to 1 m safe elevation
+9.4      Relief Steam from SH   At the outlet of silencers to 1 m safe elevation
+         Safety valve
+9.5      Main steam             At inlet of Turbine ESV (30 Mtrs)
+9.6      LP steam for           From the outlet of Deaerator PRV station.
+         Deaeration
+9.7      Drain                  At Blow down tank / nearest floor trench (within 10
+                                meters from Boiler)
+9.8      Electrical Power       At individual equipment / drives
+                                Inlet/outlet of MCC
+9.9      Instrument signal      At the outlet of local JB boxes. Local junction
+                                boxes will be mounted on the WHRB Main Support
+                                Columns.
+9.10     Instrument air         From one point near the boiler. (Within 5 meters
+                                from the WHRB) to individual Instruments
+
+
+
+
+                                                                                   57
+                                           Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+  10.0 WATER QUALITY REQUIREMENT:
+
+  FEED WATER SPECIFICATION:
+
+   Drum Operating pressure bar (g)                  61-100                    Remarks
+   Hardness, max ppm                                Nil                       Note 4
+   pH at 25 deg C                                   8.8 to 9.2                Note 1
+
+   Oxygen, max ppm                                  0.007
+
+   Total Iron, max ppm                              0.01
+
+   Total Copper, max ppm                            0.01
+
+   SiO2, max ppm                                    0.02                      Note 4
+
+   Conductivity at 25 deg C after cation            0.5                       Note 4
+   exchanger in H+ form and after CO2 removal
+   max s / cm
+   Hydrazine residual ppm                           0.01 to 0.02
+
+
+  BOILER WATER SPECIFICATION:
+
+Drum operating pressure bar (g)                     61 to 100                       Remarks
+
+PH at 25 deg C                                      9.8 to 10.2
+Phosphate residual, ppm                             15-25                           Note 7
+
+TDS, max ppm                                        Not more than 100               Note 5
+Specific electrical conductivity at 25 deg C, max   Not more than 200
+ s / cm
+Silica, max ppm                                     To be controlled on the basis
+                                                    of silica in boiler water and
+                                                    drum Pr. And boiler water pH
+                                                    relationship to maintain less
+                                                    than 0.02 ppm in steam
+                                                    leaving the drum
+Sodium sulphite as Na2SO3, ppm                                                      Note 2
+
+
+
+
+                                                                                        58
+                                               Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+    Notes:
+
+    All the measurements of feed water shall be made at high-pressure heater outlet or economiser
+    inlet.
+
+1      Morpholine or any other volatile amine may be used to elevate the pH. The concentration
+       of volatile chemical in feed water shall not exceed 1 ppm. (Expressed as ammonia)
+
+2      Sodium sulphite shall be dosed in the feed water, after the tapping point for desuperheater
+       spray so that it does not get contaminated.
+
+3      The phosphate and pH shall be maintained in accordance with coordinated phosphate pH curve, to
+
+       prevent the presence of free hydroxide in boiler water.
+
+
+4      If the feed water is used for desuperheating spray, for all pressures
+       4.1   Hardness shall be nil.
+       4.2   SiO2 shall not exceed 0.02 ppm.
+       4.3   Conductivity at 25 deg C measured after cation exchanger in H+ form after CO2
+             removal not to exceed 2 micromho / cm.
+
+5      Total alkalinity in boiler water shall not exceed 20% TDS.
+
+6      Presence of oil or organic matter is not allowed in feed water which will induce foaminess
+       and cause carryover of impurities in to steam.
+
+7      The phosphate and pH are recommended in accordance with coordinated phosphate curve
+       to prevent presence of free hydroxide in boiler water. If the recommended pH is
+       consistently obtained phosphate residual can be maintained near lower limits.
+
+
+
+
+                                                                                                    59
+                                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+The above curve is for Boiler water pH = 10, for drum pressures of 60 to 98 bar(g)
+
+
+
+
+                                                           Phosphate Curve
+
+                      10.8
+
+
+
+
+                      10.4
+
+
+
+
+                             10
+
+
+
+
+          PH value at 25 C
+                             9.6
+
+                                                                                                         Series1
+
+                             9.2
+
+
+
+
+                             8.8
+
+
+
+
+                             8.4
+
+
+
+
+                              8
+
+                                   0   0.1   0.2   0.3      0.4     0.5      0.6   0.7   0.8   0.9   1
+                                                                  PPM PO4
+
+
+
+
+                                                                                                     60
+                                 Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+11.0 MATERIAL OF CONSTRUCTION OF MAJOR EQUIPMENTS:
+
+                 Description                     MOC              Remarks
+
+ Steam Drum Shell                      516 Gr 70/ Equiv.
+
+ Drums Dished Ends                     516 Gr 70/ Equiv.
+
+ Internal Piping in Steam Drum         SA 106 Gr B
+
+ Steam Purifier in Steam Drum          SS 304                      Non-IBR
+
+ Superheater 1 Tubes                   SA 210 Gr. A1
+
+ Superheater 2 Tubes                   SA 213 T11
+
+ Inbed Coils                           SA 210 Gr. A1
+
+ Economiser Tubes                      BS 3059 Smls
+
+ Water walls/ Evaporator               BS 3059 Smls
+
+ Air Preheater                         IS 1239                     Non-IBR
+
+ Bed Coils                             SA 210 Gr A1
+
+ Blow Down Tank                        IS 2062
+
+ Superheater 1
+                                       SA 106 Gr. B HFS
+ Outlet Header
+                                       SA 106 Gr. B HFS
+ Inlet Header
+
+ Superheater 2
+                                       SA 335 P11 HFS
+ Outlet Header
+                                       SA 106 Gr. B HFS
+ Inlet Header
+
+
+                                                                          61
+                                        Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+ Inbed Headers & Water Wall Headers             SA 106 Gr. B HFS
+
+ Economiser Headers                             SA 106 Gr. B HFS
+
+ Deaerator                                      IS 2062
+
+
+OTHER ITEMS:
+
+ Flanges for Pressure Parts         :         SA 105 / Equiv.
+ Inlet Duct                         :         IS 2062 Gr. B / Equiv.
+ Outlet Box                         :         IS 2062 Gr. B / Equiv.
+ Saddle Support                     :         IS 2062 / Equiv.
+ Stud/ Bolt/ Nuts for Press. Part   :         SA 193 Gr.B7/SA 194 Gr. 2 H/ Equiv.
+ Ducting                            :         IS 2062 Gr. B
+ Structurals                        :         IS 2062 Gr. B
+ Hoppers                            :         IS 2062 Gr. B
+
+
+
+
+12.0 CODES AND STANDARDS APPLICATION:
+
+      The Design, Manufacture, inspected and testing of Waste Heat Recovery Steam
+      Generating System (WHRSG) and accessories will comply with latest editions of
+      the codes and standards indicated below or equivalent international standards and
+      will meet statutory regulations and safety codes:
+
+        - Design code (Press. Parts)                 : IBR 1950
+        - Materials                                  : ASME/ASTM/I.S
+        - Design code (Piping)                       : ANSI B 31.1
+        - Design code (Non-Press. Parts)             : GEP
+        - Pipe fittings & flanges                    : ASME-B16.5,B16.11,B 16.9
+        - Welding & Welder test                      : ASME Sec.IX & ANSI B 31.3
+        - N.D.E                                      : ASME Sec. V
+        - Safety valves                              : IBR
+        - Testing of valves                          : ASME-B31 & B.S.6755,
+        - Steel valves –flgd & BW                    : ANSI-B16.3,B16.10& 16.25
+        - Centrifugal pumps                          : API 610 / DIN 1944
+        - Code of practice for general
+          construction in steel                      : I.S. 800
+        - Criteria of Earth quake resistant
+          design of structures                       : I.S. 1893
+        - Stairs, Ladders and Walkways               : BS 5395
+
+                                                                                    62
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+           - Code of Practice for design loads for
+             Building & Structures Wind load
+           - Heat Exchangers                             : ASMESec.VIIIDiv.1& TEMA
+           - Storage Tanks                               : API 650
+           - Fasteners (Bolts & Nuts)                    : EJMA
+           - Surface preparation                         : Acc. To AV-UE
+           - Painting                                    : Acc. To AV-UE
+           - Sound pressure measurement                  :ISO 6190 & ISO 1680
+
+
+
+
+13.0   INSPECTION & DOCUMENTATION:
+
+   WHRSG will be fabricated and tested under stage wise and final inspection of Chief Inspector
+   of Boilers, AP and following approvals shall be obtained.
+
+       -    General Arrangement drawing with Fabrication part drawings.
+       -    Materials Test Certificates for compliance with specification.
+       -    Stage wise inspection during fabrication by QC of AV-UE & CIB
+       -    Relevant Weld procedures and qualification tests.
+       -    Final equipment dimensions verifications.
+       -    Hydro Test and any other tests as required by the code/CIB/Client
+
+            We will furnish the following documentation after dispatch of the equipment:
+
+
+
+
+                                                                                              63
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+        Material Test Certificates, Check Test Reports, Stage Inspection Reports, Radiographic
+        Test Results, Charts for Stress Relieving, Thinning and Ovality Reports, Works Test
+        Certificate, Works Guarantee Certificate etc., along with following documents:
+
+        As Built Drawings (in ammonia print)                : 2 Sets
+        As Built Drawings (in soft copy)                    : 1 Set
+        I.B.R. Documentation Folder (original)              : 1 Set
+        I.B.R. Documentation Folder (photocopy)             : 2 Sets
+        Installation Instruction Manual                     : 2 Sets
+        Operation and Maintenance Manuals                   : 2 Sets
+
+
+
+
+14.0 LIST OF PRINCIPAL VENDORS FOR BOUGHT OUT COMPONENTS:
+
+  PRESSURE PARTS ENDOR LIST:
+
+     Plates (Boiler quality)                : SAIL / Imported
+     Tubes & Pipes (Boiler quality)         : MSL / JINDAL / Imported
+
+  INSTRUMENT VENDOR LIST:
+                                                                                           64
+                                    Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+A.   Air Filter Regulator:
+     Shavo Norgen (India) Pvt Ltd, Placka, Veljan, SMC Pnematic
+B. Flow Nozzle / Orifice:
+     AV&UE(Orifice), Star Mech, JN Marshall, Hydro Pneumatics, GIC, Eureka
+     Industrial Equipment ltd
+C. Instrumentation & Ext. Cables:
+     Finolex, Finecab
+D. I/P Converters:
+     Watson Smith (Mtl), H&B / Rosemount, Moore, Anirudh Engineers, Forbes
+     Marshall, Fischer, ABB, MIL, Imported
+E.   Level Gauges & Level Switches:
+     Levcon instruments Pvt Ltd, Protolona Instruments, Yarway, Hitech, Becon pvt. Ltd
+     (Solatron Make), Chemtrol (level switch), Pune Techtrol, Imported
+F.   Pressure, DP, Flow & Level Transmitter:
+     ABB, Emerson, Yokogawa, Fuji, Rosemount, Siemens, H&B, Imported
+G. Pressure & Temperature Gauges:
+     General Instruments Co., Radix Electro Systems, H.Guru, Pyro electric, Wika,
+     Waaree instruments, Forbes Marshall, Radix Micro Systems
+H. Pressure Switch & Temperature Switches:
+     Indfoss, Switzer, AN Instruments
+I.   RTD and Thermocouples:
+     Tempsen, Radix Electro Systems, Pyroelectric, GIC, Nutech Engineers, Detriv,
+     Thermal instruments, Waree
+J.   PLC:
+     Allen Bradely, LSS, Schneider Electric, Siemens, Tata Honeywell, ABB, GE
+     Fanuc, Rockwell automation
+K. EWLI:
+     Level State, Radix Electro Systems, Yarway, Solatron
+
+
+L.   O2 Flue Gas Analyser (In Situ Tpe):
+
+
+
+                                                                                    65
+                                    Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+     Ametek, Chemtrol, Enotech, ABB Kent, Land Combustion, Emerson, Forbes
+     marshall, YBL
+M. Flue Gas Analyser
+     Codel, Chemtrol, Ametek, ABB Kent, Land CCombustion, Emerson, Forbes
+     marshall, YBL
+N. VFD:
+     ABB, Siemens, GE, Allan Bradley, L&T, Dan Foss, Schneider, Eurotham
+     Automation, Vacon, Fuji Electric-VFD
+O. Desuperheater / PRDS:
+     Forbes marshall, Yarway, Fisher Sanmar, AV&UE (De-Super heater), Mazda, JN
+     Marshall, Dewrence, Chemtrols
+P.   Single Loop Controller:
+     Bells Controls, Siemens ltd, Tat Honeywell Ltd, Yokogawa Blue Star ltd
+Q. SWAS:
+    AV&UE, Forbes Marshal, Swan, Rosemount, Chemtrol, Yokogawa, VJ
+Engineering, ABB
+
+
+ELECTRICAL VENDOR LIST:
+
+A.   Motor Control Centers:
+     AV&UE, Seimens, L& T
+B. Motors –LT
+     Kirloskar, BHEL, Siemens, BNGEF, Bharat Bijlee, ABB, Rotomotive, Alstom
+C. Power Control Cables:
+     Cable Corporation of India, Polycab, UCl, NICCO, Fort Closter, TCL
+D. Transducers:
+     BABB, Siemens, AE, Alstom, Minilee
+E.   LT Switch Gear Components:
+     Siemens, L&T, ABB, Alstom , LG -LS
+F.   CTs & PTs:
+     Precise, Kappa, Indcoil, Alstom, Areva
+G. Push Button Station:
+
+                                                                               66
+                                   Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+     GEPC, Standard Gold, Technic, Vaishnov
+H. Selector Switches:
+     Kavcee, SCI, GEPC
+I.   Digital Meters:
+     Enercon, Neptune, HPL, IMP
+J.   Protection Relays:
+     Alstom, LG - LS
+K. Auxiliary Relays:
+     Alstom, LG – LS, Siemens
+L.   Cable Trays & Accessories:
+     APT Engineering, Premier, Jamuna metals, Globe
+M. Air Circuit Breaker / MCCB:
+   Seimens, L&T, GE power, Schneider Electric
+N. Analog Meters:
+   AE, Rishabh
+O. Motor Protection Relays:
+   Alstom, LG -LS
+P.   Contractor:
+     Siemen, L&T, GE power, Schneider Electric, BCH, Telmechanique, LG -LS
+Q. Ac Switches:
+   Seimens, L&T, GE power, Schneider Electric, LG -LS
+R. DC Switches:
+   Kaycee
+S.   VFD panels:
+     ASEA Brown Boveri Limited, Danfoss industries Private Limited, Eurotherm Del
+     India Limited, L&T, Siemens L:imited, TB Wood,s India PCT Limited, Amtech, HI
+     Rel, AV&UE
+T.   Junction boxes:
+     AV&UE, SAI-BEE , Mithsagar, Baliga
+
+MECHANICAL VENDOR LIST:
+
+A.   Feed Water Pumps:
+     KSB, Sulzer, Kirlosker
+
+                                                                                     67
+                                      Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+B. Insulation:
+i.    Mineral Wool insulation:
+      Llyod Rock Fibres, Rock Wool Industries, Orient, Mine wool , Thermo wool
+ii.   Aluminium Caldding:
+      Balco, Indal, Hindlaco, Anish Metals, Alluminium India
+iii. Refractory & insulation Bricks:
+     ACC, Dalmia Refractory, Tata Refractories, Pacific Refractories, Castwell
+
+
+C. Fans & Accessiroes:
+   Air Flow, Ritz, CB Doctor, imported
+D. Chemical Dosing System:
+   AV&UE, Metapow, Positive Metering Systems
+E.    Pipe work, Valves & Fittings:
+
+i.    Safety valves:
+      TYCO Sanmar, MH Valves, Fainger & Lesser, Diaton China, BHEL, Mazda
+ii.  Blow down valves:
+     Levcon, BHEL, Fluid Line, Diaton China, MH Valves
+iii. Control Valves:
+     MIL, Fisher Xomox, Imported, Mascot Valves, Samson Controls
+iv. Solenoid Valves:
+     Rotex, ASCO
+v. Manual Valves
+     BHEL, KSB, Alsa, Prime, Fluidline, Daiton
+F. Paints:
+     Asian paints , Berger paints India Limited
+
+
+
+
+                                                                                 68
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+15.0   GENERAL SPECIFICATIONS:
+15.1   QA AND WELD PLAN:
+       Appropriate Q.A. Plan covering WPS, PQR, thinning and Ovality, mock up test,
+       radiography, D.P. Test, other NDEs, stress relieving, surface preparation,
+       activities/inspection, acceptance criteria, verifying documents, etc.., taking into
+       consideration technical requirements of the code/specifications of the client and his
+       consultant will be submitted on receipt of the order for comments/approvals and
+       finalization of the hold points.
+
+
+15.2   INSPECTION AND ACCEPTANCE BY BUYER/OWNER:
+       You will have complete access to undertake inspection of the equipment as per the
+       hold points or at any other stage including final testing. All facilities available with
+       us will be extended free of cost to carry out the inspection. However, inspection
+       and acceptance by you does not absolve our contractual/guarantee obligations.
+
+
+15.3   PROGRESS REPORTING:
+       We will furnish progress report on a fortnightly basis covering the following:
+       a)      Basic Engineering
+       b)      Detailed engineering specifications and drawings
+       c)      Q.A Plan and W.P.S.
+       d)      Procurement
+                                                                                              69
+                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+       e)     Fabrication & Testing
+
+
+15.4   CONCESSION REQUEST:
+       Any deviations arising during execution of the contact will be submitted to you with
+       corrective action for approval. No rectification will be carried out without your
+       written approval.
+
+
+15.5   WELDING:
+       We will clearly indicate details of the welding in the fabrication drawings. Only
+       qualified welders as per IBR will be employed. The welding will be carried out as
+       per established WPS and PQR with approved electrodes and Filler Rods.
+
+
+15.6   SHOP TESTING:
+       On successful completion of fabrication, all the Pressure parts will be subjected to
+       hydrostatic test in the presence of IBR/Third party Inspection authority/OWNER.
+
+
+15.7   STATUS AND SUB-CONTRACTING:
+       The equipments offered vide this proposal will be manufactured and tested at our
+       works, located at Hyderabad. Any sub-contracting will be informed to you in
+       advance.
+
+
+15.8   WARRANTEES:
+       We warrantee the equipment to be free from defective raw materials and faulty
+       workmanship for a period of 18 months from the date of dispatch or 12 months
+       from the date of commissioning, whichever is earlier. Any parts found defective
+       under normal working conditions will be supplied free of cost. However this
+       warrantee does not cover normal wear and tear in operation and damages during
+       transit and erection.
+
+
+       Bought out components are guaranteed by us only to the extent of guarantees
+       given to us by our suppliers. Electrical components such as heaters, motors,
+       contractors etc., rubber components and instruments such as pressure gauges,
+       thermometers, comb stats, etc.. are, however, not covered under this warranty.
+                                                                                           70
+                                          Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+          The warranty is subject to :
+
+
+          a) Installation having been completed within three months of dispatch of the
+          equipment and as per our installation instructions.
+          b) The supply/installation having been formally accepted as per the handing over
+clause.
+          c) Supply of right gases as per relevant specification.
+          d) The equipment or part thereof not being subject to accident, alternation, abuse
+          or   misuse.
+          e) The equipment being operated and maintenance as per our operation and
+          maintenance manual.
+
+
+
+
+                                                                                           71
+            Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+    COMMERCIAL PROPOSAL
+             FOR
+
+   1 x 10 TPH WHR BOILERS
+
+    IN SPONGE IRON PLANT
+
+        SUBMITTED TO
+
+         M/s. APTICO.
+
+        SUBMITTED BY
+
+
+
+
+ARTICULATED VESSELS & UTILITY
+     ENGINEERS PVT LTD.
+
+    SECUNDERABAD- 500 009
+
+
+
+
+                                                     72
+                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+M/s. AV-UE/WHRS-APTICO/Q/11-12:110                                   Date: 03-11-2011
+
+M/s. APTICO .
+
+Kind Attn: Mr. GOPALA RAO
+
+Dear Sir,
+
+Sub:   Commercial Proposal for Supply, Erection & Commissioning of 1 x 10 TPH Waste
+       heat recovery Systems.
+
+
+Ref:   With reference to the telephonic discussion had with our MD. Mr. PARAMVIR
+       SINGH
+
+
+We thank you very much for showing interest in AV-UE for your boilers. As required by you, we
+are pleased to submit herewith our Commercial Proposal for Supply, Erection & Commissioning of
+1 x 10 TPH WHR Boilers at 66 Kg/cm2 (g) Pressure and 485±5 ºC Superheated Steam and
+Common Deaerator System for your Power Plant.
+
+
+
+AV&UE supplies boilers designed and manufactured to several national & international
+standards like IBR, ASME Sec VIII Div 1 & BS 113.
+
+
+We trust the above is in line with your requirement & in the meantime, if you need any
+further clarifications to evaluate our proposal please feel free to contact us.
+
+
+Assuring you of our best attention, always.
+
+
+
+Thanking you,
+
+Yours faithfully,
+for ARTICULATED VESSELS & UTILITY ENGINEERS PVT. LTD.
+
+
+
+
+PARAMVIR SINGH
+MANAGING DIRECTOR
+
+                                                                                            73
+                                         Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+1.0    PRICE SCHEDULE:
+  The Prices are quoted as per scope of supply given in our Technical offer.
+
+                                                                              Total Cost
+      SNO.                     DESCRIPTION                        Qty (Nos)
+                                                                               In Laks
+
+  1 x 10 TPH WASTE HEAT RECOVERY BOILERS:
+
+             Supply of 1 x 10 TPH WHR Boilers includes Water
+      1.     wall furnace, Two stages Superheater,
+             Desuperheater, Evaporators, Economiser as per          1 set
+             our scope of supply.
+             Complete Boiler structural & Non pressure part
+             includes main columns, bracings, tie beams,
+      2.                                                            1 set
+             foundation bolts, walkways, handrails, staircases,
+                                                                              2,82,10,900
+             flue gas ducting etc., as per scope of supply
+      3.     Boiler integral feed water & Steam pipelines           1set
+             Blow down tank, HP Dosing system, Sample
+      4.     coolers & Soot Blowers with Controls as per our        1set
+             scope of supply
+             Valves, Mountings & Instruments as per our scope
+      5.                                                            1 set
+             of supply
+
+  FEED WATER SYSTEM:
+
+             10.6 M3 Deaeration capacity Deaerator cum 5 M3
+      1.     Storage Tank with Valves Mountings and                           15,68,700
+                                                                    1 set
+             Instruments
+      2.     Feed Water Pumps with Motors (each 10.6 M3                        26,45,000
+                                                                   2 sets
+             Capacity)
+             i. Feed water piping from to Deaerator to
+             Economiser Inlet
+      3.     ii. Common Steam pipeline from MSSV to                 1 set      16,57,000
+             Common Header
+             iii. Common header to Turbine ESV
+      4.     LP Dosing System                                       1 set      3,60,000
+
+  ERECTION & COMMISSIONING:
+
+
+
+      1.     Erection & Commissioning
+                                                                  For Each    21,50,000
+      2.                                                           Boiler
+             Site IBR Activities & Approvals
+
+                                    TOTAL                                     3,73,41,260
+
+
+
+                                                                                     74
+                                 Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+2.0   COMMERCIAL TERMS AND CONDITIONS:
+
+      PRICES              -   Prices quoted are Ex-works, Hyderabad basis.
+                              Packing & Forwarding charges are included in our
+                              quoted price.
+                              Transit Insurance has to be Bourne by Client
+
+      FREIGHT             -   Extra on to-pay basis.
+
+      TAXES & DUTIES      -   Extra at actual.
+
+      DELIVERY            -   The Equipment will be delivered on Ex-works,
+                              Hyderabad basis within Ten (10) Months from the
+                              date of receipt of your technically and commercially
+                              clear order along with advance.
+
+      VALIDITY            -   Our offer is valid for a period of 30 days from the date
+                              of this quotation.
+
+      PAYMENT TERMS       -   FOR SUPPLIES
+
+                       20 % advance along with Order.
+
+
+                       20 % against drawings approval.
+                              Balance 60% against Proforma Invoice prior to
+                              dispatch of each equipment on prorate basis.
+
+      GUARANTEE           -   The above system will be guaranteed against
+                              defective raw materials and bad workmanship for a
+                              period of 18 months from the date of supply or 12
+                              months from the date of commissioning, whichever is
+                              earlier.
+
+      FORCE MAJEURE:      -   We shall not be liable for any penalties/liquidated
+                              damage charges for delayed deliveries due to
+                              reasons beyond our control such as War, Riots,
+                              Inclement weather, Floods, Act of God etc.
+
+
+  for ARTICULATED VESSELS & UTILITY ENGINEERS PVT. LTD.
+
+
+
+
+  PARAMVIR SINGH
+  MANAGING DIRECTOR
+
+                                                                                    75
+Waste Heat Recovery Power Plant 2 MW-100 TPD
+
+
+
+
+                                         76
+

@@ -1,0 +1,5 @@
+# Hosted model API only. The code the API loads uses the standard library;
+# requirements.txt adds numpy for the uncertainty layer, the Streamlit
+# dashboard and the test suite.
+fastapi==0.162.5
+uvicorn==0.53.0

@@ -1,0 +1,1464 @@
+  Situation Analysis
+          of
+        Raipur
+Secondary Steel Cluster
+    Situational Analysis of
+Raipur Secondary Steel Cluster
+©2024 The Energy and Resources Institute
+
+
+
+
+Disclaimer
+This situation analysis report is an output of a research exercise undertaken by TERI and supported by SED
+Fund. It does not represent the views of the supporting organization or the acknowledged individuals.
+While every effort has been made to avoid any mistakes or omissions, TERI would not be in any way liable
+to any persons/organizations for any mistake or omission in the publication.
+
+
+Suggested Citation
+TERI. Situational Analysis of Raipur Secondary Steel Cluster. 2024
+
+
+
+
+Published by
+The Energy and Resources Institute (TERI)
+Darbari Seth Block, IHC Complex, Lodhi Road,
+New Delhi - 110 003
+               ACKNOWLEDGEMENTS
+This work would not have been possible without financial support from the SED Fund Grant. Their
+support has helped consolidate the work on low carbon transition for the Indian iron and steel sector, as
+well as to undertake cluster level interventions in selected secondary steel clusters.
+
+
+We would like to acknowledge the support received from Chhattisgarh State Renewable Energy
+Development Agency (CREDA), Chhattisgarh State Industrial Development Corporation (CSIDC),
+Chhattisgarh Sponge Iron Manufacturers Association (CSIMA), Chhattisgarh Mini Steel Plant Association
+(CGMSPA), Chhattisgarh Steel Re-rollers Association (CGSRA), and Urla Industries Association (UIA)
+during data collection of the Raipur secondary steel cluster.
+
+
+
+
+                                           Situational Analysis of
+                                     iii
+                                           Raipur Secondary Steel Cluster
+                              TABLE OF CONTENTS
+ACKNOWLEDGEMENTS..........................................................................................................................................iii
+ABBREVIATIONS. ..................................................................................................................................................... vii
+
+1.0 In-depth Study on Sponge Iron .....................................................................................................................1
+
+1.1 Background.......................................................................................................................................................... 2
+
+2.0 Industries and energy use and GHG emissions .........................................................................................3
+
+2.1 Industry types...................................................................................................................................................... 4
+2.2 Energy Consumption and CO2 Emissions. ................................................................................................... 5
+
+3.0 DRI industry......................................................................................................................................................... 7
+
+3.1 Details of DRI industries................................................................................................................................... 8
+3.2 Production of sponge iron................................................................................................................................ 8
+3.3 Manufacturing process. .................................................................................................................................... 9
+          3.3.1 Reduction of iron ore........................................................................................................................10
+          3.3.2 Cooling of sponge iron. ....................................................................................................................10
+          3.3.3 Separation and screening. ...............................................................................................................10
+3.4 Technology description. ..................................................................................................................................10
+3.5 Waste heat recovery based power generation..........................................................................................11
+3.6 Specific energy consumption.........................................................................................................................12
+3.7 Energy consumption and GHG emissions. .................................................................................................12
+3.8 Energy efficient technologies. .......................................................................................................................14
+          3.8.1 Waste heat recovery for power generation.................................................................................15
+          3.8.2 Iron ore preheating in rotary kiln using WHR system...............................................................17
+          3.8.3 Coal gasification for partial substitution in rotary kiln..............................................................18
+          3.8.4 Switch to iron ore pellet...................................................................................................................20
+          3.8.5 Mullite-based Kiln Lining.................................................................................................................21
+          3.8.6 Decentralized control of shell air fans. .........................................................................................22
+          3.8.7 Other energy efficiency measures.................................................................................................23
+
+
+
+
+                                                                   Situational Analysis of
+                                                             v
+                                                                   Raipur Secondary Steel Cluster
+3.9 Decarbonization options. ...............................................................................................................................23
+          3.9.1 MIDREX H2 process.........................................................................................................................24
+          3.9.2 HYBRIT process.................................................................................................................................24
+
+Industry Associations ............................................................................................................................................ 27
+
+Conclusion ............................................................................................................................................................... 29
+
+
+
+
+                                          Situational Analysis of
+                                   vi
+                                          Raipur Secondary Steel Cluster
+         ABBREVIATIONS
+BEE      Bureau of Energy Efficiency
+BF       Blast Furnace
+BOF      Basic Oxygen Furnace
+CCCI     Chhattisgarh Chamber of Commerce and Industries
+CCM      Continuous Casting Machine
+CF       Cupola Furnace
+CFAPA    Chhattisgarh Ferro Alloy Plant Association
+CGMSP    Chhattisgarh Mini Steel Plant Association
+CGSIMA   Chhattisgarh Sponge Iron Manufacturers Association
+CGSRA    Chhattisgarh Steel Re-rollers Association
+CI       Cast Iron
+CISAA    Chhattisgarh Iron and Steel Agent Association
+CO       Carbon Monoxide
+CO2      Carbon Dioxide
+CR       Cold Rolled
+CREDA    Chhattisgarh State Renewable Energy Development Agency
+CSIDC    Chhattisgarh State Industrial Development Corporation
+CTD      Cold Twisted Deformed
+CV       Calorific Value
+CWIA     Chhattisgarh Wire Industries Association
+DC       Designated Consumer
+DCMSME   Development Commissioner Ministry of Micro, Small and Medium Enterprises
+DIC      District Industry Centre
+DIPM     District Investment Promotion Committees
+DRI      Direct Reduced Iron
+DTIC     District Trade and Industries Centre
+EAF      Electric Arc Furnace
+EBT      Eccentric Bottom Tapping
+
+
+
+
+                           Situational Analysis of
+                     vii
+                           Raipur Secondary Steel Cluster
+EC              Energy Conservation
+EIF             Electric Induction Furnace
+ESP             Electrostatic Precipitator
+Fe              Iron
+FO              Furnace Oil
+GCV             Gross Calorific Value
+GHG             Greenhouse Gases
+GIZ             Deutsche Gesellschaft für Internationale Zusammenarbeit
+GJ              Giga Joule
+HB              Hard Bright
+HF              Heating Furnace
+Hp              Horsepower
+HR              Hot Rolled
+ID              Induced Draft
+IE3             Premium Efficiency
+IF              Induction Furnace
+IFAPA           Indian Ferro Alloys Producers Association
+IGBT            Insulated Gate Bipolar Transistor
+JPC             Joint Plant Committee
+kCal            Kilocalorie
+kW              Kilowatt
+kWh             Kilowatt-hour
+LS              Lime Stone
+MoSPI           Ministry of Statistics and Programme Implementation
+MS               Mild Steel
+MSME            Micro, Small, and Medium Enterprises
+MSMEDI          Micro, Small, and Medium Enterprises Development Institute
+Mtoe            Million Tonne of Oil Equivalent
+MW              Megawatt
+MWH             Megawatt-hour
+NIC             National Industrial Classification
+PAT             Perform, Achieve, and Trade
+
+
+
+
+                Situational Analysis of
+         viii
+                Raipur Secondary Steel Cluster
+PI           Pig Iron
+PLC          Programmable Logic Controller
+RHF          Re-heating Furnace
+RM           Rolling Mill
+SA           Standalone
+SAF          Submerged Arc Furnace
+SAMEEEKSHA   Small and Medium Enterprises Energy Efficiency Knowledge Sharing
+SCR          Silicon Controlled Rectifier
+SDA          State Designated Agencies
+SEC          Specific Energy Consumption
+SI           Sponge Iron
+SMS          Steel Melting Shop
+SRRM         Steel Re-rolling Mill
+SS           Stainless Steel
+TERI         The Energy and Resources Institute
+TMT          Thermo Mechanically Treated
+Toe          Tonne of Oil Equivalent
+TPD          Tonne Per Day
+TPH          Tonne Per Hour
+UIA          Urla Industries Association
+UNEP         United Nations Environment Programme
+VFD          Variable Frequency Drives
+WHR          Waste Heat Recovery
+WI           Wire Industries
+
+
+
+
+                                 Situational Analysis of
+                            ix
+                                 Raipur Secondary Steel Cluster
+IN-DEPTH STUDY ON
+   SPONGE IRON
+1.1 Background
+Raipur, the capital city of Chhattisgarh state, is abundantly rich with large deposits of natural resources like
+coal, iron ore, limestone, and other mineral ores. A part of the eastern region of India, it is one of the largest
+clusters of MSMEs (micro, small and medium enterprises) and one of the largest secondary steel clusters
+comprising industries like ‘direct reduced iron’ (DRI)/sponge iron, pelletization, electric induction furnace
+(EIF), steel re-rolling mill (SRRM), foundry, forging, ferroalloy, and wire drawing industries (Figure 1).
+
+
+                                                         DRI
+
+                                       Forging                            Pellet
+
+
+
+
+                                                      Raipur                       Ferro
+                                 Foundry               steel                       Alloy
+                                                    industries
+
+
+
+                                       Wire                               EIF
+
+                                                        SRRM
+
+
+                                  Figure 1: Secondary steel industries in Raipur
+
+There are more than 1200 mineral and metal
+based registered MSME industriesiivin Raipur and                                            Urla
+its surrounding areas; out of these, close to 140
+                                                                      Tendua                              Sitara
+industries belong to medium and large categories.
+A majority of steel industriesiivare located in Urla,
+Siltara, Rawabhatha, Tatibandh, Sarola, Bagoli,
+Bhanpuri, Gaugaon, and Tendua (Figure 2).                                                  Raipur                  Rawa-
+                                                               Bhanpuri               Industrialestate             bhatha
+
+
+
+
+                                                                      Bagoli                             Tabandh
+
+                                                                                           Sarola
+
+
+                                                                  Figure 2: Industrial estates of Raipur cluster
+
+
+
+
+i
+     DIC and DCMSME , Raipur
+ii
+     Website of CSIDC, Raipur.
+
+
+
+
+                           Situational Analysis of
+                       2
+                           Raipur Secondary Steel Cluster
+INDUSTRIES AND ENERGY-USE
+   AND GHG EMISSIONS
+2.1 Industry types
+There are about 316 secondary steel industries presently operating at present in Raipur cluster. These
+industries include direct reduced iron (DRI)/sponge Iron, electric induction furnace (EIF), steel re-rolling
+mill (SRRM), ferro alloy, wire drawing (WI) and others including foundry and forging industries. The
+industries are grouped in two ways considering total annual energy consumption in the plant, or number
+of process steps integrated in the manufacturing line to produce the final product of the plant. One of
+the groupings considers gate to gate annual energy consumption of the plant, under which the plant
+could either be in ‘designated consumer’ (DC) category of the Bureau of Energy Efficiency (BEE) under the
+‘perform, achieve and trade’ (PAT) scheme, or non DC. The other grouping is termed as either ‘composite’
+or ‘stand-alone’ industries. Here, composite industries will have multiple process steps that are integrated
+mostly in series; while units with a single process step to manufacture the final product(s) are termed as
+stand-alone.
+About 27 (8.5%) industries out of 316 secondary steel industries in the cluster are DCs—in which 24
+(89%) DCs are DRI industries and the remaining three DCs are ferro-alloy industries. Around 52 (16.5%)
+industries are composite type, which includes 25 DRI and 27 SRRM, with EIF and WI. Stand-alone units
+account for a major share in the total industries, with 264 units (83.5%)(see Figure 3). jdfdfdkkdndisa
+Most of the secondary steel are non designated consumers (non DC) category (91.5%) and only 8.5%
+are the DCs (Figure 4).
+
+
+
+
+                                        Composite, 16.5%                                           DC, 9%
+                                        Stand Alone, 83.5%                                         Non DC, 91%
+
+
+
+
+                                                             Figure 4: Share of DC and non DC secondary
+   Figure 3: Share of composite and stand-alone industries
+                                                                     steel industries in Raipur cluster
+
+The details of the secondary steel industries in the Raipur cluster are provided in Table 1.
+Table 1: Details of steel secondary industries in the Raipur cluster
+
+  Type                    Operative Units           DC       Non DC           Composite          Stand-alone
+
+  DRI                             45                24          21                 25                     20
+
+  EIF                             69                24          45                 52                     17
+
+  SRRM                           115                17          98                 44                     71
+
+  FERRO-ALLOY                     21                 3          18                  0                     21
+
+
+
+
+                          Situational Analysis of
+                      4
+                          Raipur Secondary Steel Cluster
+      Type                    Operative Units            DC          Non DC        Composite   Stand-alone
+
+      WI                               111                0            111            6           105
+
+      Other                            30                 0             30            0            30
+
+      Prime/actual total               316               27            289            52          264
+
+
+2.2 Energy Consumption and CO2 Emissions
+Secondary steel industries in the Raipur cluster mostly use coal and electricity to meet energy requirements
+in the manufacturing process. It may be appropriate to mention that enterprises with downstream
+processes, like annealing and galvanizing in wire industries, use furnace oil (FO) in such operations. The
+total energy consumption of Raipur secondary steel cluster is estimated to be 3.65 million toe and the
+corresponding emissionsiiiivat the cluster level are 17.75 million tonne CO2. Table 2 provides the share of
+energy consumption and CO2 emissions by industry sub-sectors.
+
+Table 2: Share of energy consumption and CO2 emissions by secondary steel industries in the Raipur
+cluster
+
+                                                              Energy consumption (mtoe)           CO2
+      Industry              Energy source                                                       emissions
+                                                      Thermal        Electricity      Total     (m t-CO2)
+
+      DRI                  Coal, electricity            2.82            0.18          3.00        13.29
+
+      EIF                     Electricity                0              0.23          0.23        1.94
+
+      SRRM                 Coal, electricity            0.16            0.04          0.20        1.03
+
+      Ferro-alloy          Coal, electricity            0.06            0.13          0.19        1.33
+
+      WI                    Electricity, FO             0.01            0.01          0.02        0.10
+
+                           Coke, electricity,
+      Others*                                           0.01             0            0.01        0.06
+                                 FO
+
+                     Total                              3.06            0.59          3.65        17.75
+
+* others include foundry and forging
+
+The share of annual thermal energy consumption accounts for around 84% (3.06 mtoe) of the total
+annual energy consumption of 3.65 mtoe in the cluster; while the share of electricity is about 16%, i.e.,
+0.59 mtoe (Figure 5). DRI alone accounts for about 82.2% of total energy consumption, followed with
+
+iii
+        https://cea.nic.in/wp-content/uploads/baseline/2023/01/Approved_report_emission__2021_22.pdf
+
+
+
+
+                                                  Situational Analysis of
+                                              5
+                                                  Raipur Secondary Steel Cluster
+SRRM with 5.5% (Figure 6). Similarly, DRI industries account for most of the CO2 emissions in the cluster
+with a share of 74.9%; SRRM follows next having a 5.8% share (Figure 7)
+
+
+
+
+                                                                  Thermal, 83.8%
+
+                                                                  Electricity, 16.2%
+
+
+
+
+                                      Figure 5: Share of energy consumption
+
+
+                                       DRI, 82.2%
+                                                                                               DRI, 74.9%
+
+                                                                                               SRRM, 5.8%
+                                       Others, 12.3%
+                                                                                               Others, 19.3%
+
+
+                                       SRRM, 5.5%
+
+
+         Figure 6: Energy consumption share of                 Figure 7: Emission share of industries in
+              industries in Raipur cluster                                    Raipur cluster
+
+
+
+
+                         Situational Analysis of
+                     6
+                         Raipur Secondary Steel Cluster
+DRI INDUSTRY
+3.1 Details of DRI industries
+There are about 69 DRI/sponge ironiv industries in Raipur’s secondary steel cluster, of which 45 industries
+are reported to be in operation. Considering installed plant capacity, 56% of operational DRI industries
+with 300 tpd or more production capacity are large in size; small (50–150 tpd) and medium (200–250
+tpd) sized industries account for 22% each (Figure 8).
+
+                                                                     Small, 22%
+
+
+
+
+                                                                     Medium, 22%
+
+
+
+
+                                                                     Large, 56%
+
+
+                                 Figure 8: Capacity-wise distribution of DRI plants
+Within DRI industries, 25 plants are composite (56%) with integrated secondary steel manufacturing
+facilities such as steel melting shops (SMS) having both EAF and EIF, or only EIF, continuous casting
+machines (CCM), and SRRM. Remaining 20 DRI plants are of standalone (44%) and the final product from
+these units is sponge iron (Figure 10). Out of the 45 DRI units that are operational, about 24 large capacity
+DRI industriesv (53% of total units) in the clusters are DCs under the PAT scheme, as their gate-to-gate total
+energy consumption exceeds the threshold limitvi of the steel sector, i.e., >= 20000 toe per year (Figure 9).
+DRI industries in the Raipur cluster provide direct or indirect employment to more than 15,000 people.
+
+
+
+
+                                        Non DC, 47%                                             Stand Alone, 44%
+                                        DC, 53%                                                 Composite, 56%
+
+
+
+
+     Figure 9: Share of DCs within DRI industries in         Figure 10: Structure-wise distribution of DRI plants
+                     Raipur cluster
+
+
+3.2 Production of sponge iron
+The total sponge iron production in Raipur cluster is estimated to be 5.34 million tonne per year (tpy)
+(Table 3). About 80% of sponge iron production is accounted by the large DRI plants and 15% by medium
+sized plants (Figure 11).
+iv
+     JPC report 2021-22, GIZ report, SIMA-Chhattisgarh chapter, 3rd edition of member directory 2018 of
+     Chhattisgarh Iron and Steel Agent Association
+v
+     JPC report 2021-22
+vi
+     PAT-cycle, revised threshold limit for DC under steel sector 2019
+
+
+
+                           Situational Analysis of
+                       8
+                           Raipur Secondary Steel Cluster
+                                                                                          Small, 5%
+
+
+                                                                                          Medium, 15%
+
+
+
+                                                                                          Large, 80%
+
+
+                                             Figure 11: Production share of DRI in Raipur cluster
+Table 3: Sponge iron production from Raipur cluster
+
+ Industry category                     Number of DRI plants                    Capacity (tpd)              Production (million tpy)
+
+ Small                                                10                            50–150                                 0.26
+ Medium                                               10                           200–250                                 0.82
+ Large                                                25                          300–2000                                 4.26
+ Total                                                45                                                                   5.34
+
+
+3.3 Manufacturing process
+The production of sponge iron is a reduction of iron ore in solid state at a temperature below the melting
+point of iron. The carbon-bearing non-coking coal is used as a source of heat for preheating the iron ore
+and reducing agent carbon monoxide to complete the reduction process. The DRI is also termed ‘sponge
+iron’ due to its spongy honeycomb like texture while viewed under a microscope. DRI manufacturing
+primarily includes (i) reduction of iron ore, (ii) cooling of hot sponge iron, and (iii) separation and screening.
+A schematic of the DRI production process is shown in Figure 12.
+
+                                                               Dry ESP/                                 WHR system/
+                                                               bag filter                              cooling chamber
+
+
+                                  ID fan
+                                                                                                                         Waste gas
+                                                                  Ash
+                  Stack
+                                                                                                           Iron ore
+                                                                                                           coal
+                                                                                                           flux
+                                                                                                                                       Aer
+                               Fine                 Shell-mounted                                                                    burning
+                               coal                    air fans                                                                      chamber
+
+                                                                            Rotary kiln
+                                                                                                         Inlet hood
+           Air
+                     Water spray
+         blower
+                                                                                                Dust                         Dust
+                                           Cooler
+
+
+
+                             Product
+                                                           Dust
+
+
+
+                      Magnec separator
+
+                                        Figure 12: Schematic layout of DRI manufacturing process
+
+
+
+
+                                                                   Situational Analysis of
+                                                           9
+                                                                   Raipur Secondary Steel Cluster
+3.3.1 Reduction of iron ore
+The raw materials comprising iron ore and a part of sized coal are supplied from the feed end of the
+inclined rotary kiln. The feed input is gradually heated while moving from the pre-heating zone to the
+reduction zone by counter flow hot gases. In the pre-heating zone, the moisture is initially removed
+before the temperature reaches to the reducing reaction point. In the reduction zone of the kiln, the
+oxygen in iron ore is removed, forming carbon monoxide (CO) leaving the metallic iron. A part of coal is
+pulverized and injected through the exit end of the rotary kiln. This injected coal completes the reaction
+process. A temperature of about 900–1050oC is maintained in the kiln. Higher the temperature, faster
+the oxygen removal. A critical factor in the reduction of iron is the formation of carbon monoxide through
+controlled combustion of fuel. The optimum batch cycle for the process is 8–10 hours.
+
+3.3.2 Cooling of sponge iron
+On completion of metallization through the reduction process, the mixture of sponge iron and residual
+charge are transferred to a rotary cooler through a belt conveyor at about 250oC, before the hot product
+comes in contact with ambient air. At more than 250oC, the sponge iron would tend to oxidize using
+oxygen from ambient air. The sponge iron is further cooled down to about 100oC through indirect
+cooling in rotary cooler.
+
+3.3.3 Separation and screening
+Solid discharge from the rotary cooler is the mixture of sponge iron and dola char. It is passed through an
+electromagnetic separator to separate sponge iron from char and other impurities. The separated sponge
+iron grains are screened in series to different size fractions to separate lumps and fines for storage and
+dispatch.
+
+3.4 Technology description
+The DRI industries in the Raipur cluster use coal-based horizontal rotary kilns for production of sponge
+iron (Figure 13). The rotary kiln is provided with an inside refractory lining of 150–200 mm to protect
+the shell and has a slope of 2.5% to 3.0% towards the discharge end.
+
+
+
+
+                               Figure 13: Rotary kiln for sponge iron production
+The combustion air requirement for the feed is provided by air blowers along the length of the heating
+zone. The major raw materials used in sponge iron production include iron ore (hematite – Fe2O3),
+non-coking coal, and limestone/dolomite. Hematite, rich in iron content of 65% or more, is preferred in
+sponge iron plants. Iron ore can be used in the form of lumps and pellets.
+
+
+
+
+                          Situational Analysis of
+                     10
+                          Raipur Secondary Steel Cluster
+The iron ore and non-coking coal are reduced to the required size in crushers. Iron ore, coal, and dolomite
+of the required proportion are continuously fed into the kiln from the feed end, using weigh feeders. The
+raw materials move along the length of the kiln with the pre-set rotation. The secondary air is blown into
+the kiln through air pipes located along the kiln length. The temperatures of different heating zones are
+measured and controlled using thermocouples mounted across the length of the kiln. Fine coal is injected
+at the discharge end of the kiln to meet additional carbon requirements for the reactions.
+As the charge moves along the kiln length, it gradually picks up heat from the hot gases flowing in
+the opposite direction of the charge. The preheating zone accounts for about 30% of the kiln length,
+wherein both moisture and volatile matter present in feed mixture are removed. The heat required in the
+preheating zone is provided by combustion of a part of coal.
+The section of rotary kiln after the preheating zone is called ‘reduction zone’. Here, the oxygen present
+in the iron ore dissociates and oxidizes, reducing the carbon element in non-coking coal to form carbon
+monoxide, leaving the metallic iron. The rotation of the kiln and its slope ensure better mixing and
+movement of charge towards discharge end of the kiln at the required rate.
+
+
+                                  Reactions in coal-based DRI process
+
+                                  C + O2		       = CO2
+                                  CO2 + C		      = 2CO
+                                  3Fe2O3 + CO = 2Fe3O4 + CO2
+                                  Fe3O4 + CO     = 3FeO + CO2
+                                  FeO + CO       = Fe (product) + CO2
+
+
+A temperature of about 900–1050oC is maintained in the reduction zone. Higher the temperature, faster
+the oxygen removal from hematite. The reduction of iron ore occurs in solid state with the critical factor
+being ‘controlled combustion of coal’ towards formation of carbon monoxide. The residence time for iron
+ore inside the kiln is about 8–10 hours to form metallic iron. The quality of metallization is assessed with
+the density of sponge iron and the metallic luster.
+
+3.5 Waste heat recovery based power generation
+A number of DRI plants in the Raipur secondary steel cluster have installed ‘waste heat recovery’ (WHR)
+based power generation systems (steam based) to recover high-temperature heat available in off-gases
+leaving rotary kilns. It is pertinent to mention that the sensible heat in off-gases accounts for around 40%
+of the total heat input to the rotary kiln. The sensible heat of exhausted off-gases from the rotary kiln
+can be suitably pre-treated and passed through a waste heat recovery system, like the WHR boiler, to
+generate steam at high pressure and temperature, which can be utilized for power generation.
+The power generation potential using off-gases from the rotary kiln depends on the average production
+capacity of the kiln in operation. Table 4 provides the tentative power generation potentialviiivfrom off-
+gases of the rotary kiln with different production capacities that are in operation for DRI manufacturing.
+
+vii
+      Popuri Engineering Technologies
+
+
+
+
+                                             Situational Analysis of
+                                        11
+                                             Raipur Secondary Steel Cluster
+Table 4: Potential power generation from different rotary kiln of DRI industries
+
+          Rotary Kiln production capacity (tpd)                      Power generation potential (MW)
+
+                             100                                                 1.5–2
+
+                             200                                                3.5–4.0
+
+                             350                                                7.5–8.0
+
+                             500                                                10–12.0
+
+Installation of WHR based power generation is not financially viable if daily average production of the
+DRI plant is less than 200 tonne. Due to lower production capacity, around 70% out of the total operating
+DRI industries (45) in the Raipur cluster have WHR based power generation systems.
+
+3.6 Specific energy consumption
+Non-coking coal is the major fuel used in DRI plants—both for thermal energy needs and chemical
+reactions. The specific coal consumption of sponge iron production is 0.95–1.05 tonne per tonne of
+sponge iron production. Coal accounts for about 95–98% of total energy consumption, whereas electricity
+accounts for only 2–5% of total energy consumption of DRI plants.
+DRI plants use grid electricity to meet electricity demands in absence of WHR based captive power
+plants facility within the plant. The specific energy consumption of sponge iron production—considering
+both thermal and electricity input in DRI manufacturing—varies in the range of 4.81–5.32 Gcal per tonne
+sponge iron (Table 5).
+Table 5: Specific energy consumptin of DRI production
+
+    Energy source               Unit                          Minimum                 Maximum
+
+    Thermal#                    (tonne/tonne of DRI)          0.95                    1.05
+
+                                (GCal/tonne of DRI)           4.75                    5.25
+
+    Electricity                 (kWh/tonne of DRI)            70                      80
+
+                                (GCal/tonne of DRI)           0.06                    0.07
+
+    SEC                         (GCal/tonne of DRI)           4.81                    5.32
+
+#     considered GCV of used thermal energy source (coal) is 5000 kCal/kg
+
+Significant variations in SEC level can be observed in coal-based DRI production as SEC levels are plant
+specific and depend on various factors such as iron content in iron ore, fixed carbon and volatile matter
+in coal, temperature profile of kiln, operating practices, etc.
+
+3.7 Energy consumption and GHG emissions
+The total energy consumption in DRI industries in the Raipur cluster is arrived at by adding energy
+consumption at the existing process areas, considering the production amount processed and the SEC
+
+
+
+
+                             Situational Analysis of
+                        12
+                             Raipur Secondary Steel Cluster
+as applicable. The summary of baseline data used for calculating energy consumption in DRI industries in
+the Raipur cluster is given in Table 6.
+Table 6: Summary of baseline data of DRI industries in Raipur
+
+ Process area             Production                Specific energy consumption (unit/tonne of product)
+
+                                (tpy)                 Coal tonne          Thermal kCal         Electricity kWh
+
+ Pelletization            4,955,586                       0.05               250,000                 100
+
+ DRI                      5,339,191                         1              5,000,000                  80
+
+ SMS (EIF and
+                          1,023,764                         -                    -                   900
+ CCM)
+
+ SRRM                      441,542                        0.1                500,000                   5
+
+ Rolling Mill             1,450,654                         -                    -                   100
+
+ Utilities                1,450,654                         -                    -                    50
+
+Annual energy consumption of Raipur’s DRI industries is estimated to be 3 million tonne of oil equivalent
+(mtoe), which includes both thermal and electricity. The corresponding emissions are estimated to be
+around 13.29 million tonne of CO2 (Table 7).
+Table 7: Energy consumption and GHG emissions of DRI industries in the Raipur cluster
+
+                                                                       Equivalent energy       GHG emissions
+ Energy type              Unit               Annual consumption
+                                                                       (million toe)           ( million t - CO2)
+
+ Coal             million tonne/year                 5.63                     2.82                  11.83
+
+ Electricity       million kWh/year                 2063.89                   0.18                   1.46
+
+ Total                      3                        13.29
+
+Annual non-coking coal consumption accounts for more than 94% of total energy consumption of DRI
+industries in the cluster (Figure 14). More than 89% CO2 emissions are accounted by the consumption of
+non-coking coal (Figure 15).
+
+
+
+
+                                        Coal, 94%                                               Coal, 89%
+                                        Electricity, 6%                                         Electricity, 11%
+
+
+
+
+   Figure 14: Share of energy consumption in DRI units           Figure 15: Share of emissions in DRI units
+
+
+
+
+                                             Situational Analysis of
+                                        13
+                                             Raipur Secondary Steel Cluster
+3.8 Energy efficient technologies
+In coal-based DRI industries, coal accounts for most of the share of energy consumption within the plant.
+Coal is primarily used in rotary kiln operation for heating the input raw material mixture and completing
+reducing operation. More than 60% of the input energy in rotary kilns is lost, of which off-gas loss
+accounts for more than 40%. Various energy losses occurring in coal-based rotary kilns clearly indicate
+that there is significant scope for reducing SEC by improving energy efficiency (Figure 16). The most
+suitable potential option to recover heat from off-gases is WHR for power generation. Potential short-
+term energy-efficient measures associated with coal-based DRI plants in the Raipur cluster include the
+following:
+
+                                                            Off-gas loss
+                                                             (41.30%)
+
+
+
+
+                                                                        Moisture loss
+                                                                          (0.20%)
+
+
+                       Coal (100%)
+                                                                               Useful heat
+                                                                                 (37%)
+
+
+                                                                       Sensible heat in
+                                                                       kiln discharge (5.30%)
+
+                                                                 Char (11%)
+                                                     Wall loss
+                                                     (5.20%)
+                                 Figure 16: Energy losses in coal-based rotary kiln
+
+
+   i.   WHR system to recover sensible heat from rotary kiln off-gases in DRI industries
+
+          » Power generation using WHRB
+
+          » Preheating of input iron ore
+   ii. Adoption of alternative technologies/operating practices
+
+          » Use of producer gas in place of coal at discharge end in rotary kiln
+
+          » Use of iron ore pellets in place of iron ore lumps
+
+          » Mullite-based kiln lining
+
+          » De-centralized VFD control of shell air fans
+   iii. Energy efficiency improvement in utilities
+A brief description of the potential energy efficiency measures is provided below, along with indicative
+cost benefit details.
+
+
+
+
+                          Situational Analysis of
+                     14
+                          Raipur Secondary Steel Cluster
+3.8.1 Waste heat recovery for power generation
+
+Background
+In coal-based DRI production using rotary kiln, the off-gases
+generated during the process leave the kiln at a very high
+temperature (about 950–1025°C), carrying away a significant
+amount of sensible heat. The off-gases need to be cooled down to
+about 180°C before being transferred to electrostatic precipitator
+(ESP). The dust-free off-gases are let out from the chimney top at
+about 120°C. The high sensible heat in off-gases can be recovered
+using a WHR boiler to generate high-pressure steam for power
+generation.
+
+Technology brief
+The volume of off-gases generated in a 100 tpd rotary kiln generally
+varies in the range of 24,000±1500 Nm3 per hour. The volume              Figure 17: WHR plant in a DRI plant
+of off-gases is dependent on the volatile matter (25%–28%) and fixed carbon (48%–50%) in coal. The
+sensible heat in off-gases accounts for about 40% of the total heat input. The exit off-gases from a rotary
+kiln generally carry coal fines that are burnt while it passes through a chamber called the after burner
+chamber (ABC). The purpose of ABC is to ensure the completion of combustion of carryover coal fines
+in off-gases, which further increases the sensible heat in off-gases. The WHR based power generation
+system is financially viable for a cumulative installed capacity of 200 tpd or more.
+In a WHR based power generation system, the off-gases from the rotary kiln are transferred through
+an integrated piping network to the installed WHR boiler, wherein the waste heat is utilized to convert
+water into steam at high pressure and temperature (Figure 18).
+
+                                                         Feedwater
+
+
+
+
+                                                              Economizer
+
+                                             Post-
+                                          combustion
+                                                              Boiler tubes
+                                           chamber
+                                                                                                      S
+             Rotary kiln                                                                              t
+                                                              Superheater                             a
+                                                                             Electrostatic   ID fan   c
+                                                                             precipitator             k
+                                                              WHR BOILER
+
+
+                             Alternator
+                                             Steam       Superheated
+                                     ~
+                                             turbine     Steam
+
+
+
+
+                           To condenser
+
+               Figure 18: WHR based captive power plant for a DRI plant utilization in rotary kiln
+
+
+
+
+                                                 Situational Analysis of
+                                           15
+                                                 Raipur Secondary Steel Cluster
+Upon losing heat in the WHR boiler, the cooled off-gases enter the economizer in place for preheating
+feed water. The off-gases transfer a significant portion of sensible heat (about 50%–55%) to the WHR
+boiler system. In this process, the temperature of off-gases gets reduced substantially to about 180°C.
+The particulates from off-gases are removed in an electrostatic precipitator (ESP) before being let out
+through the stack. The turbo-generator system comprises a condensing turbine and an alternator. About
+8–10 tph of superheated steam at 64±2 kg/cm2 and 480±10°C is generated. The high-pressure steam is
+passed through turbo-generator to produce power. In a typical coal-based DRI plant having 2 × 100 tpd
+kilns, about 4 MW (= 2 × 2 MW) of electricity can be generated using the WHR-based power generation
+system.
+
+Savings, investments, and GHG emissions reduction
+The energy saving with the use of WHR based
+                                                             100%
+power generation system in a DRI plant of 2 × 100%
+100 tpd kiln capacity is about 23.5 million kWh
+                                                  80%
+of electricity per year (~2020 toe per year).
+The equivalent GHG emissions reduction            60%                       50-55%
+potential is 19,300 tonne CO2 per year. In
+                                                  40%
+addition, reduceing the temperatures of off-                                                20-25%
+gases using the WHR system would decrease         20%
+cooling requirements and the associated
+                                                   0%
+power requirements. The WHR based power                  Waste heat        Heat gain         Power
+generation system is a potential option for                available       by steam        genera on
+all DRI plants; however, the installation is
+economically more viable for plants with at least 200 tpd of DRI installed capacity. An indicative cost
+benefit analysis for installing WHR based power generation system in a DRI plant having two operational
+100 tpd rotary kilns in given in Table 8.
+Table 8: Cost benefit analysis of installing WHR based power generation system
+
+ Parameter                                                   Unit                   Value
+
+ Plant capacity                                              tpd                 2 X 100 tpd
+
+ Potential power generation                                MW                         4
+
+ Total electricity generation                            kWh/day                   76,800
+
+ Electricity consumption in DRI plant                    kWh/day                   14,000
+
+ In-house consumption at WHR plant                       kWh/day                    9,600
+
+ Electricity available for export                        kWh/day                   53,200
+
+ Monetary saving                                       INR lakh/year                 874
+
+ Investment for WHR plant                                INR lakh                   2800
+
+ Payback period                                              Year                    3.2
+
+Source: Based upon interactions with a sector expert
+
+
+
+
+                            Situational Analysis of
+                       16
+                            Raipur Secondary Steel Cluster
+3.8.2 Iron ore preheating in rotary kiln using WHR system
+
+Background
+A large quantity of sensible heat is available in high temperature off-gases. It is mainly used for a WHR
+based power generation system, which is viable for an installed capacity of at least 200 tpd. However,
+plants of less than 200 tpd capacity generally let out off-gases without any heat recovery. In such
+cases, the sensible heat of off-gases can be recovered for preheating of iron ore, resulting in lower
+coal consumption. The reduction in coal consumption depends on the amount of sensible heat that is
+recoverable as well as kiln efficiency.
+
+Technology brief
+In a solid coal-based DRI process plant, using 100 tpd kiln, about 40% of the total heat input is lost in off-
+gases. The sensible heat in off-gases can be used in a rotary preheater. In an iron ore preheating system,
+the off-gases from rotary kiln flow through rotary preheater in a counter-flow arrangement and transfer
+heat directly to the incoming iron ore. The counter-flow-type WHR system helps in maximizing heat
+transfer and reduces space requirements. The preheated iron ore (at about 650°C) enters the rotary kiln
+instead of being fed at ambient temperatures (Figure 19). Preheating of iron ore may marginally increase
+the generation of fines due to increased handling.
+
+                                                                                                               Off-gases
+                                                                            Off-gases                          to stack
+                                                                            (950 °C)
+                                                                                            WHR-based rotary
+                                                      Rotary kiln                             preheater
+                                                                           Preheated iron                      Iron ore
+                                                                            ore (650 °C)                         inlet
+                                                    Figure 19: Preheating of iron ore using rotary kiln WHR
+
+Savings, investments, and GHG emissions reduction
+Considering a DRI plant of 100 tpd, the potential energy saving from iron ore preheating is about 15%.
+The annual energy saving with an iron ore preheating system is 5200 tonne coal per year (2700 toe per
+year). The GHG emissions reduction potential is 9300 tonne CO2 per year. Other benefits associated with
+WHR-based iron ore preheating system include:
+
+                                                                    100%
+                                            100%                               15% re
+                                                                                        ducon       85%
+                                             90%
+                                             80%
+
+
+
+
+                  Losses in off-gases (%)
+                                             70%
+                                             60%
+                                             50%
+                                             40%
+                                             30%
+                                             20%
+                                             10%
+                                              0%
+                                                              Without WHR                         With WHR
+                                                   Figure 20: Energy saving with WHR for iron ore preheating
+
+
+
+
+                                                                     Situational Analysis of
+                                                               17
+                                                                     Raipur Secondary Steel Cluster
+•     Higher productivity; since the heating zone is shifted to the preheater system and the reduction
+      zone inside the kiln will increase
+•     Reduction in energy costs
+•     Reduction in power requirements for cooling and auxiliary system
+The cost benefit details of installing a WHR based iron ore preheating system is provided in Table 9.
+Table 9: Cost benefit analysis of installing WHR based iron ore pre-heating system
+
+    Parameter                                                Unit                      Value
+
+    Kiln capacity                                            Tpd                        100
+
+    Iron ore consumption                                     Tpd                        154
+
+    Preheated temperature of iron ore                        °C                         650
+
+    Coal saving                                               %                          15
+
+    Annual coal saving                                       Tpy                        5200
+
+    Energy saving                                            Toe                        2700
+
+    Monetary benefits                                  INR lakh/year                    325
+
+    Investment                                           INR lakh                       350
+
+    Payback                                                  Year                        1.1
+
+Source: Based upon interactions with a sector expert
+
+3.8.3 Coal gasification for partial substitution in rotary kiln
+
+Background
+The rotary kiln uses solid coal for both thermal energy requirements and reduction reactions for
+transformation of iron ore into sponge iron. In a rotary kiln, 40%–50% coal fed along with raw materials
+at the feed end is 8–20 mm in size. About 50%–60% of the coal injected along with low-pressure air
+at the discharge end is 0–8 mm in size. The coal injected at the discharge end can be converted to
+producer gas in a gasifier, which can then be supplied to the rotary kiln from the discharge end to improve
+overall efficiency.
+
+Technology brief
+The principle of coal gasification process involves partial combustion of the coal to form a mixture of
+carbon monoxide (CO) and hydrogen (H2), known as ‘producer gas’. The coal gasification process consists
+of pyrolysis at about 350–700°C. Apart from desirable gas composition, i.e., CO and H2, the process also
+results in the formation of CO2, CH4, water vapour, tar, and char. Trace elements from the gas mixture are
+removed and sent to the rotary kiln.
+
+
+
+
+                            Situational Analysis of
+                       18
+                            Raipur Secondary Steel Cluster
+The gasification process is mainly endothermic, involving the following reactions:
+                                       C + O2 = CO2 – 94.05 kcal/mol
+                                      2H2 + O2 = 2H2O – 68.3 kcal/mol
+The gasifier system comprises a vertical chamber, wherein a coal–water slurry is fed from the top and
+air supply is met through a blower. The producer gas is passed through either a cyclone separator or
+a wet scrubber to clean the gases. The coal gasifier system is provided with programmable logic
+controller (PLC) control system for automatic monitoring and control of producer gas generation
+(Figure 21).
+
+                    Coal/water
+                      slurry
+
+
+
+
+                                                    Producer
+                                                       gas
+                                                                        Rotary kiln
+                                                    (CO + H2)
+                                         Cleaning
+                                          system
+
+
+
+
+                       Slag
+                   Figure 21: Coal gasification system for rotary kiln in sponge iron production
+
+Benefits of using coal gasifier
+Apart from energy savings, the other benefits of replacing a coal-fine injection with producer gas at the
+discharge end include:
+(1)   Close control over kiln operating parameters and hence smooth operation
+(2)   Increased kiln capacity by 20%
+(3)   Increased campaign
+(4)   Increased metallization, leading to better recovery of metal
+
+Savings, investments, and GHG emissions reduction
+The energy saving with partial substitution of solid coal used in rotary kiln of 100 tpd capacity with
+producer gas from coal gasification process is about 20%. The annual energy saving with coal gasification
+system is 4200 tonne coal per year, which is equivalent to a monetary savings of approximately Rs 260
+lakh per year (Table 10). However, the plant will have to invest for setting up of a producer gas system of
+corresponding capacity. The GHG emission reduction potential is 7500 tonne CO2 per year.
+
+
+
+
+                                            Situational Analysis of
+                                       19
+                                            Raipur Secondary Steel Cluster
+Table 10: Cost benefit analysis of installing coal gasification system
+
+    Parameter                                                 Unit                         Value
+
+    Kiln capacity                                             tpd                           100
+
+    Coal injection at discharge end                           tpd                           60
+
+    Potential energy saving                                    %                            20
+    Coal saving                                               tpy                          4200
+    Monetary benefits                                INR lakh per year                      260
+Source: Based upon interactions with sector expert
+
+3.8.4 Switch to iron ore pellet
+
+Background
+Coal-based DRI plants use iron ore lumps of size 5–20 mm, which are commonly known as calibrated
+lump ore (CLO). The mined iron ore available to DRI plants generally has a low-iron content. Further, the
+processing of lumps results in formation of fines and requires agglomeration to maintain the yield. Iron
+ore pellets can be used in place of lumps to increase the yield.
+
+Technology brief
+Pelletizing is an agglomerating process of converting
+iron ore fines into uniform-sized material which
+can be charged directly into the rotary kiln for DRI
+production. Iron pellets are prepared by mixing iron
+ore fines that are less than 200 mesh (0.074 mm) in
+size with additives like bentonite, and shaping then
+into oval or spherical balls in a pelletizer. For each
+pellet, the size is in the range of 8–16 mm diameter
+(Figure 22). The iron pellets are further hardened
+by firing separately. The use of a uniform size and
+shape of pellets as charge material—as opposed to
+non-uniform and varying sizes of lumps—improves
+kiln performance. Iron ore in pellet form reduces                    Figure 22: Iron ore pellets
+loss on ignition. There are two different iron ore
+pelletization processes: (i) straight travelling grate process and (ii) grate kiln process. The advantages with
+using iron ore pellets in DRI production are:
+
+•     Minimization of raw material preparation facility
+•     No loss on ignition, resulting in better yield
+•     Uniform metallization
+•     Less fine generation, leading to lower accretion and reduced load on bag filters
+•     Reduces slag quantity and related handling
+•     Improves yield
+
+
+
+
+                             Situational Analysis of
+                        20
+                             Raipur Secondary Steel Cluster
+•     Eliminates use of magnetic separators
+•     About 20% more throughput per unit of rotary kiln volume
+•     Reduction thermal load for direct reduction
+
+Savings, investments, and GHG emissions reduction
+The energy-saving potential with use of iron ore pellets (in place of iron ore lumps) is 15%. Annual energy
+saving for a DRI plant of 100 tpd capacity is 2730 toe per year. The total monetary benefit that can be
+accrued with the use of iron ore pellets is estimated to be INR 326 lakh (Table 11). The GHG emission
+reduction potential is 9400 tonne CO2 per year.
+Table 11: Benefits of switching to iron ore pellets
+
+    Parameter                                             Unit                         Value
+
+    Kiln capacity                                         tpd                           100
+
+    Energy saving                                          %                             15
+
+    Coal saving                                           tpy                           5250
+    Monetary benefits                                 INR lakh/year                     326
+Source: TERI analysis
+
+3.8.5 Mullite-based Kiln Lining
+
+Background
+In a conventional rotary kiln, high-alumina low-cement castable refractories are used as inner lining
+to withstand a temperature of close to 1050°C. The thermal conductivity of high-alumina refractories
+is quite high (about 2.7 W/m-K) which leads to higher radiation or surface heat loss in the kiln. The
+temperatures of external surfaces of the kiln are about 180–250°C in the reduction zone and 150–
+180°C in the discharge end. Radiation heat loss of the rotary kiln typically accounts for about 5% of the
+total heat input, which can be reduced with the application of low-thermal conductivity material such as
+mullite-based kiln lining.
+
+Technology brief
+The high-alumina low-cement castable refractory material can be replaced with mullite-based high-
+alumina castable refractory, of thermal conductivity of 1.7 W/m-K. Two of the many advantages associated
+with mullite-based refractories are: (i) excellent high-temperature strength and (ii) high resistance to
+thermal shock, oxidation, and abrasion. With use of mullite-based high-alumina castables, the outer shell
+temperature of the rotary kiln is reduced by 50–80°C, thereby reducing heat loss through kiln shell by at
+least 30%.
+
+Savings, investments, and GHG emissions reduction
+Annual energy saving with a mullite-based lining in a rotary kiln (of 100 tpd capacity) is 580 tonne coal
+per year, i.e., 300 toe per year (Table 12). The GHG emission reduction potential is 1050 tonne CO2 per
+year.
+
+
+
+
+                                          Situational Analysis of
+                                     21
+                                          Raipur Secondary Steel Cluster
+Table 12: Mullite-based kiln lining
+
+  Parameter                                                   Unit                       Value
+
+  Reduction in radiation losses                                %                           30
+
+  Energy saving                                            toe/year                       300
+
+  Monetary benefits                                     INR lakh/year                      36
+
+  Investment                                               INR lakh                        50
+
+  Payback                                                     Year                        4.1
+
+Source: UNDP
+
+3.8.6 Decentralized control of shell air fans
+
+Background
+Typical dimensions of a rotary kiln of 100 tpd capacity are 42 m length and 3 m diameter. The raw
+materials—iron ore, non-coking coal, and dolomite—are mixed in the required ratio before feeding into
+the kiln. All shell air fans in the kiln are controlled centrally by a single VFD. However, finer and regular
+adjustment of air flow across the kiln is ensured through manual control of mechanical dampers in
+each fan on a daily/shift basis. The use of damper at delivery side increases air flow and affects power
+consumption. Precise control of temperature can be attained with dedicated VFD for each fan, which will
+ensure air flow with least resistance.
+
+Technology brief
+In kiln automation, the rpm of each shell air fan is varied using a dedicated VFD system and thermocouple.
+The proportional integral derivative (PID) system continuously senses the signal from a thermocouple
+to maintain the set temperature by varying the air flow in the zone. Whenever temperature variation
+occurs, the control loop of the PID system actuates the VFD to change the air flow. Thus, the speed
+of an individual shell air fan can be increased or decreased without affecting the speed of other fans
+in a decentralized VFD system (Figure 23). The power consumption is proportional to the cube of the
+fan rpm.
+
+               Rotary kiln          Thermocouple                          Rotary kiln     Thermocouple
+
+
+
+                                                                                                   Shell
+                                                                                                  air fans
+
+                                         Shell
+                                        air fans
+
+                    VFD
+                                                                               VFD
+
+                                 Figure 23: Decentralized VFD system in rotary kiln
+
+
+
+
+                             Situational Analysis of
+                      22
+                             Raipur Secondary Steel Cluster
+Savings, investments, and GHG emissions reduction
+The annual energy saving with installation of decentralized VFD systems for shell air fans, for a 100 tpd
+capacity rotary kiln, is 19,000 kWh per year (1.6 toe per year) (Table 13). The GHG emissions reduction
+potential is 16 tonne CO2 per year.
+Table 13: Benefits of installing automation and control system in rotary kiln
+
+  Parameter                                        Unit                          Value
+
+  Energy saving                                    toe/year                      1.6
+
+  Monetary benefits                                INR lakh/year                 0.5
+
+  Investment                                       INR lakh                      2.8
+
+  Payback                                          Year                          5.2
+
+Source: TERI’s analysis
+
+3.8.7 Other energy efficiency measures
+Other important energy efficiency measures for DRI industries include:
+(1)        artificial neural network for accretion control,
+(2)        variable frequency drives for air compressors,
+(3)        arresting compressed air leakages,
+(4)        reduction of pressure setting in air compressor, and
+(5)        energy efficient motors and multistage centrifugal pumps.
+These would help in improving the overall energy performance of DRI plants.
+
+3.9 Decarbonization options
+Energy efficiency measures are short-term and reduce dependency on carbon based energy sources,
+but decarbonization of the DRI manufacturing process can be achieved through the transition to new
+technologies—by replacing existing coal-based rotary kilns with hydrogen based rotary kilns and replacing
+existing grid supply electricity with renewable-based green electricity. The phases of gradual transition to
+complete decarbonization of DRI manufacturing processes are mentioned below.
+
+      i.    Transition to new technology
+               » Switch to electrical based process technologies, from the existing fossil fuel based processes
+                  for SRRM units
+               » Transition to gas based technologies to replace fossil fuel based process technologies
+
+      ii. Deep decarbonization technologies
+               » Switch to green electricity sources for the existing electricity based processes
+               » Switch to hydrogen-based technology options in DRI, to replace gas based technologies
+A brief overview of hydrogen-based technology options is provided below.
+
+
+
+
+                                                Situational Analysis of
+                                           23
+                                                Raipur Secondary Steel Cluster
+3.9.1 MIDREX H2 process
+One of the best options, available in the near future, for decarbonization of the steel industry is to use
+green hydrogen to produce DRI as feedstock for steelmaking: known as MIDREX H2 (Figure 24). In the
+existing MIDREX Natural Gas process, up to 30% of NG can be replaced with hydrogen without any
+change in the existing process. When the availability of green hydrogen becomes economically viable,
+use of H2 can be increased in the process with minor equipment modifications. It is possible to use 100%
+hydrogen in the reactor by optimizing the carbon in DRI in the melt shop. For a DRI output with 1.4%
+carbon, the typical bustle gas composition is about 90% hydrogen and the balance is a mixture of CO,
+CO2, H2O, and CH4. The typical consumption of hydrogen is about 650 Nm3/t-DRI (54 kg/t).
+
+
+                                                                       Iron Oxide
+
+
+          Flue gas        Hydrogen
+                          (Make-up)
+                                             Process gas              Top gas
+                                             compressor              scrubber
+
+
+                                                                                           MIDREX
+                                  Main air            Reducing gas                          Shaft
+                                  blower                                                   furnace
+
+
+                                                                      Oxygen
+
+                                                                     Energy
+
+
+                       Recuperator           Reduction gas
+          Flue gas      (optional)              heater
+                                                                                    HDRI
+            stack
+                                             Combustion air
+
+                              Figure 24: MIDREX H2 process for DRI production
+
+3.9.2 HYBRIT process
+HYBRIT (Hydrogen breakthrough ironmaking technology) is a joint venture between Swedish companies,
+SSAB (global leader in high-strength steels), LKAB (Europe’s largest iron ore producer), and Vattenfall
+(one of Europe’s largest electricity producers), that aims to replace coal with hydrogen in the steelmaking
+process. In this process, iron metal is produced by using hydrogen gas as the main reductant (Figure 25).
+
+
+
+
+                          Situational Analysis of
+                     24
+                          Raipur Secondary Steel Cluster
+The production route is similar to the existing DR processes, except for CO2 emissions. Hydrogen reacts
+with iron oxides to form water instead of carbon dioxide. In the demonstration project in Sweden,
+hydrogen will be produced by electrolysis of water using fossil-free electricity.
+
+
+
+                                                              Non-fossil fuels
+
+                                 Iron ore
+                                  pellets
+
+
+
+
+                                                  Hydrogen
+                                                  and water         Electricity
+
+
+
+                                                                Hydrogen plant
+
+
+
+                                                               Hydrogen storage
+                                                   Hydrogen
+
+                                    Sponge
+                                     iron
+                                                      Scrap
+
+
+
+
+                             Crude steel
+
+
+                              Figure 25: HYBRIT process for DRI production
+
+
+
+
+                                           Situational Analysis of
+                                    25
+                                           Raipur Secondary Steel Cluster
+  INDUSTRY
+ASSOCIATIONS
+Industry associations are one of the key stakeholders in the cluster, facilitating networking and addressing
+pertinent issues. Some of the active industry associations also facilitate technical support to the member
+industries, by organizing events such as workshops, training, etc. Industry associations pertaining to
+secondary steel industries in the Raipur cluster are shown in Table 14.
+Table 14: Industry associations in Raipur’s secondary steel cluster
+
+  Institution/organization                        Contact details
+
+  Raipur Iron and Steel Trade Association         RISTA c/o.308, 3rd floor, Samta shopping arcade,
+  (RISTA)                                         Samta colony, Raipur - 492001, Chhattisgarh
+
+  Chhattisgarh Sponge Iron Manufacturing          House no. 11, Jal Vihar Colony, Telibandha, Raipur –
+  Association (CGSIMA) – Raipur chapter           492001, Chhattisgarh
+
+  Chhattisgarh Wire Industries Association        Samta Shopping Arcade, Main Road, Samta Colony,
+  (CWIA)                                          Raipur – 492001, Chhattisgarh
+
+  Chhattisgarh Ferro Alloy Plant Association
+                                                  Samta Colony, Raipur – 492001, Chhattisgarh
+  (CFAPA)
+
+  Chhattisgarh Mini Steel Plant Association       Shop no. 408, Samta Shopping Arcade, Main Road,
+  (CGMSP)                                         Samta Colony, Raipur - 492001, Chhattisgarh
+
+  Urla Industries Association (UIA)               Urla Industrial complex, Raipur - 492001, Chhattisgarh
+
+                                                  Ch. Devilal Vyapar Udyog Bhawan
+  Chhattisgarh Chamber of Commerce and
+                                                  2nd Floor, Bombay Market,
+  Industries (CCCI)
+                                                  Raipur - 492001, Chhattisgarh
+
+
+
+
+                          Situational Analysis of
+                     28
+                          Raipur Secondary Steel Cluster
+CONCLUSION
+The DRI industries are the most important segment of Raipur’s secondary industry cluster, as they
+account for more than 82% of total energy consumption—resulting in around 75% of the GHG emissions
+from the cluster. The present status of DRI industries clearly indicates that there is immense scope for
+energy efficiency improvements. A range of best available technology (BAT) that are economically viable
+are available for improving energy efficiency. It is important to raise awareness on these decarbonization
+options among the DRI sector and develop a suitable roadmap for achieving net-zero emissions by the
+industry. This would include technology demonstration, development of infrastructure, and availability
+of appropriate financing options and policies for adopting energy efficiency and net-zero technology
+options.
+
+
+
+
+                         Situational Analysis of
+                    30
+                         Raipur Secondary Steel Cluster
+NOTES
+                           NOTES
+
+
+
+
+     Situational Analysis of
+32
+     Raipur Secondary Steel Cluster
+

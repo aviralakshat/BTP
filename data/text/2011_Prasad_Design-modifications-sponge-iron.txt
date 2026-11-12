@@ -1,0 +1,769 @@
+Design Modifications for Energy                                                     also added further dimensions to the impasse. In the present situ-
+                                                                                    ation, even though the condition has improved considerably,
+Conservation of Sponge Iron Plants                                                  sponge iron industry passes through several problems, such as
+                                                                                    lack of proper integration of heat energy, obsolete technology, and
+                                                                                    nonoptimal operation of equipment, which are making it a less
+A. K. Prasad                                                                        profitable venture. Thus, there exists a large scope to apply mod-
+e-mail: anilnitj@yahoo.co.in                                                        ern technology to this industry and to make it more competitive
+                                                                                    by cutting down its internal losses. The present study utilizes the
+R. K. Prasad                                                                        above opportunity effectively and puts forward suggestions to im-
+e-mail: rkpappnit@gmail.com                                                         prove the energy effectiveness of the industry through design
+
+
+
+
+                                                                                                                                                            Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                                                                    modifications.
+Department of Mechanical Engineering,                                                  Many investigators, such as Agrawal et al. 关1,2兴, Rani Devi and
+National Institute of Technology,                                                   Mazumder 关3兴, and Misra and Ipicol 关4兴, considered the process of
+Jamshedpur 831001, Jharkhand, India                                                 sponge iron manufacturing and suggested improvement in that.
+                                                                                    However, as the present paper is based on energy savings of
+                                                                                    sponge iron plant, literature, focused on this aspect, is discussed
+S. Khanam1                                                                          here.
+Department of Chemical Engineering,                                                    Jena et al. 关5兴 focused on different aspects such as waste gas
+                                                                                    composition, dust loss, air requirement, and efficiency of the pro-
+National Institute of Technology,                                                   cess. Due to chemical reactions and combustion, the heat gener-
+Rourkela 769008, Orissa, India                                                      ated inside the kiln is 174.28 GJ/h and heat value of coal input is
+e-mail: shabinahai@gmail.com; skhanam@nitrkl.ac.in                                  323.2 GJ/h, resulting in a thermal efficiency of the process to be
+                                                                                    46%. They also showed that 33% of heat generated in the kiln is
+                                                                                    lost with waste gas. The authors suggested that heat in waste gas
+During the operation in the coal based sponge iron plant, a tre-                    may be recovered by putting a waste heat recovery system for
+mendous amount of heat is generated and significant part of this                    generation of power.
+heat, associated with the waste gas, remains unutilized. It appears                    Bandyopadhyay et al. 关6兴 discussed that coal is the important
+worth interesting to modify the process that facilitates the integra-               raw material for sponge iron making and revealed that if very high
+tion of heat available with the waste gas. In the present paper, for                volatile matter 共VM兲 coals are used, most of the VM is lost at the
+the utilization of heat of waste gas, two modifications, namely,                    kiln mouth when coal encounters counterflowing hot waste gases.
+case-1 and case-2, are proposed based on preheating of inlet                        Agarwal and Sood 关7兴 found that out of the total heat generated
+streams. In case-1, preheating of feed material is considered,                      from coal, only 35% is used in reduction and balance goes as
+whereas in case-2, preheating of feed material as well as air is                    waste. Elsenheimer and Serbent 关8兴 also mentioned that the en-
+accounted. These cases are then compared with the existing waste                    ergy contained in waste gas in form of sensible or chemical en-
+heat recovery system of the plant based on coal consumption,                        ergy amounts up to 40%. They proposed a number of options to
+operating and capital costs, profit, and payback period. It is found                recover the energy but did not show how much energy can be
+that both cases are better than the existing heat recovery system of                saved by installing these options and what their practical implica-
+the plant. However, case-2 is selected as the best heat recovery                    tions are.
+option. In comparison to the existing system, case-2 reduces coal                      Hajidavalloo and Alagheband 关9兴 studied the thermal analysis
+and water consumption by 30.5% and 72.6%, respectively. Fur-                        of sponge iron preheating using waste energy of electric arc fur-
+ther, case-2 releases minimum waste gas to the atmosphere that                      nace 共EAF兲. To improve performance of EAF, a new initiative
+makes the process environment friendly.                                             technique has been introduced, in which sponge iron particles are
+关DOI: 10.1115/1.4003506兴                                                            preheated before entering the furnace. Based on the simulation
+                                                                                    results, it is found that the energy consumption in the EAF and
+Keywords: sponge iron plant, heat integration, coal consumption,                    productivity are reduced up to 14% and 13%, respectively.
+economic analysis                                                                      Biswas et al. 关10兴 presented the potential for energy savings in
+                                                                                    various capacity sponge iron plants by estimating heat transfer
+1    Introduction                                                                   rates using temperature data within the kiln. Air jet seal instead of
+                                                                                    mechanical seal arrangements at specific locations in the rotary
+   Sponge iron is not soft and spongy, as the name might appear,
+                                                                                    kiln and cooler were proposed and thus power consumption was
+but a metallic mass with honeycomb structure all over the surface
+                                                                                    reduced.
+and bulk. Since past decade, sponge iron has emerged as a raw
+                                                                                       An energy survey was made by Eriksson and Larsson 关11兴 on a
+material for manufacturing steel. Seeing its tremendous potential,
+                                                                                    sponge iron plant in order to identify the largest energy losses and
+the government has recognized sponge iron as a vital sector for
+the growth of Indian steel industry. Again, India is fortunate to                   find ways to increase efficiency. They suggested that largest im-
+have high reserves of good quality iron ore and large resources of                  provements in energy efficiency would be obtained by building a
+noncoking coal used in making sponge iron. The average moisture                     new kiln. Recently, Mignard and Pritchard 关12兴 reviewed the
+contents in coal and iron ore are about 13% and 2%, respectively                    sponge iron process for the storage and transmission of remotely
+关1兴.                                                                                generated marine energy.
+   Sponge iron manufacturing units looked profitable since the                         Literature indicates that power consumption for Indian sponge
+beginning of the 1990s. However, with the increase in the input                     iron industries ranges from 45 kW h / t to 130 kW h / t 关13兴. The
+cost of raw material and decrease in selling price, it finds diffi-                 energy requirement for rotary kiln ranges between 14.63 GJ and
+culty to survive. The lack of infusion of modern technology has                     20.9 GJ per t sponge iron. However, during the operation in coal
+                                                                                    based sponge iron plant, tremendous amount of heat is generated
+                                                                                    that remains unutilized. It is therefore understandable that energy
+   1
+     Corresponding author.                                                          questions will always be important in these industries and, hence,
+   Contributed by the Heat Transfer Division of ASME for publication in the JOUR-
+NAL OF THERMAL SCIENCE AND ENGINEERING APPLICATIONS. Manuscript received March
+                                                                                    one should integrate heat in these industries effectively. Thus, in
+16, 2010; final manuscript received January 19, 2011; published online March 10,    the present paper, an approach is discussed to utilize heat of waste
+2011. Assoc. Editor: Chenn Zhou.                                                    gas for preheating the feed materials as well as air. As a result,
+
+Journal of Thermal Science and Engineering Applications                                                          MARCH 2011, Vol. 3 / 015001-1
+                                         Copyright © 2011 by ASME
+                                                                                                                                                 Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                           Fig. 1 Longitudinal section of sponge iron plant
+
+
+
+reduced amount of coal is predicted. The equipments required for           Inside kiln is lined with refractory and supported on three piers
+modification are designed and their economic analyses are also          called support rollers with an inclination of 2.5 deg. Rotation is
+presented.                                                              given by the girth gear. Due to its inclination and rotation, the
+                                                                        material in the kiln moves along the axis. Both ends of the rotary
+                                                                        kiln is provided by the mechanical air sealing so that no ingress of
+2 Conventional Coal Based Sponge Iron Plant: A Brief                    air takes place. As charge moves through the kiln, it is heated by
+Description                                                             gases that flow in opposite direction. At the inlet side of the kiln,
+   The longitudinal section of typical coal based sponge iron plant     blowing of controlled amount of air into the material charge in-
+is shown in Fig. 1. The sized iron ore, feed coal, and dolomite are     creases material temperature by direct combustion of volatiles
+fed to the rotary kiln through kiln feed pipe. A separate conveyor      within the charge.
+collects different size fractions of coal for injection into the kiln      The first section, approximately half of the kiln, is called the
+from the discharge end side. All along the kiln length, air is in-      preheating zone, where iron ore, coal, and dolomite are heated to
+jected through eight air fans in the conventional 500 t / day           reaction temperatures and the second half is the reduction zone, as
+sponge iron plant, each of them are adjusted separately. Further,       shown in Fig. 3. In the preheating zone, moisture of the materials
+air is injected at the kiln outlet by a central burner pipe, which,     is driven off along waste gas. The volatiles of coal are, to one part,
+during normal operation, serves as process air inlet, as shown in       escaping into the gas space above the material bed and, to other
+Fig. 2.                                                                 part, directly burned within material charge, where they are used
+
+
+
+
+                                               Fig. 2 Normal injection of air into the kiln
+
+015001-2 / Vol. 3, MARCH 2011                                                                                Transactions of the ASME
+                                                                        Table 1 Mass balance around main components of the plant
+                                                                        on per hour basis
+
+                                                                                                     Rotary kiln
+                                                                                       Input                             Output
+
+                                                                        Component               Mass t         Component            Mass t
+                                                                        Iron ore                  30           Sponge iron           18.6
+                                                                        Feed coal               15.875          Waste gas          103.426
+                                                                        Dolomite                  0.5             Total            122.026
+                                                                        Slinger coal             5.562
+
+
+
+
+                                                                                                                                                 Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                                                        Air                     70.089
+                                                                        Total                  122.026
+
+                                                                                                         ABC
+
+                                                                        Waste gas              103.426            Dust               5.4
+                                                                        Air                     13.35           Waste gas          128.376
+                                                                        Water                    17              Total             133.776
+           Fig. 3 Principle of counterkiln operation
+                                                                        Total                  133.776
+
+
+for direct heat up. The volatiles in the gas space are burned by air
+and thus supply main energy for heating up the kiln charge. In the
+reduction zone, the main portion of oxygen contained in the iron        its direction and move upward into combustion area of ABC.
+ore is removed, leaving metallic iron and very few iron oxides          Here, combustibles are mixed with fresh excess air and burnt
+behind. The difference of the temperature of free gas T共gas兲 and        completely to acquire temperature in a range between 950° C and
+bed material T共charge bed兲 is shown in Fig. 3 along the length of       1050° C approximately.
+kiln. It is responsible for heating bed charge and metallization of        The temperature of waste gas needs to be brought down to a
+product. Plot of the percent of metallization is shown in Fig. 3. It    workable limit for downstream equipments to remove dust par-
+indicates that reduction of iron ore starts in the reduction zone and   ticles and toxic components. Thus, water is sprayed to reduce the
+metallization of product is achieved at the discharge end of the        temperature of waste gas in the ABC. For this purpose, ten num-
+kiln. The reduced product from the kiln coming through the trans-       bers of water gun is fitted along different heights. The water guns
+fer chute is indirectly cooled in a rotary cooler.                      hold a nozzle at the discharge end for atomization. The pressur-
+   Waste gas in the kiln flows in opposite direction to the feed        ized water droplets coming out from the guns fall on waste gas,
+materials. The flow is maintained by an induction fan mounted           resulting in an increase in the weight of dust particles that helps it
+before the chimney. The waste gas coming out from the rotary kin        to settle down.
+is processed by different equipments before it leaves to the open          During the plant operation, there are some unstable conditions
+atmosphere. The direction of flow of waste gas after rotary kiln is     and feeding in the kiln is totally stopped. For such conditions, the
+shown in Fig. 4.                                                        emergency cap, located at the top of ABC, is operated and waste
+   Generally, waste gas consists of N2, CO2, CO, H2, H2O, O2,           gases are allowed to escape to open atmosphere.
+and CH4 with compositions of 59.69%, 35.91%, 0.32%, 0.17%,                 The evaporating cooler 共EC兲 is connected with the ABC, as
+3.7%, 0.08%, and 0.13%, respectively. It comes out of the kiln at       shown in Fig. 4. Here, waste gas is quenched with water. Eight to
+a temperature about 900° C and is then taken to after burner            ten numbers of water guns are provided at top position around the
+chamber 共ABC兲 and dust settling chamber 共DSC兲 that is located           EC at same height. Water coming out from these is sprayed to
+beneath the ABC. DSC reduces waste gas velocity, removes large          reduce the temperature of waste gas at desired level. The bottom
+dust particles by gravity, retards pressure fluctuation, and achieves   part of the DSC, EC, and ABC is attached with the wet scraper.
+uniformity of waste gases with regard to temperature and concen-           Waste gas exiting the EC enters the electrostatic precipitator
+tration of combustible. At the end of DSC, the waste gas changes        共ESP兲 for final purification. The desired temperature of waste gas
+                                                                        is to be maintained below 250° C. ESP is considered to be the
+                                                                        most effective dust collector in industries due to low pressure
+                                                                        drop, low sensitivity at high temperature and aggressive gases,
+                                                                        high collection efficiency, and low maintenance. ESP exit is con-
+                                                                        nected to the chimney. Induced direct fan is placed before the
+                                                                        chimney. After ESP, filtered waste gas goes to the atmosphere.
+                                                                           Mass balance around the main equipment, such as rotary kiln
+                                                                        and ABC of a typical sponge iron plant of 500 t / day capacity,
+                                                                        carried out on per hour basis, is shown in Table 1. The energy
+                                                                        balance is done in the similar lines, as shown by Jena et al. 关5兴.
+                                                                        The schematic diagram for conventional plant is shown in Fig. 5.
+                                                                        The actual coal consumption for the conventional plant is
+                                                                        21.437 t / h, in which 15.875 t / h is used as feed coal and the rest
+                                                                        are used as slinger coal.
+
+
+                                                                           2.1 Existing Heat Recovery System in the Conventional
+                                                                        Plant. For utilization of heat of waste gas exiting from ABC, a
+                                                                        heat recovery boiler system is installed in the conventional plant
+                                                                        for generating power. The plant data show that this option gener-
+Fig. 4 Kiln with waste gas processing equipments and its flow           ates 2.6 MW of power. The power may be exported with Rs
+direction                                                               3.5 kW h. It gives Rs 728 lakh/yr profit for exporting power.
+
+Journal of Thermal Science and Engineering Applications                                               MARCH 2011, Vol. 3 / 015001-3
+                                                                                                                                                       Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                       Fig. 5 Schematic diagram of the conventional process
+
+
+
+
+However, the capital cost of this system is Rs 765 lakh. These
+costs are directly taken from the typical sponge iron plant of
+500 t / day capacity.
+                                                                                                冉 冊 冋
+                                                                                 T fo = T fi exp −
+                                                                                                      UA
+                                                                                                      mfcf
+                                                                                                           + Ta 1 − exp −
+                                                                                                                          UA
+                                                                                                                          mfcf
+                                                                                                                                冉 冊册             共1兲
+
+                                                                       where U is the overall heat loss coefficient and is given by
+
+
+                                                                                                冤                               冥
+                                                                                                                                    −1
+                                                                                                     1   tdp          1
+                                                                                         U=            +     +                                   共2兲
+3 Modification in the Conventional Plant for Utiliza-                                               hgl kdp               1
+                                                                                                                  hroa +
+tion of Waste Heat                                                                                                       hcoa
+   The process, used in sponge iron industry, produces a signifi-         Considering m f , c f , and U as 18.15 kg/s, 1.14 kJ/ kg K, and
+cant amount of heat that remains unutilized. One of such example       7.037 W / m2 K, respectively, heat loss surface area of the drier is
+is the heat associated with waste gas. In the present work, heat of    calculated and presented in Table 2. Average drier heat loss sur-
+waste gas is utilized for preheating of inlet streams such as feed     face area is calculated to be 174.3 m2. Considering the inside
+material and air. For this purpose, two modifications, namely,         diameter of drier as 3 m 关15兴, the length of the drier is found as
+case-1 and case-2, are proposed. In case-1, preheating of feed         18.5 m.
+material is considered, whereas in case-2, preheating of feed ma-         The most important design parameter that affects the perfor-
+terial as well as air is accounted. In other words, cases-1 and -2     mance of the rotary drier is the residence time ␶ of the feed ma-
+are selected based on the increase in utilization of heat of waste     terials. For its computation, an empirical correlation, proposed by
+gas. For these modifications, variation of physical properties of      Friedman and Marshall, Jr. 关16兴 and shown through Eq. 共3兲, is
+waste gas, feed material, and air is assumed to be negligible.         used
+   3.1 Preheating of Feed Material. The possible approach to
+recover heat of waste gas is to preheat the feed to rotary kiln. The
+                                                                                           ␶=   冉      0.3L
+                                                                                                    tan ␣N0.9D
+                                                                                                                16.9LG
+                                                                                                               − 0.5
+                                                                                                                 dp F
+                                                                                                                                冊                共3兲
+feed materials to kiln are iron ore and coal. For preheating, a
+rotary drier is used as a heat exchanger. Some part of waste gas,        The rotational speed and slope of the drier are taken as 3.95
+which exits from ABC, is fed to the rotary drier at 750° C and         rpm and 1.03 deg, respectively. It gives residence time as 27.5
+taken out at 250° C.                                                   min. The amount of moisture removed increased with the increase
+   Preheating of feed is used to remove the moisture of coal as
+well as iron ore. For calculation purpose, it is considered that
+30 t / h iron ore requires 15.875 t / h feed coal. The computation     Table 2 Heat loss surface area of the drier for the temperature
+of actual coal consumption after the preheating of feed material is    drop of 25° C
+shown in Appendix A. This modification is referred as case-1.
+                                                                                T fi                       T fo                           A
+   3.1.1 Design of Rotary Drier. To design rotary drier, heat loss
+                                                                               共°C兲                       共°C兲                           共m2兲
+surface area is to be calculated. For this purpose, drop in tempera-
+ture of waste gas in the drier due to loss of heat through shell is            750                        725                            103.9
+required, which is computed using energy balance, as shown                     725                        700                            107.7
+below.                                                                         700                        675                            111.8
+   Enthalpy change of waste gas in the rotary drier= required en-              675                        650                            116.2
+ergy to heat the moisture from ambient temperature to 100° C                   650                        625                            121
++ required energy to vaporize the moisture at 100° C + required                625                        600                            126.2
+heat to heat the water vapor to outgoing waste gas temperature,                600                        575                            131.9
+                                                                               575                        550                            138
+i.e., T fo + required energy to heat the feed coal 共moisture free兲             550                        525                            144.9
+from ambient temperature to outlet temperature, i.e., Tco                      525                        500                            152.4
++ required energy to heat the iron ore 共moisture free兲 from ambient            500                        475                            160.7
+temperature to outlet temperature, i.e., Tco + heat lost to the sur-           475                        450                            170
+roundings through shell of the drier.                                          450                        425                            180.4
+   Detailed computation of different terms of energy balance is                425                        400                            192.2
+shown in Appendix B. It gives total heat loss to surroundings                  400                        375                            205.7
+through shell of drier and is 5.02⫻ 105 W. Drop in temperature of              375                        350                            221.2
+                                                                               350                        325                            239.2
+waste gas in the drier due to loss of heat is found to be 25° C,               325                        300                            260.4
+which took place at different sections of the drier. For accuracy,             300                        275                            285.7
+heat transfer surface area of the drier for the temperature drop of            275                        250                            316.5
+25° C of waste gas is calculated using Eq. 共1兲 关14兴.
+
+015001-4 / Vol. 3, MARCH 2011                                                                                     Transactions of the ASME
+in residence time. However, if residence time is more than the             4.1.3 Cost of Induced Direct Fan, Motor, Bearing, Coupling,
+required, then the rate of dusting is increased 关17兴. Thus, residence   and Electrical Works. Based on the market values cost of induced
+time of 27.5 min should be maintained in the drier to remove            direct fan, three phase motor, bearing, coupling, electrical works,
+moisture.                                                               and installation are computed.
+   3.1.2 Duct Carrying Waste Gas. The role of duct is to convey           4.1.4 Cost of STHE. Cost of STHE is computed based on the
+the waste gas from the top of the ABC to the rotary drier at            heat transfer area using the following expression 关20兴:
+desired temperature. The shape of the duct is cylindrical to reduce
+                                                                                         capital cost = 1,368,000 + 34,200A0.81            共4兲
+the surface area results in minimum heat loss during conveying
+the waste gas. The length of the duct is 43 m. The outside and
+inside diameters are 1.6 m and 1.2 m, respectively. The detailed           4.2 Operating Cost. The operating cost of the modification
+
+
+
+
+                                                                                                                                                  Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+design of the duct is shown in the work of Prasad et al. 关14兴. This     depends on the amount of coal utilized in the process. It does not
+                                                                        include the cost of iron ore as it is fixed for two modifications,
+design gives the temperature at the outlet of the duct as 750° C.
+                                                                        case-1 and case-2.
+The casing of the duct is of mild steel and inside it, 200 mm
+thickness of the insulating refractory brick is placed. The selection      4.3 Profit and Payback Period. Due to the preheating of
+of the brick is carried out based on thermal conductivity, which is     feed material and air coal, requirement of the process is reduced.
+computed using the concept of heat loss through composite pipe          Thus, savings due to reduction in coal consumption gives the total
+关14兴. In the present work, refractory brick of thermal conductivity     profit of the process. Based on capital cost, obtained in Sec. 4.1,
+114.36 kJ/ mh ° C is used. Magnesia fused or magnesia brick as          and profit, payback period of the modification is computed.
+refractory for the waste gas carrying duct is appropriate in this
+case 关18兴.
+   3.2 Preheating of Air. In the conventional process, waste gas        5       Coal Consumption for Overall Process
+of significant amount exits from the ABC at considerably higher            The coal consumption of sponge iron production process de-
+temperature. A part of it is utilized in the preheating of feed, as     pends on the total energy required in the process, which is sup-
+illustrated in Sec. 3.1. Remaining part of waste gas can be used to     plied by the combustion of coal. Thus, the present work requires
+preheat air. In the conventional process, air is preheated inside the   the computation of energy and coal consumption.
+kiln up to the reaction temperature before reduction takes place in        Total energy requirement of the conventional process depends
+the kiln. This heat is supplied by combustion of coal. Due to           on 共i兲 heat gained by incoming air and feed materials, 共ii兲 heat
+preheating of air outside the kiln using heat of waste gas, the heat    required for the endothermic reaction process, 共iii兲 heat lost
+supplied by combustion of coal for this purpose is reduced, which,      through the rotary kiln wall, 共iv兲 heat gained by coal, and 共v兲 heat
+consequently, reduces the amount of coal required. Another ben-         required by moisture of the feed material to evaporate. The esti-
+efit of this modification is that waste gas achieves T fo through       mation of total energy required for the conventional process con-
+preheating the air and thus water requirement in EC will be elimi-      sists of the following steps.
+nated. This modification is named as case-2. It is over and above
+case-1 as in this case, along with the preheating of feed materials,        •    Heat gained by the inlet air and bed of material: In the
+air preheating is also considered.                                               preheating zone, inlet air and iron ore is heated up to reac-
+                                                                                 tion temperature and then reduction takes place in the re-
+   3.2.1 Gas-Gas Heat Exchanger. For preheating of air using                     spective zone. The sensible heat gained by air and ore is
+waste gas, a shell and tube heat exchanger 共STHE兲 with gas-gas                   supplied by combustion of coal and computed using the
+combination is used. The detailed design of shell and tube heat                  following equations:
+exchanger is taken from Ref. 关19兴. The computation of heat trans-
+fer area is found using heat load and heat transfer coefficient. The                                  Qa = M aCa共t p − ta兲
+value of heat transfer coefficient is taken as 50 W / m2 ° C 关19兴.
+For carrying waste gas ducts to STHE are used in a similar man-                                       Qs = M sCs共t p − ta兲
+ner as discussed in Sec. 3.1.2.                                             •    Heat required for the reduction process to continue 关10兴:
+                                                                                 The stoichiometric equations responsible for the reduction
+                                                                                 of iron ore are
+4    Economic Analysis
+                                                                                   1/2 Fe2O3 + 3/2 CO = Fe + 3/2 CO2 − 12,866 kJ/kmol
+  For the proposed modifications, case-1 and case-2, rotary drier,
+STHE, and ducts are installed to preheat the feed material and air                                                                         共5兲
+to kiln. The method for computing capital and operating costs
+associated with these modifications are discussed here. However,                    1/3 Fe3O4 + 4/3 CO = Fe + 4/3 CO2 − 3904 kJ/kmol
+detailed computation of capital and operating costs for case-1 is                                                                          共6兲
+shown in Appendix C as sample calculation.
+                                                                                           FeO + CO = Fe + CO2 − 16,108 kJ/kmol            共7兲
+    4.1   Capital Cost
+                                                                                           FeO + C = Fe + CO + 156,482 kJ/kmol             共8兲
+  4.1.1 Cost of Duct From ABC Outlet to Rotary Drier. The
+duct is made of mild steel and inside it, insulating bricks are used.            Equation 共8兲 indicates the heat required for the desired rate
+The cost of duct depends on the weight that is computed based on                 of reduction of iron oxide to iron. CO generated by Eq. 共8兲
+the dimensions of the duct. Using the weight of duct and cost of                 is utilized either for further reduction of iron ore through
+unit weight of mild steel, the total cost of duct is computed. Fur-              Eqs. 共5兲–共7兲 or for combustion 共2 CO+ O2 → 2 CO2兲. It is
+ther, it includes the cost of insulating bricks. In a similar manner,            revealed from Eq. 共8兲 that 56 kg of sponge iron requires
+the costs of other ducts are computed.                                           approximately 12 kg of carbon and 156,482 kJ/kmol of en-
+                                                                                 dothermic heat. Therefore, for the endothermic process, heat
+   4.1.2 Cost of Rotary Drier With All Accessories and Shell and                 共kJ/h兲 requirement is computed as
+Tube Heat Exchanger. The cost of rotary drier includes the costs
+of three phase induction motor used to drive the drier, gear box,                                    Q p = 共156,482/56兲M s
+installation, girth gears, support rollers, drier mounted instru-           •    Heat lost through the kiln wall and refractory 关5兴: The actual
+ments, weigh feeders, conveyors, and vibrofeeders.                               heat loss through the wall includes lost through the kiln
+
+Journal of Thermal Science and Engineering Applications                                                 MARCH 2011, Vol. 3 / 015001-5
+                                                   Table 3 Economic analyses of cases-1 and -2
+
+                                      Operating cost        Fixed cost
+                                        共lakh/yr兲             共lakh兲
+                                                                           Total capital cost   Total profit   Payback period
+                        Cases     Commodity       Cost     Item     Cost         共lakh兲          共lakh/yr兲        共month兲
+
+                         1           Coal        3243.3    Drier   290.5         429.2             623.6            8.37
+                                                          Ducts     33.4
+                                                          ID fan    84.3
+                                                          Others    21
+                         2           Coal        2684.9   STHE      44.6         674.1            1180.6            6.95
+
+
+
+
+                                                                                                                                                   Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                                           Drier   290.5
+                                                          Ducts    128.3
+                                                          ID fan   168.7
+                                                          Others    42
+
+
+
+
+          shell, inlet and outlet hoods, and post combustion chamber       duct of 43 m and acquires a temperature of 750° C. After preheat-
+          and inlet area of the cooler. Therefore, total heat loss is      ing the feed, waste gas cools down to 250° C, which directly
+          assumed as twice as that of the kiln.                            enters the ESP through a duct of 20 m. For this purpose, a rotary
+                                                                           drier of length and diameter equal to 18.5 m and 3 m, respectively,
+                                Qloss = 2 ⫻ 共␲DL ⫻ hr兲
+                                                                           is used. The cost of rotary drier is Rs 290.5 lakh. The combined
+          where hr is the heat transfer coefficient.                       cost of two ducts, first from ABC outlet to rotary drier and second
+     •    Heat gained by coal: The coal is also required to be pre-        from rotary drier to ESP input, is found as Rs 33.37 lakh. For the
+          heated up to the reaction temperature and sensible heat in-      movement of waste gas in these ducts, an induced direct fan is
+          volved for this is shown as                                      required, which costs around Rs 84.3 lakh. To install ducts and
+                                  Qc = mcCc共t p − ta兲                      rotary drier Rs, 21 lakh is required for concreting and erection
+                                                                           work. Detailed computation of these costs is shown in Appendix
+     •    Heat required for removing the moisture of feed material:        C, which gives the total capital cost as Rs 429.2 lakh.
+          The average moisture contents in coal and iron ore are 13%          In fact, as coal consumption reduces, air requirement for com-
+          and 2% 关1兴, respectively, by weight in Indian conditions and     bustion of coal also decreases. The reduced amount of air is com-
+          the heat required to remove it is computed as                    puted based on the ratio of air to coal consumption in the conven-
+                                    Qm = mm ⫻ ␭                            tional process. For case-1, air requirement is found as 69.98 t / h.
+                                                                           Based on mass balance around the rotary kiln and ABC, total
+                             Qm = 共0.02ms + 0.13mc兲 ⫻ ␭                    waste gas exit from ABC is found as 111.46 t / h. From this value,
+                                                                           65.34 t / h is used to preheat the feed material and the rest, amount
+   It is considered as 70% of the total fixed carbon available in          of gas, i.e., 46.12 t / h, enters EC. In the present case, load of EC
+noncoking coal burns completely to give out the heat and the               is reduced by 64%, which is the additional advantage of the
+remaining 30% do not burn. The major fraction of this unburnt              present modification.
+carbon is lost to the atmosphere through waste gas as smoke, and              Case-1 reduces the coal consumption by 16.1%, which gives a
+the rest is discharged with sponge iron from the rotary kiln. The          profit of Rs 1.7 lakh/day in terms of saving of coal. Thus, total
+final empirical relation for estimating coal requirement is                payback period for case-1 is found as 8.37 months. The summary
+                                                                           of economic analysis for case-1 is shown in Table 3. The flow
+              Qs + Qa + Q p + Qloss + Qc + Qm = mcNHV共0.7兲           共9兲   diagram for case-1 is shown in Fig. 6. On the other hand, it can be
+or                                                                         seen that due to preheating of feed, the intake capacity of the
+                                                                           rotary kiln can be increased. If iron ore feed rate to kiln is in-
+ Qs + Qa + Q p + Qloss + 0.02ms ⫻ ␭ = mc关NHV共0.7兲 − Cc共T p − Ti兲           creased by 10%, feed coal is decreased by 14%. This process
+          − 0.13 ⫻ ␭兴                                              共10兲    increases the production of sponge iron by 10%. Thus, payback
+                                                                           period for this case is predicted as 6.82 months as profit is in-
+  The value of mc can be predicted from Eq. 共10兲, considering the          creased by decreasing the cost of feed coal and increasing the
+NHV of coal as 22,930.5 kJ/kg. The property data of air, ore, and          production of sponge iron.
+coal are constant and taken from literature 关21,22兴.
+                                                                              6.2 Case-2. In this case, along with the preheating of feed
+6        Results and Discussion                                            material, air preheating is also considered. Waste gas is used for
+                                                                           this purpose. In case-2, waste gas of amount 46.12 t / h, which
+   In the present work, two modifications are proposed for heat
+recovery in the conventional process of sponge iron production             entered EC in case-1, goes to the air preheater at 850° C. After
+and named as case-1 and case-2. These cases are discussed here in          heating, the air waste gas cools down to 250° C. Due to this ex-
+detail.                                                                    change, air of amount 69.98 t / h is preheated.
+                                                                              The present problem is somewhat different than case-1 in the
+   6.1 Case-1. In this case, waste gas is used to preheat the feed         sense that coal and air is preheated and at the same time it is
+material 共iron ore and coal兲 to kiln up to 110° C to remove the            considered as the source of heat in the process. Here, coal, along
+moisture. Consequently, coal consumption is reduced to                     with air, burns and provides the necessary heat. Due to the dual
+17.98 t / h. This value is obtained from Eq. 共10兲. In case-1, heating      nature of coal and air, evaluation of its amount necessitates trial
+of feed material from 110° C to 1020° C is done inside the kiln by         and error computation technique.
+the heat generated from combustion of coal instead of from 30° C              The problem associated with the above duality can be better
+to 1020° C as in the conventional plant. Thus, using waste gas             understood by the following example: Initially, air of amount
+heat, coal consumption can be reduced by 16.1% for the overall             69.98 t / h is preheated up to 466.6° C as waste gas of amount
+process. In this case, waste gas of amount 65.34 t / h is utilized,        46.12 t / h has sufficient heat to preheat air up to 466.6° C. When
+which is available at 850° C after ABC. First, it moves through the        these conditions, along with the preheating of feed material, are
+
+015001-6 / Vol. 3, MARCH 2011                                                                                   Transactions of the ASME
+                                                                                                                                                  Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                                       Fig. 6 Schematic diagram of modified process for case-1
+
+
+
+used in Eq. 共10兲, coal consumption is found as 14.225 t / h. The         consumption is found as 14.892 t / h, which is 30.5% less in com-
+amount of air depends on coal consumption, and so, air require-          parison to the conventional process. To carry the waste gas up to
+ment varies with change in the amount of coal and thus the               air, preheater duct is not required as the flow of waste gas is in the
+amount of air corresponds to 14.225 t / h of coal and is found as        natural direction, as shown in Fig. 4, and it is maintained by an
+49.439 t / h. This new value of coal and air is used for overall         induction fan mounted at the chimney.
+mass balance, which gives 90.9 t / h of waste gas. From this                In the present case, water requirement in EC is eliminated,
+amount, 65.34 t / h is used to preheat the feed material and             which is the additional advantage of the present modification, as
+25.5 t / h is employed to preheat air of amount 49.439 t / h. Now,       case-2 reduces the coal consumption by 30.5%, which gives a
+air can be preheated only up to 358.6° C instead of 466.6° C.            profit of Rs 3.23 lakh/day. Thus, total payback period for case-2 is
+Based on this trial and error method, air can be preheated up to         found as 6.95 months. The summary of economic analysis for
+386.7° C. Finally, the computed amount of coal comes out to be           case-2 is shown in Table 3. The flow diagram for case-2 is shown
+14.884 t / h, which is 30.6% less than the conventional process.         in Fig. 7.
+For case-2, rotary drier and STHE are employed for the preheat-
+ing of feed material and air, respectively. The cost of rotary drier        6.3 Comparison of Case-1, Case-2, and Existing Heat Re-
+is computed in a similar manner that is shown for case-1. How-           covery System of Plant. The comparison of different heat recov-
+ever, the cost of STHE is predicted as Rs 44.6 lakh using Eq. 共4兲.       ery options, such as existing heat recovery system, case-1, and
+The heat transfer area of this heat exchanger is found as                case-2, are shown in Table 4. It indicates that both cases are better
+260.3 m2. This modification requires three ducts. The first two are      than the existing heat recovery system of the plant. Moreover, it is
+similar to that for case-1 and a third duct of 85 m is required to       reported that in Indian scenario, generation of power from waste
+carry the hot air up to the rotary kiln inlet. In this duct, an insu-    heat is not successful with respect to its operation, stability, and
+lation of very low thermal conductivity material, such as ceramic        quality of steam 关7兴. Based on payback period and coal consump-
+fiber, is used, and so, loss of heat through this duct is not signifi-   tion, case-2 is selected as the best heat recovery option.
+cant. While moving through 85 m duct, only 1 deg drop in tem-               The reason why case-2 is a better modification in comparison to
+perature of air is observed. Now, air enters the kiln at 385.7 deg.      case-1 is illustrated as in the present sponge iron process, feed
+The damper inside the blower is made of stainless steel that can         material and air first reach from 30° C to reaction temperature,
+withstand with such a high temperature of air. Thus, preheating of       which is 1020° C and then reduction of iron ore takes place to
+air up to 385.7 deg did not cause any difficulty in operation.           produce sponge iron. To acquire feed material and air, the tem-
+Considering the inlet temperature of air as 385.7 deg, the coal          perature of 1020° C total heat is supplied by combustion of coal.
+
+
+
+
+                                       Fig. 7 Schematic diagram of modified process for case-2
+
+Journal of Thermal Science and Engineering Applications                                                MARCH 2011, Vol. 3 / 015001-7
+                                            Table 4 Comparison of different heat recovery options
+
+                                 Operating cost
+                                                                                                   Percent reduction
+                                                Cost    Total capital cost      Total profit           of water      Payback period
+                  Cases        Coal t / h     共lakh/yr兲       共lakh兲             共lakh/yr兲           consumption        共month兲
+
+                  Existing      21.437         3866.9     765                      728                  72.6            12.6
+                  1             17.98          3243.3     429.2                    623.6                46.5              8.37
+                  2             14.892         2684.9     588.2                   1180.6                72.6              6.95
+                                                  Input parameter                                         Output parameter
+                                Input temperature       t of coal/t                                                   Waste gas
+
+
+
+
+                                                                                                                                                      Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+                  Cases      Feed material    Air    of sponge iron          Amount of air t / h    Productivity t   generated t / h
+
+                  Existing      30               30             1.15                83.33                18.6            128.376
+                  1            110               30             0.97                70                   18.6            111.46
+                  2            110              385.7           0.8                 51.76                18.6             93.203
+
+
+
+
+In the present work, certain portion of total heat is provided by the         sumption. For this purpose, two modifications, case-1 and case-2,
+heat available with waste gas through cases-1 and -2 and remain-              are developed, where the heat available with waste gas is inte-
+ing portion of total heat is supplied by combustion of coal. Case-1           grated in the process to preheat feed material to kiln and air. These
+includes the preheating of feed material up to 110° C, which re-              cases are then compared with the existing waste heat recovery
+covers 3297 kW of heat from waste gas. However, for case-2,                   system of the plant based on coal consumption, operating and
+total heat recovery from waste gas is of 8577.6 kW for the pre-               capital costs, profit, and payback period. The salient features of
+heating of feed material and air up to 110° C and 385.7° C, re-               the present study are as follows.
+spectively. Thus, case-1 and case-2 save 3297 kW and 8577.6 kW,
+respectively, of total heat of combustion supplied to the conven-                1. Among case-1, case-2, and existing waste heat recovery sys-
+tional process.                                                                     tem, case-2 is selected as the best option for the utilization
+   The comparison of key input and output parameters for cases-1                    of waste heat. It saves 30.5% of coal in comparison to con-
+and -2 is also shown in Table 4, which indicates the inlet tempera-                 ventional process. This modification eliminates the use of
+tures of feed material and air when these enter the rotary kiln. As                 EC and, consequently, saves maximum of 72.6% water.
+inlet temperature of input streams increases, amount of coal re-                 2. Sponge iron industry is an energy intensive industry and
+quirement per ton production of sponge iron decreases due to the                    provides a large scope to decrease its energy bills to make it
+fact that less heat is required for the input stream to reach up to                 more competitive. Thus, to reduce energy as well as water
+                                                                                    consumption in these industries, modification suggested
+the reaction temperature of 1020° C.
+                                                                                    through case-2 can be applied.
+   The above analysis clearly indicates that case-2 is the better
+heat recovery option and consumes less amount of coal in com-
+parison to case-1. One direct benefit of case-2 is that it releases
+minimum waste gas to the atmosphere, as shown in Table 4,
+which makes the sponge iron production process environment                    Nomenclature
+friendly. In Table 4, percent reduction of water consumption is                           A ⫽ heat transfer surface area 共m2兲
+also presented, which is computed based on the total water con-                           c ⫽ specific heat capacity 共J / kg ° C兲
+sumption in ABC and EC.                                                                   D ⫽ diameter of drier and kiln 共m兲
+   Moreover, preheating of feed materials gives dry coal as fuel,                         d ⫽ mean particle diameter 共␮m兲
+which increases the kiln efficiency and fuel thermal value. Much
+                                                                                          F ⫽ material feed rate in the drier 共kg/h兲
+of the combustion heat of coal that could be used in the process is
+expended in moisture removal. Further, preheating in the drier                            G ⫽ mass flow rate of waste gas in the drier 共kg/h兲
+enhances the intake capacity of rotary kiln, which increases iron                         h ⫽ convective heat transfer coefficient used in the
+ore feed rate at the lower requirement of coal. Consequently, the                              drier, duct, and kiln 共W / m2 ° C兲
+productivity of the plant is increased. Preheating also allows the                        k ⫽ thermal conductivity 共W / m ° C兲
+effective control on the uniformity of feed materials as moisture                      kW h ⫽ kilowatt hour
+contents varies seasonally and depends on the quality.                                    L ⫽ length of the drier and kiln 共m兲
+   Preheated zone of the kiln increases if preheating of feed ma-                         ᐉ ⫽ length of the duct 共m兲
+terials and air take place inside the kiln as preheating time in-                        M ⫽ mass flow rate 共kg/h兲
+creases. That leads to operate the kiln at relatively higher tempera-                     m ⫽ mass flow rate of waste gas 共kg/s兲
+ture 1170° C in the reduction zone for increasing the heat transfer                       N ⫽ rotational speed of the drier 共rpm兲
+关10兴. Higher temperature for sponge iron making leads to opera-                          Nu ⫽ Nusselt number, dimensionless
+tional problems such as localized heating and liquid phase forma-                        Pr ⫽ Prandlt number, dimensionless
+tion. Preheating of the feed materials and air maintains maximum                          Q ⫽ heat transfer rate 共kJ/h兲
+temperature in the reduction zone around 1000° C, which is better                        Re ⫽ Reynold’s number, dimensionless
+for sponge iron making as accretion in the kiln is not formed                             r ⫽ radius 共m兲
+within this temperature 关10兴. It declines the material loss and in-                       T ⫽ temperature 共°C兲
+crease the kiln availability.                                                             T ⫽ average temperature 共°C兲
+                                                                                           t ⫽ tonne 共=1000 kg兲
+7   Conclusions                                                                           V ⫽ volume of the waste gas flowing through the
+  As the sponge iron industry is passing through several prob-                                 drier 共m3 / h兲
+lems, such as lack of proper integration of energy and increased                          v ⫽ velocity of the waste gas inside the duct and
+cost of raw materials, in the present work, an effort is made to                               drier 共m/s兲
+reduce the energy requirement of the plant in terms of coal con-                          x ⫽ thickness 共m兲
+
+015001-8 / Vol. 3, MARCH 2011                                                                                         Transactions of the ASME
+Greek Letters                                                             From Eqs. 共A1兲 and 共A2兲, it is concluded that although iron ore
+          ␣ ⫽ slope of the drier 共deg兲                                 feeding increases by 10% and feed coal decreases by 14%, the
+          ␭ ⫽ latent heat of vaporization 共kJ/kg兲                      kiln loading capacity is still below.
+          ␴ ⫽ density of waste gas flowing inside the drier
+              共kg/ m3兲                                                 Appendix B: Design of Rotary Drier
+          ␯ ⫽ kinematic viscosity of waste gas inside the                 The industrial drier requires 2.23⫻ 109 J / h heat for evapora-
+              duct and drier 共m2 / s兲                                  tion of 1t moisture 关23兴. In the conventional coal based sponge
+          ␶ ⫽ residence time of materials in the drier 共min兲           iron plant, 2.66375t moisture is present in feed materials to the
+Subscripts                                                             rotary kiln, which requires 5.936⫻ 109 J / h heat to evaporate.
+            a ⫽ ambient                                                Considering 50% efficiency of industrial drier 关23兴, the total re-
+
+
+
+
+                                                                                                                                                 Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+            c ⫽ coal                                                   quired heat is found as 11.87⫻ 109 J / h, i.e., 32.97⫻ 105 W. Inlet
+          coa ⫽ convective heat transfer coefficient from outer        and outlet temperatures of waste gas to drier are 750° C and
+                surface of the drier to outside atmosphere             250° C. Average density and specific heat capacity of waste gas
+                共W / m2 ° C兲                                           are 1.2 kg/ m3 and 1140 J / kg ° C, respectively 关18兴. From above,
+            d ⫽ duct                                                   required flow rate of waste gas is calculated as 18.15 kg/s. The
+                                                                       outlet temperature of feed material after moisture removal is as-
+           dp ⫽ drier plate
+                                                                       sumed as 110° C 关23,24兴.
+            f ⫽ waste gas
+                                                                          Enthalpy change of waste gas in the rotary drier= required heat
+           gl ⫽ heat transfer coefficient from within the waste
+                                                                       to heat moisture from ambient temperature to 100° C + required
+                gas to the drier plate 共W / m2 ° C兲
+                                                                       heat to vaporize moisture at 100° C + required heat to heat water
+            i ⫽ inside and inlet
+                                                                       vapor to outgoing waste gas temperature, i.e., 250° C + required
+           ms ⫽ moisture
+                                                                       heat to heat feed coal 共moisture free兲 from ambient temperature to
+            o ⫽ outside and outlet                                     the product temperature, i.e., 110° C + required heat to heat iron
+            p ⫽ process and particle                                   ore 共moisture free兲 from ambient temperature to the product tem-
+            r ⫽ refractory                                             perature, i.e., 110° C + heat lost to surroundings through shell of
+          roa ⫽ radiative heat transfer coefficient from outer         the drier.
+                surface of drier to outside atmosphere                    The values of these terms are computed, given as follows.
+                共W / m2 ° C兲
+            s ⫽ solids 共iron ore兲 in the kiln                              • Enthalpy change of waste gas in the rotary drier= 32.97
+                                                                             ⫻ 105 W.
+                                                                           • Required heat to heat moisture from ambient temperature to
+Appendix A: Preheating of Feed Material                                      100° C = mass of the moisture⫻ specific heat of moisture
+   A portion of heat of combustion of coal 共12% for 1t moisture兲             ⫻ ⌬T = 2.66375⫻ 103 ⫻ 4200⫻ 70= 2.17⫻ 105 W.
+is utilized in evaporating moisture in the form of waste gas 关18兴.         • Required heat to vaporize moisture at 100° C
+For 500 t / day, capacity flow rates of feed coal and iron ore are           = mass of moisture⫻ latent heat of vaporization
+15.875 t / h and 30 t / h, respectively. The moisture contents of            = 2.66375⫻ 103 ⫻ 2260⫻ 103 = 16.72 W.
+feed coal and iron ore are 13% and 2%, respectively.                       • Required heat to heat water vapor to outgoing waste gas
+                                                                             temperature, i.e., 250° C = number of mole of the moisture
+                                 13 ⫻ 15.875                                 ⫻ average specific heat capacity of steam⫻ ⌬T = 关2.66375
+      moisture in feed coal =                = 2.06375 t/h
+                                     100                                     ⫻ 103 / 18⫻ 10−3兴 ⫻ 35.4⫻ 150= 2.18⫻ 105 W.
+                                                                           • Required heat to heat the feed coal 共moisture free兲 from
+                                       2 ⫻ 30                                ambient temperature to the product temperature, i.e.,
+              moisture in iron ore =          = 0.6 t/h
+                                         100                                 110° C = 11.88⫻ 103 ⫻ 1.09⫻ 103 ⫻ 90= 3.24⫻ 105 W.
+                                                                           • Required heat to heat the iron ore 共moisture free兲 from am-
+   The total moisture in feed materials is 2.66375 t / h.
+                                                                             bient temperature to the product temperature, i.e., 110° C
+   From above, it is calculated that 31.965% heat of combustion of
+                                                                             = 32.34⫻ 103 ⫻ 0.45⫻ 103 ⫻ 90= 3.64⫻ 105 W.
+coal per hour is required to evaporate the total moisture content of
+feed materials in the kiln. Therefore, 31.965% of 15.875 t / h feed       From the above values, amount of heat lost to surroundings
+coal is consumed for moisture removal, which may be saved when         through shell of the drier is found to be 5.02⫻ 105 W. Drop in
+the feed material is preheated using waste gas. This implies that      temperature of waste gas in the drier due to loss of heat through
+30t iron ore requires 10.8 t / h moisture free coal for further re-    the shell of drier using flow rate, density, and specific heat of
+duction process in the kiln. Thus, 12.414t coal is required for 30t    waste gas is computed as 25° C. Average drier heat loss surface
+iron ore.                                                              area is calculated to be 174.3 m2, as shown in Table 2.
+   Thus, 33t iron ore requires 11.88t moisture free feed coal per         For the design of rotary drier, it is suggested that linear velocity
+hour for further reduction process.                                    should be around 3 m/s for solids of 5 mm mean particle size and
+   Let x be the amount of feed coal, which gives 11.88t moisture       around 0.3–1 m/s for 1 mm solids 关15兴. The design flow rate of
+free coal. Then                                                        waste gas in drier is calculated as 18.15 kg/s. Considering the
+               13x                                                     inside diameter as 3 m, linear velocity of waste gas comes to
+          x−       = 11.88 ⇒ 0.87x = 11.88 ⇒ x = 13.655                around 2.14 m/s. The mean particle size of feed material is around
+               100
+                                                                       12 mm, although 8.4% of the feed material sizes are below 5 mm.
+and so, 13.655t coal is required to reduce 33t iron ore to iron in     From above, linear velocity of waste gas as 2.14 m/s is accepted
+the kiln.                                                              conveniently for 12 mm mean particle diameter.
+   Conventional plant kiln loading
+                capacity = 15.875 + 30 = 45.875 t/h           共A1兲     Appendix C: Economic Analysis
+  For modified plant kiln                                              1       Capital Cost
+   loading = 11.88 + 关33 − moisture present in the iron ore兴
+                                                                         1.1 Cost of Duct From ABC Outlet to Rotary Drier.
+             = 44.22 t/h                                      共A2兲     Length and thickness of the duct of mild steel are 43 m and 6 mm,
+
+Journal of Thermal Science and Engineering Applications                                              MARCH 2011, Vol. 3 / 015001-9
+respectively. Its internal diameter is 1.6 m. The weight and density                    Table 5 Production cost of sponge iron
+of the duct are 10.24t and 7876 kg/ m3 关25兴. Considering the cost
+of mild steel plate as Rs 33, 000/ t, the total cost of 10.24t mild                                                           Total
+                                                                                                                          requirement             Cost
+steel plate would be Rs 3,37,920/-. The manufacturing, welding,                                                              per ton            Rs / tonne
+and installation costs of duct are taken as Rs 30,000/-, Rs               Input parameters        Unit cost Rs / t       of sponge iron      of sponge iron
+12,738/-, and Rs 15,000/-, respectively.
+   The number of insulating bricks used in lining inside the duct         Iron ore                      4063                   1.6t               6500
+are found as 2870 and the cost of one brick is Rs 800/-. Therefore,       Total coal                    2288                  1.18t               2700
+the purchase cost of insulating brick is Rs 22,96,000/-. Consider-        共feed+ injection兲
+ing the commissioning charges as Rs 5,00,000/-, the total cost for        Dolomite                    3571                  0.0269t                96
+                                                                          Electricity          Rs 2.54/- per kW h          128 kW h                325
+
+
+
+
+                                                                                                                                                                 Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+installation of duct is Rs 31,91,658/-.
+                                                                          Maintenance                                                              230
+   1.2 Cost of Returning Duct (From Rotary Drier to ESP                   Fixed cost                                                              1366
+                                                                          Depreciation                                                             400
+Input). The length, thickness of duct plate 共mild steel兲, and inter-
+nal diameter of duct are 20 m, 6 mm, and 1.6 m. Its capital cost is
+computed in a similar manner as for duct from ABC outlet to
+                                                                                    Table 6 Average selling price of sponge iron
+rotary drier and found as Rs 1,45,320/-.
+   1.3 Cost of Rotary Drier With All Accessories. These are               Size                       Percent of                     Normal market
+                                                                          共mm兲                       production                     price Rs / tonne
+the following market costs taken from different manufacturing
+units:                                                                    +3                             85                            14,300
+    • cost of rotary drier with accessories such as girth gears,          From −3 to +1                  10                            12,800
+      support rollers, drier mounted instruments, weigh feeders,                                                           14,000 共same as lump sponge
+                                                                          From −3 to +1                  10                    iron after briquetting兲
+      conveyors, and vibrofeeders= Rs 2 , 30, 00, 000/ -                  −1                             5                             14,300
+    • cost of three phase induction motor used to drive the drier
+      共capacity: 55 kW兲 = Rs 22, 00, 000/ -
+    • cost of gear box for rotary drier= Rs 31, 00, 000/ -
+    • installation cost of rotary drier= Rs 7 , 50, 000/ -                Rs 14100/ t and Rs 11600/ t of sponge iron, and so, profit for
+    • total cost of rotary drier with all accessories                     selling 1t sponge iron is Rs 2,500/-, which gives total profit of Rs
+      = Rs 2 , 90, 50, 000/ -                                             3,61,57,500/-.
+  1.4 Cost of Induced Direct Fan, Motor, Bearing, Coupling,                  2.3 Decrease in Feed Coal Consumption. The coal con-
+and Electrical Works.                                                     sumption in the rotary kiln of modified plant is declined from
+    •     cost of induced direct fan 共capacity: 60, 000 m3 / h兲           21.437 t / h to 17.98 t / h. For plant availability of 90%, coal con-
+                                                                          sumption is reduced to a value of 27255 t / yr. Cost of coal, as
+          = Rs 32, 00, 000/ -
+    •     cost of three phase motor for induced direct fan                shown in Table 5, is Rs 2288/ t, and so, savings due to reduction in
+          共capacity: 39 kW兲 = Rs 20, 00, 000/ -                           coal consumption is Rs 623.6 lakh/yr.
+                                                                             For case-1, gain of around Rs 623.6 lakh/yr is predicted and
+    •     cost of bearing of induced direct fan= Rs 5 , 50, 000/ -
+                                                                          investment is found as Rs 429.2 lakh, which gives payback period
+    •     cost of coupling used to couple fan and motor
+                                                                          of 8.37 months.
+          = Rs 77, 000/ -
+                                                                             When the intake capacity of the kiln is increased to 33 t / h,
+    •     approximate installation cost= Rs 7 , 500/ -
+                                                                          coal consumption is also increased to 19.217 t / h. In this case,
+    •     approximate cost of electrical works including material
+                                                                          total profit due to increased production of sponge iron and reduced
+          cost= Rs 26, 00, 000/ -
+                                                                          coal consumption is found as Rs 762.1 lakh/yr, which gives pay-
+    •     total cost for installation induced direct fan, its motor and
+                                                                          back period of 6.76 months.
+          electrical works= Rs 84, 34, 500/ -
+    1.5     Approximate Volume of Work and Cost.                          References
+    •                           3
+          concreting of 800 m = Rs 5 , 16, 000/ -                           关1兴 Agrawal, B. B., Prasad, K. K., Sarkar, S. B., and Ray, H. S., 2000, “Cold
+                                                                                Bonded Ore-Coal Composite Pellets for Sponge Ironmaking, Part 1, Labora-
+    •     structural erection of 320t = Rs 10, 56, 000/ -                       tory Scale Development,” Ironmaking Steelmaking, 27, pp. 421–425.
+    •     equipment erection 160t = Rs 5 , 28, 000/ -                       关2兴 Agrawal, B. B., Prasad, K. K., Sarkar, S. B., and Ray, H. S., 2001, “Cold
+    •     total= Rs 21, 00, 000/ -                                              Bonded Ore-Coal Composite Pellets for Sponge Ironmaking, Part 2, Plant
+                                                                                Trials in Rotary Kiln,” Ironmaking Steelmaking, 28, pp. 23–26.
+                                                                            关3兴 Rani Devi, S., and Mazumder, B., 2007, “Recovery of Carbon From Sponge
+   Therefore, the total capital cost involved in installing duct and            Iron Plants—Studies on Dedust Samples,” Env. Sci. Eng., 5, pp. 11–16.
+rotary drier is Rs 4,29,21,478/-.                                           关4兴 Misra, H. P., and Ipicol, B., 2006, “Indian Sponge Iron Production—Problems
+                                                                                and Solutions,” SGAT Bulletin, 7, pp. 37–46.
+                                                                            关5兴 Jena, S. C., Patnaik, N. K., and Sarangi, A., 1996, “Heat and Mass Balance in
+2       Operating Cost                                                          Rotary Kiln Sponge Iron Making,” Proceedings of International Conference
+                                                                                on Alternative Routes to Iron and Steel, Jamshedpur, India, pp. 59–64.
+   2.1 Production and Selling Price of Sponge Iron. The cost                关6兴 Bandyopadhyay, A., Ray, A. K., Srivastava, M. P., Subbarao, S. V. B., Prasad,
+analysis of the sponge iron is presented in Table 5, which shows                K. K., Bandyopadhyay, P. K., Haque, R., and Choudhary, B. R., 1987, “Se-
+that production cost of 1t of sponge iron is Rs 11600/-. The selling            lection of Coals for Rotary Kiln Sponge Iron Plant,” Trans. Indian Inst. Met.,
+prices for different sizes of sponge iron are mentioned in Table 6.              40, pp. 209–218.
+                                                                            关7兴 Agarwal, V. P., and Sood, K. C., 1996, “Direct Reduction Through Coal Route
+It gives average sales price of sponge iron in all sizes as Rs                  & Power Generation From the Kiln Waste Gases,” Proceedings of Interna-
+14100/-.                                                                        tional Conference on Alternative Routes to Iron and Steel, Jamshedpur, India,
+                                                                                pp. 51–58.
+  2.2 Increase in Production of Sponge Iron. It is shown in                 关8兴 Elsenheimer, G., and Serbent, H., 1988, “The Current Position of the SL/RN
+Appendix A that for modified plant, feed rate of iron ore is en-                Process, Taking Into Account Conditions in India,” Proceedings of Interna-
+                                                                                tional Conference on Alternative Routes to Iron and Steel, Jamshedpur, India,
+hanced from 30 t / h to 33 t / h. Plant availability is assumed to be           Vol. 2, pp. 105–110.
+90%. Thus, production of sponge iron is increased to a value of             关9兴 Hajidavalloo, E., and Alagheband, A., 2008, “Thermal Analysis of Sponge
+14, 463 t / yr. The average sales price and cost of production are              Iron Preheating Using Waste Energy of EAF,” J. Mater. Process. Technol.,
+
+
+015001-10 / Vol. 3, MARCH 2011                                                                                        Transactions of the ASME
+      208, pp. 336–341.                                                                 关18兴 Arora, S. C., and Domkundwa, A., 1987, A Course in Heat & Mass Transfer,
+关10兴 Biswas, D. K., Asthana, S. R., and Rau, V. G., 2003, “Some Studies on Energy            3rd ed., Dhanpat Rai and Sons, India.
+     Savings in Sponge Iron Plants,” Trans. ASME, 125, pp. 228–237.                     关19兴 Sinnott, R. K., 2005, Chemical Engineering Design-6, 4th ed., Elsevier
+关11兴 Eriksson, K., and Larsson, M., 2005, Energy Survey of the Sponge Iron Pro-              Butterworth-Heinemann, Oxford, UK.
+     cess, Sweden.                                                                      关20兴 Shenoy, U. V., 1995, Heat Exchange Network Synthesis: Process Optimization
+关12兴 Mignard, D., and Pritchard, C., 2007, “A Review of the Sponge Iron Process              by Energy and Resource Analysis, Gulf, Tokyo.
+     for the Storage and Transmission of Remotely Generated Marine Energy,” Int.        关21兴 Green, D. W., and Perry, R. H., 2008, Perry’s Chemical Engineers’ Handbook,
+     J. Hydrogen Energy, 32, pp. 5039–5049.                                                  8th ed., McGraw-Hill, New York.
+关13兴 http://www.cpcb.nic.in/upload/NewItems/NewItem_102_SPONGE_IRON.pdf
+                                                                                        关22兴 Grønvold, F., and Sawelsen, E. J., 1975, “Heat Capacity and Thermodynamic
+关14兴 Prasad, A. K., Srivastava, A. K. L., and Prasad, R. K., 2005, “Duct Carrying
+     Waste Gas: Design and Development,” 50th Congress of ISTAM 共An Interna-                 Properties of ␣-Fe2O3 in the Region 300–1050 K. Antiferromagnetic Transi-
+     tional Meet兲, Kharagpur, India.                                                         tion,” J. Phys. Chem. Solids, 36, pp. 249–256.
+关15兴 Keey, R. B., 1972, Drying Principle and Practice, Pergamon, New York.              关23兴 Andrej, H., 2006, The Powder/Bulk Portal/Influence of a Particle Size on the
+
+
+
+
+                                                                                                                                                                            Downloaded from asmedigitalcollection.​asme.​org/​thermalscienceapplication/​article-pdf/​3/​1/​015001/​5618488/​015001_1.​pdf by Indian Institute Of Technology- New Delhi user on 09 November 2026
+关16兴 Friedman, S. J., and Marshall, W. R., Jr., 1949, “Studies in Rotary Drying, Part        Capacity of a Rotary Drier/Post Reply, Bulk-Online, Dec. 11.
+     I: Holdup and Dusting,” Chem. Eng. Prog., 45, pp. 482–493.                         关24兴 Sathe, V., 2006, The Powder/Bulk Portal/Influence of a Particle Size on the
+关17兴 Margono, M. T. H., Alyway, A., Kuswandi, and Susianto, 2009, “Effects of                Capacity of a Rotary Drier/Post Reply, Bulk-Online, Sep. 29.
+     Feed Rate and Residence Time on Environment of Rotary Dryer Processes,” J.         关25兴 Miner, D. F., and Seastone, J. B., 1995, Handbook of Engineering Materials,
+     Appl. Sci. Env. San., 4, pp. 11–20.                                                     John Wiley and Sons, Inc., New York.
+
+
+
+
+Journal of Thermal Science and Engineering Applications                                                                 MARCH 2011, Vol. 3 / 015001-11
+

@@ -1,0 +1,2459 @@
+© The Energy and Resources Institute, 2023
+
+The material in this publication is copyrighted. Content from this report may be used for non-commercial purposes, provided
+it is attributed to the source. Enquiries concerning reproduction should be sent to the address: The Energy and Resources
+Institute, Darbari Seth Block, India Habitat Centre, Lodhi Road, New Delhi – 110 003, India
+
+
+
+
+Suggested citation
+TERI. (2023). Financing Decarbonization of the Secondary Steel Sector in India: Towards an Enabling Environment.
+New Delhi, India: The Energy and Resources Institute.
+
+
+
+
+Authors
+Dr Manish Kumar Shrivastava
+Mr Uday Veer Singh
+Mr K Sai Dinesh
+Mr Sangeeth Raja Selvaraju
+Dr Karsten Neunoff
+
+
+
+
+Internal Advisors
+Mr R R Rashmi
+Mr Girish Sethi
+Mr Prosanto Pal
+Mr Sobhanbabu PRK
+
+
+
+
+PUBLISHED BY
+The Energy and Resources Institute (TERI)
+TERI, Darbari Seth Block IHC Complex, Lodhi Road, New Delhi 110 003, India
+Tel: +91 11 2468 2100 or 2468 2111 | Fax: +91 11 2468 2144 or 2468 2145
+Email: info@teri.res.in | Web: www.teriin.org
+Acknowledgments
+This study is an outcome of an extensive literature review and consultations with
+experts on climate change, mitigation technologies, financial institutions, and the
+secondary steel sector. We acknowledge the insights and feedback of domain
+experts from various organizations who participated in expert consultations
+across the tenure of the project. The insights offered by experts in these
+discussions have enabled a deeper understanding of the needs of the secondary
+steel sector and policy requirements to enabling a conducive environment
+for the timely access to international climate finance for the sector. We are
+indebted to our internal advisors Mr R R Rashmi, Mr Girish Sethi, Mr Prosanto
+Pal, and Mr Sobhanbabu PRK for their valuable guidance and mentorship and
+for their continued support throughout the process of developing this document.
+We would also like to extend our heartfelt gratitude to our colleague Ms Dorothy
+Ashmita Biswas for her support in conducting consultations with sectoral experts.
+
+
+About the Project
+The SNAPFI (Strengthening National Climate Policy Implementation: Comparative
+Empirical Learning & Creating Linkages to Climate Finance) project explores
+how international climate finance can support the implementation of NDCs in
+emerging economies and EU countries through comparative analyses and by
+providing a better understanding of the interface between finance and policy
+implementation. It is coordinated by DIW Berlin, the German Institute for
+Economic Research.
+
+
+Financial support
+The International Climate Initiative (IKI), Federal Ministry for the Environment,
+Nature Conservation, Nuclear Safety and Consumer Protection.
+                                  Contents
+vii    Abbreviations
+viii   Executive Summary
+  2    1. Introduction
+  2    1.1 Background to the Study
+  6    2. Dynamics of the Secondary Steel Sector in India
+  6    2.1 The Secondary Steel Sector Value Chain
+  6    2.2 Energy and Emission Intensity of the Secondary Steel Sector
+  7    2.2.1 Direct Reduction Iron (DRI)
+  7    2.2.2 Electric Arc Furnaces and Induction Furnaces (EAF & IF)
+  8    2.2.3 Secondary Steel Re-rolling Mills (SSRM)
+ 12    3. Potential Pathways for Decarbonization
+ 12    3.1 Incremental Pathways
+ 12    3.1.1 Integrating the Best Available Technologies (BATs)
+ 14    3.1.2 Integrating Input-based Solutions
+ 14    3.1.3 Integrating Renewable Energy Sources
+ 14    3.2 Transitional Pathways
+ 14    3.2.1 Coal-Based DRI to Natural Gas DRI
+ 15    3.2.2 Coal-based DRI to Hydrogen-based DRI
+ 15    3.2.3 Integrating Direct-Rerolling with DRI-EAF/IF
+ 16    3.3 Overall Financial Requirements
+20     4. Finance for the Secondary Steel Sector
+20     4.1 Sources of Finance for the Secondary Steel Sector
+ 21    4.2 Barriers to Accessing Finance
+23     4.3 The Role of International Climate Finance (ICF)
+23     4.3.1. Indian Secondary Steel Sector’s Exposure to ICF
+24     4.3.2 International Examples of Financing LCT and MSME Support
+25     4.4 Financial Instruments for Financing Decarbonization
+30     5. Recommendations
+30     5.1 Interventions at the National-Level
+ 31    5.2 Interventions to Enhance the flow of International Climate Finance
+32     Conclusion
+33     References
+35     Annexures
+                                                LIST OF
+
+                                     Figures
+ 7 FIGURE 1: Value Chain and GHG Emissions of the Secondary Steel Sector
+ 9 FIGURE 2: Distribution of Steel Re-rolling Mills in India
+12 FIGURE 3: Potential Pathways for Decarbonization of the Secondary Steel Sector
+20 FIGURE 4: Financial Sources for the Secondary Steel Sector
+
+
+
+
+                                                LIST OF
+
+                                       Tables
+15 TABLE 1: Estimated Investment Requirements for Transition to Natural Gas-
+   based DRI
+15 TABLE 2: Estimated Investment Requirements for Hydrogen based-DRI
+16 TABLE 3: Estimated Investment Requirements for Integrating Direct-Rerolling
+   with DRI-EAF/IF
+16 TABLE 4: Summary of Overall Financial Requirements for the Potential
+   Pathways
+22 TABLE 5: Barriers to Accessing Finance for the Secondary Steel Industry
+24 TABLE 6: Energy Efficiency (EE) Programs for MSMEs in the Indian Secondary
+   Steel Sector11
+26 TABLE 7: Financial Instruments & their Suitability against Barriers to Finance
+
+
+
+
+                                                LIST OF
+
+                                     Graphs
+ 6 GRAPH 1: Total Volume of Crude Steel Production by the Secondary Steel
+   Sector in India
+ 8 GRAPH 2: Number of Steel Re-rolling Mills based on Plant Types
+Abbreviations
+ADB       Asian Development Bank
+BAT       Best Available Technologies
+BEE       Bureau of Energy Efficiency
+BEE-SME   National Program on Energy Efficiency and Technology Upgradation of SMEs
+BF/BOF    Blast Furnace/ Blast Oxygen Furnace
+CIF       Climate Investment Fund
+CGTMSE    Credit Guarantee Fund Trust for Micro and Small Enterprises
+CLCSS     Credit Linked Capital Subsidy Scheme for Technology Upgradation
+CTF       Clean Technology Fund
+DRI       Direct Reduction Iron
+EAF       Electric-Arc Furnace
+EE        Energy Efficiency or Energy-efficient
+EEFP      Energy Efficiency Financing Platform
+EERF      Energy Efficiency Revolving Fund
+GCal      Giga Calories
+GCF       Green Climate Fund
+GEF       Global Environment Facility
+GIZ       Deutsche Gesellschaft für Internationale Zusammenarbeit
+IF        Induction Furnace
+ICF       International Climate Finance
+JICA      Japan International Cooperation Agency
+KfW       Kreditanstalt für Wiederaufbau Development Bank
+LCT       Low-Carbon Transition
+MDB       Multilateral Development Bank
+MoEFCC    Ministry of Environment, Forest and Climate Change
+MSME      Micro, Small, and Medium Enterprises
+MT        Million Tonnes
+MTOE      Million Tonnes of Oil Equivalent
+MTPA      Million Tonnes Per Annum
+NAPCC     National Action Plan on Climate Change
+NBFI      Non-Banking Financial Institution
+NMEEE     National Mission for Enhanced Energy Efficiency
+PAT       Perform, Achieve, and Trade
+PRGFEE    Partial Risk Guarantee Fund for Energy Efficiency
+RAMP      Raising and Accelerating MSME Performance
+SAPCC     State Action Plan on Climate Change
+SBI       State Bank of India
+SEC       Specific Energy Consumption
+SECF      State Energy Conversation Funds
+SIDBI     Small Industries Development Bank of India
+SSRM      Secondary Steel Re-rolling Mills
+TADF      Technology Acquisition & Development Fund
+TEQUP     Technology and Quality Upgradation (TEQUP) Support to MSMEs
+UNFCCC    United Nations Framework Convention on Climate Change
+UNIDO     United Nations Industrial Development Organization
+UNDP      United Nations Development Programme
+VCFEE     Venture Capital Fund for Energy Efficiency
+
+
+
+
+                                                                                     vii
+       Executive
+       Summary
+viii
+ix
+    Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+    EXECUTIVE SUMMARY
+    India is the second-largest producer of crude steel as well as the second-largest consumer of finished steel in the world. The sector
+    contributes to about 2% of the total GDP of the country and employs 2.6 million people directly and indirectly through allied sectors. The
+    Indian steel sector is further bifurcated into the primary and secondary steel sector based on their production pathways. The secondary
+    steel sector largely utilizes the Direct Reduction-Electric Arc Furnace (DRI-EAF) route or the DRI-Induction Furnace (DRI/IF) route for crude
+    steel production and is also involved in the production of finished steel through re-rolling mills. Overall, the secondary sector accounts
+    for about 40% of steel production in India.
+    The secondary steel sector also remains highly emission-intensive, being responsible for around 50 million tonnes (MT) of GHG emissions,
+    annually. Excessive reliance on low-quality coal, iron ore, and low shares of scrap input coupled with heterogenous scattered units of
+    operations add to the deep decarbonization challenge for the secondary steel sector in India. To align India’s ambitious growth visions
+    with its commitment to reach net-zero emissions by 2070, it is vital to enable the low-carbon transition (LCT) of the secondary steel
+    sector, particularly through the development of a suitable enabling environment to scale-up the flow of finance for the adoption of
+    low-carbon technologies by the sector.
+
+    The Secondary Steel Sector Value Chain Potential Pathways for Decarbonization
+    The value chain of the secondary steel sector involves the production of sponge iron through the direct reduction route (DRI plants),
+    which is followed by the production of crude steel (semi-finished steel) through Electric Arc Furnaces (EAF) or Induction Furnaces (IF).
+    Lastly, finished steel products are produced through steel re-rolling mills. There are approximately 333 DRI plants, 55 EAFs, 1103 IFs, and
+    1313 Steel-rerolling mills scattered across the country. The DRI process accounts for about 30 MTCO2 emissions annually, while the IFs
+    and EAFs emit 13.4 MTCO2 and 0.1 MTCO2, respectively. Additionally, the re-rolling mills are responsible for 6 MTCO2 emissions annually.
+
+    Potential Pathways for Decarbonization and their Financing Needs
+    The potential pathways to decarbonization for the secondary steel sector in India involve short-term incremental pathways with
+    limited potential and low investment requirements, and long-term transitional pathways which would require greater investment.
+    The incremental pathways include integrating the best available technologies (BATs) in DRI, EAF, IF, and Re-rolling mills’ production
+    processes, integrating input-based solutions, and renewable energy utilization. The transitional pathways involve converting coal-based
+    DRI plants to hydrogen/natural gas-based plants, and direct re-rolling integration with the DRI-EAF route.
+    Notably, for 333 DRI plants, 55 EAF units, 1103 IF units, and 1257 re-rolling units (TERI-GIZ, 2022), the financing requirements for
+    incremental pathways would be USD 15,129 million and further rise to a cumulative total of USD 169,583 million when transitional
+    pathways are accounted for as well.
+
+    Finance for the Secondary Steel Sector
+    The secondary steel sector receives finance from diverse international, national, private, public, formal and informal sources. However,
+    its overall access to institutional financing for decarbonization technologies remains low. Several barriers hinder the secondary steel
+    sector’s access to financing for LCT technologies. These can be broadly classified into:
+    »   Knowledge-based barriers such as awareness gaps, documentation requirements, lacking financial expertise, and high perceived
+        risks from financiers.
+    »   Cost of Capital-related barriers such as high transaction costs, low margins for institutions, high interest rates, payback periods,
+        due diligence requirements, and inadequate maximum funding limits from financiers.
+    »   Creditworthiness-based barriers such as poor cashflow, delayed payments, low credit scores, and low collateral holdings.
+
+    While several financial tools such as revolving funds, credit lines, technical grant programs, guarantees and risk-sharing facilities have
+    been deployed around the world to support the uptake of clean-tech, the unique case of the secondary steel sector in India — in terms of
+    its twin requirements of financing and technical handholding, suggest that unique considerations for an enabling environment would be
+    required to support its decarbonization goals. Furthermore, a combination of diverse financial instruments might to be required to address
+    sub-sectoral diversity and needs.
+
+
+
+
+x
+                                                 Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+Recommendations for Financing the Secondary Steel Sector
+Keeping in mind the unique composition and sub-sectoral necessities of the secondary steel sector in India, the report lays out the
+following recommendations.
+
+Interventions at the National-Level
+»   Development of a Multi-Stakeholder Platform with the participation of government institutions, knowledge institutions, industry
+    associations, financial associations, and technology providers. The platform can crucially address information gaps for the industry
+    on financial provisions and due diligence, as well as enable financiers to know better about emerging technologies.
+»   Cluster-level Interventions to essentially map secondary steel units into clusters which could be supported through securitization
+    to secure loans for working capital requirements, and large-scale revolving funds. Up-take of clean technologies could be initiated
+    in clusters with programmatic partnerships, performance-based mechanisms, technical support, and hand-holding.
+»   Development of a Dedicated National Fund for Steel Decarbonization to facilitate the financing of low-carbon transition of the
+    Indian steel sector. Such a fund could be housed with the Ministry of Steel and SIDBI could be assigned a facilitative role for
+    financing.
+»   A Financially backed Scheme for the Integration of Waste Heat Recovery Systems which could provide incentives for adoption to
+    facilitate energy efficiency and emission-reduction in a short amount of time.
+»   Dedicated Renewable Energy Supply for the IF/EAF Units to effectively mitigate scope 2 emissions from the sector. Importantly,
+    centre-state policy coordination on power supply would need to be streamlined, alongside an overall expansion of the power grid.
+»   Enhancing Scrap Availability and Collection to amplify scrap utilization and promote a circular economy model for the secondary
+    steel sector’s sustainable future. To ensure material availability, the successful implementation of policies such as the National
+    Vehicle Scrappage Policy would be essential.
+
+Interventions to Enhance the flow of International Climate Finance
+»   Multi-level Risk Guarantee Mechanisms dedicated to de-risking financing low-carbon transition technologies with longer payback
+    periods need to be developed to attract private investment. For layered-risk funding mechanisms, the first layer of guarantee can
+    be provided at the sub-national/national level, which could be further supported by international climate finance. Consequently,
+    requirements of due diligence on documentation, reporting, and monitoring can also be assigned at local levels to overcome the
+    cost of capital-related barriers to accessing international climate finance.
+»   A Sector-Level Modernization Programme supported by ICF – International climate finance needs to be viewed as a major source
+    to finance the LCT of the secondary steel sector. A sector level modernisation programme could be prepared to address the
+    decarbonization challenge in phases – starting with the adoption of energy efficiency measures and alternative fuels; and shall be
+    posed to the World Bank or the GCF for funding and accessing international climate finance.
+
+
+
+
+                                                                                                                                                    xi
+      SECTION 1:
+
+
+      Introduction
+xii
+1
+    Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+    INTRODUCTION
+                                              1.1 Background to the Study
+                                              The iron and steel industry forms the backbone of development and is essentially the lifeline for
+                                              the growth of several sectors of an economy. With high strength, durability, and recyclability,
+                                              steel provides input for sectors like infrastructure, buildings, and transport. Consequently, it
+                                              plays an indispensable role in ensuring a sustained growth trajectory for an economy. Globally,
+                                              the iron and steel sector generates a revenue of about USD 1.6 trillion directly and employs over
+                                              6 million people.1
+                                              India is the second-largest producer of crude steel as well as the second-largest consumer of
+                                              finished steel in the world. The sector contributes to about 2% of the total GDP of the country
+                                              and employs 2.6 million people directly and indirectly through allied sectors.2 The Indian steel
+                                              industry comprises primary and secondary steel producers, differentiated by their size and
+                                              routes of steel production. The primary producers largely utilize the Blast Furnace/Blast Oxygen
+                                              Furnace (BF/BOF) route, while the secondary producers are involved in the Direct Reduction-
+                                              Electric Arc Furnace (DRI-EAF) route or the DRI-Induction furnace (DRI/IF) route for crude steel
+                                              production. Additionally, the secondary steel sector is also involved in the production of finished
+                                              steel through steel re-rolling mills, forging, and foundries. In total, the secondary sector accounts
+                                              for about 40% of steel production in India.3
+                                              In India, about one-fifth of industrial energy consumption comes from the iron and steel sector,
+                                              and of its total energy input of 70 Mtoe (million tonnes of oil equivalent), 85% comes from coal.
+                                              Consequently, the excessive reliance on low-quality coal, iron ore, and smaller share of scrap
+                                              input as compared to the global average (23% as compared to the global average of 32%), adds
+                                              to the deeper transitional challenge for the hard-to-abate steel sector in India (IEA, 2020). The
+                                              secondary steel sector further remains highly emission-intensive, being responsible for around
+                                              50 million tonnes (MT) of GHG emissions annually – about 60% of which comes from the DRI
+                                              process, 26.8% from IFs, 0.2% from EAFs, and 13% from Steel-re-rolling mills (TERI & GIZ, 2022).
+                                              Significantly, the secondary units are also relatively smaller in their operation, scattered, and
+                                              quite heterogeneous in their production routes and functions, which makes their low-carbon
+                                              transition a greater challenge.
+                                              For India to align its ambitious growth vision with its commitment to reach net-zero emissions
+                                              by 2070, it is vital to enable the low-carbon transition (LCT) of the secondary steel sector,
+                                              particularly by scaling up finance for the adoption of low-carbon technologies in the sector. Low-
+                                              carbon transition for the secondary steel sector simply implies an approach to replace current
+                                              high-emitting production processes with relatively lower emitting options- in a phased manner.
+                                              While certain commercially viable energy-efficient technologies have been available to the
+                                              secondary steel sector, their adoption remains lukewarm. Several technical barriers relating to
+                                              low awareness and technological unfamiliarity, alongside limited access to institutional finance,
+                                              restrict the low-carbon transition of the secondary steel sector. Furthermore, beyond the scope
+                                              of targeting technological low-hanging fruits in the short term, the long-term decarbonization
+                                              strategy for the secondary steel sector would require large-scale financing from domestic, as
+                                              well as international sources. Consequently, directing focused attention towards developing a
+                                              favourable enabling environment to attract large-scale financing for the secondary steel sector
+                                              garners great imminence. It emerges fundamental to addressing the financing needs of the
+                                              sector. The promotion of circularity and greater scrap availability and utilization by the secondary
+
+
+                                              1
+                                                  World Steel in Figures 2022. (2023, June 1). World Steel Association. https://worldsteel.org/steel-topics/statistics/
+                                                  world-steel-in-figures-2022
+                                              2
+                                                  JSW - Steel and Indian Economy: An Upward Curve. (n.d.). https://www.jsw.in/steel/steel-and-indian-economy-upward-
+                                                  curve#:~:text=Steel%20now%20contributes%20about%202,in%20the%20global%20steel%20market
+                                              3
+                                                  Ministry of Steel - Annual Report 2022-23. (2023, June 20). https://steel.gov.in/sites/default/files/MoS%20AR%202022-
+                                                  23.pdf
+
+
+2
+          Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+steel sector would also hinge on the development of an conducive ecosystem, and shall further
+support the lowering of standalone investment costs.
+This study focuses on understanding the secondary steel sector’s access to finance, and the
+possible ways of enhancing its access to international climate finance through the development
+of a suitable enabling environment.
+The Study utilizes an extensive literature review and draws from stakeholder consultations for
+the validation of preliminary findings. A diverse group of stakeholders was consulted for the
+study, varying from industry associations to research experts and financial associations. A list of
+stakeholders consulted for this study has been provided in Annexure-1.
+Structurally, section 2 of the report elaborates on the value chain of the secondary steel sector
+and gives a breakdown of its energy and emission intensity. Section 3 discusses various potential
+pathways to decarbonize the secondary steel sector in the short and the long term, alongside
+the financial requirements for each of the pathways. Section 4 focuses on aspects of finance.
+It discusses the sources of finance for the secondary steel sector and the challenges faced by
+the sector in accessing finance. Furthermore, it elaborates on the role that international climate
+finance can play in facilitating the decarbonization of the sector, citing examples of international
+experience alongside, and mapping the financial instruments that can be deployed. Lastly,
+section 5 provides recommendations for scaling up the flow of international climate finance to
+the secondary steel sector in India, through the enrichment of an enabling environment, in order
+to accelerate the low-carbon transition of the sector.
+
+
+
+
+                                                                                                             3
+    Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+    2. DYNAMICS OF THE SECONDARY STEEL
+       SECTOR IN INDIA
+                               2.1 The Secondary Steel Sector Value Chain
+                               The value chain of the secondary steel sector involves the production of sponge iron through the direct
+                               reduction route (DRI plants), which is followed by the production of crude steel (semi-finished steel) through
+                               Electric Arc Furnaces (EAF) or Induction Furnaces (IF). Lastly, finished steel products are produced through steel
+                               re-rolling mills which involve hot and cold rolling units, as well as galvanizing units. There are approximately
+                               333 DRI plants, 55 EAFs, 1103 IFs, and 1313 Steel-rerolling mills scattered across the country contributing to the
+                               value chain of the secondary steel sector (TERI & GIZ, 2022).
+                               Graph 1 represents the total volume of crude steel production by the secondary steel sector between the years
+                               2017 and 2022, through different production routes. As the graph highlights, the average steel production by
+                               the secondary steel sector during the period is approximately 42 MT - accounting for 38-40% of total crude
+                               steel production in the country, annually (Ministry of Steel, 2023). Deductively from the total production
+                               output, the integrated steel plants have recovered substantially post the COVID-19 pandemic. On the contrary,
+                               sluggish demand, poor cashflow liquidity, and technological backwardness has seen a slow recovery for the
+                               secondary steel sector.
+
+
+                                                 140
+
+                                                 120
+
+                                                 100
+
+
+
+
+                                Million Tonnes
+                                                 80
+
+                                                 60
+
+                                                 40
+
+                                                 20
+
+                                                  0
+                                                       2017         2018              2019              2020             2021           2022
+
+                                                       BOF      EAF           IF          Total (SSP)          Total Crude Steel (ISP+MSME)
+
+                                  GRAPH 1: Total Volume of Crude Steel Production by the Secondary Steel Sector in India
+                                  Source: MoS, 2022-23
+
+
+                                    2.2 Energy and Emission Intensity of the Secondary Steel Sector
+                                    The secondary steel sector is highly energy and emission-intensive due to its excessive dependence on
+                                    coal and inefficient technological processes. Figure 1 represents the share of each sub-segment of the total
+                                    emissions made by the secondary steel sector. The DRI process is the most emission-intensive, greatly
+                                    due to its dependence on coal. Although IFs are responsible for about 14% of the total emissions and EAFs
+                                    add up to only 0.2% of the total emissions, it is important to note that their individual efficiencies are
+                                    identical and require similar amount of attention to improve energy-efficiency. As affirmed by the industry
+                                    stakeholders, it is largely due to the historical development of the secondary steel industry that there are
+                                    more indigenous IF units in the country, as compared to the EAFs, that had to be imported. Furthermore,
+
+
+
+6
+                                           Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+another contributing factor to more emissions from the IF segment is its greater reliance on sponge iron from the DRI
+route, rather than on scrap for input. In comparison, the EAF segment has more utilization of scrap.
+Since the largest mitigation potential is in the top value chain of the secondary steel sector (DRI, IF, EAF, and rerolling
+processes), the next section discusses these segments individually.
+
+
+
+
+                                 333 Units-                                 55 Units-
+                                 30 MTCO2E                                 0.1 MTCO2E
+     Total                         (60%)                                      (0.2%)
+  Emissions -                                                               Electric-Arc        Crude Steel
+  50 MT/year                       Direct                                     Furnace         (Semi-finished)
+   (approx.)                    Reduced Iron                                   (EAF)
+                                   (DRI)                                                                               1313 Units-
+     Raw                                                                                                             6 MTCO2E (13%)
+    Materials                       80%
+                                 coal-based                                                                           Steel Re-rolling
+     Iron Ore                                                               Scrap Steel                                    Mills
+                                (rotary kilns)
+      Pellets,
+   Limestone/                                                                                                             Finished
+    Dolomite                        20%
+                                                                                                                           Steel
+                                 gas-based
+                                  (vercal                                  Inducon
+                                   shas)                                                       Crude Steel
+                                                                           Furnace (IF)
+                                                                                              (Semi-finished)
+                                                                            1103 Units-
+                                                                           13.4 MTCO2E
+                                                                              (26.8%)
+
+FIGURE 1: Value Chain and GHG Emissions of the Secondary Steel Sector
+Data Source: TERI & GIZ, 2022
+
+
+
+2.2.1 Direct Reduction Iron (DRI)
+India is the largest global producer of sponge iron through the DRI route — accounting for 36% of the total global
+production (Ghosh et al., 2021). In this process, the iron ore is reduced directly to produce metallic iron. For the reduction
+of iron ore, coal, natural gas, and hydrogen can be used as reducing agents. Most sponge iron production in India comes
+from coal-based rotary kilns - with a total installed capacity of 36.74 MT (about 80% of the total sponge iron production),
+while the remaining capacity of 11.10 MT is constituted by natural gas-based vertical shafts (Ministry of Steel, 2023).
+About 98% of the energy consumption of coal-based DRI plants comes from thermal sources, while the remaining 2%
+comes from electricity utilized to power motors and other allied equipment. The average specific energy consumption
+(SEC) of coal-based DRI plants is 4.51 Giga calories per ton (Gcal/t) (varying from 4.10 to 5.26 Gcal/t). On the other hand,
+the SEC of natural gas-based DRI plants is much lower, but due to the limited availability of natural gas pipelines, and
+the easy availability of coal, most of the DRI plants rely on coal-based fuel (Ghosh et al., 2021)
+
+2.2.2 Electric Arc Furnaces and Induction Furnaces (EAF & IF)
+The EAF & IF plants are crucial mid-stream segments in the production of crude steel through the melting pig iron, sponge
+iron, or scrap. The notable difference between EAFs and IFs lies in their heating and thermal efficiency. IFs tend to heat
+faster and are more efficient.
+
+
+
+                                                                                                                                              7
+    Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                   These units exist as both, standalone, and composite units. The total production capacity of IFs in India is
+                                   about 52 MTPA, with the average capacity utilization of plants being around 70-75% annually (TERI & GIZ,
+                                   2022). For EAF units, the production capacity is about 42 MTPA and the average capacity utilization is about
+                                   65-68% by producing about 25-28 MT annually (TERI & GIZ, 2022). The major energy input for EAFs and IFs
+                                   comes from electricity (75-80%), while the remaining comes from chemical energy (20-25%) (TERI, 2017).
+                                   The current proportion of utilization of scrap in the EAF units to produce steel ranges from 40-80%,
+                                   while the remaining proportion is made up by utilizing sponge or pig iron. The proportion of scrap usage
+                                   fluctuates, depending on the availability and pricing of scrap. For EAF and IF routes, the estimated SEC is
+                                   420 to 755 kWh per ton of liquid steel - much lower than the DRI route. (TERI, 2017). Thus, while the usage
+                                   of scrap offers great energy and emission-saving potential, its utilization remains limited due to scrap
+                                   deficiency in the country.
+
+                                   2.2.3 Secondary Steel Re-rolling Mills (SSRM)
+                                   The majority of secondary steel sector units in India are involved in the production of finished steel through
+                                   re-rolling processes. About 65% of finished steel produced in India comes from secondary steel sector re-
+                                   rolling mills (TERI & GIZ, 2022). Moreover, about 75% of the 1313 steel re-rolling mills in the country are small-
+                                   scale units with an installed capacity of 24 to 240 Tonnes per day (TPD) (TERI & GIZ, 2022). These re-rolling
+                                   mills can also be differentiated on the basis of their processes, into – 1) standalone units (reheating and
+                                   rolling) and 2) composite units (melting and rolling in the same plant). Graph 2 breaks down the number of
+                                   re-rolling units based on the plant type.
+                                   Conventionally the key equipment for re-rolling mills includes reheating furnaces, compressors, blowers,
+                                   rolling mill strands, and roller tables. The direct energy utilization of the segment comes from the fuel used
+                                   for reheating furnaces, i.e., coal, gas, or oil, and electrical energy. The share of thermal energy (coal, gas,
+                                   or oil) for finished steel production through re-rolling mills accounts for 77% of total energy consumption,
+                                   while the rest 23% is met by electricity (UNIDO, 2020). The use of reheating furnaces and the dependency
+                                   on coal for sourcing fuel are two major reasons for high energy consumption and CO2 emissions from the
+                                   re-rolling segment.
+
+
+
+                           1000
+                                              899
+                            900
+
+                            800
+
+                            700
+
+                            600
+
+                            500
+
+                            400
+                                                                    309
+                            300
+
+                            200
+
+                            100                                                             48                   45
+                                                                                                                                        12
+                               0
+                                             SSRM                IF+SSRM              DRI+IF+SSRM           EAF+SSRM                 Others
+
+                           GRAPH 2: Number of Steel Re-rolling Mills based on Plant Types
+                           Source: TERI & GIZ, 2022
+
+
+
+
+8
+                                            Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+FIGURE 2: Distribution of Steel Re-rolling Mills in India
+Source: TERI & GIZ, 2022
+
+
+
+
+                                                                                                                                               9
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     3. POTENTIAL PATHWAYS FOR DECARBONIZATION
+                                        Section 3 discusses two potential pathways for decarbonizing the secondary steel sector, alongside
+                                        their mitigation potential, investment requirements, and the maturity status of concerned technologies.
+                                        The short-term pathway focuses on targeting low-hanging fruits and focuses on incremental options
+                                        – to integrate the best available technologies (BATs) in DRI, EAF, IF, and Re-rolling mills’ production
+                                        processes. The rationale behind the incremental approach is targeting emission-reduction by replacing
+                                        outdated technologies with relatively lower investment. Additionally, as an incremental option, input
+                                        substitution for DRIs, EAFs and IFs could also be a game changer for both - short-term and long-term
+                                        low-carbon transitioning.
+                                        The long-term strategy for decarbonization identifies potential transitional options for the secondary
+                                        steel sector. These include the replacement of coal-based DRI plants to natural gas/hydrogen based
+                                        DRI plants, and integration of direct re-rolling with DRI, EAF and IF units.
+
+
+
+
+                                                                            Integrang Best-Available Technologies
+
+                    Incremental
+                                                                                            (BATs)
+
+
+                      Pathway                                             Integrang                    Integrang Renewable
+                                                                     Input-Based Soluons                   Energy Sources
+
+
+
+                   Value Chain                            DRI                                 EAF/IF                       Steel Re-rolling
+                                                                                                                                Mills
+
+
+
+
+                    ITransional                   Coal-based to Natural                                                  Direct-Rerolling –
+
+                      Pathway
+                                                  Gas/Hydrogen-based DRI                                              Integraon with DRI-EAF
+
+
+
+
+                 FIGURE 3: Potential Pathways for Decarbonization of the Secondary Steel Sector
+
+
+
+
+                                        3.1 Incremental Pathways
+                                        3.1.1 Integrating the Best Available Technologies (BATs)
+                                        a) DRI Process
+                                        In coal based DRI rotary kilns, the flue gases generated in the kiln are emitted at temperatures of
+                                        about 950-1025 °C and are a major source of emissions. For a 100 TPD capacity plant, the volume of
+                                        off-gases generated varies in the range of 24,000±1500 Nm3 per hour. Conventionally, off-gases are
+                                        cooled down—increasing energy consumption and reducing efficiency. These off-gases generated from
+                                        the rotary kiln during the process can be recovered by using the Waste Heat Recovery (WHR) system
+                                        to generate a high-pressure system for power generation, and preheating raw materials (coal, iron
+                                        ore, etc.) for moisture reduction. Integration of WHR system by DRI plants for power generation and
+                                        pre-heating raw materials can have a GHG reduction potential of 28,960 tCO2/year (reduction about 40
+                                        per cent of the total emissions) (Ghosh et al, 2021). However, as gathered by TERI from the stakeholder
+                                        consultation with the industry associations, only 50 DRI plants in India have adopted waste heat
+                                        recovery systems yet.
+
+
+
+12
+                                         Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                         Some adoption barriers for WHR systems in secondary steel plants have been the high upfront
+                         investment and long payback periods associated with them. Other barriers such as space limitations,
+For 333 DRI
+                         seasonal operation of units, added operational costs, and the complexity of integrating WHR system
+plants with an           controls with the existing processes also limit their adoption. However, the plants that encounter such
+overall production       limitations can still integrate other possible BATs (as listed in Annexure-3). These include technologies
+                         such as coal-gasification for partial substitution, energy-efficient motors and pumps, and decentralized
+capacity of 52 MT,       VFDs for shell air fans, which have a cumulative mitigation potential of 7,603 tCO2/year (Ghosh et al,
+the estimated            2021). The integration of these technologies would need a low amount of investment, in the range
+investment               of USD 12,000-120,000 each. For 333 DRI plants with an overall production capacity of 52 MT, the
+                         estimated investment requirement is about USD 9,309 million for all BATs, including the WHR system
+requirement is about     (listed in Annexure-3).
+USD 9,309 million for
+                         b) EAF & IF Processes
+all BATs, including      Even though energy and emission intensities are the lowest in the EAF segment of secondary steel
+the WHR system           producers, their current utilization of outdated technologies suggests a significant scope for energy
+                         savings and GHG emissions reduction through technological improvements. In EAFs currently, about
+                         15-20% of heat is lost in the form of off-gases generated during the production process (TERI, 2017).
+                         The majority of EAF units use cooling water to reduce the temperature of these off-gases. WHR
+                         systems offer the potential to effectively recover and reuse the off-gases for pre-heating scrap and to
+                         save feedwater by reducing heat losses. For instance, for a 50-tonne EAF, integrating WHR for boiler
+                         feed water requires an estimated investment of USD 0.012 million and can mitigate CO2 emission
+                         by 1510 tCO2/year. Similarly, integrating WHR for scrap pre-heating for a 50-tonne furnace requires
+                         an estimated investment of USD 0.50 Million, and can mitigate CO2 emissions by 8,860 tCO2/year
+                         (TERI, 2017).
+                         Considering the highest mitigation potential for EAF units, the best way to utilize off-gases would
+                         be through pre-heating of scrap materials. But a particular barrier towards its adoption has been
+                         the space constraints for these units. Besides the WHR systems, other potential mitigation solutions
+                         include integrating energy-efficient systems in pumps (cooling water systems) and variable frequency
+                         drives for fumes extraction, which would require an estimated investment of USD 0.017 million
+                         (TERI, 2017).
+                         For IF units, similarly, the adoption of WHR systems offers a high potential for energy savings and
+                         emission-reduction. However, none of the IF units in India have adopted WHR systems due to space
+                         constraints and a lack of technical capacity.
+                         For a total 55 EAF units and 1,103 IF units with an overall production capacity of 93 MT, the estimated
+                         cumulative investment requirement would be about USD 2,381 million for all BATs, including WHR
+For a total 55 EAF       systems (Listed in Annexure-4).
+units and 1,103
+                         c) Re-rolling Process
+IF units with an         Standalone re-rolling mills are highly energy intensive in their production processes. To produce one
+overall production       ton of long steel, about 100-200 kg of coal or 35-40 litres of furnace oil and 80-150 KWh of electricity
+                         are required by the re-heating furnaces in the re-rolling process. This accounts for 66% share of the
+capacity of 93 MT, the
+                         total energy utilized in the re-rolling process.
+estimated cumulative
+                         In most of the re-rolling mills, the re-heating furnaces are powered by pulverized coal systems with
+investment               very low levels of automation. Remarkably, the integration of an energy-efficient and automated
+requirement would        control system alongside a high-efficiency metallic recuperator in a re-heating furnace can mitigate
+be about USD 2,381       about 2,883 tCO2/year. Both these technologies are importantly at the mature-level of technological
+                         readiness (TRL-11, see Annexure-7), and viably deployable.
+million for all BATs,
+                         The integration of BATs (Listed in Annexure-5) in the existing re-rolling mills offers a saving potential
+including WHR
+                         in the range of 5-35%, depending on the technology, and has a GHG mitigation potential of 43,800
+systems                  tCO2/year (UNIDO, 2020). For 1257 steel re-rolling units with an overall production capacity of 91 MT, the
+                         estimated cumulative investment requirement for enlisted BATs would be about USD 3,524 million.
+
+
+                                                                                                                                            13
+       Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                       3.1.2 Integrating Input-based Solutions
+     For 1257 steel                    Input-based solutions such as the substitution of fossil-fuel-based fuel inputs with cleaner fuels, utilization
+                                       of iron ore pellets for DRI, and scrap steel for EAFs and IFs hold the potential to be a big game-changer
+     re-rolling units with             for reducing the carbon intensity of steel production, as well as in the achievement of circular economy
+     an overall production             targets. The advantages of input substitution are that it doesn’t require any significant technological
+     capacity of 91 MT, the            modification at the plant level and requires low investment, given the suitable availability of inputs.
+
+     estimated cumulative              For instance, pelletized iron ore fines can be directly charged into the DRI process. This utilization of
+                                       iron ore pellets instead of iron-ore lumps has an energy-saving potential of about 15% and can further
+     investment                        improve the yield and reduce thermal load during the production process. Additionally, the substitution of
+     requirement for                   fossil fuels-based fuel inputs with natural gas, biomass, and coal-based methane for powering re-heating
+     enlisted BATs would               furnaces in steel re-rolling mills can increase efficiency and offer a high mitigation potential in the range
+                                       of 9,000 – 14,500 tCO2/year. (UNIDO, 2020). The maturity status of the technologies for fuel substitution in
+     be about USD 3,524                re-rolling mills, however, is in TRL-8-9 and faces shortages in the availability of alternative fuels (natural
+     million                           gas, biomass and coal-based methane).
+                                       In terms of scrap utilisation, EAF and IF units use scrap steel in combination with pig iron and sponge
+                                       iron to produce steel. The overall domestic supply of scrap steel in India is around 25-30 MT, and around
+                                       6-7 MT is imported. The National Scrap Policy estimates the requirement of 70 scrap processing centres
+                                       to produce the currently imported amount of scrap steel (1 Lakh tonne per scrap processing centre).
+                                       Additionally, 300 collection and dismantling centres would also be required (Steel Scrap Recycling
+                                       Policy, 2019). In terms of prospective future requirements, 2800-3000 collection and dismantling centres
+                                       would be needed to process the future demand of 70-80 MT of steel scrap, if at all it could be sourced
+                                       domestically (Steel Scrap Recycling Policy, 2019). Notably, to set up 70 steel recycling centres with a plant
+                                       capacity of 1 MT each, as needed to match the current scrap requirements, an estimated cumulative
+                                       investment of about USD 114 million would be required.
+                                       Crucially, the lack of availability of quality scrap can result in poor quality of steel production with the
+                                       EAF/IF route. Barriers such as contamination of steel with other metals (copper, alloys, etc.) and low-
+                                       quality recycling challenge the utilization of scrap steel. However, more optimistically, the Scrap Recycling
+                                       Policy and the Vehicle Scrappage Policy envision increasing the availability of scrap steel by 50 MT by
+                                       2030, by targeting scrap collection, processing, and utilisation, which could aid the sector’s emission
+                                       reduction. It can also help reduce the dependence on the DRI process, since EAFs can produce steel with
+                                       100% scrap sourcing.
+
+                                       3.1.3 Integrating Renewable Energy Sources
+                                       Most of the IF and EAF units in the secondary steel sector are standalone units. About 70% of the
+                                       energy input for these units comes from electricity and the dominant share of this electricity is sourced
+                                       from fossil-fuel-based power plants. Thus, the integration of renewable energy sources for these
+                                       standalone units can accelerate the low-carbon transition of the secondary steel sector. A mix of solar
+                                       rooftops and grounded solar panels installed at the cluster level could meet the energy requirements for
+                                       steel production. For the installation of a solar power plant with a capacity of 1 MW, and an electricity
+                                       generation potential of about 4,000 kWh per day, the capital investment required is about USD 0.6
+                                       million.4 Considering the energy requirements for the current production of steel through EAF and IF
+                                       routes, the cumulative estimated investment required to set up solar panels would be about USD 200
+                                       million.
+
+                                       3.2 Transitional Pathways
+                                       3.2.1 Coal-Based DRI to Natural Gas DRI
+                                       Currently, less than 20% of the total sponge iron production in India is undertaken through the natural
+                                       gas route. On the other hand, the use of natural gas as a reducing agent in the DRI route has a high
+                                       mitigation potential. For instance, the emissions from natural gas-based DRI are about 0.415 tCO2 per
+
+
+                                       4
+                                           https://amplussolar.com/blogs/1mw-solar-power-plant
+
+
+14
+                                    Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+ton of crude steel- much lower than coal-based DRI. In combination, the emissions from the natural gas-based
+DRI-EAF route are only about 1.0 tCO2/t of steel produced. However, in India, only 3 plants produce sponge iron
+through the natural gas-based DRI route as of yet.5 The transition of coal-based DRI plants would be challenging
+as it would require a complete transition from coal-based rotary kilns to gas-based vertical shafts. Additionally,
+high investment requirements and limited availability of natural gas pose substantial challenges as well. The
+estimated capital investment required for the transition of a coal-based DRI plant to Natural Gas-based DRI plant
+is about USD 220 million assuming a plant capacity of 1 MT (Table 1).
+
+    TABLE 1: Estimated Investment Requirements for Transition to Natural Gas-based DRI
+    Capacity                    Estimated                    Estimated Savings/       Energy saving               Emissions tCO2/t
+                                Investment                   year                     (Gcal/year)
+                                required USD
+                                million
+    1.0 Mt                      219.512                      NA                       NA                          0.415
+    Source: Stakeholder consultation with sectoral experts
+
+
+3.2.2 Coal-based DRI to Hydrogen-based DRI
+In the DRI process, hydrogen (H2) can also be used as a reducing agent instead of coal or natural gas. Green
+hydrogen is produced through renewable energy, and currently, the cost of producing green H2 is approximately
+4-5 USD/kg. Owing to such a high production cost, hydrogen can be blended with natural gas or syngas to
+decrease the operational cost during the transition phase. Significantly, the cost of production of steel would
+remain high initially, and only decrease over time (Table 2). The investment required for blending hydrogen in the
+DRI process in various ratios is highlighted in Table 2 for a plant with 0.5 MTPA production capacity. For producing
+one tonne of steel using green hydrogen with emissions as low as 0.25 tCO2/t, the estimated cost would be
+about USD 386. Consequently, the estimated cost of producing the current total output of the sponge iron (41
+MT) would be about USD 15.82 million. Since the utilization of hydrogen is still in the demonstration stage (TRL-
+5-8), it remains an option for only large-scale steel production. Its application for the secondary steel segment
+remains unlikely in the foreseeable future.
+
+    TABLE 2: Estimated Investment Requirements for Hydrogen based-DRI
+    Green H2 blend in process Estimated    Investment Production Cost in USD Emissions tCO2/t
+                              required (USD million)  per ton of crude steel
+    9%                                 18.163                           443                                0.74
+    60%                                17.384                           424                                0.41
+    100%                               15.826                           386                                0.25
+    (Source: CEEW, 2021)
+
+
+3.2.3 Integrating Direct-Rerolling with DRI-EAF/IF
+Considering that the re-heating furnaces in standalone re-rolling mills are highly energy intensive, their utilization
+can altogether be eliminated potentially- by directly rolling hot billets through continuous casting machines that
+would be integrated with DRI-EAF/IF units. For a composite plant with a re-rolling capacity of 15 tonnes/hour, the
+integration of continuous casting machines has a GHG reduction potential of 15,015 tCO2/year. This would require
+an estimated capital investment of USD 0.12 Million (Table 3). This mitigation potential and investment cost may
+vary based on existing plant capacity.
+However, it is important to note that the adoption of continuous casting machines would be faced with technical
+barriers in terms of their exclusive applicability for composite units and varying physical feasibility, depending on
+the plant layout.
+
+5
+     Sponge Iron Manufacturers Association. (2021). DRI Update. https://www.spongeironindia.com/images/publications/DRI-
+     UPDATE%20March,%202021.pdf
+
+
+                                                                                                                                       15
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                   TABLE 3: Estimated Investment Requirements for Integrating Direct-Rerolling with DRI-EAF/IF
+                                   Estimated               Estimated               Energy saving           GHG reduction         Payback (Year)
+                                   Investment (USD         Savings/year (USD       (Gcal/year)             (tCO2/year)
+                                   million)                million)
+                                   0.12                    0.61                    39,196                  15,015                Less than 1 Year
+                                   Source: UNIDO, 2020
+
+
+
+
+                                  3.3 Overall Financial Requirements
+                                  Table 4 summarizes the cumulative investments required for the potential pathways. As a short-term
+                                  strategy, the integration of BATs in the three segments of the secondary steel sector would require about
+                                  USD 13,000 million (which is greater than the Just Energy Transition Partnership for South Africa). On
+                                  the other hand, the transitional pathways of converting the coal-based DRI process to natural gas and
+                                  hydrogen-based DRI production would require an estimated capital investment of USD 150,750 million.
+                                  Considering the high investment requirements for both pathways, the flow of international climate finance
+                                  becomes indispensable for the LCT of the secondary steel industry in India.
+
+
+
+                                   TABLE 4: Summary of Overall Financial Requirements for the Potential Pathways
+                                                    Potential            No. of         Current         Mitigation   Estimated    Comments
+                                                    pathways for         Plants         Production      Potential    Capital
+                                                    decarbonization                     Capacity        MTCO2/yr     Cost USD
+                                                                                        (MTPA)                       Million
+                                   Incremental      Integrating BATs     223            52.30           0.66         9,309.4      Based on
+                                   Pathways         - DRI                                                                         the existing
+                                                                                                                                  production
+                                                                                                                                  capacity, the cost
+                                                                                                                                  of technology
+                                                                                                                                  is for 100 TPD,
+                                                                                                                                  assuming 300
+                                                                                                                                  production days
+                                                    Integrating BATs     1037           93.00           0.42         2,380.8      Based on
+                                                    – EAF and IF                                                                  the existing
+                                                                                                                                  production
+                                                                                                                                  capacity, the cost
+                                                                                                                                  of technology
+                                                                                                                                  is for 100 TPD,
+                                                                                                                                  assuming 300
+                                                                                                                                  production days
+                                                    Integrating BATs     1257           91.00           1.49         3,124.3      Based on
+                                                    - Re-rolling                                                                  the existing
+                                                                                                                                  production
+                                                                                                                                  capacity, the cost
+                                                                                                                                  of technology
+                                                                                                                                  is for 150 TPD,
+                                                                                                                                  assuming 300
+                                                                                                                                  production days
+
+
+
+
+16
+                           Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+TABLE 4: Summary of Overall Financial Requirements for the Potential Pathways
+                   Potential                No. of           Current            Mitigation        Estimated     Comments
+                   pathways for             Plants           Production         Potential         Capital
+                   decarbonization                           Capacity           MTCO2/yr          Cost USD
+                                                             (MTPA)                               Million
+                   Material                                  30.00                                114.00        For installing
+                   Substitution –                                                                               scrap processing
+                   Increasing Scrap                                                                             units with
+                   Input                                                                                        additional
+                                                                                                                capacity of
+                                                                                                                30MTPA
+                   Integrating              1037             93                                   200.5         Based on actual
+                   Renewable                                                                                    production
+                   Energy in EAF                                                                                60MTPA.
+                   and IF
+Transitional       Coal to natural          223              52.30                                20,000        Not suitable for
+Pathways           gas based DRI                                                                                SSP MSMEs as
+                   Coal to                  223              52.30                                130,750       min. capacity
+                   hydrogen based                                                                               needed is 1 MT.
+                   DRI
+                   Direct-Rerolling – 899                    91.00               0.51             3,699.19      Converting
+                   Integrating with                                                                             standalone units
+                   DRI-EAF                                                                                      to composite.
+                                                                                TOTAL             169,583.2
+Colour coding is based on the Technological Readiness level for the potential pathways (Annexure-7).
+    TRL-11 Proof of Stability Reached           TRL-6 Full Prototype at Scale             TRL-9 Commercially Viable
+Source: Gosh et al. (2021), TERI (2017), UNIDO (2021), CEEW (2021), & Authors Analysis.
+
+
+
+
+                                                                                                                                   17
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     SECTION 4:
+
+
+
+     Finance for the
+     Secondary Steel
+     Sector
+18
+Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                                                                                   19
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     4. FINANCE FOR THE SECONDARY STEEL SECTOR
+                                  4.1 Sources of Finance for the Secondary Steel Sector
+                                  The secondary steel sector receives finance from diverse sources. These sources can be broadly classified
+                                  into four categories – (1) International sources, (2) Domestic public sources (including national institutions,
+                                  as well as national and state-level schemes and funds), (3) Domestic private sources, and (4) Self-financing
+                                  or informal sources.
+
+
+
+
+                            Internaonal Sources
+                                                                                                          Naonal & State Government
+                1. Internaonal Instuons                                     (1)
+                                                                                                              Policies and Funds
+                Mullateral Development Banks, World Bank,               Direct Route
+                ADB, GIZ, JICA, OPIC, UNIDO, etc.                        (e.g., project                 1. Naonal and State Acon Plans For
+                                                                            grants)                     Climate Change (NAPCC & SAPCC).
+                2. Internaonal Funds
+                GCF, GIF, Clean Technology Funds, Climate                                               2. Naonal Schemes and Policies
+                Investment Funds                                                                        (NMEEE, RAMP, CLCSS, TEQUP, TADF,
+                                                                                                        4E Financing Scheme, TIFAC-SRIJAN
+                3. Bilateral and Mullateral Agencies                                                   Scheme)
+                                                                              Secondary
+                                                                                                        3. Naonal Funds
+                (2) Indirect Route -
+                 Through Naonal
+                                                                                 Steel                  (CGTMSE, VCFEE, PRGFEE, BEE-SME,
+              Implementaon Bodies                                              Sector                  EEFP)
+
+                            Naonal Instuons
+                 1. BEE (implemenng enty for The World
+                                                                                                               Private Instuons
+                 Bank, GIZ, UNIDO, UNDP)
+                                                                                                        1. Domesc Public and Private Sector
+                 2. SIDBI (implemenng enty for GCF, the                                               Banks such as SBI, HDFC, ICICI, Canara
+                 World Bank, KfW, and JICA)                                    Self-Financing           Bank, Axis Bank, etc.
+                                                                                     Or
+                 3. Ministry of Environment, Forest and                                                 2. Non-Banking Financial Instuons
+                                                                             Informal Sources
+                 Climate Change                                                                         (e.g., TATA Capital)
+
+
+               FIGURE 4: Financial Sources for the Secondary Steel Sector
+
+
+                                  a)       International Sources: International sources of finance for the secondary steel sector include
+                                           several international institutions such as the World Bank, Japan International Cooperation Agency
+                                           (JICA), and United Nations Industrial Development Organization (UNIDO), multilateral development
+                                           banks such as the Asian Development Bank (ADB), international funds such as UNFCCC’s Green
+                                           Climate Fund (GCF), and Clean Technology Funds (CTFs), and bilateral and multilateral agencies.
+                                           International climate finance is either extended directly in the form of grants, concessional loans,
+                                           venture capital, or partial risk guarantees (such as the World Bank Group’s Partial Risk Sharing
+                                           Program), or indirectly disseminated into different projects through domestic implementation
+                                           agencies and financial institutions.
+                                  b)       Domestic Public Sources: National and state-level policies, schemes, and funds form a major part of
+                                           domestic public finance for the secondary steel sector. The National Action Plan on Climate Change
+                                           (NAPCC) and the State Action Plans on Climate Change (SAPCCs) articulate the climate policy at the
+                                           national and sub-national levels, respectively, and include the National Mission for Enhanced Energy
+
+
+
+20
+                      Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+        Efficiency (NMEEE) which forms the rationale behind several policies that are rolled out through
+        ministries and implementation bodies. National-level implementation bodies include the likes of
+        the Bureau of Energy Efficiency (BEE), and the Small Industries Development Bank of India (SIDBI),
+        which is the apex financial institution serving the financing and development of MSMEs in India.
+        Both SIDBI and BEE channel domestic and international finance into several projects concerning the
+        development, capacity-building, and greening of MSME units- including those under the secondary
+        steel sector.
+        Domestic policies, schemes, and funds providing financial support to the secondary steel sector
+        include the likes of the NMEEE, the Venture Capital Fund for Energy Efficiency (VCFEE), the National
+        Program on Energy Efficiency and Technology Upgradation of SMEs (BEE-SME), etc. A table in
+        Annexure 2 enlists the provisions of several national schemes providing finance to MSMEs in the
+        secondary steel sector. Even though these schemes have been operational for a considerable
+        number of years, there remains a lack of dedicated attention towards financing the low-carbon
+        transition of the secondary steel sector and technological upgradation, in particular. Furthermore,
+        the scale of project financing for energy-efficiency uptakes remains small, and the sector itself
+        remains reluctant to avail several institutional schemes for various reasons such as documentation
+        requirements, due diligence, and lacking awareness.
+c)      Domestic Private Sources: Private finance is also extended to the secondary steel sector in the form
+        of debt financing through loans via public and private sector banks, as well as non-banking financial
+        institutions (NBFIs). Several banks such as the State Bank of India (SBI), HDFC Bank, Axis Bank, etc.,
+        have lending policies for the industrial sector. Some examples of NBFIs that extend loans to the
+        sector include TATA Capital and JSW One Platforms.
+d)      Self-Financing and Informal Sources: A majority chunk of units in the secondary steel sector is made
+        up of MSMEs which notably lack a sizeable scale of operations, collateral holdings, credit history,
+        and organized bookkeeping to source their financial requirements from organized sources. As a
+        result, they remain largely dependent on self-financing or informal sources, particularly to meet
+        their working capital needs.
+
+4.2 Barriers to Accessing Finance
+The secondary steel sector is vastly heterogenous in its composition and consists of a large number of
+MSME units that struggle with poor creditworthiness alongside several knowledge-based and cost of
+capital-related barriers that hinder their access to institutional finance.
+
+a) Knowledge-based Barriers
+The units in the secondary steel industry often lack awareness about financial assistance provisions available
+to them through primary lending institutions. Additionally, the utilization of business development services,
+preparation of syndication for loans, and familiarity with digital platforms are largely absent as well. Often,
+these units also struggle with information on documentation requirements to acquire commercial loans. An
+overall lack of financial expertise and poor financial management alongside limited handholding support
+makes the sector particularly weak in acquiring formal credit.
+As their business operations often underperform under a lack of skilled guidance, credit risk perception from
+the domestic financial sources against the sector sharpens as well. Consequently, from the supply side, the
+secondary steel sector is perceived with high risks. Furthermore, a lack of consistency in bookkeeping and
+reporting financial data develops opacity around the information on the financial affairs of MSMEs in the
+sector and further contributes to risk perception over their business profitability. Besides, among financiers,
+the knowledge of mitigation technologies, their maturity status, and their payback periods remains meagre.
+Thus, they find it hard to ascertain the suitability of various financial instruments to support the deployment
+
+
+
+                                                                                                                         21
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                      TABLE 5: Barriers to Accessing Finance for the Secondary Steel Industry
+
+                                                                                                           Domestic                          International
+                                                                          Industry
+                                                                                                       Financial System                    Financial System
+
+
+                                                              •     Awareness gaps                                                   •     Limited direct
+                                                                                                  •     Low technological
+                                      Knowledge-based         •     Documentation                                                          exposure to the
+                                                                                                        awareness
+                                      barriers                      requirements                                                           sector
+                                                                                                  •     High perceived risks
+                                                              •     No financial expertise                                           •     High perceived risks
+
+                                                                                                  •     Low margin
+                                                                                                                                     •     Lending prerequisites
+                                                                                                  •     High transaction cost
+                                                              •     High transaction cost                                            •     Due diligence
+                                      Cost of Capital-                                            •     Interest rates
+                                                              •     High interest rates                                              •     High transaction cost
+                                      related barriers                                            •     Inadequate (low)
+                                                              •     Long payback periods                                             •     Larger scale of
+                                                                                                        maximum funding
+                                                                                                                                           operations
+                                                                                                        limits
+
+                                                                                                  •     Lack of collateral
+                                      Creditworthiness-       •     Irregular cash flow
+                                                                                                  •     Seasonal operations          •     Low credit score
+                                      based barriers          •     Delayed payments
+                                                                                                  •     Low credit score
+
+
+
+                                  of low-carbon technologies. The international sources of finance, additionally, have limited direct exposure to
+                                  the sector. Green finance in India largely remains concentrated on projects around adaptation or renewable
+                                  energy.
+                                  b) Cost of Capital-related Barriers
+                                  Commerical lending to the secondary steel sector for low-carbon technologies can have a high cost of capital
+                                  due to the long payback periods on the technologies, the need for monitoring and engagement with the
+                                  MSME units, and low-profit margins from such loans. For the industry, non-concessional rates of interest on
+                                  commercial loans raise the cost of loans and disincentvize a shift to low-carbon technologies.
+                                  Due diligence and limiting pre-requisites and standards from financiers also limit the capabilities of the
+                                  secondary steel sector to mobilize upfront investment. For instance, ICF institutions require structured
+                                  procedures, verification processes, and channels for the processing and accreditation of finance, which the
+                                  secondary steel sector finds hard to keep up with. Additionally, conditionalities such as existing WHR system
+                                  installations are required to be eligible to access finance (Banerjee et al., 2022). Significantly, ICF often has
+                                  a larger scale of operations, and the high transaction costs of servicing the MSME sector furthers the divide
+                                  between the two.
+                                  c) Creditworthiness-based Barriers to Finance
+                                  Secondary steel sector units, particularly the MSMEs, often have a low credit score which makes it difficult
+                                  for them to acquire finance. Inadequate collateral holdings, the seasonal nature of their operations and
+                                  consequent irregularities in cash-flow, high non-performing assets, and limited equity, all restrain the
+                                  creditworthiness of the industrial units.
+                                  Moreover, the secondary steel sector MSMEs also face the problem of delays in payments and aid. The steel
+                                  ministry in its December 2022 year-end review said its central public sector enterprises had made a payment
+                                  of INR 4,747.53 crore (approx. USD 578 million) to steel MSMEs between April and November 2022 - 41.35%
+                                  higher than the same period last year.6 However, at the same time, as of March 2, 2023, the amount pending
+
+                                  6
+                                       41% higher payment made by steel CPSEs to MSMEs during April-Nov 2022 from year-ago period: Govt. (2022, December 26). Financial
+                                       Express. https://www.financialexpress.com/industry/sme/msme-fin-41-higher-payment-made-by-steel-cpses-to-msmes-during-april-
+                                       nov-2022-from-year-ago-period-govt/2927216/
+
+
+22
+                                                      Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                                 to be cleared by CPSEs to MSMEs overall (in all sectors), stood at INR 2,679.22 crore
+                                                 (approx. USD 326 million) in 2,886 delayed payment applications (Soni, 2023). Such
+                                                 delays pile up with liquidity crunches and further strangle MSME operations.
+
+                                                 4.3 The Role of International Climate Finance (ICF)
+                                                 As elaborated by the earlier sections, the goal of decarbonization of the Indian
+                                                 secondary steel sector would require a significant amount of policy attention, technical
+                                                 handholding, and importantly, financial support to be realized. The sheer scale of finance
+                                                 that would be required to decarbonize the industrial sector cannot be met by domestic
+                                                 sources of finance alone in the long run. International finance can play a significant
+                                                 role in enabling the transition to low-carbon steel production. International finance can
+                                                 instrumentally enable the de-risking of private investments and mobilization of private
+                                                 capital through various sources.
+
+                                                 4.3.1. Indian Secondary Steel Sector’s Exposure to ICF
+                                                 In the past decade and a half, the flow of ICF in India has greatly remained focused
+                                                 on climate adaptation, or on specific sectors such as renewable energy and electric
+                                                 vehicles. The steel industry, particularly the secondary steel sector, has largely remained
+                                                 underattended through dedicated ICF initiatives or investments. For instance, the
+                                                 World Bank recently approved USD 1.5 billion in financial assistance to accelerate India’s
+                                                 development of low-carbon energy. The crux of financing under the initiative would be
+                                                 on renewable energy expansion, the development of green hydrogen, financing green
+                                                 energy investments, funding a national carbon credit trading scheme, and the issuance
+                                                 of sovereign green bonds.8
+                                                 At the same time, financial assistance that has been serviced to the sector from
+UNIDO’s SMEs Investment                          international financial institutions has come indirectly through energy efficiency initiatives
+ Promotion Programme in                          for the MSME sector (such as World Bank-GEF-BEE’s ‘Financing Energy Efficiency at
+                                                 SMEs’ project), through MSME investment programs (such as UNIDO’s SME Investment
+India was undertaken between                     Promotion) and credit guarantees, or in some instances, through project grants.
+2008 and 2011 with a budget of
+                                                 JICA and SIDBI’s ‘Financing Scheme for Energy Saving Projects’ is one such initiative that
+800,000 Euros, in cooperation                    was availed by the secondary steel sector MSMEs during the last decade. The scheme
+with the Italian organization                    focused on providing financial assistance at concessional rates of interest to promote
+                                                 energy-saving projects. Concessional financing was provided through banks, state
+CONFIDI to train SIBDI staff
+                                                 finance corporations, and non-banking financial companies. Eligible sub-projects under
+members for 4 years in                           the scheme included the acquisition of energy-saving equipment, building equipment/
+international best practices for                 heating systems/lighting in compliance with the energy conservation building code,
+                                                 and projects involving intervention at the cluster level for technological or procedural
+the management of mutual
+                                                 upgradation.9
+credit guarantee scheme.
+                                                 Other major international schemes facilitating the secondary steel sector include
+It helped strengthen SIDBI                       the World Bank-GEF funded ‘Partial Risk Sharing Facility in Energy Efficiency’ and the
+and develop mutual credit                        ‘Financing Energy Efficiency at SMEs’ project being implemented by SIDBI and BEE,
+guarantee schemes suitable to                    respectively. The World Bank and GEF’s Partial Risk Sharing Facility in Energy Efficiency
+                                                 is a USD 37 million de-risking facility that provides partial credit guarantees to cover a
+the Indian ecosystem.7                           share of default risk for financial institutions in extending loans for EE projects through
+                                                 Energy Service Companies (ESCOs).10
+
+
+                                                 8
+                                                       World Bank Approves $1.5 Billion in Financing to Support India’s Low-Carbon Transition. (2023, June 29).
+                                                       https://www.worldbank.org/en/news/press-release/2023/06/29/world-bank-approves-1-5-billion-in-
+7
+    UNIDO Partnership Strategy with                    financing-to-support-india-s-low-carbon-transition
+    Development Finance Institutions. https://   9
+                                                       JICA – SIDBI Financing Scheme for Energy Saving Projects in MSME Sector (Phase III). (n.d.). Foundry
+    www.unido.org/sites/default/files/2015-05/         Informatics Centre. http://www.foundryinfo-india.org/pdf/JICA_Brochure.pdf
+    DFI_Publication_0.pdf                        10
+                                                       Partial Risk Sharing Facility in Energy Efficiency. (2021, May 12). IEA. https://www.iea.org/policies/6203-
+                                                       partial-risk-sharing-facility-in-energy-efficiency
+
+
+                                                                                                                                                                     23
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                  Table 6 further elaborates on some programs that have been implemented with funding from international
+                                  agencies like GEF for improving EE. These programs were remarkably effective in providing financial as well
+                                  as much-needed handholding support to enable emission reductions for the units. However, the scale of
+                                  these initiatives was small and focused on only specific target groups of MSMEs and clusters.
+
+
+                                       TABLE 6: Energy Efficiency (EE) Programs for MSMEs in the Indian Secondary Steel Sector11
+                                                             Time
+                                       Program                               Target Areas         Funding                Objectives / Achievements
+                                                             Period
+                                       GEF-UNDP-MOS          2004-13         14 states; 38        USD 14.03              Aim- To improve the level of adoption
+                                       EE in Steel-                          Model MSME           million                of EE technologies and reduce
+                                       Rolling Mills                         units                (GEF – USD 6.75        emissions.
+                                       (Phase-1)                                                  million & Steel        Achievements
+                                                                                                  Development            a. Establishing low as well as high
+                                                                                                  Fund – USD             investment benchmarks for eco-
+                                                                                                  7.28 million)          tech packages, effective knowledge
+                                                                                                                         dissemination, and capacity-building
+                                                                                                                         of units.
+                                                                                                                         b. Reduction of specific electrical
+                                                                                                                         energy consumption by 10-20% &
+                                                                                                                         Specific Thermal Energy Consumption
+                                                                                                                         by 20-50% & reduction of GHG by
+                                                                                                                         1000-2500 tCO2/per unit per year.
+                                       UNIDO, GEF &          2011 -          14 MSME              USD 26.1 million Aim- Market development for EE and
+                                       BEE - Financing       (active)        Clusters 80          (overall)        renewable energy technologies.
+                                       EE at SMEs                            MSMEs                                 Achievements (until 2019)12
+                                       Project                                                                     a. Energy savings of 7,894 toe, and
+                                                                                                                   reduction of carbon emissions by
+                                                                                                                   49,896 Tonnes, annually.
+                                                                                                                   b. Monetary savings of USD 6.62
+                                                                                                                   million.
+                                       UNDP, AusAID-         2013-16         PAN India;           USD 2.44               Aim- To improve EE, mitigate GHG
+                                       MoS                                   285 MSME             million                emissions, and enhance technical
+                                       (Phase – 2)                           units                                       capacity and productivity.
+                                                                                                                         Achievements
+                                                                                                                         a. Technical assistance to enable
+                                                                                                                         energy audits, implementation of
+                                                                                                                         energy efficiency measures, cost-
+                                                                                                                         benefit interventions, & knowledge
+                                                                                                                         development.
+                                                                                                                         b. 24% energy savings and 28%
+                                                                                                                         reduction in GHG emission per ton of
+                                                                                                                         mill output.
+
+
+                                  4.3.2 International Examples of Financing LCT and MSME Support
+                                  International experience in financing low carbon transitions of hard-to-abate sectors such as steel can
+                                  crucially provide insights into technology transfer, capacity-building initiatives, and financial instruments
+                                  that can be deployed to facilitate the decarbonization of the Indian secondary steel sector.
+
+
+
+                                  11
+                                        Upscaling Energy Efficient Production in Small-Scale Industry in India. (2016, January). In UNDP. https://info.undp.org/docs/pdc/
+                                        Documents/IND/00074684%20Terminal%20Evaluation%20Report%2000086974.pdf
+                                  12
+                                        GEF-UNIDO-BEE Project. (n.d.). Bureau of Energy Efficiency. https://beeindia.gov.in/en/programmesdemand-side-managementsmall-
+                                        medium-enterprise/gef-unido-bee-project
+
+
+24
+                                      Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                 For instance, Energy Efficiency Revolving Funds (EERF) have been established around
+                                 the world with support from international institutions such as the World Bank and the
+                                 GEF. These EERFs have performed diversified functions and undertaken various routes to
+                                 support LCT initiatives. Some have provided guarantees (for e.g., in Bulgaria, Hungary,
+                                 and Slovenia) or credit lines (in Thailand) to commercial banks to mobilize private sector
+                                 financing. Some have exclusively financed EE investments, while others have included
+                                 the scopes of renewable energy (in Armenia and Mexico), environmental protection (in
+                                 Slovenia), and urban infrastructure (in India) (Lukas, 2018). In India, The State Energy
+                                 Conversation Funds (SECF) are also being promoted to facilitate the implementation of
+                                 EE projects. A major part of the funds disseminated under the SECF initiative would be
+                                 designated as Revolving Investment Fund, to support various EE initiatives.13
+                                 International financial institutions in the past couple of decades have also shown a
+                                 growing interest in circular business models, and sustainability-linked financing.
+                                 Between 2010 to 2015, for instance, the Russian government leveraged European Bank
+                                 for Reconstruction and Development (EBRD) and UNIDO’s expertise to overcome barriers
+                                 relating to EE in Russian industries. In partnership with the Russian Energy Agency,
+                                 enhanced policy frameworks were developed for dedicated capacity building of market
+                                 stakeholders and investment amplification to generate a push for industrial energy
+                                 efficiency and reducing GHG emissions.
+                                 In Africa, credit guarantee schemes have facilitated MSME financing post the covid-19
+                                 pandemic by ensuring lesser market distortions than other policy interventions such
+                                 as direct lending programs. They have also encouraged a greater financial inclusion
+                                 of MSMEs, enabled opportunities for service providers, helped unlock private capital
+                                 to optimize scarce resources, and tackled issues of information asymmetry and
+                                 creditworthiness-based barriers to finance for MSMEs.14 Credit guarantees have also
+                                 been successful in several other parts of the world. Chile’s FOGAPE, for instance, is one of
+                                 the most efficient public credit guarantee schemes in the world and takes only 15 days
+                                 (about two weeks) to make the full payment to the lender. In comparison, the CGTMSE
+                                 in India takes up to 30 days to pay 75% of the guaranteed amount to the lender. Such
+                                 delays in the processing of payment discourage lenders from using public guarantees for
+                                 lending to small enterprises.
+                                 Similarly, the GCF has an MSME Pilot Programme in Guatemala, Mexico, Mongolia, and
+                                 Ghana, with an allocation of USD 200 million to finance MSME initiatives at different
+                                 stages of growth. Despite having the world’s second-largest base of MSMEs, no such
+                                 program exists for the Indian MSME sector (Maltais et al., 2022). Thus, alongside a
+                                 dedicated policy focus on the LCT of the sector, innovation in the utilization of diverse
+                                 financial instruments would be required to service the Indian secondary steel sector.
+
+                                 4.4 Financial Instruments for Financing
+                                     Decarbonization
+The LCT of the secondary steel
+                                 The LCT of the secondary steel sector would require financing for two types of costs-
+sector would require financing   the direct upfront capital cost of low-carbon technologies, and the cost of covering
+for two types of costs- the      technical assistance and enabling these technologies. Significantly, loans can’t be the
+                                 primary financial instrument to enable decarbonization for the secondary steel sector.
+direct upfront capital cost of
+                                 Even though there have been several ICF-based initiatives in the past, their scale of
+low-carbon technologies, and     operations hasn’t been adequate. Moreover, no single financial instrument would be able
+the cost of covering technical   to definitively address all the barriers faced by the sector toward potential LCT.
+assistance.
+
+                                 13
+                                      Contribution to State Energy Conservation Fund. (n.d.). Bureau of Energy Efficiency. https://saathee.beeindia.
+                                      gov.in/Common/BEEContent?MID=1&SMID=21
+                                 14
+                                      Credit Guarantee Schemes: Facilitating MSME Financing in Africa During The COVID-19 Pandemic. In Alliance
+                                      for Financial Inclusion. (2022, March). https://www.afi-global.org/wp-content/uploads/2022/03/Credit-
+                                      Guarantee-Schemes-Facilitating-MSME-Financing-in-Africa-during-the-COVID-19-Pandemic_070322.pdf
+
+
+                                                                                                                                                       25
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                    Various alternative instruments of finance can be utilized to service the secondary steel sector depending on
+                                    the suitable risk/return arrangements and purpose-based requirements. Blended financing and innovative
+                                    solutions with a focus on insurance and layered-risk mechanisms would be key to overcoming some challenges
+                                    relating to the risk perception of investors servicing the sector. Deployment of financial instruments in
+                                    varying combinations can help address diverse issues faced by the secondary steel sector in accessing
+                                    finance, which a single instrument otherwise may not be able to cover. Some financial instruments that can
+                                    be deployed for the sector include multi-layer risk funds and guarantees, cluster-level securitization, hybrid
+                                    financing, and large-scale grants/equity funding for revolving funds.
+                                    Layered-risk funds can instrumentally channel finance and technical guidance to underfunded sectors, as the
+                                    risk safety mechanism enables independent financing institutions to invest more while attracting investment
+                                    from safeguarded private investors, who can provide technical guidance.15 It could also help broaden the
+
+
+
+      TABLE 7: Financial Instruments & their Suitability against Barriers to Finance
+                                                                               Financial Instruments and Examples
+
+          Bottlenecks/                                                                                                                      Risk-
+                                    Asset-
+       Challenges Covered                                                        Guarantee          Technical             Hybrid           sharing        Revolving
+                                    based       Securitization Leasing
+                                                                                   Funds             Grants             Financing          Funds/          Funds
+                                   Finance
+                                                                                                                                           Facility
+
+                                                                                                                                            BEE–
+                                                                                                    UNIDO.            Concessional                        EERFs for
+                                                                                                                                           World
+              Examples                                                            CGTMSE         GEF&BEE; GEF-         Subordinae                        credit lines,
+                                                                                                                                          Bank-GEF
+                                                                                                  UNDP-MOS                Debt                           guarantees
+                                                                                                                                          (partial)
+      Lengthy
+      Documentation &
+      Processing Time
+      Inadequate
+      Collateral Holdings
+      High Rate of Interest
+      Low Credit Scores
+      High Transaction
+      Costs
+      Technical/Financial
+      Capacity Building
+      High Technological
+      Upgradation/Capital
+      Costs
+      Investor Risk
+      Protection
+      Large-scale
+      Coverage
+     (Source: Author’s Analysis)
+     [Note:      High efficacy against the barrier           Moderate efficacy against the barrier               Low efficacy against the barrier.]
+
+
+
+
+                                    15
+                                         Innovative climate finance products. (2015). European Investment Bank. https://www.climateaction.org/images/uploads/documents/
+                                         innovative_climate_finance_products_en.pdf
+
+
+26
+       Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+investor base to potentially include global investment funds, as well as institutional investors
+like insurance companies and philanthropic capital. Guarantee funds, on the other hand, can
+help cover long-term, initially risky/uncertain investments in MSME firms (Csaky et al., 2017).
+They can be deployed for credit enhancement, and their flexibility allows lenders to extend
+the payment tenor for risky borrowers – shaping it to their capital expenditure requirements
+and monthly payment abilities.
+In terms of lending, securitization can be utilized for lending based on receivables. It can
+also be advantageous to banks by reducing their exposure to credit risk, and consequently,
+their overall cost of financing (OECD, 2015). Similarly, hybrid financing instruments such as
+subordinate debt can be extended for diverse purposes such as technological investment
+and high-cost capital replacement. It offers the advantage of not diluting the firms’ investors’
+equity and is also free from enforced operating covenants as in the case of traditional debt or
+leases. Lastly, blending private finance with grants and public concessional funds can unlock
+investments from diverse investors and multilateral climate funds.
+
+
+
+
+                                                                                                          27
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     SECTION 5:
+
+
+
+     Recommendations
+28
+Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                                                                                   29
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     RECOMMENDATIONS
+                                  To address the identified challenges for leveraging finance for the low-carbon transition of the secondary
+                                  steel sector, this report makes recommendations for interventions at the national level, as well as at a
+                                  broader international level to ensure a greater enabling envrionment for the flow of international climate
+                                  finance to the secondary steel sector.
+
+
+                                  5.1 Interventions at the National-Level
+                                  1)     Development of a Multi-Stakeholder Platform – A multi-stakeholder information-sharing platform
+                                         could be developed with the participation of government institutions, knowledge institutions,
+                                         industry associations, financial associations, and technology providers. The platform can crucially
+                                         address information gaps for the industry on financial provisions and due diligence, as well as enable
+                                         financiers to know better about emerging technologies, to ascertain suitable financial instruments
+                                         for extending credit for their uptake. Greater organization of information about the dynamics of the
+                                         sector and its requirements could also help attract international investment in the longer future.
+                                  2)     Cluster-level Interventions need to be made to essentially map secondary steel units into clusters
+                                         which could be supported through securitization to secure loans for working capital requirements.
+                                         Up-take of clean technologies could also be initiated in clusters with programmatic partnerships,
+                                         performance-based mechanisms, technical support, and handholding. Large-scale revolving funds
+                                         could be developed as financial pipelines for such programmatic interventions for a large number
+                                         of heterogenous clusters. These funds shall be supported by international climate finance through
+                                         grants.
+                                  3)     Development of a Dedicated National Fund for Steel Decarbonization – To facilitate the financing of
+                                         low-carbon transition of the Indian steel sector, a dedicated national fund can be developed. Such
+                                         a fund could be housed with the Ministry of Steel and SIDBI could be assigned a facilitative role for
+                                         financing. Furthermore, specific SIDBI windows could be developed to support results-based financing.
+                                         It could also be divergently developed as time-bound close-ended fund to support the uptake of clean
+                                         technology- like the SIDBI Tex Fund Scheme which focused on investing in emerging fields in the
+                                         textile industry.
+                                         Additionally, policy frameworks and regulations would further be required to streamline the
+                                         secondary steel industry’s access to finance in the long run. Extension of finance through a dedicated
+                                         decarbonization fund can also be allied with emission intensity reduction targets- with financial or
+                                         fiscal incentives of varying quantum associated with the targeted achievements.
+                                  4)     A Financially-backed Scheme for the Integration of Waste Heat Recovery Systems – Waste heat
+                                         recovery is a disruptive technological option that can serve as a low-hanging fruit for the low-carbon
+                                         transition of the secondary steel sector units. Despite a relatively low level of investment requirements
+                                         and quicker payback periods, waste heat recovery remains grossly under-utilized by the secondary
+                                         steel sector. A national-level scheme that subsidizes waste heat recovery technologies or provides
+                                         incentives for their adoption could strongly facilitate energy efficiency and emission-reduction in a
+                                         short amount of time.
+                                  5)     Dedicated Renewable Energy Supply for the IF/EAF Units – Most of the IF and EAF units in the
+                                         secondary steel sector are standalone units with constrained operating sizes to develop any captive
+                                         power facilities. More than 70% of the energy input for these units comes from electricity and the
+                                         dominant share of this electricity is sourced from fossil-fuel-based power plants. Dedicated allocation
+                                         of a certain percentage of renewable energy supply to these units from state and private discoms
+                                         could effectively mitigate scope 2 emissions from the sector. Importantly, center-state policy
+
+
+
+
+30
+                       Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     coordination on power supply would need to be streamlined, alongside an overall expansion of the
+     power grid.
+6)   Enhancing Scrap Availability and Collection – Amplifying scrap utilization and promoting a circular
+     economy model for the secondary steel industry is key to its sustainable future. Currently, the
+     downstream sector remains import-dependent for sourcing scrap. To reverse this dependence, India
+     would need to remarkably improve scrap recycling. As outlined by the National Steel Scrap Recycling
+     policy, setting up scrap recycling centres with an effective formalization of scrap collection, segregation,
+     and dismantling would be required to attain higher recycling rates (80-90%) as in Europe, Japan, and
+     South Korea. To ensure material availability, the successful implementation of policies such as the
+     National Vehicle Scrappage Policy would be essential.
+
+5.2 Interventions to Enhance the flow of International Climate
+    Finance
+1)   Multi-level Risk Guarantee Mechanisms dedicated to de-risking financing low-carbon transition
+     technologies with longer payback periods need to be developed. As discussed in the earlier section,
+     private finance would play a key role in meeting the overall financial requirements of the sector and
+     consequently de-risking mechanisms would need to be included in the fold. For layered-risk funding
+     mechanisms, the first layer of guarantee can be provided at the sub-national/national level, which could
+     be further supported by international climate finance. Consequently, requirements of due diligence on
+     documentation, reporting, and monitoring can also be assigned at local levels to overcome the cost of
+     capital-related barriers to accessing international climate finance. International climate finance needs
+     to be viewed as a major source to finance the LCT of the secondary steel sector.
+2)   A Sector-Level Modernization Programme supported by ICF – International climate finance needs to
+     be viewed as a major source to finance the LCT of the secondary steel sector. Consequently, a sector
+     level modernisation programme could be targeted. Such a programme could be prepared to address
+     the decarbonization challenge in phases – starting with the adoption of energy efficiency measures and
+     alternative fuels. This sectoral modernization programme plan shall be posed to the World Bank or the
+     GCF for funding and accessing international climate finance.
+
+
+
+
+                                                                                                                          31
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                      Conclusion
+                                      This report has laid out the complex and intertwined landscape of the steel sector when it comes to
+                                      production of almost twenty-five percent of steel in India via the over 1000 MSME units. It establishes the
+                                      deep dependencies on coal-based direct reduction of iron that have locked in high emitting technologies.
+                                      Glaringly, the historical reasons for this have been the sector trying to avoid dependencies on imported
+                                      cooking coal, the lack of affordable natural gas and regional development of industry goals. While
+                                      seemingly there exists a lot of low-hanging fruit in terms efficiency improvements for the MSME steel
+                                      sector like investments in waste heat recovery, whether this alone is a decarbonization and modernization
+                                      strategy for this sector remains doubtful. Even with these improvements these production processes will
+                                      remain disproportionately carbon and energy intensive and may thus also continue to face uncertain
+                                      economic perspectives.
+                                      Thus, a clarity on strategy for how to transition the sector and its myriad moving parts and stakeholders
+                                      is an essential precursor. The strategy shall take under consideration the important role of the MSME
+                                      steel industry for local economies and identify what primary or secondary production technologies can
+                                      offer long-term perspective for steel production and processing in the emerging national and global steel
+                                      value chain. The strategy shall also enhance clarity for private investors, international public funders and
+                                      domestic banks as mixed signals and uncertainties will hamstring access to capital.
+                                      Our proposition as the pathway for this strategy evolves is that we consider the challenges in getting
+                                      international finance for coal based DRI as even with efficiency improvements they will remain carbon
+                                      intensive. Also, a shift to CCS or hydrogen-based production technologies are challenging to apply here
+                                      given the small size of installations and requisite CO2 capture infrastructure that would be needed. We
+                                      instead recommend exploring the feasibility of transitioning coal based DRI installations to recycled steel
+                                      making, as these facilities keep their EAF or and get financing for those, while phasing down the coal DRI
+                                      installations of their facility.
+                                      Significantly, this transformation might reduce the value add of the plant but might not have drastic
+                                      implications for jobs, as labor intensity is further downstream (rolling, casting, use for manufacturing/
+                                      construction). All the while there might be other co-benefits to the local firms and communities in
+                                      terms of local air pollution and stabilization of the sites to realize investments in upgrading EAF’s and
+                                      downstream activities. The implication of this would be that a large share of steel scrap would go to the
+                                      local small-scale installations. This would offer co-benefits, given the challenges in scrap collection, scrap
+                                      quality and scrap processing requirements are actively worked at.
+                                      Importantly, prioritizing finance for improvements within the secondary steel sector in India becomes
+                                      imperative. Such enormous shifts in production pathways of the sector might be currently uncertain to
+                                      predict but unavoidable to acknowledge for the future. Crucially, as pivotal changes in the operational
+                                      nature of the sector would demand substantial support in terms of financing and capacity building,
+                                      access to international climate finance indubitably would need to become the facilitative landscape
+                                      which would catalyse and incentivize this sectoral transformation.
+                                      Strikingly, to adopt the mere best-available technologies (BATs), the Indian secondary steel sector would
+                                      require upfront investments of above 14,000 million USD and considerable technical handholding. Thus,
+                                      a low-carbon development strategy for the secondary steel sector becomes imperative to formulate.
+                                      Phased steps towards cleaner production pathways need to be outlined to strike a balance between
+                                      emission intensity reduction and ensuring a business case for the sector. And, most importantly, the
+                                      development of a strategy is critical to provide an outlay to avail finance for the sector, alongside
+                                      programmatic technical support. The realisation that implementation of a decarbonization strategy for
+                                      the sector hinges on the availability of international financial backing is central to a cleaner future of the
+                                      sector. Beyond technology transfer and upgradation, international climate finance would also be key to
+                                      enabling capacity building programs, labour skill formation and overall sustainable development within
+                                      the sector. The development of an ecosysystem conducive to facilitating the attraction, absorption, and
+                                      dissemination of finance emerges as the need of the hour for the secondary steel sector. A clear strategy
+                                      through a phased roadmap for LCT shall facilitate the overall development of an enabling environment,
+                                      support both- financial and technical assistance.
+
+
+32
+                                                   Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+References
+41% higher payment made by steel CPSEs to MSMEs during April-Nov 2022 from year-ago period: Govt. (2022, December 26). Financial
+       Express. Retrieved July 11, 2023, from https://www.financialexpress.com/industry/sme/msme-fin-41-higher-payment-made-by-
+       steel-cpses-to-msmes-during-april-nov-2022-from-year-ago-period-govt/2927216/
+All About 1 MW Solar Power Plant: Price, Specifications & More. (2023, February 14). Amplus Solar. https://amplussolar.com/blogs/1mw-
+       solar-power-plant
+Banerjee, S., Biswas, D.A., Goel, S., Kedia, S. (2022). Financing Low Carbon Transition in India’s MSME Sector. In TERI. https://
+       climatestrategies.org/wp-content/uploads/2022/09/220909_Report_India.pdf
+Bureau of Energy Efficiency. (n.d.). Retrieved July 10, 2023, from https://www.adeetie.beeindia.gov.in/home/fidetail/sidbi
+CEEW, Yadav, D., Guhan, A., and Biswas, T. (2021). Greening Steel: Moving to Clean Steelmaking Using Hydrogen and Renewable Energy.
+      New Delhi: Council on Energy, Environment and Water. https://www.ceew.in/sites/default/files/ceew-study-on-clean-and-
+      carbon-neutral-hydrogen-based-steel-production.pdf
+Contribution to State Energy Conservation Fund. (n.d.). Bureau of Energy Efficiency. Retrieved July 10, 2023, from https://saathee.
+       beeindia.gov.in/Common/BEEContent?MID=1&SMID=21
+Credit Guarantee Schemes: Facilitating MSME Financing in Africa During The COVID-19 Pandemic. (2022, March). In Alliance for Financial
+       Inclusion. Retrieved July 10, 2023, from https://www.afi-global.org/wp-content/uploads/2022/03/Credit-Guarantee-Schemes-
+       Facilitating-MSME-Financing-in-Africa-during-the-COVID-19-Pandemic_070322.pdf
+Csaky, E., Frei-Oldenburg, A., Hess, U., Kuhn, S., Miller, C., Varangis, P. & Perry, D. (2017, May). Climate Smart Financing for Rural
+       MSMEs: Enabling Policy Frameworks. In G20 Global Partnership for Financial Inclusion. https://www.gpfi.org/sites/gpfi/files/
+       documents/08%20GPFI%20-%20Policy%20Paper%20ClimateE%20smart%20financing%20for%20rural%20MSMEs_0.pdf
+David, M. (2021, January 14). Small Scale Metal Recycling Plant Equipment. Metallurgist & Mineral Processing Engineer. https://
+       www.911metallurgist.com/small-scale-metal-recycling-plant-equipment/
+Finextra. (2023, February 6). Union budget 2023: Key highlights for startups, SMEs, and businesses. Finextra Research. https://www.
+       finextra.com/blogposting/23686/union-budget-2023-key-highlights-for-startups-smes-and-businesses
+GEF-UNIDO-BEE Project. (n.d.). Bureau of Energy Efficiency. Retrieved July 10, 2023, from https://beeindia.gov.in/en/programmesdemand-
+      side-managementsmall-medium-enterprise/gef-unido-bee-project
+Ghosh, A.M., Vasudevan, N. and Kumar, S. 2021. Compendium: Energy-efficient Technology Options for Direct Reduction of Iron Process
+       (Sponge Iron Plants). New Delhi: The Energy and Resources Institute. https://www.teriin.org/sites/default/files/2021-08/
+       Direct%20Reduction%20of%20Iron%20Process.pdf
+IEA .(2020). Iron and Steel Technology Roadmap, IEA, Paris https://www.iea.org/reports/iron-and-steel-technology-roadmap,
+IEA. (2021). ETP Clean Energy Technology Guide. https://www.iea.org/articles/etp-clean-energy-technology-guide.
+Innovative climate finance products. (2015). European Investment Bank. https://www.climateaction.org/images/uploads/documents/
+       innovative_climate_finance_products_en.pdf
+JICA – SIDBI Financing Scheme for Energy Saving Projects in MSME Sector (Phase III). (n.d.). Foundry Informatics Centre. Retrieved July
+       10, 2023, from http://www.foundryinfo-india.org/pdf/JICA_Brochure.pdf
+JSW - Steel and Indian Economy: An Upward Curve. (n.d.). JSW. Retrieved July 10, 2023, from https://www.jsw.in/steel/steel-and-indian-
+      economy-upward-curve#:~:text=Steel%20now%20contributes%20about%202,in%20the%20global%20steel%20market
+Lukas, A. (2018). Financing Energy Efficiency, Part 1: Revolving Funds. In World Bank Group. Retrieved July 11, 2023, from https://
+       openknowledge.worldbank.org/server/api/core/bitstreams/647835bc-ffbe-5e01-baf5-e3b45120847d/content
+Maltais, A., Linde, L., Sanchez, F. and Mete, G. (2022). The role of international finance institutions in the transition to low-carbon steel
+       production. LeadIT Research Report. Stockholm Environment Institute, Stockholm. https://www.industrytransition.org/content/
+       uploads/2022/11/report-2209a-ifis-lhv2.pdf
+
+
+
+
+                                                                                                                                                      33
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     Ministry of Steel - Annual Report 2022-23. (2023, June 20). In Ministry of Steel, Government of India. Retrieved July 10, 2023, from
+            https://steel.gov.in/sites/default/files/MoS%20AR%202022-23.pdf
+     Ministry of Steel, Government of India. (2019). National Steel Scrap Recycling Policy. New Delhi. Retrieved from https://steel.gov.in/sites/
+            default/files/Steel%20Scrap%20Recycling%20Policy%2006.11.2019.pdf
+     OECD. (2015). New Approaches to SME and Entrepreneurship Financing: Broadening the Range of Instruments. https://www.oecd.org/
+            cfe/smes/New-Approaches-SME-full-report.pdf)
+     Partial Risk Guarantee Fund for Energy Efficiency (PRGFEE). (n.d.). Bureau of Energy Efficiency. Retrieved July 10, 2023, from https://
+             beeindia.gov.in/sites/default/files/PRGFEE_0.pdf
+     Partial Risk Sharing Facility in Energy Efficiency. (2021, May 12). IEA. Retrieved July 10, 2023, from https://www.iea.org/policies/6203-
+             partial-risk-sharing-facility-in-energy-efficiency
+     Soni, S. (2023, March 2). Over Rs 2,600 crore in MSME payment yet to be cleared by central PSUs, ministries, departments: Govt data.
+            The Financial Express. https://www.financialexpress.com/industry/sme/msme-fin-over-2600-crore-in-msme-payment-yet-to-be-
+            cleared-by-central-psus-ministries-departments-govt-data/2997811/
+     Sponge Iron Manufacturers Association. (2021). DRI Update. https://www.spongeironindia.com/images/publications/DRI-UPDATE%20
+           March,%202021.pdf
+     TERI & GIZ. (2022). Indian Secondary Steel Sector Cluster Mapping and Resource Consumption Study.
+     TERI, Nand Gopal, E., Ganguly, A., and Vasudevan, N. (2017). Technology Compendium on Energy Efficient Technology Packages for Electric
+            Arc Furnace New Delhi: The Energy and Resources Institute 62pp. A study for UNDP.
+     UNIDO Partnership Strategy with Development Finance Institutions. (n.d.). UNIDO. Retrieved July 10, 2023, from https://www.unido.org/
+           sites/default/files/2015-05/DFI_Publication_0.pdf
+     Upscaling Energy Efficient Production in Small-Scale Industry in India. (2016, January). In UNDP. Retrieved July 10, 2023, from https://
+            info.undp.org/docs/pdc/Documents/IND/00074684%20Terminal%20Evaluation%20Report%2000086974.pdf
+     Venture Capital Fund for Energy Efficiency (VCFEE). (n.d.). Bureau of Energy Efficiency. Retrieved July 10, 2023, from https://beeindia.
+           gov.in/sites/default/files/VCFEE_0.PDF
+     World Bank Approves $1.5 Billion in Financing to Support India’s Low-Carbon Transition. (2023, June 29). World Bank. https://www.
+           worldbank.org/en/news/press-release/2023/06/29/world-bank-approves-1-5-billion-in-financing-to-support-india-s-low-carbon-
+           transition
+     World Steel in Figures 2022. (2023, June 1). World Steel Association. https://worldsteel.org/steel-topics/statistics/world-steel-in-
+           figures-2022
+
+
+
+
+34
+                                                   Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+Annexures
+Annexure – 1
+List of Stakeholders for Consultation
+
+                                                   Financing Institutions - International
+
+United Nations Industrial Development Organization (UNIDO)
+
+Asian Development Bank
+
+GEF Capital Partners
+
+                                                     Financing Institutions - Domestic
+
+YES Bank
+
+Small Industries Development Bank of India (SIDBI)
+
+Energy Efficiency Services Limited (ESSL)
+
+                                                                   Industry
+
+Confederation of Indian Industry (CII)
+
+Minmet Consultants
+
+Sponge Iron Manufacturers Association (SIMA)
+
+All India Induction Furnaces Association (AIIFA)
+
+All India Steel Re-Rollers Association (AISRA)
+
+Alloy Steel Producers Association of India
+
+                                                          Think Tank/Institutions
+
+German Corporation for International Cooperation (GIZ)
+
+The Energy and Resources Institute (TERI)
+
+Shakti Sustainable Energy Foundation
+
+Climate Policy Initiative (CPI)
+
+                                                         Government Institutions
+
+Ministry of Steel Task Force on Financing Steel Sector
+
+Bureau of Energy Efficiency (BEE)
+
+
+
+
+                                                                                                                                                      35
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     Annexure – 2
+     Selected List of Active Funding Schemes for the Secondary Steel Sector
+
+                                            Year of            Implementing
+     Scheme                                                                        Features / Provisions
+                                            Introduction       body
+
+                                                                                   •     Includes initiatives such as the PAT scheme, EEEP,
+     NMEEE
+                                                               Ministry of               and the Framework for Energy Efficiency Economic
+     (National Mission for Enhanced         2011
+                                                               Power & BEE               Development (FEEED) to build capacities of institutions
+     Energy Efficiency)
+                                                                                         to fund EE projects.
+
+                                                                                   •     Last-mile equity support for specific energy efficiency
+     VCFEE                                                                               projects through Special Purpose Vehicle (SPV).
+     (Venture Capital Fund for Energy 2017                     BEE                 •     15% of total equity or INR 2 Crores provided.
+     Efficiency) (BEE, accessed 2023)                                              •     Union Government approved amount for the fund is INR
+                                                                                         210 crores.
+
+                                                                                   •     Accelerate MSME sector’s performance by
+                                                                                         strengthening financial institutions, enhancing
+     RAMP                                                                                centre-state partnerships, addressing issues with
+                                            FY 2022-23 to      Ministry of
+     (Raising and Accelerating MSME                                                      late payments and the greening of MSMEs. It involves
+                                            FY 2026-27         MSME
+     Performance)                                                                        strategic investment plans (SIPs).
+                                                                                   •     2023-24 rollout - an outlay of Rs 6,000 crore (Finextra,
+                                                                                         2023).
+
+                                                                                   •     Provide financial assistance to MSMEs, promote energy
+     SIDBI-4E Scheme                                                                     efficiency and sustainability.
+                                            2014               SIDBI
+     (End to End Energy Efficiency)                                                •     Loan amount between ₹10 Lakhs to ₹5 Crores at 6.4%
+                                                                                         to 7.5% interest rate.
+
+     PRGFEE                                                                        •     Provides financial institutions with partial coverage
+     (Partial Risk Guarantee Fund for                                                    of the risk involved in extending loans for energy
+                                       2008                    BEE
+     Energy Efficiency) (BEE, accessed                                                   efficiency projects.
+     2023)                                                                         •     50% of the loan amount/Rs. 10 crore per project.
+
+                                                                                   •     Credit guarantee for lenders up to 50-85% on defaults
+                                                                                         made by MSME borrowers on collateral-free loans
+     CGTMSE                                                                              extended through primary lending institutions.
+                                                               Ministry of
+     (Credit Guarantee Fund Trust for 2000                                         •     FY24 - Infusion of around Rs 9,000 crore into the
+                                                               MSME & SIDBI
+     Micro and Small Enterprises)                                                        fund - lowered the cost of credit by 1% to allow the
+                                                                                         MSME sector to avail cumulative collateral-free credit
+                                                                                         guarantee of Rs 2 trillion (Finextra, 2023).
+
+                                                                                   •     Implemented through 12 nodal agencies such as SIDBI
+     CLCSS                                                     Ministry of
+                                            2000;                                        & other Primary Lending Institutions.
+     (Credit Linked Capital Subsidy                            MSME – 12
+                                            Revamped in                            •     Facilitation of technology upgradation - an upfront
+     Scheme for Technology                                     nodal banks
+                                            2005                                         subsidy of 15% on institutional credit up to ₹ 1 crore for
+     Upgradation)                                              including SIDBI
+                                                                                         MSMEs in various sub-sectors.
+                                                                                   •     Financing for development, demonstration, and
+     SRIJAN Scheme                                                                       commercialization of innovative technology projects by
+     (TIFAC–SIDBI Revolving                 2010               SIDBI                     MSMEs.
+     Technology Innovation Fund)                                                   •     Maximum loan amount of up to INR 2 Crores at 5%
+                                                                                         interest rate.
+
+
+
+
+36
+                                                   Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+Annexure – 3
+Integrating Best Available Technologies and Input-based Solutions in the DRI process (Ghosh et al., 2021)
+
+                                                       Estimated
+Best Available                                                         Estimated      Energy       GHG
+                                                       Investment
+Technologies                                                           Savings        saving       reduction    Payback
+                   Technology Description              required                                                         Plant Capacity
+(Short &                                                               (USD           (Gcal/       (tCO2/       (Year)
+                                                       (USD
+Medium term)                                                           million)       year)        year)
+                                                       million)
+
+
+                   The producer gas is supplied                                                                              100 TPD (the
+                   instead of coal in the rotary                                                                             plant will have to
+Coal
+                   kiln. The process consists of                                                                             invest in setting
+gasification
+                   pyrolysis and gasification. The 1.3167              0.3148         21840        7500         NA           up a producer
+for partial
+                   producer gas (CO and H2) is                                                                               gas system of
+substitution
+                   partially substituted instead                                                                             corresponding
+                   of coal for combustion                                                                                    capacity)
+
+                   To reduce the thermal load
+Use of iron ore
+                   and increase the load of Iron                       0.3947         27300        9400         NA           100 TPD
+pellets in DRI
+                   ore pellets.
+
+                   The cooling tower is equipped
+                   with an automatic control
+                   system to regulate fan
+                   operation instead of manual
+Thermostatic                                                                                                                 For a motor with
+                   controls. It reduces the
+controller for                                         0.0002          0.0005         12           11           0.5          a 10 Kw capacity
+                   temperature of incoming
+cooling tower                                                                                                                for 100 TPD
+                   water based on wet bulb
+                   temperature and relative
+                   humidity of ambient
+                   conditions.
+
+                   The metal blades in cooling
+                   tower fan can
+                   be replaced with lighter fibre-
+FRP blades for     reinforced                                                                                                For a motor with
+cooling tower      plastic (FRP) blades, which     0.0008              0.0003         9            8            2.4          a capacity of 7.3
+fans               would reduce                                                                                              kW
+                   the power consumption of the
+                   cooling
+                   tower system.
+
+                   Energy-efficient centrifugal
+                   pumps can be used in place                                                                                The motor rating
+                   of inefficient pumps, which                                                                               of an energy-
+Energy-efficient   provide advantages such as                                                                                efficient system
+                                                       0.0024          0.0029         72           69           0.8
+pumps              high-flow rates, smooth and                                                                               will be 18.5 kW,
+                   non-pulsating delivery, and                                                                               replacing 30-kW
+                   regulation of flow rate over a                                                                            inefficient pumps
+                   wide range.
+
+                   VFD for each fan can be used
+                   to attain precise control
+                   of temperature. The main
+                                                                                                                             Decentralized
+                   advantage of the use of
+Decentralized                                                                                                                VFD systems for
+                   decentralized VFDs is that
+VFDs for shell                                         0.0036          0.0006         16           16           5.2          shell air fans for
+                   it eliminates the manual
+air fans                                                                                                                     100 tpd capacity
+                   intervention in controlling
+                                                                                                                             rotary kiln
+                   airflow across the kiln, leading
+                   to close control over the
+                   temperature in each zone.
+
+
+
+                                                                                                                                                      37
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                                              Estimated
+     Best Available                                                            Estimated     Energy     GHG
+                                                              Investment
+     Technologies                                                              Savings       saving     reduction   Payback
+                          Technology Description              required                                                      Plant Capacity
+     (Short &                                                                  (USD          (Gcal/     (tCO2/      (Year)
+                                                              (USD
+     Medium term)                                                              million)      year)      year)
+                                                              million)
+
+                          The motive loads are the
+                                                                                                                             A typical example
+                          major consumers of electricity,
+                                                                                                                             of electrical motor
+                          which includes equipments
+                                                                                                                             application is ID
+                          like kiln drive, ID fan, shell air
+                                                                                                                             fan in rotary kiln,
+                          fans, crushers, cooling tower
+                                                                                                                             which uses 75 kW
+     Energy-efficient     pumps, material handling
+                                                             0.0036            0.0008        19         18          4.8      standard motor in
+     motors               system, and air compressor.
+                                                                                                                             a 100-tpd plant.
+                          For a 100-tpd coal-based DRI
+                                                                                                                             This standard
+                          plant, the motor capacity is in
+                                                                                                                             motor can be
+                          the range of 7.5 kW to 75 kW.
+                                                                                                                             replaced with an
+                          Most of the motors used are
+                                                                                                                             IE3 (4-pole) motor
+                          of standard type.
+                          The VFD is used to minimize
+                          electricity consumption during
+                                                                                                                             VFD with a rated
+                          unloading in the rotary screw
+                                                                                                                             power of 22 Kw
+     VFDs for air         compressor. VFD-enabled
+                                                              0.0036           0.0028        71         67          1.3      and with a full
+     compressors          air compressors can deliver
+                                                                                                                             time load of 3,110
+                          variable airflow to maintain
+                                                                                                                             h/year
+                          set pressure based on end-
+                          use points.
+                          The high-alumina low-cement
+                          castable refractory material
+                          can be replaced with mullite-                                                                      Mullite-based
+     Mullite-based        based high alumina castable                                                                        lining of rotary
+                                                              0.0605           0.0436        3033       1050        4.1
+     kiln lining          refractory for reducing the                                                                        kiln of 100 tpd
+                          outer-shell temperature and                                                                        capacity
+                          heat loss through the klin
+                          shell by 30 per cent.
+                                                                                                                             Energy saving
+                                                                                                                             that can be
+                          A vapour absorption machine
+                                                                                                                             achieved by
+                          (VAM) can be utilised to
+                                                                                                                             replacing
+     WHR - Vapour         replace existing cooling
+                                                                                                                             conventional
+     Absorption           arrangements. The existing          0.0085           0.0035        36         34          2
+                                                                                                                             chillers with a
+     Chiller              standalone air conditing
+                                                                                                                             VAM-based
+                          system can be replaced with
+                                                                                                                             system of 10 TR
+                          WHR based VAM.
+                                                                                                                             (cooling load)
+                                                                                                                             capacity
+                          The WHR-based rotary drum
+                          dryer can be installed for
+     WHR – Coal
+                          moisture removal in coal
+     moisture                                             0.1211               0.0799        5539       1900        1.5      100 TPD
+                          using the off-gases generated
+     reduction
+                          from the rotary klin during the
+                          process for iron production.
+
+                          The off-gases generated
+                          from the rotary kiln during
+                          the process can be recovered
+     WHR– Iron ore        using the WHR boiler to
+                                                              0.4238           0.3935        22360      7726        1.1      200 TPD
+     preheating           generate a high-pressure
+                          system for preheating of iron
+                          ore, resulting in lower coal
+                          consumption.
+
+
+
+
+38
+                                                 Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+                                                     Estimated
+Best Available                                                       Estimated      Energy       GHG
+                                                     Investment
+Technologies                                                         Savings        saving       reduction    Payback
+                  Technology Description             required                                                         Plant Capacity
+(Short &                                                             (USD           (Gcal/       (tCO2/       (Year)
+                                                     (USD
+Medium term)                                                         million)       year)        year)
+                                                     million)
+
+                                                                                                                            A kiln with 200
+                                                                                                                            TPD production
+                                                                                                                            capacity has
+                                                                                                                            a WHR power
+                  The off-gases generated
+                                                                                                                            generation
+                  from the rotary klin during
+                                                                                                                            facilty of 4 MW.
+WHR – Power       the process can be recovered
+                                                     3.3902          1.0582         20227        19300        3.2           A kiln with 100
+generation        using the WHR boiler to
+                                                                                                                            TPD production
+                  generate a high-pressure
+                                                                                                                            capacity would
+                  system for power generation
+                                                                                                                            have a power
+                                                                                                                            generation
+                                                                                                                            potential of 1.5-2.5
+                                                                                                                            MW
+
+
+
+Annexure – 4
+Integrating Best Available Technologies in EAF and IF processes (TERI, 2017)
+
+
+Best Available                                 Estimated       Estimated                            GHG
+Technologies                                   Investment      Savings/                             reduction       Payback     Plant
+                  Technology Description                                      Energy saving
+(Short and                                     required USD    year (USD                            (tCO2           (Year)      Capacity
+Medium term)                                   million         million)                             /year)
+
+
+                  The metal blades in
+                  the cooling tower fan
+                  can be replaced with                                        Reduction                                         Values based
+                  ‘fibre reinforced plastic’                                  in electricity                                    on cooling
+FRP blades in
+                  (FRP), lighter blades.       0.0024          0.0024         consumption of    40                  0.8         tower of 1.5
+cooling tower
+                  Using FRP blades would                                      cooling tower fan                                 lakh kCal
+                  reduce the power                                            by 15-25%                                         capacity
+                  consumption of the
+                  cooling tower system.
+                  Generally, the pumps’
+                  efficiency in the cooling
+                                                                              energy savings
+                  water circuit is in the
+                                                                              with use of EE                                    Values based
+Installation of   range of 40-60 %. The
+                                            0.0061             0.0097         pumps in cooling      90              0.5-1       on a 100 hp
+EE pumps          installation of EE pumps
+                                                                              water system is                                   pump
+                  for pumping water for
+                                                                              about 15–25%.
+                  cooling could increase
+                  energy savings.
+                  The off gases generated
+                  from various reactions
+Variable          inside EAF are removed                                      Reduction
+frequency         from the EAF using                                          in electricity                                    50 tonne
+                                          0.0091               0.0091                               120             1
+drives in ID      a fumes extraction                                          consumption by                                    furance
+fans              system, which is                                            15 to 20%
+                  typically equipped with
+                  a high-power ID fan.
+
+
+
+
+                                                                                                                                                    39
+                                                           Towards an Enabling Environment
+
+
+
+
+     Best Available                              Estimated       Estimated                           GHG
+     Technologies                                Investment      Savings/                            reduction     Payback    Plant
+                       Technology Description                                Energy saving
+     (Short and                                  required USD    year (USD                           (tCO2         (Year)     Capacity
+     Medium term)                                million         million)                            /year)
+
+
+                       To reduce the overall
+     Waste heat        energy consumption,
+                                                                             Furnace oil
+     recovery for      the waste heat gases
+                                                 0.0121          0.0484      saving by 22            1510          0.2-0.5    NA
+     boiler feed       (900-1200°C) can be
+                                                                             kg/hr
+     water             recovered and reused
+                       for pre-heating.
+                       To reduce the overall
+                       energy consumption,
+     Scrap
+                       the waste heat gases
+     preheating                                                                                                               50 tonne
+                       (900-1200°C) can be       0.2422          0.3245      41 kWh/t                5900          0.5-1
+     (bucket                                                                                                                  furnace
+                       recovered and reused
+     System)
+                       for a pre-heating scrap
+                       charging bucket.
+                       To reduce the overall
+                       energy consumption,
+     Scrap             the waste heat gases
+     preheating        (900-1200°C) can be                                                                                    50 Tonne
+                                                 0.4843          0           NA                      8860          1
+     (Continuous       recovered and reused                                                                                   furance
+     System)           for a continuous pre-
+                       heating scrap charging
+                       system.
+                       To reduce the overall                                                                                  steel IF with
+                       energy consumption,                                                                                    5 tonnes
+                       the waste heat gases                                                                                   capacity
+     Ladle Pre-        (900-1200°C) can be                                                                                    with 8 heats
+                                                 0.0121          0.0121      10-15 ToE/yr            150           1
+     heating (BEE)     recovered and reused                                                                                   per day and
+                       for pre-heating ladle                                                                                  12,000 tonnes
+                       used to transport                                                                                      of annual
+                       molten liquid.                                                                                         production
+
+     Annexure – 5
+     Integrating Best Available Technologies and Input-based Solutions in the Steel Re-rolling Process
+     (Unido, 2020)
+
+     Best Available                                       Estimated                          Energy        GHG
+                                                                          Estimated
+     Technologies                                         Investment                         saving        reduction   Payback Plant
+                       Technology Description                             Savings/year
+     (Short and                                           required USD                       (Gcal/        (tCO2       (Year)  Capacity
+                                                                          (USD million)
+     Medium term)                                         Million                            year)         /year)
+
+                       Conventionally, the pulveriser
+                       is inefficient due to no proper
+                       control over air and fuel leading
+     Modified                                                                                                                   Considering
+                       to improper combustion. In an
+     pulverized coal                                      0.02            0.031              1811          718         0.9      a 10 t/h
+                       efficient system, coal is pre-
+     feeding system                                                                                                             SRRM plant
+                       crushed and dried to remove the
+                       moisture and then coal is fed into
+                       the pulveriser.
+
+     Conversion of
+     fossil fuel to  Natural gas is used instead of                                                                             Considering
+     Natural gas     coal for better combustion and to 0.05               0.052              31391         14800       0.11     a 15 t/h
+     based reheating reduce burning losses.                                                                                     furnace
+     furnace
+
+
+
+40
+                                                 Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+Best Available                                           Estimated                           Energy     GHG
+                                                                           Estimated
+Technologies                                             Investment                          saving     reduction     Payback Plant
+                   Technology Description                                  Savings/year
+(Short and                                               required USD                        (Gcal/     (tCO2         (Year)  Capacity
+                                                                           (USD million)
+Medium term)                                             Million                             year)      /year)
+
+                   Typically, all conventional
+                   furnaces have various losses due                                                                               15 t/h
+Energy Efficient   to inefficient design. The energy-                                                                             furnace
+Re-heating         efficient design of the re-heating    0.18              0.199             8526       94.6          1.5         fired by
+Furnace            furnace consumes less fuel                                                                                     pulverized
+                   and heat losses by increasing                                                                                  coal
+                   productivity.
+Conversion of
+                   Coal-based methane is a carbon-
+fossil fuel to
+                   neutral fuel extracted from coal                                                                               Considering
+Coal-Based
+                   beds. It’s a form of natural gas      0.18              0.289             6354       9365          0.8         a 15 t/h
+Methane (CBM)
+                   used in re-rolling instead of solid                                                                            furnace
+based reheating
+                   fuel.
+furnace
+
+Conversion of
+fossil fuel to     Biogas is a carbon-neutral fuel
+                                                                                                                                  Considering
+biomass-based      generated from agricultural
+                                                         0.18              0.605             4543       11915         0.2         a 15 t/h
+producer gas       waste that can be used in re-
+                                                                                                                                  SRRM unit
+re-heating         rolling instead of solid fuel.
+furnace
+
+Installation of
+high efficiency    The waste heat generated
+                                                                                                                                  15 tph
+metallic           from the re-heating furnace is
+                                                         0.03              0.099             5724       2,262         0.4         furnace
+recuperator        recovered by the installation of
+                                                                                                                                  capacity
+in re-heating      recuperator.
+furnace
+
+Installation of    Installation of automatic and
+automation &       control system basic monitoring                                                                                15 tph
+control system     instruments like thermocouples        0.03              0.061             1331       526           0.5         furnace
+in re-heating      can increase the furnace                                                                                       capacity
+furnace            efficiency at optimal level.
+
+                   The critical components of
+                   energy-efficient pulverisers such
+                   as a Hammer, a mild steel liner
+Installation of    (Use grooved EN-31 hardened                                                                                    Considering
+Energy Efficient   steel plates or cast high             0.02              0.010             911        359           0.7         a 10 t/h
+Pulveriser         manganese), a classifier, and an                                                                               SRRM plant
+                   in-built blower. This can enhance
+                   the efficiency of the furnace by
+                   reducing energy consumption.
+
+                   The flue gases from the re-
+Installation of    heating furnace are passed                                                                                     Considering
+Coal Drying        through a cyclone dyer for            0.02              0.052             3032       1198          0.5         a 15 t/h
+system             removing the moisture from the                                                                                 SRRM plant
+                   coal.
+Swirl Burner
+                   Swirl burners are used for proper                                                                              Considering
+Used for
+                   control of air fuel-mixture in re-    0.02              0.009             1001       395           0.6         a 15 t/h
+Pulverized Coal
+                   heating furnaces                                                                                               SRRM plant
+Firing
+
+Installation of    Anti-friction roller bearing is
+Anti-friction      used instead of conventional                                                                                   Considering
+Roller Bearing     metal bearing for improving           0.06              0.138             730        763           0.5         a 15 t/h
+in Rolling Mill    transmission efficiency and                                                                                    SRRM plant
+Strands            reducing energy consumption.
+
+
+                                                                                                                                                    41
+     Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+     Best Available                                               Estimated                             Energy    GHG
+                                                                                    Estimated
+     Technologies                                                 Investment                            saving    reduction      Payback Plant
+                          Technology Description                                    Savings/year
+     (Short and                                                   required USD                          (Gcal/    (tCO2          (Year)  Capacity
+                                                                                    (USD million)
+     Medium term)                                                 Million                               year)     /year)
+
+     Installation
+     of Universal         Universal spindles and couplings                                                                                  considering
+     Couplings/           are used instead of conventional        0.06              0.062               350       371            1          a 15 t/h
+     Spindles in          wobbler couplings and spindles.                                                                                   SRRM unit
+     Rolling Mill
+     Installation
+                          To reduce the temperature
+     of Y-table /                                                                                                                           considering
+                          and energy consumption the
+     Tilting Table /                                              0.06              0.166               2221      1025           0.4        a 15 t/h
+                          Automatic Material handling
+     Repeaters in                                                                                                                           SRRM unit
+                          system is installed.
+     Rolling Mill
+     Replacement
+     of Existing          Replacement of energy efficient
+                                                                                                                                            Considering
+     Motors with IE3      motors instead of conventional
+                                                                  0.0005            0.001               7         7.6            8          a 20 hp
+     Class Efficiency     motors improves process
+                                                                                                                                            motor
+     Energy Efficient     efficiency.
+     Motors
+                          Conventionally, the re-rolling
+                          mills are built without proper
+                          layout design. The revamping                                                                                      Considering
+     Revamping of
+                          of the rolling mill significantly   0.12                  0.27                4373      1972           0.5        a 15 t/h
+     rolling mill
+                          determines the mill’s productivity,                                                                               SRRM unit
+                          energy consumption and
+                          efficiency.
+
+     Annexure 6
+     Assumptions for the Calculation of Overall Investments
+
+      Production                                Plant            Cost - USD
+                        Production Route                                            Comments                            Source
+      Route                                     Capacity         Million
+
+                                                                                                                        As per stakeholder consultation
+                                                                                    The minimum capacity
+                        Natural Gas                                                                                     the cost of a 1 MT natural gas
+                                                1.0 Mt           225-400            of gas based DRI plant
+                        Based Plant                                                                                     based DRI plant is about USD
+                                                                                    should be 1.50 Mt.
+                                                                                                                        400 million
+
+                                                                                                                        As per stakeholder
+                                                                                                                        consultations the cost of a
+      DRI               Hydrogen Based
+                                                1.0 Mt           2300-2500                                              1 MT greenfield hydrogen based
+                        Plant
+                                                                                                                        DRI plant is about USD 2.3 - 2.5
+                                                                                                                        billion
+
+                                                                                    Total value of all BATs
+                        BATs for DRI            100TPD           5.34               for DRI - Check Sheet -             Gosh et al, TERI 2021
+                                                                                    DRI_BATs
+
+                        BATs for EAF                                                Total value of all BATs for
+      EAF and IF                                100 TPD          0.77                                                   TERI, 2017
+                        and IF                                                      EAF/IF
+
+      Steel Re-         BATs for Re-rolling                                         Total value of all BATs for
+                                                                 1.03                                                   UNIDO, 2020
+      rolling mills     Mills                                                       Re-rolling
+
+      Scrap Input       Processing Plant        1 MT             3.80                                                   David. M., 2021
+
+
+
+
+42
+                                                       Financing Decarbonization of the Secondary Steel Sector in India Towards an Enabling Environment
+
+
+
+
+ Production                               Plant               Cost - USD
+                  Production Route                                              Comments                         Source
+ Route                                    Capacity            Million
+
+                  Energy required
+                  per tonne of liquid     KWH                 420-755                                            TERI, 2017
+                  steel
+
+ Renewable                                1 MW                5
+ energy
+                  Cost of 1 MW            KW energy
+                                          produced                                                               Amplus Solar, 2023
+                  Solar Plant                                 4000
+                                          in 1 MW per
+                                          day
+
+ Currency
+                  Conversion rate – USD to INR – 82 INR = 1 USD
+ Conversion
+
+
+
+Annexure – 7
+Guide to Technological Readiness Level (TRL) (Source: IEA, 2021)
+
+Stage                      TRL          Description
+
+                           1            Initial Idea                                Basic principles have been defined
+
+
+Concept                    2            Application Formulated                      Concept & application of solution have been formulated
+
+
+                           3            Concept needs Validation                    Solution needs to be prototyped and applied
+
+
+Small Prototype            4            Early Prototype                             Prototype proven in test conditions
+
+
+                           5            Large Prototype                             Components proven in conditions to be deployed
+Large Prototype
+                           6            Full Prototype at Scale                     Prototype proven at scale in conditions to be deployed
+
+
+                           7            Pre-Commercial Demonstration                Solution working in expected conditions
+Demonstration
+                                                                                    Commercial demonstration, full scale deployment
+                           8            First of a Kind Commercial
+                                                                                    in final form
+                                        Commercial Operation in Relevant            Solution is commercially viable, needs evolutionary
+                           9
+                                        Environment                                 improvements to stay competitive
+Early Adoption
+                                                                                    The solution is commercial & competitive, but needs
+                           10           Integration Needed at Scale
+                                                                                    further integration efforts
+
+Mature                     11           Proof of Stability Reached                  Predictable growth
+
+
+
+
+                                                                                                                                                          43
+

@@ -1,0 +1,137 @@
+{
+  "description": "Imported-coal preset, 100 TPD at 90% utilisation, model 0.7.1. Prices, heating values and the waste-heat figures are the values printed in the papers. Dollar figures use 95 INR per USD.",
+  "model_version": "0.7.1",
+  "parameters_sha256": "276146a072d32d6a4c1997800653af605d42ccb3bc5ce6e56dc52b4aa13488a0",
+  "case": {
+    "capacity_tpd": 100,
+    "utilization": 0.9,
+    "coal_rate_mode": "solve"
+  },
+  "baseline": {
+    "coal_rate_t_per_t_dri": 1.0245834350585938,
+    "ore_rate_t_per_t_dri": 1.5890568919631889,
+    "metallization_frac": 0.9017055588810382,
+    "sec_gcal_per_t_dri": 5.586003026188853,
+    "mass_closure_percent": 1.2009877257509667,
+    "energy_closure_percent": 8.000800850993492e-06,
+    "co2_direct_t_per_t_dri": 2.082800907662932,
+    "co2_total_t_per_t_dri": 2.1264209076629323,
+    "cost_inr_per_t_dri": 7234.412973116174,
+    "h2_breakeven_inr_per_kg": 13.138337495678979,
+    "whr_gross_kwh_per_t_dri": 418.1269474353448,
+    "whr_export_kwh_per_t_dri": 316.31425269181034
+  },
+  "validation": [
+    {
+      "key": "ore_rate_t_per_t_dri",
+      "verdict": "PASS",
+      "model_value": 1.5890568919631889
+    },
+    {
+      "key": "coal_rate_t_per_t_dri",
+      "verdict": "PASS",
+      "model_value": 1.0245834350585938
+    },
+    {
+      "key": "sec_gcal_per_t_dri",
+      "verdict": "PASS",
+      "model_value": 5.586003026188853
+    },
+    {
+      "key": "dri_fe_total_frac",
+      "verdict": "PASS",
+      "model_value": 0.9260229037915484
+    },
+    {
+      "key": "metallization_frac",
+      "verdict": "PASS",
+      "model_value": 0.9017055588810382
+    },
+    {
+      "key": "co2_direct_t_per_t_dri",
+      "verdict": "PASS",
+      "model_value": 2.082800907662932
+    },
+    {
+      "key": "aux_power_kwh_per_t_dri",
+      "verdict": "PASS",
+      "model_value": 60
+    },
+    {
+      "key": "whr_gross_kwh_per_t_dri",
+      "verdict": "PASS",
+      "model_value": 418.1269474353448
+    },
+    {
+      "key": "whr_export_kwh_per_t_dri",
+      "verdict": "PASS",
+      "model_value": 316.31425269181034
+    },
+    {
+      "key": "waste_gas_sensible_frac",
+      "verdict": "PASS",
+      "model_value": 0.23141320822809758
+    },
+    {
+      "key": "h2_full_dr_kg_per_t_dri",
+      "verdict": "INFO",
+      "model_value": 46.85810881944455
+    }
+  ],
+  "pathways": [
+    {
+      "target_frac": 0.1,
+      "reachable": true,
+      "label": "WHR + Biomass 10%",
+      "co2_reduction_frac": 0.11780886075078854,
+      "cost_delta_inr_per_t_dri": -292.67539459250565,
+      "abatement_cost_inr_per_t_co2": -1168.3124979728327,
+      "payback_yr": 6.206731891305882
+    },
+    {
+      "target_frac": 0.2,
+      "reachable": true,
+      "label": "WHR + Biomass 20%",
+      "co2_reduction_frac": 0.21510437917936429,
+      "cost_delta_inr_per_t_dri": 199.9751773644375,
+      "abatement_cost_inr_per_t_co2": 437.19743457173513,
+      "payback_yr": 14.480134442079185
+    },
+    {
+      "target_frac": 0.3,
+      "reachable": true,
+      "label": "WHR + Biomass 20% + H2 10%",
+      "co2_reduction_frac": 0.3123998976079401,
+      "cost_delta_inr_per_t_dri": 6608.412402647202,
+      "abatement_cost_inr_per_t_co2": 9948.028504611788,
+      "payback_yr": null
+    },
+    {
+      "target_frac": 0.4,
+      "reachable": true,
+      "label": "WHR + Biomass 20% + H2 20%",
+      "co2_reduction_frac": 0.40969541603651594,
+      "cost_delta_inr_per_t_dri": 13016.849627929969,
+      "abatement_cost_inr_per_t_co2": 14941.54645165768,
+      "payback_yr": null
+    },
+    {
+      "target_frac": 0.5,
+      "reachable": true,
+      "label": "WHR + Biomass 20% + H2 30%",
+      "co2_reduction_frac": 0.5069909344650918,
+      "cost_delta_inr_per_t_dri": 19425.286853212736,
+      "abatement_cost_inr_per_t_co2": 18018.47424131613,
+      "payback_yr": null
+    },
+    {
+      "target_frac": 0.6,
+      "reachable": false,
+      "label": null,
+      "co2_reduction_frac": null,
+      "cost_delta_inr_per_t_dri": null,
+      "abatement_cost_inr_per_t_co2": null,
+      "payback_yr": null
+    }
+  ]
+}

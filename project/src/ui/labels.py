@@ -24,6 +24,87 @@ def _split_hyphen(word: str) -> list[str]:
     return [p + "-" if i < len(parts) - 1 else p for i, p in enumerate(parts)]
 
 
+_HEAD = {
+    "coal_feed": "Feed coal",
+    "coal_inj": "Injection coal",
+    "dri": "Sponge iron",
+    "char": "Char",
+    "ore": "Iron ore",
+    "dust": "Flue dust",
+    "kiln": "Kiln",
+    "econ": "Money",
+    "biomass": "Rice husk",
+    "hydrogen": "Hydrogen",
+    "whr": "Waste-heat recovery",
+    "power": "Power",
+    "plant": "Plant",
+    "coal": "Coal",
+    "dolomite": "Dolomite",
+    "air": "Air",
+}
+_WORD = {
+    "nhv": "heating value", "kj": "", "kg": "", "kgk": "", "frac": "share",
+    "tpd": "tonnes a day", "inr": "", "kwh": "kWh", "cp": "heat capacity",
+    "ef": "emission factor", "capex": "capital cost", "opex": "operating cost",
+    "aux": "auxiliary power", "vm": "volatile matter", "max": "maximum",
+    "min": "minimum", "per": "per", "t": "tonne", "m": "", "c": "",
+    "usd": "dollars", "mw": "MW", "mwth": "thermal MW", "yr": "year",
+    "k": "", "deg": "",
+}
+_NAMED = {
+    "coal_feed.nhv_kj_kg": "Heating value of the feed coal",
+    "coal_inj.nhv_kj_kg": "Heating value of the injection coal",
+    "kiln.unburnt_vm_carbon_frac": "Volatile carbon that leaves the kiln unburnt",
+    "dri.cp_kj_kgk": "Heat capacity of the sponge iron",
+    "char.cp_kj_kgk": "Heat capacity of the char",
+    "biomass.char_reactivity": "How readily rice-husk char reduces the ore",
+    "biomass.max_substitution_frac": "Most rice husk the kiln is allowed to take",
+    "hydrogen.max_substitution_frac": "Most hydrogen an existing kiln is allowed to take",
+    "econ.coal_price_inr_per_t": "Price of coal",
+    "econ.discount_rate": "Discount rate",
+    "econ.tax_rate": "Tax rate",
+    "kiln.length_m": "Kiln length",
+    "hydrogen.price_inr_per_kg": "Price of hydrogen",
+    "coal.rate_t_per_t_dri": "Coal used per tonne of sponge iron",
+    "coal.rate_mode": "How the coal rate is chosen",
+}
+
+
+def _words(token: str) -> str:
+    parts = []
+    for word in token.split("_"):
+        mapped = _WORD.get(word, word)
+        if mapped:
+            parts.append(mapped)
+    return " ".join(parts)
+
+
+def plain_route(label: str) -> str:
+    """A pathway name as a sentence fragment. The model key stays unchanged."""
+    if not label or label == "Baseline":
+        return "Kiln alone"
+    return (label.replace("WHR", "waste-heat recovery")
+            .replace("Biomass", "rice husk")
+            .replace("Char recycle", "char recycled")
+            .replace("Producer gas", "producer gas")
+            .replace("Kiln control", "tighter control")
+            .replace("Oxygen", "oxygen enrichment")
+            .replace("VFD", "motor drives")
+            .replace("H2", "hydrogen"))
+
+
+def plain_parameter(key: str) -> str:
+    """A parameter key as a plant engineer would say it. The key itself stays in Sources."""
+    if key in _NAMED:
+        return _NAMED[key]
+    head, _, tail = key.partition(".")
+    head_name = _HEAD.get(head, title_case(head.replace("_", " ")))
+    if not tail:
+        return head_name
+    tail_name = _words(tail) or title_case(tail.replace("_", " "))
+    return f"{head_name}: {tail_name}"
+
+
 def title_case(text: str) -> str:
     """Title-case a model label while protecting acronyms and formulae."""
     words = text.replace("_", " ").split()

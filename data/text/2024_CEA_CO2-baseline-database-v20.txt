@@ -1,0 +1,1638 @@
+  CO2 Baseline Database
+for the Indian Power Sector
+
+
+
+        User Guide
+
+           Version 20.0
+
+
+         December 2024
+
+
+
+
+     Government of India
+      Ministry of Power
+Central Electricity Authority
+
+     Sewa Bhawan, R.K.Puram,
+          New Delhi-66
+Revision History of the Database
+ Version No. Date of           Main Revisions Compared to Previous Version
+             Publication
+ 1.0 Draft    October 2006      -    Draft for Stakeholder Consultation
+ 1.0          November 2006     -    Added data on 10 stations which had been in exclusion worksheet of draft database
+                                -    Adjusted values to latest IPCC Guidance (IPCC 2006 Guidelines for National Greenhouse Gas In-
+                                     ventories) where IPCC defaults are used
+ 1.1          December 2006     -    Adjusted fuel emission factor of lignite to be in line with Initial National Communication figures
+
+ 2.0          June 2007         -    Added data for FY 2005-06, including new stations and units commissioned during 2005-06
+                                -    Some retroactive changes to data for FY 2000-01 to 2004-05
+ 3.0          December 2007     -    Added data for FY 2006-07, including new stations and units commissioned during 2006-07
+                                -    Adapted calculations and User Guide to ensure consistency with new CDM methodologies:
+                                     ACM0002 Version 07, and Tool to Calculate the Emission Factor for an Electricity System (Version
+                                     01.1, EB 35 Annex 12)
+ 4.0          October 2008      -    Added data for FY 2007-08, including new stations and units commissioned during 2007-08
+                                -    Adjusted delineation of regional grids
+                                -    Adjusted IPCC-based fuel emission factors to account for uncertainty in line with EB 35 Annex 12
+ 5.0          November 2009     -    Added data for FY 2008-09, including new stations and units commissioned during 2008-09
+
+ 6.0          March 2011        -    Added data for FY 2009-10, including new stations and units commissioned during 2009-10
+
+ 7.0          January 2012      -    Added data for FY 2010-11, including new stations and units commissioned during 2010-11
+
+ 8.0          January 2013      -    Added data for FY 2011-12, including new stations and units commissioned during 2011-12
+                                -    From FY 2011-12, scope of database is restricted to stations exceeding 25 MW
+                                -    Retroactive changes: Three units in NEWNE region identified as CDM units, leading to minor
+                                     change in build margin for FY 2010-11
+ 9.0          December 2013     -    Added data for FY 2012-13, including new stations and units commissioned during 2012-13
+                                -    Retroactive changes: Nine units identified as CDM units, leading to changes in build margins back
+                                     to FY 2009-10
+                                -    Updated GCVs of five stations back to FY 2008-09
+ 10.0         December 2014     -    Added data for FY 2013-14, including new stations and units commissioned during 2013-14
+                                -    Introduced distinction between Indian and imported coal as from FY 2013-14
+                                -    Retroactive changes to previous FY due to: identification of CDM units, identification of waste heat
+                                     recovery steam turbines, harmonization of GCV for oil used as secondary fuel
+                                -    One station was reclassified from SR to NEWNE region
+ 11.0         April 2016        -    Added data for FY 2014-15, including new stations and units commissioned during 2014-15
+                                -    Introduced integrated Single Indian Grid (NEWNE and Southern are now synchronized)
+                                -    Export of power to Bangladesh also considered in the Import/Export data.
+ 12.0         May 2017          -    Added data for FY 2015-16, including new stations and units commissioned during 2015-16
+
+ 13.0         June 2018         -    Added data for FY 2016-17, including new stations and units commissioned during 2016-17
+                                -    Export of power to Myanmar also considered in the Import/Export data.
+ 14.0         December 2018     -    Added data for FY 2017-18, including new stations and units commissioned during 2017-18
+
+ 15.0         December 2019     -    Added data for FY 2018-19, including new stations and units commissioned during 2018-19
+
+ 16.0         March 2021        -    Added data for FY 2019-20, including new stations and units commissioned during 2019-20
+                                -    Some retroactive changes to data for FY 2018-19
+ 17.0         October 2021      -    Added data for FY 2020-21, including new stations and units commissioned during 2020-21
+
+ 18.0         September 2022    -    Added data for FY 2021-22, including new stations and units commissioned during 2021-22
+
+ 19.0         December 2023     -    Added data for FY 2022-23, including new stations and units commissioned during 2022-23
+                                -    Unit wise emission factor calculated for 2022-23
+                                -    Captive Power Injection into the grid incorporated for calculating grid emission factor
+                                -    Renewable Energy transactions through Open access adjusted to avoid double accounting
+ 20.0         December 2024     -    Added data for FY 2023-24, including new stations and units commissioned during 2023-24
+                                -    Build Margin and Combined Margin calculated for year accounting for renewable energy genera-
+                                     tion into the grid.
+
+
+
+Expert Team Contributing to the Database
+Central Electricity Authority:
+Shri. Vijay Menghani, Chief Engineer (CE&ET)                                Shri. Sachin K. Bhise, Director (CE&ET)
+Shri. Manoj Kumar, Dy. Director (CE&ET)                                     Shri. Harkaran Singh, Asst. Director (CE&ET)
+Contents
+Summary .............................................................................................................................. 1
+1     Background and Objective ........................................................................................... 2
+2     How to Use the Database ............................................................................................. 5
+3     Scope of Database ........................................................................................................ 7
+4     Data and Calculation Approach ................................................................................... 8
+      4.1       Base Data ............................................................................................................. 8
+      4.2       Annual Data .......................................................................................................... 9
+      4.3       Calculation of CO2 Emissions ............................................................................. 10
+      4.4       Adjustment for Cross-Border Electricity Transfers ............................................... 11
+      4.5       Generation from Renewable Energy Sources.......................................................11
+5     Results......................................................................................................................... 13
+      5.1       Results for Fiscal Year2023-24 ........................................................................... 13
+      5.2       Developments over Time .................................................................................... 14
+      5.3       Changes compared to Previous Database Versions ........................................... 17
+6     User Examples ............................................................................................................ 18
+7     Biomass Co-Firing in Thermal Power Plants...............................................................20
+8     Updating Procedure.................................................................................................... 20
+9     Further Information..................................................................................................... 20
+Annexure-I -- Average Emission factor considering Renewable Energy.......................21
+Appendix A – Systems in India’s Grids ............................................................................ 22
+Appendix B – Assumptions for CO2 Emission Calculations ........................................... 26
+Appendix C – Grid Emission Factors ............................................................................... 28
+Appendix D – Summary of Methodology ACM0002 / Version 22.0 ................................. 29
+Appendix E – Abbreviations .............................................................................................. 30
+       Central Electricity Authority                          CO2 Baseline Database for the Indian Power Sector
+
+
+Summary
+Since the emergence of the Kyoto Protocol and its Clean Development Mechanism (CDM),
+energy projects lowering the carbon intensity of the electricity grid can generate additional rev-
+enues from carbon credits. Methodologies approved by the CDM Executive Board have to be
+applied to determine the resulting emission reductions, using the “baseline” CO2 emission fac-
+tor of the relevant geographical area.
+The Paris agreement in 2015 called for the establishment of a ‘Sustainable Development
+Mechanism (SDM)’. SDM is the direct successor to the Clean Development Mechanism (CDM)
+under the Kyoto Protocol. The goals of the SDM are to promote higher ambition that contributes
+to emission reductions and sustainable development, and deliver an overall mitigation of green-
+house gas emissions. In the Paris Agreement, all countries have made mitigation pledges in
+the form of their NDCs (Nationally Determined Contributions). To facilitate the achievement of
+India’s enhanced NDC targets, India is on the pathway to develop a robust framework for the
+Indian Carbon Market (ICM) with an objective to decarbonize the Indian economy by pricing
+the GHG emission through trading of the carbon credit certificates.
+In order to facilitate adoption of authentic baseline emissions data and also to ensure uniformity
+in the calculations of CO2 emission reductions, Central Electricity Authority (CEA) has compiled
+a database containing the necessary data on CO2 emissions for all grid-connected power sta-
+tions in India.
+All regional grids have been integrated as a single Indian Grid covering all the states in De-
+cember 2013. Small power exchanges also take place with the neighbouring countries Bhutan,
+Nepal, Bangladesh and Myanmar. For the unified grid, the main emission factors are calculated
+in accordance with the relevant CDM methodologies. CEA will continue updating the database
+at the end of each fiscal year.
+To show the impact of Renewable energy in reducing the CO2 emission intensity of Indian
+Electricity Generation, weighted average emission factor is also calculated by including Re-
+newable energy. The calculations are based on generation, fuel consumption and fuel quality
+data obtained from the power stations. Typical standard data were used only for a few stations
+where information was not available from the station. The prevailing baseline emissions based
+on the data for the FY 2023-24 are shown in Table S.
+Table S:       Weighted average emission factor, simple operating margin (OM), build margin (BM)
+               and combined margin (CM) of the Indian Grid for FY 2023-24 (adjusted for cross-border
+               electricity transfers) (including RES & Captive power injection into grid), in
+               tCO2/MWh
+
+                             Average                                OM                         BM                       CM
+
+                                0.727                              0.962                      0.552                    0.757
+
+               Average is the average emission of all stations in the grid, weighted by net generation.
+               OM is the average emission from all stations excluding the low cost/must run sources.
+               BM is the average emission of the 20% (by net generation) most recent capacity addition in the grid (including RE).
+               CM is a weighted average of the OM and BM (here weighted 50: 50).
+
+
+
+
+                                                                                                                             Page | 1
+         Central Electricity Authority                         CO2 Baseline Database for the Indian Power Sector
+
+1 Background and Objective
+Purpose of the CO2 Database
+The Clean Development Mechanism (CDM) under the Kyoto Protocol to United Nations Frame-
+work Convention on Climate Change (UNFCCC) provides an opportunity for the Indian power
+sector to earn revenue through the reduction of greenhouse gas emissions (GHG), particularly
+carbon dioxide (CO2). India has tremendous potential for CDM projects. Power generation
+based on higher efficiency technologies such as supercritical technology, integrated gasifica-
+tion combined cycle, and renovation and modernisation of old thermal power plants, co-gener-
+ation along with renewable energy sources are some of potential candidates for CDM in the
+power sector. Energy efficiency and conservation projects also present themselves as eligible
+CDM projects, as these would also result in energy savings and displace associated CO2 emis-
+sions which otherwise would be produced by grid-connected power stations.
+The CDM has by now become an established mechanism for crediting climate friendly projects.
+Projects involving displacement or saving of grid electricity must calculate their emission re-
+ductions based on a grid emission factor, which needs to be determined in accordance with
+the rules set by the CDM Executive Board. Central Electricity Authority (CEA) accordingly took
+up to compile a database for all grid-connected power stations in India. The purpose of the
+database is to establish authentic and consistent quantification of the CO2 emission baseline,
+which can be readily used by CDM project developers in the Indian power sector. This would
+enhance the acceptability of Indian projects and would also expedite the clearance/approval
+process. The baseline emissions for the Indian Grid are given in Section 5 (Results) of this
+User Guide. The complete updated CO2 Database (Microsoft Excel File) and this User Guide
+along with all previous versions is available on the website of Central Electricity Authority:
+www.cea.nic.in.
+The purpose of this User Guide is to provide a ready reference to the underlying calculations
+and assumptions used in the CO2 database and to summarise the key results.
+
+Official Status of the Database
+The database is an official publication of the Government of India for the purpose of CDM
+baselines. It is based on the most recent data available with the Central Electricity Authority.
+
+Consistency of the Database with CDM Methodologies
+Under the CDM, emission reductions must be quantified using an approved methodology. Key
+examples of such methodologies include AMS-I.D and ACM0002 for grid-connected power
+generation from renewable sources in small- and large-scale projects, respectively. The latest
+versions of all approved CDM methodologies are available at the official CDM website,
+http://cdm.unfccc.int.
+In addition, the CDM Executive Board has adopted a methodological tool to facilitate the cal-
+culation of baseline emission factors for electricity grids.1 This tool, which is referred to as the
+
+
+
+
+1
+    Tool to calculate the emission factor for an electricity system (Version 7.0). See http://cdm.unfccc.int
+
+                                                                                                               Page | 2
+            Central Electricity Authority                        CO2 Baseline Database for the Indian Power Sector
+
+   Grid Tool in this user guide, has become the main reference for CDM methodologies involving
+   baseline emission factors for power grids, such as ACM0002.
+   This version of the database is designed to be consistent with version 7.0 of the Tool to calculate
+   the emission factor for an electricity system published by the CDM Executive Board.
+
+   Installed Capacity
+   As a result of the impressive growth attained by the Indian Power Sector, the installed capacity
+   has grown from mere 1,713 MW in 1950 to 441969.60 MW as on 31.03.2024. Sector-wise
+   details of installed capacity are shown in Table 1.
+
+
+   Table 1:       Sector- wise installed capacity (MW) as on 31.03.2024
+
+                                         Thermal                                   Nuclear       Hydro          RES          Total
+Sector
+                Coal         Lignite         Gas        Diesel         Total
+
+ State        69437.50       1150.00       7012.05       280.31       77879.86        0.00      27254.45       2535.11     107669.43
+
+Central       68019.96       3640.00       7237.91        0.00        78897.91      8180.00     15742.72      1632.30      104452.93
+
+Private       73512.00       1830.00       10788.24      308.89       86439.15        0.00      3931.00      139477.09     229847.24
+
+All India     210969.46      6620.00       25038.21      589.20      243216.87      8180.00     46928.17     143644.51     441969.55
+
+  Source: Installed Capacity Report by CEA for FY2023-24 (https://cea.nic.in/wp-content/uploads/installed/2024/03/IC_Mar_2024_al-
+  location_wise.pdf).
+
+
+
+
+                                                                                                                      Page | 3
+       Central Electricity Authority            CO2 Baseline Database for the Indian Power Sector
+
+Indian Grids
+Historically, the Indian power system was divided into five independent regional grids, namely
+Northern, Eastern, Western, Southern, and North-Eastern. Each grid covered several states
+(see Table 2). Since August 2006, however, all regional grids except the Southern Grid had
+been integrated and were operating in synchronous mode, i.e. at same frequency. Conse-
+quently, the Northern, Eastern, Western and North-Eastern grids were treated as a single grid
+named as NEWNE grid from FY 2007-08 onwards for the purpose of this CO2 Baseline Data-
+base. As of 31 December 2013, the Southern grid has also been synchronised with the
+NEWNE grid, hence forming one unified Indian Grid.
+Power generation and supply within the Indian Grid is managed by Regional Load Dispatch
+Centres (RLDC). The National Power Committee (NPC) and Regional Power Committees
+(RPCs) provide a common platform for discussion and solution to the national and regional
+problems relating to the grid. Each state meets their demand with their own generation facilities
+and also with allocation from power plants owned by the central sector such as NTPC and
+NHPC etc. and IPP’s being operated by private sector. Specific quotas are allocated to each
+state from the central sector power plants. Depending on the demand and generation, there
+are cross-border electricity exports and imports (e.g., from Bhutan, Nepal, Bangladesh and
+Myanmar).
+Table 2:      Geographical scope of the Indian electricity grid
+
+                                            INDIAN GRID
+
+    Northern            Eastern           Western           North-Eastern    Southern
+    Chandigarh          Bihar             Chhattisgarh      Arunachal        Andhra Pradesh
+    Delhi               Jharkhand         Gujarat           Pradesh          Karnataka
+    Haryana             Orissa            Dadar & Nagar     Assam            Kerala
+    Himachal Pra-       West Bengal       Haveli and        Manipur          Tamil Nadu
+    desh                                  Daman & Diu       Meghalaya
+                        Sikkim                                               Puducherry
+    Jammu &                               Madhya Pradesh    Mizoram
+                        Andaman-                                             Lakshadweep*
+    Kashmir             Nicobar*          Maharashtra       Nagaland         Telengana
+    Ladakh                                Goa               Tripura
+    Punjab
+    Rajasthan
+    Uttar Pradesh
+    Uttarakhand
+
+
+
+
+*The union territories Andaman and Nicobar Islands and Lakshadweep islands are not con-
+nected to the National grid. The power generation and distribution systems of these territories
+is served by standalone systems.
+
+
+
+
+                                                                                          Page | 4
+             Central Electricity Authority                         CO2 Baseline Database for the Indian Power Sector
+
+2 How to Use the Database
+Structure of the Database
+Emission reductions from CDM projects in the power sector are calculated based on the net
+electricity generated by the project and the difference between the emissions factors (in t
+CO2/MWh) of the baseline and the project activity. The baseline emission factor reflects the
+carbon intensity of the displaced grid electricity. This baseline emission factor can be derived
+from the data provided in the CO2 Database.
+Specifically, the database contains the following elements:
+         Worksheet “Database” provides the net generation and the absolute and specific CO2
+          emissions of each grid-connected power station and individual units (see Section 4 for
+          calculation approach). It also indicates stations and units which were included in the build
+          margin
+         Worksheet “Results” provides the most commonly used aggregate emission factors.
+          These are calculated from the station unit data in accordance with the most recent Grid
+          Tool.2 The emission factors are explained in more detail in the next section.
+         Worksheet “Abbreviations” explains the abbreviations used in the “Datasheet” worksheet.
+         Worksheet “Assumptions” shows the assumptions that were used for the calculation of the
+          CO2 emissions at station and unit level, where the information was not provided by the
+          station.
+         Worksheet “Transfers” shows the cross-border power transfers.
+
+Different Types of Emission Factors:
+The CDM methodologies which have been approved to date by the CDM Executive Board
+distinguish a range of different emission factors. In the Indian context, the following four are
+most relevant, and were therefore calculated for the Indian Grid based on the underlying station
+data:
+Weighted average:
+The weighted average emission factor describes the average CO2 emitted per unit of electricity
+generated in the grid. It is calculated by dividing the absolute CO2 emissions of all power sta-
+tions by the total net generation. Net generation from so-called low-cost/must-run sources is
+included in the denominator. In India, hydro and nuclear stations qualify as low-cost/must-run
+sources. The weighted average emission factor also includes generation from Renewable
+sources and grid connected captive stations.
+
+
+Simple operating margin (OM):
+The operating margin describes the average CO2 intensity of the existing stations in the grid
+which are most likely to reduce their output if a CDM project supplies electricity to the grid (or
+reduces consumption of grid electricity). “Simple” denotes one out of four possible variants
+
+
+
+2
+        Tool to calculate the emission factor for an electricity system (Version 7.0). See http://cdm.unfccc.int
+
+                                                                                                                   Page | 5
+         Central Electricity Authority                        CO2 Baseline Database for the Indian Power Sector
+
+listed in the Grid Tool for calculating the operating margin.3 Furthermore, option A has been
+selected as the required disaggregated data is available in India.
+The simple operating margin is the weighted average emissions rate of all generation sources
+except so-called low-cost or must-run sources (hydro, nuclear and other renewable stations)
+and are excluded. The operating margin, therefore, can be calculated by dividing the grid’s
+total CO2 emissions by the net generation of all thermal stations (including Captive). In other
+words, it represents the weighted average emissions rate of all thermal stations connected to
+grid.
+Values for operating margins given in this User Guide and the Database are always based on
+the “ex post” option as set out in the Grid Tool.4
+
+
+Build margin (BM):
+The build margin reflects the average CO2 intensity of newly built power stations that will be
+(partially) replaced by a CDM project. In accordance with the Grid Tool, the build margin is
+calculated in this database as the average emissions intensity of the 20% most recent capacity
+additions including renewable energy generation. The build margin generally covers units com-
+missioned in the last five years.
+
+
+Combined margin (CM):
+The combined margin is a weighted average of the simple operating margin and the build mar-
+gin. By default, both margins have equal weights (50%). However, CDM project developers
+may choose to argue for different weights. In particular, for intermittent and non-dispatchable
+generation types such as wind and solar photovoltaic, the Grid Tool allows to weigh the oper-
+ating margin and build margin at 75% and 25%, respectively. However, the combined margins
+shown in the database are calculated based on equal weights.
+In line with the Grid Tool, if a station is registered as a CDM activity, it is excluded from the
+build margin but not from the operating margin.5
+
+
+
+
+3
+    The two variants “Simple adjusted operating margin” and “Dispatch data analysis operating margin” cannot currently be ap-
+    plied in India due to lack of necessary data.
+4
+    See Tool to calculate the emission factor for an electricity system (Version 7.0).
+5
+    See Tool to calculate the emission factor for an electricity system (Version 7.0), pp. 16 and pp 25 point (f)
+
+                                                                                                                    Page | 6
+            Central Electricity Authority                            CO2 Baseline Database for the Indian Power Sector
+
+3 Scope of Database
+The database used for CO2 emission calculation includes all grid-connected power stations6
+which covers power stations of both public utilities and independent power producers (IPPs).
+
+
+
+
+Figure 1: Breakdown of the total I/C corresponds to 441970 MW as on 31.03.2024
+    The following power stations are currently not included in the database:
+      Small decentralised generation sets;
+      Stations or units installed in Andaman and Nicobar Islands and Lakshadweep ; as they are
+       not connected to the Indian Grid;
+Renewable energy generation into the grid is accounted for calculating the average emission
+factor of the Indian grid. However, the detail of these plants are not included in the database
+due to non-availability plant wise RE data.
+Captive power stations: As on 31 March-2024, the aggregate installed capacity of captive
+stations in industries having demand of 0.5 MW and above was 79,340 MW inclusive of 7500
+MW approx. of non-conventional renewable energy capacity. The generation of these stations
+in FY 2022-23 was 211,931 MUs and estimated generation in FY 2023-24 is 214,581 MUs
+(provisional figure) 7.The estimated Energy injection into the grid by captive plants is 17560
+MUs (provisional figure) in FY 2023-24. The details of captive plants could not be added in this
+database due to non-availability of plant wise data, but energy injection into the grid is ac-
+counted for calculation of Weighted Average emission factor of the Indian Grid (Table S).
+    Non-conventional renewable energy stations: These include hydro stations up to 25 MW,
+    as well as all wind, biomass and solar photovoltaic stations. The installed, grid-connected
+    capacity of these sources was 1,43,645 MW as on 31.03.2024.8 The generation from these
+    non-conventional renewable energy sources in FY 2023-24 was 225,830 MUs. The detail of
+    these plants is not included in data base but used for calculation of Weighted Average emis-
+    sion factor of the Indian Grid (Table S).
+
+
+6
+      Captive Power Injection into the grid for FY 2023-24 is calculated based on progressive analysis of 2022-23 published Data and estimated
+      installed capacity in 2023-24.
+7
+      Growth of Electricity Sector in India From 1947-2024 by CEA (https://cea.nic.in/wp-content/uploads/pdm/2024/08/Growth_Book_2024.pdf ;
+      Pages-60/64).
+8
+      The installed capacity for FY 2023-24 as reported by CEA (https://cea.nic.in/wp-content/uploads/installed/2024/03/IC_Mar_2024_alloca-
+      tion_wise.pdf).
+
+
+                                                                                                                                    Page | 7
+       Central Electricity Authority          CO2 Baseline Database for the Indian Power Sector
+
+4 Data and Calculation Approach
+This section gives an overview on the base data, annual data as well as the approaches used
+to calculate station-level and unit-level CO2 emissions.
+
+
+4.1 Base Data
+The following base data parameters were collected for all the stations listed in the CO 2 data-
+base:
+   S No:
+    The Station Numbers start at 1 and proceed alphabetically for all stations. All units of a
+    station have the same station number. Numbers may change in future database versions
+    due to insertion of new stations. Few Stations Numbers are not included in the list for either
+    they are de-commissioned or not relevant in the database category.
+
+   Station Name:
+    Name of the power station. The station names have been arranged in alphabetical order.
+
+   Unit Number:
+    The units of a station are numbered serially starting with 1. Stations are attributed with unit
+    number 0 for the purpose of calculations.
+
+   Commissioning Date:
+    The commissioning date is provided for each unit. Commissioning dates are important for
+    the determination of the build margin.
+
+   Capacity:
+    Capacity data is based on declared rated capacities in MW for each unit as of 31st March
+    2024.
+
+   State:
+    State where the power station is located.
+
+   Sector:
+    This denotes whether the station is operated by the central sector, the state authorities, or
+    the private sector.
+
+   System:
+    A list of the systems including abbreviations and full names is provided in Appendix A.
+
+   Type:
+    Indicates the type of the station, viz. thermal, nuclear, and hydro.
+
+
+   Fuel:
+    Fuel 1 and Fuel 2 indicates the main fuels used for power generation at each station. For
+    example, in coal-based stations, Coal is indicated as Fuel 1 and Oil as Fuel 2.
+
+
+
+
+                                                                                          Page | 8
+       Central Electricity Authority          CO2 Baseline Database for the Indian Power Sector
+
+4.2 Annual Data
+The annual data columns in the database provide the following: net generation in GWh of the
+station, absolute carbon dioxide emissions in metric tonnes, and specific carbon dioxide emis-
+sions in t CO2/MWh, for 2023-24. In addition, there are columns to indicate whether the station
+is included in the build margin in the respective year. If a unit is part of a registered CDM
+activity, it is excluded from the build margin, and the CDM registration number is indicated in
+the respective column.
+CEA has compiled the CO2 Database based upon generation, fuel consumption and fuel gross
+calorific value (GCV) data furnished by each power station. In cases where the station could
+not provide reliable data for all the relevant parameters, assumptions were made as described
+below. Further details on the assumptions made are provided in Appendix B.
+
+a) Assumptions at Station Level
+At the station level, the following assumptions were made where the relevant data could not
+be provided by a station:
+Net generation:
+For hydro stations, only gross generation was available, but not net generation data. Therefore,
+the CEA standard value for auxiliary power consumption in hydro units (0.5%) was applied to
+derive the net generation from the gross generation data reported by the stations. Likewise,
+CEA standard values for auxiliary power consumption had to be applied for some thermal sta-
+tions.
+Gross Calorific Value (GCV):
+Default values were used for some thermal stations where station-specific GCVs were not
+available.
+If the station consists just of one unit, the assumptions at unit level were applied to the station
+level.
+
+b) Assumptions at Unit Level
+At unit level, the following assumptions were made-
+Gross generation:
+For some stations, gross generation data were not shared by generating stations at Unit level.
+Hence, the gross generation figures were taken from the CEA publication by OPM Division for
+Annual Generation Data for fiscal year 2023-24.
+Net generation:
+Net generation data is being reported at unit level by thermal stations. However, for the stations
+where unit wise net generation data was not made available assuming that Unit level Auxiliary
+Power Consumption (APC) is in same proportion of station level APC.
+Fuel consumption and GCV:
+In case fuel consumption and GCV are not reported at unit level by thermal stations, the spe-
+cific CO2 emissions of the units coming in the build margin could usually be assumed to be
+equal to the values of the respective station. See Section 4.3 for details.
+
+
+
+                                                                                          Page | 9
+          Central Electricity Authority                        CO2 Baseline Database for the Indian Power Sector
+
+4.3 Calculation of CO2 Emissions
+Calculation Approach – Station Level
+CO2 emissions of thermal stations were calculated using the formula below:
+
+                                          2
+           AbsCO2 ( station ) y   FuelConi , y  GCVi , y  EFi  Oxid i                          (1)
+                                         i 1
+
+
+Where:
+AbsCO2,y           Absolute CO2 emission of the station in the given fiscal year ‘y’
+FuelConi,y         Amount of fuel of type i consumed in the fiscal year ‘y’
+GCVi,y             Gross calorific value of the fuel i in the fiscal year ‘y’
+EFi                CO2 emission factor of the fuel i based on GCV
+Oxidi              Oxidation factor of the fuel i
+The emission and oxidation factors used in the CO2 Database are provided in Appendix B.
+The emission factors for Indian coal and lignite were based on the values provided in India’s
+Initial National Communication under the UNFCCC (Ministry of Environment & Forests, 2004).
+The emission factor for coal is supported by the results of an analysis of approx. 120 coal
+samples collected from different Indian coal fields. Since the values in the National Communi-
+cation are based on the NCV (Net Calorific Value), they were converted to GCV basis using a
+formula also furnished in the National Communication. For all other fuels as well as for imported
+coal, default emission factors were derived from the IPCC 2006 Guidelines.9 In line with the
+Grid Tool, the low-end values of the 95% confidence intervals indicated by IPCC were used.10
+The IPCC default factors were converted to GCV basis using IEA default conversion factors.
+The oxidation factor for Indian coal and lignite was derived from an analysis performed with
+data on the unburnt carbon content in the ash from various Indian coal-fired power stations.
+The value of 98% is consistent with the default value provided in the IPCC 1996 Guidelines. 11
+For all other fuels as well as imported coal, default values provided in the more recent IPCC
+2006 Guidelines were used.
+Specific CO2 emissions of stations (SpecCO2 (station) y) were computed by dividing the abso-
+lute emissions (AbsCO2 (station) y) estimated above by the station’s net generation (NetGen
+(station) y).
+
+                                                AbsCO2 (station) y
+               SpecCO2 (station) y                                                           (2)
+                                                NetGen (station) y
+
+
+
+
+9
+     2006 IPCC Guidelines for National Greenhouse Gas Inventories, Volume 2: Energy, Table 1.4
+
+10
+                                                                                          , Version 7.0
+     In accordance with the Tool to calculate the emission factor for an electricity system
+11
+     IPCC 1996 Revised Guidelines for National Greenhouse Gas Inventories, Volume 3 (Reference Manual), p.1.13
+
+                                                                                                             Page | 10
+          Central Electricity Authority                        CO2 Baseline Database for the Indian Power Sector
+
+Calculation Approach – Unit Level
+Unit-level CO2 emissions were calculated for all the units in the database.
+For determining the emissions of units, fuel consumption data at unit level was used wherever
+available in the same way as used for calculating the station emissions.
+In the units where unit-level fuel consumption was not available, the fuel consumption of each
+unit was calculated on pro-rata basis of total fuel consumption of the station based on unit wise
+gross generation. The absolute CO2 emission was then calculated individually for each unit.
+
+
+4.4 Adjustment for Cross-Border Electricity Transfers
+The weighted average emission factors and operating margins of the Indian Grid were adjusted
+for cross-border electricity imports and exports, in line with the Grid Tool:
+     The relevant amounts of electricity imported and exported are listed in the database work-
+      sheet “Transfers”;
+     The CO2 emissions associated with these imports were quantified based on the simple
+      operating margin of the exporting grid.12
+
+
+4.5 Generation from Renewable Energy Sources (RES)
+      During the review of the process of the computation it was noticed that since the declaration
+      of 175 GW Renewable Energy Capacity in 2015, the Generation from Renewable Energy
+      Sources (including Hydro) has increased gradually and its contribution in the Indian Power
+      during 2023-24 was about 20.7 %. So the average carbon emission of electricity generation
+      in India has been decreasing and this should be captured in computation. Hence in the
+      computation of the weighted Average emission factor with RES, the total CO2 emission has
+      been divided by total electricity generated.
+      In this version of the report for the FY 2023-24, renewable energy generation is accounted
+      for to calculate Build Margin (BM) and Combined Margin (CM) emission factors of the coun-
+      try. This gives improved results than the previous approach where renewable generation
+      was not included to calculate BM and CM due to lack of available data.
+      To capture the role played by RES in decreasing the carbon emission intensity of the Indian
+      electricity generation, the weighted average emission factor with RES has been computed
+      for last ten years and is enclosed as Annexure- I.
+
+
+
+
+12
+     This corresponds to Options a)+b) listed in the Grid Tool, (Version 7.0), p. 10 & 11
+
+                                                                                                      Page | 11
+        Central Electricity Authority            CO2 Baseline Database for the Indian Power Sector
+
+Methodology with examples:
+For the ease of understanding, the methodology for computation of various emission factors
+is explained below:
+   1. Weighted Average Emission factor: It is computed by dividing the total CO2 emission
+      by net electricity generation.
+
+
+                Weighted Average Emission factor (tCo2/MWh) =            Total CO2 emission
+                                                                        Net Electricity generation
+
+        Total CO2 emission from grid connected stations in 2023-24 = 1204.51 Million Tonne
+        Net Electricity Generation into grid including import, RES and Captive = 1655.7 BU
+
+        Weighted Average factor (Grid Emission Factor) = 1204.51 MT / 1655.7 BU
+                                                       = 0.727 tCO2/MWh (Table S)
+
+   2. Simple Operating Margin: The operating margin is calculated by dividing the grid’s
+      total CO2 emissions by the net generation of all sources except so-called low-cost or
+      must-run sources. In other words, it represents the weighted average emissions rate of
+      all thermal stations (including captive).
+      Total CO2 emission for the 2023-24              = 1204.51 Million Tonne
+        Net Electricity Generation (Thermal) + Imports = 1248.86 + 3.86= 1252.72 BU
+                                        Operating Margin   =1204.51 /1252.72
+                                                           = 0.962 tCO2/MWh (Table S)
+   3. Build Margin: The build margin reflects the average CO2 intensity of newly built power
+      stations that will be (partially) replaced by a CDM project. First 20 % of the net energy
+      is computed and then it is attributed to newly commissioned units in reverse order in
+      bucket fill mode. Then generation of all these units (which may be slightly higher than
+      20% of net generation) and their emission is used for computation of BM in accordance
+      with the Grid Tool, the build margin is calculated in this database as the average emis-
+      sions intensity of the 20% most recent capacity (including renewable capacity) in the
+      grid based net generation.
+        The net generation by most recent capacity (including RES) = 327.60 BU
+        Total CO2 emission from these units for the 2023-24        = 180.88 Million Tonne
+                                                      Build Margin = 180.88/327.6
+                                                                   = 0.552 tCO2/MWh
+
+
+   4.    Combined margin (CM): The combined margin is a weighted average of the simple
+        operating margin and the build margin. By default, both margins have equal weights
+        (50%).
+        Combined Margin = 0.5*OM + 0.5*BM
+                            = 0.5*0.962 + 0.5*0.552
+                            = 0.757 tCO2/MWh
+
+
+                                                                                        Page | 12
+        Central Electricity Authority                 CO2 Baseline Database for the Indian Power Sector
+
+5 Results
+Worksheet “Results” in the database provides the net generation and CO2 emissions data and
+the resulting emission factors for the Indian Grid in the fiscal years 2019-20 to 2023-24. The
+emission factors are also reproduced in Appendix C. The values are rounded off at two deci-
+mals. See database file for additional decimals.
+
+
+5.1 Results for Fiscal Year 2023-24
+Table 3 indicates the development of total emissions over the last five years covered by the
+database.
+Table 3: Total emissions of the power sector for the FY 2019-20 to 2023-24, in million tonnes CO2
+
+       2019-20                 2020-21              2021-22                2022-23                2023-24
+        960.90                  928.14               910.02               1108.139*               1204.51*
+
+*Corresponding to electricity injected into grid (including grid connected captive)
+
+Table 4 shows the emission factors for FY 2023-24 both excluding and including cross-border
+power transfers.
+Table 4: Weighted average emission factor, simple operating margin (OM), build margin (BM)
+and combined margin (CM) of the Indian Grid for FY 2023-24 (not adjusted and adjusted for
+cross-country electricity transfers), in tCO2/MWh
+
+                                                        Average            OM            BM             CM
+ Excluding cross-border power transfers                  0.729            0.964         0.552          0.758
+ Including cross-border power transfers                  0.727            0.962         0.552          0.757
+
+A comparison of both cases in Table 4 shows that cross border electricity transfers did not
+have a significant influence on the emission factors in 2023-24.
+Table 5 shows the weighted average specific emissions for fossil fuel-fired power stations in
+the Indian Grid.
+Table 5: Weighted average specific emissions (on net generation) for fossil fuel-fired stations
+in FY 2023-24, in tCO2/MWh
+                  Coal                         Diesel             Gas**             Lignite             Oil
+                  0.969                           -               0.451              1.30                -
+
+Note: Stations for which assumptions had to be made are included in this analysis (see Section 4 for details).
+
+
+
+
+                                                                                                       Page | 13
+              Central Electricity Authority           CO2 Baseline Database for the Indian Power Sector
+
+5.2 Developments over Time
+ Figure 2 shows the Total Installed Capacity from 2014 to 2024 for the country. Out of the total
+ installed Capacity, the share of Coal and Hydro based capacities has remained steady over a
+ large period and in recent years the share of RES has significantly increased in the total in-
+ stalled capacity.
+
+
+                                       Installed Capacity Mix of India
+  500000
+  450000
+  400000
+  350000
+  300000
+  250000
+  200000
+  150000
+  100000
+   50000
+          0
+
+
+
+
+                                           Thermal   Hydro      Nuclear   RES
+
+
+                                  Figure 2: The Installed Capacity Mix of India
+
+
+
+ Figure 3 shows the development of the weighted average emission factor (including RES) over
+ the period from FY 2019-20 to FY 2023-24. The weighted average emission factor has in-
+ creased marginally in FY 2023-24 mainly due to the increase in total thermal generation. The
+ thermal generation increased by 10% (approx.) in 2023-24 compared to 2022-23.
+
+                             Weighted Average Emission Factor (inc. RES)
+   0.73                                                                              0.727
+  0.725
+   0.72                                                                    0.716
+                                                        0.715
+  0.715              0.713
+
+   0.71
+                                       0.703
+  0.705
+    0.7
+  0.695
+   0.69
+                   2019-20           2020-21         2021-22              2022-23    2023-24
+
+                                                      Series1
+
+
+
+                                                                                               Page | 14
+        Central Electricity Authority          CO2 Baseline Database for the Indian Power Sector
+
+Figure 3 Development of the weighted average emission factor (adjusted for electricity trans-
+fers & inclusive of renewable generation) for the Indian Grid for the period 2019-20 to 2023-24
+
+
+Figure 4 illustrates the development of the import-adjusted operating margins over the period
+from FY 2019-20 to FY 2023-24. In 2023-24, the import-adjusted operating margin has de-
+creased marginally mainly due to increase in PLF of Coal+Lignite based plants from 64.15 in
+2022-23 to 69.09 in 2023-24.
+
+
+
+                                       Operating Margin
+ 0.98
+                                                                0.971
+ 0.97                                                                           0.962
+                                                  0.960
+                0.960
+ 0.96
+
+ 0.95
+                               0.940
+
+ 0.94
+
+ 0.93
+
+ 0.92
+            2019-20          2020-21          2021-22         2022-23         2023-24
+
+                                           Operating Margin
+
+
+Figure 4: Development of the operating margin (adjusted for electricity transfers) for the Indian
+          Grid over the period 2019-20 to 2023-24.
+
+
+Figure 5 shows the build margins for the five fiscal years 2019-20 to 2023-24. With adoption of
+more efficient generation technologies such as Supercritical and Ultra-Supercritical Units ac-
+counted in the latest Installed capacity, a declining trend has been observed for the Build Mar-
+gin. From 2023-24 year onwards, RE generation is also accounted to calculate the Build Mar-
+gin. Therefore, there a decline is observed in the graph in 2023-24.
+
+
+
+
+                                                                                        Page | 15
+        Central Electricity Authority           CO2 Baseline Database for the Indian Power Sector
+
+
+                                          Build Margin
+ 0.9            0.868             0.865             0.869
+                                                                  0.867
+
+ 0.8
+
+ 0.7
+
+ 0.6                                                                                0.552
+
+ 0.5
+
+ 0.4
+
+ 0.3
+           2019-20          2020-21           2021-22         2022-23          2023-24
+
+                                              Build Margin
+
+
+Figure 5: Development of the build margins over the period 2019-20 to 2023-24.
+
+
+Figure 6 shows the trends in the import-adjusted combined margins in the period 2019-20 to
+2023-24. In 2023-24, a decline is observed in the graph due to fall in combined margin after
+taking into account RE generation for calculating the build margin from this financial year on-
+wards.
+
+
+
+                                       Combined Margin
+ 0.95                                                0.915
+                 0.911            0.903                           0.919
+  0.9
+
+ 0.85
+
+  0.8                                                                               0.757
+ 0.75
+
+  0.7
+
+ 0.65
+
+  0.6
+            2019-20          2020-21           2021-22         2022-23         2023-24
+
+                                            Combined Margin
+
+
+Figure 6: Development of the combined margin (adjusted for electricity transfers) for the Indian
+Grid over the period 2019-20 to 2023-24
+
+
+
+
+                                                                                         Page | 16
+           Central Electricity Authority             CO2 Baseline Database for the Indian Power Sector
+
+5.3 Changes compared to Previous Database Versions
+In comparison with the previous version of the Database (Version 19.0), this updated Version
+20.0 includes the following changes:
+     Added data for FY 2023-24, including new stations and units commissioned during 2023-
+      24. De-commissioned units and plant have been removed from database.
+     Made minor correction in data for the year 2022-23 in Annexure-I.
+     The revised emission factors are provided in Appendix C and in the Database file.
+     In 2023-24, RE generation is accounted to calculate Build Margin and Combined Margin
+      emission factors. This gives improved emission intensity of the Indian grid.
+     Due to inclusion of RE generation in BM and CM, only Table S is published in the year
+      2023-24 compared to two tables (S-1 and S-2) in the previous year.
+     The four emission factors which are published for year namely weighted average emission
+      factor, operating margin emission factor, build margin emission factor and combined mar-
+      gin emission factor. All these factors are inherently accounted for RE generation, captive
+      generation and imports.
+     All the data and graphs corresponding to average emission factor (without RE) has been
+      excluded in this version of database and User Guide.
+Installed capacity and Generation comparison for 2022-23 and 2023-24 as mentioned in Excel
+Database:
+
+                           Installed Capacity (in MW)                    Gross Generation (in MU)
+
+    Year          Thermal      Hydro       Nuclear     RES       Thermal    Hydro     Nuclear    RES
+
+    2022-23       237349       46850       6780        125160    1205894    162098    45861      203552
+
+    2023-24       243048       46928       8180        143645    1328084    134054    47937      225830
+
+Table 6: Comparison between installed capacity and generation in 2022-23 and 2023-24
+
+
+
+
+                                                                                            Page | 17
+            Central Electricity Authority                        CO2 Baseline Database for the Indian Power Sector
+
+6 User Examples
+6.1 This section provides two illustrative examples of how the CO2 Database can be applied.
+The examples are based on hypothetical renewable energy projects
+Project A is a grid-connected 5 MW small hydropower station located in the State of Assam.
+The station will be commissioned in 2025. Annual net generation is projected at approx. 17,500
+MWh.
+      The project qualifies as a small-scale CDM activity since its capacity is below the 15 MW
+       threshold. Hence it will use the latest version of CDM methodology AMS-I.D for grid-con-
+       nected renewable electricity generation.
+      Methodology AMS-I.D gives two options for determining the baseline emission factor: Ei-
+       ther the weighted average emissions, or the combined margin of the grid. In this example,
+       it is assumed that the promoters choose the weighted average option. In addition, it is
+       assumed that the promoters choose to adjust the weighted average emission factor for
+       electricity imports, even though this is not mandatory under AMS-I.D.
+      In the PDD, the expected emission reductions achieved by the hydro station are projected
+       based on the expected annual generation, and the import-adjusted weighted average emis-
+       sion factor for the Indian Grid in the most recent year for which data is available (2023-24).
+       The corresponding value is 0.727 tCO2/MWh. Hence the absolute emission reductions are
+       projected at 0.727 * 17,500 = 12,722.5 tCO2/yr. The emission reductions are equal to the
+       baseline emissions, since the project does not result in greenhouse gas emissions of its
+       own.
+      In accordance with AMS-I. D, the promoters will determine the actual baseline emission
+       factor ex post. The actual emission reductions will then be calculated in each year of the
+       crediting period based on the observed net generation and the weighted average emission
+       factor for the respective year.13 The latter would be published annually by CEA.
+Project B is a 100 MW grid-connected wind farm located in the State of Tamil Nadu. The
+project will be commissioned in 2025. Average net supplies to the grid are projected at 312,500
+MWh per year.
+      The project exceeds the 15 MW threshold and thus qualifies as a large-scale CDM activity.
+       Hence it is eligible to use the latest version of methodology ACM0002 for grid-connected
+       power generation from renewable energy sources.
+      Under ACM0002, the combined margin approach is mandatory.
+      In contrast to the first example, the promoters decide to fix the baseline emission factor ex
+       ante. That is, the baseline emission factor is determined based on the most recent data
+       available, and remains fixed for the duration of the crediting period. The actual emission
+       reductions will be calculated in each year based on the observed net generation and the
+       pre-defined baseline emission factor.
+      For this ex ante-option, the Grid Tool referred to in the methodology ACM0002 requires
+       that the operating margin be calculated as the generation-weighted average of the three
+       most recent years (here 2021-22 to 2023-24).14 The operating margin to be applied thus
+       works out to 0.964 t CO2/MWh.
+      Since wind is an intermittent energy source, the promoter is allowed to assign a weight of
+       75% to the operating margin, and 25% to the build margin. The resulting combined margin
+
+
+13
+      The emission factor of the previous year may be used instead. See Tool to calculate the emission factor for an electricity
+      system (Version 7.0), p.16
+14
+     See Tool to calculate the emission factor for an electricity system (Version 7.0), p.16
+
+                                                                                                                      Page | 18
+         Central Electricity Authority                  CO2 Baseline Database for the Indian Power Sector
+
+    is 0.861 t CO2/MWh (75% x 0.964 + 25% x 0.552) for the FY (2023-24). This value is used
+    for projecting the emission reductions in the PDD as well as for calculating the actual emis-
+    sion reductions.
+The two CDM project activities are summarised in Table 7 below.
+
+
+                                 Project A                        Project B
+
+Project Info
+
+Type:                            Hydro station                    Wind park
+
+Size:                            5 MW (small-scale according      100 MW (large-scale according to CDM criteria)
+                                 to CDM criteria)
+
+Projected Generation (net):      17,500 MWh /yr                   312,500 MWh/yr
+
+Commissioning year:              2025                             2025
+
+Year of CDM registration:        2025                             2025
+
+Grid :                           Indian                           Indian
+
+CDM methodology:                 AMS-I.D / Version 19             ACM0002 / Version 19.0
+
+Baseline Emission Factor Calculation
+
+Calculation method:              Weighted average                 Combined margin
+
+Data vintage for projection of   2023-24 (most recent availa-     For OM: 2021-22,2022-23,2023-24(most recent
+emission reductions:             ble at time of PDD validation)   3 years available at time of PDD validation)
+                                                                  For BM: 2023-24
+
+Data vintage for verification of Actual year of generation, i.e., Same as for projection
+emission reductions:             2025-26, 2026-27 etc. (emis- (emission factor fixed ex ante)
+                                 sion factor fixed ex post)
+
+Accounting of imports:           Not mandatory, but done          Mandatory
+
+Weights for combined margin: Not applicable                       Operating margin: 75%
+                                                                  Build margin:         25%
+                                                                  (default for intermittent sources)
+
+Emission Reduction Calculations
+
+Values in t CO2/MWh:             0.727    Weighted average        0.964    Operating margin
+                                                                  0.552    Build margin
+                                                                  0.861    Combined margin
+
+Projected emission reduc-        12740 t CO2 per year             269062.5 t CO2 per year
+tions:
+
+Actual emission reductions:      Monitored net generation x       Monitored net generation x
+                                 monitored weighted average       fixed combined margin
+
+Table 7: Illustration on how to use the CO2 Database for calculating the emission reductions
+of CDM projects
+
+                                                                                                       Page | 19
+        Central Electricity Authority         CO2 Baseline Database for the Indian Power Sector
+
+6.2 Suggestive example to compute the emissions for electricity use for individual in-
+dustrial consumers:
+Case: An industry consuming 100 MUs of power from the grid, of which 70 MUs is taken from
+the grid through an STU/CTU connection without any specific requisite for RE power, 20 MUs
+of RE power taken through Open Access and remaining 10 MUs of RE power taken from state
+utility though a green tariff mechanism.
+
+Total CO2 emissions footprint of the industry from electricity consumption in this case will be
+calculated as:
+Total CO2 Emissions = (70 MU x Grid’s Average Emission factor) + (20 MU x 0) + (10 MU x 0)
+                    = 70,000 MWh x 0.727 tCO2/MWh
+                    = 50890 tCO2= 50.89 ktCO2.
+
+Note: The emission factor for electricity procured through green open access and green tariff
+mechanism may be considered as zero.
+
+
+
+7. Biomass Co-Firing in Thermal Power Plants (FY 2023-24)
+
+    Capacity (MW)       No. of TPPs      Biomass usage (MT) in     Cumulative Biomass usage
+                     started Co-firing       FY 2023-24             (MT) till date 31.03.2024
+                                         (01.04.23 -31.03.2024)
+
+       82412                65                   374857                     493369
+                       Table 8: Biomass co-fired in Thermal Power Plants
+Biomass Co-Firing results in reduction in amount of coal used for power generation resulting
+in corresponding savings in CO2 emissions. This would also reduce the sector’s dependence
+on coal.
+
+
+8     Updating Procedure
+The CO2 Database will be updated annually by CEA and made available on its website:
+www.cea.nic.in. Previous versions will be archived by CEA and the main changes relative to
+previous database versions will be documented.
+
+
+9      Further Information
+For any further information, contact by email:
+Chief Engineer (CE&ET)
+Central Electricity Authority
+Sewa Bhawan
+R. K. Puram, New Delhi-110066
+Email: ceet-cea@gov.in
+
+
+
+
+                                                                                     Page | 20
+        Central Electricity Authority             CO2 Baseline Database for the Indian Power Sector
+
+                                                                                  Annexure –I
+
+Weighted Average Emission Factor (Considering Renewable Energy Generation)
+of Indian Grid
+   FY          Total CO2 Emis-     Net Generation          RE       Total Net      Weighted Aver-
+                sions ( Million         (BU)           generation   Electricity   age Emission fac-
+                   Tonnes)          Conventional          (BU)      Generation    tor of Grid Elec-
+                                                                       (BU)       tricity (including
+                                                                                  RE) (tCO2/MWh)
+   (1)                (2)                 (3)             (4 )           (5)          (6)=(2)/(5)
+2013-14             727.4               886.77           53.06         939.83            0.774
+2014-15             805.4               972.04           61.72        1033.76            0.779
+2015-16             846.3               1027.03          65.78        1092.81            0.774
+2016-17             888.34              1072.84          81.55        1154.39            0.770
+2017-18             922.18              1121.57          101.84       1223.41            0.754
+2018-19             960.9               1165.16          126.76       1291.92            0.744
+2019-20             928.14              1162.97          138.34       1301.31            0.713
+2020-21             910.02              1147.52          147.25       1294.77            0.703
+2021-22            1002.01              1230.09          170.91       1401.01            0.715
+2022-23*           1108.14              1320.18          203.55       1546.27            0.716
+2023-24*           1204.51              1408.45          225.83       1655.70            0.727
+*For the years 2022-23 and 2023-24, total CO2 emissions are inclusive of electricity injected
+into the grid by grid connected captive power plants and total net electricity generation is also
+inclusive of electricity injected into the grid by grid connected captive power plants.
+
+
+
+
+                                                                                          Page | 21
+      Central Electricity Authority               CO2 Baseline Database for the Indian Power Sector
+
+  Appendix A – Systems in India’s Grids
+                      Full name
+
+ABAN                  ABAN Power Company
+
+ADHPL                 AD Hydro Power Limited
+
+APCPL                 Aravali Power Company Limited
+
+APGCL                 Assam Power Generation Corporation Limited
+
+APGENCO               Andhra Pradesh Power Generation Co Limited
+APPDCL                Andhra Pradesh Power Development Corporation Ltd.
+
+ASEB                  Assam State Electricity Board
+
+BBMB                  Bhakra Beas Management Board
+BECL                  Bhavnagar Energy Co. Ltd.
+
+BSEB                  Bihar State Electricity Board
+BALCO                 Bharat Aluminum Co. India Pvt. Ltd.
+
+CESC                  Calcutta Electric Supply Company Limited
+
+CSEB                  Chattisgarh State Electricity Board
+
+CSPGCL                Chattisgarh State Power Generation Co Ltd
+
+D.B. Power Ltd        Diligent Power Limited
+DANS EPL              DANS Energy Pvt. Ltd.
+
+DPL                   Durgapur projects Limited
+
+DVC                   Damodar Valley Corporation
+DVC Tata JV           Damodar Valley Corporation-Tata Joint Venture
+
+GAMA                  Gama Infraprop
+GIPCL                 Gujarat Industries Power Company Ltd
+
+GMDCL                 Gujarat Mineral Development Corporation Limited
+GMR Chattisgarh       GMR Chattisgarh
+
+GMR Energy            GMR Energy
+GMR K Ltd             GMR Kamlanga Energy Ltd.
+GMR Bajoli Holi       GMR Bajoli Holi Hydro Power Pvt. Ltd.
+
+GPEC                  Gujarat Paguthan Energy Corporation Pvt. Limited
+
+GSECL                 Gujarat State Electricity Corporation Limited
+
+GSEGL                 Gujarat State Energy Generation Limited
+
+GTE Corp              GTE Corporation
+
+GVK Ind.              GVK Power & Infrastructure Limited
+GVK                   GVK Group
+
+
+                                                                                         Page | 22
+       Central Electricity Authority             CO2 Baseline Database for the Indian Power Sector
+
+
+                       Full name
+
+HEGL                   HEG Limited
+HIRANMAYE              Hiranmaye Energy Ltd.
+HNPCL                  Hinduja National Power Corp. Ltd.
+
+HPGCL                  Haryana Power Generation Corporation Limited
+HPPCL                  Himachal Pradesh Power Corporation Ltd.
+
+HPSEB                  Himachal Pradesh State Electricity Board
+HSPPL                  Himachal Sorang Power Pvt. Ltd.
+IEPL                   Ideal Energy Pvt. Ltd.
+IL&FS TN PC Ltd.       IL&FS Tamil Nadu Power Co. Ltd.
+
+INDSIL                 Indsil Electrosmelt Ltd
+
+IPPGCL                 Indraprastha Power Generation Co Ltd
+
+JINDAL                 JSW Energy Limited
+JIPL                   Jas Infrastructure and Power Ltd.
+
+JKEB                   Jammu & Kashmir Electricity Board
+JKPDC                  Jammu & Kashmir Power Development Corp. Ltd.
+
+JPHPL                  Jai Prakash Hydro Power Limited
+JPL                    Jhabua Power Ltd.
+
+JSEB                   Jharkhand State Electricity Board
+
+JSW Energy             JSW Energy Limited
+JV NTPC & BSEB         Joint Venture NTPC & Bihar State Electricity Board
+
+KPCL                   Karnataka Power Corporation Limited
+
+KSEB                   Kerala State Electricity Board
+KSK Ventures           KSK Energy Ventures Ltd.
+LPG CO                 Lalitpur Power Generation Co. Ltd.
+
+LVS Power              LVS Power Limited
+M B Power (M P)        M B Power Madhya Pradesh
+MBPC                   Madhya Bharat Power Corpn.
+
+Madurai P              Madurai Power Corporation Limited
+
+MAHAGENCO              Maharashtra State Power Generation Company Limited
+
+MAPS                   Madras Atomic Power Station
+MEECL                  Meghalaya Energy Generation Corporation Ltd.
+
+MEGEB                  Meghalaya State Electricity Board
+
+MPDC                   Manipur Power Development Corporation
+MEECL                  Meghalaya Energy Corporation Ltd.
+MPDC                   Manipur Power Development Corporation
+
+                                                                                        Page | 23
+      Central Electricity Authority             CO2 Baseline Database for the Indian Power Sector
+
+
+                      Full name
+
+MPGPCL                Madhya Pradesh Power Generating Co. Ltd.
+
+NAPS                  Narora Atomic Power Station
+
+NCTPP                 National Capital Thermal Power Plant
+NDPL                  North Delhi Power Ltd.
+
+NEEPCO                North Eastern Electric Power Corporation Ltd
+
+NHDC                  Narmada Hydro Electric Development Corporation
+
+NHPC                  National Hydro Electric Corporation
+
+NLC                   Neyvelli Lignite Corporation Ltd
+
+NPC                   Nuclear Power Corporation of India Ltd.
+
+NTPC                  NTPC Ltd
+
+NTPC/NTECL            NTPC Tamilnadu Energy Company Limited
+
+OHPC                  Orissa Hydro Power Corporation
+
+OPGC                  Orissa Power Generation Corporation
+
+PPCL                  Puducherry Power Corporation Limited
+PPGCL                 Prayagraj Generation Co. Ltd.
+
+PPNPG                 PPN Power Generating Company Pvt. Limited
+
+PSEB                  Punjab State Electricity Board
+
+RAPS                  Rajasthan Atomic Power Station
+
+RATANAGIRI            Ratnagiri Gas & power Pvt Ltd
+
+REL                   Reliance Energy Ltd
+RKM PPL               RKM Powergen Pvt. Ltd.
+
+RPG                   RP Goenka Group
+
+RRVUNL                Rajasthan Rajya Vidyut Utpadan Nigam
+
+Samalpatti            Samalpatti Power Company Limited
+SHIRPUR               Shirpur Power Pvt. Ltd.
+
+SCPL Ltd.             Spectrum Power Limited
+SEPC                  Sepc Power Pvt. Ltd.
+
+SJVNL                 Sutluj Jal Vidyut Nigam Ltd
+SKS Power             SKS Power Generation
+SKPL                  Sneha Kinetic Power Projects Pvt. Ltd.
+
+SPECT. IND            Spectrum Power Generation Limited
+SP&ML                 Subhash Projects and Marketing Co. Ltd.
+
+
+
+                                                                                       Page | 24
+    Central Electricity Authority              CO2 Baseline Database for the Indian Power Sector
+
+
+                    Full name
+
+SSVNL               Sardar Sorovar Vidyut Nigam Limited
+
+STPS                Super Thermal Power Station
+
+Tata MAH            Tata Power Company Limited
+
+Tata PCL            Tata Power Company Limited
+
+THDC                Tehri Hydroelectric Development Corporation
+
+TNEB                Tamilnadu Electricity Board
+
+Torr. Power         Torrent Power Limited
+TSECL               Tripura State Electricity Corporation Limited
+TSGENCO             Telangana Power Generation Corp. Ltd.
+
+TVNL                Tenughat Vidyut Nigam Limited
+UJVNL               Uttarakhand Jal Vidyut Nigam Limited
+
+UPCL                Uttarakhand Power Corporation Limited
+
+UPHPC               Uttar Pradesh Hydro Power Corporation Limited
+
+UPRVUNL             Uttar Pradesh Rajya Vidyut Utpadan Nigam
+
+VVNL                Visvesarya Vidyut Nigam Ltd
+
+WBPDC               West Bengal Power Development Corporation Ltd
+
+WBSEB               West Bengal State Electricity Board
+
+
+
+
+                                                                                      Page | 25
+          Central Electricity Authority                                       CO2 Baseline Database for the Indian Power Sector
+
+Appendix B – Assumptions for CO2 Emission Calculations
+Fuel Emission Factors (EF) (Source: for Indian Coal/Lignite - Initial National Communication; for Imported Coal Gas/Oil/Diesel/Naphtha - IPCC 2006; for Corex - own
+assumption)
+
+
+
+                                                                  Imported
+                                        Unit              Coal       Coal       Lignite     Gas          Oil    Diesel    Naphtha     Corex
+
+EF based on NCV                      gCO2 /MJ              95.8       89.5       106.2      54.3       75.5       72.6       69.3        0.0
+
+Delta GCV NCV                            %                3.6%       5.0%        3.6%       10%         5%         5%         5%         n/a
+
+EF based on GCV                      gCO2 /MJ              92.5       85.2       102.5      49.4       71.9       69.1       66.0        0.0
+
+Oxidation Factor                          -                0.98       1.00        0.98      1.00       1.00       1.00       1.00        n/a
+
+Fuel Emission Factor                 gCO2 /MJ              90.6       85.2       100.5      49.4       71.9       69.1       66.0        0.0
+
+n/a = not applicable (i.e. no assumptions were needed)
+
+
+
+
+Assumptions at Station Level (only where data was not provided by station)
+                                                                                                                Diesel-
+                                        Unit              Coal      Lignite    Gas-CC Gas-OC             Oil       Eng Diesel-OC    Naphtha      Hydro       Nuclear
+
+Auxiliary Power Consumption              %                  8.0       10.0         3.0       1.0        3.5        3.5        1.0        3.5        0.5         10.5
+                                     kcal /kWh
+Gross Heat Rate                       (gross)             2,500      2,713       2,013     3150       2,117      1,975      3,213      2,117        n/a          n/a
+
+Net Heat Rate                     kcal /kWh (net)         2,717      3,014       2,075     3,182      2,193      2,047      3,330      2,193        n/a          n/a
+
+Specific Oil Consumption          ml /kWh (gross)           2.0        3.0         n/a       n/a        n/a        n/a        n/a        n/a        n/a          n/a
+
+GCV                               kcal /kg (or m3)        3,755        n/a       8,800       n/a     10,100     10,500     10,500    11,300         n/a          n/a
+
+Density                              t /1,000 lt            n/a        n/a         n/a       n/a       0.95       0.83       0.83       0.70        n/a          n/a
+
+Specific CO2 emissions              tCO2 /MWh              1.04       1.28        0.43      0.66       0.66       0.59       0.96       0.61        n/a          n/a
+
+n/a = not applicable (i.e. no assumptions were needed)
+
+
+
+
+Assumptions at Unit Level (by capacity; only for units in the BM, where data was not provided by station)
+                                                                              200-250              500 MW      500 MW               660 MW      660 MW
+Coal                                  Unit         67.5 MW        120 MW          MW 300 MW           Type 1     Type 2   600 MW       Type 1     Type 2    800 MW
+
+Gross Heat Rate                      kcal /kWh            2,750      2,500       2,500     2,350      2,425      2,380      2,380      2,178      2,126        2126
+
+Auxiliary Power Consumption              %                 12.0        9.0         9.0       9.0        7.5        6.5        6.5        6.5        6.5         5.25
+
+Net Heat Rate                        kcal /kWh            3,125      2,747       2,747     2,582      2,622      2,545      2,545      2,329      2,274        2,244
+
+Specific Oil Consumption              ml /kWh               2.0        2.0         2.0       2.0        2.0        2.0        2.0        2.0        2.0          0.5
+
+Specific CO2 Emissions              tCO2 /MWh              1.19       1.05        1.05      0.99       1.00       0.97       0.97       0.89       0.87         0.85
+                                                                               210/250      500
+Lignite                                 Unit             75 MW    125 MW           MW       MW
+
+Gross Heat Rate                      kcal /kWh            2,750      2,560       2,713     2713
+
+Auxiliary Power Consumption              %                 12.0       12.0        10.0       8.5
+
+Net Heat Rate                        kcal /kWh            3,125      2,909       3,014     2965
+
+Specific Oil Consumption              ml /kWh               3.0        3.0         3.0       3.0
+
+Specific CO2 Emissions              tCO2 /MWh              1.32       1.23        1.28      1.25
+                                                         0-49.9    50-99.9
+Gas                                     Unit               MW         MW      >100 MW
+
+Gross Heat Rate                      kcal /kWh            1,950      1,910       1,970
+
+Auxiliary Power Consumption              %                  3.0        3.0         3.0
+
+Net Heat Rate                        kcal /kWh            2,010      1,969       2,031
+
+Specific CO2 Emissions              tCO2 /MWh              0.42       0.41        0.42
+
+Diesel                                  Unit         0.1-1 MW     1-3 MW      3-10 MW >10 MW
+
+Gross Heat Rate                      kcal /kWh            2,350      2,250       2,100     1,975
+
+Auxiliary Power Consumption              %                  3.5        3.5         3.5       3.5
+
+Net Heat Rate                        kcal /kWh            2,435      2,332       2,176     2,047
+
+Specific CO2 Emissions              tCO2 /MWh              0.70       0.67        0.63      0.59
+
+
+
+                                                                                                                                                    Page | 26
+          Central Electricity Authority               CO2 Baseline Database for the Indian Power Sector
+
+Naphtha                         Unit      All sizes
+
+Increment to Gas Heat Rate       %             2%
+
+Gross Heat Rate               kcal /kWh     2,117
+
+Auxiliary Power Consumption      %             3.5
+
+Net Heat Rate                 kcal /kWh     2,193
+
+Specific CO2 Emissions        tCO2 /MWh       0.61
+
+
+
+
+Combined Margin                 Unit
+
+Weight OM                        %            50%
+
+Weight BM                        %            50%
+
+
+
+
+Conversion Factors              Unit
+
+Energy                         kJ /kcal    4.1868
+
+                               MJ /kWh         3.6
+
+
+
+
+Oil
+
+Specific Emission             gCO2 /ml        2.89
+
+
+
+
+                                                                                             Page | 27
+        Central Electricity Authority                 CO2 Baseline Database for the Indian Power Sector
+
+Appendix C – Grid Emission Factors
+Note: Values are rounded off at two decimals here. See Database (Excel File, Worksheet "Re-
+sults") for additional decimals.
+Table A: Values for FY 2019-20 to 2023-24, excluding cross-border electricity transfers.
+
+   Emission Factors (tCO2/MWh) (excl. Imports)                2019-20      2020-21       2021-22       2022-23      2023-24*
+
+
+  Weighted Average Emission Rate (Incl RES)                     0.713        0.703         0.715         0.719       0.729
+  Simple Operating Margin (1)                                   0.96          0.95          0.97         0.976       0.964
+  Build Margin                                                   0.87         0.87          0.87         0.867       0.552
+  Combined Margin (1)                                           0.92         0.91           0.92         0.921       0.758
+
+*BM and CM calculation for 2023-24 is accounted for RE generation into the grid
+
+(1) Operating margin is based on the data for the same year. This corresponds to the ex post option given in "Tool to
+Calculate the Emission Factor for an Electricity System", Ver. 7.0 (p.16)
+
+
+
+Table B: Values for FY 2019-20 to 2023-24, including cross-border electricity transfers.
+
+   Emission Factors (tCO2/MWh) (incl. Imports)                2019-20       2020-21       2021-22      2022-23      2023-24*
+
+
+  Weighted Average Emission Rate Incl RES (2)                    0.71          0.70         0.71        0.716       0.727
+
+  Simple Operating Margin (1) (2)                                0.96          0.94         0.96        0.971        0.962
+
+  Build Margin (not adjusted for imports)                        0.87          0.87         0.87        0.867       0.552
+
+  Combined Margin (1) (2)                                        0.91          0.90         0.91        0.919       0.757
+
+ *BM and CM calculation for 2023-24 is accounted for RE generation into the grid
+
+  (1) Operating margin is based on the data for the same year. This corresponds to the ex post option
+      given in "Tool to Calculate the Emission Factor for an Electricity System", Ver. 7.0 (p.16)
+
+  (2) For Adjustments of imports from other countries, an emission factor of zero is used.
+      See "Tool to Calculate the Emission Factor for an Electricity System", Ver. 7.0 (p.10 & 11), options a+b
+
+
+
+
+                                                                                                        Page | 28
+       Central Electricity Authority           CO2 Baseline Database for the Indian Power Sector
+
+Appendix D – Summary of Methodology ACM0002 / Version 22.0
+Download ACM0002 at: http://cdm.unfccc.int/methodologies/PAmethodologies/approved.html
+
+ACM0002 is a consolidated CDM methodology for grid-connected power generation from re-
+newable energy sources. It covers grid-connected renewable power generation project activi-
+ties that involve retrofitting, rehabilitation (or refurbishment), replacement or capacity addition
+of an existing power plant or construction and operation of a Greenfield power plant. Examples
+of eligible project types include hydro power plants with or without reservoir; wind energy; ge-
+othermal energy; solar energy; and wave and tidal energy.
+The methodology requires the calculation of the baseline emission factor following the com-
+bined margin (CM) approach. The combined margin consists of a weighted average of:
+   Operating margin (OM);
+   Build margin (BM).
+The relative weights used to determine the combined margin are by default the same, i.e. 50%.
+Alternative weights can be used for intermittent power sources.
+There are four options to calculate the operating margin, depending on local conditions:
+   Simple operating margin. This is the preferred approach for India.
+   The other three approaches are: (i) simple adjusted operating margin; (ii) dispatch data
+    analysis operating margin; and (iii) average operating margin.
+The build margin is the generation-weighted average emission factor of the most recent power
+plants, consisting of the larger of (i) the five power plants that have been built most recently; or
+(ii) the capacity additions that represent 20% of the system generation that have been built
+most recently. In India, the latter approach generally yields the larger sample and hence must
+be followed. CDM projects must be excluded from the build margin, as long as the build margin
+does not contain generation units older than 10 years.
+The operating margin must be adjusted for electricity transfers (imports) from connected elec-
+tricity systems (other states/regions, other countries) to the project electricity system. Gener-
+ally, no such adjustments are required for the build margin.
+The actual emission reductions achieved by a CDM project are calculated based on the mon-
+itored electricity production in each year, and the combined margin (baseline emission factor).
+The combined margin is initially calculated from the most recent data available at the time of
+PDD submission. It can then either remain fixed for the duration of the project’s crediting period
+(ex-ante approach), or be updated annually (ex-post approach). The two approaches have
+different requirements in terms of data vintage.
+
+
+
+
+                                                                                         Page | 29
+ Central Electricity Authority                  CO2 Baseline Database for the Indian Power Sector
+
+Appendix E – Abbreviations
+Abbreviation    Full Name
+
+ACM0002         Approved Consolidated Methodology by CDM Executive Board for grid con-
+                nected large scale renewable project
+
+ACM0013         Approved Consolidated Methodology by CDM Executive Board for new grid con-
+                nected fossil fuel fired power plants using a less GHG intensive technology.
+
+AMS-I.D         Approved Methodology for small scale grid connected renewable projects
+
+BM              Build margin
+
+CDM             Clean Development Mechanism
+
+CEA             Central Electricity Authority
+
+CER             Certified Emission Reduction
+
+CM              Combined margin
+
+CO2             Carbon Dioxide
+
+FY              Fiscal year
+
+GCV             Gross Calorific Value
+
+GHG             Greenhouse Gases
+
+GWh             Gigawatt hour
+
+IEA             International Energy Agency
+
+IPCC            Intergovernmental Panel on Climate Change
+
+IPP             Independent Power Producer
+
+MW              Megawatt
+
+NEWNE           Integrated Northern, Eastern, Western and North Eastern Grid
+
+OM              Operating margin
+
+PDD             Project Design Document
+
+RLDC            Regional Load Dispatch Centre
+
+RPC             Regional Power Committee
+
+SDM             Sustainable Development Mechanism
+
+SR              Southern Grid
+
+UNFCCC          United Nations Framework Convention on Climate Change
+
+
+
+
+                                                                                         Page | 30
+

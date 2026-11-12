@@ -1,39 +1,6 @@
 parameter,value,unit,min,max,status,sensitivity_required,source,source_file,notes
-plant.capacity_tpd,100,t/d,50,600,needs_citation,False,User input. Indian sponge iron kilns are typically 100/350/500 TPD.,,100 TPD is the standard Indian MSME kiln module.
-plant.utilization,0.9,-,0.7,0.95,needs_citation,True,Engineering default.,,Capacity utilisation; CEEW survey notes idling but gives no single figure.
-plant.operating_days,330,d/yr,300,345,needs_citation,True,Engineering default (35 d/yr planned shutdown for kiln relining).,,
-ore.moisture_frac,0.02,kg/kg,0.01,0.05,needs_citation,True,Engineering default for screened lump ore/pellets.,,
-dri.cp_kj_kgk,0.7,kJ/kg.K,0.5599999999999999,0.84,needs_citation,False,Engineering default for sponge iron.,,
-dri.discharge_temp_c,1020,degC,950,1050,needs_citation,True,Kiln discharge before rotary cooler.,,
-coal.cp_kj_kgk,1.26,kJ/kg.K,1.008,1.512,needs_citation,False,Engineering default for bituminous coal.,,
-char.cp_kj_kgk,0.85,kJ/kg.K,0.68,1.02,needs_citation,False,Engineering default for char/ash solids.,,
-dolomite.cao_cp_kj_kgk,0.92,kJ/kg.K,0.7360000000000001,1.104,needs_citation,False,Engineering default.,,
-kiln.waste_gas_temp_c,900,degC,850,1000,needs_citation,True,Kiln outlet / ABC inlet temperature.,,
-kiln.excess_air_frac,0.15,-,0.05,0.4,needs_citation,True,Engineering default; Dey computes air from stoichiometric O2 demand with no explicit excess-air figure.,,
-kiln.waste_gas_cp_kj_kgk,1.15,kJ/kg.K,1.05,1.25,needs_citation,True,Mean Cp of kiln waste gas over 25-900 degC.,,
-power.grid_ef_t_per_mwh,0.82,t CO2/MWh,0.7,0.9,needs_citation,True,Indian grid emission factor. CEA CO2 Baseline Database is the standard citation - NOT present in this repository.,,
-whr.boiler_efficiency,0.75,-,0.65,0.85,needs_citation,True,Engineering default for a waste heat recovery boiler.,,
-whr.cycle_efficiency,0.25,-,0.18,0.3,needs_citation,True,Rankine cycle gross efficiency at sponge-iron WHRB steam conditions.,,
-whr.stack_temp_c,200,degC,150,250,needs_citation,True,WHRB outlet / ESP inlet temperature.,,
-whr.abc_combustion_frac,0.95,-,0.8,1.0,needs_citation,True,Fraction of unburnt VM carbon and CO post-combusted in the after-burner chamber ahead of the WHRB.,,
-whr.capex_inr_per_mw,60000000,INR/MW,45000000,80000000,needs_citation,True,Engineering default (INR 6 crore/MW).,,
-whr.opex_frac_of_capex,0.04,1/yr,0.02,0.06,needs_citation,True,Annual O&M as a fraction of CAPEX.,,
-biomass.nhv_kj_kg,14600,kJ/kg,12000,18000,needs_citation,True,Agricultural residue / raw biomass net heating value (~3500 kcal/kg).,,
-biomass.carbon_frac,0.38,kg/kg,0.35,0.45,needs_citation,True,Typical lignocellulosic residue carbon content.,,
-biomass.ash_frac,0.15,kg/kg,0.02,0.2,needs_citation,True,Rice husk is at the high end of this range.,,
-biomass.moisture_frac,0.1,kg/kg,0.05,0.2,needs_citation,True,Air-dried residue.,,
-biomass.char_reactivity,0.8,-,0.6,1.0,needs_citation,True,Vigneswaran et al. and Bhardwaj et al. both note biochar gasifies to CO more readily than coal char; this factor scales biomass carbon's availability as a reductant.,Pathways for decarbonizing the sponge iron industries_Vigneswaran V S et al,
-biomass.price_inr_per_t,4000,INR/t,2500,6000,needs_citation,True,"Engineering default. Fan and Friedmann quote $295-525/t for biomass, which is far above Indian agri-residue prices - do not use that range for India without justification.",,
-biomass.biogenic_co2_zero_rated,1,boolean,0.8,1.2,needs_citation,True,IPCC convention: biogenic CO2 is reported separately from fossil CO2 and scored as zero in the fossil total. This is an ACCOUNTING CHOICE - set to 0 to see gross stack CO2.,,
-biomass.max_substitution_frac,0.3,-,0.1,0.4,needs_citation,True,Upper bound imposed by kiln flame stability and biomass bulk density.,,
-hydrogen.ef_t_per_t,0.0,t CO2/t H2,0.0,10.0,needs_citation,True,"Green (electrolytic, RE-powered) hydrogen assumed. Grey SMR hydrogen would be ~9-10 t CO2/t H2 - change this to test a grey-H2 sensitivity.",,
-hydrogen.max_substitution_frac,0.3,-,0.1,1.0,needs_citation,True,"Retrofit limit for an existing kiln. Full H2-DR needs 53.5-59.6 kg H2/t DRI (Kamal et al.), which is a greenfield shaft-furnace case, not a kiln retrofit.",,
-econ.ore_price_inr_per_t,6000,INR/t,4000,9000,needs_citation,True,Engineering default; NMDC lump ore price is the standard reference.,,
-econ.coal_price_inr_per_t,8000,INR/t,5000,16000,needs_citation,True,Engineering default for imported non-coking coal landed cost.,,
-econ.dolomite_price_inr_per_t,1500,INR/t,800,2500,needs_citation,True,Engineering default.,,
-econ.power_tariff_inr_per_kwh,7.0,INR/kWh,5.0,9.0,needs_citation,True,Industrial HT tariff. State-specific; cite the relevant SERC tariff order.,,
-econ.export_tariff_inr_per_kwh,4.0,INR/kWh,2.5,6.0,needs_citation,True,"Surplus WHR power exported to the grid / sold via open access. Lower than the import tariff, which is why self-consumption is credited first.",,
-econ.char_credit_inr_per_t,1200,INR/t,0,2500,needs_citation,True,Dolochar sold to AFBC captive power plants and brick makers.,,
-econ.fixed_opex_inr_per_day,50000,INR/d,25000,150000,needs_citation,True,"Engineering default: labour, maintenance, refractory, overheads for a 100 TPD kiln.",,Should scale with capacity; currently capacity-independent.
-econ.discount_rate,0.11,1/yr,0.08,0.15,needs_citation,True,Weighted average cost of capital for an Indian secondary steel producer.,,
-econ.project_life_yr,20,yr,10,25,needs_citation,True,Retrofit economic life.,,
+dri.cp_kj_kgk,0.7,kJ/kg.K,0.5599999999999999,0.84,needs_citation,False,Engineering default for sponge iron.,,"Dey et al. (2015), Section 3.2.2, p. 7, quote 0.46 kJ/kg.K for sponge iron (citing Hajidavalloo and Alagheband). That matches iron's room-temperature heat capacity; a mean value from 25 to 1020 degC has to include the alpha-gamma transition and is higher, so 0.46 is not adopted for a hot-discharge sensible heat. Closing this needs a NIST enthalpy weighting over the DRI phases."
+char.cp_kj_kgk,0.85,kJ/kg.K,0.68,1.02,needs_citation,False,Engineering default for char/ash solids.,,"Open: Dey (2015) gives no char or ash heat capacity, and the web search found only an abstract (Fuel, 'The specific heats of coals, cokes and their ashes') measuring cokes to 600 K and ashes to 1000 K, not a mean to 1020 degC for a char-ash mix. Affects the char, free-ash and dust sensible-heat lines only."
+biomass.char_reactivity,0.8,-,0.6,1.0,needs_citation,True,Vigneswaran et al. and Bhardwaj et al. both note biochar gasifies to CO more readily than coal char; this factor scales biomass carbon's availability as a reductant.,2024_Vigneswaran_Pathways-decarbonizing-sponge-iron,"Open: both papers state the direction (biochar is more reactive than coal char) but neither gives a factor. Bhardwaj et al. (2024), Section 4.5, let biochar replace all feed coal, which would correspond to 1.0, the max."
+biomass.max_substitution_frac,0.3,-,0.1,0.4,needs_citation,True,Upper bound imposed by kiln flame stability and biomass bulk density.,,"Open: no rotary-kiln trial limit was found. The CEA / PSPCL (2020) cofiring study designs for 30 cal.% biomass, but in a pulverised-coal boiler, so it supports the order of magnitude only. Bhardwaj et al. (2024) model full feed-coal replacement by biochar."
+hydrogen.max_substitution_frac,0.3,-,0.1,1.0,needs_citation,True,"Retrofit limit for an existing kiln. Kamal et al. (2026), p. 3: literature 53.5-59.6 kg H2/t DRI, their model 55.7, design value 59.6 kg/t. That is a shaft furnace, not this kiln cap.",2026_Kamal_Hydrogen-DRI-techno-economics,"Open: no limit for hydrogen injected into a coal rotary kiln was found. Kamal et al. model a shaft furnace and Hall et al. (2025) a fully hydrogen-fired kiln, so neither bounds a partial retrofit. The 0.3 cap itself is not in Kamal et al."

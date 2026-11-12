@@ -28,6 +28,25 @@ def capital_recovery_factor(rate: float, years: int | float) -> float:
     return rate * (1 + rate) ** years / ((1 + rate) ** years - 1)
 
 
+def scaled_cost(ref_cost: float, size: float, ref_size: float,
+                exponent: float) -> float:
+    """Power-law cost scaling, C = C_ref (S / S_ref)^x (Kamal et al. 2026, Eq. 4)."""
+    if size <= 0:
+        return 0.0
+    return ref_cost * (size / ref_size) ** exponent
+
+
+def fixed_opex_inr_per_day(p, capacity_tpd: float) -> float:
+    """Fixed daily cost at a given rated capacity.
+
+    Scaled on rated capacity, not on production, because labour and overheads
+    are paid whether or not the kiln runs full.
+    """
+    return scaled_cost(p["econ.fixed_opex_inr_per_day"], capacity_tpd,
+                       p["econ.fixed_opex_ref_tpd"],
+                       p["econ.fixed_opex_scale_exponent"])
+
+
 class EconomicsModel:
     def __init__(self, plant: BaselinePlant):
         self.plant = plant
@@ -37,9 +56,10 @@ class EconomicsModel:
                             power_export_kwh_per_t: float = 0.0,
                             extra_opex_inr_per_t: float = 0.0,
                             capex_inr: float = 0.0,
-                            capex_opex_inr_per_yr: float = 0.0) -> dict:
+                            capex_opex_inr_per_yr: float = 0.0,
+                            production_factor: float = 1.0) -> dict:
         pl, p = self.plant, self.p
-        prod = pl.production_tpd
+        prod = pl.production_tpd * production_factor
         if net_power_import_kwh_per_t is None:
             net_power_import_kwh_per_t = p["power.aux_kwh_per_t_dri"]
 
@@ -51,7 +71,8 @@ class EconomicsModel:
                          * p["econ.dolomite_price_inr_per_t"])
         power_cost = (net_power_import_kwh_per_t
                       * p["econ.power_tariff_inr_per_kwh"])
-        fixed_cost = p["econ.fixed_opex_inr_per_day"] / prod if prod else 0.0
+        fixed_daily = fixed_opex_inr_per_day(p, pl.capacity_tpd)
+        fixed_cost = fixed_daily / prod if prod else 0.0
         char_credit = (pl.char_mass / 1000.0 * p["econ.char_credit_inr_per_t"])
         export_revenue = (power_export_kwh_per_t
                           * p["econ.export_tariff_inr_per_kwh"])
@@ -73,6 +94,7 @@ class EconomicsModel:
             "capex_charge_per_t_dri": capex_charge,
             "capex_inr": capex_inr,
             "capital_recovery_factor": crf,
+            "fixed_opex_inr_per_day": fixed_daily,
             "breakdown_inr_per_t_dri": {
                 "iron ore": ore_cost,
                 "coal": coal_cost,

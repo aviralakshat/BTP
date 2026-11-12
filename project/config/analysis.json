@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "description": "Settings for the uncertainty and optimisation layer. The plant model does not read this file. Every number here is a method choice or a cited carbon-price case, not a plant measurement.",
+    "seed_note": "The seed makes the Monte Carlo draw and the Morris trajectories repeatable. It is not a physical assumption."
+  },
+  "seed": 20261110,
+  "noise": {
+    "cost_inr_per_t": 1.0,
+    "co2_t_per_t": 0.0001,
+    "note": "The coal-rate solver stops within 0.0001 t/t. A min-to-max change smaller than these floors is reported as no effect, so solver noise is not ranked as a sensitivity."
+  },
+  "finance_stress": {
+    "cases": [
+      {"label": "Capital cost +30%", "capex_x": 1.3, "saving_x": 1.0, "interest_add": 0.0},
+      {"label": "Saving -20%", "capex_x": 1.0, "saving_x": 0.8, "interest_add": 0.0},
+      {"label": "Interest +2 points", "capex_x": 1.0, "saving_x": 1.0, "interest_add": 0.02},
+      {"label": "All three together", "capex_x": 1.3, "saving_x": 0.8, "interest_add": 0.02}
+    ],
+    "note": "Downside cases for the retrofit cash flow. +30% capital is the upper end of an AACE Class 4 estimate; the saving and interest shocks are round method choices, not forecasts."
+  },
+  "reference_pathway": {
+    "label": "WHR + Biomass 10% + H2 10%",
+    "whr": true,
+    "biomass_frac": 0.1,
+    "h2_frac": 0.1,
+    "oxygen": false,
+    "kiln_control": false,
+    "producer_gas": false,
+    "char_recycle": false,
+    "vfd": false,
+    "note": "Package used for the abatement-cost tornado, the Morris sample and the Monte Carlo probabilities. The fractions are steps on the pathway grid."
+  },
+  "lever_on": {
+    "whr": {"whr": true},
+    "biomass": {"biomass_frac": 0.1},
+    "hydrogen": {"h2_frac": 0.1},
+    "oxygen": {"oxygen": true},
+    "kiln_control": {"kiln_control": true},
+    "producer_gas": {"producer_gas": true},
+    "char_recycle": {"char_recycle": true},
+    "vfd": {"vfd": true}
+  },
+  "probability_pathways": [
+    {
+      "label": "WHR",
+      "whr": true, "biomass_frac": 0.0, "h2_frac": 0.0,
+      "oxygen": false, "kiln_control": false, "producer_gas": false,
+      "char_recycle": false, "vfd": false
+    },
+    {
+      "label": "VFD",
+      "whr": false, "biomass_frac": 0.0, "h2_frac": 0.0,
+      "oxygen": false, "kiln_control": false, "producer_gas": false,
+      "char_recycle": false, "vfd": true
+    },
+    {
+      "label": "Char recycle",
+      "whr": false, "biomass_frac": 0.0, "h2_frac": 0.0,
+      "oxygen": false, "kiln_control": false, "producer_gas": false,
+      "char_recycle": true, "vfd": false
+    },
+    {
+      "label": "Kiln control",
+      "whr": false, "biomass_frac": 0.0, "h2_frac": 0.0,
+      "oxygen": false, "kiln_control": true, "producer_gas": false,
+      "char_recycle": false, "vfd": false
+    },
+    {
+      "label": "WHR + Biomass 10%",
+      "whr": true, "biomass_frac": 0.1, "h2_frac": 0.0,
+      "oxygen": false, "kiln_control": false, "producer_gas": false,
+      "char_recycle": false, "vfd": false
+    },
+    {
+      "label": "WHR + Biomass 10% + H2 10%",
+      "whr": true, "biomass_frac": 0.1, "h2_frac": 0.1,
+      "oxygen": false, "kiln_control": false, "producer_gas": false,
+      "char_recycle": false, "vfd": false
+    }
+  ],
+  "exclude_status_from_probability": ["scenario_choice"],
+  "monte_carlo": {"n": 400, "histogram_bins": 20},
+  "morris": {"r": 8, "p": 4},
+  "tornado_chart_bars": 16,
+  "optimiser": {
+    "mesh_steps": 21,
+    "refine_step": 0.02,
+    "refine_stop": 0.0005,
+    "cost_tolerance_inr_per_t": 0.05
+  },
+  "prices": {
+    "probe_frac": 0.25,
+    "linearity_tolerance_inr_per_t": 0.05,
+    "keys": [
+      "econ.coal_price_inr_per_t",
+      "econ.power_tariff_inr_per_kwh",
+      "econ.export_tariff_inr_per_kwh",
+      "hydrogen.price_inr_per_kg"
+    ]
+  },
+  "carbon_sweep_points": 21,
+  "carbon_axis_pad": 1.05,
+  "carbon_cases": [
+    {
+      "id": "none",
+      "label": "No carbon charge",
+      "inr_per_t": 0,
+      "status": "scenario_choice",
+      "source": "The plant-gate cost has no carbon term. The GST compensation cess of Rs 400 per tonne of coal was removed by the 56th GST Council, announced by the Ministry of Coal on 11 September 2025. GST at 18% is a value-added tax and is not added as a carbon price.",
+      "source_file": "web/2025_PIB_Coal-GST-cess-removed"
+    },
+    {
+      "id": "cbam_q3_2026",
+      "label": "CBAM certificate, Q3 2026",
+      "eur_per_t": 82.32,
+      "inr_per_eur": 104.8645,
+      "fx_date": "2026-11-06",
+      "status": "verified",
+      "source": "European Commission, price of CBAM certificates: EUR 82.32 per tonne for Q3 2026, published 5 October 2026. Converted at the ECB euro reference rate for the rupee on 6 November 2026, 104.8645 INR per EUR, which is the latest rate printed on that page when it was read on 10 November 2026. This is the published certificate price. It is not a decision that the report treats it as the official case.",
+      "source_file": "web/2026_EC_CBAM-certificate-prices",
+      "fx_source_file": "web/2026_ECB_Euro-reference-INR"
+    }
+  ]
+}

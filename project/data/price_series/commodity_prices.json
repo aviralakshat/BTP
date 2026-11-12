@@ -1,0 +1,44 @@
+{
+  "retrieved": "2026-11-10",
+  "description": "Low, base and high are the value and the cited bounds already stored on each parameter. This file names the series. It does not keep a second copy of the number. Carbon is the exception: it is not a plant parameter, and its two cases are the charges in config/analysis.json.",
+  "series": [
+    {
+      "id": "coal",
+      "parameter": "econ.coal_price_inr_per_t",
+      "note": "One cited price. The parameter file has no low and no high."
+    },
+    {
+      "id": "iron_ore",
+      "parameter": "econ.ore_price_inr_per_t",
+      "note": "One cited price."
+    },
+    {
+      "id": "dolomite",
+      "parameter": "econ.dolomite_price_inr_per_t",
+      "note": "Base is the 2026 supplier quote. Low is the 2016 pre-feasibility figure."
+    },
+    {
+      "id": "power",
+      "parameter": "econ.power_tariff_inr_per_kwh",
+      "note": "Base is the grid tariff. High is Hall's round-the-clock renewable price, which is a different product."
+    },
+    {
+      "id": "export_power",
+      "parameter": "econ.export_tariff_inr_per_kwh",
+      "note": "Base is the BEE 2011 valuation. High is the Bhardwaj buy-back converted at 95 INR per USD."
+    },
+    {
+      "id": "hydrogen",
+      "parameter": "hydrogen.price_inr_per_kg",
+      "note": "Hall tender range, converted at econ.usd_inr."
+    }
+  ],
+  "carbon": {
+    "id": "carbon",
+    "unit": "INR/t CO2",
+    "low_case": "none",
+    "base_case": "none",
+    "high_case": "cbam_q3_2026",
+    "note": "Base is no carbon charge at the plant gate. High is the Q3 2026 CBAM certificate price. Neither is marked the official case."
+  }
+}

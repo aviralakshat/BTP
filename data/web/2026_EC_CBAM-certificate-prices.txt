@@ -1,0 +1,22 @@
+URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en
+Title: Price of CBAM certificates
+Published: quarterly prices for 2026; Q3 price published 5 October 2026
+Retrieved: 2026-11-10 (parallel-cli extract)
+
+Information on the price of CBAM certificates – updated quarterly.
+
+The Commission will calculate and publish the price of CBAM certificates pursuant to Regulation (EU) 2023/956 and Commission Implementing Regulation (EU) 2025/2548 laying down the methodology for its calculation and publication.
+
+The methodology ensures that the price of CBAM certificates reflects the average price of EU Emissions Trading System (EU ETS) allowances, thereby maintaining consistency between the carbon cost applicable to EU producers and that applied to imports into the EU subject to the CBAM. The Commission will calculate the price of CBAM certificates as the weighted average of the auction clearing prices of the auctioned EU ETS allowances.
+
+In 2026, the Commission will calculate and publish four quarterly prices, one for each calendar quarter. From 2027 onwards, the Commission will calculate and publish weekly prices.
+
+Each quarterly price in 2026 will be calculated by the Commission during the first calendar week following the end of the relevant quarter. The calculation is based on publicly available information related to EU ETS auctions. Each quarterly price in 2026 will apply to the sales of CBAM certificates corresponding to emissions in CBAM goods imported into the Union during that quarter.
+
+Pursuant to Article 20 of Regulation (EU) 2023/956, all CBAM certificates will be purchased on the common central platform from February 2027 onwards.
+
+Quarter of application | Date of publication | Price (EUR)
+Q1 2026 | 7 April 2026 | 75.36
+Q2 2026 | 6 July 2026 | 75.28
+Q3 2026 | 5 October 2026 | 82.32
+Q4 2026 | 4 January 2027 | (not yet published)

@@ -172,7 +172,10 @@ def test_solid_carbon_is_not_counted_as_a_stack_emission(plant):
 def test_whr_splits_generation_into_self_use_and_export(plant, energy, params):
     r = WHR(plant).calculate_impact(energy)
     assert r["gross_generation_kwh_per_t_dri"] == pytest.approx(
-        r["self_consumed_kwh_per_t_dri"] + r["export_kwh_per_t_dri"], rel=1e-9)
+        r["self_consumed_kwh_per_t_dri"] + r["export_kwh_per_t_dri"]
+        + r["auxiliary_kwh_per_t_dri"], rel=1e-9)
+    assert r["auxiliary_kwh_per_t_dri"] == pytest.approx(
+        r["gross_generation_kwh_per_t_dri"] * params["whr.auxiliary_frac"], rel=1e-9)
 
 
 def test_whr_export_revenue_is_not_discarded(plant, energy):
@@ -319,8 +322,9 @@ def test_overrides_do_not_leak_between_copies(params):
 def test_headline_outputs_are_within_literature_bands():
     result = run_checks(capacity_tpd=100, utilization=0.9)
     failing = [r["label"] for r in result["rows"] if r["verdict"] == "FAIL"]
-    # WHR generation is a known open gap, documented in validation_targets.json.
-    assert failing == ["WHR gross generation", "WHR surplus export"], failing
+    warning = [r["label"] for r in result["rows"] if r["verdict"] == "WARN"]
+    assert failing == [], failing
+    assert warning == [], warning
 
 
 def test_validation_targets_are_not_model_inputs(params):

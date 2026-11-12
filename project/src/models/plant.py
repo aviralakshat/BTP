@@ -11,9 +11,15 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
+from src.data.coal import InconsistentInputError
 from src.data.parameters import Parameters
 from src.models.baseline import BaselinePlant
 from src.models.energy_balance import EnergyBalance
+from src.version import stamp
+
+
+class CoalRateNotSolvedError(ValueError):
+    """The energy balance has no root in the coal-rate search range."""
 
 
 def _residual(params: Parameters, coal_rate: float,
@@ -22,6 +28,8 @@ def _residual(params: Parameters, coal_rate: float,
         plant = BaselinePlant(
             params.with_overrides({"coal.rate_t_per_t_dri": coal_rate}),
             capacity_tpd, utilization)
+    except InconsistentInputError:
+        raise
     except ValueError:
         # Too little coal to supply the carbon or the inert solids the rest of
         # the stream table demands. That is the far-negative end of the
@@ -82,13 +90,24 @@ def build_plant(params: Parameters | None = None,
     if params["coal.rate_mode"] != "solve":
         plant = BaselinePlant(params, capacity_tpd, utilization)
         plant.coal_rate_solved = None
-        return plant
+        return _identify(plant, params)
 
     sol = solve_coal_rate(params, capacity_tpd, utilization)
+    if not sol["converged"]:
+        raise CoalRateNotSolvedError(
+            f"No coal rate between {sol['bracket'][0]} and {sol['bracket'][1]} "
+            f"t/t closes the kiln energy balance: {sol['reason']}.")
     plant = BaselinePlant(
         params.with_overrides({"coal.rate_t_per_t_dri": sol["coal_rate"]}),
         capacity_tpd, utilization)
     plant.coal_rate_solved = sol
+    return _identify(plant, params)
+
+
+def _identify(plant: BaselinePlant, params: Parameters) -> BaselinePlant:
+    meta = stamp(params.path)
+    plant.model_version = meta["model_version"]
+    plant.parameters_sha256 = meta["parameters_sha256"]
     return plant
 
 

@@ -131,6 +131,24 @@ class Parameters:
         return [k for k, e in self._entries.items()
                 if e.get("sensitivity") and k in numeric]
 
+    def out_of_range(self) -> list[dict]:
+        """Numeric values, overrides included, that fall outside their min/max.
+
+        The bounds are the plausible range from the literature, so a value
+        outside them is not necessarily wrong, but it is no longer supported
+        by the sources and the caller should say so.
+        """
+        rows = []
+        for k in self.numeric_keys():
+            v = self[k]
+            if isinstance(v, bool) or not isinstance(v, (int, float)):
+                continue
+            lo, hi = self.bounds(k)
+            if (lo is not None and v < lo) or (hi is not None and v > hi):
+                rows.append({"parameter": k, "value": v, "min": lo, "max": hi,
+                             "overridden": k in self._overrides})
+        return rows
+
     def unsourced_keys(self) -> list[str]:
         """Parameters not yet traced to a source in data/text/."""
         return [k for k, e in self._entries.items()

@@ -1,0 +1,554 @@
+      Beneﬁts of oxygen enrichment in sponge iron
+      rotary kiln emerging from data-driven
+      modelling
+      N. Rajesh∗ 1,2, A. Nandi3 and S. K. Pabi1
+      Optimal oxygen enrichment conditions for sponge iron rotary kiln have been successfully explored
+      on an industrial scale using a data-driven model. A multi-objective optimisation by genetic
+      algorithm (MOGA) is employed to ﬁnd the favourable conditions. The objective function for
+      MOGA is derived from neural networks using pre-processed operational data. From industrial
+      experimentations guided by the optimum conditions predicted by the present model, it emerged
+      that when the coal ﬁnes injection is maintained at 1.75 tph and the oxygen enrichment is 8 Nm3 t−1
+      of sponge iron, a reduction in the speciﬁc air requirement from 2609 to 2150 Nm3 t−1 was
+      obtained, while the end-zone bed temperature remained under control at 1132°C. These
+      conditions resulted in a reduction of speciﬁc coal consumption by 6%, an enhancement in the
+      sponge iron production by 6% and an increase in the rotary kiln campaign life from 50 to 100 days.
+      Keywords: Sponge iron rotary kiln, Oxygen enrichment, Data-driven model, Optimisation, Genetic algorithm, Artiﬁcial neural network
+
+
+
+
+      Introduction                                                                 incorporating the use of oxygen-enriched air in a sponge
+                                                                                   iron rotary kiln are yet to be reported to the best of our
+      Sponge iron manufacturers using rotary kilns are explor-                     knowledge. Therefore, the present study explores the con-
+      ing new avenues to improve the performance of the pro-                       ditions required to drive the beneﬁcial use of oxygen in the
+      cess because of the limited supply of high-quality raw                       sponge iron rotary kiln through a modelling exercise. The
+      materials, stringent environmental norms and increased                       model has been developed for application under industrial
+      overheads. Focus is mainly on the increase in productivity,                  conditions. The operational details of sponge iron rotary
+      reduction in coal consumption and enhancement of kiln                        kilns, methodology adopted for the development of the
+      campaign life.1 Conventional sponge iron production in                       model of oxygen enrichment, results of the proposed
+      a rotary kiln2,3 uses raw materials such as iron ore or                      model, interpretation of the effect of various input vari-
+      iron pellets, coal and ﬂuxes (dolomite/limestone). The                       ables on the output of the model and ﬁnally the
+      use of oxygen-enriched air in an industrial sponge iron                      implementation of the model in actual practice in a typi-
+      rotary kiln has not been explored so far to the best of                      cal plant are discussed in the following sections.
+      our knowledge, but the beneﬁts of oxygen are well estab-
+      lished4 in other iron ore reduction processes such as the
+      blast furnace. Oxygen enrichment of air in a rotary kiln
+      potentially can lead to oxidation of iron and temperature                    Operational details of sponge iron
+      overshoot in the kiln, which can lead to the early for-                      rotary kiln with oxygen enrichment
+      mation of accretions and hence a reduction in the kiln                       A schematic diagram of the sponge iron rotary kiln is dis-
+      campaign life. These are detrimental to a widespread                         played in Fig. 1. Here, the solid raw materials and gases
+      use of oxygen in the sponge iron rotary kiln. Controlled                     move in a counter-current direction. Even though iron-
+      oxygen enrichment may, however, eliminate all these pro-                     bearing material is charged from the feed end, a part of
+      blems. Oxygen enrichment can lead to a reduction in the                      the total coal required for the process is typically injected
+      nitrogen load, which would eventually help reduce fuel                       from the discharge end to supplement the heat required
+      consumption. Thus, it would be interesting to ﬁnd the opti-                  for reduction at the end-zones of the kiln. In general, air
+      mum oxygen requirement to derive the beneﬁcial effects of                    is introduced into the freeboard to burn the carbon mon-
+      oxygen enrichment in the sponge iron rotary kilns.                           oxide evolved from the bed to provide the heat required
+         A number of studies reported in the literature5–11 have                   for the process, in particular for the endothermic Bou-
+      attempted to model the rotary kiln; but the models                           douard reaction.11,12 In a controlled reducing atmos-
+                                                                                   phere, the counter-current movement of gases over the
+      1
+          Indian Institute of Technology, Kharagpur 721 302, India                 moving bed of solids allows for proper reaction and
+      2
+          Praxair India Pvt. Ltd, Bangalore 560 103, India                         heat transfer between the solid and the gases, so reducing
+      3
+          Unilever R&D, Bangalore 560 066, India                                   the iron bearing material. A suitable balance of conditions
+      ∗
+          Corresponding author, email narrarajesh1975@gmail.com                    should be maintained to minimise eutectic melting.
+
+
+      © 2016 Institute of Materials, Minerals and Mining
+      Received 21 July 2015; accepted 6 November 2015
+434   DOI 10.1080/03019233.2015.1120383                                                         Ironmaking and Steelmaking        2016     VOL 43   NO 6
+                                                                        Rajesh et al. Beneﬁts of oxygen enrichment in sponge iron rotary kiln
+
+
+
+
+1 Schematic diagram of a sponge iron rotary kiln
+
+
+
+The quality of sponge iron is determined by the reduced
+                                                               2 Model development strategy for controlling BTEZ in the
+iron and is termed as ‘iron metallic’ (%Fe(M)), which in
+                                                                 sponge iron rotary kiln
+turn depends mainly on the quality of input raw materials,
+operational parameters, thermal and air proﬁles and
+retention time available inside the kiln.10                    enrichment is illustrated in Fig. 2. In the ﬁrst model the
+   In sponge iron rotary kilns operating under normal          BTEZ and the quantity of speciﬁc air have been opti-
+conditions with or without oxygen enrichment, with con-        mised, whereas in the second model the BTEZ and CFI
+tinuous supply of raw material from a single source and        are optimised. The objective function for this optimis-
+without any equipment breakdown, accretion11 is the            ation was derived from the artiﬁcial neural network
+major cause for the end of the campaign. A sensitive bal-      (ANN) model. Based on the plant data for air-based oper-
+ance in the kiln-operating condition has to be maintained      ation without oxygen enrichment, the number of input
+for obtaining a quality product at relatively low tempera-     variables for each ANN model is selected and input–out-
+ture, wherein no eutectic melting occurs inside the kiln.13    put ﬁtting models for speciﬁc-air requirement, CFI and
+The temperature of the material in the kiln is known as        BTEZ of the rotary kiln have been designed. The best sui-
+bed temperature, whereas the freeboard temperature is          ted neural network architecture is then taken as the objec-
+known as gas temperature.14 Controlling the rotary kiln        tive functions and using a multi-objective genetic
+bed temperature at the end-zone (BTEZ) is one of the           algorithm (MOGA) optimisation procedure, the process
+key parameters for prolonged campaigns and improving           parameter values are predicted, which will be nearest to
+productivity. An increase in the partial pressure of redu-     the optimal value for the desired BTEZ of the rotary kiln.
+cing gases increases the rate of reduction. For this a con-       Information on the sponge iron rotary kiln process
+trolled amount of oxygen can be injected into the kiln         from a selected plant (DRI CORP) has been used as the
+along with air containing the normal ratio of nitrogen         input and output variables in the present model. DRI
+and oxygen. It is known that some nitrogen is required         CORP is sourcing its major raw materials (iron ore and
+as a dilutant for controlling the oxidation rate of iron,      coal) from limited suppliers with the intention to keep
+but at a cost of increased carbon consumption.                 quality parameters (for coal, reactivity, volatile matter,
+   Oxygen enrichment should be able to bring down the          etc., and for iron ore, size range, reducibility, etc.) within
+excess air requirement15,16 and the amount of coal con-        a narrow range. The operational details of DRI CORP
+sumed in the process of heating the excess air. Increased      are given in Table 8. For the ﬁrst neural network for pre-
+oxygen availability inside the rotary kiln promotes proper     dicting speciﬁc-air volume requirement, a list of six vari-
+combustion of coal, which in turn raises the temperature.      ables has been identiﬁed (Table 1). Similarly, four
+This helps in accommodating the excess iron feed material      variables, as listed in Table 2, are identiﬁed for the second
+for the same coal consumption and thus, it may be possible     neural network for CFI determination. Final inputs are
+to improve production per tonne of sponge iron at reduced      selected based on the correlation analysis17 and those
+coal consumption. However, the temperature of the kiln         exhibiting low correlation are removed on the basis of sen-
+would increase by introducing oxygen, and hence there is       sitivity analysis. In this process, coal moisture, reactivity,
+a chance of increased accretions inside the kiln. Therefore,   volatile matter, iron ore reducibility, kiln rotation, i.e.,
+controlling the temperature would be a key to the success
+of using oxygen-enriched air. The temperature rise in the
+end-zone of the kiln can be restricted by a coolant, i.e.,     Table 1 Input and output variables for optimising BTEZ and
+by the coal ﬁnes injection (CFI). The amount of CFI            quantity of speciﬁc air
+and the air quantity to be supplied need to be determined
+for a speciﬁc quantity of oxygen, and this eventually          Inputs                                        Outputs
+becomes a multi-objective optimisation problem.                1. Iron ore feed rate/tph       1. BTEZ/°C
+                                                               2. Feed coal/tph                2. Quantity of speciﬁc air/Nm3 t−1
+                                                               3. Quantity of coarse coal         of iron ore feed
+Model design                                                      injection/tph
+                                                               4. CFI/tph
+Artiﬁcial neural network used                                  5. C/Fe ratio
+The scheme of the multi-objective optimisation program         6. Enriched oxygen
+                                                                  quantity/Nm3 t−1
+to determine the favourable conditions for oxygen
+
+
+
+
+                                                                         Ironmaking and Steelmaking        2016      VOL 43     NO 6     435
+Rajesh et al. Beneﬁts of oxygen enrichment in sponge iron rotary kiln
+
+
+
+        Table 2 Input and output variables for optimising BTEZ and                   Here pi is the predicted value produced by the model, oi
+        quantity of CFI                                                           is the observed value, oi bar is the mean of the observed
+        Inputs                                                Outputs             value and n represents number of test points.
+
+        1. Iron ore feed rate/tph                       1. BTEZ/°C
+        2. Quantity of speciﬁc air/Nm3 t−1 of iron      2. Quantity of CFI/
+                                                                                  Training of neural network
+           feed                                            tph                    Speciﬁc air and BTEZ model involving the selected par-
+        3. C/Fe ratio                                                             ameters are expressed by equation (3), as follows:
+        4. Enriched oxygen quantity/Nm3 t−1
+                                                                                                    y = f (x1, x2, x3, x4, x6, x7)                  (3)
+                                                                                    The CFI and BTEZ model involving the selected par-
+        number of revolutions per minute, etc., did not became                    ameters are expressed by equation (4):
+        the input and output variables for the models.                                                  y = f (x1, x5, x6, x7)                      (4)
+           In both the models BTEZ is chosen as one of the out-
+        put variables. Descriptive statistics of all the input and                  For both the models with the given set of input and out-
+        output variables used in both the models are shown in                     put conditions, simulations were conducted to determine
+        Table 3 and they are: iron ore feed rate to the rotary                    the optimum number of neurons in the hidden layers,
+        kiln expressed in tonnes per hour (tph), feed coal to the                 number of hidden layers, learning rate and the momen-
+        rotary kiln expressed as tonnes per hour (tph), quantity                  tum factor using the software package MATLAB.
+        of coarse coal injected from the discharge end having a
+        size fraction of 4–8 mm, expressed in tph, coal ﬁnes
+        injected at the discharge end of size 1–4 mm, expressed                   Results and discussion
+        in tph, speciﬁc air is the amount of air supplied given                   Objective function determination
+        as normal cubic metre per tonne of iron ore feed                          Objective function determination for bed temperature at
+        (Nm3 t−1) and C/Fe ratio, i.e., the ratio between total car-              the end-zone, speciﬁc-air consumption and coal ﬁnes
+        bon present in the feed and total iron in the feed.                       injection using feed forward neural network
+        Enriched oxygen quantity is the additional oxygen sup-
+                                                                                  A typical ANN architecture for prediction of BTEZ and
+        plied expressed as normal cubic metre per tonne of
+                                                                                  speciﬁc-air consumption is shown in Fig. 3. It is a three-
+        sponge iron quantity (Nm3 t−1). Bed temperature at the
+                                                                                  layer supervised back-propagation network. There are
+        end-zone is the temperature (°C) prevailing at the end-
+                                                                                  six input neurons corresponding to the six input variables
+        zone of the rotary kiln measured by a thermocouple,
+                                                                                  selected for the model, one hidden layer consisting of ﬁve
+        which is ﬁxed on the shell of the kiln.
+                                                                                  neurons and two output neurons. These neurons are inter-
+           Root mean square error (RMSE) and correlation coef-
+                                                                                  connected to each neuron of the previous and the next
+        ﬁcient (R 2) are used as the performance metrics for the
+        present models (equations (1) and (2)), as follows:                       layers. The connection between two neurons has been
+                                                                                  parameterised by a weight and a bias. Sigmoid and linear
+                                                                  activation functions were selected for the hidden and out-
+                                 1 n          
+                                        pi − oi2                                put layers, respectively. The network architecture shown
+                          RMSE =                                         (1)
+                                 n i=1                                            in Fig. 3 has been trained in the standard manner with
+                                                                                  150 sets of training data for the sponge iron rotary kiln
+                                                                                  through ≤5000 iterations. Further, the convergence has
+         R2 =                                                                     been tested and when the change in error between con-
+                                                                               secutive iterations becomes less than 10−2, the training
+                                                     
+             1−      pi − oi2 / pi − oi2 +  pi − oi bar2                    has been stopped. In the training phase, it has been
+                                                                                  ensured that the ﬁnal error in the validation phase con-
+                                                                         (2)      verges to a value less than the ﬁnal value of error. For
+                                                                                  the training model, it became apparent that the error in
+
+
+        Table 3     Statistics of the process parameters
+
+                               Parameter                        Unit           Minimum           Maximum            Mean          Standard deviation
+
+        x1          Iron ore feed                             tph               6                  7                6.4                  0.2045
+        x2          Feed coal                                 tph               1.85               2.2              1.93                 0.03
+        x3          Quantity of coarse coal injection         tph               0                  0.63             0.35                 0.2
+        x4          Quantity of CFI                           tph               1.71               2.5              2.01                 0.23
+        x5          Speciﬁc air                               Nm3 t−1           2100               2800             2409                 177
+        x6          C/Fe ratio                                                  0.42               0.52             0.48                 0.15
+        x7          Enriched oxygen quantity                  Nm3 t−1           0                  30               19                   3.5
+        x8          BTEZ                                      °C                1060               1160             1125                 13.8
+        Iron ore feed rate (tph), the amount of iron ore fed to the rotary kiln tonnes per hour; feed coal (tph), the amount of feed coal fed to the
+        rotary kiln tonnes per hour; quantity of coarse coal injection (tph), coal that is injected from the discharge end having a size fraction of 4–8
+        mm; CFI (tph), coal that is injected from the discharge end having a size fraction of 1–4 mm; speciﬁc air (Nm3 t−1 of iron ore feed), the
+        amount of air supplied normal cubic metre per tonne of iron ore feed; C/Fe ratio, the ratio between total carbon present in the feed and
+        total iron in the feed; enriched oxygen quantity (Nm3 t−1), the amount of additional oxygen supplied normal cubic metre per tonne of
+        sponge iron quantity; BTEZ (°C), the temperature prevailing in the end-zone of the rotary kiln measured by a thermocouple that is
+        ﬁxed on the shell of the kiln.
+
+
+
+
+436     Ironmaking and Steelmaking         2016      VOL 43    NO 6
+                                                                          Rajesh et al. Beneﬁts of oxygen enrichment in sponge iron rotary kiln
+
+
+
+
+3 Feed forward neural network for controlling BTEZ and speciﬁc-air consumption in the sponge iron rotary kiln (from MATLAB,
+  2010)
+
+
+Table 4 The best network topologies for controlling BTEZ           parameters to obtain the minimum BTEZ and speciﬁc-
+and speciﬁc-air consumption in the sponge iron rotary kiln         air quantity. Trained feed forward neural network has
+                                                                   been used as the objective function for the optimisation
+Network              Training         Validation
+topology               error            error         Test error
+                                                                   model. The code has been developed on MATLAB19 plat-
+                                                                   form. In order to optimise the speciﬁc-air requirement for
+6–10–6–2              0.068             0.074           0.068      the desired BTEZ, the multi-objective problem can be
+6–5–2                 0.049             0.060           0.057      expressed as a function of control variables. When consid-
+                                                                   ering the operation conditions at the selected plant, the
+                                                                   iron ore feed rate x1 has been constrained between 6 and
+Table 5 The best network topologies for controlling BTEZ
+                                                                   7 tph, feed coal quantity x2 has been constrained between
+and CFI in the sponge iron rotary kiln
+                                                                   1.8 and 2.2tph, injection coarse coal quantity x3 has been
+Network topology   Training error   Selection error   Test error   constrained between 0 and 0.63tph, CFI quantity x4 has
+                                                                   been constrained between 1.71 and 2.5tph, C/Fe ratio x6
+4–10–6–2               0.076            0.077           0.065      has been constrained between 0.42 and 0.52 and oxygen
+4–7–2                  0.038            0.055           0.057      injection rate in air x7 has been constrained between 1
+                                                                   and 30 Nm3 t−1. The multi-objective optimisation pro-
+                                                                   blem can then be presented as:
+the output decreased sharply with the number of neurons
+and then reached a plateau. Further increase in the num-                          min f (x1, x2, x3, x4, x6, x7)
+ber of neurons did not result in any substantial improve-                         Subject to the constraints
+ment in the network performance. In case of number of                             6 ≤ x1 ≤ 7,
+hidden layers, the use of single layer gave distinctly
+superior performance as compared to multiple layers for                           1.8 ≤ x2 ≤ 2.2,
+                                                                                                                                   (5)
+the learning rate of 0.05, and momentum factor of 0.2.                            0 ≤ x3 ≤ 0.63,
+Results depicting the performance of the model are                                1.71 ≤ x4 ≤ 2.5,
+shown in Table 4. For a single hidden layer network,
+                                                                                  0.42 ≤ x6 ≤ 0.52 and
+best performance of the model has been obtained with
+ﬁve neurons for speciﬁc air and BTEZ model with the sig-                          1 ≤ x7 ≤ 30
+moid hidden activation functions in the hidden layer and
+a linear output activation function for the output neurons            Here f is the function in equation (3), relating input
+(Table 4).                                                         parameters of speciﬁc air and BTEZ. The descriptions
+   The methodology described above has been repeated to            of the six input variables of model (5) are shown in
+ﬁnd the relation between CFI and BTEZ with the input               Table 1. The test set was used to solve model (5) with
+operating variables of the sponge iron rotary kiln. The            the MOGA available in MATLAB.19
+results depicting the performance of the prediction                   In multi-objective optimisation, values of objective
+model are shown in Table 5. In reference to a single hid-          functions create a multi-dimensional space called objec-
+den layer network, best performance for the prediction             tive space. Each decision variable on variable space corre-
+model has been obtained with seven neurons for CFI                 sponds to a point in objective space. A solution that does
+and BTEZ with the sigmoid hidden activation function               not satisfy all the constraints and variable bounds is
+in the ﬁrst hidden layer and a linear output activation            referred to as an infeasible solution, whereas which
+function for the output neurons.                                   satisﬁes all the conditions is known as a feasible solution.
+                                                                   The Pareto optimal is the best known (optimal) solution
+                                                                   with respect to all objectives and cannot improve any
+Optimisation                                                       objective without worsening the another objective. The
+Optimisation of bed temperature at the end-zone and                set of Pareto optimal outcomes is often called the Pareto
+speciﬁc-air volume using the selected feed forward                 front.
+neural network as objective function                                  A local Pareto front is identiﬁed for multiple objective
+Multi-objective genetic algorithm18 has been used for              functions using the genetic algorithm. The Pareto plot
+optimisation of the sponge iron rotary kiln process                displays two competing objectives, speciﬁc air and
+
+
+
+
+                                                                           Ironmaking and Steelmaking        2016      VOL 43     NO 6     437
+Rajesh et al. Beneﬁts of oxygen enrichment in sponge iron rotary kiln
+
+
+
+
+                                                                        shown in Fig. 4b and c. With reference to the Pareto front
+                                                                        generated, if the BTEZ requirement is, say, 1080°C,
+                                                                        for oxygen enrichment between 1 and 10 Nm3 t−1,
+                                                                        the speciﬁc-air requirement would be 2050 Nm3 t−1
+                                                                        (point P in Fig. 4a). On the other hand, for oxygen
+                                                                        enrichment level between 10 and 30 Nm3 t−1, to maintain
+                                                                        the BTEZ of 1080°C the speciﬁc-air requirement is
+                                                                        exceeding 2600 Nm3 t−1. The value shows that with
+                                                                        increase in oxygen consumption end-zone temperature
+                                                                        (BTEZ) of the rotary kiln has been increasing, and then
+                                                                        in order to bring down that temperature, the speciﬁc-air
+                                                                        volume needs to be increased, which implies that the pur-
+                                                                        pose of oxygen enrichment would fail at the higher level of
+                                                                        oxygen enrichment. On the basis of these results, it appears
+                                                                        that a speciﬁc oxygen enrichment of <10 Nm3 t−1 of
+                                                                        sponge iron may yield optimum results in the sponge
+                                                                        iron rotary kiln.
+
+                                                                        Optimisation of bed temperature at the end-zone and coal
+                                                                        ﬁnes injection using the selected feed forward neural
+                                                                        network as objective function
+                                                                        Similarly, in order to optimise the CFI to get the desired
+                                                                        BTEZ, the multi-objective problem can be expressed as
+                                                                        a function of control variables as in (6):
+                                                                                        min f (x1, x5, x6, x7)
+                                                                                        Subject to the constraints:
+                                                                                        6 ≤ x1 ≤ 7,
+                                                                                                                                   (6)
+                                                                                        2100 ≤ x5 ≤ 2800,
+                                                                                        0.42 ≤ x6 ≤ 0.52 and
+                                                                                        1 ≤ x7 ≤ 30
+                                                                           Here f is the function in equation (4). The descriptions
+                                                                        of the four input variables of equation (6) are shown in
+        4 Pareto front GA corresponding to various oxygen input
+                                                                        Table 2. For controlling the temperature, one possible
+          ranges a oxygen input range of 1–10 Nm3 t−1; b oxygen
+                                                                        way is CFI. The results of the CFI quantity and BTEZ
+          input range of 11–20 Nm3 t−1; c oxygen input range of
+                                                                        optimisation study are presented in Fig. 5. Here Fig. 5a
+          21–30 Nm3 t−1. Dots, …… best solution; asterisk, w feas-
+                                                                        shows the Pareto front corresponding to speciﬁc oxygen
+          ible region; crossed circle, ⊗ non-feasible region
+                                                                        input range of 1–10 Nm3 t−1on of sponge iron, the second
+                                                                        Pareto front shown in Fig. 5b corresponds to a speciﬁc
+        BTEZ. The MOGA works on a population using a set of             oxygen input range of 11–20 Nm3 t−1on of sponge iron
+        operators that are applied to the population. The initial       and the third Pareto front shown in Fig. 5c corresponds
+        population has been generated randomly by default.              to a speciﬁc oxygen input range of 21–30 Nm3 t−1 of
+        The next generation of the population has been computed         sponge iron. Different Pareto frontiers are generated to
+        using the non-dominated rank and a distance measure of          explore the beneﬁts of increased oxygen input on the tar-
+        the individuals in the current generation. When maximum         get objectives. The values show that with increase in oxy-
+        number of iterations has been reached, then the solver          gen consumption the BTEZ of the rotary kiln has been
+        stops. The initial parameters of the MOGA are as follows:       increasing, (y-axis in Fig. 5) and to curtail the increase
+        the population size is 65 and the maximum number of             in BTEZ, the CFI quantity needs to be increased. The
+        iterations is set at 100. Three different Pareto fronts are     Pareto front generated for the 1080°C BTEZ (point P in
+        generated with varying oxygen input ranging from 1 to           Fig. 5a) evidences that there is a need to inject additional
+        10, 11 to 20 and 21 to 30 Nm3 t−1 and are displayed in          quantity of coal ﬁnes into the rotary kiln. More than 2.5 tph
+        Fig. 4. Here Fig. 4a shows the Pareto front corresponding       CFI, amounting more than 60% of the total coal feed
+        to an oxygen input range of 1–10 Nm3 t−1 of iron ore, the       given to the rotary kiln, is required when the speciﬁc oxy-
+        second Pareto front shown in Fig. 4b corresponds to an          gen quantity has been between 10 and 30 Nm3 t−1. This
+        oxygen input range of 11–20 Nm3 t−1 of iron ore and             condition may provoke coal starvation20 in other areas
+        the third Pareto front shown in Fig. 4c corresponds to          of the rotary kiln and may not be suitable for kiln oper-
+        an oxygen input range of 21–30 Nm3 t−1 of iron ore.             ation. Therefore, in order to maintain a low BTEZ
+        Different Pareto frontiers are generated to explore the         (say, BTEZ = 1080°C), a speciﬁc oxygen enrichment of
+        effects of increased oxygen input on the target objectives.     <10 Nm3 t−1 of sponge iron can be beneﬁcial in sponge
+        The regions marked asterisks are in the feasible region,        iron rotary kiln. Several input data sets are generated by
+        whereas crossed circles delineate to the non-feasible region.   the optimisation program for a minimum BTEZ,
+        The best solutions are on the optimal front represented by      speciﬁc-air quantity requirement and CFI. The Pareto
+        ‘dots’ in Fig. 4a. Same is the case with other Pareto fronts    front for all these data sets denotes the best possible
+
+
+
+
+438     Ironmaking and Steelmaking         2016     VOL 43     NO 6
+                                                                             Rajesh et al. Beneﬁts of oxygen enrichment in sponge iron rotary kiln
+
+
+
+
+                                                                     Table 6 presents such typical data set. A comparison of
+                                                                     the average values of actual plant data and the optimised
+                                                                     set has been presented in Table 7. The optimised data in
+                                                                     Table 7 reveal that there has been a possibility to operate
+                                                                     at minimum end-zone temperature and speciﬁc-air quan-
+                                                                     tity at low oxygen enrichment of 1–10 Nm3 t−1. From the
+                                                                     Pareto plots drawn further at different oxygen enrichment
+                                                                     levels of 1–4, 5–7 and 8–10 Nm3 t−1, it is shown that a
+                                                                     speciﬁc oxygen enrichment of 8–10 Nm3 t−1 of sponge
+                                                                     iron may give optimum results in the sponge iron rotary
+                                                                     kiln.
+
+                                                                     Validation against industrial data
+                                                                     The present model has been validated and the following
+                                                                     details are reported at one 100-tpd sponge iron rotary
+                                                                     kiln in DRI CORP. This pseudo name has been used
+                                                                     for data conﬁdentiality. The details of the industrial
+                                                                     data are reported in Table 8. In an air-based operation
+                                                                     the operational parameters are collected and it was
+                                                                     found that 2600 Nm3 t−1 speciﬁc-air supply is needed
+                                                                     for getting the desired product quality of Fe(M) 75%. A
+                                                                     daily production of 116 tonnes is reported with a speciﬁc
+                                                                     coal consumption of 0.92 t per tonne of sponge iron pro-
+                                                                     duction. On an average, a campaign life of 50 days is
+                                                                     achieved previously without oxygen enrichment. The air
+                                                                     proﬁle and the temperature proﬁle for getting the desired
+                                                                     sponge iron quality are noted. Oxygen is introduced into
+                                                                     the kiln from a central blower. By controlling the mechan-
+                                                                     ical dampers, air volume is reduced from each of the shell
+                                                                     air fan and central blower, and the temperature proﬁle is
+                                                                     altered to maintain same temperature as that for air with-
+                                                                     out oxygen enrichment. Coal ﬁnes injection is also
+                                                                     adjusted accordingly. Minimal variations are done in
+                                                                     the kiln rotation and kiln pressure throughout the
+                                                                     campaign.
+5 Pareto front GA corresponding to various oxygen input
+                                                                        Table 8 presents the data set with air base and oxygen-
+  ranges for CFI and BTEZ; a oxygen input range of
+                                                                     enriched condition. The introduction of oxygen increased
+  1–10 Nm3 t−1; b oxygen input range of 11–20 Nm3 t−1; c
+                                                                     BTEZ as expected and the heat transfer, which took place
+  oxygen input range of 21–30 Nm3 t−1. Dots, …… best
+                                                                     inside the kiln, raised the temperature across the length of
+  solution; asterisk, w feasible region; crossed circle, ⊗
+                                                                     the kiln. Keeping the total amount of coal supplied to the
+  non-feasible region
+                                                                     kiln as that of base condition, the feed rate of the iron ore
+                                                                     increased gradually. It was observed that, on an average,
+                                                                     the rotary kiln accepted 6% more iron ore feed during
+tradeoffs between the objectives. While considering the              the oxygen enrichment period compared to the base line
+plant-speciﬁc operational experience, the correct variable           for the same without oxygen enrichment. A campaign
+suitable for the speciﬁc situations of the kiln has to be cho-       life of 100 days has been achieved under this oxygen
+sen ﬁrst. This is also regarded as a standard practice in the        enrichment condition. Table 8 summarises the current
+multi-objective optimisation literature.8 For the objective          (base) plant condition vs. the oxygen enrichment con-
+of achieving a minimum BTEZ of 1080°C and speciﬁc-air                ditions. From this, it can be concluded that, by controlling
+consumption of 2050 Nm3 t−1, the set of inputs corre-                the extent of oxygen enrichment of air, regulating the
+sponding to these values needs to be selected on the                 BTEZ by adjusting the speciﬁc air and CFI in the sponge
+basis of operational experience of the plant personnel.              iron rotary kiln, the campaign life is doubled as compared
+
+
+Table 6   Input and output parameters corresponding to 1–10 Nm3 t−1 oxygen
+
+Input                                       Set 1                Set 2            Set 3               Set 4              Average value
+
+Iron ore feed rate/tph                        6.8              6.8                  6.9                 7.2                    6.9
+Feed coal/tph                                 1.95             1.75                 1.84                1.9                    1.86
+Injection coal coarse/tph                     0.40             0.65                 0.55                0.60                   0.55
+Injection ﬁne coal feed/tph                   1.65             1.75                 1.72                1.9                    1.75
+C/Fe ratio                                    0.48             0.48                 0.47                0.48                   0.47
+Enriched oxygen quantity/Nm3 t−1              8                9                    8                   9                      8.5
+BTEZ/°C                                    1078             1075                 1088                1082                   1080
+Speciﬁc-air volume/Nm3 t−1                 2060             2030                 2055                2040                   2050
+
+
+
+
+                                                                              Ironmaking and Steelmaking        2016      VOL 43     NO 6     439
+Rajesh et al. Beneﬁts of oxygen enrichment in sponge iron rotary kiln
+
+
+
+        Table 7    Model development, current plant practice vs. optimised results by genetic algorithm
+
+        Input                                                  Average value                 Optimised value                             Remarks
+
+        Iron ore feed/tph                                            6.4                             6.9                         Increased iron ore feed
+        Feed coal/tph                                                1.93                            1.85                        Lower feed coal
+        Quantity of coarse coal injection/tph                        0.35                            0.55                        Increased coarse coal
+        CFI/tph                                                      2.01                            1.75                        Lower ﬁne coal
+        Speciﬁc air/Nm3 t−1                                       2409                            2050                           Lower speciﬁc air
+        BTEZ/°C                                                   1080                            1082                           Remained same
+        Enriched oxygen quantity/Nm3 t−1                             0                               8.5                         Oxygen-enriched air
+
+
+
+        Table 8 DRI CORP operational details, current plant practice (base case) vs. oxygen-enriched case
+
+                                       Base case (air-based             Oxygen-           % change during oxygen-
+        Input                               operation)                enriched case        enriched vs. base case                        Remarks
+
+        Iron ore feed/tph                          7.0                    7.42                         6%                      Increased iron feed
+        Feed coal/tph                             1.93                    1.85                        −6%                      Lower feed coal
+        Quantity of coarse coal                   0.35                    0.55                                                 Increased coarse coal
+        injection/tph
+        CFI/tph                                   2.01                    1.75                                                 Lower ﬁne coal
+        Speciﬁc air/Nm3 t−1                       2600                    2150                                                 Lower speciﬁc air
+        BTEZ/°C                                   1130                    1132                                                 Remained same
+        Enriched oxygen                             0                       8                                                  Optimised enriched
+        quantity/Nm3 t−1                                                                                                       oxygen quantity
+        Sponge iron product                       75.4                    75.2                                                 Remained same
+        quality/% Fe(M)
+        Campaign life/no. of days                 50                      100                          100                     Increased campaign life
+
+
+
+        to the previous campaign with air-based operation. A 6%                   Acknowledgements
+        improvement in the production and 6% decrease in coal
+        consumption were also observed. At oxygen enrichment                      The authors would like to thank management of
+        of 8 Nm3 t−1 of sponge iron, the air volume requirement                   M/s Praxair India Pvt. Ltd for industrial application
+        was at 2150 Nm3 t−1 of sponge production and the                          accomplishment.
+        BTEZ was maintained at 1132°C. These two values
+        were very close to the optimised model values. It is, there-
+        fore, apparent that the model developed here is valid in
+        the industrial domain.                                                    References
+                                                                                   1. T. Rao: ‘Direct reduced iron industry in India – problems and pro-
+                                                                                      spects’, Proc. Int. Seminar on ‘Mineral Processing Technology and
+                                                                                      Indo-Korean Workshop on Resource Recycling’, March 2006,
+        Conclusions                                                                   NML, Chennai.
+                                                                                   2. A. Chatterjee and M. Raj: ‘Present and future of direct reduction in
+        The concept of oxygen enrichment of air in the sponge                         India and the rest of the world’, Ironmak. Steelmak., 2010, 37, (7),
+        iron rotary kiln has been explored on industrial scale                        482–487.
+                                                                                   3. K. Prasad and A. Ray: ‘Sponge iron making in rotary kiln’, June
+        through artiﬁcial neural network and genetic algorithm.                       2002, Ranchi, India, RDCIS, SAIL.
+        The model identiﬁes that, for a speciﬁc amount of oxygen                   4. C. Manning and R. Fruehan: ‘Emerging technologies for iron and
+        enrichment, the quantity of speciﬁc air and coal ﬁnes                         steelmaking’, JOM, 2001, 53, (10), 36–43.
+        injection are controllers of the bed temperature at the                    5. A. Chatterjee: ‘Modelling of rotary kiln based direct reduction’,
+                                                                                      Workshop on ‘Modelling of Metallurgical Processes’, January
+        end-zone. With increase in oxygen consumption, the bed
+                                                                                      1990, Jamshedpur.
+        temperature at the end-zone of the rotary kiln increases                   6. T. Garikayi, L. Nyanga, T. Mushiri, S. Mhlanga and P. Kuipa:
+        and to curtail that, a speciﬁc-air volume and coal ﬁnes                       ‘Designing of an intelligent fuzzy logic system for accretion preven-
+        injection quantity has to be increased. Thus, at higher                       tion in sponge iron SL/RN rotary kiln based 100tpd DRI process’,
+        level of oxygen enrichment the beneﬁts of oxygen enrich-                      Proc. SAIIE25, July 2013, Stellenbosch, South Africa.
+                                                                                   7. O. Marin, O. Charon, J. Dugue, S. Dukhan and W. Zhou:
+        ment in the rotary kiln are minimal. The level of optimal                     ‘Simulating the impact of oxygen enrichment in a cement rotary
+        oxygen enrichment for a plant can be evolved by such                          kiln using advanced computational methods’, Combust. Sci.
+        modelling. During the industrial validation of the present                    Technol., 2001, 164, (1), 193–207.
+        model, oxygen is introduced into the rotary kiln at 8 Nm3 t−1              8. D. Mohanty, A. Chandra and N. Chakraborti: ‘Genetic algorithms
+                                                                                      based multi-objective optimization of an iron making rotary kiln’,
+        of sponge iron. Depending on the level of oxygen intro-
+                                                                                      Comput. Mater. Sci., 2009, 45, (1), 181–188.
+        duced in the range of 8–10 Nm3 t−1, air volume is reduced                  9. A. K. Poonia and S. Khanam: ‘Simulation of rotary kiln used in sponge
+        from 2600 to 2150 Nm3 t−1. Coal ﬁnes injection is main-                       iron process using ANN’, Int. J. Eng. Technol., 2014, 6, (2), 95–98.
+        tained at 1.75tph. These conditions kept the bed tempera-                 10. V. Ramakrishnan and P. S. T. Sai: ‘Optimization of air distribution
+        ture at the end-zone under control at 1132°C, and resulted                    in direct reduction process in rotary kilns’, Can. J. Chem. Eng., 1999,
+                                                                                      77, (4), 775–783.
+        in a reduction of speciﬁc coal consumption by 6%, with                    11. V. Venkateswaran: ‘Mathematical model of the SL/RN direct
+        increase in sponge iron production by 6% and increase                         reduction process’, Master of Applied Science, The University of
+        in the campaign life from 50 to 100 days.                                     British Columbia, 1976.
+
+
+
+
+440     Ironmaking and Steelmaking         2016     VOL 43     NO 6
+                                                                                    Rajesh et al. Beneﬁts of oxygen enrichment in sponge iron rotary kiln
+
+
+
+12. K. Mondal, H. Lorethova, E. Hippo, T. Wiltowski and S. Lalvani:        16. P. S. Kunal, R. Narra and N. Arup: ‘Oxygen injection in sponge iron
+    ‘Reduction of iron oxide in carbon monoxide atmosphere – reaction          production’, Indian Patent 1599/DEL/2014, 2013.
+    controlled kinetics’, Fuel Process. Technol., 2004, 86, (1), 33–47.    17. R. Battiti: ‘Using mutual information for selecting features in super-
+13. R. K. Rao: ‘A study of ring formation of sponge iron in the rotary         vised neural net learning’, IEEE Trans. Neural Networks, 1994, 5,
+    kiln,’ Sym. on ‘Science and Technology of Sponge Iron and its              (4), 537–550.
+    Conversion to Steel’, February 1973, NML, Jamshedpur.                  18. K. Deb, A. Pratap, S. Agarwal and T. Meyarivan: ‘A fast and elitist
+14. A. Boateng and P. Barr: ‘A thermal model for the rotary kiln includ-       multiobjective genetic algorithm: NSGA-II’, IEEE Trans. Evolut.
+    ing heat transfer within the bed’, Int. J. Heat Mass Transfer, 1996,       Comput., 2002, 6, (2), 182–197.
+    39, (10), 2131–2147.                                                   19. ‘MATLAB’, MathWorks, Natick, Massachusetts, 2010.
+15. N. Arup: ‘Oxygen injection in sponge iron production’, Indian          20. A. Chatterjee: ‘Sponge iron production by direct reduction of iron
+    Patent 134/DEL/2011.                                                       oxide’, PHI Learning Pvt. Ltd, 2012.
+
+
+
+
+                                                                                     Ironmaking and Steelmaking           2016      VOL 43      NO 6    441
+

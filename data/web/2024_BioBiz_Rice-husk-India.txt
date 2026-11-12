@@ -1,0 +1,51 @@
+URL: https://biobiz.in/s/bring/in/13
+Title: Rice Husk in India - Availability, Supply Chain, Prices, Surplus - BioBiz
+Published: 2024-11-07
+Retrieved: 2026-11-10 (parallel-cli)
+
+# Rice Husk in India – Availability, Supply Chain, Prices, Surplus
+## Get in touch
+### **Total Rice Husk Generation in India**
+India is one of the world’s largest producers of rice, and rice husk is a significant byproduct of rice milling. Annually, India produces around **23 million tonnes** of rice husk, derived from approximately **130 million tonnes of paddy** . The production is concentrated in major rice-producing states such as West Bengal, Uttar Pradesh, Punjab, and Bihar.
+
+...
+
+### **Biomass Characteristics**
+The table summarizes proximate analysis (moisture, volatile matter, ash, fixed carbon) and feedstock costs, highlighting quality and economic feasibility. The proximate analysis of rice husk reveals its efficiency when used in boilers, highlighting its potential as a renewable energy source.
+| **Parameter** | **Loose Form** | **Briquette Form** |
+| Gross Calorific Value (GCV) |  | 3200 |
+| Moisture Content | 10% | 6-8% |
+| Ash Content | 19% | 19% |
+| Silica Content | 15-20% | — |
+| Volatile Matter | 73.5% | 14% |
+| Fixed Carbon | 11.5% | 74.5% |
+| Bulk Density | 150-200 Kg/m ³ | 650-700 Kg/m ³ |
+| Price | ₹3-4/kg | ₹6-6.5/kg |
+Characteristics of Rice Husk in Loose Form and Briquette Form
+
+...
+
+### **Prices**
+* **Loose Biomass** : The price of loose rice straw typically ranges from **₹3-4 per kg**
+* **Briquettes** : If processed into briquettes, the price can go up to around **₹6-6.5 per kg** , making it one of the more expensive biomass options​.
+* Fluctuations in rice husk price directly impact the cost-effectiveness of producing briquettes and pellets for industrial boiler use.
+
+...
+
+### **Rice Husk as Feedstock – Key Challenges**
+* **Supply Chain Issues** : India produces over 32 million tons of rice husk annually, but collection is inefficient, especially in smaller farms. Up to 30% of rice husk is wasted due to poor logistics.
+* **Inconsistent Quality** : Rice husk has varying moisture content (8-12%) and ash levels (15-20%), affecting its suitability as biomass feedstock, particularly for energy generation.
+* **High Transport Costs** : Being bulky and lightweight (density of around 100 kg/m³), transportation costs are high, often constituting up to 40% of total expenses.
+* **Low Market Price** : Rice husk’s low price (₹2-4 per kg) makes it less attractive for large-scale industrial use compared to other biomass alternatives like bagasse.
+
+...
+
+### **Rice Husk for Industrial Heating and Power Generation**
+#### **Amount of Rice Husk Being Used by Industries for Industrial Heating**
+In India, **more than 15% of the rice husk produced annually is used for industrial heating** and energy production. This equates to around **3.75 million tons per year** . Some key statistics:
+* **Power Generation** : India’s biomass power plants, many of which use rice husk, have an installed capacity of around **10,000 MW** .
+* **Rice Husk Utilization Efficiency** : Around **60% of rice mills** in India use rice husk as a direct source of energy for their operations.
+* **Boiler Fuel** : Nearly **400,000 tons** of rice husk are used annually by various industries as boiler fuel for generating steam.
+
+========================================================================
+

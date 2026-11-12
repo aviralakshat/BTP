@@ -22,7 +22,10 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
+from src.economics.economics import scaled_cost
 from src.models.baseline import BaselinePlant
+
+SECONDS_PER_DAY = 86400.0
 
 
 class Biomass:
@@ -59,6 +62,13 @@ class Biomass:
         cost_delta = (biomass_kg / 1000.0 * p["biomass.price_inr_per_t"]
                       - coal_saved_kg / 1000.0 * p["econ.coal_price_inr_per_t"])
 
+        # Handling plant sized on the biomass heat duty it has to feed.
+        duty_mwth = (energy_displaced * pl.production_tpd / SECONDS_PER_DAY
+                     / 1000.0)
+        ref = p["biomass.handling_capex_ref_mwth"]
+        capex = scaled_cost(p["biomass.handling_capex_inr_per_mwth"] * ref,
+                            duty_mwth, ref, p["econ.capex_scale_exponent"])
+
         return {
             "substitution_frac": frac,
             "capped_at_max": self.capped,
@@ -71,5 +81,6 @@ class Biomass:
             "reductant_carbon_ratio": ratio,
             "reductant_carbon_adequate": ratio >= 1.0,
             "opex_delta_inr_per_t_dri": cost_delta,
-            "capex_inr": 0.0,
+            "biomass_duty_mwth": duty_mwth,
+            "capex_inr": capex,
         }

@@ -16,7 +16,11 @@ These are the rules the codebase is built on. Preserve them when extending it.
 
 1. **No magic numbers.** Every numeric assumption lives in
    `project/config/parameters.json` with a `source`, a plausible `min`/`max`, and
-   a `status` of `verified` / `needs_citation` / `physical_constant` / `derived`.
+   a `status` of `verified` / `derived` / `indicative` / `scenario_choice` /
+   `physical_constant` / `needs_citation`. `indicative` is a supplier quote or
+   cross-industry analogue; `scenario_choice` is a decision (plant size,
+   exchange rate, H2 route), not a fact. Web sources are archived in `data/web/`
+   with URL and retrieval date, and a test checks every cited file exists.
    Model code reads parameters through `src/data/parameters.py`; genuine physical
    constants (molar masses, standard enthalpies) live in that module instead.
    If you are about to type a number into a model file, add it to the JSON.
@@ -47,17 +51,26 @@ These are the rules the codebase is built on. Preserve them when extending it.
 - Extracted paper text is in `data/text/*.txt`; grep it before asserting any
   citation. Do not cite a page or table number you have not read.
 
-Current state: **mass balance closes to 1.14%** with all seven element balances
-passing (Fe, C, H, N, S exact), **energy balance closes to <0.01%** in solve
-mode, **8 of 11 literature checks PASS**. The two WHR checks FAIL by 20-30% --
-this is a known, documented open gap, not something to tune away. See the notes
-in `config/validation_targets.json`.
+Current state (model 0.7.1): **mass balance closes to 1.20%**
+in solve mode (running `mass_balance.py` directly uses the configured coal rate
+and shows 1.31%) with all seven
+element balances passing (Fe, C, H, N, S exact), **energy balance closes to
+<0.01%** in solve mode, **10 of 10 scored literature checks PASS** (the hydrogen
+line is INFO). The plant solves from 5% to 45% coal ash. Baseline at 100 TPD
+imported coal: 1.025 t coal/t, 5.586 Gcal/t, 2.083 t CO2/t direct, INR 7,234/t.
+190 tests pass, including a finance robustness sweep over every lever combination. See `docs/validation/validation_report.md` for which passes are weak
+evidence, and `docs/parameters/data_provenance.md` for the source of every parameter.
 
 ## Project Structure
-- `project/app.py` - Streamlit UI only. Six tabs: Overview, Mass & Energy,
-  Emissions, Economics, Validation, Parameters. No calculations here. The model
-  run is wrapped in `st.cache_data` keyed on the control values, so switching
-  tabs re-renders rather than re-solving. Cache-key arguments must NOT be
+- `project/app.py` - Streamlit UI only. Eight tabs, named for the question
+ they answer: Decision, Plant (flows, heat, axial profile, element check),
+ Options, Carbon & cost, What if, Evidence (literature checks and the
+ parameter register), Compare, Ask. No calculations here. Tabs use
+ `st.tabs(..., on_change="rerun")` and each body is guarded by `is_open()`,
+ so only the open tab computes. Sidebar widgets carry `w_`-prefixed keys,
+ which the reset button clears. The model
+ run is wrapped in `st.cache_data` keyed on the control values, so switching
+ tabs re-renders rather than re-solving. Cache-key arguments must NOT be
   underscore-prefixed - Streamlit excludes those from the key, which would make
   two different scenarios collide on one cached result.
 - `project/src/ui/` - presentation layer. `theme.py` holds the validated
@@ -68,27 +81,59 @@ in `config/validation_targets.json`.
   validated against the light surface #fcfcfb only; dark mode needs its own
   steps re-validated rather than an automatic inversion.
 - `project/setup_data.py` - regenerates `data/literature_inventory.csv`,
-  `data/parameter_provenance.csv`, `data/literature_gaps.csv` and
-  `outputs/validation_report.txt`. Also reports stale absolute paths in the
+  `data/parameter_provenance.csv`, `data/literature_gaps.csv`,
+  `docs/parameters/data_provenance.md`, `docs/parameters/parameter_reference.md`
+  and `outputs/validation_report.txt`. Also reports stale absolute paths in the
   hand-maintained CSVs under `data/` without rewriting them.
-- `project/config/` - `parameters.json` (90 parameters) and
+- `project/api/server.py` - FastAPI model API (port 8000) for the Next.js
+  console in `project/web/` (port 3000). `run_web.sh` starts both.
+- `project/config/` - `parameters.json` (145 parameters, 5 still
+  `needs_citation`) and `scenarios/` for named override sets.
   `validation_targets.json` (11 acceptance bands).
 - `project/src/`
-  - `data/parameters.py` - parameter store, provenance, physical constants.
+  - `data/parameters.py` - parameter store, provenance, physical constants,
+    `out_of_range()`.
+  - `data/coal.py` - coal analyses must sum to 100% or the plant refuses them.
+    Build a different coal with `daf_rescale()`, never by editing ash alone.
   - `models/baseline.py` - elemental stream model on a 1 t DRI basis.
   - `models/plant.py` - `build_plant()` and the coal-rate solver. Import plant
     construction from here, not from `baseline.py`, so `coal.rate_mode` is
     honoured.
   - `models/mass_balance.py` - total and per-element closure audit.
   - `models/energy_balance.py` - itemised ledger on a coal-NHV basis.
+  - `kiln/axial.py` - places that ledger on Dey's 80 m kiln. It does not
+    predict metallisation. See `docs/models/05_kiln_axial_profile.md`.
   - `emissions/co2_model.py` - CO2 from the carbon balance, with scopes.
   - `economics/economics.py` - OPEX, annualised CAPEX, export revenue.
-  - `retrofits/{whr,biomass,hydrogen}.py` - deltas on the validated baseline.
+    `financial.py` is the cash flow beside that annuity (tax, debt, depreciation).
+    It does not change `cost_per_t_dri`.
+  - `retrofits/{whr,biomass,hydrogen,oxygen,kiln_control,producer_gas,char_recycle,vfd}.py` -
+    deltas on the validated baseline. In `scenarios.evaluate()` the VFD runs
+    first (it lowers auxiliary load), then the coal-cutting levers, then WHR, so
+    after-burner heat follows the coal that remains. Keep that order.
   - `validation/literature_check.py` - runs the model against the bands.
-  - `analysis/`, `optimization/` - empty; sensitivity and MACC work goes here.
-- `project/tests/test_model.py` - 45 tests: balance closure, stream positivity,
-  retrofit direction, scaling, provenance integrity.
-- `*.pdf` (repository root) - the 13 source documents.
+  - `analysis/scenarios.py` - pathway grid, least-cost search, Pareto front
+    and the hydrogen break-even. `sensitivity.py`, `montecarlo.py` and
+    `macc.py` are the Phase 3 uncertainty layer. They read
+    `config/analysis.json` and `config/distributions.json`, not the plant.
+  - `optimization/search.py` - continuous biomass, hydrogen and WHR search.
+    It must not cost more than the pathway-grid optimum.
+  - `version.py` - model version and the SHA-256 of `parameters.json`.
+  - `agent/` - read-only tools, the grounding check, and the analyst that
+    quotes them. No language-model API is called. See `docs/software/agent_design.md`.
+  - `reporting/export.py` - the workbook and the one-page HTML brief.
+- `project/tests/` - balance closure, stream positivity, retrofit direction,
+  scaling, provenance, the pathway search, the UI, hardening (coal closure,
+  ash range, scale laws, boundary audit) and the golden baseline. Rebuild the
+  golden file with `tests/golden/regenerate.py`, only after bumping
+  `MODEL_VERSION` and writing the reason in `CHANGELOG.md`.
+- `papers/` - every source PDF, named `YYYY_Author_Short-title.pdf`. Text extracts of all 26 are in `data/text/` under the same stem.
+- `docs/` - `models/` (one numbered file per model, `retrofits/` one per
+  lever), `parameters/`, `data/`, `validation/`, `software/`, `project/`
+  (plan, deviations, open questions, sessions, research trail). Index in
+  `docs/README.md`. When a model changes, update its file in `docs/models/`.
+- `reports/` - course deliverables (proposal, mid-semester report,
+  presentation, department guidelines). Not source papers.
 
 ## Presentation rules
 The chart palette is the validated reference instance and was checked with the
@@ -108,7 +153,7 @@ than a value ramp.
 ```bash
 cd project
 ./venv/bin/streamlit run app.py        # dashboard
-./venv/bin/python -m pytest tests/ -q  # 45 tests
+./venv/bin/python -m pytest tests/ -q  # unit tests plus the golden baseline
 ./venv/bin/python src/validation/literature_check.py   # validation report
 ./venv/bin/python setup_data.py        # regenerate derived data + provenance
 ./venv/bin/python src/models/plant.py  # solved coal rate and closure
@@ -120,26 +165,35 @@ relying on `source venv/bin/activate`, and recreate it with
 project moves again.
 
 ## Known open work
-1. **WHR generation overshoots literature by 20-30%** (572 vs 450-451 kWh/t-DRI).
-   Driven by `kiln.unburnt_vm_carbon_frac` and by an 18.75% gas-to-power
-   efficiency that ignores the WHR power plant's own auxiliary load. Needs the
-   Gaurav et al. waste-heat paper mined for boiler and cycle efficiencies.
-2. **Coal rate is over-sensitive to coal heating value at high ash.** With a
-   realistic Indian domestic analysis (30% ash, ~19,500 kJ/kg) the solver
-   returns ~2.05 t-coal/t-DRI against CEEW's surveyed 1.4-1.6. Sensitivity
-   measured at 100 TPD: 23.7% ash / 22,826 kJ/kg gives 1.02; 28% / 20,500 gives
-   1.57; 30% / 19,500 gives 2.05. The superlinear response suggests the
-   ash-linked terms (char rate per tonne of coal, free-ash sensible heat) are
-   over-penalising low-grade coal. Do NOT fix this by choosing preset values
-   that land in band -- the Domestic Coal preset deliberately keeps realistic
-   coal quality and fails the check visibly.
-3. **38 of 90 parameters still need a citation** - see
-   `data/literature_gaps.csv`. The prices, the grid emission factor and all the
-   biomass properties are the weakest.
-4. **No sensitivity analysis yet.** 54 parameters are flagged
-   `sensitivity: true`; `params.sensitivity_keys()` returns them and
-   `params.with_overrides()` makes sweeps cheap. `src/analysis/` is empty.
-5. `econ.fixed_opex_inr_per_day` does not scale with plant capacity.
+1. **WHR figures are design values.** Gross 418 kWh/t and export 316 kWh/t are
+   inside their bands, using BEE 2019's 60% boiler figure and a 0.2265 cycle
+   efficiency derived from the BEE 2011 DPR heat balance. Neither is a
+   measured boiler test.
+2. **Domestic coal has no sourced analysis.** The old 2.05 t/t was an input
+   error: the preset's coal summed to 106%. Closed on Dey's dry ash-free basis,
+   the same 30% ash / 19,500 kJ/kg solves to 1.416. The result still moves
+   0.28 t/t between the preset heating value and one scaled from Dey's coal
+   (20,592 kJ/kg), because losses follow carbon content while input follows
+   heating value. Do NOT pick a heating value to land in band; get a measured
+   domestic ultimate analysis with its heating value.
+3. **5 parameters still need a citation**: DRI and char heat capacity,
+   biomass char reactivity, and the biomass and hydrogen substitution caps.
+   Seven more are `indicative` (supplier prices and the biomass capital
+   analogue, extrapolated about 80-fold down in size). See
+   `docs/parameters/data_provenance.md` and `docs/project/OPEN_QUESTIONS.md`.
+4. **Uncertainty is computed, not tuned.** 68 parameters are flagged
+   `sensitivity: true`. The tornado, Morris sample (8 trajectories, 4 levels),
+   400-draw Monte Carlo, abatement curve and continuous search live in
+   `src/analysis/` and `src/optimization/search.py`. Coal components that have
+   to sum to one are not drawn independently. Method, sample size and the
+   carbon-price cases are in `docs/models/11_uncertainty.md`.
+5. Fixed daily cost and WHR capital scale with capacity on Kamal et al.'s 0.67
+   exponent. The 100 TPD fixed cost (INR 35,000/day) comes from one 2016
+   pre-feasibility report in 2016 rupees, and its exponent is carried over
+   from capital cost.
 6. Coal is characterised by one analysis for feed and one for injection; ore is
    treated as a single pellet-grade feed. Lump-ore operation (1.8-2.0 t/t) is
    not yet a preset and will correctly fail the pellet-based ore-rate band.
+7. The cash flow values a retrofit, not the kiln. There is no kiln capital cost
+   and no sponge-iron selling price, so there is no whole-plant NPV. See
+   `docs/models/08_project_finance.md`.

@@ -11,7 +11,7 @@
       "min": 1.4,
       "max": 1.6,
       "source": "CEEW (Nitturu et al. 2024): pellets 1.4-1.5, peaking at 1.6 t-ore/t-DRI. Dey et al. (2015) measured 1.587.",
-      "source_file": "Decarbonising Coal-based DRI Production_Kartheek Nitturu et al",
+      "source_file": "2024_Nitturu_Decarbonising-coal-DRI",
       "note": "Lump-ore operation is 1.8-2.0 t-ore/t-DRI and will correctly fail this pellet-based band."
     },
     {
@@ -21,7 +21,7 @@
       "min": 0.9,
       "max": 1.6,
       "source": "CEEW (Nitturu et al. 2024): imported coal 0.9-1.1, domestic coal 1.4-1.6 t-coal/t-DRI.",
-      "source_file": "Decarbonising Coal-based DRI Production_Kartheek Nitturu et al"
+      "source_file": "2024_Nitturu_Decarbonising-coal-DRI"
     },
     {
       "key": "sec_gcal_per_t_dri",
@@ -30,7 +30,7 @@
       "min": 4.9,
       "max": 8.2,
       "source": "Lower bound from TERI: 5.54 Gcal/t-iron at 89% Fe = 4.93 Gcal/t-DRI, assuming imported coal at 0.95 t/t and 5,200 kcal/kg. Upper bound from BEE: 0.64-0.82 toe/t = 6.4-8.2 Gcal/t for the MSME sector. Dey et al. (2015) measured 6.26 Gcal/t-DRI (118.4 Gcal/h coal NHV at 18.9 t/h).",
-      "source_file": "ENERGY-EFFICIENT TECHNOLOGY OPTIONS FOR DIRECT REDUCTION OF IRON PROCESS_TERI",
+      "source_file": "2021_TERI_Energy-efficient-DRI-options",
       "note": "The band is deliberately wide because the literature spans imported coal (~0.95 t/t, low SEC) and high-ash domestic coal (1.4-1.6 t/t, high SEC). Narrow it once the coal grade for the case study is fixed."
     },
     {
@@ -40,7 +40,7 @@
       "min": 0.89,
       "max": 0.93,
       "source": "Dey et al. (2015) Table 7: Fe (total) 92.5%. TERI assumes 89% iron content in sponge iron.",
-      "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al"
+      "source_file": "2015_Dey_Energy-survey-sponge-iron"
     },
     {
       "key": "metallization_frac",
@@ -49,7 +49,7 @@
       "min": 0.88,
       "max": 0.94,
       "source": "Bhardwaj et al.: 'metallization of higher than 88%'; 'metallization rate of 89-90%'; 'metallization of 91'. Dey et al. Table 7 implies 83.5/92.5 = 90.3%.",
-      "source_file": "Decarbonizing rotary kiln induction furnace based sponge iron production_Nishant Bhardwaj et al"
+      "source_file": "2024_Bhardwaj_Decarbonizing-kiln-induction-furnace"
     },
     {
       "key": "co2_direct_t_per_t_dri",
@@ -58,7 +58,7 @@
       "min": 1.39,
       "max": 3.2,
       "source": "Lower bound from Nduagu et al.: rotary kiln DRI life-cycle 1391-1880 kgCO2e/t-DRI (1880 base case without export credit, 1590 net of 351 kWh/t-DRI WHR export), which corresponds to an imported-coal rate near 0.95 t/t. Upper bound scales that carbon balance to CEEW's surveyed domestic-coal rate of 1.4-1.6 t-coal/t-DRI.",
-      "source_file": "Comparative life cycle assessment of natural gas and coal-based DRI production_Experience I Nduagu et al",
+      "source_file": "2022_Nduagu_LCA-gas-and-coal-DRI",
       "note": "CO2 intensity is close to linear in the coal rate, so this band is wide by construction. Judge a run against the part of the band matching its coal grade, not against the midpoint."
     },
     {
@@ -68,7 +68,7 @@
       "min": 55,
       "max": 100,
       "source": "CEEW (Nitturu et al. 2024): 55-65 kWh/t-DRI typical, 80-100 kWh/t-DRI for some plants.",
-      "source_file": "Decarbonising Coal-based DRI Production_Kartheek Nitturu et al"
+      "source_file": "2024_Nitturu_Decarbonising-coal-DRI"
     },
     {
       "key": "whr_gross_kwh_per_t_dri",
@@ -77,8 +77,8 @@
       "min": 350,
       "max": 460,
       "source": "Nduagu et al.: 450-451 kWh/t-DRI generated; 351 kWh/t-DRI exported after in-plant use.",
-      "source_file": "Comparative life cycle assessment of natural gas and coal-based DRI production_Experience I Nduagu et al",
-      "note": "KNOWN OPEN GAP: the model currently overshoots this band by 20-30%. The dominant cause is kiln.unburnt_vm_carbon_frac (0.245, Dey Table 10), which sets how much chemical energy the ABC releases into the boiler, followed by the 18.75% overall gas-to-power efficiency, which ignores the WHR power plant's own auxiliary load. Do not tune these to hit the band without a source."
+      "source_file": "2022_Nduagu_LCA-gas-and-coal-DRI",
+      "note": "Boiler efficiency 60% and stack 150 C are BEE 2019; cycle efficiency 0.2265 is derived from the BEE 2011 DPR heat balance (Annexure 2). Model 0.3.0 used an unsourced 0.25 and sat just above this band. None of these is a measured boiler test."
     },
     {
       "key": "whr_export_kwh_per_t_dri",
@@ -87,8 +87,8 @@
       "min": 300,
       "max": 400,
       "source": "Nduagu et al.: 'the exported power of 351 kWh/t-DRI'.",
-      "source_file": "Comparative life cycle assessment of natural gas and coal-based DRI production_Experience I Nduagu et al",
-      "note": "KNOWN OPEN GAP: the model currently overshoots this band by 20-30%. The dominant cause is kiln.unburnt_vm_carbon_frac (0.245, Dey Table 10), which sets how much chemical energy the ABC releases into the boiler, followed by the 18.75% overall gas-to-power efficiency, which ignores the WHR power plant's own auxiliary load. Do not tune these to hit the band without a source."
+      "source_file": "2022_Nduagu_LCA-gas-and-coal-DRI",
+      "note": "Export is what remains after the kiln's own power demand and the BEE 2011 auxiliary fraction of 10%. It falls inside this band with the BEE 2019 heat-exchanger efficiency and the cycle efficiency derived from the BEE 2011 DPR."
     },
     {
       "key": "waste_gas_sensible_frac",
@@ -97,7 +97,7 @@
       "min": 0.18,
       "max": 0.3,
       "source": "Dey et al. (2015) Table 11 item [13e]: waste-gas sensible heat 28.3 Gcal/h against coal NHV input of 118.4 Gcal/h = 23.9%.",
-      "source_file": "Energy survey of the coal based sponge iron industry_Nishant R Dey et al",
+      "source_file": "2015_Dey_Energy-survey-sponge-iron",
       "note": "Expressed against coal NHV. Against Dey's 'reaction heat' figure of 64.98 Gcal/h the same term is 43.6%, which is the number usually quoted."
     },
     {
@@ -107,7 +107,7 @@
       "min": 53.5,
       "max": 59.6,
       "source": "Kamal et al.: validated against 53.5-59.6 kg/t DRI, model yields 55.7, design value 59.6 kg H2/t DRI.",
-      "source_file": "Techno-economic assessment of hydrogen-based direct reduction for Indias steel sector_Haris Kamal et al",
+      "source_file": "2026_Kamal_Hydrogen-DRI-techno-economics",
       "note": "INFORMATIONAL, not an acceptance criterion. The model reports the STOICHIOMETRIC hydrogen for the oxygen actually removed at 90.2% metallisation, which is ~47 kg/t. Kamal et al.'s 53.5-59.6 kg/t is for complete reduction and their 59.6 is explicitly 'a more conservative design value ... to account for operational inefficiencies, performance degradation and uncertainties'. A model value 10-20% below the band is therefore the expected result, and confirms the stoichiometry rather than contradicting it.",
       "informational": true
     }

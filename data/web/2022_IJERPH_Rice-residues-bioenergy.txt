@@ -1,0 +1,284 @@
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8953080/
+Title: 
+            A Review of the Sustainable Utilization of Rice Residues for Bioenergy Conversion Using Different Valorization Techniques, Their Challenges, and Techno-Economic Assessment - PMC
+        
+Published: 2014-03-22
+Retrieved: 2026-11-10 (parallel-cli)
+
+# A Review of the Sustainable Utilization of Rice Residues for Bioenergy Conversion Using Different Valorization Techniques, Their Challenges, and Techno-Economic Assessment
+## 1. Introduction
+The author has also proven the amount of particulate matter (PM), carbon monoxide (CO), carbon dioxide (CO ₂ ), ash and sulphur dioxide (SO ₂ ) emissions, which are approximately 3 kg, 60 kg, 1460 kg, 199 kg and 2 kg, respectively, corresponding to every ton of paddy and wheat straw (WS) burning  [15 ]. The emissions from RR burning will cause severe respiratory-related problems in the long run for those who live in the paddy field’s vicinity. Golshan et al.
+
+...
+
+### Table 1.
+[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC8953080/table/ijerph-19-03427-t001/)
+RH: rice husk.
+
+...
+
+## 2. Physico-Chemical Characteristic of Rice Residues
+### 2.1. Structural Characteristics
+Additionally, a higher proportion of lignin will contribute to a very low yield of sugar, halting biofuel (bioethanol) production. However, the content of hemicellulose and cellulose in the RH and RS has no direct contribution to or relationship with the higher heating value (HHV)  [38 , 39 ].
+
+...
+
+#### Table 2.
+[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC8953080/table/ijerph-19-03427-t002/)
+Note: NA (not available), RH (rice husk), RS (rice straw), CC (corn cobs), WH (wheat husk), SB (sugarcane bagasse); a as received; b dry ash free.
+
+### 2.2. Proximate Analysis of Rice Residues
+In general, the majority of RH has the lowest moisture content with the highest range of ash and fixed carbon content compared to the RS, CC (corn cobs), WH (wheat husk) and SB (sugarcane bagasse), as shown in Table 3 . The quality of biomass feedstock is indirectly proportional to the moisture content of the material, which significantly reduces the drying costs in preparing the fuel for power generation purposes.
+
+...
+
+#### Table 3.
+Proximate analysis of rice residues, corn cob, wheat husk and sugarcane bagasse.
+| Proximate Analysis (wt.%) / Biomass Type | Proximate Analysis (wt.%) / MC | Proximate Analysis (wt.%) / VM | Proximate Analysis (wt.%) / AC | Proximate Analysis (wt.%) / FC | Proximate Analysis (wt.%) / Ref. |
+| RH b | 4.07–9.50 | 51.98–71.47 | 16.30–17.36 | 3.11–25.10 | [45 , 46 , 47 ] |
+| RS b | 8.53–13.06 | 66.75–70.20 | 6.90–9.22 | 10.97–14.57 | [48 , 49 , 50 ] |
+| CC a | 7.14–11.02 | 69.31–87.76 | 1.05–5.07 | 11.19–14.60 | [42 , 51 , 52 ] |
+| WH a | 4.40–8.45 | 65.59–69.19 | 4.99–12.11 | 12.72–20.97 | [43 , 53 , 54 ] |
+| SB a | 8.37–10.3 | 75.72–88.48 | 1.60–2.20 | 9.41–16.30 | [55 , 56 , 57 ] |
+[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC8953080/table/ijerph-19-03427-t003/)
+Note: MC (moisture content), VM (volatile matter), AC (ash content) FC (fixed carbon); a dry; b as received.
+
+...
+
+On the contrary, higher volatile matter contributes to higher consumption of secondary air and higher pressure for complete combustion to take place  [59 ]. Incomplete combustion will lead to other problems, such as heat loss through the emission of dark smoke, which causes environmental pollution and PM deposition on the boiler tubes  [59 ].
+Additionally, volatile content causes biomass to burn faster than usual as about 75% of the volatiles are released and smouldered in the initial pyrolysis stages  [38 ]. Moreover, high ash (incombustible material) contents in RR are not desirable, especially for combustion plant parts in which they can cause defects, such as fouling in a heat exchanger and reducing the heating value of fuel  [60 ].
+
+### 2.3. Ultimate Analysis and HHV of Rice Residues
+A higher heating value (HHV) indicates the energy content of a given biomass. The typical HHV of agricultural residues ranges between 15 and 17 MJ/kg. Based on the literature review, the HHV of RH and RS are 14.61–15.44 MJ/kg and 12.10–16.60 MJ/kg, respectively  [61 , 62 ]. The HHV influences the ash content and extractive content of biomasses.
+
+...
+
+The sulphur content of RH (0.08–0.20%) is significantly lower than that of CC (0.15–0.69%), substantiating the fact that RH is a more desirable feedstock for biomass boiler applications, as shown in Table 4 below.
+
+#### Table 4.
+Ultimate analysis of rice husk, rice straw, corn cob, wheat husk and sugarcane.
+| Ultimate Analysis (DRY basis wt.%) / Biomass Type | Ultimate Analysis (DRY basis wt.%) / C | Ultimate Analysis (DRY basis wt.%) / H | Ultimate Analysis (DRY basis wt.%) / O | Ultimate Analysis (DRY basis wt.%) / N | Ultimate Analysis (DRY basis wt.%) / S | Ultimate Analysis (DRY basis wt.%) / HHV (MJ/kg) | Ultimate Analysis (DRY basis wt.%) / Ref. |
+| RH | 33.14–41.78 | 5.14–5.50 | 36.31–37.20 | 0.30–0.55 | 0.08–0.20 | 14.61–15.44 | [61 , 65 , 66 , 67 ] |
+| RS | 37.10–39.65 | 4.88–5.20 | 35.80–44.30 | 0.50–0.92 | 0.10–0.12 | 12.10–16.60 | [62 , 68 , 69 ] |
+| CC | 41.07–43.81 | 6.49–6.54 | 46.47–50.41 | 0.25–0.77 | 0.15–0.69 | 16.13–16.46 | [42 , 51 , 52 ] |
+| WH | 47.14–48.50 | 5.50–5.59 | 39.90–46.03 | 0.30–0.37 | 0.06–0.10 | 18.90–19.22 | [43 , 68 ] |
+| SB | 41.45–48.81 | 5.51–6.20 | 43.10–50.37 | 0.20–0.51 | 0.02–0.10 | 15.96–19.19 | [55 , 57 , 67 ] |
+[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC8953080/table/ijerph-19-03427-t004/)
+RH: rice husk, RS: rice straw CC: corn cob, WH: wheat husk, SB: sugarcane bagasse, C: carbon, H: hydrogen, O: oxygen, N: nitrogen, S: sulphur, HHV: high heating value.
+
+...
+
+## 3. Pre-Treatment of Rice Residues
+### Table 5.
+| Parameters / Pre-Treatment Technique | Parameters / Temperature (°C) | Parameters / Reaction Time (min) | Parameters / By-Products | Parameters / Advantages | Parameters / Disadvantages | Parameters / Ref. |
+| I | 30–700 | 3–10 | CO, CO ₂ , H ₂ O and solid fuel | Higher compressibility strength | Requires |  |
+| additional binding agent | [75 , 76 , 77 , 78 , 79 , 80 ] |  |  |  |  |  |
+| II | 80–120 | - | CO ₂ , water and other by-products | Sensitive for moisture |  |  |
+| absorption, swell and breakage | Does not |  |  |  |  |  |
+| require |  |  |  |  |  |  |
+| additional binding agent | [81 , 82 ] |  |  |  |  |  |
+| III | 200–400 | 20–60 | Gaseous, aqueous chemicals and solid fuel (char) | Higher energy content, lower moisture content and hydrophobic | Torrefied fuel does not guarantee less |  |
+| corrosion on boiler tubes | [72 , 83 ] |  |  |  |  |  |
+| IV | 180–280 | >20 | Gases, |  |  |  |
+| (aqueous) |  |  |  |  |  |  |
+| liquids and solids |  |  |  |  |  |  |
+| (hydrochar) | Milder reaction temperature and pressure |  |  |  |  |  |
+| (autogenous), does not require drying processes, and high solid yield | Corrosion, coke and tar formation, and the |  |  |  |  |  |
+| process needs high capital |  |  |  |  |  |  |
+| investment | [84 ] |  |  |  |  |  |
+[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC8953080/table/ijerph-19-03427-t005/)
+Note: I (briquetting), II (pelletization), III (torrefaction) and IV (hydrothermal carbonization).
+
+...
+
+### 3.2. Pelletization
+[90 ] discovered that leaching with water for 15 weeks, by exposing the RS under outdoor sunlight, contributed to a significant decrement in ash content from 12.3 to 9.6% in the fifth week. Additionally, the durability of the RS pellet is higher than the RH pellet, whereby the durability of both pellets improved with the increase in temperature  [90 ].
+Bajo et al. [91 ] examined the influence of different mixing ratios of RH to ground wood (0:1, 1:4, 2:3, 3:2, 4:1) by mass and different applied pressures, ranging from 80 to 120 MPa. As a result, the moisture content, volatile matter, fixed carbon and HHV of mixed pellets decreased by 54.7%, 17.7%, 4.7% and 19.4%, respectively, as RH mass increased from 0% to 100%. However, 100% RH pellets had the highest ash content (17.8%) compared to other mixed-pellet groups.
+
+...
+
+### 3.3. Torrefaction
+During torrefaction, the carbonization and volatilization of hemicellulose occur, with nearly 100% of the moisture being eliminated. This is followed by the depolymerization and devolatilization of lignin and cellulose in lignocellulosic biomasses; this results in solid components with significant improvements in their physical and chemical properties, as well as combustion characteristics, compared to the original biomass  [92 ].
+
+...
+
+Chen et al. [97 ] found that the torrefaction of RH is optimal under a temperature range of 230 to 260 °C for 30 min. Additionally, it has been observed that a significant reduction can be seen in the percentage of volatile matter and moisture of the feedstock as the temperature increases from 260 to 290 °C  [97 ].
+
+...
+
+A study found that torrefied WS, RS, and gin waste reduced moisture by 70%, 49%, and 48% after an hour of residence time at 260 °C, respectively  [100 ]. As residence time increased from 0 to 60 min, the heating values for WS, RS and gin waste increased gradually to 15.29%, 16.91% and 6.33%. Based on the observation, gin waste lost the least amount of weight (9.67%) due to the highest amount of lignin compared to RS (30.68%) and WS (23.86%)  [100 ].
+
+...
+
+Kizuka et al. observed that the mixing of torrefied RS at 280 °C with wood biomass pellets at a ratio of 10% RS to the pellets generated resulted in a lower heating value (LHV) of 16.5 MJ/kg, which is higher than the LHV of wood  [102 ]. Conversely, they also found a higher energy loss at a 280 °C torrefied temperature, whereas a torrefaction temperature of over 220 °C was needed to improve the grindability of RS.
+
+...
+
+### 3.4. Hydrothermal Carbonization
+Hydrothermal carbonization (HTC) is one of the thermal pre-treatment approaches, also known as wet pyrolysis, commonly used to converts biomass with relatively high moisture content (ideal: 75–90%)  [104 ] into a biochar, a bio-oil or a biogas  [105 ]. Depending on the reaction temperature and pressure, the hydrothermal process can be divided into three sub-classes: HTC, hydrothermal liquefaction (HTL) and hydrothermal gasification (HTG),  [105 ].
+Hydrothermal carbonization needs milder reaction conditions such as low temperature (180–280 °C) and saturated pressure (1–8 MPa)  [84 ], which have attracted more research interest in recent years due to lower hydrochar ash yield, higher energy density, high-carbon end products and more smokeless solid fuels than the HTL  [106 ].
+
+...
+
+Moreover, the HHV increased to 17.6 MJ/kg for optimized hydrochar with MIHTC, compared to 12.3 MJ/kg of RS  [49 ]. A decrease in moisture content, oxygen content, and volatile matter was also observed in the hydrochar. However, the ash and nitrogen content in RS hydrochar increased from an initial value of 6.9% and 0.2% to 16.5% and 0.4%, respectively.
+
+...
+
+## 4. Valorization of Rice Residues
+Meanwhile, biomass can be handled using updraft fixed-bed and fluidized-bed gasifiers with moisture contents between 50 and 65% by weight, respectively  [112 ], and moisture contents of 0–20% are considered efficient for fast pyrolysis  [113 ].
+
+...
+
+### Figure 1.
+Rice husk and rice straw conversion through thermochemical and biochemical processes. Note: SOX (sulphur oxides), PM (particulate matter), NOX (nitrogen oxides), CO ₂ (carbon diox-ide), O ₂ (oxygen), N ₂ (nitrogen).
+
+### 4.1. Direct Combustion
+Combustion is an ancient method used for generating heat (exothermic reaction), steam and energy; it is used for drying purposes in agricultural industries and accounts for almost 97% of the world’s bioenergy production  [114 ]. During combustion, the feedstock is confined and exposed to high temperatures between 700 °C and 1350 °C to produce heat under sufficient air supply (usually 110 to 150% of stoichiometric oxygen)  [73 , 115 ].
+
+...
+
+The heat generated from the biomass (RH) boiler is directly or indirectly used for the parboiling process at processing mills  [119 ]. The rice husk contains approximately 75% organic volatile matter, and the remaining 25% of its weight is converted into ash, which is known as rice husk ash (RHA), during the incineration process  [119 ].
+The high ash content, which has a range of 9–22%  [120 , 121 , 122 ], and remaining chemical make-up of RH mean that rice husk combustion faces some challenges. For instance, the high amount of silica and sulphur, along with alkali metals and alkaline earth metals, present in RH poses a threat to its combustion, as it leads to the low melting temperature of ash followed by slag generation and fouling  [120 , 122 , 123 ].
+
+...
+
+### 4.2. Gasification
+Gasification takes place at elevated temperatures of 700–1100 °C  [139 ], with fractions of oxygen supply theoretically required for complete combustion. Other gasifying agents are employed, including air, steam (H ₂ O) and carbon dioxide (CO ₂ ). The resulting gaseous products (CH ₄ and H ₂ ) are capable of generating heat or steam utilizable in gas turbines to produce electricity. The equivalence ratio (ER) is a critical parameter in air gasification.
+It is defined as the ratio of oxygen (air) supplied for the stoichiometric need for complete combustion of the fuel which, for gasification, is between 0 and 1. Thus, increasing the O ₂ supply leads to a reduction in the concentrations of H ₂ , CO and CH ₄ and a rise in the concentration of CO ₂ in the resulting syngas. Another important factor is the bed temperature, which has an influence on the syngas composition and heating value.
+
+...
+
+In their study, to avoid bed agglomeration during RS gasification, a mixture of alumina-silicate and MgO was employed as bed media in the fluidized bed gasifier  [109 ]. The steam gasification studies on RS in the presence of potassium carbonate (K ₂ CO ₃ ) showed improved hydrogen-rich gas production with yields up to 59.8%  [145 ].
+
+...
+
+The optimal gasifier temperature was determined to be 790 °C, which resulted in a syngas with low tar content, an LHV of 3.2 MJ/Nm ³ , high carbon conversion efficiency (91.6%), high thermal efficiency (75%) and a high gas yield (2.7 m ³ /kg). Susastriawan et al. [150 ] compared the gasification performance of RH, sawdust (SD) and the mixture of these two biomasses (1:1) by varying the ER between 0.15, 0.20 and 0.25 in a small-scale fixed-bed downdraft gasifier.
+
+...
+
+### 4.3. Pyrolysis
+The results indicated that dehydration occurred at a temperature of 250–350 °C whereby about 5.92% of the dry raw material was reduced, which accounts for the moisture loss under the non-catalytic pyrolysis process.
+
+...
+
+[156 ] conducted a comparative pyrolysis study in a fixed-bed reactor to determine the influence of temperature on biochar and bio-oil yields by slow pyrolysis of CC, RH, WS, and RS at temperatures ranging from 300 to 450 °C. For CC, WS, RS, and RH, the maximum bio-oil yields were obtained at 450, 400, 400, and 450 °C, yielding 47.3, 36.7, 28.4, and 38.1 wt.%, respectively.
+Furthermore, in their respective optimum temperature, the biochar obtained were 24.0, 34.4, 33.5 and 35.0, respectively. For all the biomasses examined, the highest amount of organic carbon was obtained in RH biochar at 300 °C, reaching 58.74 wt%, while the highest organic conversion was observed in RH at 400 °C, reaching 56.62 wt%.
+
+...
+
+The ash of the biochar using combined pre-treated or only acid-washed RH contained an increase in SiO ₂ content, which can be used for the preparation of silica products.
+Co-pyrolysis of biomass with other materials has been used to increase the yield and quality of the pyrolysis product, which would otherwise have a high oxygenated content and a low hydrocarbon fraction when pyrolyzed alone. Lin et al. [158 ] co-pyrolyzed oily sludge with RH at 600 °C in a fixed-bed reactor and observed that increasing the RH in the blend decreased the yield of bio-oil, while increasing the yield of pyrolysis gas.
+
+...
+
+Based on process efficiency and energy consumption, the optimal conditions for biochar production were found to be 500 g of RH, a temperature of 400 °C, a heating rate of 20 °C/min and a residence time of 3600 sec. However, the biochar with the best HHV of 23.41 MJ/kg was obtained at different settings (RH mass = 125 g, temperature = 500 °C, heating rate = 10 °C/min and residence time t = 5400 sec). Wang et al.
+
+...
+
+#### Table 6.
+| Parameters / Process Conditions | Pyrolysis / Process Conditions | Gasification / Process Conditions | Combustion / Process Conditions |
+| Temperature, (°C) | 300–600 | >600 | >700 |
+| Reaction time | 1 s (fast pyrolysis), days (slow pyrolysis) | Several seconds to minutes | - |
+| Equivalent ratio (ER) | 0 | 0 < ER < 1 | 1 |
+| **Products** |  |  |  |
+| Gaseous | CO, CH ₄ , C X H Y , CO ₂ , H ₂ O, oils, N- and S-containing compounds | CO, H ₂ , CO ₂ , H ₂ O, CH ₄ , C X H Y , tars, NH y , NOx, H ₂ S, COS | CO ₂ , H ₂ O, CO, C X H Y , NO X , SO X |
+| Solid | C, (N, S), ash | Ash, (N, S) | Fly ash and bottom ash |
+| Liquid | Bio-oil/liquid (tar) | - | - |
+
+...
+
+### 4.5. Microbial Fermentation
+Compared with the NaOH alone pre-treated RS, the 700 W microwave irradiation for 30 min produced the lowest percentage of moisture (4.8 ± 0.3), lignin (4.9 ± 0.3) and hemicellulose (10.2 ± 0.8) with the highest percentage of cellulose (69.2 ± 0.3).
+
+...
+
+## 5. Techno-Economic Consideration of Rice Residues for Energy Augmentation
+### Carbon Footprint Recovery via Rice Residue Conversions to Energy
+were assessed to be 11,954 and 14,375 kt CO ₂ eq., respectively  [213 ].
+
+...
+
+## Abbreviations
+| ABE | Acetone, Butanol and Ethanol |
+| AC | Ash Content |
+| AD | Anaerobic Digestion |
+| APRS | NaOH Pre-treated Rice Straw |
+| ATP | Adenosine Triphosphates |
+| AU | Australia |
+| BEP | Bioethanol Plant |
+| BT | Temperature Distributions of Fixed Bed |
+| C ₃ H ₄ O ₃ | Pyruvate Molecules |
+| CC | Corn Cobs |
+| Char | Gaseous, Aqueous Chemicals and Solid Fuel |
+| CH ₄ | Methane |
+| CS | Coconut Shells |
+| CSP | Concentrating Solar Power |
+| CXHY, | Hydrocarbons |
+| DADT | Dry AD Technology |
+| DORB | De-oiled Rice Bran |
+| EO | Excess Oxygen Ratio |
+| ER | Equivalence Ratio |
+| FBT | Freeboard |
+| FC | Fixed Carbon |
+| GDP | Gross Domestic Product |
+| GHG | Greenhouse Gas |
+| GWh | Gigawatt Hours |
+| HHV | Higher Heating Value |
+| HRT | Hydraulic Retention Time |
+| HTC | Hydrothermal Carbonization |
+| HTG | Hydrothermal Gasification |
+| HTL | Hydrothermal Liquefaction |
+| IBSO | In-bed Stoichiometric Oxygen |
+| IEA | International Energy Agency |
+| IFC | International Finance Corporation |
+| IRR | Internal Rate of Return |
+| LCA | Life Cycle Assessment |
+| LCOE | Levelized Cost of Energy |
+| LHV | Lower Heating Value |
+| MC | Moisture Content |
+| MF | Microbial Fermentation |
+| MIHTC | Microwave-Induced Hydrothermal Carbonization |
+| NA | Not Available |
+| NAD+ | Nicotinamide Adenine Dinucleotide |
+| NADH | Nicotinamide Adenine Dinucleotide (NAD) + Hydrogen (H) |
+| NADPH | Nicotinamide Adenine Dinucleotide Phosphate |
+| NPE | Nonylphenol Ethoxylate |
+| NPV | Net Present Value |
+| OLR | Organic Loading Rate |
+| PAPRS | Phosphoric Acid Pre-treated Rice Straw |
+| PFBD | Paddy Flatbed Dryer |
+| PKS | Palm Kernel Shell |
+| PM | Particulate Matter |
+| PV | Photovoltaic |
+| RB | Rice Bran |
+| RH | Rice Husk |
+| RHA | Rice Husk Ash |
+| RR | Rice Residues |
+| RRS | Non-Pre-Treated Rice Straw |
+| RS | Rice Straw |
+| SAARS | South Asian Association for Regional Cooperation |
+| SB | Sugarcane Bagasse |
+| SBET | Specific Surface Area |
+| SD | Sawdust |
+| SS | Sewage Sludge |
+| Tar | Bio-oil/liquid |
+| TRS | Torrefied Rice Straw |
+| TS | Total Solid |
+| VFA | Volatile Fatty Acid |
+| VFBC | Vortexing Fluidized-bed Combustor |
+| VM | Volatile Matter |
+| VS | Volatile Solids |
+| WH | Wheat Husk |
+| WS | Wheat Straw |
+
+...
+
+## References
+Evaluation and characterization of different biomass residues through proximate & ultimate analysis and heating value. Asian J. Eng. Appl. Technol. 2012;2:6–10.
+
+...
+
+Nhuchhen D.R. Prediction of carbon, hydrogen, and oxygen compositions of raw and torrefied biomass using proximate analysis. Fuel. 2016;180:348–356. doi: 10.1016/j.fuel.2016.04.058.
+
+========================================================================
+

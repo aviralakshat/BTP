@@ -27,6 +27,7 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
+from src.data.coal import check_composition
 from src.data.parameters import MW, Parameters
 
 #: Mass fraction of O2 in dry air, and the matching N2 fraction.
@@ -55,6 +56,7 @@ class BaselinePlant:
     # ------------------------------------------------------------------
     def _solve(self) -> None:
         p = self.p
+        check_composition(p)
         # ---- product side: fix the 1000 kg DRI basis ------------------
         fe_m = 1000.0 * p["dri.fe_metallic_frac"]
         feo = 1000.0 * p["dri.feo_frac"]
@@ -95,10 +97,21 @@ class BaselinePlant:
 
         # ---- flux, char, dust -----------------------------------------
         dolomite = 1000.0 * p["dolomite.rate_t_per_t_dri"]
-        # Char is a coal residue and dust is mostly entrained ore fines, so
-        # each is scaled on its own parent stream rather than on DRI output.
-        char = coal_total * p["char.rate_t_per_t_coal"]
-        dust = ore_dry * p["dust.rate_t_per_t_ore"]
+        # Char is built from what it is made of: a share of the coal ash and
+        # the unburnt share of the coal fixed carbon, plus the char's own
+        # residual volatiles. A fixed char mass per tonne of coal would hold a
+        # fixed amount of ash, more than a low-ash coal contains.
+        char_ash = ash_coal * p["char.ash_partition_frac"]
+        c_char = _coal("fixed_carbon") * p["char.fc_unburnt_frac"]
+        char = (char_ash + c_char) / (1.0 - p["char.volatile_matter"])
+        # Dust likewise: its iron oxide is the ore's Fe lost to dust and its
+        # SiO2 + Al2O3 is a share of the coal ash, as Dey allocate it. Carbon
+        # and the minor phases keep their measured shares of the dust.
+        dust_fe2o3 = (fe_in * p["ore.fe_loss_to_dust_frac"]
+                      * MW["Fe2O3"] / (2 * MW["Fe"]))
+        dust_ash = ash_coal * p["dust.ash_partition_frac"]
+        dust = (dust_fe2o3 + dust_ash) / (p["dust.fe2o3_frac"]
+                                          + p["dust.ash_frac"])
 
         # Dolomite calcination releases CO2 from both the Ca and Mg carbonates.
         # Dey's Table 10 counts only the CaO-bound carbon; including MgO roughly
@@ -115,7 +128,6 @@ class BaselinePlant:
         cao_out = cao_mass + mgo_mass
 
         # ---- carbon partition -----------------------------------------
-        c_char = char * p["char.fixed_carbon"]
         c_dust = dust * p["dust.carbon_frac"]
         c_unburnt_vm = c_coal * p["kiln.unburnt_vm_carbon_frac"]
         c_gasified = c_coal - c_char - c_dust - c_dri - c_unburnt_vm
@@ -173,14 +185,13 @@ class BaselinePlant:
         # binds into char nor leaves up the stack. Dey et al. (2015) Table 10
         # obtain this stream by difference as well.
         inerts_in = ash_coal + gangue_in + dolomite_inerts
-        inerts_accounted = (char * p["char.ash"] + gangue_dri
-                            + dust * (1 - p["dust.fe2o3_frac"]
-                                      - p["dust.carbon_frac"]))
+        dust_inerts = dust - dust_fe2o3 - c_dust
+        inerts_accounted = char_ash + gangue_dri + dust_inerts
         free_ash = inerts_in - inerts_accounted
         if free_ash < 0:
             raise ValueError(
                 "Inert solids out exceed inerts in by "
-                f"{-free_ash:.1f} kg/t DRI. Check char.ash, dust composition "
+                f"{-free_ash:.1f} kg/t DRI. Check char.ash_partition_frac, dust composition "
                 "and coal ash against each other.")
 
         # ---- assemble the per-tonne-DRI ledger -------------------------
@@ -223,7 +234,7 @@ class BaselinePlant:
             "gangue": {"in": gangue_in, "out": gangue_dri,
                        "to_dust_or_loss": gangue_in - gangue_dri},
             "ash": {"in": ash_coal,
-                    "out": char * p["char.ash"] + (dust - c_dust)},
+                    "out": char_ash + dust_ash},
         }
         # Scalars other modules need.
         self.ore_rate = ore_dry / 1000.0
@@ -244,7 +255,10 @@ class BaselinePlant:
         self.o2_stoich = o2_stoich
         self.waste_gas = waste_gas
         self.char_mass = char
+        self.char_ash = char_ash
+        self.char_rate_t_per_t_coal = char / coal_total
         self.dust_mass = dust
+        self.dust_inerts = dust_inerts
         self.cao_out = cao_out
         self.cao_mass = cao_mass
         self.mgo_mass = mgo_mass

@@ -65,3 +65,50 @@ def test_h2_breakeven_zeroes_the_cost_delta(solved):
     pl2 = build_plant(p, 100, 0.9)
     r = Hydrogen(pl2, 0.2).calculate_impact()
     assert r["opex_delta_inr_per_t_dri"] == pytest.approx(0.0, abs=1e-6)
+
+
+def test_grid_factor_is_the_cea_average(solved):
+    assert solved[0].p["power.grid_ef_t_per_mwh"] == 0.727
+
+
+def test_oxygen_uses_the_table_not_the_six_percent_claim(solved):
+    pl, energy = solved
+    r = evaluate(pl, energy, oxygen=True)
+    ox = r["retrofits"]["Oxygen Enrichment"]
+    hourly = 4.15 / 4.29
+    specific = 1.0 - hourly / 1.06
+    assert ox["coal_reduction_frac"] == pytest.approx(specific, rel=1e-9)
+    assert ox["coal_reduction_frac"] != pytest.approx(0.06, abs=1e-3)
+    assert ox["authors_specific_coal_claim_frac"] == 0.06
+    assert r["econ"]["annual_output_t"] == pytest.approx(
+        pl.production_tpd * 1.06 * pl.p["plant.operating_days"])
+    assert any("no oxygen price" in w for w in r["warnings"])
+
+
+def test_kiln_control_is_capped_at_five_percent(solved):
+    pl, energy = solved
+    raised = build_plant(pl.p.with_overrides({"kiln_control.coal_saving_frac": 0.20}), 100, 0.9)
+    r = evaluate(raised, EnergyBalance(raised).calculate_balance(), kiln_control=True)
+    assert r["retrofits"]["Kiln Control"]["coal_reduction_frac"] == 0.05
+    assert r["retrofits"]["Kiln Control"]["capped"]
+    assert r["capex_inr"] == 5_000_000
+
+
+def test_producer_gas_applies_the_energy_saving_without_a_capital_cost(solved):
+    pl, energy = solved
+    r = evaluate(pl, energy, producer_gas=True)
+    pg = r["retrofits"]["Producer Gas"]
+    assert pg["coal_reduction_frac"] == 0.20
+    assert pg["capex_inr"] == 0.0
+    assert pg["reference_coal_saving_t_per_year"] == 4200
+    assert r["capex_inr"] == 0.0
+    assert any("no sourced capital cost" in w for w in r["warnings"])
+
+
+def test_biomass_and_hydrogen_capital_costs_add_up_in_the_pathway(solved):
+    pl, energy = solved
+    r = evaluate(pl, energy, biomass_frac=0.1, h2_frac=0.1)
+    bio = r["retrofits"]["Biomass Substitution"]["capex_inr"]
+    h2 = r["retrofits"]["Hydrogen Substitution"]["capex_inr"]
+    assert bio > 0 and h2 > 0
+    assert r["capex_inr"] == pytest.approx(bio + h2)

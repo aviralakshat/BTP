@@ -1,7 +1,19 @@
 __pycache__/
 *.pyc
 *.pyo
+.pytest_cache/
 project/venv/
 project/outputs/*.txt
 .DS_Store
 ~$*.docx
+
+# web console
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+.vercel/
+.env*.local
+
+# editor
+.cursor/

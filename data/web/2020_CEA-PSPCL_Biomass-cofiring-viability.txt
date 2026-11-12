@@ -1,0 +1,336 @@
+URL: https://cea.nic.in/wp-content/uploads/tprm/2022/09/Final_report_biomass_cofiring_PSPCL.pdf
+Title: Viability study on cofiring technology of agricultural waste and coal for air pollution control in India
+Published: 2020-12-29
+Retrieved: 2026-11-10 (parallel-cli)
+
+# waste and coal for air pollution control in India
+## December 2020
+### Contents
+Figure 3-5 Plan 1 (Biomass mixing system: different mills are required) ............................................... 13
+Figure 3-6 Plan 2 (Circulating Fluidized Bed boiler) .............................................................................. 14
+
+...
+
+Figure 4-1 Biomass solid fuel conversion device and grinding production ............................................. 16
+Figure 4-2 Issue to be addressed for Biomass cofiring ............................................................................ 21
+Figure 4-3 Issue to be addressed for boiler portion ................................................................................. 22
+Figure 4-4 Issue to be addressed for Biomass storage at the coal yard .................................................... 22
+
+...
+
+### Executive Summary
+cost of biomass and coal cofiring at the existing coal-fired power station. Information regarding the paddy
+straw for cofiring is also collected. As a result, the installation of biomass pelletizing technology is found
+to be the most feasible. Its generation cost is expected to roughly equal to the current generation cost of
+GHTP. Other issues to be considered were described.
+The plan of Installation of pelletizer to FTP without any modification of current facilities is estimated
+to be most feasible for cofiring at GHTP. Its conclusion is summarized in the table.
+**Plan** **Content** **Fuel cost** **(Rs / kWh)**
+**Biomass ratio**
+**(cal.%)**
+**Capital cost**
+**(Cr Rs)**
+**Generation cost**
+**(Rs / kWh)**
+Reference Current GHTP 250 MW 3.50 - - 5.54
+Proposal Pelletizer GHTP 250 MW 3.25 30 110 5.54
+Depreciation of pelletizer: 7 years
+The materialization of agricultural waste utilization an urgent issue in India not only protect air quality
+
+...
+
+### 1. Background
+1) Cofiring of biomass with higher blending ratios.
+2) Conversion of pulverized fuel-fired plants to 100% biomass firing or 100% biomass-based fuels in
+Japan.
+3) Generating energy from Municipal Waste.
+
+...
+
+### 5
+Pradesh. Wheat is the state's principal food crop and sugarcane is the main commercial crop.
+As per the Central Electricity Regulatory Commission (CERC) norms for Biomass based power plants,
+the station heat rate for biomass power projects shall be:
+a) For projects using travelling grate boilers: 4200 kCal/kWh
+b) For projects using AFBC boilers: 4125 kCal/ kWh
+And the calorific value of the biomass fuel used for the purpose of determination of tariff shall be at 3100
+kCal/kg. For the purpose of this report, the worst case i.e., heat rate of 4200 kcal/kWh and GCV of 3100
+kcal/kg has been considered. Considering the above, the specific fuel consumption of a biomass plant
+comes to 1.35 kg/kWh. According to these assumptions, potential capacity from agricultural waste
+utilization is shown in Table 2-4. Punjab State was found to be most suitable for further study from the
+Area Yield Production generation
+ha kg/ha tonne/y tonne/y
+sugarcane 2,160,000 72,662 156,949,000 bagasse, leaves 55,415,800
+paddy 5,992,000 2,415 14,470,000 duck, hask 44,288,000
+wheat 9,885,000 3,538 34,971,000 stalk, sheath 36,657,000
+groundnut 576,000 24,231 13,957,000 stalk, leaves 10,461,960
+bajra 907,000 1,914 1,736,000 core, shell,stalk 4,847,100
+bearly 170,000 2,706 460,000 stalk 3,289,000
+maize 794,000 1,878 1,491,000 cob, stalk 2,932,500
+rapeseed 1,079,000 950 1,025,000 stalk 1,736,000
+arhar 338,000 1,074 363,000 husk, stalk 467,600
+urad 595,000 539 321,000 shell, stalk 396,500
+gram 562,000 1,114 626,000 stalk 187,000
+peas 384,000 1,378 529,000 stalk 149,500
+moong 44,000 409 18,000 cob, stalk 56,250
+cotton 6,000 333 2,000 fruit, stalk 33,200
+onion 23,000 13,913 320,000 stalk 15,250
+total 23,515,000 227,238,000 160,932,660
+current utilization (%) 78
+potential waste to be utilized（tonne/y） 35,405,185
+Crop
+Products Agricultural Waste
+residue
+Viability study on co-firing technology of agricultural waste and coal for air pollution control in India Dec. 2020
+
+### 6
+viewpoint of biomass potential.
+**Table 2-4 Biomass Waste and Potential Capacity**
+State
+Biomass Waste Potential
+(tonne/y)
+Potential Capacity
+(MW)
+Punjab 39,895,965 3,373
+Haryana 30,968.046 1,746
+Uttar Pradesh 35,405,185 2,957
+
+### 2.2. Analysis of Rice Husk Sample
+Rice husk was obtained from the rice husk accumulation site in Haryana for biomass sample analysis.
+Moisture, ash, volatile matter, fixed carbon of rice husk sample was measured by thermogravimetric
+
+...
+
+### 2.3. Potential Cofiring Technology
+There are several coal-fired power plants in japan which were specially designed for high biomass
+mixing ratio. Biomass/coal separate fuel supply system combined with cofiring in the boiler allows a high
+blend ratio of 30 % calorie base (Figure 2-2). This system is commercially available in Japan.
+**Figure 2-2 Biomass/coal separate fuel supply system**
+Source: MHPS technical report (2017)
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+-100.0
+-80.0
+-60.0
+-40.0
+-20.0
+0.0
+0 200 400 600 800 1000
+dtg/dt
+weight loss (wt.%)
+Temperature (deg.C)
+① ② ③
+Coal Coal
+Coal mill Coal mill Biomass mill
+Biomass Biomass
+Coal
+Coal
+Biomass
+Biomass
+Boiler
+Biomass co-firing boiler Separate fuel handling system and burners
+
+...
+
+### 3. Site Survey of the Target Plants in PSPCL
+follow-up survey in FY2019, the applicability of commercialized biomass cofiring technology in Punjab.
+**Figure 3-1 Coal-fired power plants in Punjab state**
+3.1. Justification
+1) Basic policy on biomass cofiring in PSPCL
+
+...
+
+### 9
+There is another operating power plant (GHTP: Guru Hargobind Thermal Plant: 2×210MW+2×250
+MW) owned by PSPCL, and it is possible to carry out biomass cofiring at this power plant. PSPCL and
+officials of two power plants (GNDTP/GHTP) have promised full cooperation for this study.
+2) Information on agricultural waste in Punjab (type, quantity, collection, transportation, etc.)
+Type : Available agricultural waste is mostly paddy straw, and a little wheat and other.
+Volume : Equivalent to 2,200MW per year (16.5 million tons/y of agricultural residue) throughout the
+state. 60MW/y (450,000 tons/y of paddy straw) equivalent around the target power plant
+Collection/Transportation: Biomass will be purchased from the local companies that collect and sell
+biomass.
+
+...
+
+### 3.2. Site Survey at GNDTP
+Coal storage: Eastern coal transported by freight wagons is received by a dispenser, stored in a coal
+storage yard by bulldozers and transported to a boiler on a conveyor. The maximum amount of
+coal received is 7,400 Ton / day for four units.
+Mills : 4 horizontal ball mills for 1 boiler, 3 in service (1 spare). The pulverized coal is sent to burners
+by four pulverized coal pipes from each mill and burned in a furnace.
+
+...
+
+### 3.3. Site Survey at GHTP
+✓ Coal firing system: 4 vertical bowl mills /1 boiler, 3 regular use (1spare). The pulverized coal is
+sent to the burners through four pulverized fuel pipes from each mill and burned in the furnace.
+✓ Condenser cooling: Cooling towers are located beside the reservoir.
+✓ Coal handling and storage system: Bituminous coal transported by freight car from the Gondwana
+
+...
+
+### 11
+Rated steam flow T/h 627.3 (TMCR) /unit 741 (TMCR) /unit
+Steam. Press. x Temp. Kg/cm ² x℃ 155x540 155x540
+Design Heat Rate Kcal/kWh 2272 2241
+Heating Value of Coal (GCV) Kcal/kg 3982 3982
+Present Coal Price Rs/Ton 5233 5233
+Present Generation Cost Rs/kWh
+5.9*
+
+...
+
+### 12
+handled as the bale shown in Figure 3-4. Information obtained in the interview with the biomass suppliers
+is shown in Annexure.
+**Figure 3-4 Handling process of Paddy straw**
+3.4. Proposed cofiring technologies
+Proposed cofiring plans are listed in Table 3-3. Ref-1 and Ref-2 are a current condition and PSPCL's
+Plan of biomass firing, respectively. Plan-1 to Plan-4 are the proposed technologies and their capital
+
+...
+
+center
+Transportation Bale storage (Collection center) Transportation Storage yard Processing (Curl chip) Cofiring
+
+...
+
+### 13
+**Table 3-3 Plans of cofiring to be considered**
+Plan-1: Modification of a boiler, the addition of biomass mill, and pelletizing facility for high mixing ratio.
+The same process is SOMA Energy park Coal-fired boiler supplied by MHPS, Japan (112MW
+with 30% biomass) shown in Figure 3-5.
+**Figure 3-5 Plan 1 (Biomass mixing system: different mills are required)**
+Source: https://power.mhi.com/news/20180821.html
+Plan-2: Replacing existing PC boiler to CFB boiler. The same process is HOFU biomass co-firing CFB
+
+...
+
+### 4. Proposed Cofiring Technologies and Its Cost Estimation
+4.1. Proposed method and technology for biomass cofiring at GHTP
+(1) Mixing plan by introduction of biomass solid fuel conversion device
+Biomass rice crops have "rice husks" in the spikes and “paddy straw" in the leaf stems. By introduction
+of grind mills, we have established the biomass solid fuel conversion. The grind mill can process the bale
+into molded product or powder as shown in Figure 4-1.
+**Figure 4-1 Biomass solid fuel conversion device and grinding production**
+The grind mill is a device that grinds rice husks and paddy straws through compression molding and
+
+...
+
+main parts of the grind mill are given a special surface treatment to greatly improve wear resistance.
+(2) Selection of suitable molding process
+
+...
+
+and the grind mill developed by TROMSO CO.,LTD. is prospective machine for producing the pellet,
+such as briquette or curl chip for cofiring fuel of coal fired boiler.
+Estimated production cost of Briquette and Curl chip can be calculated by using the following
+calculation basis obtained through hearing during the survey.
+✓ Paddy straw procurement cost: Rs 1,500 / t
+✓ Rice husk Procurement cost: Rs 5,000 / t
+✓ Electricity charges: Rs 5.9 / kWh
+Viability study on co-firing technology of agricultural waste and coal for air pollution control in India Dec. 2020
+
+...
+
+### 18
+**Table 4-3 Estimated Curl chip production cost (2/2): Total production cost**
+**(paddy straw: rice husks = 50:50)**
+3) Suitable molding process
+The manufacturing cost of 1 kg is 8.2 Rs/kg for briquettes and 6.2 Rs/kg for curl chips, therefore, most
+
+...
+
+to increase the cofiring ratio of cheap "Paddy straw", which is abundantly harvested in Punjab.
+**Table 4-4 Comparison of unit cost per calorific value by fuel**
+**(paddy straw: rice husks = 50:50)**
+
+...
+
+### 19
+✓ Production costs can be reduced by expanding production scale
+✓ By making the crushed size of paddy straw smaller than the current size (13 mm), we can maximize
+the mixing ratio of paddy straw, which is cheaper than rice husks, up to 100%, therefore, operation
+cost will be reduced.
+
+...
+
+### 20
+which enhances the effect of biomass cofiring. To reduce the crushing size of paddy straw, we focus on
+improving capabilities including the selection of crushers so that the minimum cutting size can be reduced
+to the size of rice husks.
+4.2. Result of Viability study on cofiring of agriculture waste
+Based on our field survey and interview, we have reviewed the Proposed Remodeling Plans and
+obtained their generation costs and required tasks for each plan as shown in Table 4-9. Its cofiring ratio is
+30 cal.% biomass. Power generation costs of existing units 5.9 Rs/kWh were informed from GHTP as
+current operating performance.
+**Table 4-9 Generation cost and required task for GHTP Cofiring after review**
+(Plan-7: Curl chip made from 100% paddy straw)
+
+...
+
+### 21
+Plan-7 Pelletization using Curl chip is much profitable compared with other plans and comparable with
+the present plant operation.
+4.3. Issues to be addressed for cofiring at existing coal fired PC boiler
+(1) Issues in supplying biomass solid fuel with 100% paddy straw
+
+...
+
+pretreatment of fine cutting (approximately 2-3 mm).
+✓ Biomass supply: Understanding the upper limit from the surrounding supply.
+✓ Scale-up of rice straw solidification equipment
+(2) Issue to be addressed for Biomass cofiring
+We have also studied the associated issue to be addressed for cofiring of agricultural waste for GHTP.
+Figure 4-2 shows the Issue to be addressed for Biomass cofiring.
+**Figure 4-2 Issue to be addressed for Biomass cofiring**
+Figure 4-3 shows the points to be studied for stable boiler operation for biomass cofiring and Figure 4-4 shows
+the area to be studied for implementation of the curl chip collection, storing and mixing with the coal for
+
+...
+
+### 22
+conveying to the boilers.
+**Figure 4-3 Issue to be addressed for boiler portion**
+- Biomass storage at the coal yard.
+✓ Secure the indoor curl chips storage space and new curl chip transfer conveyor and mixing facility
+for input to the existing coal conveyor will be installed.
+
+...
+
+✓ Study of measures against powdering and scattering on conveyors.
+**Figure 4-4 Issue to be addressed for Biomass storage at the coal yard**
+Viability study on co-firing technology of agricultural waste and coal for air pollution control in India Dec. 2020
+
+...
+
+### 5. Conclusion
+plan of Installation of pelletizer without any modification of current facilities is estimated to be most
+feasible for cofiring at GHTP. Its conclusion is summarized in Table 5-1.
+Paddy straw is a main biomass source which can be supplied from surrounding area.
+Other influence of alkaline-rich ash deposit on boiler inside such as slagging will be carefully
+considered.
+**Table 5-1 Estimation of generation cost of cofiring at GHTP**
+**Plan** **Content** **Fuel cost** **(Rs / kWh)**
+**Biomass ratio**
+**(cal.%)**
+**Capital cost**
+**(Cr Rs)**
+**Generation cost**
+**(Rs / kWh)**
+Reference Current GHTP 250 MW 3.50 - - 5.54
+Proposal Pelletizer GHTP 250 MW 3.25 30 110 5.54
+Depreciation of pelletizer: 7 years
+
+========================================================================
+
