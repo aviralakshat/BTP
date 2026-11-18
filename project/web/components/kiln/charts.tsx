@@ -130,7 +130,7 @@ export function PathwayScatter({ rows, selected }: { rows: PathwayRow[]; selecte
     <ResponsiveContainer width="100%" height={400}>
       <ScatterChart margin={{ top: 16, right: 24, bottom: 8, left: 8 }}>
         <CartesianGrid stroke={INK.grid} />
-        <XAxis type="number" dataKey="x" name="CO2 cut" {...AXIS} tickFormatter={(v) => `${v}%`} domain={[0, "dataMax"]}
+        <XAxis type="number" dataKey="x" name="CO2 cut" {...AXIS} tickFormatter={(v) => `${Math.round(v)}%`} domain={[0, "dataMax"]}
           label={{ value: "CO₂ removed", position: "insideBottomRight", offset: -2, fill: INK.muted, fontSize: 11 }} />
         <YAxis type="number" dataKey="y" name="Cost change" {...AXIS} width={64} tickFormatter={(v) => inr(v)} axisLine={false} />
         <ReferenceLine y={0} stroke={INK.base} />
